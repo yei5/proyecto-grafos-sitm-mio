@@ -1,0 +1,44 @@
+== 322-1 ==
+Nodos: 18
+Arcos: 18
+------------------------------------
+
+=== Lista de Nodos ===
+512121 - A2BNC75C
+512187 - C74A2B1
+512033 - A2ANC71N
+512089 - C75A2B
+512122 - C74A2B2
+512064 - C74NA2BN
+512120 - A2CNC74
+512032 - A2AN72BN
+512091 - A2NC75C
+512092 - A2NC75IN
+512090 - A2NC75AN
+512062 - C73A2BN
+512063 - A2BBSN
+512093 - A2CNC75C
+512061 - C73A3N
+500108 - TMENGA9
+500110 - TMENGA11
+512029 - C75CNA2A
+
+=== Lista de Arcos ===
+500110 -> 512061  (Ruta: A22 - Vuelta)
+512061 -> 512062  (Ruta: A22 - Vuelta)
+512062 -> 512063  (Ruta: A22 - Vuelta)
+512063 -> 512064  (Ruta: A22 - Vuelta)
+512064 -> 512120  (Ruta: A22 - Vuelta)
+512120 -> 512121  (Ruta: A22 - Vuelta)
+512121 -> 512089  (Ruta: A22 - Vuelta)
+512089 -> 512090  (Ruta: A22 - Vuelta)
+512090 -> 512091  (Ruta: A22 - Vuelta)
+512091 -> 512092  (Ruta: A22 - Vuelta)
+512092 -> 512029  (Ruta: A22 - Vuelta)
+512029 -> 512093  (Ruta: A22 - Vuelta)
+512093 -> 512122  (Ruta: A22 - Vuelta)
+512122 -> 512187  (Ruta: A22 - Vuelta)
+512187 -> 512032  (Ruta: A22 - Vuelta)
+512032 -> 512033  (Ruta: A22 - Vuelta)
+512033 -> 500108  (Ruta: A22 - Vuelta)
+500108 -> 500110  (Ruta: A22 - Vuelta)

@@ -1,0 +1,103 @@
+== 357-1 ==
+Nodos: 38
+Arcos: 57
+------------------------------------
+
+=== Lista de Nodos ===
+514432 - K28DC79
+514278 - C79K28D
+514079 - K28C79
+514376 - C72YK27A
+514078 - K28C88
+514495 - T103K28
+514039 - C121K27F
+514490 - K28DC114
+514171 - K27C1201
+514494 - K28C108
+514076 - C73K27B
+514493 - C112K27F
+514075 - K28C101
+514251 - K28C94
+514492 - C112K27D
+514074 - C102K27C
+514491 - K28DC120
+518196 - R-CALP1
+514548 - C123K122
+514207 - C121C121
+514547 - C123K282
+514206 - C121122A
+514404 - T103K27B
+514484 - K28C104
+618196 - R-CALP1
+514326 - C123K281
+514546 - C125AK28
+514249 - K28FC12K
+514545 - C126K28F
+514489 - K28DC112
+514544 - K28EC124
+514246 - C123K28D
+514543 - K28C123A
+614432 - K28DC79
+514483 - K28FC122
+514482 - K28DC123
+514481 - K28DC121
+514419 - K28E2C12
+
+=== Lista de Arcos ===
+514484 -> 514484  (Ruta: A57 - Vuelta)
+514484 -> 514432  (Ruta: A57 - Vuelta)
+514432 -> 514489  (Ruta: A57 - Vuelta)
+514489 -> 514489  (Ruta: A57 - Vuelta)
+514489 -> 614432  (Ruta: A57 - Vuelta)
+614432 -> 514490  (Ruta: A57 - Vuelta)
+514490 -> 514490  (Ruta: A57 - Vuelta)
+514490 -> 618196  (Ruta: A57 - Vuelta)
+618196 -> 514491  (Ruta: A57 - Vuelta)
+514491 -> 514491  (Ruta: A57 - Vuelta)
+514491 -> 518196  (Ruta: A57 - Vuelta)
+518196 -> 514481  (Ruta: A57 - Vuelta)
+514481 -> 514481  (Ruta: A57 - Vuelta)
+514481 -> 514482  (Ruta: A57 - Vuelta)
+514482 -> 514482  (Ruta: A57 - Vuelta)
+514482 -> 514246  (Ruta: A57 - Vuelta)
+514246 -> 514246  (Ruta: A57 - Vuelta)
+514246 -> 514326  (Ruta: A57 - Vuelta)
+514326 -> 514326  (Ruta: A57 - Vuelta)
+514326 -> 514543  (Ruta: A57 - Vuelta)
+514543 -> 514543  (Ruta: A57 - Vuelta)
+514543 -> 514544  (Ruta: A57 - Vuelta)
+514544 -> 514544  (Ruta: A57 - Vuelta)
+514544 -> 514545  (Ruta: A57 - Vuelta)
+514545 -> 514545  (Ruta: A57 - Vuelta)
+514545 -> 514546  (Ruta: A57 - Vuelta)
+514546 -> 514546  (Ruta: A57 - Vuelta)
+514546 -> 514419  (Ruta: A57 - Vuelta)
+514419 -> 514419  (Ruta: A57 - Vuelta)
+514419 -> 514547  (Ruta: A57 - Vuelta)
+514547 -> 514547  (Ruta: A57 - Vuelta)
+514547 -> 514548  (Ruta: A57 - Vuelta)
+514548 -> 514548  (Ruta: A57 - Vuelta)
+514548 -> 514249  (Ruta: A57 - Vuelta)
+514249 -> 514249  (Ruta: A57 - Vuelta)
+514249 -> 514483  (Ruta: A57 - Vuelta)
+514483 -> 514483  (Ruta: A57 - Vuelta)
+514483 -> 514206  (Ruta: A57 - Vuelta)
+514206 -> 514206  (Ruta: A57 - Vuelta)
+514206 -> 514207  (Ruta: A57 - Vuelta)
+514207 -> 514207  (Ruta: A57 - Vuelta)
+514207 -> 514039  (Ruta: A57 - Vuelta)
+514039 -> 514171  (Ruta: A57 - Vuelta)
+514171 -> 514492  (Ruta: A57 - Vuelta)
+514492 -> 514493  (Ruta: A57 - Vuelta)
+514493 -> 514494  (Ruta: A57 - Vuelta)
+514494 -> 514495  (Ruta: A57 - Vuelta)
+514495 -> 514404  (Ruta: A57 - Vuelta)
+514404 -> 514074  (Ruta: A57 - Vuelta)
+514074 -> 514075  (Ruta: A57 - Vuelta)
+514075 -> 514251  (Ruta: A57 - Vuelta)
+514251 -> 514078  (Ruta: A57 - Vuelta)
+514078 -> 514079  (Ruta: A57 - Vuelta)
+514079 -> 514076  (Ruta: A57 - Vuelta)
+514076 -> 514376  (Ruta: A57 - Vuelta)
+514376 -> 514278  (Ruta: A57 - Vuelta)
+514278 -> 514432  (Ruta: A57 - Vuelta)

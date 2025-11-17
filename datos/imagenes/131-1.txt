@@ -1,0 +1,119 @@
+== 131-1 ==
+Nodos: 28
+Arcos: 83
+------------------------------------
+
+=== Lista de Nodos ===
+500602 - TORRE3
+500500 - RIOC1
+504009 - PCOMERA2
+501002 - SANBO3
+500450 - FATI1
+500350 - POPU1
+500250 - FLORAI1
+500950 - FRAY1
+500850 - CENTRO1
+500750 - ERMI1
+502050 - CALDAS1
+502150 - MELEN1
+502250 - UNIVAL1
+501602 - SNTLIB3
+501800 - LIDO1
+501900 - PLATOR1
+501702 - ESTAD3
+502102 - CAPRI3
+501750 - TEQUE1
+502300 - UNIV1
+501652 - MANZA3
+501950 - PAMPA1
+501852 - UDP3
+500400 - MZAN1
+500300 - SALOM1
+502000 - REFUG1
+500200 - CHIMI3
+502200 - BUITRE1
+
+=== Lista de Arcos ===
+504009 -> 501852  (Ruta: T31 - Vuelta)
+501852 -> 500602  (Ruta: T31 - Vuelta)
+500602 -> 500250  (Ruta: T31 - Vuelta)
+500250 -> 500200  (Ruta: T31 - Vuelta)
+500200 -> 501900  (Ruta: T31 - Vuelta)
+501900 -> 500750  (Ruta: T31 - Vuelta)
+500750 -> 500300  (Ruta: T31 - Vuelta)
+500300 -> 500250  (Ruta: T31 - Vuelta)
+500250 -> 501950  (Ruta: T31 - Vuelta)
+501950 -> 500850  (Ruta: T31 - Vuelta)
+500850 -> 500350  (Ruta: T31 - Vuelta)
+500350 -> 500300  (Ruta: T31 - Vuelta)
+500300 -> 502000  (Ruta: T31 - Vuelta)
+502000 -> 500950  (Ruta: T31 - Vuelta)
+500950 -> 500400  (Ruta: T31 - Vuelta)
+500400 -> 500350  (Ruta: T31 - Vuelta)
+500350 -> 502050  (Ruta: T31 - Vuelta)
+502050 -> 501002  (Ruta: T31 - Vuelta)
+501002 -> 500450  (Ruta: T31 - Vuelta)
+500450 -> 500400  (Ruta: T31 - Vuelta)
+500400 -> 502102  (Ruta: T31 - Vuelta)
+502102 -> 501602  (Ruta: T31 - Vuelta)
+501602 -> 500500  (Ruta: T31 - Vuelta)
+500500 -> 500450  (Ruta: T31 - Vuelta)
+500450 -> 502150  (Ruta: T31 - Vuelta)
+502150 -> 501652  (Ruta: T31 - Vuelta)
+501652 -> 500602  (Ruta: T31 - Vuelta)
+500602 -> 500500  (Ruta: T31 - Vuelta)
+500500 -> 502200  (Ruta: T31 - Vuelta)
+502200 -> 501702  (Ruta: T31 - Vuelta)
+501702 -> 500750  (Ruta: T31 - Vuelta)
+500750 -> 500602  (Ruta: T31 - Vuelta)
+500602 -> 502250  (Ruta: T31 - Vuelta)
+502250 -> 501750  (Ruta: T31 - Vuelta)
+501750 -> 500850  (Ruta: T31 - Vuelta)
+500850 -> 500750  (Ruta: T31 - Vuelta)
+500750 -> 502300  (Ruta: T31 - Vuelta)
+502300 -> 501800  (Ruta: T31 - Vuelta)
+501800 -> 500950  (Ruta: T31 - Vuelta)
+500950 -> 500850  (Ruta: T31 - Vuelta)
+500850 -> 501852  (Ruta: T31 - Vuelta)
+501852 -> 501002  (Ruta: T31 - Vuelta)
+501002 -> 500950  (Ruta: T31 - Vuelta)
+500950 -> 501900  (Ruta: T31 - Vuelta)
+501900 -> 501602  (Ruta: T31 - Vuelta)
+501602 -> 501002  (Ruta: T31 - Vuelta)
+501002 -> 501950  (Ruta: T31 - Vuelta)
+501950 -> 501652  (Ruta: T31 - Vuelta)
+501652 -> 501602  (Ruta: T31 - Vuelta)
+501602 -> 502000  (Ruta: T31 - Vuelta)
+502000 -> 501702  (Ruta: T31 - Vuelta)
+501702 -> 501652  (Ruta: T31 - Vuelta)
+501652 -> 502050  (Ruta: T31 - Vuelta)
+502050 -> 501750  (Ruta: T31 - Vuelta)
+501750 -> 501702  (Ruta: T31 - Vuelta)
+501702 -> 502102  (Ruta: T31 - Vuelta)
+502102 -> 501800  (Ruta: T31 - Vuelta)
+501800 -> 501750  (Ruta: T31 - Vuelta)
+501750 -> 502150  (Ruta: T31 - Vuelta)
+502150 -> 501852  (Ruta: T31 - Vuelta)
+501852 -> 501800  (Ruta: T31 - Vuelta)
+501800 -> 502200  (Ruta: T31 - Vuelta)
+502200 -> 501900  (Ruta: T31 - Vuelta)
+501900 -> 501852  (Ruta: T31 - Vuelta)
+501852 -> 502250  (Ruta: T31 - Vuelta)
+502250 -> 501950  (Ruta: T31 - Vuelta)
+501950 -> 501900  (Ruta: T31 - Vuelta)
+501900 -> 502300  (Ruta: T31 - Vuelta)
+502300 -> 502000  (Ruta: T31 - Vuelta)
+502000 -> 501950  (Ruta: T31 - Vuelta)
+501950 -> 502050  (Ruta: T31 - Vuelta)
+502050 -> 502000  (Ruta: T31 - Vuelta)
+502000 -> 502102  (Ruta: T31 - Vuelta)
+502102 -> 502050  (Ruta: T31 - Vuelta)
+502050 -> 502150  (Ruta: T31 - Vuelta)
+502150 -> 502102  (Ruta: T31 - Vuelta)
+502102 -> 502200  (Ruta: T31 - Vuelta)
+502200 -> 502150  (Ruta: T31 - Vuelta)
+502150 -> 502250  (Ruta: T31 - Vuelta)
+502250 -> 502200  (Ruta: T31 - Vuelta)
+502200 -> 502300  (Ruta: T31 - Vuelta)
+502300 -> 502250  (Ruta: T31 - Vuelta)
+502250 -> 502300  (Ruta: T31 - Vuelta)

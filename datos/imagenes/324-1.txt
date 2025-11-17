@@ -1,0 +1,33 @@
+== 324-1 ==
+Nodos: 13
+Arcos: 12
+------------------------------------
+
+=== Lista de Nodos ===
+512165 - C38NA3
+512176 - A9NC56N
+512166 - C38NA3G
+512155 - A9NC56
+512174 - A7NC53AN
+512175 - C53ANA7B
+512169 - C47NA4
+512167 - A4NC40
+512168 - A4NC45N
+512172 - C47NA7N
+512173 - A8NC50N
+512170 - C47NA5A
+512171 - C47NA6AN
+
+=== Lista de Arcos ===
+512165 -> 512166  (Ruta: A24 - Vuelta)
+512166 -> 512167  (Ruta: A24 - Vuelta)
+512167 -> 512168  (Ruta: A24 - Vuelta)
+512168 -> 512169  (Ruta: A24 - Vuelta)
+512169 -> 512170  (Ruta: A24 - Vuelta)
+512170 -> 512171  (Ruta: A24 - Vuelta)
+512171 -> 512172  (Ruta: A24 - Vuelta)
+512172 -> 512173  (Ruta: A24 - Vuelta)
+512173 -> 512174  (Ruta: A24 - Vuelta)
+512174 -> 512175  (Ruta: A24 - Vuelta)
+512175 -> 512176  (Ruta: A24 - Vuelta)
+512176 -> 512155  (Ruta: A24 - Vuelta)

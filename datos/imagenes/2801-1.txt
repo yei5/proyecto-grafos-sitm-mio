@@ -1,0 +1,67 @@
+== 2801-1 ==
+Nodos: 22
+Arcos: 37
+------------------------------------
+
+=== Lista de Nodos ===
+519119 - K10C10
+515204 - CALSOC2
+519205 - C15K18A
+518126 - C44K31
+519159 - K29C272
+519157 - K29C25
+519155 - K25C19A
+518036 - C27K31A1
+518179 - K29C32
+518069 - K32C34
+519156 - C23K25B
+518178 - K29C29
+519153 - C15K23
+519154 - K25C18B
+518073 - K32C30
+519283 - C15K16
+518131 - T29C44
+519120 - K10C12
+519281 - C9K14A
+518180 - C32K29B
+519050 - C9K12
+518071 - K32C32
+
+=== Lista de Arcos ===
+519281 -> 519281  (Ruta: P80A - Vuelta)
+519281 -> 519050  (Ruta: P80A - Vuelta)
+519050 -> 519050  (Ruta: P80A - Vuelta)
+519050 -> 519119  (Ruta: P80A - Vuelta)
+519119 -> 519119  (Ruta: P80A - Vuelta)
+519119 -> 519120  (Ruta: P80A - Vuelta)
+519120 -> 519120  (Ruta: P80A - Vuelta)
+519120 -> 519283  (Ruta: P80A - Vuelta)
+519283 -> 519283  (Ruta: P80A - Vuelta)
+519283 -> 519205  (Ruta: P80A - Vuelta)
+519205 -> 519205  (Ruta: P80A - Vuelta)
+519205 -> 519153  (Ruta: P80A - Vuelta)
+519153 -> 519153  (Ruta: P80A - Vuelta)
+519153 -> 519154  (Ruta: P80A - Vuelta)
+519154 -> 519154  (Ruta: P80A - Vuelta)
+519154 -> 519155  (Ruta: P80A - Vuelta)
+519155 -> 519155  (Ruta: P80A - Vuelta)
+519155 -> 519156  (Ruta: P80A - Vuelta)
+519156 -> 519156  (Ruta: P80A - Vuelta)
+519156 -> 519157  (Ruta: P80A - Vuelta)
+519157 -> 519157  (Ruta: P80A - Vuelta)
+519157 -> 519159  (Ruta: P80A - Vuelta)
+519159 -> 518036  (Ruta: P80A - Vuelta)
+518036 -> 518178  (Ruta: P80A - Vuelta)
+518178 -> 518073  (Ruta: P80A - Vuelta)
+518073 -> 518179  (Ruta: P80A - Vuelta)
+518179 -> 518071  (Ruta: P80A - Vuelta)
+518071 -> 518180  (Ruta: P80A - Vuelta)
+518180 -> 518069  (Ruta: P80A - Vuelta)
+518069 -> 518071  (Ruta: P80A - Vuelta)
+518071 -> 518126  (Ruta: P80A - Vuelta)
+518126 -> 518069  (Ruta: P80A - Vuelta)
+518069 -> 518131  (Ruta: P80A - Vuelta)
+518131 -> 518126  (Ruta: P80A - Vuelta)
+518126 -> 515204  (Ruta: P80A - Vuelta)
+515204 -> 518131  (Ruta: P80A - Vuelta)
+518131 -> 515204  (Ruta: P80A - Vuelta)

@@ -1,0 +1,35 @@
+== 3172-1 ==
+Nodos: 14
+Arcos: 13
+------------------------------------
+
+=== Lista de Nodos ===
+511131 - MARAÑON
+511110 - HORMI2
+511121 - V_HORMI9
+511251 - C25K1051
+511020 - C25UAUT
+511383 - V_HORM10
+511113 - COL_FRAY
+511114 - CASCAJAL
+511111 - HORMI1
+511112 - VIA_PUER
+502313 - UNIVCOM8
+511117 - V_HORMI5
+511118 - V_HORMI6
+511116 - V_HORMI4
+
+=== Lista de Arcos ===
+502313 -> 511251  (Ruta: A17B - Vuelta)
+511251 -> 511020  (Ruta: A17B - Vuelta)
+511020 -> 511111  (Ruta: A17B - Vuelta)
+511111 -> 511110  (Ruta: A17B - Vuelta)
+511110 -> 511131  (Ruta: A17B - Vuelta)
+511131 -> 511112  (Ruta: A17B - Vuelta)
+511112 -> 511113  (Ruta: A17B - Vuelta)
+511113 -> 511114  (Ruta: A17B - Vuelta)
+511114 -> 511121  (Ruta: A17B - Vuelta)
+511121 -> 511116  (Ruta: A17B - Vuelta)
+511116 -> 511117  (Ruta: A17B - Vuelta)
+511117 -> 511383  (Ruta: A17B - Vuelta)
+511383 -> 511118  (Ruta: A17B - Vuelta)

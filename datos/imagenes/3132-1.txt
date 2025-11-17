@@ -1,0 +1,60 @@
+== 3132-1 ==
+Nodos: 21
+Arcos: 31
+------------------------------------
+
+=== Lista de Nodos ===
+511472 - K85C54
+511473 - K85C55
+511470 - C53K83C
+511492 - C55K85C
+511272 - C42K81
+511471 - C54K85C
+511273 - C42K81Y4
+511476 - C53K83E
+511465 - K83CC48B
+511267 - C48K86
+511268 - C48K83E
+511474 - C54K85D
+511475 - C54K84
+511464 - K83CC50
+511270 - C48K80
+511271 - K80C45
+511019 - C42K84
+511467 - K83CC501
+511269 - C48K83A
+511324 - C42K85C
+511478 - K86C45Y8
+
+=== Lista de Arcos ===
+511467 -> 511467  (Ruta: A13B - Vuelta)
+511467 -> 511470  (Ruta: A13B - Vuelta)
+511470 -> 511470  (Ruta: A13B - Vuelta)
+511470 -> 511471  (Ruta: A13B - Vuelta)
+511471 -> 511471  (Ruta: A13B - Vuelta)
+511471 -> 511472  (Ruta: A13B - Vuelta)
+511472 -> 511472  (Ruta: A13B - Vuelta)
+511472 -> 511492  (Ruta: A13B - Vuelta)
+511492 -> 511492  (Ruta: A13B - Vuelta)
+511492 -> 511473  (Ruta: A13B - Vuelta)
+511473 -> 511473  (Ruta: A13B - Vuelta)
+511473 -> 511474  (Ruta: A13B - Vuelta)
+511474 -> 511474  (Ruta: A13B - Vuelta)
+511474 -> 511475  (Ruta: A13B - Vuelta)
+511475 -> 511475  (Ruta: A13B - Vuelta)
+511475 -> 511476  (Ruta: A13B - Vuelta)
+511476 -> 511476  (Ruta: A13B - Vuelta)
+511476 -> 511464  (Ruta: A13B - Vuelta)
+511464 -> 511464  (Ruta: A13B - Vuelta)
+511464 -> 511465  (Ruta: A13B - Vuelta)
+511465 -> 511269  (Ruta: A13B - Vuelta)
+511269 -> 511270  (Ruta: A13B - Vuelta)
+511270 -> 511271  (Ruta: A13B - Vuelta)
+511271 -> 511272  (Ruta: A13B - Vuelta)
+511272 -> 511273  (Ruta: A13B - Vuelta)
+511273 -> 511019  (Ruta: A13B - Vuelta)
+511019 -> 511324  (Ruta: A13B - Vuelta)
+511324 -> 511478  (Ruta: A13B - Vuelta)
+511478 -> 511267  (Ruta: A13B - Vuelta)
+511267 -> 511268  (Ruta: A13B - Vuelta)
+511268 -> 511467  (Ruta: A13B - Vuelta)

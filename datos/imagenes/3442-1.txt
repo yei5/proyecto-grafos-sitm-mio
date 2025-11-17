@@ -1,0 +1,71 @@
+== 3442-1 ==
+Nodos: 25
+Arcos: 38
+------------------------------------
+
+=== Lista de Nodos ===
+514353 - C74K24C2
+514359 - K26C91
+514358 - K26CC94
+514533 - C97K26D
+514072 - T103D261
+514071 - T103D26P
+514070 - T103D26I
+514092 - T103C74
+514091 - T103C772
+514090 - T103C78B
+600162 - A.SANI14
+514427 - T103D26O
+600166 - A.SANIN9
+514088 - T103C84
+514369 - C73K25U
+514368 - C73K26B2
+514065 - D26FC73
+514086 - T103D264
+514163 - C97K26F1
+514361 - C84K26D1
+514162 - C95K26H
+514360 - C84K26DT
+514161 - C95K26I7
+500162 - A.SANI14
+500166 - A.SANIN9
+
+=== Lista de Arcos ===
+514070 -> 500166  (Ruta: A44B - Vuelta)
+500166 -> 514070  (Ruta: A44B - Vuelta)
+514070 -> 514427  (Ruta: A44B - Vuelta)
+514427 -> 600166  (Ruta: A44B - Vuelta)
+600166 -> 514427  (Ruta: A44B - Vuelta)
+514427 -> 514071  (Ruta: A44B - Vuelta)
+514071 -> 600162  (Ruta: A44B - Vuelta)
+600162 -> 514071  (Ruta: A44B - Vuelta)
+514071 -> 514072  (Ruta: A44B - Vuelta)
+514072 -> 500162  (Ruta: A44B - Vuelta)
+500162 -> 514072  (Ruta: A44B - Vuelta)
+514072 -> 514086  (Ruta: A44B - Vuelta)
+514086 -> 514086  (Ruta: A44B - Vuelta)
+514086 -> 514161  (Ruta: A44B - Vuelta)
+514161 -> 514161  (Ruta: A44B - Vuelta)
+514161 -> 514162  (Ruta: A44B - Vuelta)
+514162 -> 514162  (Ruta: A44B - Vuelta)
+514162 -> 514163  (Ruta: A44B - Vuelta)
+514163 -> 514163  (Ruta: A44B - Vuelta)
+514163 -> 514533  (Ruta: A44B - Vuelta)
+514533 -> 514533  (Ruta: A44B - Vuelta)
+514533 -> 514358  (Ruta: A44B - Vuelta)
+514358 -> 514358  (Ruta: A44B - Vuelta)
+514358 -> 514359  (Ruta: A44B - Vuelta)
+514359 -> 514359  (Ruta: A44B - Vuelta)
+514359 -> 514360  (Ruta: A44B - Vuelta)
+514360 -> 514360  (Ruta: A44B - Vuelta)
+514360 -> 514361  (Ruta: A44B - Vuelta)
+514361 -> 514361  (Ruta: A44B - Vuelta)
+514361 -> 514088  (Ruta: A44B - Vuelta)
+514088 -> 514090  (Ruta: A44B - Vuelta)
+514090 -> 514091  (Ruta: A44B - Vuelta)
+514091 -> 514092  (Ruta: A44B - Vuelta)
+514092 -> 514353  (Ruta: A44B - Vuelta)
+514353 -> 514065  (Ruta: A44B - Vuelta)
+514065 -> 514368  (Ruta: A44B - Vuelta)
+514368 -> 514369  (Ruta: A44B - Vuelta)
+514369 -> 500166  (Ruta: A44B - Vuelta)

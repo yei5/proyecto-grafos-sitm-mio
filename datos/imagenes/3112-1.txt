@@ -1,0 +1,35 @@
+== 3112-1 ==
+Nodos: 13
+Arcos: 14
+------------------------------------
+
+=== Lista de Nodos ===
+511253 - K111C25
+511297 - K109C22
+511264 - C18K108
+511251 - C25K1051
+511265 - C16K103
+511266 - K109C24
+502315 - UNIVCO10
+502310 - UNIVCOM5
+511016 - C25K101
+511258 - K111C24
+511302 - C19K109
+602310 - UNIVCOM5
+602315 - UNIVCO10
+
+=== Lista de Arcos ===
+502315 -> 502310  (Ruta: A11B - Vuelta)
+502310 -> 511016  (Ruta: A11B - Vuelta)
+511016 -> 602310  (Ruta: A11B - Vuelta)
+602310 -> 511251  (Ruta: A11B - Vuelta)
+511251 -> 602315  (Ruta: A11B - Vuelta)
+602315 -> 511253  (Ruta: A11B - Vuelta)
+511253 -> 502315  (Ruta: A11B - Vuelta)
+502315 -> 511258  (Ruta: A11B - Vuelta)
+511258 -> 511266  (Ruta: A11B - Vuelta)
+511266 -> 511297  (Ruta: A11B - Vuelta)
+511297 -> 511302  (Ruta: A11B - Vuelta)
+511302 -> 511264  (Ruta: A11B - Vuelta)
+511264 -> 511265  (Ruta: A11B - Vuelta)
+511265 -> 502310  (Ruta: A11B - Vuelta)

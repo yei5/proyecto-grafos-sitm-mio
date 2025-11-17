@@ -1,0 +1,115 @@
+== 271-1 ==
+Nodos: 43
+Arcos: 64
+------------------------------------
+
+=== Lista de Nodos ===
+511484 - C48K98A
+511223 - C42K99
+511421 - K85CC18
+516233 - K56C7A
+511323 - C42K92
+511422 - C16K85B
+511100 - K99C45
+511321 - C42K952
+511420 - K85CC33
+501855 - UDP6
+516250 - C16K68
+511315 - K56C11A
+511313 - K56C13
+601851 - UDP2
+511319 - C42K97A
+500050 - T.C-A1
+511419 - K86C35
+511416 - C48K94
+511417 - C48K96
+511098 - C42K85E
+601855 - UDP6
+511230 - C48K90
+511099 - C42K83E
+516128 - K56C16
+511311 - K56C13F
+516146 - C16K66
+517212 - K56C9C
+511090 - C42K81A
+501901 - PLATOR2
+517178 - K56C6A
+511490 - C48K83-2
+511491 - C48K85-2
+516184 - C16K69
+501851 - UDP2
+600050 - T.C-A1
+511106 - K80C48
+511469 - C48K81
+511489 - C48K83BI
+511423 - C16K83C
+511468 - C42K83C
+511408 - K99C451
+511309 - K56C13G
+511109 - C16K75A
+
+=== Lista de Arcos ===
+511098 -> 501851  (Ruta: P71 - Vuelta)
+501851 -> 501851  (Ruta: P71 - Vuelta)
+501851 -> 511098  (Ruta: P71 - Vuelta)
+511098 -> 511099  (Ruta: P71 - Vuelta)
+511099 -> 601851  (Ruta: P71 - Vuelta)
+601851 -> 601851  (Ruta: P71 - Vuelta)
+601851 -> 511099  (Ruta: P71 - Vuelta)
+511099 -> 511468  (Ruta: P71 - Vuelta)
+511468 -> 601855  (Ruta: P71 - Vuelta)
+601855 -> 600050  (Ruta: P71 - Vuelta)
+600050 -> 511468  (Ruta: P71 - Vuelta)
+511468 -> 511090  (Ruta: P71 - Vuelta)
+511090 -> 501855  (Ruta: P71 - Vuelta)
+501855 -> 500050  (Ruta: P71 - Vuelta)
+500050 -> 511090  (Ruta: P71 - Vuelta)
+511090 -> 511106  (Ruta: P71 - Vuelta)
+511106 -> 511106  (Ruta: P71 - Vuelta)
+511106 -> 511469  (Ruta: P71 - Vuelta)
+511469 -> 511469  (Ruta: P71 - Vuelta)
+511469 -> 511489  (Ruta: P71 - Vuelta)
+511489 -> 511489  (Ruta: P71 - Vuelta)
+511489 -> 511490  (Ruta: P71 - Vuelta)
+511490 -> 511490  (Ruta: P71 - Vuelta)
+511490 -> 511491  (Ruta: P71 - Vuelta)
+511491 -> 511491  (Ruta: P71 - Vuelta)
+511491 -> 511230  (Ruta: P71 - Vuelta)
+511230 -> 511230  (Ruta: P71 - Vuelta)
+511230 -> 511416  (Ruta: P71 - Vuelta)
+511416 -> 511416  (Ruta: P71 - Vuelta)
+511416 -> 511417  (Ruta: P71 - Vuelta)
+511417 -> 511417  (Ruta: P71 - Vuelta)
+511417 -> 511484  (Ruta: P71 - Vuelta)
+511484 -> 511484  (Ruta: P71 - Vuelta)
+511484 -> 511408  (Ruta: P71 - Vuelta)
+511408 -> 511408  (Ruta: P71 - Vuelta)
+511408 -> 511100  (Ruta: P71 - Vuelta)
+511100 -> 511100  (Ruta: P71 - Vuelta)
+511100 -> 511223  (Ruta: P71 - Vuelta)
+511223 -> 511223  (Ruta: P71 - Vuelta)
+511223 -> 511319  (Ruta: P71 - Vuelta)
+511319 -> 511319  (Ruta: P71 - Vuelta)
+511319 -> 511321  (Ruta: P71 - Vuelta)
+511321 -> 511321  (Ruta: P71 - Vuelta)
+511321 -> 511323  (Ruta: P71 - Vuelta)
+511323 -> 511323  (Ruta: P71 - Vuelta)
+511323 -> 511419  (Ruta: P71 - Vuelta)
+511419 -> 511420  (Ruta: P71 - Vuelta)
+511420 -> 511421  (Ruta: P71 - Vuelta)
+511421 -> 511422  (Ruta: P71 - Vuelta)
+511422 -> 511423  (Ruta: P71 - Vuelta)
+511423 -> 511109  (Ruta: P71 - Vuelta)
+511109 -> 516184  (Ruta: P71 - Vuelta)
+516184 -> 516250  (Ruta: P71 - Vuelta)
+516250 -> 516146  (Ruta: P71 - Vuelta)
+516146 -> 516128  (Ruta: P71 - Vuelta)
+516128 -> 511309  (Ruta: P71 - Vuelta)
+511309 -> 511311  (Ruta: P71 - Vuelta)
+511311 -> 511313  (Ruta: P71 - Vuelta)
+511313 -> 511315  (Ruta: P71 - Vuelta)
+511315 -> 517212  (Ruta: P71 - Vuelta)
+517212 -> 516233  (Ruta: P71 - Vuelta)
+516233 -> 517178  (Ruta: P71 - Vuelta)
+517178 -> 501901  (Ruta: P71 - Vuelta)
+501901 -> 501851  (Ruta: P71 - Vuelta)

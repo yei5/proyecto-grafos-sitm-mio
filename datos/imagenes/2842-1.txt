@@ -1,0 +1,95 @@
+== 2842-1 ==
+Nodos: 22
+Arcos: 65
+------------------------------------
+
+=== Lista de Nodos ===
+514421 - K27C96
+514069 - T103C79
+514278 - C79K28D
+514432 - K28DC79
+514068 - T103C76
+514376 - C72YK27A
+514067 - T103C56B
+514072 - T103D261
+514193 - K27C81
+514071 - T103D26P
+514192 - K27C91
+514070 - T103D26I
+502701 - TRONCAL1
+514073 - T103D263
+503007 - TCALIPB4
+503012 - TCALIPA3
+500157 - A.SANIN8
+502651 - AMANECE1
+514219 - T103K26A
+603012 - TCALIPA3
+514427 - T103D26O
+603007 - TCALIPB4
+
+=== Lista de Arcos ===
+500157 -> 503012  (Ruta: P84B - Vuelta)
+503012 -> 514071  (Ruta: P84B - Vuelta)
+514071 -> 500157  (Ruta: P84B - Vuelta)
+500157 -> 514071  (Ruta: P84B - Vuelta)
+514071 -> 514219  (Ruta: P84B - Vuelta)
+514219 -> 603012  (Ruta: P84B - Vuelta)
+603012 -> 514072  (Ruta: P84B - Vuelta)
+514072 -> 514219  (Ruta: P84B - Vuelta)
+514219 -> 514072  (Ruta: P84B - Vuelta)
+514072 -> 514067  (Ruta: P84B - Vuelta)
+514067 -> 603007  (Ruta: P84B - Vuelta)
+603007 -> 514073  (Ruta: P84B - Vuelta)
+514073 -> 514067  (Ruta: P84B - Vuelta)
+514067 -> 514073  (Ruta: P84B - Vuelta)
+514073 -> 514068  (Ruta: P84B - Vuelta)
+514068 -> 503007  (Ruta: P84B - Vuelta)
+503007 -> 514421  (Ruta: P84B - Vuelta)
+514421 -> 514068  (Ruta: P84B - Vuelta)
+514068 -> 514421  (Ruta: P84B - Vuelta)
+514421 -> 514069  (Ruta: P84B - Vuelta)
+514069 -> 514192  (Ruta: P84B - Vuelta)
+514192 -> 514069  (Ruta: P84B - Vuelta)
+514069 -> 514192  (Ruta: P84B - Vuelta)
+514192 -> 514070  (Ruta: P84B - Vuelta)
+514070 -> 514193  (Ruta: P84B - Vuelta)
+514193 -> 514070  (Ruta: P84B - Vuelta)
+514070 -> 514193  (Ruta: P84B - Vuelta)
+514193 -> 514427  (Ruta: P84B - Vuelta)
+514427 -> 514376  (Ruta: P84B - Vuelta)
+514376 -> 514427  (Ruta: P84B - Vuelta)
+514427 -> 514376  (Ruta: P84B - Vuelta)
+514376 -> 514071  (Ruta: P84B - Vuelta)
+514071 -> 514278  (Ruta: P84B - Vuelta)
+514278 -> 514071  (Ruta: P84B - Vuelta)
+514071 -> 514278  (Ruta: P84B - Vuelta)
+514278 -> 514072  (Ruta: P84B - Vuelta)
+514072 -> 514432  (Ruta: P84B - Vuelta)
+514432 -> 514072  (Ruta: P84B - Vuelta)
+514072 -> 514432  (Ruta: P84B - Vuelta)
+514432 -> 514073  (Ruta: P84B - Vuelta)
+514073 -> 502651  (Ruta: P84B - Vuelta)
+502651 -> 514073  (Ruta: P84B - Vuelta)
+514073 -> 502651  (Ruta: P84B - Vuelta)
+502651 -> 514421  (Ruta: P84B - Vuelta)
+514421 -> 502701  (Ruta: P84B - Vuelta)
+502701 -> 514421  (Ruta: P84B - Vuelta)
+514421 -> 502701  (Ruta: P84B - Vuelta)
+502701 -> 514192  (Ruta: P84B - Vuelta)
+514192 -> 503012  (Ruta: P84B - Vuelta)
+503012 -> 514192  (Ruta: P84B - Vuelta)
+514192 -> 503012  (Ruta: P84B - Vuelta)
+503012 -> 514193  (Ruta: P84B - Vuelta)
+514193 -> 514193  (Ruta: P84B - Vuelta)
+514193 -> 514376  (Ruta: P84B - Vuelta)
+514376 -> 514376  (Ruta: P84B - Vuelta)
+514376 -> 514278  (Ruta: P84B - Vuelta)
+514278 -> 514278  (Ruta: P84B - Vuelta)
+514278 -> 514432  (Ruta: P84B - Vuelta)
+514432 -> 514432  (Ruta: P84B - Vuelta)
+514432 -> 502651  (Ruta: P84B - Vuelta)
+502651 -> 502651  (Ruta: P84B - Vuelta)
+502651 -> 502701  (Ruta: P84B - Vuelta)
+502701 -> 502701  (Ruta: P84B - Vuelta)
+502701 -> 503012  (Ruta: P84B - Vuelta)
+503012 -> 503012  (Ruta: P84B - Vuelta)

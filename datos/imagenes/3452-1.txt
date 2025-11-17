@@ -1,0 +1,49 @@
+== 3452-1 ==
+Nodos: 14
+Arcos: 27
+------------------------------------
+
+=== Lista de Nodos ===
+514134 - K8C592
+514386 - C44K9
+514132 - K8C582
+514348 - C44K15
+514128 - K8C522
+514314 - K8C44B
+514347 - K8C703
+514126 - K8C492
+514346 - K8C702
+514130 - K8C562
+514460 - C63K8
+514459 - C52K14
+514349 - C44K12C
+514019 - C44K12
+
+=== Lista de Arcos ===
+514459 -> 514459  (Ruta: A45B - Vuelta)
+514459 -> 514348  (Ruta: A45B - Vuelta)
+514348 -> 514348  (Ruta: A45B - Vuelta)
+514348 -> 514349  (Ruta: A45B - Vuelta)
+514349 -> 514349  (Ruta: A45B - Vuelta)
+514349 -> 514019  (Ruta: A45B - Vuelta)
+514019 -> 514019  (Ruta: A45B - Vuelta)
+514019 -> 514386  (Ruta: A45B - Vuelta)
+514386 -> 514386  (Ruta: A45B - Vuelta)
+514386 -> 514314  (Ruta: A45B - Vuelta)
+514314 -> 514314  (Ruta: A45B - Vuelta)
+514314 -> 514126  (Ruta: A45B - Vuelta)
+514126 -> 514126  (Ruta: A45B - Vuelta)
+514126 -> 514128  (Ruta: A45B - Vuelta)
+514128 -> 514128  (Ruta: A45B - Vuelta)
+514128 -> 514130  (Ruta: A45B - Vuelta)
+514130 -> 514130  (Ruta: A45B - Vuelta)
+514130 -> 514132  (Ruta: A45B - Vuelta)
+514132 -> 514132  (Ruta: A45B - Vuelta)
+514132 -> 514134  (Ruta: A45B - Vuelta)
+514134 -> 514134  (Ruta: A45B - Vuelta)
+514134 -> 514347  (Ruta: A45B - Vuelta)
+514347 -> 514347  (Ruta: A45B - Vuelta)
+514347 -> 514346  (Ruta: A45B - Vuelta)
+514346 -> 514346  (Ruta: A45B - Vuelta)
+514346 -> 514460  (Ruta: A45B - Vuelta)
+514460 -> 514460  (Ruta: A45B - Vuelta)

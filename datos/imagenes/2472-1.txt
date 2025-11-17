@@ -1,0 +1,108 @@
+== 2472-1 ==
+Nodos: 27
+Arcos: 73
+------------------------------------
+
+=== Lista de Nodos ===
+514058 - K15C74
+516239 - K39C15
+518058 - C70K29
+516011 - K39C171
+518074 - K39C19
+500153 - A.SANIN4
+518050 - C70K26J
+503006 - TCALIPA6
+518009 - K39C261
+517119 - K39C7A
+518148 - C70K26F
+518147 - C70K25
+518004 - K39C31
+518149 - C70K34
+518006 - K39C32A
+517011 - K39C9A1
+501802 - LIDO3
+518165 - K39C26D
+516241 - K39C13B
+518003 - K39D301
+516242 - K39C11B
+517013 - K39C5B1
+517012 - K39C61
+518164 - C70K27A
+501850 - UDP1
+518060 - C70K32
+501050 - 7AGO1
+
+=== Lista de Arcos ===
+500153 -> 503006  (Ruta: P47B - Vuelta)
+503006 -> 500153  (Ruta: P47B - Vuelta)
+500153 -> 514058  (Ruta: P47B - Vuelta)
+514058 -> 518058  (Ruta: P47B - Vuelta)
+518058 -> 514058  (Ruta: P47B - Vuelta)
+514058 -> 501050  (Ruta: P47B - Vuelta)
+501050 -> 518060  (Ruta: P47B - Vuelta)
+518060 -> 501050  (Ruta: P47B - Vuelta)
+501050 -> 518147  (Ruta: P47B - Vuelta)
+518147 -> 518149  (Ruta: P47B - Vuelta)
+518149 -> 518147  (Ruta: P47B - Vuelta)
+518147 -> 518148  (Ruta: P47B - Vuelta)
+518148 -> 518003  (Ruta: P47B - Vuelta)
+518003 -> 518148  (Ruta: P47B - Vuelta)
+518148 -> 518050  (Ruta: P47B - Vuelta)
+518050 -> 518006  (Ruta: P47B - Vuelta)
+518006 -> 518050  (Ruta: P47B - Vuelta)
+518050 -> 518164  (Ruta: P47B - Vuelta)
+518164 -> 518004  (Ruta: P47B - Vuelta)
+518004 -> 518164  (Ruta: P47B - Vuelta)
+518164 -> 503006  (Ruta: P47B - Vuelta)
+503006 -> 518165  (Ruta: P47B - Vuelta)
+518165 -> 503006  (Ruta: P47B - Vuelta)
+503006 -> 518058  (Ruta: P47B - Vuelta)
+518058 -> 518009  (Ruta: P47B - Vuelta)
+518009 -> 518058  (Ruta: P47B - Vuelta)
+518058 -> 518060  (Ruta: P47B - Vuelta)
+518060 -> 518074  (Ruta: P47B - Vuelta)
+518074 -> 518060  (Ruta: P47B - Vuelta)
+518060 -> 518149  (Ruta: P47B - Vuelta)
+518149 -> 516011  (Ruta: P47B - Vuelta)
+516011 -> 518149  (Ruta: P47B - Vuelta)
+518149 -> 518003  (Ruta: P47B - Vuelta)
+518003 -> 516239  (Ruta: P47B - Vuelta)
+516239 -> 518003  (Ruta: P47B - Vuelta)
+518003 -> 518006  (Ruta: P47B - Vuelta)
+518006 -> 516241  (Ruta: P47B - Vuelta)
+516241 -> 518006  (Ruta: P47B - Vuelta)
+518006 -> 518004  (Ruta: P47B - Vuelta)
+518004 -> 516242  (Ruta: P47B - Vuelta)
+516242 -> 518004  (Ruta: P47B - Vuelta)
+518004 -> 518165  (Ruta: P47B - Vuelta)
+518165 -> 517011  (Ruta: P47B - Vuelta)
+517011 -> 518165  (Ruta: P47B - Vuelta)
+518165 -> 518009  (Ruta: P47B - Vuelta)
+518009 -> 517119  (Ruta: P47B - Vuelta)
+517119 -> 518009  (Ruta: P47B - Vuelta)
+518009 -> 518074  (Ruta: P47B - Vuelta)
+518074 -> 517012  (Ruta: P47B - Vuelta)
+517012 -> 518074  (Ruta: P47B - Vuelta)
+518074 -> 516011  (Ruta: P47B - Vuelta)
+516011 -> 517013  (Ruta: P47B - Vuelta)
+517013 -> 516011  (Ruta: P47B - Vuelta)
+516011 -> 516239  (Ruta: P47B - Vuelta)
+516239 -> 501802  (Ruta: P47B - Vuelta)
+501802 -> 516239  (Ruta: P47B - Vuelta)
+516239 -> 516241  (Ruta: P47B - Vuelta)
+516241 -> 501850  (Ruta: P47B - Vuelta)
+501850 -> 516241  (Ruta: P47B - Vuelta)
+516241 -> 516242  (Ruta: P47B - Vuelta)
+516242 -> 516242  (Ruta: P47B - Vuelta)
+516242 -> 517011  (Ruta: P47B - Vuelta)
+517011 -> 517011  (Ruta: P47B - Vuelta)
+517011 -> 517119  (Ruta: P47B - Vuelta)
+517119 -> 517119  (Ruta: P47B - Vuelta)
+517119 -> 517012  (Ruta: P47B - Vuelta)
+517012 -> 517012  (Ruta: P47B - Vuelta)
+517012 -> 517013  (Ruta: P47B - Vuelta)
+517013 -> 517013  (Ruta: P47B - Vuelta)
+517013 -> 501802  (Ruta: P47B - Vuelta)
+501802 -> 501802  (Ruta: P47B - Vuelta)
+501802 -> 501850  (Ruta: P47B - Vuelta)
+501850 -> 501850  (Ruta: P47B - Vuelta)

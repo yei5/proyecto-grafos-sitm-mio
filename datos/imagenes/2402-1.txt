@@ -1,0 +1,104 @@
+== 2402-1 ==
+Nodos: 33
+Arcos: 63
+------------------------------------
+
+=== Lista de Nodos ===
+514410 - C70K7RP2
+514013 - C70K7C
+513122 - K5C38
+514414 - C70K7EB2
+513303 - K5C36
+513149 - C34K6A
+514413 - C70K7L7J
+513148 - K5C52
+514116 - K8C27
+513103 - C70K7
+513147 - C52K3Y4C
+514115 - K8C34
+513300 - C70K3D
+513124 - K5C44
+514114 - C34K7
+519045 - K8C25
+519047 - K8C16
+518030 - C70D15
+514409 - C70K11P1
+513134 - K2C621
+514002 - C70K11C
+513132 - K2C60
+513215 - K2C70
+513138 - K2C671
+513136 - K2C641
+513093 - C52K2C
+513092 - K2C53
+513130 - K2C571
+513292 - K5C45C
+519054 - K8C20
+501552 - SANPED6
+501050 - 7AGO1
+500160 - A.SANI12
+
+=== Lista de Arcos ===
+518030 -> 500160  (Ruta: P40B - Vuelta)
+500160 -> 514002  (Ruta: P40B - Vuelta)
+514002 -> 501050  (Ruta: P40B - Vuelta)
+501050 -> 514409  (Ruta: P40B - Vuelta)
+514409 -> 518030  (Ruta: P40B - Vuelta)
+518030 -> 514410  (Ruta: P40B - Vuelta)
+514410 -> 514002  (Ruta: P40B - Vuelta)
+514002 -> 514413  (Ruta: P40B - Vuelta)
+514413 -> 514409  (Ruta: P40B - Vuelta)
+514409 -> 514414  (Ruta: P40B - Vuelta)
+514414 -> 514410  (Ruta: P40B - Vuelta)
+514410 -> 514013  (Ruta: P40B - Vuelta)
+514013 -> 514413  (Ruta: P40B - Vuelta)
+514413 -> 513103  (Ruta: P40B - Vuelta)
+513103 -> 514414  (Ruta: P40B - Vuelta)
+514414 -> 513300  (Ruta: P40B - Vuelta)
+513300 -> 514013  (Ruta: P40B - Vuelta)
+514013 -> 513215  (Ruta: P40B - Vuelta)
+513215 -> 513103  (Ruta: P40B - Vuelta)
+513103 -> 513138  (Ruta: P40B - Vuelta)
+513138 -> 513300  (Ruta: P40B - Vuelta)
+513300 -> 513136  (Ruta: P40B - Vuelta)
+513136 -> 513215  (Ruta: P40B - Vuelta)
+513215 -> 513134  (Ruta: P40B - Vuelta)
+513134 -> 513138  (Ruta: P40B - Vuelta)
+513138 -> 513132  (Ruta: P40B - Vuelta)
+513132 -> 513136  (Ruta: P40B - Vuelta)
+513136 -> 513130  (Ruta: P40B - Vuelta)
+513130 -> 513134  (Ruta: P40B - Vuelta)
+513134 -> 513092  (Ruta: P40B - Vuelta)
+513092 -> 513132  (Ruta: P40B - Vuelta)
+513132 -> 513093  (Ruta: P40B - Vuelta)
+513093 -> 513130  (Ruta: P40B - Vuelta)
+513130 -> 513147  (Ruta: P40B - Vuelta)
+513147 -> 513092  (Ruta: P40B - Vuelta)
+513092 -> 513148  (Ruta: P40B - Vuelta)
+513148 -> 513093  (Ruta: P40B - Vuelta)
+513093 -> 513292  (Ruta: P40B - Vuelta)
+513292 -> 513147  (Ruta: P40B - Vuelta)
+513147 -> 513124  (Ruta: P40B - Vuelta)
+513124 -> 513148  (Ruta: P40B - Vuelta)
+513148 -> 513122  (Ruta: P40B - Vuelta)
+513122 -> 513292  (Ruta: P40B - Vuelta)
+513292 -> 513303  (Ruta: P40B - Vuelta)
+513303 -> 513124  (Ruta: P40B - Vuelta)
+513124 -> 513149  (Ruta: P40B - Vuelta)
+513149 -> 513122  (Ruta: P40B - Vuelta)
+513122 -> 514114  (Ruta: P40B - Vuelta)
+514114 -> 513303  (Ruta: P40B - Vuelta)
+513303 -> 514115  (Ruta: P40B - Vuelta)
+514115 -> 513149  (Ruta: P40B - Vuelta)
+513149 -> 514116  (Ruta: P40B - Vuelta)
+514116 -> 514114  (Ruta: P40B - Vuelta)
+514114 -> 519045  (Ruta: P40B - Vuelta)
+519045 -> 514115  (Ruta: P40B - Vuelta)
+514115 -> 519054  (Ruta: P40B - Vuelta)
+519054 -> 514116  (Ruta: P40B - Vuelta)
+514116 -> 519047  (Ruta: P40B - Vuelta)
+519047 -> 519045  (Ruta: P40B - Vuelta)
+519045 -> 501552  (Ruta: P40B - Vuelta)
+501552 -> 519054  (Ruta: P40B - Vuelta)
+519054 -> 519047  (Ruta: P40B - Vuelta)
+519047 -> 501552  (Ruta: P40B - Vuelta)

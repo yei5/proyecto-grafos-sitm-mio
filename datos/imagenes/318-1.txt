@@ -1,0 +1,50 @@
+== 318-1 ==
+Nodos: 15
+Arcos: 27
+------------------------------------
+
+=== Lista de Nodos ===
+511132 - C36K128
+511251 - C25K1051
+511020 - C25UAUT
+511256 - C25K122
+511334 - C25K127
+511232 - C25K1251
+511221 - K168C36
+511134 - C36K146
+502313 - UNIVCOM8
+511337 - C METROP
+511338 - K168CREC
+511016 - C25K101
+511335 - ACJK1342
+511248 - AUT-JAM1
+511339 - K180 HCA
+
+=== Lista de Arcos ===
+502313 -> 502313  (Ruta: A18 - Vuelta)
+502313 -> 511016  (Ruta: A18 - Vuelta)
+511016 -> 511016  (Ruta: A18 - Vuelta)
+511016 -> 511251  (Ruta: A18 - Vuelta)
+511251 -> 511251  (Ruta: A18 - Vuelta)
+511251 -> 511020  (Ruta: A18 - Vuelta)
+511020 -> 511256  (Ruta: A18 - Vuelta)
+511256 -> 511256  (Ruta: A18 - Vuelta)
+511256 -> 511232  (Ruta: A18 - Vuelta)
+511232 -> 511232  (Ruta: A18 - Vuelta)
+511232 -> 511334  (Ruta: A18 - Vuelta)
+511334 -> 511334  (Ruta: A18 - Vuelta)
+511334 -> 511132  (Ruta: A18 - Vuelta)
+511132 -> 511132  (Ruta: A18 - Vuelta)
+511132 -> 511335  (Ruta: A18 - Vuelta)
+511335 -> 511335  (Ruta: A18 - Vuelta)
+511335 -> 511248  (Ruta: A18 - Vuelta)
+511248 -> 511248  (Ruta: A18 - Vuelta)
+511248 -> 511134  (Ruta: A18 - Vuelta)
+511134 -> 511134  (Ruta: A18 - Vuelta)
+511134 -> 511337  (Ruta: A18 - Vuelta)
+511337 -> 511337  (Ruta: A18 - Vuelta)
+511337 -> 511221  (Ruta: A18 - Vuelta)
+511221 -> 511221  (Ruta: A18 - Vuelta)
+511221 -> 511338  (Ruta: A18 - Vuelta)
+511338 -> 511339  (Ruta: A18 - Vuelta)
+511339 -> 511339  (Ruta: A18 - Vuelta)

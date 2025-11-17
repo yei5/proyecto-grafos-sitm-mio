@@ -1,0 +1,33 @@
+== 437-1 ==
+Nodos: 13
+Arcos: 12
+------------------------------------
+
+=== Lista de Nodos ===
+500602 - TORRE3
+501853 - UDP4
+504009 - PCOMERA2
+501700 - ESTAD1
+501602 - SNTLIB3
+501002 - SANBO3
+501750 - TEQUE1
+500250 - FLORAI1
+500400 - MZAN1
+500300 - SALOM1
+500850 - CENTRO1
+500200 - CHIMI3
+500750 - ERMI1
+
+=== Lista de Arcos ===
+504009 -> 500200  (Ruta: E37 - Vuelta)
+500200 -> 500250  (Ruta: E37 - Vuelta)
+500250 -> 500300  (Ruta: E37 - Vuelta)
+500300 -> 500400  (Ruta: E37 - Vuelta)
+500400 -> 500602  (Ruta: E37 - Vuelta)
+500602 -> 500750  (Ruta: E37 - Vuelta)
+500750 -> 500850  (Ruta: E37 - Vuelta)
+500850 -> 501002  (Ruta: E37 - Vuelta)
+501002 -> 501602  (Ruta: E37 - Vuelta)
+501602 -> 501700  (Ruta: E37 - Vuelta)
+501700 -> 501750  (Ruta: E37 - Vuelta)
+501750 -> 501853  (Ruta: E37 - Vuelta)

@@ -1,0 +1,104 @@
+== 651-1 ==
+Nodos: 27
+Arcos: 69
+------------------------------------
+
+=== Lista de Nodos ===
+515028 - C48K47A
+515243 - C56FK46A
+515167 - C56CK42C
+515244 - C56FK48B
+515200 - C54K48
+515168 - C56CK45A
+515245 - C48K42B
+515169 - K46C56G
+515246 - C48K42D
+515140 - C48K49
+515041 - C54K45
+515042 - C54K42C1
+515240 - C48K48B
+515087 - K42BC48
+515241 - C48K50-1
+515187 - C48K43B
+515242 - K47C57
+515088 - K42BC51
+515139 - C48K50
+515239 - C48K46
+515199 - K48DC55A
+515078 - K42BC50
+515197 - K49DC58D
+515198 - K49DC55A
+515077 - K42BC53
+515070 - K42BC54C
+515071 - K42BC55
+
+=== Lista de Arcos ===
+515070 -> 515139  (Ruta: D51 - Vuelta)
+515139 -> 515139  (Ruta: D51 - Vuelta)
+515139 -> 515071  (Ruta: D51 - Vuelta)
+515071 -> 515140  (Ruta: D51 - Vuelta)
+515140 -> 515140  (Ruta: D51 - Vuelta)
+515140 -> 515167  (Ruta: D51 - Vuelta)
+515167 -> 515028  (Ruta: D51 - Vuelta)
+515028 -> 515028  (Ruta: D51 - Vuelta)
+515028 -> 515168  (Ruta: D51 - Vuelta)
+515168 -> 515187  (Ruta: D51 - Vuelta)
+515187 -> 515187  (Ruta: D51 - Vuelta)
+515187 -> 515169  (Ruta: D51 - Vuelta)
+515169 -> 515087  (Ruta: D51 - Vuelta)
+515087 -> 515087  (Ruta: D51 - Vuelta)
+515087 -> 515242  (Ruta: D51 - Vuelta)
+515242 -> 515088  (Ruta: D51 - Vuelta)
+515088 -> 515088  (Ruta: D51 - Vuelta)
+515088 -> 515243  (Ruta: D51 - Vuelta)
+515243 -> 515070  (Ruta: D51 - Vuelta)
+515070 -> 515070  (Ruta: D51 - Vuelta)
+515070 -> 515244  (Ruta: D51 - Vuelta)
+515244 -> 515071  (Ruta: D51 - Vuelta)
+515071 -> 515071  (Ruta: D51 - Vuelta)
+515071 -> 515197  (Ruta: D51 - Vuelta)
+515197 -> 515167  (Ruta: D51 - Vuelta)
+515167 -> 515167  (Ruta: D51 - Vuelta)
+515167 -> 515198  (Ruta: D51 - Vuelta)
+515198 -> 515168  (Ruta: D51 - Vuelta)
+515168 -> 515168  (Ruta: D51 - Vuelta)
+515168 -> 515199  (Ruta: D51 - Vuelta)
+515199 -> 515169  (Ruta: D51 - Vuelta)
+515169 -> 515169  (Ruta: D51 - Vuelta)
+515169 -> 515200  (Ruta: D51 - Vuelta)
+515200 -> 515242  (Ruta: D51 - Vuelta)
+515242 -> 515242  (Ruta: D51 - Vuelta)
+515242 -> 515041  (Ruta: D51 - Vuelta)
+515041 -> 515243  (Ruta: D51 - Vuelta)
+515243 -> 515243  (Ruta: D51 - Vuelta)
+515243 -> 515042  (Ruta: D51 - Vuelta)
+515042 -> 515244  (Ruta: D51 - Vuelta)
+515244 -> 515244  (Ruta: D51 - Vuelta)
+515244 -> 515077  (Ruta: D51 - Vuelta)
+515077 -> 515197  (Ruta: D51 - Vuelta)
+515197 -> 515197  (Ruta: D51 - Vuelta)
+515197 -> 515078  (Ruta: D51 - Vuelta)
+515078 -> 515198  (Ruta: D51 - Vuelta)
+515198 -> 515198  (Ruta: D51 - Vuelta)
+515198 -> 515245  (Ruta: D51 - Vuelta)
+515245 -> 515199  (Ruta: D51 - Vuelta)
+515199 -> 515199  (Ruta: D51 - Vuelta)
+515199 -> 515246  (Ruta: D51 - Vuelta)
+515246 -> 515200  (Ruta: D51 - Vuelta)
+515200 -> 515200  (Ruta: D51 - Vuelta)
+515200 -> 515239  (Ruta: D51 - Vuelta)
+515239 -> 515041  (Ruta: D51 - Vuelta)
+515041 -> 515041  (Ruta: D51 - Vuelta)
+515041 -> 515240  (Ruta: D51 - Vuelta)
+515240 -> 515042  (Ruta: D51 - Vuelta)
+515042 -> 515042  (Ruta: D51 - Vuelta)
+515042 -> 515241  (Ruta: D51 - Vuelta)
+515241 -> 515077  (Ruta: D51 - Vuelta)
+515077 -> 515139  (Ruta: D51 - Vuelta)
+515139 -> 515078  (Ruta: D51 - Vuelta)
+515078 -> 515245  (Ruta: D51 - Vuelta)
+515245 -> 515246  (Ruta: D51 - Vuelta)
+515246 -> 515239  (Ruta: D51 - Vuelta)
+515239 -> 515240  (Ruta: D51 - Vuelta)
+515240 -> 515241  (Ruta: D51 - Vuelta)
+515241 -> 515139  (Ruta: D51 - Vuelta)

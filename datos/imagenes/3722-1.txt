@@ -1,0 +1,37 @@
+== 3722-1 ==
+Nodos: 14
+Arcos: 15
+------------------------------------
+
+=== Lista de Nodos ===
+517037 - K52D502
+517015 - K52C22
+517014 - K52C31
+517223 - C7OK51A
+517248 - K52C1
+517039 - D51C52
+517038 - D51C82
+517035 - D50C61
+517222 - C7OK52
+517034 - C3OD511
+500053 - T.C-A4
+600050 - T.C-A1
+600053 - T.C-A4
+500050 - T.C-A1
+
+=== Lista de Arcos ===
+500053 -> 500053  (Ruta: A72B - Vuelta)
+500053 -> 517014  (Ruta: A72B - Vuelta)
+517014 -> 600053  (Ruta: A72B - Vuelta)
+600053 -> 517248  (Ruta: A72B - Vuelta)
+517248 -> 600050  (Ruta: A72B - Vuelta)
+600050 -> 517034  (Ruta: A72B - Vuelta)
+517034 -> 500050  (Ruta: A72B - Vuelta)
+500050 -> 517035  (Ruta: A72B - Vuelta)
+517035 -> 517222  (Ruta: A72B - Vuelta)
+517222 -> 517223  (Ruta: A72B - Vuelta)
+517223 -> 517037  (Ruta: A72B - Vuelta)
+517037 -> 517038  (Ruta: A72B - Vuelta)
+517038 -> 517039  (Ruta: A72B - Vuelta)
+517039 -> 517015  (Ruta: A72B - Vuelta)
+517015 -> 500053  (Ruta: A72B - Vuelta)

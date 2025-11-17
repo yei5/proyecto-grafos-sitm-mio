@@ -1,0 +1,51 @@
+== 2401-1 ==
+Nodos: 22
+Arcos: 21
+------------------------------------
+
+=== Lista de Nodos ===
+514157 - C73K112
+514388 - K12C48
+514343 - K8C34A
+514133 - K8C62
+514342 - C59K10
+514386 - C44K9
+514154 - C73K7RB
+514396 - C59K8
+514116 - K8C27
+514346 - K8C702
+514115 - K8C34
+514257 - K12C59
+514390 - K12C521
+519045 - K8C25
+514080 - C73K8
+519047 - K8C16
+514392 - K12C56
+519054 - K8C20
+501550 - SANPED2
+514119 - K8C391
+514019 - C44K12
+500150 - A.SANIN1
+
+=== Lista de Arcos ===
+500150 -> 514157  (Ruta: P40A - Vuelta)
+514157 -> 514080  (Ruta: P40A - Vuelta)
+514080 -> 514154  (Ruta: P40A - Vuelta)
+514154 -> 514346  (Ruta: P40A - Vuelta)
+514346 -> 514133  (Ruta: P40A - Vuelta)
+514133 -> 514396  (Ruta: P40A - Vuelta)
+514396 -> 514342  (Ruta: P40A - Vuelta)
+514342 -> 514257  (Ruta: P40A - Vuelta)
+514257 -> 514392  (Ruta: P40A - Vuelta)
+514392 -> 514390  (Ruta: P40A - Vuelta)
+514390 -> 514388  (Ruta: P40A - Vuelta)
+514388 -> 514019  (Ruta: P40A - Vuelta)
+514019 -> 514386  (Ruta: P40A - Vuelta)
+514386 -> 514119  (Ruta: P40A - Vuelta)
+514119 -> 514343  (Ruta: P40A - Vuelta)
+514343 -> 514115  (Ruta: P40A - Vuelta)
+514115 -> 514116  (Ruta: P40A - Vuelta)
+514116 -> 519045  (Ruta: P40A - Vuelta)
+519045 -> 519054  (Ruta: P40A - Vuelta)
+519054 -> 519047  (Ruta: P40A - Vuelta)
+519047 -> 501550  (Ruta: P40A - Vuelta)

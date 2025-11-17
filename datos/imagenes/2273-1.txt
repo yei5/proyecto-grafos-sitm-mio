@@ -1,0 +1,158 @@
+== 2273-1 ==
+Nodos: 50
+Arcos: 100
+------------------------------------
+
+=== Lista de Nodos ===
+514014 - C70K7BB
+514012 - C70K7EB
+517125 - C10K332
+516035 - C10K42
+513049 - C70K4N2
+516037 - C10K39
+518018 - K23C33C1
+516031 - C10K49
+516033 - C10K44A
+517200 - K66C101
+514010 - C70K7L
+516270 - D23C15
+501100 - TREB1
+514407 - C70K11P2
+502150 - MELEN1
+514408 - K23C70
+513112 - C70K1A6
+513035 - C70K1I
+514003 - C70K11E
+513231 - C70K1B
+519017 - C10K32
+516025 - C10K63
+519019 - D23T11
+513114 - C70K11
+516027 - C10K61
+519015 - C10K32A
+518082 - K23T251
+502303 - UNIV4
+502100 - CAPRI1
+516017 - D23C18
+514399 - C70K7RB
+513104 - C70K5
+518077 - K23C49
+513063 - C70K1A10
+518031 - C52K20
+518075 - K23C28A
+502050 - CALDAS1
+502250 - UNIVAL1
+513252 - C70K6N
+516047 - K23C19B1
+513014 - C70K1C2
+518022 - K23C361
+513290 - C70K4C
+518024 - K23C40
+516122 - C10K50
+516041 - D23C131
+518020 - K23C33F
+500102 - TMENGA3
+502200 - BUITRE1
+501150 - VICOL1
+
+=== Lista de Arcos ===
+500102 -> 516041  (Ruta: P27C - Vuelta)
+516041 -> 501100  (Ruta: P27C - Vuelta)
+501100 -> 513252  (Ruta: P27C - Vuelta)
+513252 -> 519019  (Ruta: P27C - Vuelta)
+519019 -> 501150  (Ruta: P27C - Vuelta)
+501150 -> 513049  (Ruta: P27C - Vuelta)
+513049 -> 519017  (Ruta: P27C - Vuelta)
+519017 -> 518031  (Ruta: P27C - Vuelta)
+518031 -> 513114  (Ruta: P27C - Vuelta)
+513114 -> 519015  (Ruta: P27C - Vuelta)
+519015 -> 518077  (Ruta: P27C - Vuelta)
+518077 -> 513112  (Ruta: P27C - Vuelta)
+513112 -> 517125  (Ruta: P27C - Vuelta)
+517125 -> 518024  (Ruta: P27C - Vuelta)
+518024 -> 513063  (Ruta: P27C - Vuelta)
+513063 -> 516037  (Ruta: P27C - Vuelta)
+516037 -> 518022  (Ruta: P27C - Vuelta)
+518022 -> 513231  (Ruta: P27C - Vuelta)
+513231 -> 516035  (Ruta: P27C - Vuelta)
+516035 -> 518020  (Ruta: P27C - Vuelta)
+518020 -> 513014  (Ruta: P27C - Vuelta)
+513014 -> 516033  (Ruta: P27C - Vuelta)
+516033 -> 518018  (Ruta: P27C - Vuelta)
+518018 -> 513035  (Ruta: P27C - Vuelta)
+513035 -> 516031  (Ruta: P27C - Vuelta)
+516031 -> 518075  (Ruta: P27C - Vuelta)
+518075 -> 513290  (Ruta: P27C - Vuelta)
+513290 -> 516122  (Ruta: P27C - Vuelta)
+516122 -> 518082  (Ruta: P27C - Vuelta)
+518082 -> 513104  (Ruta: P27C - Vuelta)
+513104 -> 516027  (Ruta: P27C - Vuelta)
+516027 -> 516047  (Ruta: P27C - Vuelta)
+516047 -> 514014  (Ruta: P27C - Vuelta)
+514014 -> 516025  (Ruta: P27C - Vuelta)
+516025 -> 516017  (Ruta: P27C - Vuelta)
+516017 -> 514012  (Ruta: P27C - Vuelta)
+514012 -> 517200  (Ruta: P27C - Vuelta)
+517200 -> 516270  (Ruta: P27C - Vuelta)
+516270 -> 514010  (Ruta: P27C - Vuelta)
+514010 -> 502050  (Ruta: P27C - Vuelta)
+502050 -> 516041  (Ruta: P27C - Vuelta)
+516041 -> 514399  (Ruta: P27C - Vuelta)
+514399 -> 502100  (Ruta: P27C - Vuelta)
+502100 -> 519019  (Ruta: P27C - Vuelta)
+519019 -> 514407  (Ruta: P27C - Vuelta)
+514407 -> 502150  (Ruta: P27C - Vuelta)
+502150 -> 519017  (Ruta: P27C - Vuelta)
+519017 -> 514003  (Ruta: P27C - Vuelta)
+514003 -> 502200  (Ruta: P27C - Vuelta)
+502200 -> 519015  (Ruta: P27C - Vuelta)
+519015 -> 514408  (Ruta: P27C - Vuelta)
+514408 -> 502250  (Ruta: P27C - Vuelta)
+502250 -> 517125  (Ruta: P27C - Vuelta)
+517125 -> 501100  (Ruta: P27C - Vuelta)
+501100 -> 502303  (Ruta: P27C - Vuelta)
+502303 -> 516037  (Ruta: P27C - Vuelta)
+516037 -> 501150  (Ruta: P27C - Vuelta)
+501150 -> 516035  (Ruta: P27C - Vuelta)
+516035 -> 518031  (Ruta: P27C - Vuelta)
+518031 -> 516033  (Ruta: P27C - Vuelta)
+516033 -> 518077  (Ruta: P27C - Vuelta)
+518077 -> 516031  (Ruta: P27C - Vuelta)
+516031 -> 518024  (Ruta: P27C - Vuelta)
+518024 -> 516122  (Ruta: P27C - Vuelta)
+516122 -> 518022  (Ruta: P27C - Vuelta)
+518022 -> 516027  (Ruta: P27C - Vuelta)
+516027 -> 518020  (Ruta: P27C - Vuelta)
+518020 -> 516025  (Ruta: P27C - Vuelta)
+516025 -> 518018  (Ruta: P27C - Vuelta)
+518018 -> 517200  (Ruta: P27C - Vuelta)
+517200 -> 518075  (Ruta: P27C - Vuelta)
+518075 -> 502050  (Ruta: P27C - Vuelta)
+502050 -> 518082  (Ruta: P27C - Vuelta)
+518082 -> 502100  (Ruta: P27C - Vuelta)
+502100 -> 516047  (Ruta: P27C - Vuelta)
+516047 -> 502150  (Ruta: P27C - Vuelta)
+502150 -> 516017  (Ruta: P27C - Vuelta)
+516017 -> 502200  (Ruta: P27C - Vuelta)
+502200 -> 516270  (Ruta: P27C - Vuelta)
+516270 -> 502250  (Ruta: P27C - Vuelta)
+502250 -> 516041  (Ruta: P27C - Vuelta)
+516041 -> 502303  (Ruta: P27C - Vuelta)
+502303 -> 519019  (Ruta: P27C - Vuelta)
+519019 -> 519017  (Ruta: P27C - Vuelta)
+519017 -> 519015  (Ruta: P27C - Vuelta)
+519015 -> 517125  (Ruta: P27C - Vuelta)
+517125 -> 516037  (Ruta: P27C - Vuelta)
+516037 -> 516035  (Ruta: P27C - Vuelta)
+516035 -> 516033  (Ruta: P27C - Vuelta)
+516033 -> 516031  (Ruta: P27C - Vuelta)
+516031 -> 516122  (Ruta: P27C - Vuelta)
+516122 -> 516027  (Ruta: P27C - Vuelta)
+516027 -> 516025  (Ruta: P27C - Vuelta)
+516025 -> 517200  (Ruta: P27C - Vuelta)
+517200 -> 502050  (Ruta: P27C - Vuelta)
+502050 -> 502100  (Ruta: P27C - Vuelta)
+502100 -> 502150  (Ruta: P27C - Vuelta)
+502150 -> 502200  (Ruta: P27C - Vuelta)
+502200 -> 502250  (Ruta: P27C - Vuelta)
+502250 -> 502303  (Ruta: P27C - Vuelta)

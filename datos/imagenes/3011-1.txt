@@ -1,0 +1,32 @@
+== 3011-1 ==
+Nodos: 12
+Arcos: 12
+------------------------------------
+
+=== Lista de Nodos ===
+512133 - A1NC171
+512001 - A1NC10
+515001 - C8K41
+501451 - SUCRE4
+501001 - SANBO2
+501551 - SANPED4
+518001 - C8K141
+500601 - TORRE2
+517002 - C8K10
+501502 - PTCUY6
+519176 - C8K6
+501405 - SANPAS6
+
+=== Lista de Arcos ===
+501001 -> 501405  (Ruta: A01A - Vuelta)
+501405 -> 501451  (Ruta: A01A - Vuelta)
+501451 -> 501502  (Ruta: A01A - Vuelta)
+501502 -> 501551  (Ruta: A01A - Vuelta)
+501551 -> 500601  (Ruta: A01A - Vuelta)
+500601 -> 512133  (Ruta: A01A - Vuelta)
+512133 -> 512001  (Ruta: A01A - Vuelta)
+512001 -> 515001  (Ruta: A01A - Vuelta)
+515001 -> 519176  (Ruta: A01A - Vuelta)
+519176 -> 517002  (Ruta: A01A - Vuelta)
+517002 -> 518001  (Ruta: A01A - Vuelta)
+518001 -> 501001  (Ruta: A01A - Vuelta)

@@ -1,0 +1,40 @@
+== 437-0 ==
+Nodos: 16
+Arcos: 16
+------------------------------------
+
+=== Lista de Nodos ===
+500601 - TORRE2
+500401 - MZAN2
+501853 - UDP4
+501601 - SNTLIB2
+504009 - PCOMERA2
+501701 - ESTAD2
+504017 - PCOMERB4
+500251 - FLORAI2
+501753 - TEQUE 4
+501500 - PTCUY2
+500301 - SALOM2
+500201 - CHIMI2
+501550 - SANPED2
+501001 - SANBO2
+604009 - PCOMERA2
+604017 - PCOMERB4
+
+=== Lista de Arcos ===
+501853 -> 504017  (Ruta: E37 - Ida)
+504017 -> 501753  (Ruta: E37 - Ida)
+501753 -> 604017  (Ruta: E37 - Ida)
+604017 -> 501701  (Ruta: E37 - Ida)
+501701 -> 604009  (Ruta: E37 - Ida)
+604009 -> 501601  (Ruta: E37 - Ida)
+501601 -> 504009  (Ruta: E37 - Ida)
+504009 -> 501001  (Ruta: E37 - Ida)
+501001 -> 501500  (Ruta: E37 - Ida)
+501500 -> 501550  (Ruta: E37 - Ida)
+501550 -> 500601  (Ruta: E37 - Ida)
+500601 -> 500401  (Ruta: E37 - Ida)
+500401 -> 500301  (Ruta: E37 - Ida)
+500301 -> 500251  (Ruta: E37 - Ida)
+500251 -> 500201  (Ruta: E37 - Ida)
+500201 -> 504017  (Ruta: E37 - Ida)

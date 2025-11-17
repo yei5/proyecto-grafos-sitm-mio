@@ -1,0 +1,181 @@
+== 2841-1 ==
+Nodos: 39
+Arcos: 134
+------------------------------------
+
+=== Lista de Nodos ===
+514233 - C121_28D
+514232 - C121K27J
+514056 - K25C74
+514055 - K25C771
+514379 - C79K28D2
+514236 - C123K26S
+514235 - C123K28A
+514279 - K27C120
+514050 - K23C87
+502700 - TRONCAL2
+514076 - C73K27B
+514054 - K25C80
+514273 - K27C116
+514053 - C80K23
+514470 - K27C112
+514052 - K23C83
+514271 - C123K27B
+514051 - K23C84
+503007 - TCALIPB4
+502650 - AMANECE2
+514047 - K23C114
+514046 - K23C120C
+514045 - K23C120Q
+514044 - C123K26B
+514468 - K27C108
+514049 - K23C98A
+514466 - C123K26
+514048 - K23C1022
+514083 - K27C85
+514081 - K27C77
+514186 - K27T1031
+514482 - K28DC123
+514042 - C123K262
+514481 - K28DC121
+514041 - C123K26M
+514084 - K27C911
+500165 - A.SANI17
+514538 - K23C101A
+514415 - C76K28A
+
+=== Lista de Arcos ===
+503007 -> 514481  (Ruta: P84A - Vuelta)
+514481 -> 514379  (Ruta: P84A - Vuelta)
+514379 -> 502650  (Ruta: P84A - Vuelta)
+502650 -> 502700  (Ruta: P84A - Vuelta)
+502700 -> 514482  (Ruta: P84A - Vuelta)
+514482 -> 514415  (Ruta: P84A - Vuelta)
+514415 -> 514379  (Ruta: P84A - Vuelta)
+514379 -> 502650  (Ruta: P84A - Vuelta)
+502650 -> 514235  (Ruta: P84A - Vuelta)
+514235 -> 514076  (Ruta: P84A - Vuelta)
+514076 -> 514415  (Ruta: P84A - Vuelta)
+514415 -> 514379  (Ruta: P84A - Vuelta)
+514379 -> 514271  (Ruta: P84A - Vuelta)
+514271 -> 514081  (Ruta: P84A - Vuelta)
+514081 -> 514076  (Ruta: P84A - Vuelta)
+514076 -> 514415  (Ruta: P84A - Vuelta)
+514415 -> 514236  (Ruta: P84A - Vuelta)
+514236 -> 514083  (Ruta: P84A - Vuelta)
+514083 -> 514081  (Ruta: P84A - Vuelta)
+514081 -> 514076  (Ruta: P84A - Vuelta)
+514076 -> 514041  (Ruta: P84A - Vuelta)
+514041 -> 514084  (Ruta: P84A - Vuelta)
+514084 -> 514083  (Ruta: P84A - Vuelta)
+514083 -> 514081  (Ruta: P84A - Vuelta)
+514081 -> 514042  (Ruta: P84A - Vuelta)
+514042 -> 514186  (Ruta: P84A - Vuelta)
+514186 -> 514084  (Ruta: P84A - Vuelta)
+514084 -> 514083  (Ruta: P84A - Vuelta)
+514083 -> 514466  (Ruta: P84A - Vuelta)
+514466 -> 514468  (Ruta: P84A - Vuelta)
+514468 -> 514186  (Ruta: P84A - Vuelta)
+514186 -> 514084  (Ruta: P84A - Vuelta)
+514084 -> 514044  (Ruta: P84A - Vuelta)
+514044 -> 514470  (Ruta: P84A - Vuelta)
+514470 -> 514468  (Ruta: P84A - Vuelta)
+514468 -> 514186  (Ruta: P84A - Vuelta)
+514186 -> 514045  (Ruta: P84A - Vuelta)
+514045 -> 514273  (Ruta: P84A - Vuelta)
+514273 -> 514470  (Ruta: P84A - Vuelta)
+514470 -> 514468  (Ruta: P84A - Vuelta)
+514468 -> 514046  (Ruta: P84A - Vuelta)
+514046 -> 514279  (Ruta: P84A - Vuelta)
+514279 -> 514273  (Ruta: P84A - Vuelta)
+514273 -> 514470  (Ruta: P84A - Vuelta)
+514470 -> 514047  (Ruta: P84A - Vuelta)
+514047 -> 514232  (Ruta: P84A - Vuelta)
+514232 -> 514279  (Ruta: P84A - Vuelta)
+514279 -> 514273  (Ruta: P84A - Vuelta)
+514273 -> 514048  (Ruta: P84A - Vuelta)
+514048 -> 514233  (Ruta: P84A - Vuelta)
+514233 -> 514232  (Ruta: P84A - Vuelta)
+514232 -> 514279  (Ruta: P84A - Vuelta)
+514279 -> 514538  (Ruta: P84A - Vuelta)
+514538 -> 514481  (Ruta: P84A - Vuelta)
+514481 -> 514233  (Ruta: P84A - Vuelta)
+514233 -> 514232  (Ruta: P84A - Vuelta)
+514232 -> 514049  (Ruta: P84A - Vuelta)
+514049 -> 514482  (Ruta: P84A - Vuelta)
+514482 -> 514481  (Ruta: P84A - Vuelta)
+514481 -> 514233  (Ruta: P84A - Vuelta)
+514233 -> 514050  (Ruta: P84A - Vuelta)
+514050 -> 514235  (Ruta: P84A - Vuelta)
+514235 -> 514482  (Ruta: P84A - Vuelta)
+514482 -> 514481  (Ruta: P84A - Vuelta)
+514481 -> 514051  (Ruta: P84A - Vuelta)
+514051 -> 514271  (Ruta: P84A - Vuelta)
+514271 -> 514235  (Ruta: P84A - Vuelta)
+514235 -> 514482  (Ruta: P84A - Vuelta)
+514482 -> 514052  (Ruta: P84A - Vuelta)
+514052 -> 514236  (Ruta: P84A - Vuelta)
+514236 -> 514271  (Ruta: P84A - Vuelta)
+514271 -> 514235  (Ruta: P84A - Vuelta)
+514235 -> 514053  (Ruta: P84A - Vuelta)
+514053 -> 514041  (Ruta: P84A - Vuelta)
+514041 -> 514236  (Ruta: P84A - Vuelta)
+514236 -> 514271  (Ruta: P84A - Vuelta)
+514271 -> 514054  (Ruta: P84A - Vuelta)
+514054 -> 514042  (Ruta: P84A - Vuelta)
+514042 -> 514041  (Ruta: P84A - Vuelta)
+514041 -> 514236  (Ruta: P84A - Vuelta)
+514236 -> 514055  (Ruta: P84A - Vuelta)
+514055 -> 514466  (Ruta: P84A - Vuelta)
+514466 -> 514042  (Ruta: P84A - Vuelta)
+514042 -> 514041  (Ruta: P84A - Vuelta)
+514041 -> 514056  (Ruta: P84A - Vuelta)
+514056 -> 514044  (Ruta: P84A - Vuelta)
+514044 -> 514466  (Ruta: P84A - Vuelta)
+514466 -> 514042  (Ruta: P84A - Vuelta)
+514042 -> 500165  (Ruta: P84A - Vuelta)
+500165 -> 514045  (Ruta: P84A - Vuelta)
+514045 -> 514044  (Ruta: P84A - Vuelta)
+514044 -> 514466  (Ruta: P84A - Vuelta)
+514466 -> 514046  (Ruta: P84A - Vuelta)
+514046 -> 514045  (Ruta: P84A - Vuelta)
+514045 -> 514044  (Ruta: P84A - Vuelta)
+514044 -> 514047  (Ruta: P84A - Vuelta)
+514047 -> 514046  (Ruta: P84A - Vuelta)
+514046 -> 514045  (Ruta: P84A - Vuelta)
+514045 -> 514048  (Ruta: P84A - Vuelta)
+514048 -> 514047  (Ruta: P84A - Vuelta)
+514047 -> 514046  (Ruta: P84A - Vuelta)
+514046 -> 514538  (Ruta: P84A - Vuelta)
+514538 -> 514048  (Ruta: P84A - Vuelta)
+514048 -> 514047  (Ruta: P84A - Vuelta)
+514047 -> 514049  (Ruta: P84A - Vuelta)
+514049 -> 514538  (Ruta: P84A - Vuelta)
+514538 -> 514048  (Ruta: P84A - Vuelta)
+514048 -> 514050  (Ruta: P84A - Vuelta)
+514050 -> 514049  (Ruta: P84A - Vuelta)
+514049 -> 514538  (Ruta: P84A - Vuelta)
+514538 -> 514051  (Ruta: P84A - Vuelta)
+514051 -> 514050  (Ruta: P84A - Vuelta)
+514050 -> 514049  (Ruta: P84A - Vuelta)
+514049 -> 514052  (Ruta: P84A - Vuelta)
+514052 -> 514051  (Ruta: P84A - Vuelta)
+514051 -> 514050  (Ruta: P84A - Vuelta)
+514050 -> 514053  (Ruta: P84A - Vuelta)
+514053 -> 514052  (Ruta: P84A - Vuelta)
+514052 -> 514051  (Ruta: P84A - Vuelta)
+514051 -> 514054  (Ruta: P84A - Vuelta)
+514054 -> 514053  (Ruta: P84A - Vuelta)
+514053 -> 514052  (Ruta: P84A - Vuelta)
+514052 -> 514055  (Ruta: P84A - Vuelta)
+514055 -> 514054  (Ruta: P84A - Vuelta)
+514054 -> 514053  (Ruta: P84A - Vuelta)
+514053 -> 514056  (Ruta: P84A - Vuelta)
+514056 -> 514055  (Ruta: P84A - Vuelta)
+514055 -> 514054  (Ruta: P84A - Vuelta)
+514054 -> 500165  (Ruta: P84A - Vuelta)
+500165 -> 514056  (Ruta: P84A - Vuelta)
+514056 -> 514055  (Ruta: P84A - Vuelta)
+514055 -> 500165  (Ruta: P84A - Vuelta)
+500165 -> 514056  (Ruta: P84A - Vuelta)
+514056 -> 500165  (Ruta: P84A - Vuelta)

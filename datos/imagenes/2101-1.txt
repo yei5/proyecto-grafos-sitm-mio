@@ -1,0 +1,81 @@
+== 2101-1 ==
+Nodos: 28
+Arcos: 45
+------------------------------------
+
+=== Lista de Nodos ===
+516079 - C13C14
+516058 - C13K65
+516054 - C13K7572
+516076 - C13K32A
+519026 - C13K21
+516056 - C13K68
+516177 - C13K69
+516050 - C13K802
+516072 - C13K39
+519022 - C13D232
+516052 - C13K78
+516074 - C13K342
+516070 - C13K41A2
+502251 - UNIVAL2
+511011 - C13K86
+511234 - C13K100U
+516064 - C13K50
+516065 - C13K47A
+516067 - C13K44A
+516060 - C13K57
+501502 - PTCUY6
+516062 - C13K552
+501405 - SANPAS6
+501552 - SANPED6
+519290 - C13K23A
+502303 - UNIV4
+511348 - C13K83
+511005 - C13K100
+
+=== Lista de Arcos ===
+502303 -> 516056  (Ruta: P10A - Vuelta)
+516056 -> 502251  (Ruta: P10A - Vuelta)
+502251 -> 516058  (Ruta: P10A - Vuelta)
+516058 -> 511005  (Ruta: P10A - Vuelta)
+511005 -> 516060  (Ruta: P10A - Vuelta)
+516060 -> 511234  (Ruta: P10A - Vuelta)
+511234 -> 516062  (Ruta: P10A - Vuelta)
+516062 -> 511011  (Ruta: P10A - Vuelta)
+511011 -> 516064  (Ruta: P10A - Vuelta)
+516064 -> 511348  (Ruta: P10A - Vuelta)
+511348 -> 516065  (Ruta: P10A - Vuelta)
+516065 -> 516050  (Ruta: P10A - Vuelta)
+516050 -> 516067  (Ruta: P10A - Vuelta)
+516067 -> 516052  (Ruta: P10A - Vuelta)
+516052 -> 516070  (Ruta: P10A - Vuelta)
+516070 -> 516054  (Ruta: P10A - Vuelta)
+516054 -> 516072  (Ruta: P10A - Vuelta)
+516072 -> 516177  (Ruta: P10A - Vuelta)
+516177 -> 516074  (Ruta: P10A - Vuelta)
+516074 -> 516056  (Ruta: P10A - Vuelta)
+516056 -> 516076  (Ruta: P10A - Vuelta)
+516076 -> 516058  (Ruta: P10A - Vuelta)
+516058 -> 516079  (Ruta: P10A - Vuelta)
+516079 -> 516060  (Ruta: P10A - Vuelta)
+516060 -> 519022  (Ruta: P10A - Vuelta)
+519022 -> 516062  (Ruta: P10A - Vuelta)
+516062 -> 519290  (Ruta: P10A - Vuelta)
+519290 -> 516064  (Ruta: P10A - Vuelta)
+516064 -> 519026  (Ruta: P10A - Vuelta)
+519026 -> 516065  (Ruta: P10A - Vuelta)
+516065 -> 501405  (Ruta: P10A - Vuelta)
+501405 -> 516067  (Ruta: P10A - Vuelta)
+516067 -> 501502  (Ruta: P10A - Vuelta)
+501502 -> 516070  (Ruta: P10A - Vuelta)
+516070 -> 501552  (Ruta: P10A - Vuelta)
+501552 -> 516072  (Ruta: P10A - Vuelta)
+516072 -> 516074  (Ruta: P10A - Vuelta)
+516074 -> 516076  (Ruta: P10A - Vuelta)
+516076 -> 516079  (Ruta: P10A - Vuelta)
+516079 -> 519022  (Ruta: P10A - Vuelta)
+519022 -> 519290  (Ruta: P10A - Vuelta)
+519290 -> 519026  (Ruta: P10A - Vuelta)
+519026 -> 501405  (Ruta: P10A - Vuelta)
+501405 -> 501502  (Ruta: P10A - Vuelta)
+501502 -> 501552  (Ruta: P10A - Vuelta)

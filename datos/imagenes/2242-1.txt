@@ -1,0 +1,135 @@
+== 2242-1 ==
+Nodos: 32
+Arcos: 95
+------------------------------------
+
+=== Lista de Nodos ===
+512132 - C44A2G
+512133 - A1NC171
+514134 - K8C592
+514156 - C73K11
+513220 - C44K2
+512130 - C44A5N
+514132 - K8C582
+512213 - A6NC373
+514314 - K8C44B
+512214 - A6NC40-3
+512211 - A6NC231
+514312 - C44K8
+512212 - A6NC281
+514411 - K8C72
+514130 - K8C562
+512072 - A6NC16
+513219 - C44K1D1
+512006 - A6NC34
+513216 - C44K6N
+500150 - A.SANIN1
+513233 - C44K6B1
+512163 - C44NA3G
+512164 - C44NA3BN
+512147 - A6ANC223
+514128 - K8C522
+512104 - A6NC13
+512148 - A6NC26A
+514347 - K8C703
+514126 - K8C492
+513234 - C44K4B
+514345 - C73K8A
+513328 - C44K4N
+
+=== Lista de Arcos ===
+512133 -> 512133  (Ruta: P24B - Vuelta)
+512133 -> 513219  (Ruta: P24B - Vuelta)
+513219 -> 513219  (Ruta: P24B - Vuelta)
+513219 -> 512104  (Ruta: P24B - Vuelta)
+512104 -> 512104  (Ruta: P24B - Vuelta)
+512104 -> 513220  (Ruta: P24B - Vuelta)
+513220 -> 513220  (Ruta: P24B - Vuelta)
+513220 -> 512072  (Ruta: P24B - Vuelta)
+512072 -> 512072  (Ruta: P24B - Vuelta)
+512072 -> 513234  (Ruta: P24B - Vuelta)
+513234 -> 513234  (Ruta: P24B - Vuelta)
+513234 -> 512147  (Ruta: P24B - Vuelta)
+512147 -> 512147  (Ruta: P24B - Vuelta)
+512147 -> 513233  (Ruta: P24B - Vuelta)
+513233 -> 513233  (Ruta: P24B - Vuelta)
+513233 -> 512211  (Ruta: P24B - Vuelta)
+512211 -> 512211  (Ruta: P24B - Vuelta)
+512211 -> 514312  (Ruta: P24B - Vuelta)
+514312 -> 514312  (Ruta: P24B - Vuelta)
+514312 -> 512148  (Ruta: P24B - Vuelta)
+512148 -> 512148  (Ruta: P24B - Vuelta)
+512148 -> 514314  (Ruta: P24B - Vuelta)
+514314 -> 514314  (Ruta: P24B - Vuelta)
+514314 -> 512212  (Ruta: P24B - Vuelta)
+512212 -> 512212  (Ruta: P24B - Vuelta)
+512212 -> 514126  (Ruta: P24B - Vuelta)
+514126 -> 514126  (Ruta: P24B - Vuelta)
+514126 -> 512006  (Ruta: P24B - Vuelta)
+512006 -> 512006  (Ruta: P24B - Vuelta)
+512006 -> 514128  (Ruta: P24B - Vuelta)
+514128 -> 514128  (Ruta: P24B - Vuelta)
+514128 -> 512213  (Ruta: P24B - Vuelta)
+512213 -> 512213  (Ruta: P24B - Vuelta)
+512213 -> 514130  (Ruta: P24B - Vuelta)
+514130 -> 514130  (Ruta: P24B - Vuelta)
+514130 -> 512214  (Ruta: P24B - Vuelta)
+512214 -> 512214  (Ruta: P24B - Vuelta)
+512214 -> 514132  (Ruta: P24B - Vuelta)
+514132 -> 514132  (Ruta: P24B - Vuelta)
+514132 -> 512130  (Ruta: P24B - Vuelta)
+512130 -> 512130  (Ruta: P24B - Vuelta)
+512130 -> 514134  (Ruta: P24B - Vuelta)
+514134 -> 514134  (Ruta: P24B - Vuelta)
+514134 -> 512163  (Ruta: P24B - Vuelta)
+512163 -> 512163  (Ruta: P24B - Vuelta)
+512163 -> 514347  (Ruta: P24B - Vuelta)
+514347 -> 514347  (Ruta: P24B - Vuelta)
+514347 -> 512164  (Ruta: P24B - Vuelta)
+512164 -> 512164  (Ruta: P24B - Vuelta)
+512164 -> 514411  (Ruta: P24B - Vuelta)
+514411 -> 514411  (Ruta: P24B - Vuelta)
+514411 -> 512132  (Ruta: P24B - Vuelta)
+512132 -> 512132  (Ruta: P24B - Vuelta)
+512132 -> 514345  (Ruta: P24B - Vuelta)
+514345 -> 514345  (Ruta: P24B - Vuelta)
+514345 -> 513216  (Ruta: P24B - Vuelta)
+513216 -> 513216  (Ruta: P24B - Vuelta)
+513216 -> 514156  (Ruta: P24B - Vuelta)
+514156 -> 514156  (Ruta: P24B - Vuelta)
+514156 -> 513328  (Ruta: P24B - Vuelta)
+513328 -> 513328  (Ruta: P24B - Vuelta)
+513328 -> 500150  (Ruta: P24B - Vuelta)
+500150 -> 500150  (Ruta: P24B - Vuelta)
+500150 -> 513219  (Ruta: P24B - Vuelta)
+513219 -> 513219  (Ruta: P24B - Vuelta)
+513219 -> 513220  (Ruta: P24B - Vuelta)
+513220 -> 513220  (Ruta: P24B - Vuelta)
+513220 -> 513234  (Ruta: P24B - Vuelta)
+513234 -> 513234  (Ruta: P24B - Vuelta)
+513234 -> 513233  (Ruta: P24B - Vuelta)
+513233 -> 513233  (Ruta: P24B - Vuelta)
+513233 -> 514312  (Ruta: P24B - Vuelta)
+514312 -> 514312  (Ruta: P24B - Vuelta)
+514312 -> 514314  (Ruta: P24B - Vuelta)
+514314 -> 514314  (Ruta: P24B - Vuelta)
+514314 -> 514126  (Ruta: P24B - Vuelta)
+514126 -> 514126  (Ruta: P24B - Vuelta)
+514126 -> 514128  (Ruta: P24B - Vuelta)
+514128 -> 514128  (Ruta: P24B - Vuelta)
+514128 -> 514130  (Ruta: P24B - Vuelta)
+514130 -> 514130  (Ruta: P24B - Vuelta)
+514130 -> 514132  (Ruta: P24B - Vuelta)
+514132 -> 514132  (Ruta: P24B - Vuelta)
+514132 -> 514134  (Ruta: P24B - Vuelta)
+514134 -> 514134  (Ruta: P24B - Vuelta)
+514134 -> 514347  (Ruta: P24B - Vuelta)
+514347 -> 514347  (Ruta: P24B - Vuelta)
+514347 -> 514411  (Ruta: P24B - Vuelta)
+514411 -> 514411  (Ruta: P24B - Vuelta)
+514411 -> 514345  (Ruta: P24B - Vuelta)
+514345 -> 514345  (Ruta: P24B - Vuelta)
+514345 -> 514156  (Ruta: P24B - Vuelta)
+514156 -> 514156  (Ruta: P24B - Vuelta)
+514156 -> 500150  (Ruta: P24B - Vuelta)
+500150 -> 500150  (Ruta: P24B - Vuelta)

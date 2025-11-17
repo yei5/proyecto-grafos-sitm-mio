@@ -1,0 +1,58 @@
+== 385-1 ==
+Nodos: 25
+Arcos: 25
+------------------------------------
+
+=== Lista de Nodos ===
+514531 - D72FK26I
+514476 - K26D70D
+518019 - K23T29
+518118 - K27C52
+514475 - K26D70
+518115 - K27C34
+518114 - K27C33E
+518117 - K27C44
+514478 - D71AK24C
+518116 - K27C36A
+514532 - C72K26J
+514477 - D71AK25C
+518111 - D22T25
+518113 - C33CK25
+518112 - C33CK24B
+600161 - A.SANI13
+514449 - D71AC72
+514503 - D72CK26
+600167 - A.SANI18
+514369 - C73K25U
+514444 - D70K26H3
+518187 - K26ID72A
+518185 - K27C71
+500167 - A.SANI18
+500161 - A.SANI13
+
+=== Lista de Arcos ===
+518111 -> 500167  (Ruta: A85 - Vuelta)
+500167 -> 518019  (Ruta: A85 - Vuelta)
+518019 -> 600167  (Ruta: A85 - Vuelta)
+600167 -> 518112  (Ruta: A85 - Vuelta)
+518112 -> 600161  (Ruta: A85 - Vuelta)
+600161 -> 518113  (Ruta: A85 - Vuelta)
+518113 -> 500161  (Ruta: A85 - Vuelta)
+500161 -> 518114  (Ruta: A85 - Vuelta)
+518114 -> 518115  (Ruta: A85 - Vuelta)
+518115 -> 518116  (Ruta: A85 - Vuelta)
+518116 -> 518117  (Ruta: A85 - Vuelta)
+518117 -> 518118  (Ruta: A85 - Vuelta)
+518118 -> 518185  (Ruta: A85 - Vuelta)
+518185 -> 514532  (Ruta: A85 - Vuelta)
+514532 -> 514531  (Ruta: A85 - Vuelta)
+514531 -> 514503  (Ruta: A85 - Vuelta)
+514503 -> 518187  (Ruta: A85 - Vuelta)
+518187 -> 514444  (Ruta: A85 - Vuelta)
+514444 -> 514475  (Ruta: A85 - Vuelta)
+514475 -> 514476  (Ruta: A85 - Vuelta)
+514476 -> 514477  (Ruta: A85 - Vuelta)
+514477 -> 514478  (Ruta: A85 - Vuelta)
+514478 -> 514449  (Ruta: A85 - Vuelta)
+514449 -> 514369  (Ruta: A85 - Vuelta)
+514369 -> 500167  (Ruta: A85 - Vuelta)

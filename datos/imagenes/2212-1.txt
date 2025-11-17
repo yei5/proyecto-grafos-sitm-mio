@@ -1,0 +1,139 @@
+== 2212-1 ==
+Nodos: 41
+Arcos: 90
+------------------------------------
+
+=== Lista de Nodos ===
+514014 - C70K7BB
+514399 - C70K7RB
+516139 - C25K69A
+514012 - C70K7EB
+511284 - C25K952
+513104 - C70K5
+513049 - C70K4N2
+516230 - C25K561
+518058 - C70K29
+515142 - C36K46B
+515143 - C36K47B
+514010 - C70K7L
+516170 - C36K42A
+511281 - C25K981
+513063 - C70K1A10
+516171 - C36K44
+516195 - C25K66
+503004 - TCALIPA4
+518171 - C70K26E
+518050 - C70K26J
+514407 - C70K11P2
+513112 - C70K1A6
+514003 - C70K11E
+513035 - C70K1I
+513231 - C70K1B
+513252 - C70K6N
+511278 - C25K862
+516168 - C36K40
+518147 - C70K25
+511279 - C25K89
+513114 - C70K11
+516169 - C36K41A
+511276 - C25K83B2
+518149 - C70K34
+513014 - C70K1C2
+513290 - C70K4C
+518164 - C70K27A
+502301 - UNIV2
+518060 - C70K32
+500102 - TMENGA3
+512019 - C70A2N2
+
+=== Lista de Arcos ===
+500102 -> 503004  (Ruta: P21B - Vuelta)
+503004 -> 513290  (Ruta: P21B - Vuelta)
+513290 -> 512019  (Ruta: P21B - Vuelta)
+512019 -> 518058  (Ruta: P21B - Vuelta)
+518058 -> 513104  (Ruta: P21B - Vuelta)
+513104 -> 513252  (Ruta: P21B - Vuelta)
+513252 -> 518060  (Ruta: P21B - Vuelta)
+518060 -> 514014  (Ruta: P21B - Vuelta)
+514014 -> 513049  (Ruta: P21B - Vuelta)
+513049 -> 518149  (Ruta: P21B - Vuelta)
+518149 -> 514012  (Ruta: P21B - Vuelta)
+514012 -> 513114  (Ruta: P21B - Vuelta)
+513114 -> 516168  (Ruta: P21B - Vuelta)
+516168 -> 514010  (Ruta: P21B - Vuelta)
+514010 -> 513112  (Ruta: P21B - Vuelta)
+513112 -> 516169  (Ruta: P21B - Vuelta)
+516169 -> 514399  (Ruta: P21B - Vuelta)
+514399 -> 513063  (Ruta: P21B - Vuelta)
+513063 -> 516170  (Ruta: P21B - Vuelta)
+516170 -> 514407  (Ruta: P21B - Vuelta)
+514407 -> 513231  (Ruta: P21B - Vuelta)
+513231 -> 516171  (Ruta: P21B - Vuelta)
+516171 -> 514003  (Ruta: P21B - Vuelta)
+514003 -> 513014  (Ruta: P21B - Vuelta)
+513014 -> 515142  (Ruta: P21B - Vuelta)
+515142 -> 518147  (Ruta: P21B - Vuelta)
+518147 -> 513035  (Ruta: P21B - Vuelta)
+513035 -> 515143  (Ruta: P21B - Vuelta)
+515143 -> 518171  (Ruta: P21B - Vuelta)
+518171 -> 513290  (Ruta: P21B - Vuelta)
+513290 -> 516230  (Ruta: P21B - Vuelta)
+516230 -> 518050  (Ruta: P21B - Vuelta)
+518050 -> 513104  (Ruta: P21B - Vuelta)
+513104 -> 516195  (Ruta: P21B - Vuelta)
+516195 -> 518164  (Ruta: P21B - Vuelta)
+518164 -> 514014  (Ruta: P21B - Vuelta)
+514014 -> 516139  (Ruta: P21B - Vuelta)
+516139 -> 503004  (Ruta: P21B - Vuelta)
+503004 -> 514012  (Ruta: P21B - Vuelta)
+514012 -> 511276  (Ruta: P21B - Vuelta)
+511276 -> 518058  (Ruta: P21B - Vuelta)
+518058 -> 514010  (Ruta: P21B - Vuelta)
+514010 -> 511278  (Ruta: P21B - Vuelta)
+511278 -> 518060  (Ruta: P21B - Vuelta)
+518060 -> 514399  (Ruta: P21B - Vuelta)
+514399 -> 511279  (Ruta: P21B - Vuelta)
+511279 -> 518149  (Ruta: P21B - Vuelta)
+518149 -> 514407  (Ruta: P21B - Vuelta)
+514407 -> 511284  (Ruta: P21B - Vuelta)
+511284 -> 516168  (Ruta: P21B - Vuelta)
+516168 -> 514003  (Ruta: P21B - Vuelta)
+514003 -> 511281  (Ruta: P21B - Vuelta)
+511281 -> 516169  (Ruta: P21B - Vuelta)
+516169 -> 518147  (Ruta: P21B - Vuelta)
+518147 -> 502301  (Ruta: P21B - Vuelta)
+502301 -> 516170  (Ruta: P21B - Vuelta)
+516170 -> 518171  (Ruta: P21B - Vuelta)
+518171 -> 516171  (Ruta: P21B - Vuelta)
+516171 -> 518050  (Ruta: P21B - Vuelta)
+518050 -> 515142  (Ruta: P21B - Vuelta)
+515142 -> 518164  (Ruta: P21B - Vuelta)
+518164 -> 515143  (Ruta: P21B - Vuelta)
+515143 -> 503004  (Ruta: P21B - Vuelta)
+503004 -> 516230  (Ruta: P21B - Vuelta)
+516230 -> 518058  (Ruta: P21B - Vuelta)
+518058 -> 516195  (Ruta: P21B - Vuelta)
+516195 -> 518060  (Ruta: P21B - Vuelta)
+518060 -> 516139  (Ruta: P21B - Vuelta)
+516139 -> 518149  (Ruta: P21B - Vuelta)
+518149 -> 511276  (Ruta: P21B - Vuelta)
+511276 -> 516168  (Ruta: P21B - Vuelta)
+516168 -> 511278  (Ruta: P21B - Vuelta)
+511278 -> 516169  (Ruta: P21B - Vuelta)
+516169 -> 511279  (Ruta: P21B - Vuelta)
+511279 -> 516170  (Ruta: P21B - Vuelta)
+516170 -> 511284  (Ruta: P21B - Vuelta)
+511284 -> 516171  (Ruta: P21B - Vuelta)
+516171 -> 511281  (Ruta: P21B - Vuelta)
+511281 -> 515142  (Ruta: P21B - Vuelta)
+515142 -> 502301  (Ruta: P21B - Vuelta)
+502301 -> 515143  (Ruta: P21B - Vuelta)
+515143 -> 516230  (Ruta: P21B - Vuelta)
+516230 -> 516195  (Ruta: P21B - Vuelta)
+516195 -> 516139  (Ruta: P21B - Vuelta)
+516139 -> 511276  (Ruta: P21B - Vuelta)
+511276 -> 511278  (Ruta: P21B - Vuelta)
+511278 -> 511279  (Ruta: P21B - Vuelta)
+511279 -> 511284  (Ruta: P21B - Vuelta)
+511284 -> 511281  (Ruta: P21B - Vuelta)
+511281 -> 502301  (Ruta: P21B - Vuelta)

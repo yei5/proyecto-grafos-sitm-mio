@@ -1,0 +1,55 @@
+== 1571-1 ==
+Nodos: 17
+Arcos: 30
+------------------------------------
+
+=== Lista de Nodos ===
+502601 - N.LATIR1
+501402 - SANPAS3
+501600 - SNTLIB1
+502701 - TRONCAL1
+501700 - ESTAD1
+502801 - VLNUEVA1
+501800 - LIDO1
+502901 - PRIMITI1
+502751 - CONQUIS1
+502851 - ST.MONI1
+501850 - UDP1
+502951 - C.PALOS1
+501752 - TEQUE3
+503006 - TCALIPA6
+501000 - SANBO1
+502651 - AMANECE1
+501650 - MANZA1
+
+=== Lista de Arcos ===
+502601 -> 503006  (Ruta: T57A - Vuelta)
+503006 -> 502651  (Ruta: T57A - Vuelta)
+502651 -> 502751  (Ruta: T57A - Vuelta)
+502751 -> 502701  (Ruta: T57A - Vuelta)
+502701 -> 502801  (Ruta: T57A - Vuelta)
+502801 -> 503006  (Ruta: T57A - Vuelta)
+503006 -> 502851  (Ruta: T57A - Vuelta)
+502851 -> 502751  (Ruta: T57A - Vuelta)
+502751 -> 502901  (Ruta: T57A - Vuelta)
+502901 -> 502801  (Ruta: T57A - Vuelta)
+502801 -> 502951  (Ruta: T57A - Vuelta)
+502951 -> 502851  (Ruta: T57A - Vuelta)
+502851 -> 501402  (Ruta: T57A - Vuelta)
+501402 -> 502901  (Ruta: T57A - Vuelta)
+502901 -> 501000  (Ruta: T57A - Vuelta)
+501000 -> 502951  (Ruta: T57A - Vuelta)
+502951 -> 501600  (Ruta: T57A - Vuelta)
+501600 -> 501402  (Ruta: T57A - Vuelta)
+501402 -> 501650  (Ruta: T57A - Vuelta)
+501650 -> 501000  (Ruta: T57A - Vuelta)
+501000 -> 501700  (Ruta: T57A - Vuelta)
+501700 -> 501600  (Ruta: T57A - Vuelta)
+501600 -> 501752  (Ruta: T57A - Vuelta)
+501752 -> 501650  (Ruta: T57A - Vuelta)
+501650 -> 501800  (Ruta: T57A - Vuelta)
+501800 -> 501700  (Ruta: T57A - Vuelta)
+501700 -> 501850  (Ruta: T57A - Vuelta)
+501850 -> 501752  (Ruta: T57A - Vuelta)
+501752 -> 501800  (Ruta: T57A - Vuelta)
+501800 -> 501850  (Ruta: T57A - Vuelta)

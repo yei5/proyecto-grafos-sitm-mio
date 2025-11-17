@@ -1,0 +1,71 @@
+== 3173-1 ==
+Nodos: 27
+Arcos: 36
+------------------------------------
+
+=== Lista de Nodos ===
+511021 - C25UAUT2
+511385 - C42K114A
+511162 - K109C26
+511020 - C25UAUT
+511386 - C42K112
+511387 - C42K109
+502309 - UNIVCOM4
+511160 - K109C571
+511161 - K109C501
+502310 - UNIVCOM5
+511414 - C42K1122
+511415 - K114AC42
+511016 - C25K101
+511159 - K118COM2
+511357 - K118K109
+511412 - K109C423
+511413 - C42K1121
+511153 - K109C50
+511154 - K109C57
+511157 - K118JAG1
+602309 - UNIVCOM4
+511356 - K109K118
+511158 - K118JUV2
+511155 - K118COM1
+511156 - K118JUV1
+511409 - K109C421
+602310 - UNIVCOM5
+
+=== Lista de Arcos ===
+502309 -> 502310  (Ruta: A17C - Vuelta)
+502310 -> 502309  (Ruta: A17C - Vuelta)
+502309 -> 511016  (Ruta: A17C - Vuelta)
+511016 -> 602310  (Ruta: A17C - Vuelta)
+602310 -> 511016  (Ruta: A17C - Vuelta)
+511016 -> 511020  (Ruta: A17C - Vuelta)
+511020 -> 602309  (Ruta: A17C - Vuelta)
+602309 -> 511020  (Ruta: A17C - Vuelta)
+511020 -> 511021  (Ruta: A17C - Vuelta)
+511021 -> 502309  (Ruta: A17C - Vuelta)
+502309 -> 511021  (Ruta: A17C - Vuelta)
+511021 -> 511385  (Ruta: A17C - Vuelta)
+511385 -> 511385  (Ruta: A17C - Vuelta)
+511385 -> 511387  (Ruta: A17C - Vuelta)
+511387 -> 511387  (Ruta: A17C - Vuelta)
+511387 -> 511386  (Ruta: A17C - Vuelta)
+511386 -> 511386  (Ruta: A17C - Vuelta)
+511386 -> 511409  (Ruta: A17C - Vuelta)
+511409 -> 511162  (Ruta: A17C - Vuelta)
+511162 -> 511153  (Ruta: A17C - Vuelta)
+511153 -> 502310  (Ruta: A17C - Vuelta)
+502310 -> 511154  (Ruta: A17C - Vuelta)
+511154 -> 511356  (Ruta: A17C - Vuelta)
+511356 -> 511155  (Ruta: A17C - Vuelta)
+511155 -> 511156  (Ruta: A17C - Vuelta)
+511156 -> 511157  (Ruta: A17C - Vuelta)
+511157 -> 511158  (Ruta: A17C - Vuelta)
+511158 -> 511159  (Ruta: A17C - Vuelta)
+511159 -> 511357  (Ruta: A17C - Vuelta)
+511357 -> 511160  (Ruta: A17C - Vuelta)
+511160 -> 511161  (Ruta: A17C - Vuelta)
+511161 -> 511412  (Ruta: A17C - Vuelta)
+511412 -> 511413  (Ruta: A17C - Vuelta)
+511413 -> 511414  (Ruta: A17C - Vuelta)
+511414 -> 511415  (Ruta: A17C - Vuelta)
+511415 -> 502310  (Ruta: A17C - Vuelta)

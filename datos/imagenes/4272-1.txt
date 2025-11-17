@@ -1,0 +1,34 @@
+== 4272-1 ==
+Nodos: 13
+Arcos: 13
+------------------------------------
+
+=== Lista de Nodos ===
+601855 - UDP6
+512001 - A1NC10
+601854 - UDP5
+513003 - A1NC71
+519117 - C5K22
+519135 - C5K6Y9
+519136 - C5K13
+501854 - UDP5
+501855 - UDP6
+501800 - LIDO1
+501702 - ESTAD3
+502400 - L.AMERI1
+501652 - MANZA3
+
+=== Lista de Arcos ===
+502400 -> 501854  (Ruta: E27B - Vuelta)
+501854 -> 512001  (Ruta: E27B - Vuelta)
+512001 -> 601854  (Ruta: E27B - Vuelta)
+601854 -> 513003  (Ruta: E27B - Vuelta)
+513003 -> 601855  (Ruta: E27B - Vuelta)
+601855 -> 519135  (Ruta: E27B - Vuelta)
+519135 -> 501855  (Ruta: E27B - Vuelta)
+501855 -> 519136  (Ruta: E27B - Vuelta)
+519136 -> 519117  (Ruta: E27B - Vuelta)
+519117 -> 501652  (Ruta: E27B - Vuelta)
+501652 -> 501702  (Ruta: E27B - Vuelta)
+501702 -> 501800  (Ruta: E27B - Vuelta)
+501800 -> 501854  (Ruta: E27B - Vuelta)

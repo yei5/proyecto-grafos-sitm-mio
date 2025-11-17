@@ -1,0 +1,131 @@
+== 142-1 ==
+Nodos: 35
+Arcos: 88
+------------------------------------
+
+=== Lista de Nodos ===
+514212 - K25C104
+514211 - C121K25B
+514474 - K28DC122
+514210 - C121K26E
+514056 - K25C74
+514055 - K25C771
+514535 - C121K26
+514039 - C121K27F
+514215 - K25C80A
+514214 - K25C85
+514213 - K25C892
+514054 - K25C80
+501200 - CHAPI1
+501300 - FLORE1
+501500 - PTCUY2
+502351 - VERSALL2
+514209 - C121K26J
+514429 - C121K263
+514208 - C121K26P
+514207 - C121C121
+514206 - C121122A
+512022 - A3NC31
+512020 - A3NC23D
+512021 - A3NC32A
+514326 - C123K281
+514249 - K28FC12K
+514246 - C123K28D
+514147 - K25C114
+514483 - K28FC122
+514482 - K28DC123
+514481 - K28DC121
+501552 - SANPED6
+501350 - BELAL1
+501150 - VICOL1
+501250 - ATGI1
+
+=== Lista de Arcos ===
+514481 -> 512020  (Ruta: T42 - Vuelta)
+512020 -> 514208  (Ruta: T42 - Vuelta)
+514208 -> 514039  (Ruta: T42 - Vuelta)
+514039 -> 514482  (Ruta: T42 - Vuelta)
+514482 -> 512021  (Ruta: T42 - Vuelta)
+512021 -> 514535  (Ruta: T42 - Vuelta)
+514535 -> 514208  (Ruta: T42 - Vuelta)
+514208 -> 514246  (Ruta: T42 - Vuelta)
+514246 -> 512022  (Ruta: T42 - Vuelta)
+512022 -> 514209  (Ruta: T42 - Vuelta)
+514209 -> 514535  (Ruta: T42 - Vuelta)
+514535 -> 514326  (Ruta: T42 - Vuelta)
+514326 -> 514429  (Ruta: T42 - Vuelta)
+514429 -> 514209  (Ruta: T42 - Vuelta)
+514209 -> 514474  (Ruta: T42 - Vuelta)
+514474 -> 514210  (Ruta: T42 - Vuelta)
+514210 -> 514429  (Ruta: T42 - Vuelta)
+514429 -> 514249  (Ruta: T42 - Vuelta)
+514249 -> 514211  (Ruta: T42 - Vuelta)
+514211 -> 514210  (Ruta: T42 - Vuelta)
+514210 -> 514483  (Ruta: T42 - Vuelta)
+514483 -> 514147  (Ruta: T42 - Vuelta)
+514147 -> 514211  (Ruta: T42 - Vuelta)
+514211 -> 514206  (Ruta: T42 - Vuelta)
+514206 -> 514212  (Ruta: T42 - Vuelta)
+514212 -> 514147  (Ruta: T42 - Vuelta)
+514147 -> 514207  (Ruta: T42 - Vuelta)
+514207 -> 514213  (Ruta: T42 - Vuelta)
+514213 -> 514212  (Ruta: T42 - Vuelta)
+514212 -> 514039  (Ruta: T42 - Vuelta)
+514039 -> 514214  (Ruta: T42 - Vuelta)
+514214 -> 514213  (Ruta: T42 - Vuelta)
+514213 -> 514208  (Ruta: T42 - Vuelta)
+514208 -> 514215  (Ruta: T42 - Vuelta)
+514215 -> 514214  (Ruta: T42 - Vuelta)
+514214 -> 514535  (Ruta: T42 - Vuelta)
+514535 -> 514054  (Ruta: T42 - Vuelta)
+514054 -> 514215  (Ruta: T42 - Vuelta)
+514215 -> 514209  (Ruta: T42 - Vuelta)
+514209 -> 514055  (Ruta: T42 - Vuelta)
+514055 -> 514054  (Ruta: T42 - Vuelta)
+514054 -> 514429  (Ruta: T42 - Vuelta)
+514429 -> 514056  (Ruta: T42 - Vuelta)
+514056 -> 514055  (Ruta: T42 - Vuelta)
+514055 -> 514210  (Ruta: T42 - Vuelta)
+514210 -> 501150  (Ruta: T42 - Vuelta)
+501150 -> 514056  (Ruta: T42 - Vuelta)
+514056 -> 514211  (Ruta: T42 - Vuelta)
+514211 -> 501200  (Ruta: T42 - Vuelta)
+501200 -> 501150  (Ruta: T42 - Vuelta)
+501150 -> 514147  (Ruta: T42 - Vuelta)
+514147 -> 501250  (Ruta: T42 - Vuelta)
+501250 -> 501200  (Ruta: T42 - Vuelta)
+501200 -> 514212  (Ruta: T42 - Vuelta)
+514212 -> 501300  (Ruta: T42 - Vuelta)
+501300 -> 501250  (Ruta: T42 - Vuelta)
+501250 -> 514213  (Ruta: T42 - Vuelta)
+514213 -> 501350  (Ruta: T42 - Vuelta)
+501350 -> 501300  (Ruta: T42 - Vuelta)
+501300 -> 514214  (Ruta: T42 - Vuelta)
+514214 -> 501500  (Ruta: T42 - Vuelta)
+501500 -> 501350  (Ruta: T42 - Vuelta)
+501350 -> 514215  (Ruta: T42 - Vuelta)
+514215 -> 501552  (Ruta: T42 - Vuelta)
+501552 -> 501500  (Ruta: T42 - Vuelta)
+501500 -> 514054  (Ruta: T42 - Vuelta)
+514054 -> 502351  (Ruta: T42 - Vuelta)
+502351 -> 501552  (Ruta: T42 - Vuelta)
+501552 -> 514055  (Ruta: T42 - Vuelta)
+514055 -> 512020  (Ruta: T42 - Vuelta)
+512020 -> 502351  (Ruta: T42 - Vuelta)
+502351 -> 514056  (Ruta: T42 - Vuelta)
+514056 -> 512021  (Ruta: T42 - Vuelta)
+512021 -> 512020  (Ruta: T42 - Vuelta)
+512020 -> 501150  (Ruta: T42 - Vuelta)
+501150 -> 512022  (Ruta: T42 - Vuelta)
+512022 -> 512021  (Ruta: T42 - Vuelta)
+512021 -> 501200  (Ruta: T42 - Vuelta)
+501200 -> 512022  (Ruta: T42 - Vuelta)
+512022 -> 501250  (Ruta: T42 - Vuelta)
+501250 -> 501300  (Ruta: T42 - Vuelta)
+501300 -> 501350  (Ruta: T42 - Vuelta)
+501350 -> 501500  (Ruta: T42 - Vuelta)
+501500 -> 501552  (Ruta: T42 - Vuelta)
+501552 -> 502351  (Ruta: T42 - Vuelta)
+502351 -> 512020  (Ruta: T42 - Vuelta)
+512020 -> 512021  (Ruta: T42 - Vuelta)
+512021 -> 512022  (Ruta: T42 - Vuelta)

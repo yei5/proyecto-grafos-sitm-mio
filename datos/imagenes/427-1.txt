@@ -1,0 +1,62 @@
+== 427-1 ==
+Nodos: 27
+Arcos: 27
+------------------------------------
+
+=== Lista de Nodos ===
+512035 - A2NC57AN
+512014 - A2NC70
+513003 - A1NC71
+500106 - TMENGA7
+501854 - UDP5
+502450 - PRADNOR1
+502550 - ALAMOS1
+602100 - CAPRI1
+602101 - CAPRI2
+512022 - A3NC31
+513254 - C70A2BS1
+512144 - C55NA2F
+512023 - A3NC24
+512001 - A1NC10
+519117 - C5K22
+519135 - C5K6Y9
+519136 - C5K13
+512181 - A2NC62AN
+501800 - LIDO1
+512182 - C55A2B
+501702 - ESTAD3
+502400 - L.AMERI1
+501652 - MANZA3
+502500 - VIPASA1
+501950 - PAMPA1
+502100 - CAPRI1
+502101 - CAPRI2
+
+=== Lista de Arcos ===
+500106 -> 502100  (Ruta: E27 - Vuelta)
+502100 -> 513254  (Ruta: E27 - Vuelta)
+513254 -> 602100  (Ruta: E27 - Vuelta)
+602100 -> 512014  (Ruta: E27 - Vuelta)
+512014 -> 602101  (Ruta: E27 - Vuelta)
+602101 -> 512181  (Ruta: E27 - Vuelta)
+512181 -> 502101  (Ruta: E27 - Vuelta)
+502101 -> 512035  (Ruta: E27 - Vuelta)
+512035 -> 512182  (Ruta: E27 - Vuelta)
+512182 -> 512144  (Ruta: E27 - Vuelta)
+512144 -> 502550  (Ruta: E27 - Vuelta)
+502550 -> 502500  (Ruta: E27 - Vuelta)
+502500 -> 502450  (Ruta: E27 - Vuelta)
+502450 -> 512022  (Ruta: E27 - Vuelta)
+512022 -> 512023  (Ruta: E27 - Vuelta)
+512023 -> 502400  (Ruta: E27 - Vuelta)
+502400 -> 512001  (Ruta: E27 - Vuelta)
+512001 -> 513003  (Ruta: E27 - Vuelta)
+513003 -> 519135  (Ruta: E27 - Vuelta)
+519135 -> 519136  (Ruta: E27 - Vuelta)
+519136 -> 519117  (Ruta: E27 - Vuelta)
+519117 -> 501652  (Ruta: E27 - Vuelta)
+501652 -> 501702  (Ruta: E27 - Vuelta)
+501702 -> 501800  (Ruta: E27 - Vuelta)
+501800 -> 501854  (Ruta: E27 - Vuelta)
+501854 -> 501950  (Ruta: E27 - Vuelta)
+501950 -> 502100  (Ruta: E27 - Vuelta)

@@ -1,0 +1,121 @@
+== 2274-1 ==
+Nodos: 38
+Arcos: 75
+------------------------------------
+
+=== Lista de Nodos ===
+512210 - A6NC70N1
+513265 - A6NC501
+517109 - C6K24A
+517208 - C6K37A
+513269 - A6NC411
+512178 - C21A5AN
+500107 - TMENGA8
+500600 - TORRE1
+519288 - K15C7
+513261 - C70A4N1
+512151 - A6NC44BA
+500900 - STROSA1
+501000 - SANBO1
+512007 - A6ANC27
+513254 - C70A2BS1
+517117 - C6K50
+513253 - C70A2N1
+513259 - C70A3DN
+512005 - A6ANC35
+517113 - C6K36
+513257 - C70A3BN2
+513015 - A6NC381
+512024 - C21A4N
+517215 - C6K44
+512003 - C70A3CN2
+517115 - C6K42
+517110 - C6K26
+517211 - C6K39T5
+500951 - FRAY3
+517111 - C6K29
+513273 - A6ANC22
+513272 - A6ANC25
+513271 - A6ANC29
+501900 - PLATOR1
+517190 - C6KDG24
+502000 - REFUG1
+502100 - CAPRI1
+512017 - C70A4N-2
+
+=== Lista de Arcos ===
+500107 -> 500107  (Ruta: P27D - Vuelta)
+500107 -> 513254  (Ruta: P27D - Vuelta)
+513254 -> 513254  (Ruta: P27D - Vuelta)
+513254 -> 513253  (Ruta: P27D - Vuelta)
+513253 -> 513253  (Ruta: P27D - Vuelta)
+513253 -> 513257  (Ruta: P27D - Vuelta)
+513257 -> 513257  (Ruta: P27D - Vuelta)
+513257 -> 512003  (Ruta: P27D - Vuelta)
+512003 -> 512003  (Ruta: P27D - Vuelta)
+512003 -> 513259  (Ruta: P27D - Vuelta)
+513259 -> 513259  (Ruta: P27D - Vuelta)
+513259 -> 513261  (Ruta: P27D - Vuelta)
+513261 -> 513261  (Ruta: P27D - Vuelta)
+513261 -> 512017  (Ruta: P27D - Vuelta)
+512017 -> 512017  (Ruta: P27D - Vuelta)
+512017 -> 512210  (Ruta: P27D - Vuelta)
+512210 -> 512210  (Ruta: P27D - Vuelta)
+512210 -> 513265  (Ruta: P27D - Vuelta)
+513265 -> 513265  (Ruta: P27D - Vuelta)
+513265 -> 512151  (Ruta: P27D - Vuelta)
+512151 -> 512151  (Ruta: P27D - Vuelta)
+512151 -> 513269  (Ruta: P27D - Vuelta)
+513269 -> 513269  (Ruta: P27D - Vuelta)
+513269 -> 513015  (Ruta: P27D - Vuelta)
+513015 -> 513015  (Ruta: P27D - Vuelta)
+513015 -> 512005  (Ruta: P27D - Vuelta)
+512005 -> 512005  (Ruta: P27D - Vuelta)
+512005 -> 513271  (Ruta: P27D - Vuelta)
+513271 -> 513271  (Ruta: P27D - Vuelta)
+513271 -> 512007  (Ruta: P27D - Vuelta)
+512007 -> 512007  (Ruta: P27D - Vuelta)
+512007 -> 513272  (Ruta: P27D - Vuelta)
+513272 -> 513272  (Ruta: P27D - Vuelta)
+513272 -> 513273  (Ruta: P27D - Vuelta)
+513273 -> 513273  (Ruta: P27D - Vuelta)
+513273 -> 512178  (Ruta: P27D - Vuelta)
+512178 -> 512178  (Ruta: P27D - Vuelta)
+512178 -> 512024  (Ruta: P27D - Vuelta)
+512024 -> 512024  (Ruta: P27D - Vuelta)
+512024 -> 500600  (Ruta: P27D - Vuelta)
+500600 -> 500600  (Ruta: P27D - Vuelta)
+500600 -> 500900  (Ruta: P27D - Vuelta)
+500900 -> 500900  (Ruta: P27D - Vuelta)
+500900 -> 500951  (Ruta: P27D - Vuelta)
+500951 -> 500951  (Ruta: P27D - Vuelta)
+500951 -> 501000  (Ruta: P27D - Vuelta)
+501000 -> 501000  (Ruta: P27D - Vuelta)
+501000 -> 519288  (Ruta: P27D - Vuelta)
+519288 -> 519288  (Ruta: P27D - Vuelta)
+519288 -> 517109  (Ruta: P27D - Vuelta)
+517109 -> 517109  (Ruta: P27D - Vuelta)
+517109 -> 517110  (Ruta: P27D - Vuelta)
+517110 -> 517110  (Ruta: P27D - Vuelta)
+517110 -> 517111  (Ruta: P27D - Vuelta)
+517111 -> 517111  (Ruta: P27D - Vuelta)
+517111 -> 517113  (Ruta: P27D - Vuelta)
+517113 -> 517113  (Ruta: P27D - Vuelta)
+517113 -> 517190  (Ruta: P27D - Vuelta)
+517190 -> 517190  (Ruta: P27D - Vuelta)
+517190 -> 517208  (Ruta: P27D - Vuelta)
+517208 -> 517208  (Ruta: P27D - Vuelta)
+517208 -> 517211  (Ruta: P27D - Vuelta)
+517211 -> 517211  (Ruta: P27D - Vuelta)
+517211 -> 517115  (Ruta: P27D - Vuelta)
+517115 -> 517115  (Ruta: P27D - Vuelta)
+517115 -> 517215  (Ruta: P27D - Vuelta)
+517215 -> 517215  (Ruta: P27D - Vuelta)
+517215 -> 517117  (Ruta: P27D - Vuelta)
+517117 -> 517117  (Ruta: P27D - Vuelta)
+517117 -> 501900  (Ruta: P27D - Vuelta)
+501900 -> 501900  (Ruta: P27D - Vuelta)
+501900 -> 502000  (Ruta: P27D - Vuelta)
+502000 -> 502000  (Ruta: P27D - Vuelta)
+502000 -> 502100  (Ruta: P27D - Vuelta)
+502100 -> 502100  (Ruta: P27D - Vuelta)

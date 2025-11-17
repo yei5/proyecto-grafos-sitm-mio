@@ -1,0 +1,47 @@
+== 3413-1 ==
+Nodos: 16
+Arcos: 23
+------------------------------------
+
+=== Lista de Nodos ===
+514553 - C94K100
+514552 - C94K101B
+514056 - K25C74
+514055 - K25C771
+514467 - K29C80
+514050 - K23C87
+514021 - K25C77
+514054 - K25C80
+514020 - K25C73A
+514053 - C80K23
+514196 - K25C891
+514052 - K23C83
+514195 - K25C84
+514051 - K23C84
+514194 - K25C80B
+500164 - A.SANI16
+
+=== Lista de Arcos ===
+514051 -> 500164  (Ruta: A41C - Vuelta)
+500164 -> 514052  (Ruta: A41C - Vuelta)
+514052 -> 514020  (Ruta: A41C - Vuelta)
+514020 -> 514053  (Ruta: A41C - Vuelta)
+514053 -> 514021  (Ruta: A41C - Vuelta)
+514021 -> 514054  (Ruta: A41C - Vuelta)
+514054 -> 514467  (Ruta: A41C - Vuelta)
+514467 -> 514055  (Ruta: A41C - Vuelta)
+514055 -> 514194  (Ruta: A41C - Vuelta)
+514194 -> 514056  (Ruta: A41C - Vuelta)
+514056 -> 514195  (Ruta: A41C - Vuelta)
+514195 -> 500164  (Ruta: A41C - Vuelta)
+500164 -> 514196  (Ruta: A41C - Vuelta)
+514196 -> 514552  (Ruta: A41C - Vuelta)
+514552 -> 514553  (Ruta: A41C - Vuelta)
+514553 -> 514050  (Ruta: A41C - Vuelta)
+514050 -> 514051  (Ruta: A41C - Vuelta)
+514051 -> 514052  (Ruta: A41C - Vuelta)
+514052 -> 514053  (Ruta: A41C - Vuelta)
+514053 -> 514054  (Ruta: A41C - Vuelta)
+514054 -> 514055  (Ruta: A41C - Vuelta)
+514055 -> 514056  (Ruta: A41C - Vuelta)
+514056 -> 500164  (Ruta: A41C - Vuelta)

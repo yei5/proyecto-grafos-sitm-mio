@@ -1,0 +1,42 @@
+== 452-0 ==
+Nodos: 16
+Arcos: 18
+------------------------------------
+
+=== Lista de Nodos ===
+512022 - A3NC31
+512023 - A3NC24
+618196 - R-CALP1
+500600 - TORRE1
+502601 - N.LATIR1
+502700 - TRONCAL2
+502900 - PRIMITI2
+518196 - R-CALP1
+502850 - ST.MONI2
+502600 - N.LATIR2
+503003 - TCALIPB3
+502650 - AMANECE2
+502750 - CONQUIS2
+502350 - VERSALL1
+602601 - N.LATIR1
+602600 - N.LATIR2
+
+=== Lista de Arcos ===
+512022 -> 502600  (Ruta: E52 - Ida)
+502600 -> 502600  (Ruta: E52 - Ida)
+502600 -> 512023  (Ruta: E52 - Ida)
+512023 -> 602600  (Ruta: E52 - Ida)
+602600 -> 602600  (Ruta: E52 - Ida)
+602600 -> 502350  (Ruta: E52 - Ida)
+502350 -> 602601  (Ruta: E52 - Ida)
+602601 -> 618196  (Ruta: E52 - Ida)
+618196 -> 500600  (Ruta: E52 - Ida)
+500600 -> 502601  (Ruta: E52 - Ida)
+502601 -> 518196  (Ruta: E52 - Ida)
+518196 -> 502900  (Ruta: E52 - Ida)
+502900 -> 502850  (Ruta: E52 - Ida)
+502850 -> 502750  (Ruta: E52 - Ida)
+502750 -> 503003  (Ruta: E52 - Ida)
+503003 -> 502700  (Ruta: E52 - Ida)
+502700 -> 502650  (Ruta: E52 - Ida)
+502650 -> 502600  (Ruta: E52 - Ida)

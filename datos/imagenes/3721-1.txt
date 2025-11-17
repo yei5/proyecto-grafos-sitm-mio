@@ -1,0 +1,64 @@
+== 3721-1 ==
+Nodos: 18
+Arcos: 38
+------------------------------------
+
+=== Lista de Nodos ===
+517205 - D51K54D
+517224 - D51C14OE
+517015 - K52C22
+517037 - K52D502
+517014 - K52C31
+517278 - D51C10O
+517223 - C7OK51A
+517204 - D51C14O
+517248 - K52C1
+517039 - D51C52
+517225 - D51C14E
+517038 - D51C82
+517203 - D51C13AO
+517035 - D50C61
+517222 - C7OK52
+517034 - C3OD511
+517150 - D52K54D
+500052 - T.C-A3
+
+=== Lista de Arcos ===
+517224 -> 500052  (Ruta: A72A - Vuelta)
+500052 -> 500052  (Ruta: A72A - Vuelta)
+500052 -> 517225  (Ruta: A72A - Vuelta)
+517225 -> 517014  (Ruta: A72A - Vuelta)
+517014 -> 517014  (Ruta: A72A - Vuelta)
+517014 -> 517204  (Ruta: A72A - Vuelta)
+517204 -> 517248  (Ruta: A72A - Vuelta)
+517248 -> 517248  (Ruta: A72A - Vuelta)
+517248 -> 517205  (Ruta: A72A - Vuelta)
+517205 -> 517034  (Ruta: A72A - Vuelta)
+517034 -> 517034  (Ruta: A72A - Vuelta)
+517034 -> 517278  (Ruta: A72A - Vuelta)
+517278 -> 517035  (Ruta: A72A - Vuelta)
+517035 -> 517035  (Ruta: A72A - Vuelta)
+517035 -> 517038  (Ruta: A72A - Vuelta)
+517038 -> 517222  (Ruta: A72A - Vuelta)
+517222 -> 517222  (Ruta: A72A - Vuelta)
+517222 -> 517039  (Ruta: A72A - Vuelta)
+517039 -> 517223  (Ruta: A72A - Vuelta)
+517223 -> 517223  (Ruta: A72A - Vuelta)
+517223 -> 517015  (Ruta: A72A - Vuelta)
+517015 -> 517037  (Ruta: A72A - Vuelta)
+517037 -> 517037  (Ruta: A72A - Vuelta)
+517037 -> 500052  (Ruta: A72A - Vuelta)
+500052 -> 517150  (Ruta: A72A - Vuelta)
+517150 -> 517150  (Ruta: A72A - Vuelta)
+517150 -> 517203  (Ruta: A72A - Vuelta)
+517203 -> 517203  (Ruta: A72A - Vuelta)
+517203 -> 517224  (Ruta: A72A - Vuelta)
+517224 -> 517224  (Ruta: A72A - Vuelta)
+517224 -> 517225  (Ruta: A72A - Vuelta)
+517225 -> 517204  (Ruta: A72A - Vuelta)
+517204 -> 517205  (Ruta: A72A - Vuelta)
+517205 -> 517278  (Ruta: A72A - Vuelta)
+517278 -> 517038  (Ruta: A72A - Vuelta)
+517038 -> 517039  (Ruta: A72A - Vuelta)
+517039 -> 517015  (Ruta: A72A - Vuelta)
+517015 -> 500052  (Ruta: A72A - Vuelta)

@@ -1,0 +1,167 @@
+== 2524-1 ==
+Nodos: 40
+Arcos: 119
+------------------------------------
+
+=== Lista de Nodos ===
+515028 - C48K47A
+518037 - C27K31A2
+515003 - C46K43B
+515140 - C48K49
+516097 - K50C50
+515064 - K46C43
+518033 - C27K362
+515087 - K42BC48
+515088 - K42BC51
+518035 - C27K33A2
+516094 - C27K42B2
+516096 - C27K422
+502901 - PRIMITI1
+500603 - TORRE4
+516090 - K46C372
+502951 - C.PALOS1
+516092 - C27K36
+502351 - VERSALL2
+512022 - A3NC31
+512020 - A3NC23D
+515139 - C48K50
+512021 - A3NC32A
+516103 - C46K42C2
+516086 - C51K48B
+516087 - C51K49D
+515153 - K46C42
+516264 - C27K40A
+516088 - K46C402
+515054 - C54K43B
+516082 - K46C462
+518085 - C28K23C
+501501 - PTCUY4
+516083 - C51K46D
+518084 - C27K25B
+515171 - C46K45
+516080 - K46C522
+518083 - C27K27
+516081 - K46C48
+501452 - SUCRE6
+501551 - SANPED4
+
+=== Lista de Arcos ===
+512020 -> 515028  (Ruta: P52D - Vuelta)
+515028 -> 515171  (Ruta: P52D - Vuelta)
+515171 -> 516090  (Ruta: P52D - Vuelta)
+516090 -> 515139  (Ruta: P52D - Vuelta)
+515139 -> 512021  (Ruta: P52D - Vuelta)
+512021 -> 516081  (Ruta: P52D - Vuelta)
+516081 -> 515003  (Ruta: P52D - Vuelta)
+515003 -> 516092  (Ruta: P52D - Vuelta)
+516092 -> 515140  (Ruta: P52D - Vuelta)
+515140 -> 512022  (Ruta: P52D - Vuelta)
+512022 -> 516082  (Ruta: P52D - Vuelta)
+516082 -> 516103  (Ruta: P52D - Vuelta)
+516103 -> 516094  (Ruta: P52D - Vuelta)
+516094 -> 515028  (Ruta: P52D - Vuelta)
+515028 -> 515064  (Ruta: P52D - Vuelta)
+515064 -> 515087  (Ruta: P52D - Vuelta)
+515087 -> 516096  (Ruta: P52D - Vuelta)
+516096 -> 516081  (Ruta: P52D - Vuelta)
+516081 -> 515153  (Ruta: P52D - Vuelta)
+515153 -> 515088  (Ruta: P52D - Vuelta)
+515088 -> 516264  (Ruta: P52D - Vuelta)
+516264 -> 516082  (Ruta: P52D - Vuelta)
+516082 -> 516088  (Ruta: P52D - Vuelta)
+516088 -> 515054  (Ruta: P52D - Vuelta)
+515054 -> 518033  (Ruta: P52D - Vuelta)
+518033 -> 515064  (Ruta: P52D - Vuelta)
+515064 -> 516090  (Ruta: P52D - Vuelta)
+516090 -> 516080  (Ruta: P52D - Vuelta)
+516080 -> 518035  (Ruta: P52D - Vuelta)
+518035 -> 515153  (Ruta: P52D - Vuelta)
+515153 -> 516092  (Ruta: P52D - Vuelta)
+516092 -> 516083  (Ruta: P52D - Vuelta)
+516083 -> 518037  (Ruta: P52D - Vuelta)
+518037 -> 516088  (Ruta: P52D - Vuelta)
+516088 -> 516094  (Ruta: P52D - Vuelta)
+516094 -> 516086  (Ruta: P52D - Vuelta)
+516086 -> 518083  (Ruta: P52D - Vuelta)
+518083 -> 516090  (Ruta: P52D - Vuelta)
+516090 -> 516092  (Ruta: P52D - Vuelta)
+516092 -> 516096  (Ruta: P52D - Vuelta)
+516096 -> 516087  (Ruta: P52D - Vuelta)
+516087 -> 518084  (Ruta: P52D - Vuelta)
+518084 -> 516094  (Ruta: P52D - Vuelta)
+516094 -> 516264  (Ruta: P52D - Vuelta)
+516264 -> 516097  (Ruta: P52D - Vuelta)
+516097 -> 518085  (Ruta: P52D - Vuelta)
+518085 -> 516096  (Ruta: P52D - Vuelta)
+516096 -> 518033  (Ruta: P52D - Vuelta)
+518033 -> 515139  (Ruta: P52D - Vuelta)
+515139 -> 502901  (Ruta: P52D - Vuelta)
+502901 -> 516264  (Ruta: P52D - Vuelta)
+516264 -> 518035  (Ruta: P52D - Vuelta)
+518035 -> 515140  (Ruta: P52D - Vuelta)
+515140 -> 502951  (Ruta: P52D - Vuelta)
+502951 -> 518033  (Ruta: P52D - Vuelta)
+518033 -> 518037  (Ruta: P52D - Vuelta)
+518037 -> 515028  (Ruta: P52D - Vuelta)
+515028 -> 501452  (Ruta: P52D - Vuelta)
+501452 -> 518035  (Ruta: P52D - Vuelta)
+518035 -> 518083  (Ruta: P52D - Vuelta)
+518083 -> 516081  (Ruta: P52D - Vuelta)
+516081 -> 501501  (Ruta: P52D - Vuelta)
+501501 -> 518037  (Ruta: P52D - Vuelta)
+518037 -> 518084  (Ruta: P52D - Vuelta)
+518084 -> 516082  (Ruta: P52D - Vuelta)
+516082 -> 501551  (Ruta: P52D - Vuelta)
+501551 -> 518083  (Ruta: P52D - Vuelta)
+518083 -> 518085  (Ruta: P52D - Vuelta)
+518085 -> 515064  (Ruta: P52D - Vuelta)
+515064 -> 500603  (Ruta: P52D - Vuelta)
+500603 -> 518084  (Ruta: P52D - Vuelta)
+518084 -> 502901  (Ruta: P52D - Vuelta)
+502901 -> 515153  (Ruta: P52D - Vuelta)
+515153 -> 502351  (Ruta: P52D - Vuelta)
+502351 -> 518085  (Ruta: P52D - Vuelta)
+518085 -> 502951  (Ruta: P52D - Vuelta)
+502951 -> 516088  (Ruta: P52D - Vuelta)
+516088 -> 512020  (Ruta: P52D - Vuelta)
+512020 -> 502901  (Ruta: P52D - Vuelta)
+502901 -> 501452  (Ruta: P52D - Vuelta)
+501452 -> 516090  (Ruta: P52D - Vuelta)
+516090 -> 512021  (Ruta: P52D - Vuelta)
+512021 -> 502951  (Ruta: P52D - Vuelta)
+502951 -> 501501  (Ruta: P52D - Vuelta)
+501501 -> 516092  (Ruta: P52D - Vuelta)
+516092 -> 512022  (Ruta: P52D - Vuelta)
+512022 -> 501452  (Ruta: P52D - Vuelta)
+501452 -> 501551  (Ruta: P52D - Vuelta)
+501551 -> 516094  (Ruta: P52D - Vuelta)
+516094 -> 501501  (Ruta: P52D - Vuelta)
+501501 -> 500603  (Ruta: P52D - Vuelta)
+500603 -> 516096  (Ruta: P52D - Vuelta)
+516096 -> 501551  (Ruta: P52D - Vuelta)
+501551 -> 502351  (Ruta: P52D - Vuelta)
+502351 -> 516264  (Ruta: P52D - Vuelta)
+516264 -> 500603  (Ruta: P52D - Vuelta)
+500603 -> 512020  (Ruta: P52D - Vuelta)
+512020 -> 518033  (Ruta: P52D - Vuelta)
+518033 -> 502351  (Ruta: P52D - Vuelta)
+502351 -> 512021  (Ruta: P52D - Vuelta)
+512021 -> 518035  (Ruta: P52D - Vuelta)
+518035 -> 512020  (Ruta: P52D - Vuelta)
+512020 -> 512022  (Ruta: P52D - Vuelta)
+512022 -> 518037  (Ruta: P52D - Vuelta)
+518037 -> 512021  (Ruta: P52D - Vuelta)
+512021 -> 518083  (Ruta: P52D - Vuelta)
+518083 -> 512022  (Ruta: P52D - Vuelta)
+512022 -> 518084  (Ruta: P52D - Vuelta)
+518084 -> 518085  (Ruta: P52D - Vuelta)
+518085 -> 502901  (Ruta: P52D - Vuelta)
+502901 -> 502951  (Ruta: P52D - Vuelta)
+502951 -> 501452  (Ruta: P52D - Vuelta)
+501452 -> 501501  (Ruta: P52D - Vuelta)
+501501 -> 501551  (Ruta: P52D - Vuelta)
+501551 -> 500603  (Ruta: P52D - Vuelta)
+500603 -> 502351  (Ruta: P52D - Vuelta)
+502351 -> 512020  (Ruta: P52D - Vuelta)
+512020 -> 512021  (Ruta: P52D - Vuelta)
+512021 -> 512022  (Ruta: P52D - Vuelta)

@@ -1,0 +1,73 @@
+== 2521-1 ==
+Nodos: 33
+Arcos: 32
+------------------------------------
+
+=== Lista de Nodos ===
+513149 - C34K6A
+518016 - K23C26B
+515122 - C48K30B
+514114 - C34K7
+518058 - C70K29
+515120 - K31C43
+515121 - K31C46
+518151 - C33AK17A
+502800 - VLNUEVA2
+515060 - C72UK28D
+515061 - C83K28D
+518152 - D19T28A
+502850 - ST.MONI2
+503003 - TCALIPB3
+502650 - AMANECE2
+502750 - CONQUIS2
+512105 - C34A2CN
+515119 - K31C40
+515236 - K31C41
+512020 - A3NC23D
+514320 - C33AK15
+512021 - A3NC32A
+513230 - C34K4B
+515118 - K31C36
+515058 - K29C72U
+515059 - C72UK28E
+514281 - C33AK10
+514280 - C33AK8A
+514282 - C33AK11F
+502401 - L.AMERI2
+518082 - K23T251
+513229 - C34K1A
+513228 - C34K2AN1
+
+=== Lista de Arcos ===
+502401 -> 512020  (Ruta: P52A - Vuelta)
+512020 -> 512021  (Ruta: P52A - Vuelta)
+512021 -> 512105  (Ruta: P52A - Vuelta)
+512105 -> 513228  (Ruta: P52A - Vuelta)
+513228 -> 513229  (Ruta: P52A - Vuelta)
+513229 -> 513230  (Ruta: P52A - Vuelta)
+513230 -> 513149  (Ruta: P52A - Vuelta)
+513149 -> 514114  (Ruta: P52A - Vuelta)
+514114 -> 514280  (Ruta: P52A - Vuelta)
+514280 -> 514281  (Ruta: P52A - Vuelta)
+514281 -> 514282  (Ruta: P52A - Vuelta)
+514282 -> 514320  (Ruta: P52A - Vuelta)
+514320 -> 518151  (Ruta: P52A - Vuelta)
+518151 -> 518152  (Ruta: P52A - Vuelta)
+518152 -> 518082  (Ruta: P52A - Vuelta)
+518082 -> 518016  (Ruta: P52A - Vuelta)
+518016 -> 502850  (Ruta: P52A - Vuelta)
+502850 -> 502800  (Ruta: P52A - Vuelta)
+502800 -> 502750  (Ruta: P52A - Vuelta)
+502750 -> 503003  (Ruta: P52A - Vuelta)
+503003 -> 518058  (Ruta: P52A - Vuelta)
+518058 -> 515118  (Ruta: P52A - Vuelta)
+515118 -> 515119  (Ruta: P52A - Vuelta)
+515119 -> 515236  (Ruta: P52A - Vuelta)
+515236 -> 515120  (Ruta: P52A - Vuelta)
+515120 -> 515121  (Ruta: P52A - Vuelta)
+515121 -> 515122  (Ruta: P52A - Vuelta)
+515122 -> 515058  (Ruta: P52A - Vuelta)
+515058 -> 515059  (Ruta: P52A - Vuelta)
+515059 -> 515060  (Ruta: P52A - Vuelta)
+515060 -> 502650  (Ruta: P52A - Vuelta)
+502650 -> 515061  (Ruta: P52A - Vuelta)

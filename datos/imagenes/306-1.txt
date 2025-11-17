@@ -1,0 +1,75 @@
+== 306-1 ==
+Nodos: 24
+Arcos: 43
+------------------------------------
+
+=== Lista de Nodos ===
+519038 - A4NC5
+519204 - C11OA15A
+519068 - C9K8
+519188 - A9OE
+519266 - C5K7
+519189 - A9OE2
+519186 - C11OEK15
+519187 - C14OEK12
+519184 - A15OC9A2
+519185 - PRAUSA1
+519281 - C9K14A
+519071 - K4C5
+519182 - A15OEC7
+519070 - K4C9
+519161 - A4NC3
+519183 - A15OEC9A
+519073 - K2C2OE
+519191 - A9AOE24
+519050 - C9K12
+519280 - K10C8
+519072 - K3C1OE
+519181 - A4OEC5
+519192 - A9AOE241
+519190 - A9AOE22A
+
+=== Lista de Arcos ===
+519281 -> 519281  (Ruta: A06 - Vuelta)
+519281 -> 519050  (Ruta: A06 - Vuelta)
+519050 -> 519050  (Ruta: A06 - Vuelta)
+519050 -> 519068  (Ruta: A06 - Vuelta)
+519068 -> 519280  (Ruta: A06 - Vuelta)
+519280 -> 519070  (Ruta: A06 - Vuelta)
+519070 -> 519266  (Ruta: A06 - Vuelta)
+519266 -> 519071  (Ruta: A06 - Vuelta)
+519071 -> 519071  (Ruta: A06 - Vuelta)
+519071 -> 519072  (Ruta: A06 - Vuelta)
+519072 -> 519072  (Ruta: A06 - Vuelta)
+519072 -> 519073  (Ruta: A06 - Vuelta)
+519073 -> 519073  (Ruta: A06 - Vuelta)
+519073 -> 519161  (Ruta: A06 - Vuelta)
+519161 -> 519161  (Ruta: A06 - Vuelta)
+519161 -> 519038  (Ruta: A06 - Vuelta)
+519038 -> 519038  (Ruta: A06 - Vuelta)
+519038 -> 519181  (Ruta: A06 - Vuelta)
+519181 -> 519181  (Ruta: A06 - Vuelta)
+519181 -> 519182  (Ruta: A06 - Vuelta)
+519182 -> 519182  (Ruta: A06 - Vuelta)
+519182 -> 519183  (Ruta: A06 - Vuelta)
+519183 -> 519183  (Ruta: A06 - Vuelta)
+519183 -> 519184  (Ruta: A06 - Vuelta)
+519184 -> 519184  (Ruta: A06 - Vuelta)
+519184 -> 519185  (Ruta: A06 - Vuelta)
+519185 -> 519185  (Ruta: A06 - Vuelta)
+519185 -> 519204  (Ruta: A06 - Vuelta)
+519204 -> 519204  (Ruta: A06 - Vuelta)
+519204 -> 519186  (Ruta: A06 - Vuelta)
+519186 -> 519186  (Ruta: A06 - Vuelta)
+519186 -> 519187  (Ruta: A06 - Vuelta)
+519187 -> 519187  (Ruta: A06 - Vuelta)
+519187 -> 519188  (Ruta: A06 - Vuelta)
+519188 -> 519188  (Ruta: A06 - Vuelta)
+519188 -> 519189  (Ruta: A06 - Vuelta)
+519189 -> 519189  (Ruta: A06 - Vuelta)
+519189 -> 519190  (Ruta: A06 - Vuelta)
+519190 -> 519190  (Ruta: A06 - Vuelta)
+519190 -> 519191  (Ruta: A06 - Vuelta)
+519191 -> 519191  (Ruta: A06 - Vuelta)
+519191 -> 519192  (Ruta: A06 - Vuelta)
+519192 -> 519192  (Ruta: A06 - Vuelta)

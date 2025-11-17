@@ -1,0 +1,27 @@
+== 321-1 ==
+Nodos: 10
+Arcos: 9
+------------------------------------
+
+=== Lista de Nodos ===
+513024 - K4NC72B
+512078 - C70A2BS
+513034 - K4NC71G
+513033 - K4ANC70
+513252 - C70K6N
+513027 - K4NC83
+513026 - K4NC77
+513025 - K4NC72H
+500107 - TMENGA8
+513041 - K4NC841
+
+=== Lista de Arcos ===
+500107 -> 512078  (Ruta: A21 - Vuelta)
+512078 -> 513252  (Ruta: A21 - Vuelta)
+513252 -> 513033  (Ruta: A21 - Vuelta)
+513033 -> 513034  (Ruta: A21 - Vuelta)
+513034 -> 513024  (Ruta: A21 - Vuelta)
+513024 -> 513025  (Ruta: A21 - Vuelta)
+513025 -> 513026  (Ruta: A21 - Vuelta)
+513026 -> 513027  (Ruta: A21 - Vuelta)
+513027 -> 513041  (Ruta: A21 - Vuelta)

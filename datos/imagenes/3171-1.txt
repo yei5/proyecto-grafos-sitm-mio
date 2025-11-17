@@ -1,0 +1,32 @@
+== 3171-1 ==
+Nodos: 8
+Arcos: 16
+------------------------------------
+
+=== Lista de Nodos ===
+511021 - C25UAUT2
+511385 - C42K114A
+502302 - UNIV3
+511162 - K109C26
+511020 - C25UAUT
+511493 - VHORSM
+511386 - C42K112
+511387 - C42K109
+
+=== Lista de Arcos ===
+502302 -> 502302  (Ruta: A17A - Vuelta)
+502302 -> 511020  (Ruta: A17A - Vuelta)
+511020 -> 511020  (Ruta: A17A - Vuelta)
+511020 -> 511493  (Ruta: A17A - Vuelta)
+511493 -> 511021  (Ruta: A17A - Vuelta)
+511021 -> 511021  (Ruta: A17A - Vuelta)
+511021 -> 511385  (Ruta: A17A - Vuelta)
+511385 -> 511385  (Ruta: A17A - Vuelta)
+511385 -> 511387  (Ruta: A17A - Vuelta)
+511387 -> 511387  (Ruta: A17A - Vuelta)
+511387 -> 511386  (Ruta: A17A - Vuelta)
+511386 -> 511386  (Ruta: A17A - Vuelta)
+511386 -> 511162  (Ruta: A17A - Vuelta)
+511162 -> 511162  (Ruta: A17A - Vuelta)
+511162 -> 502302  (Ruta: A17A - Vuelta)
+502302 -> 502302  (Ruta: A17A - Vuelta)

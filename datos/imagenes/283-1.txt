@@ -1,0 +1,84 @@
+== 283-1 ==
+Nodos: 38
+Arcos: 38
+------------------------------------
+
+=== Lista de Nodos ===
+514377 - C73K27
+514157 - C73K112
+514113 - C73K7C
+514431 - C73D26G9
+513144 - C73K1G
+513143 - C73K1I
+513165 - C73K1A1
+514099 - C73K7D
+513142 - C73K4
+514379 - C79K28D2
+502700 - TRONCAL2
+514076 - C73K27B
+514373 - C73K26H2
+514098 - C73K7G
+513141 - C73K7
+513163 - C73K1A2C
+514371 - C73K26G4
+514096 - C73K7JB
+514095 - C73K7M
+503007 - TCALIPB4
+502650 - AMANECE2
+504015 - PCOMERB2
+604008 - PCOMERA1
+514443 - C73D26M
+513153 - C73K1A4E
+514369 - C73K25U
+514368 - C73K26B2
+514401 - C73D18
+514082 - C73K7R
+514080 - C73K8
+514384 - C73D26I2
+513152 - C73K1A82
+513151 - C73K1A14
+513150 - C73K1D
+514381 - C73K26F1
+504008 - PCOMERA1
+604015 - PCOMERB2
+514415 - C76K28A
+
+=== Lista de Arcos ===
+503007 -> 504008  (Ruta: P83 - Vuelta)
+504008 -> 502700  (Ruta: P83 - Vuelta)
+502700 -> 604008  (Ruta: P83 - Vuelta)
+604008 -> 502650  (Ruta: P83 - Vuelta)
+502650 -> 604015  (Ruta: P83 - Vuelta)
+604015 -> 514379  (Ruta: P83 - Vuelta)
+514379 -> 504015  (Ruta: P83 - Vuelta)
+504015 -> 514415  (Ruta: P83 - Vuelta)
+514415 -> 514076  (Ruta: P83 - Vuelta)
+514076 -> 514377  (Ruta: P83 - Vuelta)
+514377 -> 514443  (Ruta: P83 - Vuelta)
+514443 -> 514384  (Ruta: P83 - Vuelta)
+514384 -> 514373  (Ruta: P83 - Vuelta)
+514373 -> 514431  (Ruta: P83 - Vuelta)
+514431 -> 514371  (Ruta: P83 - Vuelta)
+514371 -> 514381  (Ruta: P83 - Vuelta)
+514381 -> 514368  (Ruta: P83 - Vuelta)
+514368 -> 514369  (Ruta: P83 - Vuelta)
+514369 -> 514401  (Ruta: P83 - Vuelta)
+514401 -> 514157  (Ruta: P83 - Vuelta)
+514157 -> 514080  (Ruta: P83 - Vuelta)
+514080 -> 514082  (Ruta: P83 - Vuelta)
+514082 -> 514095  (Ruta: P83 - Vuelta)
+514095 -> 514096  (Ruta: P83 - Vuelta)
+514096 -> 514098  (Ruta: P83 - Vuelta)
+514098 -> 514099  (Ruta: P83 - Vuelta)
+514099 -> 514113  (Ruta: P83 - Vuelta)
+514113 -> 513141  (Ruta: P83 - Vuelta)
+513141 -> 513142  (Ruta: P83 - Vuelta)
+513142 -> 513143  (Ruta: P83 - Vuelta)
+513143 -> 513144  (Ruta: P83 - Vuelta)
+513144 -> 513150  (Ruta: P83 - Vuelta)
+513150 -> 513151  (Ruta: P83 - Vuelta)
+513151 -> 513152  (Ruta: P83 - Vuelta)
+513152 -> 513153  (Ruta: P83 - Vuelta)
+513153 -> 513163  (Ruta: P83 - Vuelta)
+513163 -> 513165  (Ruta: P83 - Vuelta)
+513165 -> 504008  (Ruta: P83 - Vuelta)

@@ -1,0 +1,109 @@
+== 2104-1 ==
+Nodos: 28
+Arcos: 73
+------------------------------------
+
+=== Lista de Nodos ===
+516216 - C14K38A
+516218 - C14K34
+516255 - C16K44
+516079 - C13C14
+511301 - C16K90UR
+511422 - C16K85B
+516256 - C16K41C
+516257 - C16K40A
+519026 - C13K21
+519022 - C13D232
+516250 - C16K68
+500751 - ERMI3
+511237 - C16K93
+516149 - C16K46A
+514001 - C16K1001
+516146 - C16K66
+516147 - C16K56
+516148 - C16K49A
+516220 - C14K32
+501501 - PTCUY4
+516184 - C16K69
+501405 - SANPAS6
+502301 - UNIV2
+519290 - C13K23A
+501451 - SUCRE4
+511349 - C16K98
+511423 - C16K83C
+511109 - C16K75A
+
+=== Lista de Arcos ===
+502301 -> 516146  (Ruta: P10D - Vuelta)
+516146 -> 502301  (Ruta: P10D - Vuelta)
+502301 -> 514001  (Ruta: P10D - Vuelta)
+514001 -> 516147  (Ruta: P10D - Vuelta)
+516147 -> 514001  (Ruta: P10D - Vuelta)
+514001 -> 511349  (Ruta: P10D - Vuelta)
+511349 -> 516148  (Ruta: P10D - Vuelta)
+516148 -> 511349  (Ruta: P10D - Vuelta)
+511349 -> 511237  (Ruta: P10D - Vuelta)
+511237 -> 516149  (Ruta: P10D - Vuelta)
+516149 -> 511237  (Ruta: P10D - Vuelta)
+511237 -> 511301  (Ruta: P10D - Vuelta)
+511301 -> 516255  (Ruta: P10D - Vuelta)
+516255 -> 511301  (Ruta: P10D - Vuelta)
+511301 -> 511422  (Ruta: P10D - Vuelta)
+511422 -> 516256  (Ruta: P10D - Vuelta)
+516256 -> 511422  (Ruta: P10D - Vuelta)
+511422 -> 511423  (Ruta: P10D - Vuelta)
+511423 -> 516257  (Ruta: P10D - Vuelta)
+516257 -> 511423  (Ruta: P10D - Vuelta)
+511423 -> 511109  (Ruta: P10D - Vuelta)
+511109 -> 516216  (Ruta: P10D - Vuelta)
+516216 -> 511109  (Ruta: P10D - Vuelta)
+511109 -> 516184  (Ruta: P10D - Vuelta)
+516184 -> 516218  (Ruta: P10D - Vuelta)
+516218 -> 516184  (Ruta: P10D - Vuelta)
+516184 -> 516250  (Ruta: P10D - Vuelta)
+516250 -> 516220  (Ruta: P10D - Vuelta)
+516220 -> 516250  (Ruta: P10D - Vuelta)
+516250 -> 516146  (Ruta: P10D - Vuelta)
+516146 -> 516079  (Ruta: P10D - Vuelta)
+516079 -> 516146  (Ruta: P10D - Vuelta)
+516146 -> 516147  (Ruta: P10D - Vuelta)
+516147 -> 519022  (Ruta: P10D - Vuelta)
+519022 -> 516147  (Ruta: P10D - Vuelta)
+516147 -> 516148  (Ruta: P10D - Vuelta)
+516148 -> 519290  (Ruta: P10D - Vuelta)
+519290 -> 516148  (Ruta: P10D - Vuelta)
+516148 -> 516149  (Ruta: P10D - Vuelta)
+516149 -> 519026  (Ruta: P10D - Vuelta)
+519026 -> 516149  (Ruta: P10D - Vuelta)
+516149 -> 516255  (Ruta: P10D - Vuelta)
+516255 -> 501405  (Ruta: P10D - Vuelta)
+501405 -> 516255  (Ruta: P10D - Vuelta)
+516255 -> 516256  (Ruta: P10D - Vuelta)
+516256 -> 501451  (Ruta: P10D - Vuelta)
+501451 -> 516256  (Ruta: P10D - Vuelta)
+516256 -> 516257  (Ruta: P10D - Vuelta)
+516257 -> 501501  (Ruta: P10D - Vuelta)
+501501 -> 516257  (Ruta: P10D - Vuelta)
+516257 -> 516216  (Ruta: P10D - Vuelta)
+516216 -> 500751  (Ruta: P10D - Vuelta)
+500751 -> 516216  (Ruta: P10D - Vuelta)
+516216 -> 516218  (Ruta: P10D - Vuelta)
+516218 -> 516218  (Ruta: P10D - Vuelta)
+516218 -> 516220  (Ruta: P10D - Vuelta)
+516220 -> 516220  (Ruta: P10D - Vuelta)
+516220 -> 516079  (Ruta: P10D - Vuelta)
+516079 -> 516079  (Ruta: P10D - Vuelta)
+516079 -> 519022  (Ruta: P10D - Vuelta)
+519022 -> 519022  (Ruta: P10D - Vuelta)
+519022 -> 519290  (Ruta: P10D - Vuelta)
+519290 -> 519290  (Ruta: P10D - Vuelta)
+519290 -> 519026  (Ruta: P10D - Vuelta)
+519026 -> 519026  (Ruta: P10D - Vuelta)
+519026 -> 501405  (Ruta: P10D - Vuelta)
+501405 -> 501405  (Ruta: P10D - Vuelta)
+501405 -> 501451  (Ruta: P10D - Vuelta)
+501451 -> 501451  (Ruta: P10D - Vuelta)
+501451 -> 501501  (Ruta: P10D - Vuelta)
+501501 -> 501501  (Ruta: P10D - Vuelta)
+501501 -> 500751  (Ruta: P10D - Vuelta)
+500751 -> 500751  (Ruta: P10D - Vuelta)

@@ -1,0 +1,48 @@
+== 3142-1 ==
+Nodos: 17
+Arcos: 23
+------------------------------------
+
+=== Lista de Nodos ===
+511241 - K122C24
+511142 - ECOPAR31
+511143 - ECOPAR41
+511140 - ECOPAR11
+511020 - C25UAUT
+511141 - ECOPAR21
+511460 - VORAGI3
+511037 - K122C121
+511045 - K122C17A
+511144 - VORAGI1
+511035 - K122C151
+511145 - VORAGI2
+502305 - UNIVCOM2
+511381 - VORA-1
+511139 - AV-MELE2
+511039 - K122C61
+511138 - AV-MELEN
+
+=== Lista de Arcos ===
+502305 -> 502305  (Ruta: A14B - Vuelta)
+502305 -> 511020  (Ruta: A14B - Vuelta)
+511020 -> 511020  (Ruta: A14B - Vuelta)
+511020 -> 511241  (Ruta: A14B - Vuelta)
+511241 -> 511241  (Ruta: A14B - Vuelta)
+511241 -> 511045  (Ruta: A14B - Vuelta)
+511045 -> 511045  (Ruta: A14B - Vuelta)
+511045 -> 511035  (Ruta: A14B - Vuelta)
+511035 -> 511035  (Ruta: A14B - Vuelta)
+511035 -> 511037  (Ruta: A14B - Vuelta)
+511037 -> 511037  (Ruta: A14B - Vuelta)
+511037 -> 511039  (Ruta: A14B - Vuelta)
+511039 -> 511039  (Ruta: A14B - Vuelta)
+511039 -> 511138  (Ruta: A14B - Vuelta)
+511138 -> 511139  (Ruta: A14B - Vuelta)
+511139 -> 511381  (Ruta: A14B - Vuelta)
+511381 -> 511140  (Ruta: A14B - Vuelta)
+511140 -> 511141  (Ruta: A14B - Vuelta)
+511141 -> 511142  (Ruta: A14B - Vuelta)
+511142 -> 511143  (Ruta: A14B - Vuelta)
+511143 -> 511144  (Ruta: A14B - Vuelta)
+511144 -> 511460  (Ruta: A14B - Vuelta)
+511460 -> 511145  (Ruta: A14B - Vuelta)

@@ -1,0 +1,33 @@
+== 3121-1 ==
+Nodos: 13
+Arcos: 12
+------------------------------------
+
+=== Lista de Nodos ===
+516277 - K80C13
+511235 - K80C5
+511452 - K78C2A
+511453 - K78C3D
+517275 - C2AK81
+517277 - K83Y
+516276 - K80C10A
+517276 - K83C1B
+517273 - C2BK78
+511291 - MELENC5
+517272 - C4K80
+511369 - K83C2C
+511449 - K83C1
+
+=== Lista de Arcos ===
+511291 -> 511235  (Ruta: A12A - Vuelta)
+511235 -> 516277  (Ruta: A12A - Vuelta)
+516277 -> 516276  (Ruta: A12A - Vuelta)
+516276 -> 517272  (Ruta: A12A - Vuelta)
+517272 -> 511453  (Ruta: A12A - Vuelta)
+511453 -> 511452  (Ruta: A12A - Vuelta)
+511452 -> 517273  (Ruta: A12A - Vuelta)
+517273 -> 517275  (Ruta: A12A - Vuelta)
+517275 -> 517277  (Ruta: A12A - Vuelta)
+517277 -> 511449  (Ruta: A12A - Vuelta)
+511449 -> 517276  (Ruta: A12A - Vuelta)
+517276 -> 511369  (Ruta: A12A - Vuelta)

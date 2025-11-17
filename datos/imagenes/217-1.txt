@@ -1,0 +1,23 @@
+== 217-1 ==
+Nodos: 8
+Arcos: 7
+------------------------------------
+
+=== Lista de Nodos ===
+502102 - CAPRI3
+511043 - K118C241
+511020 - C25UAUT
+511361 - C18K118
+502000 - REFUG1
+502200 - BUITRE1
+502150 - MELEN1
+501854 - UDP5
+
+=== Lista de Arcos ===
+501854 -> 502000  (Ruta: P17 - Vuelta)
+502000 -> 502102  (Ruta: P17 - Vuelta)
+502102 -> 502150  (Ruta: P17 - Vuelta)
+502150 -> 502200  (Ruta: P17 - Vuelta)
+502200 -> 511020  (Ruta: P17 - Vuelta)
+511020 -> 511043  (Ruta: P17 - Vuelta)
+511043 -> 511361  (Ruta: P17 - Vuelta)

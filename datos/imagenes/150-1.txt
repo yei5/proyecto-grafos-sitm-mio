@@ -1,0 +1,40 @@
+== 150-1 ==
+Nodos: 12
+Arcos: 20
+------------------------------------
+
+=== Lista de Nodos ===
+503005 - TCALIPA5
+502751 - CONQUIS1
+502851 - ST.MONI1
+502951 - C.PALOS1
+501500 - PTCUY2
+501450 - SUCRE2
+501550 - SANPED2
+502651 - AMANECE1
+502601 - N.LATIR1
+502701 - TRONCAL1
+502801 - VLNUEVA1
+502901 - PRIMITI1
+
+=== Lista de Arcos ===
+502601 -> 503005  (Ruta: T50 - Vuelta)
+503005 -> 502651  (Ruta: T50 - Vuelta)
+502651 -> 502751  (Ruta: T50 - Vuelta)
+502751 -> 502701  (Ruta: T50 - Vuelta)
+502701 -> 502801  (Ruta: T50 - Vuelta)
+502801 -> 503005  (Ruta: T50 - Vuelta)
+503005 -> 502851  (Ruta: T50 - Vuelta)
+502851 -> 502751  (Ruta: T50 - Vuelta)
+502751 -> 502901  (Ruta: T50 - Vuelta)
+502901 -> 502801  (Ruta: T50 - Vuelta)
+502801 -> 502951  (Ruta: T50 - Vuelta)
+502951 -> 502851  (Ruta: T50 - Vuelta)
+502851 -> 501450  (Ruta: T50 - Vuelta)
+501450 -> 502901  (Ruta: T50 - Vuelta)
+502901 -> 501500  (Ruta: T50 - Vuelta)
+501500 -> 502951  (Ruta: T50 - Vuelta)
+502951 -> 501550  (Ruta: T50 - Vuelta)
+501550 -> 501450  (Ruta: T50 - Vuelta)
+501450 -> 501500  (Ruta: T50 - Vuelta)
+501500 -> 501550  (Ruta: T50 - Vuelta)

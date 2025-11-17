@@ -1,0 +1,15 @@
+== 3123-1 ==
+Nodos: 4
+Arcos: 3
+------------------------------------
+
+=== Lista de Nodos ===
+502103 - CAPRI4
+511286 - K94C4C
+511388 - C5K85Y86
+511287 - C4K93
+
+=== Lista de Arcos ===
+502103 -> 511388  (Ruta: A12C - Vuelta)
+511388 -> 511286  (Ruta: A12C - Vuelta)
+511286 -> 511287  (Ruta: A12C - Vuelta)

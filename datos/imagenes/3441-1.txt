@@ -1,0 +1,90 @@
+== 3441-1 ==
+Nodos: 30
+Arcos: 52
+------------------------------------
+
+=== Lista de Nodos ===
+514212 - K25C104
+514277 - C11226H3
+514276 - C112K26L
+514056 - K25C74
+514176 - C112K26E
+514055 - K25C771
+514215 - K25C80A
+514214 - K25C85
+514213 - K25C892
+514072 - T103D261
+514071 - T103D26P
+514070 - T103D26I
+514054 - K25C80
+514174 - C11226J5
+514173 - C112K26Q
+514073 - T103D263
+600162 - A.SANI14
+514427 - T103D26O
+600168 - A.SANI19
+514069 - T103C79
+514487 - C112K231
+514068 - T103C76
+514486 - C112K2A2
+514067 - T103C56B
+514485 - C112K2A1
+514468 - K27C108
+514186 - K27T1031
+500162 - A.SANI14
+500168 - A.SANI19
+514219 - T103K26A
+
+=== Lista de Arcos ===
+514071 -> 500168  (Ruta: A44A - Vuelta)
+500168 -> 500162  (Ruta: A44A - Vuelta)
+500162 -> 514072  (Ruta: A44A - Vuelta)
+514072 -> 600168  (Ruta: A44A - Vuelta)
+600168 -> 514219  (Ruta: A44A - Vuelta)
+514219 -> 514073  (Ruta: A44A - Vuelta)
+514073 -> 600162  (Ruta: A44A - Vuelta)
+600162 -> 514067  (Ruta: A44A - Vuelta)
+514067 -> 514186  (Ruta: A44A - Vuelta)
+514186 -> 500162  (Ruta: A44A - Vuelta)
+500162 -> 514068  (Ruta: A44A - Vuelta)
+514068 -> 514468  (Ruta: A44A - Vuelta)
+514468 -> 514069  (Ruta: A44A - Vuelta)
+514069 -> 514173  (Ruta: A44A - Vuelta)
+514173 -> 514070  (Ruta: A44A - Vuelta)
+514070 -> 514276  (Ruta: A44A - Vuelta)
+514276 -> 514427  (Ruta: A44A - Vuelta)
+514427 -> 514174  (Ruta: A44A - Vuelta)
+514174 -> 514071  (Ruta: A44A - Vuelta)
+514071 -> 514277  (Ruta: A44A - Vuelta)
+514277 -> 514072  (Ruta: A44A - Vuelta)
+514072 -> 514176  (Ruta: A44A - Vuelta)
+514176 -> 514073  (Ruta: A44A - Vuelta)
+514073 -> 514485  (Ruta: A44A - Vuelta)
+514485 -> 514186  (Ruta: A44A - Vuelta)
+514186 -> 514486  (Ruta: A44A - Vuelta)
+514486 -> 514468  (Ruta: A44A - Vuelta)
+514468 -> 514487  (Ruta: A44A - Vuelta)
+514487 -> 514173  (Ruta: A44A - Vuelta)
+514173 -> 514212  (Ruta: A44A - Vuelta)
+514212 -> 514276  (Ruta: A44A - Vuelta)
+514276 -> 514213  (Ruta: A44A - Vuelta)
+514213 -> 514174  (Ruta: A44A - Vuelta)
+514174 -> 514214  (Ruta: A44A - Vuelta)
+514214 -> 514277  (Ruta: A44A - Vuelta)
+514277 -> 514215  (Ruta: A44A - Vuelta)
+514215 -> 514176  (Ruta: A44A - Vuelta)
+514176 -> 514054  (Ruta: A44A - Vuelta)
+514054 -> 514485  (Ruta: A44A - Vuelta)
+514485 -> 514055  (Ruta: A44A - Vuelta)
+514055 -> 514486  (Ruta: A44A - Vuelta)
+514486 -> 514056  (Ruta: A44A - Vuelta)
+514056 -> 514487  (Ruta: A44A - Vuelta)
+514487 -> 500168  (Ruta: A44A - Vuelta)
+500168 -> 514212  (Ruta: A44A - Vuelta)
+514212 -> 514213  (Ruta: A44A - Vuelta)
+514213 -> 514214  (Ruta: A44A - Vuelta)
+514214 -> 514215  (Ruta: A44A - Vuelta)
+514215 -> 514054  (Ruta: A44A - Vuelta)
+514054 -> 514055  (Ruta: A44A - Vuelta)
+514055 -> 514056  (Ruta: A44A - Vuelta)
+514056 -> 500168  (Ruta: A44A - Vuelta)

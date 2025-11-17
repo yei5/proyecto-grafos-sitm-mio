@@ -1,0 +1,51 @@
+== 2241-1 ==
+Nodos: 22
+Arcos: 21
+------------------------------------
+
+=== Lista de Nodos ===
+513112 - C70K1A6
+514014 - C70K7BB
+514399 - C70K7RB
+514156 - C73K11
+513231 - C70K1B
+514012 - C70K7EB
+513252 - C70K6N
+513203 - C70K1CAI
+513104 - C70K5
+513058 - K1C66N2
+513014 - C70K1C2
+514411 - K8C72
+514345 - C73K8A
+500203 - CHIMI4
+514010 - C70K7L
+513063 - C70K1A10
+513140 - C70K2-2
+513172 - K5NC67N
+500154 - A.SANIN5
+500103 - TMENGA4
+512019 - C70A2N2
+513106 - C70K3
+
+=== Lista de Arcos ===
+500103 -> 512019  (Ruta: P24A - Vuelta)
+512019 -> 513252  (Ruta: P24A - Vuelta)
+513252 -> 513172  (Ruta: P24A - Vuelta)
+513172 -> 500203  (Ruta: P24A - Vuelta)
+500203 -> 513058  (Ruta: P24A - Vuelta)
+513058 -> 513203  (Ruta: P24A - Vuelta)
+513203 -> 513112  (Ruta: P24A - Vuelta)
+513112 -> 513063  (Ruta: P24A - Vuelta)
+513063 -> 513231  (Ruta: P24A - Vuelta)
+513231 -> 513014  (Ruta: P24A - Vuelta)
+513014 -> 513140  (Ruta: P24A - Vuelta)
+513140 -> 513106  (Ruta: P24A - Vuelta)
+513106 -> 513104  (Ruta: P24A - Vuelta)
+513104 -> 514014  (Ruta: P24A - Vuelta)
+514014 -> 514012  (Ruta: P24A - Vuelta)
+514012 -> 514010  (Ruta: P24A - Vuelta)
+514010 -> 514399  (Ruta: P24A - Vuelta)
+514399 -> 514411  (Ruta: P24A - Vuelta)
+514411 -> 514345  (Ruta: P24A - Vuelta)
+514345 -> 514156  (Ruta: P24A - Vuelta)
+514156 -> 500154  (Ruta: P24A - Vuelta)

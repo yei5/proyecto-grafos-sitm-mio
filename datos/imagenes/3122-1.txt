@@ -1,0 +1,35 @@
+== 3122-1 ==
+Nodos: 14
+Arcos: 13
+------------------------------------
+
+=== Lista de Nodos ===
+511164 - K95C3
+511351 - C4OK91
+511286 - K94C4C
+511165 - K94BC2B
+511352 - C4OK89
+511163 - K95C4
+511350 - C4OK94
+511289 - MELENC4
+511168 - K96C1O
+511169 - C4OK94B
+511166 - K94CC2
+511167 - K95C1AO
+511182 - K94CC1C
+511170 - C4OK94A
+
+=== Lista de Arcos ===
+511289 -> 511286  (Ruta: A12B - Vuelta)
+511286 -> 511163  (Ruta: A12B - Vuelta)
+511163 -> 511164  (Ruta: A12B - Vuelta)
+511164 -> 511165  (Ruta: A12B - Vuelta)
+511165 -> 511166  (Ruta: A12B - Vuelta)
+511166 -> 511182  (Ruta: A12B - Vuelta)
+511182 -> 511167  (Ruta: A12B - Vuelta)
+511167 -> 511168  (Ruta: A12B - Vuelta)
+511168 -> 511169  (Ruta: A12B - Vuelta)
+511169 -> 511170  (Ruta: A12B - Vuelta)
+511170 -> 511350  (Ruta: A12B - Vuelta)
+511350 -> 511351  (Ruta: A12B - Vuelta)
+511351 -> 511352  (Ruta: A12B - Vuelta)

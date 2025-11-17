@@ -1,0 +1,40 @@
+== 431-0 ==
+Nodos: 16
+Arcos: 16
+------------------------------------
+
+=== Lista de Nodos ===
+501853 - UDP4
+501405 - SANPAS6
+502300 - UNIV1
+502201 - BUITRE2
+501651 - MANZA2
+504016 - PCOMERB3
+504019 - PCOMERB6
+500251 - FLORAI2
+501951 - PAMPA2
+500301 - SALOM2
+500201 - CHIMI2
+502101 - CAPRI2
+500353 - POPU4
+604016 - PCOMERB3
+502151 - MELEN2
+604019 - PCOMERB6
+
+=== Lista de Arcos ===
+502300 -> 504016  (Ruta: E31 - Ida)
+504016 -> 502201  (Ruta: E31 - Ida)
+502201 -> 604016  (Ruta: E31 - Ida)
+604016 -> 502151  (Ruta: E31 - Ida)
+502151 -> 604019  (Ruta: E31 - Ida)
+604019 -> 502101  (Ruta: E31 - Ida)
+502101 -> 504019  (Ruta: E31 - Ida)
+504019 -> 501951  (Ruta: E31 - Ida)
+501951 -> 501853  (Ruta: E31 - Ida)
+501853 -> 501651  (Ruta: E31 - Ida)
+501651 -> 501405  (Ruta: E31 - Ida)
+501405 -> 500353  (Ruta: E31 - Ida)
+500353 -> 500301  (Ruta: E31 - Ida)
+500301 -> 500251  (Ruta: E31 - Ida)
+500251 -> 500201  (Ruta: E31 - Ida)
+500201 -> 504016  (Ruta: E31 - Ida)

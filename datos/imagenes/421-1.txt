@@ -1,0 +1,50 @@
+== 421-1 ==
+Nodos: 21
+Arcos: 21
+------------------------------------
+
+=== Lista de Nodos ===
+600106 - TMENGA7
+500106 - TMENGA7
+500104 - TMENGA5
+501502 - PTCUY6
+501855 - UDP6
+501701 - ESTAD2
+500603 - TORRE4
+502300 - UNIV1
+502201 - BUITRE2
+501552 - SANPED6
+502401 - L.AMERI2
+501951 - PAMPA2
+501753 - TEQUE 4
+502501 - VIPASA2
+502351 - VERSALL2
+502451 - PRADNOR2
+502551 - ALAMOS2
+501001 - SANBO2
+502051 - CALDAS2
+502151 - MELEN2
+600104 - TMENGA5
+
+=== Lista de Arcos ===
+502300 -> 500104  (Ruta: E21 - Vuelta)
+500104 -> 502201  (Ruta: E21 - Vuelta)
+502201 -> 600104  (Ruta: E21 - Vuelta)
+600104 -> 502151  (Ruta: E21 - Vuelta)
+502151 -> 600106  (Ruta: E21 - Vuelta)
+600106 -> 502051  (Ruta: E21 - Vuelta)
+502051 -> 500106  (Ruta: E21 - Vuelta)
+500106 -> 501951  (Ruta: E21 - Vuelta)
+501951 -> 501855  (Ruta: E21 - Vuelta)
+501855 -> 501753  (Ruta: E21 - Vuelta)
+501753 -> 501701  (Ruta: E21 - Vuelta)
+501701 -> 501001  (Ruta: E21 - Vuelta)
+501001 -> 501502  (Ruta: E21 - Vuelta)
+501502 -> 501552  (Ruta: E21 - Vuelta)
+501552 -> 500603  (Ruta: E21 - Vuelta)
+500603 -> 502351  (Ruta: E21 - Vuelta)
+502351 -> 502401  (Ruta: E21 - Vuelta)
+502401 -> 502451  (Ruta: E21 - Vuelta)
+502451 -> 502501  (Ruta: E21 - Vuelta)
+502501 -> 502551  (Ruta: E21 - Vuelta)
+502551 -> 500104  (Ruta: E21 - Vuelta)

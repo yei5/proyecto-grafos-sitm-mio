@@ -1,0 +1,30 @@
+== 552-1 ==
+Nodos: 11
+Arcos: 11
+------------------------------------
+
+=== Lista de Nodos ===
+500110 - TMENGA11
+500114 - TMENGA15
+500103 - TMENGA4
+500113 - TMENGA14
+500102 - TMENGA3
+500112 - TMENGA13
+500101 - TMENGA2
+500111 - TMENGA12
+500100 - TMENGA1
+500109 - TMENGA10
+500108 - TMENGA9
+
+=== Lista de Arcos ===
+500108 -> 500109  (Ruta: R52 - Vuelta)
+500109 -> 500110  (Ruta: R52 - Vuelta)
+500110 -> 500111  (Ruta: R52 - Vuelta)
+500111 -> 500112  (Ruta: R52 - Vuelta)
+500112 -> 500113  (Ruta: R52 - Vuelta)
+500113 -> 500114  (Ruta: R52 - Vuelta)
+500114 -> 500100  (Ruta: R52 - Vuelta)
+500100 -> 500101  (Ruta: R52 - Vuelta)
+500101 -> 500102  (Ruta: R52 - Vuelta)
+500102 -> 500103  (Ruta: R52 - Vuelta)
+500103 -> 500108  (Ruta: R52 - Vuelta)

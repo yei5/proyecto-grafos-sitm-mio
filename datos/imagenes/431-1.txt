@@ -1,0 +1,31 @@
+== 431-1 ==
+Nodos: 12
+Arcos: 11
+------------------------------------
+
+=== Lista de Nodos ===
+502102 - CAPRI3
+502300 - UNIV1
+501652 - MANZA3
+504019 - PCOMERB6
+500350 - POPU1
+501950 - PAMPA1
+500250 - FLORAI1
+501852 - UDP3
+500300 - SALOM1
+500200 - CHIMI3
+502200 - BUITRE1
+502150 - MELEN1
+
+=== Lista de Arcos ===
+504019 -> 500200  (Ruta: E31 - Vuelta)
+500200 -> 500250  (Ruta: E31 - Vuelta)
+500250 -> 500300  (Ruta: E31 - Vuelta)
+500300 -> 500350  (Ruta: E31 - Vuelta)
+500350 -> 501652  (Ruta: E31 - Vuelta)
+501652 -> 501852  (Ruta: E31 - Vuelta)
+501852 -> 501950  (Ruta: E31 - Vuelta)
+501950 -> 502102  (Ruta: E31 - Vuelta)
+502102 -> 502150  (Ruta: E31 - Vuelta)
+502150 -> 502200  (Ruta: E31 - Vuelta)
+502200 -> 502300  (Ruta: E31 - Vuelta)

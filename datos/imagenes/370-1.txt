@@ -1,0 +1,47 @@
+== 370-1 ==
+Nodos: 17
+Arcos: 22
+------------------------------------
+
+=== Lista de Nodos ===
+519109 - K27C3O
+519108 - C5OK24E
+517257 - C5K39
+519115 - C11OEK24
+517259 - C5K36
+519107 - K27C9O1
+517258 - C5K34A
+517132 - C1K37A
+517134 - C10OEK25
+517133 - C10OEK37
+517072 - C5K38A2
+519264 - K27C5OE
+517196 - K42C2A
+517064 - C1K42
+519110 - K27C3
+517195 - K42C5
+519282 - C5K27
+
+=== Lista de Arcos ===
+517257 -> 519282  (Ruta: A70 - Vuelta)
+519282 -> 517195  (Ruta: A70 - Vuelta)
+517195 -> 517258  (Ruta: A70 - Vuelta)
+517258 -> 517196  (Ruta: A70 - Vuelta)
+517196 -> 517259  (Ruta: A70 - Vuelta)
+517259 -> 517064  (Ruta: A70 - Vuelta)
+517064 -> 517072  (Ruta: A70 - Vuelta)
+517072 -> 517132  (Ruta: A70 - Vuelta)
+517132 -> 517257  (Ruta: A70 - Vuelta)
+517257 -> 517133  (Ruta: A70 - Vuelta)
+517133 -> 517134  (Ruta: A70 - Vuelta)
+517134 -> 519115  (Ruta: A70 - Vuelta)
+519115 -> 519107  (Ruta: A70 - Vuelta)
+519107 -> 519108  (Ruta: A70 - Vuelta)
+519108 -> 519264  (Ruta: A70 - Vuelta)
+519264 -> 519109  (Ruta: A70 - Vuelta)
+519109 -> 519110  (Ruta: A70 - Vuelta)
+519110 -> 519282  (Ruta: A70 - Vuelta)
+519282 -> 517258  (Ruta: A70 - Vuelta)
+517258 -> 517259  (Ruta: A70 - Vuelta)
+517259 -> 517072  (Ruta: A70 - Vuelta)
+517072 -> 517257  (Ruta: A70 - Vuelta)

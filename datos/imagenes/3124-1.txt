@@ -1,0 +1,37 @@
+== 3124-1 ==
+Nodos: 15
+Arcos: 14
+------------------------------------
+
+=== Lista de Nodos ===
+511296 - MELENC3
+511286 - K94C4C
+511440 - SANTAEL3
+511432 - C4K95
+511487 - URBMC1
+511443 - SANTAEL6
+511433 - C4K96
+511444 - SANTAEL7
+511441 - SANTAEL4
+511436 - K98C2
+511437 - K98C2D
+511434 - K98AC2D
+511435 - K98AC2A
+511438 - SANTAEL1
+511439 - SANTAEL2
+
+=== Lista de Arcos ===
+511296 -> 511286  (Ruta: A12D - Vuelta)
+511286 -> 511432  (Ruta: A12D - Vuelta)
+511432 -> 511433  (Ruta: A12D - Vuelta)
+511433 -> 511434  (Ruta: A12D - Vuelta)
+511434 -> 511435  (Ruta: A12D - Vuelta)
+511435 -> 511436  (Ruta: A12D - Vuelta)
+511436 -> 511437  (Ruta: A12D - Vuelta)
+511437 -> 511487  (Ruta: A12D - Vuelta)
+511487 -> 511438  (Ruta: A12D - Vuelta)
+511438 -> 511439  (Ruta: A12D - Vuelta)
+511439 -> 511443  (Ruta: A12D - Vuelta)
+511443 -> 511444  (Ruta: A12D - Vuelta)
+511444 -> 511440  (Ruta: A12D - Vuelta)
+511440 -> 511441  (Ruta: A12D - Vuelta)

@@ -1,0 +1,29 @@
+== 3131-1 ==
+Nodos: 11
+Arcos: 10
+------------------------------------
+
+=== Lista de Nodos ===
+502311 - UNIVCOM6
+511481 - C48K94A
+511267 - C48K86
+511268 - C48K83E
+511034 - K99C25
+511107 - K99C42
+511228 - C48K92
+511456 - K99C48
+511269 - C48K83A
+511479 - C48K98B
+511480 - C48K97
+
+=== Lista de Arcos ===
+502311 -> 511034  (Ruta: A13A - Vuelta)
+511034 -> 511107  (Ruta: A13A - Vuelta)
+511107 -> 511456  (Ruta: A13A - Vuelta)
+511456 -> 511479  (Ruta: A13A - Vuelta)
+511479 -> 511480  (Ruta: A13A - Vuelta)
+511480 -> 511481  (Ruta: A13A - Vuelta)
+511481 -> 511228  (Ruta: A13A - Vuelta)
+511228 -> 511267  (Ruta: A13A - Vuelta)
+511267 -> 511268  (Ruta: A13A - Vuelta)
+511268 -> 511269  (Ruta: A13A - Vuelta)

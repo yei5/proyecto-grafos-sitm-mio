@@ -1,0 +1,147 @@
+== 282-1 ==
+Nodos: 36
+Arcos: 103
+------------------------------------
+
+=== Lista de Nodos ===
+513222 - C44K6A
+513123 - K5C37
+513101 - C52K2
+513100 - C52K3
+512034 - A3NC59
+513121 - K5C34
+513127 - K5C46
+518136 - C52K2625
+513225 - C34K71
+514313 - C44K81
+513102 - C52K1E
+513289 - C52K4N
+512135 - C52A2HN
+518133 - C44K28ET
+518155 - C52K24B
+518132 - C44T29K2
+518077 - K23C49
+518135 - C44K26L
+518134 - C44K28A
+518156 - C44K21
+503004 - TCALIPA4
+514349 - C44K12C
+600101 - TMENGA2
+600102 - TMENGA3
+514343 - K8C34A
+514386 - C44K9
+514348 - C44K15
+513038 - C52K1B1
+513037 - C52K1D
+513291 - K5C44B
+513191 - C52K7N
+512081 - A3NC52
+500102 - TMENGA3
+500101 - TMENGA2
+514119 - K8C391
+514019 - C44K12
+
+=== Lista de Arcos ===
+503004 -> 500101  (Ruta: P82 - Vuelta)
+500101 -> 514348  (Ruta: P82 - Vuelta)
+514348 -> 503004  (Ruta: P82 - Vuelta)
+503004 -> 514348  (Ruta: P82 - Vuelta)
+514348 -> 518132  (Ruta: P82 - Vuelta)
+518132 -> 600101  (Ruta: P82 - Vuelta)
+600101 -> 514349  (Ruta: P82 - Vuelta)
+514349 -> 518132  (Ruta: P82 - Vuelta)
+518132 -> 514349  (Ruta: P82 - Vuelta)
+514349 -> 518133  (Ruta: P82 - Vuelta)
+518133 -> 600102  (Ruta: P82 - Vuelta)
+600102 -> 514019  (Ruta: P82 - Vuelta)
+514019 -> 518133  (Ruta: P82 - Vuelta)
+518133 -> 514019  (Ruta: P82 - Vuelta)
+514019 -> 518134  (Ruta: P82 - Vuelta)
+518134 -> 500102  (Ruta: P82 - Vuelta)
+500102 -> 514386  (Ruta: P82 - Vuelta)
+514386 -> 518134  (Ruta: P82 - Vuelta)
+518134 -> 514386  (Ruta: P82 - Vuelta)
+514386 -> 518135  (Ruta: P82 - Vuelta)
+518135 -> 514313  (Ruta: P82 - Vuelta)
+514313 -> 518135  (Ruta: P82 - Vuelta)
+518135 -> 514119  (Ruta: P82 - Vuelta)
+514119 -> 518136  (Ruta: P82 - Vuelta)
+518136 -> 513222  (Ruta: P82 - Vuelta)
+513222 -> 518136  (Ruta: P82 - Vuelta)
+518136 -> 514343  (Ruta: P82 - Vuelta)
+514343 -> 518155  (Ruta: P82 - Vuelta)
+518155 -> 513291  (Ruta: P82 - Vuelta)
+513291 -> 518155  (Ruta: P82 - Vuelta)
+518155 -> 513225  (Ruta: P82 - Vuelta)
+513225 -> 518077  (Ruta: P82 - Vuelta)
+518077 -> 513127  (Ruta: P82 - Vuelta)
+513127 -> 518077  (Ruta: P82 - Vuelta)
+518077 -> 513121  (Ruta: P82 - Vuelta)
+513121 -> 518156  (Ruta: P82 - Vuelta)
+518156 -> 513100  (Ruta: P82 - Vuelta)
+513100 -> 518156  (Ruta: P82 - Vuelta)
+518156 -> 513123  (Ruta: P82 - Vuelta)
+513123 -> 514348  (Ruta: P82 - Vuelta)
+514348 -> 513101  (Ruta: P82 - Vuelta)
+513101 -> 514348  (Ruta: P82 - Vuelta)
+514348 -> 513291  (Ruta: P82 - Vuelta)
+513291 -> 514349  (Ruta: P82 - Vuelta)
+514349 -> 513102  (Ruta: P82 - Vuelta)
+513102 -> 514349  (Ruta: P82 - Vuelta)
+514349 -> 513127  (Ruta: P82 - Vuelta)
+513127 -> 514019  (Ruta: P82 - Vuelta)
+514019 -> 513037  (Ruta: P82 - Vuelta)
+513037 -> 514019  (Ruta: P82 - Vuelta)
+514019 -> 513100  (Ruta: P82 - Vuelta)
+513100 -> 514386  (Ruta: P82 - Vuelta)
+514386 -> 513038  (Ruta: P82 - Vuelta)
+513038 -> 514386  (Ruta: P82 - Vuelta)
+514386 -> 513101  (Ruta: P82 - Vuelta)
+513101 -> 514313  (Ruta: P82 - Vuelta)
+514313 -> 513289  (Ruta: P82 - Vuelta)
+513289 -> 514119  (Ruta: P82 - Vuelta)
+514119 -> 513102  (Ruta: P82 - Vuelta)
+513102 -> 513222  (Ruta: P82 - Vuelta)
+513222 -> 513191  (Ruta: P82 - Vuelta)
+513191 -> 514343  (Ruta: P82 - Vuelta)
+514343 -> 513037  (Ruta: P82 - Vuelta)
+513037 -> 513291  (Ruta: P82 - Vuelta)
+513291 -> 512135  (Ruta: P82 - Vuelta)
+512135 -> 513225  (Ruta: P82 - Vuelta)
+513225 -> 513038  (Ruta: P82 - Vuelta)
+513038 -> 513127  (Ruta: P82 - Vuelta)
+513127 -> 512081  (Ruta: P82 - Vuelta)
+512081 -> 513121  (Ruta: P82 - Vuelta)
+513121 -> 513289  (Ruta: P82 - Vuelta)
+513289 -> 513100  (Ruta: P82 - Vuelta)
+513100 -> 512034  (Ruta: P82 - Vuelta)
+512034 -> 513123  (Ruta: P82 - Vuelta)
+513123 -> 513191  (Ruta: P82 - Vuelta)
+513191 -> 513101  (Ruta: P82 - Vuelta)
+513101 -> 500101  (Ruta: P82 - Vuelta)
+500101 -> 513291  (Ruta: P82 - Vuelta)
+513291 -> 512135  (Ruta: P82 - Vuelta)
+512135 -> 513102  (Ruta: P82 - Vuelta)
+513102 -> 513127  (Ruta: P82 - Vuelta)
+513127 -> 512081  (Ruta: P82 - Vuelta)
+512081 -> 513037  (Ruta: P82 - Vuelta)
+513037 -> 513100  (Ruta: P82 - Vuelta)
+513100 -> 512034  (Ruta: P82 - Vuelta)
+512034 -> 513038  (Ruta: P82 - Vuelta)
+513038 -> 513101  (Ruta: P82 - Vuelta)
+513101 -> 500101  (Ruta: P82 - Vuelta)
+500101 -> 513289  (Ruta: P82 - Vuelta)
+513289 -> 513102  (Ruta: P82 - Vuelta)
+513102 -> 513191  (Ruta: P82 - Vuelta)
+513191 -> 513037  (Ruta: P82 - Vuelta)
+513037 -> 512135  (Ruta: P82 - Vuelta)
+512135 -> 513038  (Ruta: P82 - Vuelta)
+513038 -> 512081  (Ruta: P82 - Vuelta)
+512081 -> 513289  (Ruta: P82 - Vuelta)
+513289 -> 512034  (Ruta: P82 - Vuelta)
+512034 -> 513191  (Ruta: P82 - Vuelta)
+513191 -> 500101  (Ruta: P82 - Vuelta)
+500101 -> 512135  (Ruta: P82 - Vuelta)
+512135 -> 512081  (Ruta: P82 - Vuelta)
+512081 -> 512034  (Ruta: P82 - Vuelta)
+512034 -> 500101  (Ruta: P82 - Vuelta)

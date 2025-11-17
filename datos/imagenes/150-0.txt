@@ -1,0 +1,46 @@
+== 150-0 ==
+Nodos: 17
+Arcos: 21
+------------------------------------
+
+=== Lista de Nodos ===
+502700 - TRONCAL2
+502601 - N.LATIR1
+501403 - SANPAS4
+502800 - VLNUEVA2
+502900 - PRIMITI2
+502850 - ST.MONI2
+502950 - C.PALOS2
+502600 - N.LATIR2
+500851 - CENTRO3
+500950 - FRAY1
+500751 - ERMI3
+501550 - SANPED2
+502650 - AMANECE2
+503002 - TCALIPB2
+502750 - CONQUIS2
+602601 - N.LATIR1
+602600 - N.LATIR2
+
+=== Lista de Arcos ===
+501550 -> 502600  (Ruta: T50 - Ida)
+502600 -> 503002  (Ruta: T50 - Ida)
+503002 -> 500751  (Ruta: T50 - Ida)
+500751 -> 602600  (Ruta: T50 - Ida)
+602600 -> 502700  (Ruta: T50 - Ida)
+502700 -> 500851  (Ruta: T50 - Ida)
+500851 -> 602601  (Ruta: T50 - Ida)
+602601 -> 502650  (Ruta: T50 - Ida)
+502650 -> 500950  (Ruta: T50 - Ida)
+500950 -> 502601  (Ruta: T50 - Ida)
+502601 -> 502600  (Ruta: T50 - Ida)
+502600 -> 501403  (Ruta: T50 - Ida)
+501403 -> 502950  (Ruta: T50 - Ida)
+502950 -> 502900  (Ruta: T50 - Ida)
+502900 -> 502850  (Ruta: T50 - Ida)
+502850 -> 502800  (Ruta: T50 - Ida)
+502800 -> 502750  (Ruta: T50 - Ida)
+502750 -> 503002  (Ruta: T50 - Ida)
+503002 -> 502700  (Ruta: T50 - Ida)
+502700 -> 502650  (Ruta: T50 - Ida)
+502650 -> 502600  (Ruta: T50 - Ida)

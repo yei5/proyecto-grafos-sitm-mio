@@ -1,0 +1,52 @@
+== 3371-1 ==
+Nodos: 22
+Arcos: 22
+------------------------------------
+
+=== Lista de Nodos ===
+513079 - K3C63
+513189 - K5C59
+513101 - C52K2
+513078 - K3C59D
+513188 - K5C55
+513100 - C52K3
+513077 - K3C58
+513192 - C52K1-1B
+513093 - C52K2C
+513082 - K5C70
+513080 - K3C65B
+513190 - K5C62
+513196 - C47K1D
+513195 - K2C49
+513194 - C52K1D2
+513095 - K3C56
+513084 - K5C62B
+513182 - K1C47Y50
+513193 - C52K1D3
+513094 - K3C52
+513083 - K5C65A
+513106 - C70K3
+
+=== Lista de Arcos ===
+513182 -> 513192  (Ruta: A37A - Vuelta)
+513192 -> 513193  (Ruta: A37A - Vuelta)
+513193 -> 513194  (Ruta: A37A - Vuelta)
+513194 -> 513093  (Ruta: A37A - Vuelta)
+513093 -> 513094  (Ruta: A37A - Vuelta)
+513094 -> 513095  (Ruta: A37A - Vuelta)
+513095 -> 513077  (Ruta: A37A - Vuelta)
+513077 -> 513078  (Ruta: A37A - Vuelta)
+513078 -> 513079  (Ruta: A37A - Vuelta)
+513079 -> 513080  (Ruta: A37A - Vuelta)
+513080 -> 513106  (Ruta: A37A - Vuelta)
+513106 -> 513082  (Ruta: A37A - Vuelta)
+513082 -> 513083  (Ruta: A37A - Vuelta)
+513083 -> 513084  (Ruta: A37A - Vuelta)
+513084 -> 513190  (Ruta: A37A - Vuelta)
+513190 -> 513189  (Ruta: A37A - Vuelta)
+513189 -> 513188  (Ruta: A37A - Vuelta)
+513188 -> 513100  (Ruta: A37A - Vuelta)
+513100 -> 513101  (Ruta: A37A - Vuelta)
+513101 -> 513195  (Ruta: A37A - Vuelta)
+513195 -> 513196  (Ruta: A37A - Vuelta)
+513196 -> 513182  (Ruta: A37A - Vuelta)

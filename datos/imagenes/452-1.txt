@@ -1,0 +1,34 @@
+== 452-1 ==
+Nodos: 12
+Arcos: 14
+------------------------------------
+
+=== Lista de Nodos ===
+512022 - A3NC31
+503005 - TCALIPA5
+502751 - CONQUIS1
+502851 - ST.MONI1
+512020 - A3NC23D
+512021 - A3NC32A
+502351 - VERSALL2
+502651 - AMANECE1
+502601 - N.LATIR1
+502701 - TRONCAL1
+502901 - PRIMITI1
+500603 - TORRE4
+
+=== Lista de Arcos ===
+502601 -> 512020  (Ruta: E52 - Vuelta)
+512020 -> 502651  (Ruta: E52 - Vuelta)
+502651 -> 512021  (Ruta: E52 - Vuelta)
+512021 -> 502701  (Ruta: E52 - Vuelta)
+502701 -> 512022  (Ruta: E52 - Vuelta)
+512022 -> 503005  (Ruta: E52 - Vuelta)
+503005 -> 502751  (Ruta: E52 - Vuelta)
+502751 -> 502851  (Ruta: E52 - Vuelta)
+502851 -> 502901  (Ruta: E52 - Vuelta)
+502901 -> 500603  (Ruta: E52 - Vuelta)
+500603 -> 502351  (Ruta: E52 - Vuelta)
+502351 -> 512020  (Ruta: E52 - Vuelta)
+512020 -> 512021  (Ruta: E52 - Vuelta)
+512021 -> 512022  (Ruta: E52 - Vuelta)

@@ -1,0 +1,79 @@
+== 2102-1 ==
+Nodos: 28
+Arcos: 43
+------------------------------------
+
+=== Lista de Nodos ===
+516237 - C14K49
+516238 - C14K46
+516216 - C14K38A
+516218 - C14K34
+511102 - C14K85B
+516079 - C13C14
+511301 - C16K90UR
+516212 - C14K43
+511103 - C14K84
+519148 - K23C13A
+516214 - C14K40A
+516236 - C14K6867
+519022 - C13D232
+501400 - SANPAS1
+519061 - C15K19A
+511238 - K85CC16
+511239 - K86C14A
+511237 - C16K93
+516204 - C14K56
+516227 - C14K70
+514001 - C16K1001
+516206 - C14K53
+516202 - C14K66
+516203 - C14K64B
+516225 - C14K76
+516220 - C14K32
+502301 - UNIV2
+511349 - C16K98
+
+=== Lista de Arcos ===
+502301 -> 516202  (Ruta: P10B - Vuelta)
+516202 -> 514001  (Ruta: P10B - Vuelta)
+514001 -> 516203  (Ruta: P10B - Vuelta)
+516203 -> 511349  (Ruta: P10B - Vuelta)
+511349 -> 516204  (Ruta: P10B - Vuelta)
+516204 -> 511237  (Ruta: P10B - Vuelta)
+511237 -> 516206  (Ruta: P10B - Vuelta)
+516206 -> 511301  (Ruta: P10B - Vuelta)
+511301 -> 516237  (Ruta: P10B - Vuelta)
+516237 -> 511238  (Ruta: P10B - Vuelta)
+511238 -> 516238  (Ruta: P10B - Vuelta)
+516238 -> 511239  (Ruta: P10B - Vuelta)
+511239 -> 516212  (Ruta: P10B - Vuelta)
+516212 -> 511102  (Ruta: P10B - Vuelta)
+511102 -> 516214  (Ruta: P10B - Vuelta)
+516214 -> 511103  (Ruta: P10B - Vuelta)
+511103 -> 516216  (Ruta: P10B - Vuelta)
+516216 -> 516225  (Ruta: P10B - Vuelta)
+516225 -> 516218  (Ruta: P10B - Vuelta)
+516218 -> 516227  (Ruta: P10B - Vuelta)
+516227 -> 516220  (Ruta: P10B - Vuelta)
+516220 -> 516236  (Ruta: P10B - Vuelta)
+516236 -> 516079  (Ruta: P10B - Vuelta)
+516079 -> 516202  (Ruta: P10B - Vuelta)
+516202 -> 519022  (Ruta: P10B - Vuelta)
+519022 -> 516203  (Ruta: P10B - Vuelta)
+516203 -> 519148  (Ruta: P10B - Vuelta)
+519148 -> 516204  (Ruta: P10B - Vuelta)
+516204 -> 519061  (Ruta: P10B - Vuelta)
+519061 -> 516206  (Ruta: P10B - Vuelta)
+516206 -> 501400  (Ruta: P10B - Vuelta)
+501400 -> 516237  (Ruta: P10B - Vuelta)
+516237 -> 516238  (Ruta: P10B - Vuelta)
+516238 -> 516212  (Ruta: P10B - Vuelta)
+516212 -> 516214  (Ruta: P10B - Vuelta)
+516214 -> 516216  (Ruta: P10B - Vuelta)
+516216 -> 516218  (Ruta: P10B - Vuelta)
+516218 -> 516220  (Ruta: P10B - Vuelta)
+516220 -> 516079  (Ruta: P10B - Vuelta)
+516079 -> 519022  (Ruta: P10B - Vuelta)
+519022 -> 519148  (Ruta: P10B - Vuelta)
+519148 -> 519061  (Ruta: P10B - Vuelta)
+519061 -> 501400  (Ruta: P10B - Vuelta)

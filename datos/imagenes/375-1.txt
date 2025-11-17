@@ -1,0 +1,37 @@
+== 375-1 ==
+Nodos: 15
+Arcos: 14
+------------------------------------
+
+=== Lista de Nodos ===
+517217 - K56IDEA1
+517216 - C13OECJR
+517219 - SIRENA2
+517218 - SIRENA1
+517229 - PUEROJ
+517169 - K56C1B
+517147 - C13OEK55
+517168 - K56C3
+517179 - K56C8O1
+517214 - K56C5Y3
+517143 - K56C1AOE
+517144 - K56C7OE
+517173 - K56C8OE
+500055 - T.C-A7
+517180 - K56BC1
+
+=== Lista de Arcos ===
+500055 -> 517214  (Ruta: A75 - Vuelta)
+517214 -> 517168  (Ruta: A75 - Vuelta)
+517168 -> 517169  (Ruta: A75 - Vuelta)
+517169 -> 517143  (Ruta: A75 - Vuelta)
+517143 -> 517144  (Ruta: A75 - Vuelta)
+517144 -> 517173  (Ruta: A75 - Vuelta)
+517173 -> 517179  (Ruta: A75 - Vuelta)
+517179 -> 517147  (Ruta: A75 - Vuelta)
+517147 -> 517180  (Ruta: A75 - Vuelta)
+517180 -> 517216  (Ruta: A75 - Vuelta)
+517216 -> 517217  (Ruta: A75 - Vuelta)
+517217 -> 517218  (Ruta: A75 - Vuelta)
+517218 -> 517229  (Ruta: A75 - Vuelta)
+517229 -> 517219  (Ruta: A75 - Vuelta)

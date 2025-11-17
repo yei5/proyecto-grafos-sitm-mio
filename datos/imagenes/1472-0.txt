@@ -1,0 +1,46 @@
+== 1472-0 ==
+Nodos: 19
+Arcos: 19
+------------------------------------
+
+=== Lista de Nodos ===
+501703 - ESTAD4
+501403 - SANPAS4
+501801 - LIDO2
+501603 - SNTLIB4
+501101 - TREB2
+501751 - TEQUE2
+501003 - SANBO4
+501201 - CHAPI2
+501851 - UDP2
+500163 - A.SANI15
+501653 - MANZA4
+501301 - FLORE2
+500158 - A.SANI10
+501251 - ATGI2
+501351 - BELAL2
+600163 - A.SANI15
+501051 - 7AGO2
+501151 - VICOL2
+600158 - A.SANI10
+
+=== Lista de Arcos ===
+501851 -> 500163  (Ruta: T47B - Ida)
+500163 -> 501801  (Ruta: T47B - Ida)
+501801 -> 600163  (Ruta: T47B - Ida)
+600163 -> 501751  (Ruta: T47B - Ida)
+501751 -> 600158  (Ruta: T47B - Ida)
+600158 -> 501703  (Ruta: T47B - Ida)
+501703 -> 500158  (Ruta: T47B - Ida)
+500158 -> 501653  (Ruta: T47B - Ida)
+501653 -> 501603  (Ruta: T47B - Ida)
+501603 -> 501003  (Ruta: T47B - Ida)
+501003 -> 501403  (Ruta: T47B - Ida)
+501403 -> 501351  (Ruta: T47B - Ida)
+501351 -> 501301  (Ruta: T47B - Ida)
+501301 -> 501251  (Ruta: T47B - Ida)
+501251 -> 501201  (Ruta: T47B - Ida)
+501201 -> 501151  (Ruta: T47B - Ida)
+501151 -> 501101  (Ruta: T47B - Ida)
+501101 -> 501051  (Ruta: T47B - Ida)
+501051 -> 500163  (Ruta: T47B - Ida)

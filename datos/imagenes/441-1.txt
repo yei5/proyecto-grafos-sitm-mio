@@ -1,0 +1,37 @@
+== 441-1 ==
+Nodos: 15
+Arcos: 14
+------------------------------------
+
+=== Lista de Nodos ===
+501854 - UDP5
+501200 - CHAPI1
+502102 - CAPRI3
+502300 - UNIV1
+501300 - FLORE1
+501950 - PAMPA1
+500158 - A.SANI10
+501350 - BELAL1
+502000 - REFUG1
+501100 - TREB1
+502200 - BUITRE1
+502050 - CALDAS1
+501050 - 7AGO1
+501150 - VICOL1
+501250 - ATGI1
+
+=== Lista de Arcos ===
+500158 -> 501050  (Ruta: E41 - Vuelta)
+501050 -> 501100  (Ruta: E41 - Vuelta)
+501100 -> 501150  (Ruta: E41 - Vuelta)
+501150 -> 501200  (Ruta: E41 - Vuelta)
+501200 -> 501250  (Ruta: E41 - Vuelta)
+501250 -> 501300  (Ruta: E41 - Vuelta)
+501300 -> 501350  (Ruta: E41 - Vuelta)
+501350 -> 501854  (Ruta: E41 - Vuelta)
+501854 -> 501950  (Ruta: E41 - Vuelta)
+501950 -> 502000  (Ruta: E41 - Vuelta)
+502000 -> 502050  (Ruta: E41 - Vuelta)
+502050 -> 502102  (Ruta: E41 - Vuelta)
+502102 -> 502200  (Ruta: E41 - Vuelta)
+502200 -> 502300  (Ruta: E41 - Vuelta)

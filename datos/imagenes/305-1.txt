@@ -1,0 +1,25 @@
+== 305-1 ==
+Nodos: 9
+Arcos: 8
+------------------------------------
+
+=== Lista de Nodos ===
+513002 - A4NC2OE
+502400 - L.AMERI1
+519161 - A4NC3
+519039 - A4NC6
+519038 - A4NC5
+513003 - A1NC71
+512009 - A1NC10-2
+502350 - VERSALL1
+519041 - C7OEAV1
+
+=== Lista de Arcos ===
+502400 -> 502350  (Ruta: A05 - Vuelta)
+502350 -> 512009  (Ruta: A05 - Vuelta)
+512009 -> 513003  (Ruta: A05 - Vuelta)
+513003 -> 513002  (Ruta: A05 - Vuelta)
+513002 -> 519161  (Ruta: A05 - Vuelta)
+519161 -> 519038  (Ruta: A05 - Vuelta)
+519038 -> 519039  (Ruta: A05 - Vuelta)
+519039 -> 519041  (Ruta: A05 - Vuelta)

@@ -1,0 +1,83 @@
+== 272-1 ==
+Nodos: 38
+Arcos: 37
+------------------------------------
+
+=== Lista de Nodos ===
+512055 - A2BNC34
+513264 - A6NC652
+512054 - C34A3CN
+516079 - C13C14
+516058 - C13K65
+511243 - K80C13A1
+516054 - C13K7572
+516076 - C13K32A
+519026 - C13K21
+516254 - K80C13B
+516177 - C13K69
+516056 - C13K68
+516072 - C13K39
+519022 - C13D232
+516052 - C13K78
+516074 - C13K342
+500603 - TORRE4
+516070 - C13K41A2
+512206 - A3NC23D2
+512207 - A6NC492
+512021 - A3NC32A
+511235 - K80C5
+513016 - A6NC372
+512123 - A6NC528
+516064 - C13K50
+516065 - C13K47A
+516067 - C13K44A
+516060 - C13K57
+512040 - A6NC45
+501502 - PTCUY6
+516062 - C13K552
+501405 - SANPAS6
+513270 - A6NC40-2
+501552 - SANPED6
+519290 - C13K23A
+502401 - L.AMERI2
+502100 - CAPRI1
+501452 - SUCRE6
+
+=== Lista de Arcos ===
+502100 -> 511235  (Ruta: P72 - Vuelta)
+511235 -> 511243  (Ruta: P72 - Vuelta)
+511243 -> 516254  (Ruta: P72 - Vuelta)
+516254 -> 516052  (Ruta: P72 - Vuelta)
+516052 -> 516054  (Ruta: P72 - Vuelta)
+516054 -> 516177  (Ruta: P72 - Vuelta)
+516177 -> 516056  (Ruta: P72 - Vuelta)
+516056 -> 516058  (Ruta: P72 - Vuelta)
+516058 -> 516060  (Ruta: P72 - Vuelta)
+516060 -> 516062  (Ruta: P72 - Vuelta)
+516062 -> 516064  (Ruta: P72 - Vuelta)
+516064 -> 516065  (Ruta: P72 - Vuelta)
+516065 -> 516067  (Ruta: P72 - Vuelta)
+516067 -> 516070  (Ruta: P72 - Vuelta)
+516070 -> 516072  (Ruta: P72 - Vuelta)
+516072 -> 516074  (Ruta: P72 - Vuelta)
+516074 -> 516076  (Ruta: P72 - Vuelta)
+516076 -> 516079  (Ruta: P72 - Vuelta)
+516079 -> 519022  (Ruta: P72 - Vuelta)
+519022 -> 519290  (Ruta: P72 - Vuelta)
+519290 -> 519026  (Ruta: P72 - Vuelta)
+519026 -> 501405  (Ruta: P72 - Vuelta)
+501405 -> 501452  (Ruta: P72 - Vuelta)
+501452 -> 501502  (Ruta: P72 - Vuelta)
+501502 -> 501552  (Ruta: P72 - Vuelta)
+501552 -> 500603  (Ruta: P72 - Vuelta)
+500603 -> 502401  (Ruta: P72 - Vuelta)
+502401 -> 512206  (Ruta: P72 - Vuelta)
+512206 -> 512021  (Ruta: P72 - Vuelta)
+512021 -> 512054  (Ruta: P72 - Vuelta)
+512054 -> 512055  (Ruta: P72 - Vuelta)
+512055 -> 513016  (Ruta: P72 - Vuelta)
+513016 -> 513270  (Ruta: P72 - Vuelta)
+513270 -> 512040  (Ruta: P72 - Vuelta)
+512040 -> 512207  (Ruta: P72 - Vuelta)
+512207 -> 512123  (Ruta: P72 - Vuelta)
+512123 -> 513264  (Ruta: P72 - Vuelta)

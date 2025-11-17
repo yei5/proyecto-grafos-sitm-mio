@@ -1,0 +1,180 @@
+== 2211-1 ==
+Nodos: 47
+Arcos: 125
+------------------------------------
+
+=== Lista de Nodos ===
+516139 - C25K69A
+511322 - C42K91
+518016 - K23C26B
+511485 - K83C30
+512112 - A2FC25
+511320 - C42K94A
+518034 - C27K33A1
+516230 - C25K561
+518154 - K23C25T2
+518036 - C27K31A1
+515142 - C36K46B
+515143 - C36K47B
+516093 - C27K42B1
+518194 - C25K26
+516193 - C25K73
+519121 - C21K10
+518098 - T30C17F
+519284 - C21K11B
+518097 - T30C29
+518152 - D19T28A
+516195 - C25K66
+502312 - UNIVCOM7
+502351 - VERSALL2
+511019 - C42K84
+511318 - C42K96
+511033 - C25K99
+516266 - C27K36-1
+516244 - C27K41
+516267 - C27K39
+516245 - C27K41C
+512046 - C25A2DN
+516268 - C27K44
+511276 - C25K83B2
+518105 - T30C17D
+518045 - C28T251
+519013 - C25K3
+518046 - C28K24B1
+502315 - UNIVCO10
+519175 - C21K5
+519174 - C21K7A
+518082 - K23T251
+501351 - BELAL2
+511324 - C42K85C
+511226 - K99C34
+602312 - UNIVCOM7
+602315 - UNIVCO10
+511329 - C42K98
+
+=== Lista de Arcos ===
+502351 -> 502312  (Ruta: P21A - Vuelta)
+502312 -> 511485  (Ruta: P21A - Vuelta)
+511485 -> 502351  (Ruta: P21A - Vuelta)
+502351 -> 518045  (Ruta: P21A - Vuelta)
+518045 -> 518045  (Ruta: P21A - Vuelta)
+518045 -> 511485  (Ruta: P21A - Vuelta)
+511485 -> 512112  (Ruta: P21A - Vuelta)
+512112 -> 602312  (Ruta: P21A - Vuelta)
+602312 -> 511019  (Ruta: P21A - Vuelta)
+511019 -> 512112  (Ruta: P21A - Vuelta)
+512112 -> 518046  (Ruta: P21A - Vuelta)
+518046 -> 518046  (Ruta: P21A - Vuelta)
+518046 -> 511019  (Ruta: P21A - Vuelta)
+511019 -> 512046  (Ruta: P21A - Vuelta)
+512046 -> 602315  (Ruta: P21A - Vuelta)
+602315 -> 511324  (Ruta: P21A - Vuelta)
+511324 -> 518194  (Ruta: P21A - Vuelta)
+518194 -> 518194  (Ruta: P21A - Vuelta)
+518194 -> 511324  (Ruta: P21A - Vuelta)
+511324 -> 519013  (Ruta: P21A - Vuelta)
+519013 -> 502315  (Ruta: P21A - Vuelta)
+502315 -> 511322  (Ruta: P21A - Vuelta)
+511322 -> 518036  (Ruta: P21A - Vuelta)
+518036 -> 518036  (Ruta: P21A - Vuelta)
+518036 -> 511322  (Ruta: P21A - Vuelta)
+511322 -> 519175  (Ruta: P21A - Vuelta)
+519175 -> 511320  (Ruta: P21A - Vuelta)
+511320 -> 518034  (Ruta: P21A - Vuelta)
+518034 -> 518034  (Ruta: P21A - Vuelta)
+518034 -> 511320  (Ruta: P21A - Vuelta)
+511320 -> 519174  (Ruta: P21A - Vuelta)
+519174 -> 511318  (Ruta: P21A - Vuelta)
+511318 -> 516266  (Ruta: P21A - Vuelta)
+516266 -> 516266  (Ruta: P21A - Vuelta)
+516266 -> 511318  (Ruta: P21A - Vuelta)
+511318 -> 519121  (Ruta: P21A - Vuelta)
+519121 -> 511329  (Ruta: P21A - Vuelta)
+511329 -> 516267  (Ruta: P21A - Vuelta)
+516267 -> 516267  (Ruta: P21A - Vuelta)
+516267 -> 511329  (Ruta: P21A - Vuelta)
+511329 -> 519284  (Ruta: P21A - Vuelta)
+519284 -> 511226  (Ruta: P21A - Vuelta)
+511226 -> 516244  (Ruta: P21A - Vuelta)
+516244 -> 516244  (Ruta: P21A - Vuelta)
+516244 -> 511226  (Ruta: P21A - Vuelta)
+511226 -> 501351  (Ruta: P21A - Vuelta)
+501351 -> 511033  (Ruta: P21A - Vuelta)
+511033 -> 516245  (Ruta: P21A - Vuelta)
+516245 -> 516245  (Ruta: P21A - Vuelta)
+516245 -> 511033  (Ruta: P21A - Vuelta)
+511033 -> 518097  (Ruta: P21A - Vuelta)
+518097 -> 502312  (Ruta: P21A - Vuelta)
+502312 -> 516093  (Ruta: P21A - Vuelta)
+516093 -> 516093  (Ruta: P21A - Vuelta)
+516093 -> 502312  (Ruta: P21A - Vuelta)
+502312 -> 518105  (Ruta: P21A - Vuelta)
+518105 -> 516268  (Ruta: P21A - Vuelta)
+516268 -> 516268  (Ruta: P21A - Vuelta)
+516268 -> 518098  (Ruta: P21A - Vuelta)
+518098 -> 515142  (Ruta: P21A - Vuelta)
+515142 -> 515142  (Ruta: P21A - Vuelta)
+515142 -> 518152  (Ruta: P21A - Vuelta)
+518152 -> 515143  (Ruta: P21A - Vuelta)
+515143 -> 515143  (Ruta: P21A - Vuelta)
+515143 -> 518082  (Ruta: P21A - Vuelta)
+518082 -> 516230  (Ruta: P21A - Vuelta)
+516230 -> 516230  (Ruta: P21A - Vuelta)
+516230 -> 518154  (Ruta: P21A - Vuelta)
+518154 -> 516195  (Ruta: P21A - Vuelta)
+516195 -> 516195  (Ruta: P21A - Vuelta)
+516195 -> 518016  (Ruta: P21A - Vuelta)
+518016 -> 516139  (Ruta: P21A - Vuelta)
+516139 -> 516139  (Ruta: P21A - Vuelta)
+516139 -> 518045  (Ruta: P21A - Vuelta)
+518045 -> 516193  (Ruta: P21A - Vuelta)
+516193 -> 516193  (Ruta: P21A - Vuelta)
+516193 -> 518046  (Ruta: P21A - Vuelta)
+518046 -> 511276  (Ruta: P21A - Vuelta)
+511276 -> 511276  (Ruta: P21A - Vuelta)
+511276 -> 518194  (Ruta: P21A - Vuelta)
+518194 -> 511485  (Ruta: P21A - Vuelta)
+511485 -> 511485  (Ruta: P21A - Vuelta)
+511485 -> 518036  (Ruta: P21A - Vuelta)
+518036 -> 511019  (Ruta: P21A - Vuelta)
+511019 -> 511019  (Ruta: P21A - Vuelta)
+511019 -> 518034  (Ruta: P21A - Vuelta)
+518034 -> 511324  (Ruta: P21A - Vuelta)
+511324 -> 511324  (Ruta: P21A - Vuelta)
+511324 -> 516266  (Ruta: P21A - Vuelta)
+516266 -> 511322  (Ruta: P21A - Vuelta)
+511322 -> 511322  (Ruta: P21A - Vuelta)
+511322 -> 516267  (Ruta: P21A - Vuelta)
+516267 -> 511320  (Ruta: P21A - Vuelta)
+511320 -> 511320  (Ruta: P21A - Vuelta)
+511320 -> 516244  (Ruta: P21A - Vuelta)
+516244 -> 511318  (Ruta: P21A - Vuelta)
+511318 -> 511318  (Ruta: P21A - Vuelta)
+511318 -> 516245  (Ruta: P21A - Vuelta)
+516245 -> 511329  (Ruta: P21A - Vuelta)
+511329 -> 511329  (Ruta: P21A - Vuelta)
+511329 -> 516093  (Ruta: P21A - Vuelta)
+516093 -> 511226  (Ruta: P21A - Vuelta)
+511226 -> 511226  (Ruta: P21A - Vuelta)
+511226 -> 516268  (Ruta: P21A - Vuelta)
+516268 -> 511033  (Ruta: P21A - Vuelta)
+511033 -> 511033  (Ruta: P21A - Vuelta)
+511033 -> 515142  (Ruta: P21A - Vuelta)
+515142 -> 502312  (Ruta: P21A - Vuelta)
+502312 -> 502312  (Ruta: P21A - Vuelta)
+502312 -> 515143  (Ruta: P21A - Vuelta)
+515143 -> 516230  (Ruta: P21A - Vuelta)
+516230 -> 516195  (Ruta: P21A - Vuelta)
+516195 -> 516139  (Ruta: P21A - Vuelta)
+516139 -> 516193  (Ruta: P21A - Vuelta)
+516193 -> 511276  (Ruta: P21A - Vuelta)
+511276 -> 511485  (Ruta: P21A - Vuelta)
+511485 -> 511019  (Ruta: P21A - Vuelta)
+511019 -> 511324  (Ruta: P21A - Vuelta)
+511324 -> 511322  (Ruta: P21A - Vuelta)
+511322 -> 511320  (Ruta: P21A - Vuelta)
+511320 -> 511318  (Ruta: P21A - Vuelta)
+511318 -> 511329  (Ruta: P21A - Vuelta)
+511329 -> 511226  (Ruta: P21A - Vuelta)
+511226 -> 511033  (Ruta: P21A - Vuelta)
+511033 -> 502312  (Ruta: P21A - Vuelta)

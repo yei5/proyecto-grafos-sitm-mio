@@ -1,0 +1,80 @@
+== 2301-1 ==
+Nodos: 28
+Arcos: 44
+------------------------------------
+
+=== Lista de Nodos ===
+513263 - A6NA70N
+513269 - A6NC411
+513048 - C70K3BN
+512178 - C21A5AN
+513267 - A6NC471
+500600 - TORRE1
+500203 - CHIMI4
+513261 - C70A4N1
+500251 - FLORAI2
+501401 - SANPAS2
+500850 - CENTRO1
+500750 - ERMI1
+504010 - PCOMERA3
+512007 - A6ANC27
+513253 - C70A2N1
+513259 - C70A3DN
+512005 - A6ANC35
+513015 - A6NC381
+513257 - C70A3BN2
+512024 - C21A4N
+512003 - C70A3CN2
+500951 - FRAY3
+513251 - C70K4CN
+513273 - A6ANC22
+513272 - A6ANC25
+513271 - A6ANC29
+512017 - C70A4N-2
+512117 - A6NC67
+
+=== Lista de Arcos ===
+500251 -> 513263  (Ruta: P30A - Vuelta)
+513263 -> 500203  (Ruta: P30A - Vuelta)
+500203 -> 512117  (Ruta: P30A - Vuelta)
+512117 -> 504010  (Ruta: P30A - Vuelta)
+504010 -> 513267  (Ruta: P30A - Vuelta)
+513267 -> 513048  (Ruta: P30A - Vuelta)
+513048 -> 513269  (Ruta: P30A - Vuelta)
+513269 -> 513251  (Ruta: P30A - Vuelta)
+513251 -> 513015  (Ruta: P30A - Vuelta)
+513015 -> 513253  (Ruta: P30A - Vuelta)
+513253 -> 512005  (Ruta: P30A - Vuelta)
+512005 -> 513257  (Ruta: P30A - Vuelta)
+513257 -> 513271  (Ruta: P30A - Vuelta)
+513271 -> 512003  (Ruta: P30A - Vuelta)
+512003 -> 512007  (Ruta: P30A - Vuelta)
+512007 -> 513259  (Ruta: P30A - Vuelta)
+513259 -> 513272  (Ruta: P30A - Vuelta)
+513272 -> 513261  (Ruta: P30A - Vuelta)
+513261 -> 513273  (Ruta: P30A - Vuelta)
+513273 -> 512017  (Ruta: P30A - Vuelta)
+512017 -> 512178  (Ruta: P30A - Vuelta)
+512178 -> 513263  (Ruta: P30A - Vuelta)
+513263 -> 512024  (Ruta: P30A - Vuelta)
+512024 -> 512117  (Ruta: P30A - Vuelta)
+512117 -> 500600  (Ruta: P30A - Vuelta)
+500600 -> 513267  (Ruta: P30A - Vuelta)
+513267 -> 500750  (Ruta: P30A - Vuelta)
+500750 -> 513269  (Ruta: P30A - Vuelta)
+513269 -> 500850  (Ruta: P30A - Vuelta)
+500850 -> 513015  (Ruta: P30A - Vuelta)
+513015 -> 500951  (Ruta: P30A - Vuelta)
+500951 -> 512005  (Ruta: P30A - Vuelta)
+512005 -> 501401  (Ruta: P30A - Vuelta)
+501401 -> 513271  (Ruta: P30A - Vuelta)
+513271 -> 512007  (Ruta: P30A - Vuelta)
+512007 -> 513272  (Ruta: P30A - Vuelta)
+513272 -> 513273  (Ruta: P30A - Vuelta)
+513273 -> 512178  (Ruta: P30A - Vuelta)
+512178 -> 512024  (Ruta: P30A - Vuelta)
+512024 -> 500600  (Ruta: P30A - Vuelta)
+500600 -> 500750  (Ruta: P30A - Vuelta)
+500750 -> 500850  (Ruta: P30A - Vuelta)
+500850 -> 500951  (Ruta: P30A - Vuelta)
+500951 -> 501401  (Ruta: P30A - Vuelta)

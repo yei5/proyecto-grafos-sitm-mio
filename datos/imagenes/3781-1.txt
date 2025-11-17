@@ -1,0 +1,50 @@
+== 3781-1 ==
+Nodos: 21
+Arcos: 21
+------------------------------------
+
+=== Lista de Nodos ===
+517249 - K73C4
+517029 - K70C1OE1
+517227 - K70C2C
+517226 - K70C1C
+517253 - C1CK73
+517033 - C1AOEK75
+517165 - C3K69
+517076 - C5K701
+517032 - C2AOEK75
+517164 - C5K68
+517255 - K70C1A
+517254 - K70C1B
+517271 - T2AC74B
+517084 - C1AOEK72
+517270 - T2A2BD2
+517083 - C1AK73B1
+517251 - C2AK73B
+517031 - C2AOK74C
+517163 - K68C3B
+517250 - K73C3
+517030 - C2OEK721
+
+=== Lista de Arcos ===
+517076 -> 517249  (Ruta: A78A - Vuelta)
+517249 -> 517250  (Ruta: A78A - Vuelta)
+517250 -> 517251  (Ruta: A78A - Vuelta)
+517251 -> 517270  (Ruta: A78A - Vuelta)
+517270 -> 517271  (Ruta: A78A - Vuelta)
+517271 -> 517253  (Ruta: A78A - Vuelta)
+517253 -> 517254  (Ruta: A78A - Vuelta)
+517254 -> 517029  (Ruta: A78A - Vuelta)
+517029 -> 517030  (Ruta: A78A - Vuelta)
+517030 -> 517031  (Ruta: A78A - Vuelta)
+517031 -> 517032  (Ruta: A78A - Vuelta)
+517032 -> 517033  (Ruta: A78A - Vuelta)
+517033 -> 517083  (Ruta: A78A - Vuelta)
+517083 -> 517084  (Ruta: A78A - Vuelta)
+517084 -> 517255  (Ruta: A78A - Vuelta)
+517255 -> 517226  (Ruta: A78A - Vuelta)
+517226 -> 517227  (Ruta: A78A - Vuelta)
+517227 -> 517165  (Ruta: A78A - Vuelta)
+517165 -> 517163  (Ruta: A78A - Vuelta)
+517163 -> 517164  (Ruta: A78A - Vuelta)
+517164 -> 517076  (Ruta: A78A - Vuelta)

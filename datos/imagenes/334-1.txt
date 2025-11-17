@@ -1,0 +1,26 @@
+== 334-1 ==
+Nodos: 9
+Arcos: 9
+------------------------------------
+
+=== Lista de Nodos ===
+504006 - PCOMERC6
+513068 - C71K1A1A
+513067 - C71K1A4B
+513111 - C70K1A51
+513012 - C70AK1A4
+513066 - C71K1A3A
+513011 - C70AK1A5
+513021 - C70AK1A1
+513307 - K1A6C71
+
+=== Lista de Arcos ===
+504006 -> 513068  (Ruta: A34 - Vuelta)
+513068 -> 513066  (Ruta: A34 - Vuelta)
+513066 -> 513067  (Ruta: A34 - Vuelta)
+513067 -> 513307  (Ruta: A34 - Vuelta)
+513307 -> 513111  (Ruta: A34 - Vuelta)
+513111 -> 513011  (Ruta: A34 - Vuelta)
+513011 -> 513012  (Ruta: A34 - Vuelta)
+513012 -> 513021  (Ruta: A34 - Vuelta)
+513021 -> 504006  (Ruta: A34 - Vuelta)

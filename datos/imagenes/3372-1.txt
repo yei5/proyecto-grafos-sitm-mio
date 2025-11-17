@@ -1,0 +1,54 @@
+== 3372-1 ==
+Nodos: 15
+Arcos: 31
+------------------------------------
+
+=== Lista de Nodos ===
+513200 - C62K1D
+513079 - K3C63
+513089 - C56K1B
+513199 - K1DC60A
+513088 - K1C55Y56
+513198 - K1DC59
+513164 - C62K1BIS
+513197 - K1DC56-1
+513301 - C62K1A9
+513202 - C62K2B1
+513201 - C62K1G
+513080 - K3C65B
+513183 - C62K1B
+500251 - FLORAI2
+513106 - C70K3
+
+=== Lista de Arcos ===
+500251 -> 513088  (Ruta: A37B - Vuelta)
+513088 -> 513088  (Ruta: A37B - Vuelta)
+513088 -> 513089  (Ruta: A37B - Vuelta)
+513089 -> 513089  (Ruta: A37B - Vuelta)
+513089 -> 513164  (Ruta: A37B - Vuelta)
+513164 -> 513197  (Ruta: A37B - Vuelta)
+513197 -> 513197  (Ruta: A37B - Vuelta)
+513197 -> 513301  (Ruta: A37B - Vuelta)
+513301 -> 513198  (Ruta: A37B - Vuelta)
+513198 -> 513198  (Ruta: A37B - Vuelta)
+513198 -> 513183  (Ruta: A37B - Vuelta)
+513183 -> 513199  (Ruta: A37B - Vuelta)
+513199 -> 513199  (Ruta: A37B - Vuelta)
+513199 -> 513200  (Ruta: A37B - Vuelta)
+513200 -> 513200  (Ruta: A37B - Vuelta)
+513200 -> 513200  (Ruta: A37B - Vuelta)
+513200 -> 513201  (Ruta: A37B - Vuelta)
+513201 -> 513201  (Ruta: A37B - Vuelta)
+513201 -> 513201  (Ruta: A37B - Vuelta)
+513201 -> 513202  (Ruta: A37B - Vuelta)
+513202 -> 513202  (Ruta: A37B - Vuelta)
+513202 -> 513202  (Ruta: A37B - Vuelta)
+513202 -> 513079  (Ruta: A37B - Vuelta)
+513079 -> 513079  (Ruta: A37B - Vuelta)
+513079 -> 513079  (Ruta: A37B - Vuelta)
+513079 -> 513080  (Ruta: A37B - Vuelta)
+513080 -> 513080  (Ruta: A37B - Vuelta)
+513080 -> 513080  (Ruta: A37B - Vuelta)
+513080 -> 513106  (Ruta: A37B - Vuelta)
+513106 -> 513106  (Ruta: A37B - Vuelta)
+513106 -> 513106  (Ruta: A37B - Vuelta)

@@ -1,0 +1,32 @@
+== 323-1 ==
+Nodos: 12
+Arcos: 12
+------------------------------------
+
+=== Lista de Nodos ===
+512144 - C55NA2F
+512086 - A2DNC57D
+512185 - C61A2GN
+512087 - A2EC55B
+512153 - A2GNC57
+512186 - A3NC61A
+500111 - TMENGA12
+512014 - A2NC70
+512124 - C62AA2N
+512085 - A2CNC60
+512184 - A2GNC58
+500109 - TMENGA10
+
+=== Lista de Arcos ===
+500111 -> 512014  (Ruta: A23 - Vuelta)
+512014 -> 512124  (Ruta: A23 - Vuelta)
+512124 -> 512085  (Ruta: A23 - Vuelta)
+512085 -> 512086  (Ruta: A23 - Vuelta)
+512086 -> 512087  (Ruta: A23 - Vuelta)
+512087 -> 512144  (Ruta: A23 - Vuelta)
+512144 -> 512153  (Ruta: A23 - Vuelta)
+512153 -> 512184  (Ruta: A23 - Vuelta)
+512184 -> 512185  (Ruta: A23 - Vuelta)
+512185 -> 512186  (Ruta: A23 - Vuelta)
+512186 -> 500109  (Ruta: A23 - Vuelta)
+500109 -> 500111  (Ruta: A23 - Vuelta)

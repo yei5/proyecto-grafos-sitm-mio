@@ -1,0 +1,93 @@
+== 347-1 ==
+Nodos: 34
+Arcos: 51
+------------------------------------
+
+=== Lista de Nodos ===
+514036 - C123K28B
+514035 - C123K27C
+514233 - C121_28D
+514199 - C121K25
+514232 - C121K27J
+514033 - C123K26J
+514198 - K25C112
+514534 - C121K26M
+514037 - C123K26P
+514032 - C123K26I
+514197 - K25C94
+514031 - C123K26A
+514196 - K25C891
+514030 - C123K23
+514195 - K25C84
+514194 - K25C80B
+500156 - A.SANIN7
+514428 - C121K26I
+514405 - RPETM
+514025 - K23C83B
+514201 - C121K26K
+514024 - K23C81B
+514200 - C121K26F
+514023 - C80K25
+514029 - K23C118
+514205 - C121C122
+514204 - C121K28D
+514028 - K23C101
+514467 - K29C80
+514027 - K23C96
+514026 - K23C85A
+514202 - C121K26R
+514021 - K25C77
+514020 - K25C73A
+
+=== Lista de Arcos ===
+500156 -> 500156  (Ruta: A47 - Vuelta)
+500156 -> 514029  (Ruta: A47 - Vuelta)
+514029 -> 514020  (Ruta: A47 - Vuelta)
+514020 -> 514020  (Ruta: A47 - Vuelta)
+514020 -> 514030  (Ruta: A47 - Vuelta)
+514030 -> 514021  (Ruta: A47 - Vuelta)
+514021 -> 514021  (Ruta: A47 - Vuelta)
+514021 -> 514031  (Ruta: A47 - Vuelta)
+514031 -> 514467  (Ruta: A47 - Vuelta)
+514467 -> 514467  (Ruta: A47 - Vuelta)
+514467 -> 514032  (Ruta: A47 - Vuelta)
+514032 -> 514194  (Ruta: A47 - Vuelta)
+514194 -> 514023  (Ruta: A47 - Vuelta)
+514023 -> 514033  (Ruta: A47 - Vuelta)
+514033 -> 514195  (Ruta: A47 - Vuelta)
+514195 -> 514024  (Ruta: A47 - Vuelta)
+514024 -> 514037  (Ruta: A47 - Vuelta)
+514037 -> 514196  (Ruta: A47 - Vuelta)
+514196 -> 514025  (Ruta: A47 - Vuelta)
+514025 -> 514035  (Ruta: A47 - Vuelta)
+514035 -> 514197  (Ruta: A47 - Vuelta)
+514197 -> 514026  (Ruta: A47 - Vuelta)
+514026 -> 514036  (Ruta: A47 - Vuelta)
+514036 -> 514198  (Ruta: A47 - Vuelta)
+514198 -> 514027  (Ruta: A47 - Vuelta)
+514027 -> 514204  (Ruta: A47 - Vuelta)
+514204 -> 514199  (Ruta: A47 - Vuelta)
+514199 -> 514028  (Ruta: A47 - Vuelta)
+514028 -> 514205  (Ruta: A47 - Vuelta)
+514205 -> 514200  (Ruta: A47 - Vuelta)
+514200 -> 514029  (Ruta: A47 - Vuelta)
+514029 -> 514405  (Ruta: A47 - Vuelta)
+514405 -> 514428  (Ruta: A47 - Vuelta)
+514428 -> 514030  (Ruta: A47 - Vuelta)
+514030 -> 514201  (Ruta: A47 - Vuelta)
+514201 -> 514031  (Ruta: A47 - Vuelta)
+514031 -> 514534  (Ruta: A47 - Vuelta)
+514534 -> 514032  (Ruta: A47 - Vuelta)
+514032 -> 514202  (Ruta: A47 - Vuelta)
+514202 -> 514033  (Ruta: A47 - Vuelta)
+514033 -> 514232  (Ruta: A47 - Vuelta)
+514232 -> 514037  (Ruta: A47 - Vuelta)
+514037 -> 514233  (Ruta: A47 - Vuelta)
+514233 -> 514035  (Ruta: A47 - Vuelta)
+514035 -> 514204  (Ruta: A47 - Vuelta)
+514204 -> 514036  (Ruta: A47 - Vuelta)
+514036 -> 514205  (Ruta: A47 - Vuelta)
+514205 -> 514204  (Ruta: A47 - Vuelta)
+514204 -> 514405  (Ruta: A47 - Vuelta)
+514405 -> 514205  (Ruta: A47 - Vuelta)
+514205 -> 514405  (Ruta: A47 - Vuelta)

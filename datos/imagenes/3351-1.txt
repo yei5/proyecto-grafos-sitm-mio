@@ -1,0 +1,54 @@
+== 3351-1 ==
+Nodos: 13
+Arcos: 33
+------------------------------------
+
+=== Lista de Nodos ===
+513244 - C73AK1A4
+513243 - C73AK1A5
+513242 - C73AK1A8
+513241 - K1A12C76
+513237 - C73AK1A
+513245 - C73AK1A1
+513240 - C76K1A7
+613316 - R-PCOME1
+504007 - PCOMERC7
+513239 - C76K1A5A
+513316 - R-PCOME1
+513238 - C76K1A4A
+604007 - PCOMERC7
+
+=== Lista de Arcos ===
+513238 -> 504007  (Ruta: A35A - Vuelta)
+504007 -> 504007  (Ruta: A35A - Vuelta)
+504007 -> 504007  (Ruta: A35A - Vuelta)
+504007 -> 513239  (Ruta: A35A - Vuelta)
+513239 -> 513237  (Ruta: A35A - Vuelta)
+513237 -> 513237  (Ruta: A35A - Vuelta)
+513237 -> 604007  (Ruta: A35A - Vuelta)
+604007 -> 513240  (Ruta: A35A - Vuelta)
+513240 -> 513238  (Ruta: A35A - Vuelta)
+513238 -> 513238  (Ruta: A35A - Vuelta)
+513238 -> 613316  (Ruta: A35A - Vuelta)
+613316 -> 513241  (Ruta: A35A - Vuelta)
+513241 -> 513239  (Ruta: A35A - Vuelta)
+513239 -> 513239  (Ruta: A35A - Vuelta)
+513239 -> 513316  (Ruta: A35A - Vuelta)
+513316 -> 513242  (Ruta: A35A - Vuelta)
+513242 -> 513240  (Ruta: A35A - Vuelta)
+513240 -> 513240  (Ruta: A35A - Vuelta)
+513240 -> 513243  (Ruta: A35A - Vuelta)
+513243 -> 513241  (Ruta: A35A - Vuelta)
+513241 -> 513241  (Ruta: A35A - Vuelta)
+513241 -> 513244  (Ruta: A35A - Vuelta)
+513244 -> 513242  (Ruta: A35A - Vuelta)
+513242 -> 513242  (Ruta: A35A - Vuelta)
+513242 -> 513245  (Ruta: A35A - Vuelta)
+513245 -> 513243  (Ruta: A35A - Vuelta)
+513243 -> 513243  (Ruta: A35A - Vuelta)
+513243 -> 504007  (Ruta: A35A - Vuelta)
+504007 -> 513244  (Ruta: A35A - Vuelta)
+513244 -> 513244  (Ruta: A35A - Vuelta)
+513244 -> 513245  (Ruta: A35A - Vuelta)
+513245 -> 513245  (Ruta: A35A - Vuelta)
+513245 -> 504007  (Ruta: A35A - Vuelta)

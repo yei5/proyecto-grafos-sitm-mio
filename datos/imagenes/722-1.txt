@@ -1,0 +1,48 @@
+== 722-1 ==
+Nodos: 20
+Arcos: 20
+------------------------------------
+
+=== Lista de Nodos ===
+513244 - C73AK1A4
+513057 - C62K4A2
+513001 - K1C62
+513243 - C73AK1A5
+513242 - C73AK1A8
+513241 - K1A12C76
+513076 - K1C711
+513237 - C73AK1A
+513048 - C70K3BN
+513157 - K1C70A1
+513069 - K1C73
+513245 - C73AK1A1
+513071 - K1C73B
+513070 - K1C74B
+513240 - C76K1A7
+513075 - K1C72
+513074 - K1C71Y72
+513172 - K5NC67N
+513239 - C76K1A5A
+513238 - C76K1A4A
+
+=== Lista de Arcos ===
+513001 -> 513157  (Ruta: U22 - Vuelta)
+513157 -> 513074  (Ruta: U22 - Vuelta)
+513074 -> 513069  (Ruta: U22 - Vuelta)
+513069 -> 513237  (Ruta: U22 - Vuelta)
+513237 -> 513238  (Ruta: U22 - Vuelta)
+513238 -> 513239  (Ruta: U22 - Vuelta)
+513239 -> 513240  (Ruta: U22 - Vuelta)
+513240 -> 513241  (Ruta: U22 - Vuelta)
+513241 -> 513242  (Ruta: U22 - Vuelta)
+513242 -> 513243  (Ruta: U22 - Vuelta)
+513243 -> 513244  (Ruta: U22 - Vuelta)
+513244 -> 513245  (Ruta: U22 - Vuelta)
+513245 -> 513070  (Ruta: U22 - Vuelta)
+513070 -> 513071  (Ruta: U22 - Vuelta)
+513071 -> 513075  (Ruta: U22 - Vuelta)
+513075 -> 513076  (Ruta: U22 - Vuelta)
+513076 -> 513048  (Ruta: U22 - Vuelta)
+513048 -> 513172  (Ruta: U22 - Vuelta)
+513172 -> 513057  (Ruta: U22 - Vuelta)
+513057 -> 513001  (Ruta: U22 - Vuelta)

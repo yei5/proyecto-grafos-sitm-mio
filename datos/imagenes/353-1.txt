@@ -1,0 +1,27 @@
+== 353-1 ==
+Nodos: 10
+Arcos: 9
+------------------------------------
+
+=== Lista de Nodos ===
+515127 - K28C72U
+515128 - C72WK28
+515190 - C72WK28C
+514367 - C73K25S1
+514400 - C73K25C
+514308 - C72UK26I
+514307 - C72U26H3
+514306 - C72UK26F
+500161 - A.SANI13
+514309 - C72UK26S
+
+=== Lista de Arcos ===
+500161 -> 514367  (Ruta: A53 - Vuelta)
+514367 -> 514400  (Ruta: A53 - Vuelta)
+514400 -> 514306  (Ruta: A53 - Vuelta)
+514306 -> 514307  (Ruta: A53 - Vuelta)
+514307 -> 514308  (Ruta: A53 - Vuelta)
+514308 -> 514309  (Ruta: A53 - Vuelta)
+514309 -> 515127  (Ruta: A53 - Vuelta)
+515127 -> 515128  (Ruta: A53 - Vuelta)
+515128 -> 515190  (Ruta: A53 - Vuelta)

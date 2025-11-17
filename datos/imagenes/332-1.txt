@@ -1,0 +1,72 @@
+== 332-1 ==
+Nodos: 26
+Arcos: 38
+------------------------------------
+
+=== Lista de Nodos ===
+513167 - C62AK1A8
+513166 - C62AK1B4
+513187 - C56K1C1
+513164 - C62K1BIS
+513186 - C56K1C
+513301 - C62K1A9
+513168 - C66K1A15
+513185 - K1C56
+513020 - K1DC58
+513183 - C62K1B
+500108 - TMENGA9
+513019 - K1DC61A
+513018 - K1DC63
+513134 - K2C621
+513110 - C70K1A14
+513231 - C70K1B
+513132 - K2C60
+600108 - TMENGA9
+513017 - K1DC70
+513215 - K2C70
+513138 - K2C671
+613185 - K1C56
+513136 - K2C641
+513014 - C70K1C2
+513130 - K2C571
+513309 - C70K1G
+
+=== Lista de Arcos ===
+513185 -> 513185  (Ruta: A32 - Vuelta)
+513185 -> 513185  (Ruta: A32 - Vuelta)
+513185 -> 513164  (Ruta: A32 - Vuelta)
+513164 -> 613185  (Ruta: A32 - Vuelta)
+613185 -> 513164  (Ruta: A32 - Vuelta)
+513164 -> 513301  (Ruta: A32 - Vuelta)
+513301 -> 600108  (Ruta: A32 - Vuelta)
+600108 -> 513301  (Ruta: A32 - Vuelta)
+513301 -> 513183  (Ruta: A32 - Vuelta)
+513183 -> 500108  (Ruta: A32 - Vuelta)
+500108 -> 513183  (Ruta: A32 - Vuelta)
+513183 -> 513166  (Ruta: A32 - Vuelta)
+513166 -> 513166  (Ruta: A32 - Vuelta)
+513166 -> 513167  (Ruta: A32 - Vuelta)
+513167 -> 513167  (Ruta: A32 - Vuelta)
+513167 -> 513168  (Ruta: A32 - Vuelta)
+513168 -> 513168  (Ruta: A32 - Vuelta)
+513168 -> 513110  (Ruta: A32 - Vuelta)
+513110 -> 513231  (Ruta: A32 - Vuelta)
+513231 -> 513014  (Ruta: A32 - Vuelta)
+513014 -> 513014  (Ruta: A32 - Vuelta)
+513014 -> 513017  (Ruta: A32 - Vuelta)
+513017 -> 513309  (Ruta: A32 - Vuelta)
+513309 -> 513018  (Ruta: A32 - Vuelta)
+513018 -> 513215  (Ruta: A32 - Vuelta)
+513215 -> 513019  (Ruta: A32 - Vuelta)
+513019 -> 513138  (Ruta: A32 - Vuelta)
+513138 -> 513020  (Ruta: A32 - Vuelta)
+513020 -> 513136  (Ruta: A32 - Vuelta)
+513136 -> 513186  (Ruta: A32 - Vuelta)
+513186 -> 513134  (Ruta: A32 - Vuelta)
+513134 -> 513187  (Ruta: A32 - Vuelta)
+513187 -> 513132  (Ruta: A32 - Vuelta)
+513132 -> 513185  (Ruta: A32 - Vuelta)
+513185 -> 513130  (Ruta: A32 - Vuelta)
+513130 -> 513186  (Ruta: A32 - Vuelta)
+513186 -> 513187  (Ruta: A32 - Vuelta)
+513187 -> 513185  (Ruta: A32 - Vuelta)
