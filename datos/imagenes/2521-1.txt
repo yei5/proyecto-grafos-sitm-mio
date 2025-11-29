@@ -3,71 +3,77 @@ Nodos: 33
 Arcos: 32
 ------------------------------------
 
-=== Lista de Nodos ===
-513149 - C34K6A
-518016 - K23C26B
-515122 - C48K30B
-514114 - C34K7
-518058 - C70K29
-515120 - K31C43
-515121 - K31C46
-518151 - C33AK17A
-502800 - VLNUEVA2
-515060 - C72UK28D
-515061 - C83K28D
-518152 - D19T28A
-502850 - ST.MONI2
-503003 - TCALIPB3
-502650 - AMANECE2
-502750 - CONQUIS2
-512105 - C34A2CN
-515119 - K31C40
-515236 - K31C41
-512020 - A3NC23D
-514320 - C33AK15
-512021 - A3NC32A
-513230 - C34K4B
-515118 - K31C36
-515058 - K29C72U
-515059 - C72UK28E
-514281 - C33AK10
-514280 - C33AK8A
-514282 - C33AK11F
-502401 - L.AMERI2
-518082 - K23T251
-513229 - C34K1A
-513228 - C34K2AN1
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+513149 - C34K6A - GPS: (3,457197, -76,512880)
+518016 - K23C26B - GPS: (3,435857, -76,516197)
+515122 - C48K30B - GPS: (3,415307, -76,496118)
+514114 - C34K7 - GPS: (3,455148, -76,512223)
+518058 - C70K29 - GPS: (3,424338, -76,503243)
+515120 - K31C43 - GPS: (3,417951, -76,499545)
+515121 - K31C46 - GPS: (3,416283, -76,498012)
+518151 - C33AK17A - GPS: (3,441701, -76,512197)
+502800 - VLNUEVA2 - GPS: (3,432075, -76,510144)
+515060 - C72UK28D - GPS: (3,420704, -76,492295)
+515061 - C83K28D - GPS: (3,417305, -76,486776)
+518152 - D19T28A - GPS: (3,437890, -76,514831)
+502850 - ST.MONI2 - GPS: (3,434532, -76,513916)
+503003 - TCALIPB3 - GPS: (3,427102, -76,500023)
+502650 - AMANECE2 - GPS: (3,421440, -76,490776)
+502750 - CONQUIS2 - GPS: (3,426979, -76,505257)
+512105 - C34A2CN - GPS: (3,470005, -76,519843)
+515119 - K31C40 - GPS: (3,420544, -76,501989)
+515236 - K31C41 - GPS: (3,419480, -76,500948)
+512020 - A3NC23D - GPS: (3,466036, -76,523565)
+514320 - C33AK15 - GPS: (3,444479, -76,511774)
+512021 - A3NC32A - GPS: (3,470141, -76,522108)
+513230 - C34K4B - GPS: (3,460202, -76,513889)
+515118 - K31C36 - GPS: (3,422538, -76,504042)
+515058 - K29C72U - GPS: (3,416905, -76,495333)
+515059 - C72UK28E - GPS: (3,419123, -76,493893)
+514281 - C33AK10 - GPS: (3,450683, -76,511911)
+514280 - C33AK8A - GPS: (3,453693, -76,511968)
+514282 - C33AK11F - GPS: (3,447348, -76,511832)
+502401 - L.AMERI2 - GPS: (3,463730, -76,525142)
+518082 - K23T251 - GPS: (3,436201, -76,516994)
+513229 - C34K1A - GPS: (3,463059, -76,514811)
+513228 - C34K2AN1 - GPS: (3,465871, -76,516431)
 
-=== Lista de Arcos ===
-502401 -> 512020  (Ruta: P52A - Vuelta)
-512020 -> 512021  (Ruta: P52A - Vuelta)
-512021 -> 512105  (Ruta: P52A - Vuelta)
-512105 -> 513228  (Ruta: P52A - Vuelta)
-513228 -> 513229  (Ruta: P52A - Vuelta)
-513229 -> 513230  (Ruta: P52A - Vuelta)
-513230 -> 513149  (Ruta: P52A - Vuelta)
-513149 -> 514114  (Ruta: P52A - Vuelta)
-514114 -> 514280  (Ruta: P52A - Vuelta)
-514280 -> 514281  (Ruta: P52A - Vuelta)
-514281 -> 514282  (Ruta: P52A - Vuelta)
-514282 -> 514320  (Ruta: P52A - Vuelta)
-514320 -> 518151  (Ruta: P52A - Vuelta)
-518151 -> 518152  (Ruta: P52A - Vuelta)
-518152 -> 518082  (Ruta: P52A - Vuelta)
-518082 -> 518016  (Ruta: P52A - Vuelta)
-518016 -> 502850  (Ruta: P52A - Vuelta)
-502850 -> 502800  (Ruta: P52A - Vuelta)
-502800 -> 502750  (Ruta: P52A - Vuelta)
-502750 -> 503003  (Ruta: P52A - Vuelta)
-503003 -> 518058  (Ruta: P52A - Vuelta)
-518058 -> 515118  (Ruta: P52A - Vuelta)
-515118 -> 515119  (Ruta: P52A - Vuelta)
-515119 -> 515236  (Ruta: P52A - Vuelta)
-515236 -> 515120  (Ruta: P52A - Vuelta)
-515120 -> 515121  (Ruta: P52A - Vuelta)
-515121 -> 515122  (Ruta: P52A - Vuelta)
-515122 -> 515058  (Ruta: P52A - Vuelta)
-515058 -> 515059  (Ruta: P52A - Vuelta)
-515059 -> 515060  (Ruta: P52A - Vuelta)
-515060 -> 502650  (Ruta: P52A - Vuelta)
-502650 -> 515061  (Ruta: P52A - Vuelta)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: P52A - Vuelta (32 arcos) ---
+1. Origen: L.AMERI2 (ID: 502401) -> Destino: A3NC23D (ID: 512020) | Ruta: P52A - Vuelta
+2. Origen: A3NC23D (ID: 512020) -> Destino: A3NC32A (ID: 512021) | Ruta: P52A - Vuelta
+3. Origen: A3NC32A (ID: 512021) -> Destino: C34A2CN (ID: 512105) | Ruta: P52A - Vuelta
+4. Origen: C34A2CN (ID: 512105) -> Destino: C34K2AN1 (ID: 513228) | Ruta: P52A - Vuelta
+5. Origen: C34K2AN1 (ID: 513228) -> Destino: C34K1A (ID: 513229) | Ruta: P52A - Vuelta
+6. Origen: C34K1A (ID: 513229) -> Destino: C34K4B (ID: 513230) | Ruta: P52A - Vuelta
+7. Origen: C34K4B (ID: 513230) -> Destino: C34K6A (ID: 513149) | Ruta: P52A - Vuelta
+8. Origen: C34K6A (ID: 513149) -> Destino: C34K7 (ID: 514114) | Ruta: P52A - Vuelta
+9. Origen: C34K7 (ID: 514114) -> Destino: C33AK8A (ID: 514280) | Ruta: P52A - Vuelta
+10. Origen: C33AK8A (ID: 514280) -> Destino: C33AK10 (ID: 514281) | Ruta: P52A - Vuelta
+11. Origen: C33AK10 (ID: 514281) -> Destino: C33AK11F (ID: 514282) | Ruta: P52A - Vuelta
+12. Origen: C33AK11F (ID: 514282) -> Destino: C33AK15 (ID: 514320) | Ruta: P52A - Vuelta
+13. Origen: C33AK15 (ID: 514320) -> Destino: C33AK17A (ID: 518151) | Ruta: P52A - Vuelta
+14. Origen: C33AK17A (ID: 518151) -> Destino: D19T28A (ID: 518152) | Ruta: P52A - Vuelta
+15. Origen: D19T28A (ID: 518152) -> Destino: K23T251 (ID: 518082) | Ruta: P52A - Vuelta
+16. Origen: K23T251 (ID: 518082) -> Destino: K23C26B (ID: 518016) | Ruta: P52A - Vuelta
+17. Origen: K23C26B (ID: 518016) -> Destino: ST.MONI2 (ID: 502850) | Ruta: P52A - Vuelta
+18. Origen: ST.MONI2 (ID: 502850) -> Destino: VLNUEVA2 (ID: 502800) | Ruta: P52A - Vuelta
+19. Origen: VLNUEVA2 (ID: 502800) -> Destino: CONQUIS2 (ID: 502750) | Ruta: P52A - Vuelta
+20. Origen: CONQUIS2 (ID: 502750) -> Destino: TCALIPB3 (ID: 503003) | Ruta: P52A - Vuelta
+21. Origen: TCALIPB3 (ID: 503003) -> Destino: C70K29 (ID: 518058) | Ruta: P52A - Vuelta
+22. Origen: C70K29 (ID: 518058) -> Destino: K31C36 (ID: 515118) | Ruta: P52A - Vuelta
+23. Origen: K31C36 (ID: 515118) -> Destino: K31C40 (ID: 515119) | Ruta: P52A - Vuelta
+24. Origen: K31C40 (ID: 515119) -> Destino: K31C41 (ID: 515236) | Ruta: P52A - Vuelta
+25. Origen: K31C41 (ID: 515236) -> Destino: K31C43 (ID: 515120) | Ruta: P52A - Vuelta
+26. Origen: K31C43 (ID: 515120) -> Destino: K31C46 (ID: 515121) | Ruta: P52A - Vuelta
+27. Origen: K31C46 (ID: 515121) -> Destino: C48K30B (ID: 515122) | Ruta: P52A - Vuelta
+28. Origen: C48K30B (ID: 515122) -> Destino: K29C72U (ID: 515058) | Ruta: P52A - Vuelta
+29. Origen: K29C72U (ID: 515058) -> Destino: C72UK28E (ID: 515059) | Ruta: P52A - Vuelta
+30. Origen: C72UK28E (ID: 515059) -> Destino: C72UK28D (ID: 515060) | Ruta: P52A - Vuelta
+31. Origen: C72UK28D (ID: 515060) -> Destino: AMANECE2 (ID: 502650) | Ruta: P52A - Vuelta
+32. Origen: AMANECE2 (ID: 502650) -> Destino: C83K28D (ID: 515061) | Ruta: P52A - Vuelta

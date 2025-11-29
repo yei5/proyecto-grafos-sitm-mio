@@ -1,84 +1,85 @@
 == 283-1 ==
-Nodos: 38
-Arcos: 38
+Nodos: 36
+Arcos: 35
 ------------------------------------
 
-=== Lista de Nodos ===
-514377 - C73K27
-514157 - C73K112
-514113 - C73K7C
-514431 - C73D26G9
-513144 - C73K1G
-513143 - C73K1I
-513165 - C73K1A1
-514099 - C73K7D
-513142 - C73K4
-514379 - C79K28D2
-502700 - TRONCAL2
-514076 - C73K27B
-514373 - C73K26H2
-514098 - C73K7G
-513141 - C73K7
-513163 - C73K1A2C
-514371 - C73K26G4
-514096 - C73K7JB
-514095 - C73K7M
-503007 - TCALIPB4
-502650 - AMANECE2
-504015 - PCOMERB2
-604008 - PCOMERA1
-514443 - C73D26M
-513153 - C73K1A4E
-514369 - C73K25U
-514368 - C73K26B2
-514401 - C73D18
-514082 - C73K7R
-514080 - C73K8
-514384 - C73D26I2
-513152 - C73K1A82
-513151 - C73K1A14
-513150 - C73K1D
-514381 - C73K26F1
-504008 - PCOMERA1
-604015 - PCOMERB2
-514415 - C76K28A
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+514377 - C73K27 - GPS: (3,424465, -76,485101)
+514157 - C73K112 - GPS: (3,448193, -76,483252)
+514113 - C73K7C - GPS: (3,465608, -76,479462)
+514431 - C73D26G9 - GPS: (3,432545, -76,483656)
+513144 - C73K1G - GPS: (3,476466, -76,483462)
+513143 - C73K1I - GPS: (3,474451, -76,482824)
+513165 - C73K1A1 - GPS: (3,490901, -76,488448)
+514099 - C73K7D - GPS: (3,463114, -76,480043)
+513142 - C73K4 - GPS: (3,471433, -76,481639)
+514379 - C79K28D2 - GPS: (3,418780, -76,486164)
+502700 - TRONCAL2 - GPS: (3,424729, -76,494533)
+514076 - C73K27B - GPS: (3,423143, -76,485674)
+514373 - C73K26H2 - GPS: (3,430035, -76,483604)
+514098 - C73K7G - GPS: (3,460617, -76,480592)
+513141 - C73K7 - GPS: (3,469438, -76,480322)
+513163 - C73K1A2C - GPS: (3,489255, -76,487528)
+514371 - C73K26G4 - GPS: (3,434356, -76,483680)
+514096 - C73K7JB - GPS: (3,458267, -76,481210)
+514095 - C73K7M - GPS: (3,456325, -76,481617)
+503007 - TCALIPB4 - GPS: (3,427337, -76,499813)
+502650 - AMANECE2 - GPS: (3,421440, -76,490776)
+514443 - C73D26M - GPS: (3,426158, -76,484417)
+513153 - C73K1A4E - GPS: (3,487153, -76,486857)
+514369 - C73K25U - GPS: (3,440760, -76,483903)
+514368 - C73K26B2 - GPS: (3,439143, -76,483789)
+514401 - C73D18 - GPS: (3,445164, -76,483774)
+514082 - C73K7R - GPS: (3,454095, -76,482148)
+514080 - C73K8 - GPS: (3,451540, -76,482662)
+514384 - C73D26I2 - GPS: (3,428201, -76,483630)
+513152 - C73K1A82 - GPS: (3,483893, -76,485843)
+513151 - C73K1A14 - GPS: (3,481401, -76,485067)
+513150 - C73K1D - GPS: (3,478325, -76,484089)
+514381 - C73K26F1 - GPS: (3,436152, -76,483750)
+504008 - PCOMERA1 - GPS: (3,490268, -76,492247)
+604015 - PCOMERB2 - GPS: (3,489258, -76,492995)
+514415 - C76K28A - GPS: (3,420411, -76,486164)
 
-=== Lista de Arcos ===
-503007 -> 504008  (Ruta: P83 - Vuelta)
-504008 -> 502700  (Ruta: P83 - Vuelta)
-502700 -> 604008  (Ruta: P83 - Vuelta)
-604008 -> 502650  (Ruta: P83 - Vuelta)
-502650 -> 604015  (Ruta: P83 - Vuelta)
-604015 -> 514379  (Ruta: P83 - Vuelta)
-514379 -> 504015  (Ruta: P83 - Vuelta)
-504015 -> 514415  (Ruta: P83 - Vuelta)
-514415 -> 514076  (Ruta: P83 - Vuelta)
-514076 -> 514377  (Ruta: P83 - Vuelta)
-514377 -> 514443  (Ruta: P83 - Vuelta)
-514443 -> 514384  (Ruta: P83 - Vuelta)
-514384 -> 514373  (Ruta: P83 - Vuelta)
-514373 -> 514431  (Ruta: P83 - Vuelta)
-514431 -> 514371  (Ruta: P83 - Vuelta)
-514371 -> 514381  (Ruta: P83 - Vuelta)
-514381 -> 514368  (Ruta: P83 - Vuelta)
-514368 -> 514369  (Ruta: P83 - Vuelta)
-514369 -> 514401  (Ruta: P83 - Vuelta)
-514401 -> 514157  (Ruta: P83 - Vuelta)
-514157 -> 514080  (Ruta: P83 - Vuelta)
-514080 -> 514082  (Ruta: P83 - Vuelta)
-514082 -> 514095  (Ruta: P83 - Vuelta)
-514095 -> 514096  (Ruta: P83 - Vuelta)
-514096 -> 514098  (Ruta: P83 - Vuelta)
-514098 -> 514099  (Ruta: P83 - Vuelta)
-514099 -> 514113  (Ruta: P83 - Vuelta)
-514113 -> 513141  (Ruta: P83 - Vuelta)
-513141 -> 513142  (Ruta: P83 - Vuelta)
-513142 -> 513143  (Ruta: P83 - Vuelta)
-513143 -> 513144  (Ruta: P83 - Vuelta)
-513144 -> 513150  (Ruta: P83 - Vuelta)
-513150 -> 513151  (Ruta: P83 - Vuelta)
-513151 -> 513152  (Ruta: P83 - Vuelta)
-513152 -> 513153  (Ruta: P83 - Vuelta)
-513153 -> 513163  (Ruta: P83 - Vuelta)
-513163 -> 513165  (Ruta: P83 - Vuelta)
-513165 -> 504008  (Ruta: P83 - Vuelta)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: P83 - Vuelta (35 arcos) ---
+1. Origen: TCALIPB4 (ID: 503007) -> Destino: TRONCAL2 (ID: 502700) | Ruta: P83 - Vuelta
+2. Origen: TRONCAL2 (ID: 502700) -> Destino: AMANECE2 (ID: 502650) | Ruta: P83 - Vuelta
+3. Origen: AMANECE2 (ID: 502650) -> Destino: C79K28D2 (ID: 514379) | Ruta: P83 - Vuelta
+4. Origen: C79K28D2 (ID: 514379) -> Destino: C76K28A (ID: 514415) | Ruta: P83 - Vuelta
+5. Origen: C76K28A (ID: 514415) -> Destino: C73K27B (ID: 514076) | Ruta: P83 - Vuelta
+6. Origen: C73K27B (ID: 514076) -> Destino: C73K27 (ID: 514377) | Ruta: P83 - Vuelta
+7. Origen: C73K27 (ID: 514377) -> Destino: C73D26M (ID: 514443) | Ruta: P83 - Vuelta
+8. Origen: C73D26M (ID: 514443) -> Destino: C73D26I2 (ID: 514384) | Ruta: P83 - Vuelta
+9. Origen: C73D26I2 (ID: 514384) -> Destino: C73K26H2 (ID: 514373) | Ruta: P83 - Vuelta
+10. Origen: C73K26H2 (ID: 514373) -> Destino: C73D26G9 (ID: 514431) | Ruta: P83 - Vuelta
+11. Origen: C73D26G9 (ID: 514431) -> Destino: C73K26G4 (ID: 514371) | Ruta: P83 - Vuelta
+12. Origen: C73K26G4 (ID: 514371) -> Destino: C73K26F1 (ID: 514381) | Ruta: P83 - Vuelta
+13. Origen: C73K26F1 (ID: 514381) -> Destino: C73K26B2 (ID: 514368) | Ruta: P83 - Vuelta
+14. Origen: C73K26B2 (ID: 514368) -> Destino: C73K25U (ID: 514369) | Ruta: P83 - Vuelta
+15. Origen: C73K25U (ID: 514369) -> Destino: C73D18 (ID: 514401) | Ruta: P83 - Vuelta
+16. Origen: C73D18 (ID: 514401) -> Destino: C73K112 (ID: 514157) | Ruta: P83 - Vuelta
+17. Origen: C73K112 (ID: 514157) -> Destino: C73K8 (ID: 514080) | Ruta: P83 - Vuelta
+18. Origen: C73K8 (ID: 514080) -> Destino: C73K7R (ID: 514082) | Ruta: P83 - Vuelta
+19. Origen: C73K7R (ID: 514082) -> Destino: C73K7M (ID: 514095) | Ruta: P83 - Vuelta
+20. Origen: C73K7M (ID: 514095) -> Destino: C73K7JB (ID: 514096) | Ruta: P83 - Vuelta
+21. Origen: C73K7JB (ID: 514096) -> Destino: C73K7G (ID: 514098) | Ruta: P83 - Vuelta
+22. Origen: C73K7G (ID: 514098) -> Destino: C73K7D (ID: 514099) | Ruta: P83 - Vuelta
+23. Origen: C73K7D (ID: 514099) -> Destino: C73K7C (ID: 514113) | Ruta: P83 - Vuelta
+24. Origen: C73K7C (ID: 514113) -> Destino: C73K7 (ID: 513141) | Ruta: P83 - Vuelta
+25. Origen: C73K7 (ID: 513141) -> Destino: C73K4 (ID: 513142) | Ruta: P83 - Vuelta
+26. Origen: C73K4 (ID: 513142) -> Destino: C73K1I (ID: 513143) | Ruta: P83 - Vuelta
+27. Origen: C73K1I (ID: 513143) -> Destino: C73K1G (ID: 513144) | Ruta: P83 - Vuelta
+28. Origen: C73K1G (ID: 513144) -> Destino: C73K1D (ID: 513150) | Ruta: P83 - Vuelta
+29. Origen: C73K1D (ID: 513150) -> Destino: C73K1A14 (ID: 513151) | Ruta: P83 - Vuelta
+30. Origen: C73K1A14 (ID: 513151) -> Destino: C73K1A82 (ID: 513152) | Ruta: P83 - Vuelta
+31. Origen: C73K1A82 (ID: 513152) -> Destino: C73K1A4E (ID: 513153) | Ruta: P83 - Vuelta
+32. Origen: C73K1A4E (ID: 513153) -> Destino: C73K1A2C (ID: 513163) | Ruta: P83 - Vuelta
+33. Origen: C73K1A2C (ID: 513163) -> Destino: C73K1A1 (ID: 513165) | Ruta: P83 - Vuelta
+34. Origen: C73K1A1 (ID: 513165) -> Destino: PCOMERA1 (ID: 504008) | Ruta: P83 - Vuelta
+35. Origen: PCOMERA1 (ID: 504008) -> Destino: PCOMERB2 (ID: 604015) | Ruta: P83 - Vuelta

@@ -3,39 +3,45 @@ Nodos: 17
 Arcos: 16
 ------------------------------------
 
-=== Lista de Nodos ===
-517228 - C1K55
-517219 - SIRENA2
-517015 - K52C22
-517017 - C1K532
-517187 - K56C8O2
-517176 - K56C2OE
-517230 - PUEROJ1
-517186 - K56BC3
-517189 - K56C5OE
-517221 - SIRENA4
-517188 - K56C8O3
-517177 - C1K561
-517183 - K56IDEAS
-517185 - K56BC2
-517174 - C13OC55
-517184 - C13OEPPC
-500055 - T.C-A7
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+517228 - C1K55 - GPS: (3,412795, -76,555573)
+517219 - SIRENA2 - GPS: (3,407650, -76,575163)
+517015 - K52C22 - GPS: (3,415267, -76,552378)
+517017 - C1K532 - GPS: (3,415018, -76,554929)
+517187 - K56C8O2 - GPS: (3,409852, -76,562520)
+517176 - K56C2OE - GPS: (3,410896, -76,556774)
+517230 - PUEROJ1 - GPS: (3,408620, -76,574676)
+517186 - K56BC3 - GPS: (3,409528, -76,566231)
+517189 - K56C5OE - GPS: (3,411769, -76,558033)
+517221 - SIRENA4 - GPS: (3,409471, -76,572813)
+517188 - K56C8O3 - GPS: (3,411794, -76,559803)
+517177 - C1K561 - GPS: (3,411143, -76,555637)
+517183 - K56IDEAS - GPS: (3,409844, -76,571653)
+517185 - K56BC2 - GPS: (3,408541, -76,567458)
+517174 - C13OC55 - GPS: (3,409053, -76,563977)
+517184 - C13OEPPC - GPS: (3,408211, -76,570354)
+500055 - T.C-A7 - GPS: (3,415047, -76,548953)
 
-=== Lista de Arcos ===
-517219 -> 517230  (Ruta: A75 - Ida)
-517230 -> 517221  (Ruta: A75 - Ida)
-517221 -> 517183  (Ruta: A75 - Ida)
-517183 -> 517184  (Ruta: A75 - Ida)
-517184 -> 517185  (Ruta: A75 - Ida)
-517185 -> 517186  (Ruta: A75 - Ida)
-517186 -> 517174  (Ruta: A75 - Ida)
-517174 -> 517187  (Ruta: A75 - Ida)
-517187 -> 517188  (Ruta: A75 - Ida)
-517188 -> 517189  (Ruta: A75 - Ida)
-517189 -> 517176  (Ruta: A75 - Ida)
-517176 -> 517177  (Ruta: A75 - Ida)
-517177 -> 517228  (Ruta: A75 - Ida)
-517228 -> 517017  (Ruta: A75 - Ida)
-517017 -> 517015  (Ruta: A75 - Ida)
-517015 -> 500055  (Ruta: A75 - Ida)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: A75 - Ida (16 arcos) ---
+1. Origen: SIRENA2 (ID: 517219) -> Destino: PUEROJ1 (ID: 517230) | Ruta: A75 - Ida
+2. Origen: PUEROJ1 (ID: 517230) -> Destino: SIRENA4 (ID: 517221) | Ruta: A75 - Ida
+3. Origen: SIRENA4 (ID: 517221) -> Destino: K56IDEAS (ID: 517183) | Ruta: A75 - Ida
+4. Origen: K56IDEAS (ID: 517183) -> Destino: C13OEPPC (ID: 517184) | Ruta: A75 - Ida
+5. Origen: C13OEPPC (ID: 517184) -> Destino: K56BC2 (ID: 517185) | Ruta: A75 - Ida
+6. Origen: K56BC2 (ID: 517185) -> Destino: K56BC3 (ID: 517186) | Ruta: A75 - Ida
+7. Origen: K56BC3 (ID: 517186) -> Destino: C13OC55 (ID: 517174) | Ruta: A75 - Ida
+8. Origen: C13OC55 (ID: 517174) -> Destino: K56C8O2 (ID: 517187) | Ruta: A75 - Ida
+9. Origen: K56C8O2 (ID: 517187) -> Destino: K56C8O3 (ID: 517188) | Ruta: A75 - Ida
+10. Origen: K56C8O3 (ID: 517188) -> Destino: K56C5OE (ID: 517189) | Ruta: A75 - Ida
+11. Origen: K56C5OE (ID: 517189) -> Destino: K56C2OE (ID: 517176) | Ruta: A75 - Ida
+12. Origen: K56C2OE (ID: 517176) -> Destino: C1K561 (ID: 517177) | Ruta: A75 - Ida
+13. Origen: C1K561 (ID: 517177) -> Destino: C1K55 (ID: 517228) | Ruta: A75 - Ida
+14. Origen: C1K55 (ID: 517228) -> Destino: C1K532 (ID: 517017) | Ruta: A75 - Ida
+15. Origen: C1K532 (ID: 517017) -> Destino: K52C22 (ID: 517015) | Ruta: A75 - Ida
+16. Origen: K52C22 (ID: 517015) -> Destino: T.C-A7 (ID: 500055) | Ruta: A75 - Ida

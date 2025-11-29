@@ -1,0 +1,72 @@
+========================================
+REPORTE DE RUTA: E52-0
+========================================
+
+Información General:
+  Número de Arcos: 12
+  Distancia Total: 10,30 km
+  Tiempo Total: 25,22 min
+  Velocidad Promedio: 23,75 km/h
+
+Detalle de Arcos:
+------------------------------------------------------------
+Arco 1: N.LATIR2 -> R-CALP1
+  Distancia: 1,75 km
+  Tiempo: 4,20 min
+  Velocidad: 25,00 km/h
+
+Arco 2: A3NC31 -> A3NC24
+  Distancia: 0,46 km
+  Tiempo: 1,58 min
+  Velocidad: 17,50 km/h
+
+Arco 3: A3NC24 -> VERSALL1
+  Distancia: 0,75 km
+  Tiempo: 1,79 min
+  Velocidad: 25,00 km/h
+
+Arco 4: VERSALL1 -> TORRE1
+  Distancia: 0,57 km
+  Tiempo: 1,36 min
+  Velocidad: 25,00 km/h
+
+Arco 5: TORRE1 -> PRIMITI2
+  Distancia: 2,61 km
+  Tiempo: 6,26 min
+  Velocidad: 25,00 km/h
+
+Arco 6: PRIMITI2 -> ST.MONI2
+  Distancia: 0,51 km
+  Tiempo: 1,22 min
+  Velocidad: 25,00 km/h
+
+Arco 7: ST.MONI2 -> CONQUIS2
+  Distancia: 1,28 km
+  Tiempo: 3,06 min
+  Velocidad: 25,00 km/h
+
+Arco 8: CONQUIS2 -> TCALIPB3
+  Distancia: 0,58 km
+  Tiempo: 1,39 min
+  Velocidad: 25,00 km/h
+
+Arco 9: TCALIPB3 -> TRONCAL2
+  Distancia: 0,66 km
+  Tiempo: 1,59 min
+  Velocidad: 25,00 km/h
+
+Arco 10: TRONCAL2 -> AMANECE2
+  Distancia: 0,55 km
+  Tiempo: 1,33 min
+  Velocidad: 25,00 km/h
+
+Arco 11: AMANECE2 -> N.LATIR2
+  Distancia: 0,57 km
+  Tiempo: 1,36 min
+  Velocidad: 25,00 km/h
+
+Arco 12: N.LATIR2 -> N.LATIR1
+  Distancia: 0,02 km
+  Tiempo: 0,07 min
+  Velocidad: 17,50 km/h
+

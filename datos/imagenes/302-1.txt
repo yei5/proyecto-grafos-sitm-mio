@@ -1,57 +1,50 @@
 == 302-1 ==
 Nodos: 18
-Arcos: 31
+Arcos: 18
 ------------------------------------
 
-=== Lista de Nodos ===
-519039 - A4NC6
-519038 - A4NC5
-519068 - C9K8
-519123 - AV2OEC20
-519067 - C9K15
-519122 - AV2OE
-519266 - C5K7
-519124 - AV2OEATE
-519075 - K2OEC14
-519041 - C7OEAV1
-519074 - K1C11OE
-519071 - K4C5
-519070 - K4C9
-519073 - K2C2OE
-519040 - K1C9OE
-519050 - C9K12
-519280 - K10C8
-519072 - K3C1OE
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+519039 - A4NC6 - GPS: (3,454227, -76,549075)
+519038 - A4NC5 - GPS: (3,454043, -76,546163)
+519068 - C9K8 - GPS: (3,449358, -76,533883)
+519123 - AV2OEC20 - GPS: (3,447625, -76,561435)
+519067 - C9K15 - GPS: (3,442543, -76,533145)
+519122 - AV2OE - GPS: (3,447155, -76,558638)
+519124 - AV2OEATE - GPS: (3,447909, -76,563519)
+519266 - C5K7 - GPS: (3,447635, -76,536732)
+519075 - K2OEC14 - GPS: (3,447877, -76,556672)
+519041 - C7OEAV1 - GPS: (3,453188, -76,549308)
+519074 - K1C11OE - GPS: (3,450825, -76,553237)
+519071 - K4C5 - GPS: (3,449628, -76,537829)
+519070 - K4C9 - GPS: (3,451018, -76,535044)
+519073 - K2C2OE - GPS: (3,450795, -76,542086)
+519040 - K1C9OE - GPS: (3,452105, -76,550640)
+519050 - C9K12 - GPS: (3,444876, -76,533204)
+519072 - K3C1OE - GPS: (3,449744, -76,541461)
+519280 - K10C8 - GPS: (3,446691, -76,534671)
 
-=== Lista de Arcos ===
-519067 -> 519067  (Ruta: A02 - Vuelta)
-519067 -> 519050  (Ruta: A02 - Vuelta)
-519050 -> 519050  (Ruta: A02 - Vuelta)
-519050 -> 519068  (Ruta: A02 - Vuelta)
-519068 -> 519280  (Ruta: A02 - Vuelta)
-519280 -> 519070  (Ruta: A02 - Vuelta)
-519070 -> 519266  (Ruta: A02 - Vuelta)
-519266 -> 519071  (Ruta: A02 - Vuelta)
-519071 -> 519071  (Ruta: A02 - Vuelta)
-519071 -> 519072  (Ruta: A02 - Vuelta)
-519072 -> 519072  (Ruta: A02 - Vuelta)
-519072 -> 519073  (Ruta: A02 - Vuelta)
-519073 -> 519073  (Ruta: A02 - Vuelta)
-519073 -> 519038  (Ruta: A02 - Vuelta)
-519038 -> 519038  (Ruta: A02 - Vuelta)
-519038 -> 519039  (Ruta: A02 - Vuelta)
-519039 -> 519039  (Ruta: A02 - Vuelta)
-519039 -> 519041  (Ruta: A02 - Vuelta)
-519041 -> 519041  (Ruta: A02 - Vuelta)
-519041 -> 519040  (Ruta: A02 - Vuelta)
-519040 -> 519040  (Ruta: A02 - Vuelta)
-519040 -> 519074  (Ruta: A02 - Vuelta)
-519074 -> 519074  (Ruta: A02 - Vuelta)
-519074 -> 519075  (Ruta: A02 - Vuelta)
-519075 -> 519075  (Ruta: A02 - Vuelta)
-519075 -> 519122  (Ruta: A02 - Vuelta)
-519122 -> 519122  (Ruta: A02 - Vuelta)
-519122 -> 519123  (Ruta: A02 - Vuelta)
-519123 -> 519123  (Ruta: A02 - Vuelta)
-519123 -> 519124  (Ruta: A02 - Vuelta)
-519124 -> 519124  (Ruta: A02 - Vuelta)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: A02 - Vuelta (18 arcos) ---
+1. Origen: C9K15 (ID: 519067) -> Destino: C9K12 (ID: 519050) | Ruta: A02 - Vuelta
+2. Origen: C9K12 (ID: 519050) -> Destino: C9K8 (ID: 519068) | Ruta: A02 - Vuelta
+3. Origen: C9K8 (ID: 519068) -> Destino: K4C9 (ID: 519070) | Ruta: A02 - Vuelta
+4. Origen: K4C9 (ID: 519070) -> Destino: K4C5 (ID: 519071) | Ruta: A02 - Vuelta
+5. Origen: K4C5 (ID: 519071) -> Destino: K3C1OE (ID: 519072) | Ruta: A02 - Vuelta
+6. Origen: K3C1OE (ID: 519072) -> Destino: K2C2OE (ID: 519073) | Ruta: A02 - Vuelta
+7. Origen: K2C2OE (ID: 519073) -> Destino: A4NC5 (ID: 519038) | Ruta: A02 - Vuelta
+8. Origen: A4NC5 (ID: 519038) -> Destino: A4NC6 (ID: 519039) | Ruta: A02 - Vuelta
+9. Origen: A4NC6 (ID: 519039) -> Destino: C7OEAV1 (ID: 519041) | Ruta: A02 - Vuelta
+10. Origen: C7OEAV1 (ID: 519041) -> Destino: K1C9OE (ID: 519040) | Ruta: A02 - Vuelta
+11. Origen: K1C9OE (ID: 519040) -> Destino: K1C11OE (ID: 519074) | Ruta: A02 - Vuelta
+12. Origen: K1C11OE (ID: 519074) -> Destino: K2OEC14 (ID: 519075) | Ruta: A02 - Vuelta
+13. Origen: K2OEC14 (ID: 519075) -> Destino: AV2OE (ID: 519122) | Ruta: A02 - Vuelta
+14. Origen: AV2OE (ID: 519122) -> Destino: AV2OEC20 (ID: 519123) | Ruta: A02 - Vuelta
+15. Origen: AV2OEC20 (ID: 519123) -> Destino: AV2OEATE (ID: 519124) | Ruta: A02 - Vuelta
+16. Origen: C9K12 (ID: 519050) -> Destino: K10C8 (ID: 519280) | Ruta: A02 - Vuelta
+17. Origen: K10C8 (ID: 519280) -> Destino: C5K7 (ID: 519266) | Ruta: A02 - Vuelta
+18. Origen: C5K7 (ID: 519266) -> Destino: K4C5 (ID: 519071) | Ruta: A02 - Vuelta

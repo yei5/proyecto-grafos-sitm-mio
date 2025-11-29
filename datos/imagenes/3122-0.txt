@@ -1,40 +1,41 @@
 == 3122-0 ==
-Nodos: 16
-Arcos: 16
+Nodos: 14
+Arcos: 13
 ------------------------------------
 
-=== Lista de Nodos ===
-511175 - K94BC2
-511352 - C4OK89
-511176 - C2BK95A
-511173 - K95C1AO1
-511174 - K94CC1O
-511289 - MELENC4
-511353 - C4OK90
-511177 - K95C3C
-511354 - C4OK92
-511072 - C4OK94P
-511171 - C4OK94BI
-511292 - K94C4A
-511172 - K96C3O
-511290 - MELENC2
-611289 - MELENC4
-611290 - MELENC2
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+511175 - K94BC2 - GPS: (3,375212, -76,551914)
+511352 - C4OK89 - GPS: (3,379757, -76,561293)
+511176 - C2BK95A - GPS: (3,374413, -76,550343)
+511173 - K95C1AO1 - GPS: (3,373393, -76,554763)
+511174 - K94CC1O - GPS: (3,374288, -76,554491)
+511353 - C4OK90 - GPS: (3,379704, -76,561395)
+511177 - K95C3C - GPS: (3,374056, -76,548542)
+511354 - C4OK92 - GPS: (3,377869, -76,560789)
+511072 - C4OK94P - GPS: (3,376054, -76,559600)
+511171 - C4OK94BI - GPS: (3,375045, -76,559166)
+511292 - K94C4A - GPS: (3,374860, -76,546566)
+511172 - K96C3O - GPS: (3,373288, -76,556036)
+511290 - MELENC2 - GPS: (3,376949, -76,542720)
+611289 - MELENC4 - GPS: (3,377311, -76,542769)
 
-=== Lista de Arcos ===
-511352 -> 511290  (Ruta: A12B - Ida)
-511290 -> 511353  (Ruta: A12B - Ida)
-511353 -> 611290  (Ruta: A12B - Ida)
-611290 -> 511354  (Ruta: A12B - Ida)
-511354 -> 611289  (Ruta: A12B - Ida)
-611289 -> 511072  (Ruta: A12B - Ida)
-511072 -> 511289  (Ruta: A12B - Ida)
-511289 -> 511171  (Ruta: A12B - Ida)
-511171 -> 511172  (Ruta: A12B - Ida)
-511172 -> 511173  (Ruta: A12B - Ida)
-511173 -> 511174  (Ruta: A12B - Ida)
-511174 -> 511175  (Ruta: A12B - Ida)
-511175 -> 511176  (Ruta: A12B - Ida)
-511176 -> 511177  (Ruta: A12B - Ida)
-511177 -> 511292  (Ruta: A12B - Ida)
-511292 -> 511290  (Ruta: A12B - Ida)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: A12B - Ida (13 arcos) ---
+1. Origen: C4OK89 (ID: 511352) -> Destino: C4OK90 (ID: 511353) | Ruta: A12B - Ida
+2. Origen: C4OK90 (ID: 511353) -> Destino: C4OK92 (ID: 511354) | Ruta: A12B - Ida
+3. Origen: C4OK92 (ID: 511354) -> Destino: C4OK94P (ID: 511072) | Ruta: A12B - Ida
+4. Origen: C4OK94P (ID: 511072) -> Destino: C4OK94BI (ID: 511171) | Ruta: A12B - Ida
+5. Origen: C4OK94BI (ID: 511171) -> Destino: K96C3O (ID: 511172) | Ruta: A12B - Ida
+6. Origen: K96C3O (ID: 511172) -> Destino: K95C1AO1 (ID: 511173) | Ruta: A12B - Ida
+7. Origen: K95C1AO1 (ID: 511173) -> Destino: K94CC1O (ID: 511174) | Ruta: A12B - Ida
+8. Origen: K94CC1O (ID: 511174) -> Destino: K94BC2 (ID: 511175) | Ruta: A12B - Ida
+9. Origen: K94BC2 (ID: 511175) -> Destino: C2BK95A (ID: 511176) | Ruta: A12B - Ida
+10. Origen: C2BK95A (ID: 511176) -> Destino: K95C3C (ID: 511177) | Ruta: A12B - Ida
+11. Origen: K95C3C (ID: 511177) -> Destino: K94C4A (ID: 511292) | Ruta: A12B - Ida
+12. Origen: K94C4A (ID: 511292) -> Destino: MELENC2 (ID: 511290) | Ruta: A12B - Ida
+13. Origen: MELENC2 (ID: 511290) -> Destino: MELENC4 (ID: 611289) | Ruta: A12B - Ida

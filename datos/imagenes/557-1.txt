@@ -1,32 +1,37 @@
 == 557-1 ==
 Nodos: 12
-Arcos: 12
+Arcos: 11
 ------------------------------------
 
-=== Lista de Nodos ===
-500055 - T.C-A7
-500054 - T.C-A5
-500053 - T.C-A4
-500052 - T.C-A3
-500063 - T.C-A12
-500058 - T.C-A8
-500056 - T.C-A6
-500051 - T.C-A2
-500062 - T.C-A11
-500050 - T.C-A1
-500061 - T.C-A10
-500060 - T.C-A9
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+500055 - T.C-A7 - GPS: (3,415047, -76,548953)
+500054 - T.C-A5 - GPS: (3,414664, -76,549093)
+500053 - T.C-A4 - GPS: (3,414692, -76,548853)
+500052 - T.C-A3 - GPS: (3,414533, -76,549138)
+500063 - T.C-A12 - GPS: (3,415310, -76,549373)
+500058 - T.C-A8 - GPS: (3,415179, -76,548913)
+500056 - T.C-A6 - GPS: (3,415013, -76,548939)
+500051 - T.C-A2 - GPS: (3,414543, -76,549573)
+500062 - T.C-A11 - GPS: (3,415394, -76,549231)
+500050 - T.C-A1 - GPS: (3,414768, -76,549621)
+500061 - T.C-A10 - GPS: (3,415367, -76,549083)
+500060 - T.C-A9 - GPS: (3,415325, -76,548966)
 
-=== Lista de Arcos ===
-500050 -> 500051  (Ruta: R57 - Vuelta)
-500051 -> 500052  (Ruta: R57 - Vuelta)
-500052 -> 500053  (Ruta: R57 - Vuelta)
-500053 -> 500054  (Ruta: R57 - Vuelta)
-500054 -> 500056  (Ruta: R57 - Vuelta)
-500056 -> 500055  (Ruta: R57 - Vuelta)
-500055 -> 500058  (Ruta: R57 - Vuelta)
-500058 -> 500060  (Ruta: R57 - Vuelta)
-500060 -> 500061  (Ruta: R57 - Vuelta)
-500061 -> 500062  (Ruta: R57 - Vuelta)
-500062 -> 500063  (Ruta: R57 - Vuelta)
-500063 -> 500050  (Ruta: R57 - Vuelta)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: R57 - Vuelta (11 arcos) ---
+1. Origen: T.C-A1 (ID: 500050) -> Destino: T.C-A2 (ID: 500051) | Ruta: R57 - Vuelta
+2. Origen: T.C-A2 (ID: 500051) -> Destino: T.C-A3 (ID: 500052) | Ruta: R57 - Vuelta
+3. Origen: T.C-A3 (ID: 500052) -> Destino: T.C-A4 (ID: 500053) | Ruta: R57 - Vuelta
+4. Origen: T.C-A4 (ID: 500053) -> Destino: T.C-A5 (ID: 500054) | Ruta: R57 - Vuelta
+5. Origen: T.C-A5 (ID: 500054) -> Destino: T.C-A6 (ID: 500056) | Ruta: R57 - Vuelta
+6. Origen: T.C-A6 (ID: 500056) -> Destino: T.C-A7 (ID: 500055) | Ruta: R57 - Vuelta
+7. Origen: T.C-A7 (ID: 500055) -> Destino: T.C-A8 (ID: 500058) | Ruta: R57 - Vuelta
+8. Origen: T.C-A8 (ID: 500058) -> Destino: T.C-A9 (ID: 500060) | Ruta: R57 - Vuelta
+9. Origen: T.C-A9 (ID: 500060) -> Destino: T.C-A10 (ID: 500061) | Ruta: R57 - Vuelta
+10. Origen: T.C-A10 (ID: 500061) -> Destino: T.C-A11 (ID: 500062) | Ruta: R57 - Vuelta
+11. Origen: T.C-A11 (ID: 500062) -> Destino: T.C-A12 (ID: 500063) | Ruta: R57 - Vuelta

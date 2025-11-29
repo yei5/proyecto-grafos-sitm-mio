@@ -3,81 +3,87 @@ Nodos: 38
 Arcos: 37
 ------------------------------------
 
-=== Lista de Nodos ===
-512055 - A2BNC34
-513264 - A6NC652
-512054 - C34A3CN
-516079 - C13C14
-516058 - C13K65
-511243 - K80C13A1
-516054 - C13K7572
-516076 - C13K32A
-519026 - C13K21
-516254 - K80C13B
-516177 - C13K69
-516056 - C13K68
-516072 - C13K39
-519022 - C13D232
-516052 - C13K78
-516074 - C13K342
-500603 - TORRE4
-516070 - C13K41A2
-512206 - A3NC23D2
-512207 - A6NC492
-512021 - A3NC32A
-511235 - K80C5
-513016 - A6NC372
-512123 - A6NC528
-516064 - C13K50
-516065 - C13K47A
-516067 - C13K44A
-516060 - C13K57
-512040 - A6NC45
-501502 - PTCUY6
-516062 - C13K552
-501405 - SANPAS6
-513270 - A6NC40-2
-501552 - SANPED6
-519290 - C13K23A
-502401 - L.AMERI2
-502100 - CAPRI1
-501452 - SUCRE6
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+512055 - A2BNC34 - GPS: (3,472267, -76,526016)
+513264 - A6NC652 - GPS: (3,492351, -76,523460)
+512054 - C34A3CN - GPS: (3,471739, -76,523510)
+516079 - C13C14 - GPS: (3,429498, -76,527266)
+516058 - C13K65 - GPS: (3,401042, -76,536880)
+511243 - K80C13A1 - GPS: (3,386998, -76,536117)
+516054 - C13K7572 - GPS: (3,391921, -76,538309)
+516076 - C13K32A - GPS: (3,426376, -76,528685)
+519026 - C13K21 - GPS: (3,438452, -76,528222)
+516254 - K80C13B - GPS: (3,387287, -76,536249)
+516177 - C13K69 - GPS: (3,394858, -76,538049)
+516056 - C13K68 - GPS: (3,397180, -76,537832)
+516072 - C13K39 - GPS: (3,419785, -76,530840)
+519022 - C13D232 - GPS: (3,432869, -76,527915)
+516052 - C13K78 - GPS: (3,389287, -76,538490)
+516074 - C13K342 - GPS: (3,423658, -76,529555)
+500603 - TORRE4 - GPS: (3,457120, -76,530048)
+516070 - C13K41A2 - GPS: (3,416723, -76,531848)
+512206 - A3NC23D2 - GPS: (3,466156, -76,523656)
+512207 - A6NC492 - GPS: (3,487253, -76,525586)
+512021 - A3NC32A - GPS: (3,470141, -76,522108)
+511235 - K80C5 - GPS: (3,386285, -76,541300)
+513016 - A6NC372 - GPS: (3,475772, -76,526475)
+512123 - A6NC528 - GPS: (3,490081, -76,524010)
+516064 - C13K50 - GPS: (3,409266, -76,534241)
+516065 - C13K47A - GPS: (3,411918, -76,533437)
+516067 - C13K44A - GPS: (3,413579, -76,532839)
+516060 - C13K57 - GPS: (3,404005, -76,535878)
+512040 - A6NC45 - GPS: (3,484049, -76,525614)
+501502 - PTCUY6 - GPS: (3,449637, -76,528092)
+516062 - C13K552 - GPS: (3,406662, -76,535028)
+501405 - SANPAS6 - GPS: (3,442595, -76,526807)
+513270 - A6NC40-2 - GPS: (3,479357, -76,525283)
+501552 - SANPED6 - GPS: (3,454913, -76,530290)
+519290 - C13K23A - GPS: (3,435655, -76,528088)
+502401 - L.AMERI2 - GPS: (3,463730, -76,525142)
+502100 - CAPRI1 - GPS: (3,388280, -76,545085)
+501452 - SUCRE6 - GPS: (3,444457, -76,526545)
 
-=== Lista de Arcos ===
-502100 -> 511235  (Ruta: P72 - Vuelta)
-511235 -> 511243  (Ruta: P72 - Vuelta)
-511243 -> 516254  (Ruta: P72 - Vuelta)
-516254 -> 516052  (Ruta: P72 - Vuelta)
-516052 -> 516054  (Ruta: P72 - Vuelta)
-516054 -> 516177  (Ruta: P72 - Vuelta)
-516177 -> 516056  (Ruta: P72 - Vuelta)
-516056 -> 516058  (Ruta: P72 - Vuelta)
-516058 -> 516060  (Ruta: P72 - Vuelta)
-516060 -> 516062  (Ruta: P72 - Vuelta)
-516062 -> 516064  (Ruta: P72 - Vuelta)
-516064 -> 516065  (Ruta: P72 - Vuelta)
-516065 -> 516067  (Ruta: P72 - Vuelta)
-516067 -> 516070  (Ruta: P72 - Vuelta)
-516070 -> 516072  (Ruta: P72 - Vuelta)
-516072 -> 516074  (Ruta: P72 - Vuelta)
-516074 -> 516076  (Ruta: P72 - Vuelta)
-516076 -> 516079  (Ruta: P72 - Vuelta)
-516079 -> 519022  (Ruta: P72 - Vuelta)
-519022 -> 519290  (Ruta: P72 - Vuelta)
-519290 -> 519026  (Ruta: P72 - Vuelta)
-519026 -> 501405  (Ruta: P72 - Vuelta)
-501405 -> 501452  (Ruta: P72 - Vuelta)
-501452 -> 501502  (Ruta: P72 - Vuelta)
-501502 -> 501552  (Ruta: P72 - Vuelta)
-501552 -> 500603  (Ruta: P72 - Vuelta)
-500603 -> 502401  (Ruta: P72 - Vuelta)
-502401 -> 512206  (Ruta: P72 - Vuelta)
-512206 -> 512021  (Ruta: P72 - Vuelta)
-512021 -> 512054  (Ruta: P72 - Vuelta)
-512054 -> 512055  (Ruta: P72 - Vuelta)
-512055 -> 513016  (Ruta: P72 - Vuelta)
-513016 -> 513270  (Ruta: P72 - Vuelta)
-513270 -> 512040  (Ruta: P72 - Vuelta)
-512040 -> 512207  (Ruta: P72 - Vuelta)
-512207 -> 512123  (Ruta: P72 - Vuelta)
-512123 -> 513264  (Ruta: P72 - Vuelta)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: P72 - Vuelta (37 arcos) ---
+1. Origen: CAPRI1 (ID: 502100) -> Destino: K80C5 (ID: 511235) | Ruta: P72 - Vuelta
+2. Origen: K80C5 (ID: 511235) -> Destino: K80C13A1 (ID: 511243) | Ruta: P72 - Vuelta
+3. Origen: K80C13A1 (ID: 511243) -> Destino: K80C13B (ID: 516254) | Ruta: P72 - Vuelta
+4. Origen: K80C13B (ID: 516254) -> Destino: C13K78 (ID: 516052) | Ruta: P72 - Vuelta
+5. Origen: C13K78 (ID: 516052) -> Destino: C13K7572 (ID: 516054) | Ruta: P72 - Vuelta
+6. Origen: C13K7572 (ID: 516054) -> Destino: C13K69 (ID: 516177) | Ruta: P72 - Vuelta
+7. Origen: C13K69 (ID: 516177) -> Destino: C13K68 (ID: 516056) | Ruta: P72 - Vuelta
+8. Origen: C13K68 (ID: 516056) -> Destino: C13K65 (ID: 516058) | Ruta: P72 - Vuelta
+9. Origen: C13K65 (ID: 516058) -> Destino: C13K57 (ID: 516060) | Ruta: P72 - Vuelta
+10. Origen: C13K57 (ID: 516060) -> Destino: C13K552 (ID: 516062) | Ruta: P72 - Vuelta
+11. Origen: C13K552 (ID: 516062) -> Destino: C13K50 (ID: 516064) | Ruta: P72 - Vuelta
+12. Origen: C13K50 (ID: 516064) -> Destino: C13K47A (ID: 516065) | Ruta: P72 - Vuelta
+13. Origen: C13K47A (ID: 516065) -> Destino: C13K44A (ID: 516067) | Ruta: P72 - Vuelta
+14. Origen: C13K44A (ID: 516067) -> Destino: C13K41A2 (ID: 516070) | Ruta: P72 - Vuelta
+15. Origen: C13K41A2 (ID: 516070) -> Destino: C13K39 (ID: 516072) | Ruta: P72 - Vuelta
+16. Origen: C13K39 (ID: 516072) -> Destino: C13K342 (ID: 516074) | Ruta: P72 - Vuelta
+17. Origen: C13K342 (ID: 516074) -> Destino: C13K32A (ID: 516076) | Ruta: P72 - Vuelta
+18. Origen: C13K32A (ID: 516076) -> Destino: C13C14 (ID: 516079) | Ruta: P72 - Vuelta
+19. Origen: C13C14 (ID: 516079) -> Destino: C13D232 (ID: 519022) | Ruta: P72 - Vuelta
+20. Origen: C13D232 (ID: 519022) -> Destino: C13K23A (ID: 519290) | Ruta: P72 - Vuelta
+21. Origen: C13K23A (ID: 519290) -> Destino: C13K21 (ID: 519026) | Ruta: P72 - Vuelta
+22. Origen: C13K21 (ID: 519026) -> Destino: SANPAS6 (ID: 501405) | Ruta: P72 - Vuelta
+23. Origen: SANPAS6 (ID: 501405) -> Destino: SUCRE6 (ID: 501452) | Ruta: P72 - Vuelta
+24. Origen: SUCRE6 (ID: 501452) -> Destino: PTCUY6 (ID: 501502) | Ruta: P72 - Vuelta
+25. Origen: PTCUY6 (ID: 501502) -> Destino: SANPED6 (ID: 501552) | Ruta: P72 - Vuelta
+26. Origen: SANPED6 (ID: 501552) -> Destino: TORRE4 (ID: 500603) | Ruta: P72 - Vuelta
+27. Origen: TORRE4 (ID: 500603) -> Destino: L.AMERI2 (ID: 502401) | Ruta: P72 - Vuelta
+28. Origen: L.AMERI2 (ID: 502401) -> Destino: A3NC23D2 (ID: 512206) | Ruta: P72 - Vuelta
+29. Origen: A3NC23D2 (ID: 512206) -> Destino: A3NC32A (ID: 512021) | Ruta: P72 - Vuelta
+30. Origen: A3NC32A (ID: 512021) -> Destino: C34A3CN (ID: 512054) | Ruta: P72 - Vuelta
+31. Origen: C34A3CN (ID: 512054) -> Destino: A2BNC34 (ID: 512055) | Ruta: P72 - Vuelta
+32. Origen: A2BNC34 (ID: 512055) -> Destino: A6NC372 (ID: 513016) | Ruta: P72 - Vuelta
+33. Origen: A6NC372 (ID: 513016) -> Destino: A6NC40-2 (ID: 513270) | Ruta: P72 - Vuelta
+34. Origen: A6NC40-2 (ID: 513270) -> Destino: A6NC45 (ID: 512040) | Ruta: P72 - Vuelta
+35. Origen: A6NC45 (ID: 512040) -> Destino: A6NC492 (ID: 512207) | Ruta: P72 - Vuelta
+36. Origen: A6NC492 (ID: 512207) -> Destino: A6NC528 (ID: 512123) | Ruta: P72 - Vuelta
+37. Origen: A6NC528 (ID: 512123) -> Destino: A6NC652 (ID: 513264) | Ruta: P72 - Vuelta

@@ -3,27 +3,33 @@ Nodos: 11
 Arcos: 10
 ------------------------------------
 
-=== Lista de Nodos ===
-502302 - UNIV3
-511195 - C18K122
-511361 - C18K118
-511196 - C18K125
-511179 - C18K105
-511178 - C16K100
-511214 - K125C20
-511347 - C18K1142
-511193 - C18K114
-511194 - C18K114B
-511192 - C18K106
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+502302 - UNIV3 - GPS: (3,366822, -76,528960)
+511195 - C18K122 - GPS: (3,343648, -76,530919)
+511361 - C18K118 - GPS: (3,347878, -76,530725)
+511196 - C18K125 - GPS: (3,341284, -76,531094)
+511179 - C18K105 - GPS: (3,362568, -76,531687)
+511178 - C16K100 - GPS: (3,366032, -76,530651)
+511214 - K125C20 - GPS: (3,338454, -76,529502)
+511347 - C18K1142 - GPS: (3,355890, -76,530445)
+511193 - C18K114 - GPS: (3,358212, -76,530555)
+511194 - C18K114B - GPS: (3,352422, -76,530346)
+511192 - C18K106 - GPS: (3,360647, -76,530978)
 
-=== Lista de Arcos ===
-502302 -> 511178  (Ruta: A11 - Vuelta)
-511178 -> 511179  (Ruta: A11 - Vuelta)
-511179 -> 511192  (Ruta: A11 - Vuelta)
-511192 -> 511193  (Ruta: A11 - Vuelta)
-511193 -> 511347  (Ruta: A11 - Vuelta)
-511347 -> 511194  (Ruta: A11 - Vuelta)
-511194 -> 511361  (Ruta: A11 - Vuelta)
-511361 -> 511195  (Ruta: A11 - Vuelta)
-511195 -> 511196  (Ruta: A11 - Vuelta)
-511196 -> 511214  (Ruta: A11 - Vuelta)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: A11 - Vuelta (10 arcos) ---
+1. Origen: UNIV3 (ID: 502302) -> Destino: C16K100 (ID: 511178) | Ruta: A11 - Vuelta
+2. Origen: C16K100 (ID: 511178) -> Destino: C18K105 (ID: 511179) | Ruta: A11 - Vuelta
+3. Origen: C18K105 (ID: 511179) -> Destino: C18K106 (ID: 511192) | Ruta: A11 - Vuelta
+4. Origen: C18K106 (ID: 511192) -> Destino: C18K114 (ID: 511193) | Ruta: A11 - Vuelta
+5. Origen: C18K114 (ID: 511193) -> Destino: C18K1142 (ID: 511347) | Ruta: A11 - Vuelta
+6. Origen: C18K1142 (ID: 511347) -> Destino: C18K114B (ID: 511194) | Ruta: A11 - Vuelta
+7. Origen: C18K114B (ID: 511194) -> Destino: C18K118 (ID: 511361) | Ruta: A11 - Vuelta
+8. Origen: C18K118 (ID: 511361) -> Destino: C18K122 (ID: 511195) | Ruta: A11 - Vuelta
+9. Origen: C18K122 (ID: 511195) -> Destino: C18K125 (ID: 511196) | Ruta: A11 - Vuelta
+10. Origen: C18K125 (ID: 511196) -> Destino: K125C20 (ID: 511214) | Ruta: A11 - Vuelta

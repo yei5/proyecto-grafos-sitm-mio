@@ -3,43 +3,49 @@ Nodos: 19
 Arcos: 18
 ------------------------------------
 
-=== Lista de Nodos ===
-514124 - C112K26B
-514421 - K27C96
-514278 - C79K28D
-514432 - K28DC79
-514123 - C112K26A
-514376 - C72YK27A
-514122 - C112K25
-514275 - C112K26M
-514469 - K27C109
-514182 - C112K26H
-514193 - K27C81
-514181 - C112K26D
-514192 - K27C91
-514190 - K27C1061
-514197 - K25C94
-514175 - C112K26J
-514196 - K25C891
-514195 - K25C84
-514183 - C112K109
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+514124 - C112K26B - GPS: (3,425278, -76,469411)
+514421 - K27C96 - GPS: (3,418790, -76,479259)
+514278 - C79K28D - GPS: (3,420331, -76,486464)
+514432 - K28DC79 - GPS: (3,418623, -76,486982)
+514123 - C112K26A - GPS: (3,426744, -76,468552)
+514376 - C72YK27A - GPS: (3,423338, -76,486105)
+514122 - C112K25 - GPS: (3,427874, -76,466996)
+514275 - C112K26M - GPS: (3,418503, -76,473330)
+514469 - K27C109 - GPS: (3,416360, -76,475915)
+514182 - C112K26H - GPS: (3,422753, -76,470894)
+514193 - K27C81 - GPS: (3,422281, -76,482942)
+514181 - C112K26D - GPS: (3,424407, -76,469951)
+514192 - K27C91 - GPS: (3,420470, -76,481026)
+514190 - K27C1061 - GPS: (3,417577, -76,477864)
+514197 - K25C94 - GPS: (3,429712, -76,467537)
+514175 - C112K26J - GPS: (3,420459, -76,472202)
+514196 - K25C891 - GPS: (3,431193, -76,469387)
+514195 - K25C84 - GPS: (3,434000, -76,472403)
+514183 - C112K109 - GPS: (3,416435, -76,474508)
 
-=== Lista de Arcos ===
-514195 -> 514196  (Ruta: A55 - Vuelta)
-514196 -> 514197  (Ruta: A55 - Vuelta)
-514197 -> 514122  (Ruta: A55 - Vuelta)
-514122 -> 514123  (Ruta: A55 - Vuelta)
-514123 -> 514124  (Ruta: A55 - Vuelta)
-514124 -> 514181  (Ruta: A55 - Vuelta)
-514181 -> 514182  (Ruta: A55 - Vuelta)
-514182 -> 514175  (Ruta: A55 - Vuelta)
-514175 -> 514275  (Ruta: A55 - Vuelta)
-514275 -> 514183  (Ruta: A55 - Vuelta)
-514183 -> 514469  (Ruta: A55 - Vuelta)
-514469 -> 514190  (Ruta: A55 - Vuelta)
-514190 -> 514421  (Ruta: A55 - Vuelta)
-514421 -> 514192  (Ruta: A55 - Vuelta)
-514192 -> 514193  (Ruta: A55 - Vuelta)
-514193 -> 514376  (Ruta: A55 - Vuelta)
-514376 -> 514278  (Ruta: A55 - Vuelta)
-514278 -> 514432  (Ruta: A55 - Vuelta)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: A55 - Vuelta (18 arcos) ---
+1. Origen: K25C84 (ID: 514195) -> Destino: K25C891 (ID: 514196) | Ruta: A55 - Vuelta
+2. Origen: K25C891 (ID: 514196) -> Destino: K25C94 (ID: 514197) | Ruta: A55 - Vuelta
+3. Origen: K25C94 (ID: 514197) -> Destino: C112K25 (ID: 514122) | Ruta: A55 - Vuelta
+4. Origen: C112K25 (ID: 514122) -> Destino: C112K26A (ID: 514123) | Ruta: A55 - Vuelta
+5. Origen: C112K26A (ID: 514123) -> Destino: C112K26B (ID: 514124) | Ruta: A55 - Vuelta
+6. Origen: C112K26B (ID: 514124) -> Destino: C112K26D (ID: 514181) | Ruta: A55 - Vuelta
+7. Origen: C112K26D (ID: 514181) -> Destino: C112K26H (ID: 514182) | Ruta: A55 - Vuelta
+8. Origen: C112K26H (ID: 514182) -> Destino: C112K26J (ID: 514175) | Ruta: A55 - Vuelta
+9. Origen: C112K26J (ID: 514175) -> Destino: C112K26M (ID: 514275) | Ruta: A55 - Vuelta
+10. Origen: C112K26M (ID: 514275) -> Destino: C112K109 (ID: 514183) | Ruta: A55 - Vuelta
+11. Origen: C112K109 (ID: 514183) -> Destino: K27C109 (ID: 514469) | Ruta: A55 - Vuelta
+12. Origen: K27C109 (ID: 514469) -> Destino: K27C1061 (ID: 514190) | Ruta: A55 - Vuelta
+13. Origen: K27C1061 (ID: 514190) -> Destino: K27C96 (ID: 514421) | Ruta: A55 - Vuelta
+14. Origen: K27C96 (ID: 514421) -> Destino: K27C91 (ID: 514192) | Ruta: A55 - Vuelta
+15. Origen: K27C91 (ID: 514192) -> Destino: K27C81 (ID: 514193) | Ruta: A55 - Vuelta
+16. Origen: K27C81 (ID: 514193) -> Destino: C72YK27A (ID: 514376) | Ruta: A55 - Vuelta
+17. Origen: C72YK27A (ID: 514376) -> Destino: C79K28D (ID: 514278) | Ruta: A55 - Vuelta
+18. Origen: C79K28D (ID: 514278) -> Destino: K28DC79 (ID: 514432) | Ruta: A55 - Vuelta

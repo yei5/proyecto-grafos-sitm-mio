@@ -1,0 +1,132 @@
+========================================
+REPORTE DE RUTA: E27-1
+========================================
+
+Información General:
+  Número de Arcos: 24
+  Distancia Total: 13,92 km
+  Tiempo Total: 38,67 min
+  Velocidad Promedio: 20,31 km/h
+
+Detalle de Arcos:
+------------------------------------------------------------
+Arco 1: TMENGA7 -> C70A2BS1
+  Distancia: 0,28 km
+  Tiempo: 0,95 min
+  Velocidad: 17,50 km/h
+
+Arco 2: C70A2BS1 -> A2NC70
+  Distancia: 0,27 km
+  Tiempo: 0,93 min
+  Velocidad: 17,50 km/h
+
+Arco 3: A2NC70 -> A2NC62AN
+  Distancia: 0,29 km
+  Tiempo: 0,99 min
+  Velocidad: 17,50 km/h
+
+Arco 4: A2NC62AN -> A2NC57AN
+  Distancia: 0,20 km
+  Tiempo: 0,67 min
+  Velocidad: 17,50 km/h
+
+Arco 5: A2NC57AN -> C55A2B
+  Distancia: 0,30 km
+  Tiempo: 1,03 min
+  Velocidad: 17,50 km/h
+
+Arco 6: C55A2B -> C55NA2F
+  Distancia: 0,24 km
+  Tiempo: 0,83 min
+  Velocidad: 17,50 km/h
+
+Arco 7: C55NA2F -> ALAMOS1
+  Distancia: 0,34 km
+  Tiempo: 1,16 min
+  Velocidad: 17,50 km/h
+
+Arco 8: ALAMOS1 -> VIPASA1
+  Distancia: 0,77 km
+  Tiempo: 1,85 min
+  Velocidad: 25,00 km/h
+
+Arco 9: VIPASA1 -> PRADNOR1
+  Distancia: 0,55 km
+  Tiempo: 1,32 min
+  Velocidad: 25,00 km/h
+
+Arco 10: PRADNOR1 -> A3NC31
+  Distancia: 0,50 km
+  Tiempo: 1,71 min
+  Velocidad: 17,50 km/h
+
+Arco 11: A3NC31 -> A3NC24
+  Distancia: 0,46 km
+  Tiempo: 1,58 min
+  Velocidad: 17,50 km/h
+
+Arco 12: A3NC24 -> L.AMERI1
+  Distancia: 0,41 km
+  Tiempo: 1,40 min
+  Velocidad: 17,50 km/h
+
+Arco 13: L.AMERI1 -> A1NC10
+  Distancia: 1,33 km
+  Tiempo: 3,20 min
+  Velocidad: 25,00 km/h
+
+Arco 14: A1NC10 -> A1NC71
+  Distancia: 0,51 km
+  Tiempo: 1,23 min
+  Velocidad: 25,00 km/h
+
+Arco 15: A1NC71 -> C5K6Y9
+  Distancia: 0,49 km
+  Tiempo: 1,68 min
+  Velocidad: 17,50 km/h
+
+Arco 16: C5K6Y9 -> C5K13
+  Distancia: 0,36 km
+  Tiempo: 1,24 min
+  Velocidad: 17,50 km/h
+
+Arco 17: C5K13 -> C5K22
+  Distancia: 0,54 km
+  Tiempo: 1,29 min
+  Velocidad: 25,00 km/h
+
+Arco 18: C5K22 -> MANZA3
+  Distancia: 0,67 km
+  Tiempo: 1,60 min
+  Velocidad: 25,00 km/h
+
+Arco 19: MANZA3 -> ESTAD3
+  Distancia: 0,42 km
+  Tiempo: 1,45 min
+  Velocidad: 17,50 km/h
+
+Arco 20: ESTAD3 -> LIDO1
+  Distancia: 1,51 km
+  Tiempo: 3,62 min
+  Velocidad: 25,00 km/h
+
+Arco 21: LIDO1 -> UDP5
+  Distancia: 0,49 km
+  Tiempo: 1,69 min
+  Velocidad: 17,50 km/h
+
+Arco 22: UDP5 -> PAMPA1
+  Distancia: 1,22 km
+  Tiempo: 2,93 min
+  Velocidad: 25,00 km/h
+
+Arco 23: PAMPA1 -> CAPRI1
+  Distancia: 1,71 km
+  Tiempo: 4,11 min
+  Velocidad: 25,00 km/h
+
+Arco 24: CAPRI1 -> CAPRI2
+  Distancia: 0,06 km
+  Tiempo: 0,21 min
+  Velocidad: 17,50 km/h
+

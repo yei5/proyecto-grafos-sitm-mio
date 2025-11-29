@@ -1,0 +1,92 @@
+========================================
+REPORTE DE RUTA: A75-0
+========================================
+
+Información General:
+  Número de Arcos: 16
+  Distancia Total: 3,63 km
+  Tiempo Total: 14,13 min
+  Velocidad Promedio: 15,40 km/h
+
+Detalle de Arcos:
+------------------------------------------------------------
+Arco 1: SIRENA2 -> PUEROJ1
+  Distancia: 0,12 km
+  Tiempo: 0,47 min
+  Velocidad: 15,40 km/h
+
+Arco 2: PUEROJ1 -> SIRENA4
+  Distancia: 0,23 km
+  Tiempo: 0,89 min
+  Velocidad: 15,40 km/h
+
+Arco 3: SIRENA4 -> K56IDEAS
+  Distancia: 0,14 km
+  Tiempo: 0,53 min
+  Velocidad: 15,40 km/h
+
+Arco 4: K56IDEAS -> C13OEPPC
+  Distancia: 0,23 km
+  Tiempo: 0,90 min
+  Velocidad: 15,40 km/h
+
+Arco 5: C13OEPPC -> K56BC2
+  Distancia: 0,32 km
+  Tiempo: 1,26 min
+  Velocidad: 15,40 km/h
+
+Arco 6: K56BC2 -> K56BC3
+  Distancia: 0,17 km
+  Tiempo: 0,68 min
+  Velocidad: 15,40 km/h
+
+Arco 7: K56BC3 -> C13OC55
+  Distancia: 0,26 km
+  Tiempo: 1,00 min
+  Velocidad: 15,40 km/h
+
+Arco 8: C13OC55 -> K56C8O2
+  Distancia: 0,18 km
+  Tiempo: 0,72 min
+  Velocidad: 15,40 km/h
+
+Arco 9: K56C8O2 -> K56C8O3
+  Distancia: 0,37 km
+  Tiempo: 1,45 min
+  Velocidad: 15,40 km/h
+
+Arco 10: K56C8O3 -> K56C5OE
+  Distancia: 0,20 km
+  Tiempo: 0,77 min
+  Velocidad: 15,40 km/h
+
+Arco 11: K56C5OE -> K56C2OE
+  Distancia: 0,17 km
+  Tiempo: 0,66 min
+  Velocidad: 15,40 km/h
+
+Arco 12: K56C2OE -> C1K561
+  Distancia: 0,13 km
+  Tiempo: 0,50 min
+  Velocidad: 15,40 km/h
+
+Arco 13: C1K561 -> C1K55
+  Distancia: 0,18 km
+  Tiempo: 0,72 min
+  Velocidad: 15,40 km/h
+
+Arco 14: C1K55 -> C1K532
+  Distancia: 0,26 km
+  Tiempo: 1,00 min
+  Velocidad: 15,40 km/h
+
+Arco 15: C1K532 -> K52C22
+  Distancia: 0,28 km
+  Tiempo: 1,11 min
+  Velocidad: 15,40 km/h
+
+Arco 16: K52C22 -> T.C-A7
+  Distancia: 0,38 km
+  Tiempo: 1,48 min
+  Velocidad: 15,40 km/h
+

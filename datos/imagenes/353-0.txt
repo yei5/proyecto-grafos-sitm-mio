@@ -1,46 +1,47 @@
 == 353-0 ==
-Nodos: 19
-Arcos: 19
+Nodos: 17
+Arcos: 16
 ------------------------------------
 
-=== Lista de Nodos ===
-515126 - C72UK28A
-514304 - C72UK26H
-514303 - C72UK26J
-514302 - C72UK27
-514368 - C73K26B2
-515059 - C72UK28E
-514301 - C72UK27G
-515191 - C72WK28E
-515192 - C72K28E7
-515060 - C72UK28D
-515193 - K28C72V
-515194 - C72UK28C
-514381 - C73K26F1
-515190 - C72WK28C
-600161 - A.SANI13
-500166 - A.SANIN9
-600166 - A.SANIN9
-514305 - C72UK26G
-500161 - A.SANI13
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+515126 - C72UK28A - GPS: (3,422902, -76,490006)
+514304 - C72UK26H - GPS: (3,430831, -76,485562)
+514303 - C72UK26J - GPS: (3,429283, -76,486370)
+514302 - C72UK27 - GPS: (3,426629, -76,487732)
+514368 - C73K26B2 - GPS: (3,439143, -76,483789)
+515059 - C72UK28E - GPS: (3,419123, -76,493893)
+514301 - C72UK27G - GPS: (3,424433, -76,488874)
+515191 - C72WK28E - GPS: (3,419180, -76,491999)
+515192 - C72K28E7 - GPS: (3,417530, -76,493137)
+515060 - C72UK28D - GPS: (3,420704, -76,492295)
+515193 - K28C72V - GPS: (3,417721, -76,494281)
+515194 - C72UK28C - GPS: (3,422295, -76,490673)
+514381 - C73K26F1 - GPS: (3,436152, -76,483750)
+515190 - C72WK28C - GPS: (3,421413, -76,490383)
+600161 - A.SANI13 - GPS: (3,443826, -76,483579)
+500166 - A.SANIN9 - GPS: (3,443944, -76,482799)
+514305 - C72UK26G - GPS: (3,433026, -76,484529)
 
-=== Lista de Arcos ===
-515190 -> 500166  (Ruta: A53 - Ida)
-500166 -> 515191  (Ruta: A53 - Ida)
-515191 -> 600166  (Ruta: A53 - Ida)
-600166 -> 515192  (Ruta: A53 - Ida)
-515192 -> 600161  (Ruta: A53 - Ida)
-600161 -> 515193  (Ruta: A53 - Ida)
-515193 -> 500161  (Ruta: A53 - Ida)
-500161 -> 515059  (Ruta: A53 - Ida)
-515059 -> 515060  (Ruta: A53 - Ida)
-515060 -> 515194  (Ruta: A53 - Ida)
-515194 -> 515126  (Ruta: A53 - Ida)
-515126 -> 514301  (Ruta: A53 - Ida)
-514301 -> 514302  (Ruta: A53 - Ida)
-514302 -> 514303  (Ruta: A53 - Ida)
-514303 -> 514304  (Ruta: A53 - Ida)
-514304 -> 514305  (Ruta: A53 - Ida)
-514305 -> 514381  (Ruta: A53 - Ida)
-514381 -> 514368  (Ruta: A53 - Ida)
-514368 -> 500166  (Ruta: A53 - Ida)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: A53 - Ida (16 arcos) ---
+1. Origen: A.SANIN9 (ID: 500166) -> Destino: A.SANI13 (ID: 600161) | Ruta: A53 - Ida
+2. Origen: C72WK28C (ID: 515190) -> Destino: C72WK28E (ID: 515191) | Ruta: A53 - Ida
+3. Origen: C72WK28E (ID: 515191) -> Destino: C72K28E7 (ID: 515192) | Ruta: A53 - Ida
+4. Origen: C72K28E7 (ID: 515192) -> Destino: K28C72V (ID: 515193) | Ruta: A53 - Ida
+5. Origen: K28C72V (ID: 515193) -> Destino: C72UK28E (ID: 515059) | Ruta: A53 - Ida
+6. Origen: C72UK28E (ID: 515059) -> Destino: C72UK28D (ID: 515060) | Ruta: A53 - Ida
+7. Origen: C72UK28D (ID: 515060) -> Destino: C72UK28C (ID: 515194) | Ruta: A53 - Ida
+8. Origen: C72UK28C (ID: 515194) -> Destino: C72UK28A (ID: 515126) | Ruta: A53 - Ida
+9. Origen: C72UK28A (ID: 515126) -> Destino: C72UK27G (ID: 514301) | Ruta: A53 - Ida
+10. Origen: C72UK27G (ID: 514301) -> Destino: C72UK27 (ID: 514302) | Ruta: A53 - Ida
+11. Origen: C72UK27 (ID: 514302) -> Destino: C72UK26J (ID: 514303) | Ruta: A53 - Ida
+12. Origen: C72UK26J (ID: 514303) -> Destino: C72UK26H (ID: 514304) | Ruta: A53 - Ida
+13. Origen: C72UK26H (ID: 514304) -> Destino: C72UK26G (ID: 514305) | Ruta: A53 - Ida
+14. Origen: C72UK26G (ID: 514305) -> Destino: C73K26F1 (ID: 514381) | Ruta: A53 - Ida
+15. Origen: C73K26F1 (ID: 514381) -> Destino: C73K26B2 (ID: 514368) | Ruta: A53 - Ida
+16. Origen: C73K26B2 (ID: 514368) -> Destino: A.SANIN9 (ID: 500166) | Ruta: A53 - Ida

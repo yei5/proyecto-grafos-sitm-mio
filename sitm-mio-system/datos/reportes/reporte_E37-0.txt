@@ -1,0 +1,77 @@
+========================================
+REPORTE DE RUTA: E37-0
+========================================
+
+Información General:
+  Número de Arcos: 13
+  Distancia Total: 11,18 km
+  Tiempo Total: 27,17 min
+  Velocidad Promedio: 23,85 km/h
+
+Detalle de Arcos:
+------------------------------------------------------------
+Arco 1: PCOMERB4 -> PCOMERA2
+  Distancia: 0,03 km
+  Tiempo: 0,11 min
+  Velocidad: 17,50 km/h
+
+Arco 2: UDP4 -> TEQUE 4
+  Distancia: 0,99 km
+  Tiempo: 2,38 min
+  Velocidad: 25,00 km/h
+
+Arco 3: TEQUE 4 -> ESTAD2
+  Distancia: 0,97 km
+  Tiempo: 2,33 min
+  Velocidad: 25,00 km/h
+
+Arco 4: ESTAD2 -> SNTLIB2
+  Distancia: 1,10 km
+  Tiempo: 2,63 min
+  Velocidad: 25,00 km/h
+
+Arco 5: SNTLIB2 -> SANBO2
+  Distancia: 0,59 km
+  Tiempo: 1,41 min
+  Velocidad: 25,00 km/h
+
+Arco 6: SANBO2 -> PTCUY2
+  Distancia: 0,89 km
+  Tiempo: 2,15 min
+  Velocidad: 25,00 km/h
+
+Arco 7: PTCUY2 -> SANPED2
+  Distancia: 0,65 km
+  Tiempo: 1,55 min
+  Velocidad: 25,00 km/h
+
+Arco 8: SANPED2 -> TORRE2
+  Distancia: 0,30 km
+  Tiempo: 1,02 min
+  Velocidad: 17,50 km/h
+
+Arco 9: TORRE2 -> MZAN2
+  Distancia: 2,17 km
+  Tiempo: 5,22 min
+  Velocidad: 25,00 km/h
+
+Arco 10: MZAN2 -> SALOM2
+  Distancia: 1,12 km
+  Tiempo: 2,68 min
+  Velocidad: 25,00 km/h
+
+Arco 11: SALOM2 -> FLORAI2
+  Distancia: 0,70 km
+  Tiempo: 1,69 min
+  Velocidad: 25,00 km/h
+
+Arco 12: FLORAI2 -> CHIMI2
+  Distancia: 0,57 km
+  Tiempo: 1,38 min
+  Velocidad: 25,00 km/h
+
+Arco 13: CHIMI2 -> PCOMERB4
+  Distancia: 1,09 km
+  Tiempo: 2,61 min
+  Velocidad: 25,00 km/h
+

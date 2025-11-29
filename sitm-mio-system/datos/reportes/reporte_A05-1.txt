@@ -1,0 +1,52 @@
+========================================
+REPORTE DE RUTA: A05-1
+========================================
+
+Información General:
+  Número de Arcos: 8
+  Distancia Total: 3,44 km
+  Tiempo Total: 11,55 min
+  Velocidad Promedio: 17,05 km/h
+
+Detalle de Arcos:
+------------------------------------------------------------
+Arco 1: L.AMERI1 -> VERSALL1
+  Distancia: 0,35 km
+  Tiempo: 1,35 min
+  Velocidad: 15,40 km/h
+
+Arco 2: VERSALL1 -> A1NC10-2
+  Distancia: 1,03 km
+  Tiempo: 2,82 min
+  Velocidad: 22,00 km/h
+
+Arco 3: A1NC10-2 -> A1NC71
+  Distancia: 0,47 km
+  Tiempo: 1,84 min
+  Velocidad: 15,40 km/h
+
+Arco 4: A1NC71 -> A4NC2OE
+  Distancia: 0,56 km
+  Tiempo: 1,52 min
+  Velocidad: 22,00 km/h
+
+Arco 5: A4NC2OE -> A4NC3
+  Distancia: 0,26 km
+  Tiempo: 1,01 min
+  Velocidad: 15,40 km/h
+
+Arco 6: A4NC3 -> A4NC5
+  Distancia: 0,33 km
+  Tiempo: 1,29 min
+  Velocidad: 15,40 km/h
+
+Arco 7: A4NC5 -> A4NC6
+  Distancia: 0,32 km
+  Tiempo: 1,26 min
+  Velocidad: 15,40 km/h
+
+Arco 8: A4NC6 -> C7OEAV1
+  Distancia: 0,12 km
+  Tiempo: 0,46 min
+  Velocidad: 15,40 km/h
+

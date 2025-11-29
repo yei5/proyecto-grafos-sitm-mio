@@ -1,0 +1,77 @@
+========================================
+REPORTE DE RUTA: A45B-1
+========================================
+
+Información General:
+  Número de Arcos: 13
+  Distancia Total: 3,49 km
+  Tiempo Total: 13,60 min
+  Velocidad Promedio: 15,40 km/h
+
+Detalle de Arcos:
+------------------------------------------------------------
+Arco 1: C52K14 -> C44K15
+  Distancia: 0,39 km
+  Tiempo: 1,52 min
+  Velocidad: 15,40 km/h
+
+Arco 2: C44K15 -> C44K12C
+  Distancia: 0,31 km
+  Tiempo: 1,20 min
+  Velocidad: 15,40 km/h
+
+Arco 3: C44K12C -> C44K12
+  Distancia: 0,19 km
+  Tiempo: 0,74 min
+  Velocidad: 15,40 km/h
+
+Arco 4: C44K12 -> C44K9
+  Distancia: 0,35 km
+  Tiempo: 1,35 min
+  Velocidad: 15,40 km/h
+
+Arco 5: C44K9 -> K8C44B
+  Distancia: 0,20 km
+  Tiempo: 0,76 min
+  Velocidad: 15,40 km/h
+
+Arco 6: K8C44B -> K8C492
+  Distancia: 0,33 km
+  Tiempo: 1,30 min
+  Velocidad: 15,40 km/h
+
+Arco 7: K8C492 -> K8C522
+  Distancia: 0,29 km
+  Tiempo: 1,14 min
+  Velocidad: 15,40 km/h
+
+Arco 8: K8C522 -> K8C562
+  Distancia: 0,21 km
+  Tiempo: 0,83 min
+  Velocidad: 15,40 km/h
+
+Arco 9: K8C562 -> K8C582
+  Distancia: 0,30 km
+  Tiempo: 1,17 min
+  Velocidad: 15,40 km/h
+
+Arco 10: K8C582 -> K8C592
+  Distancia: 0,33 km
+  Tiempo: 1,27 min
+  Velocidad: 15,40 km/h
+
+Arco 11: K8C592 -> K8C703
+  Distancia: 0,38 km
+  Tiempo: 1,50 min
+  Velocidad: 15,40 km/h
+
+Arco 12: K8C703 -> K8C702
+  Distancia: 0,03 km
+  Tiempo: 0,10 min
+  Velocidad: 15,40 km/h
+
+Arco 13: K8C702 -> C63K8
+  Distancia: 0,19 km
+  Tiempo: 0,73 min
+  Velocidad: 15,40 km/h
+

@@ -4,16 +4,6 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.*;
-import java.awt.BasicStroke;
-import java.awt.Color;
-import java.awt.Font;
-import java.awt.FontMetrics;
-import java.awt.Graphics2D;
-import java.awt.Point;
-import java.awt.RenderingHints;
-import java.awt.image.BufferedImage;
-import javax.imageio.ImageIO;
-import java.io.File;
 
 /**
  * Clase que representa un grafo dirigido para el sistema SITM-MIO
@@ -43,7 +33,8 @@ public class Grafo {
     }
     
     /**
-     * Agrega un arco al grafo
+     * Agrega un arco al grafo, evitando duplicados dentro de la misma ruta
+     * Un arco es duplicado si tiene el mismo origen, destino y ruta
      * @param arco Arco a agregar
      */
     public void agregarArco(Arco arco) {
@@ -54,8 +45,29 @@ public class Grafo {
             agregarNodo(arco.getDestino());
         }
         
-        arcos.add(arco);
-        listaAdyacencia.get(arco.getOrigen().getId()).add(arco);
+        // Verificar si ya existe un arco con el mismo origen, destino y ruta
+        String origenId = arco.getOrigen().getId();
+        String destinoId = arco.getDestino().getId();
+        String ruta = arco.getRuta();
+        
+        // Solo agregar si no existe un arco duplicado en la misma ruta
+        // (diferentes rutas pueden tener el mismo arco, eso está permitido)
+        boolean esDuplicado = false;
+        List<Arco> arcosOrigen = listaAdyacencia.get(origenId);
+        if (arcosOrigen != null) {
+            for (Arco arcoExistente : arcosOrigen) {
+                if (arcoExistente.getDestino().getId().equals(destinoId) && 
+                    arcoExistente.getRuta().equals(ruta)) {
+                    esDuplicado = true;
+                    break;
+                }
+            }
+        }
+        
+        if (!esDuplicado) {
+            arcos.add(arco);
+            listaAdyacencia.get(origenId).add(arco);
+        }
     }
     
     /**

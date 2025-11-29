@@ -1,54 +1,36 @@
 == 3351-1 ==
-Nodos: 13
-Arcos: 33
+Nodos: 11
+Arcos: 11
 ------------------------------------
 
-=== Lista de Nodos ===
-513244 - C73AK1A4
-513243 - C73AK1A5
-513242 - C73AK1A8
-513241 - K1A12C76
-513237 - C73AK1A
-513245 - C73AK1A1
-513240 - C76K1A7
-613316 - R-PCOME1
-504007 - PCOMERC7
-513239 - C76K1A5A
-513316 - R-PCOME1
-513238 - C76K1A4A
-604007 - PCOMERC7
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+513244 - C73AK1A4 - GPS: (3,488268, -76,485613)
+613316 - R-PCOME1 - GPS: (3,490994, -76,490891)
+513243 - C73AK1A5 - GPS: (3,486126, -76,485090)
+513242 - C73AK1A8 - GPS: (3,483890, -76,484539)
+504007 - PCOMERC7 - GPS: (3,489900, -76,493039)
+513241 - K1A12C76 - GPS: (3,482709, -76,483635)
+513237 - C73AK1A - GPS: (3,491214, -76,486075)
+513245 - C73AK1A1 - GPS: (3,491234, -76,485975)
+513239 - C76K1A5A - GPS: (3,486610, -76,484512)
+513238 - C76K1A4A - GPS: (3,488802, -76,485129)
+513240 - C76K1A7 - GPS: (3,484455, -76,483687)
 
-=== Lista de Arcos ===
-513238 -> 504007  (Ruta: A35A - Vuelta)
-504007 -> 504007  (Ruta: A35A - Vuelta)
-504007 -> 504007  (Ruta: A35A - Vuelta)
-504007 -> 513239  (Ruta: A35A - Vuelta)
-513239 -> 513237  (Ruta: A35A - Vuelta)
-513237 -> 513237  (Ruta: A35A - Vuelta)
-513237 -> 604007  (Ruta: A35A - Vuelta)
-604007 -> 513240  (Ruta: A35A - Vuelta)
-513240 -> 513238  (Ruta: A35A - Vuelta)
-513238 -> 513238  (Ruta: A35A - Vuelta)
-513238 -> 613316  (Ruta: A35A - Vuelta)
-613316 -> 513241  (Ruta: A35A - Vuelta)
-513241 -> 513239  (Ruta: A35A - Vuelta)
-513239 -> 513239  (Ruta: A35A - Vuelta)
-513239 -> 513316  (Ruta: A35A - Vuelta)
-513316 -> 513242  (Ruta: A35A - Vuelta)
-513242 -> 513240  (Ruta: A35A - Vuelta)
-513240 -> 513240  (Ruta: A35A - Vuelta)
-513240 -> 513243  (Ruta: A35A - Vuelta)
-513243 -> 513241  (Ruta: A35A - Vuelta)
-513241 -> 513241  (Ruta: A35A - Vuelta)
-513241 -> 513244  (Ruta: A35A - Vuelta)
-513244 -> 513242  (Ruta: A35A - Vuelta)
-513242 -> 513242  (Ruta: A35A - Vuelta)
-513242 -> 513245  (Ruta: A35A - Vuelta)
-513245 -> 513243  (Ruta: A35A - Vuelta)
-513243 -> 513243  (Ruta: A35A - Vuelta)
-513243 -> 504007  (Ruta: A35A - Vuelta)
-504007 -> 513244  (Ruta: A35A - Vuelta)
-513244 -> 513244  (Ruta: A35A - Vuelta)
-513244 -> 513245  (Ruta: A35A - Vuelta)
-513245 -> 513245  (Ruta: A35A - Vuelta)
-513245 -> 504007  (Ruta: A35A - Vuelta)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: A35A - Vuelta (11 arcos) ---
+1. Origen: PCOMERC7 (ID: 504007) -> Destino: C73AK1A (ID: 513237) | Ruta: A35A - Vuelta
+2. Origen: C73AK1A (ID: 513237) -> Destino: C76K1A4A (ID: 513238) | Ruta: A35A - Vuelta
+3. Origen: C76K1A4A (ID: 513238) -> Destino: C76K1A5A (ID: 513239) | Ruta: A35A - Vuelta
+4. Origen: C76K1A5A (ID: 513239) -> Destino: C76K1A7 (ID: 513240) | Ruta: A35A - Vuelta
+5. Origen: C76K1A7 (ID: 513240) -> Destino: K1A12C76 (ID: 513241) | Ruta: A35A - Vuelta
+6. Origen: K1A12C76 (ID: 513241) -> Destino: C73AK1A8 (ID: 513242) | Ruta: A35A - Vuelta
+7. Origen: C73AK1A8 (ID: 513242) -> Destino: C73AK1A5 (ID: 513243) | Ruta: A35A - Vuelta
+8. Origen: C73AK1A5 (ID: 513243) -> Destino: C73AK1A4 (ID: 513244) | Ruta: A35A - Vuelta
+9. Origen: C73AK1A4 (ID: 513244) -> Destino: C73AK1A1 (ID: 513245) | Ruta: A35A - Vuelta
+10. Origen: C73AK1A1 (ID: 513245) -> Destino: PCOMERC7 (ID: 504007) | Ruta: A35A - Vuelta
+11. Origen: PCOMERC7 (ID: 504007) -> Destino: R-PCOME1 (ID: 613316) | Ruta: A35A - Vuelta

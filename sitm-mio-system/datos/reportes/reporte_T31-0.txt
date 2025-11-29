@@ -1,0 +1,162 @@
+========================================
+REPORTE DE RUTA: T31-0
+========================================
+
+Información General:
+  Número de Arcos: 30
+  Distancia Total: 17,83 km
+  Tiempo Total: 38,02 min
+  Velocidad Promedio: 27,60 km/h
+
+Detalle de Arcos:
+------------------------------------------------------------
+Arco 1: UNIV1 -> UNIVAL2
+  Distancia: 0,95 km
+  Tiempo: 1,91 min
+  Velocidad: 30,00 km/h
+
+Arco 2: UNIVAL2 -> BUITRE2
+  Distancia: 0,45 km
+  Tiempo: 1,29 min
+  Velocidad: 21,00 km/h
+
+Arco 3: BUITRE2 -> MELEN2
+  Distancia: 0,56 km
+  Tiempo: 1,12 min
+  Velocidad: 30,00 km/h
+
+Arco 4: MELEN2 -> CAPRI2
+  Distancia: 1,19 km
+  Tiempo: 2,38 min
+  Velocidad: 30,00 km/h
+
+Arco 5: CAPRI2 -> CALDAS2
+  Distancia: 0,69 km
+  Tiempo: 1,39 min
+  Velocidad: 30,00 km/h
+
+Arco 6: CALDAS2 -> REFUG2
+  Distancia: 0,55 km
+  Tiempo: 1,11 min
+  Velocidad: 30,00 km/h
+
+Arco 7: REFUG2 -> PAMPA2
+  Distancia: 0,55 km
+  Tiempo: 1,10 min
+  Velocidad: 30,00 km/h
+
+Arco 8: PAMPA2 -> PLATOR2
+  Distancia: 0,67 km
+  Tiempo: 1,34 min
+  Velocidad: 30,00 km/h
+
+Arco 9: PLATOR2 -> UDP4
+  Distancia: 0,58 km
+  Tiempo: 1,15 min
+  Velocidad: 30,00 km/h
+
+Arco 10: UDP4 -> LIDO4
+  Distancia: 0,46 km
+  Tiempo: 1,32 min
+  Velocidad: 21,00 km/h
+
+Arco 11: LIDO4 -> TEQUE 4
+  Distancia: 0,54 km
+  Tiempo: 1,08 min
+  Velocidad: 30,00 km/h
+
+Arco 12: TEQUE 4 -> ESTAD2
+  Distancia: 0,97 km
+  Tiempo: 1,94 min
+  Velocidad: 30,00 km/h
+
+Arco 13: ESTAD2 -> MANZA2
+  Distancia: 0,42 km
+  Tiempo: 1,20 min
+  Velocidad: 21,00 km/h
+
+Arco 14: MANZA2 -> SNTLIB2
+  Distancia: 0,68 km
+  Tiempo: 1,36 min
+  Velocidad: 30,00 km/h
+
+Arco 15: SNTLIB2 -> SANBO2
+  Distancia: 0,59 km
+  Tiempo: 1,18 min
+  Velocidad: 30,00 km/h
+
+Arco 16: SANBO2 -> SANPAS2
+  Distancia: 0,54 km
+  Tiempo: 1,08 min
+  Velocidad: 30,00 km/h
+
+Arco 17: SANPAS2 -> SUCRE2
+  Distancia: 0,19 km
+  Tiempo: 0,55 min
+  Velocidad: 21,00 km/h
+
+Arco 18: SUCRE2 -> PTCUY2
+  Distancia: 0,60 km
+  Tiempo: 1,20 min
+  Velocidad: 30,00 km/h
+
+Arco 19: PTCUY2 -> SANPED2
+  Distancia: 0,65 km
+  Tiempo: 1,29 min
+  Velocidad: 30,00 km/h
+
+Arco 20: SANPED2 -> TORRE2
+  Distancia: 0,30 km
+  Tiempo: 0,85 min
+  Velocidad: 21,00 km/h
+
+Arco 21: TORRE2 -> SANIC2
+  Distancia: 0,56 km
+  Tiempo: 1,13 min
+  Velocidad: 30,00 km/h
+
+Arco 22: SANIC2 -> PILOT2
+  Distancia: 0,40 km
+  Tiempo: 1,14 min
+  Velocidad: 21,00 km/h
+
+Arco 23: PILOT2 -> FATI2
+  Distancia: 0,65 km
+  Tiempo: 1,30 min
+  Velocidad: 30,00 km/h
+
+Arco 24: FATI2 -> MZAN2
+  Distancia: 0,58 km
+  Tiempo: 1,16 min
+  Velocidad: 30,00 km/h
+
+Arco 25: MZAN2 -> POPU4
+  Distancia: 0,48 km
+  Tiempo: 1,36 min
+  Velocidad: 21,00 km/h
+
+Arco 26: POPU4 -> SALOM2
+  Distancia: 0,64 km
+  Tiempo: 1,29 min
+  Velocidad: 30,00 km/h
+
+Arco 27: SALOM2 -> FLORAI2
+  Distancia: 0,70 km
+  Tiempo: 1,41 min
+  Velocidad: 30,00 km/h
+
+Arco 28: FLORAI2 -> CHIMI2
+  Distancia: 0,57 km
+  Tiempo: 1,15 min
+  Velocidad: 30,00 km/h
+
+Arco 29: CHIMI2 -> PCOMERB3
+  Distancia: 1,06 km
+  Tiempo: 2,12 min
+  Velocidad: 30,00 km/h
+
+Arco 30: PCOMERB3 -> PCOMERA2
+  Distancia: 0,05 km
+  Tiempo: 0,13 min
+  Velocidad: 21,00 km/h
+

@@ -1,50 +1,55 @@
 == 3781-1 ==
 Nodos: 21
-Arcos: 21
+Arcos: 20
 ------------------------------------
 
-=== Lista de Nodos ===
-517249 - K73C4
-517029 - K70C1OE1
-517227 - K70C2C
-517226 - K70C1C
-517253 - C1CK73
-517033 - C1AOEK75
-517165 - C3K69
-517076 - C5K701
-517032 - C2AOEK75
-517164 - C5K68
-517255 - K70C1A
-517254 - K70C1B
-517271 - T2AC74B
-517084 - C1AOEK72
-517270 - T2A2BD2
-517083 - C1AK73B1
-517251 - C2AK73B
-517031 - C2AOK74C
-517163 - K68C3B
-517250 - K73C3
-517030 - C2OEK721
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+517249 - K73C4 - GPS: (3,391769, -76,547899)
+517029 - K70C1OE1 - GPS: (3,392610, -76,557167)
+517227 - K70C2C - GPS: (3,393787, -76,550230)
+517226 - K70C1C - GPS: (3,393408, -76,553198)
+517253 - C1CK73 - GPS: (3,391608, -76,553760)
+517033 - C1AOEK75 - GPS: (3,389118, -76,557362)
+517165 - C3K69 - GPS: (3,394847, -76,549536)
+517076 - C5K701 - GPS: (3,392826, -76,545932)
+517032 - C2AOEK75 - GPS: (3,387630, -76,558740)
+517164 - C5K68 - GPS: (3,395383, -76,546413)
+517255 - K70C1A - GPS: (3,393032, -76,555135)
+517254 - K70C1B - GPS: (3,392967, -76,555842)
+517271 - T2AC74B - GPS: (3,390003, -76,553523)
+517084 - C1AOEK72 - GPS: (3,392200, -76,557198)
+517270 - T2A2BD2 - GPS: (3,389023, -76,552230)
+517083 - C1AK73B1 - GPS: (3,390437, -76,557187)
+517251 - C2AK73B - GPS: (3,390508, -76,551418)
+517031 - C2AOK74C - GPS: (3,389122, -76,558438)
+517163 - K68C3B - GPS: (3,395263, -76,548425)
+517250 - K73C3 - GPS: (3,391543, -76,549477)
+517030 - C2OEK721 - GPS: (3,390617, -76,557885)
 
-=== Lista de Arcos ===
-517076 -> 517249  (Ruta: A78A - Vuelta)
-517249 -> 517250  (Ruta: A78A - Vuelta)
-517250 -> 517251  (Ruta: A78A - Vuelta)
-517251 -> 517270  (Ruta: A78A - Vuelta)
-517270 -> 517271  (Ruta: A78A - Vuelta)
-517271 -> 517253  (Ruta: A78A - Vuelta)
-517253 -> 517254  (Ruta: A78A - Vuelta)
-517254 -> 517029  (Ruta: A78A - Vuelta)
-517029 -> 517030  (Ruta: A78A - Vuelta)
-517030 -> 517031  (Ruta: A78A - Vuelta)
-517031 -> 517032  (Ruta: A78A - Vuelta)
-517032 -> 517033  (Ruta: A78A - Vuelta)
-517033 -> 517083  (Ruta: A78A - Vuelta)
-517083 -> 517084  (Ruta: A78A - Vuelta)
-517084 -> 517255  (Ruta: A78A - Vuelta)
-517255 -> 517226  (Ruta: A78A - Vuelta)
-517226 -> 517227  (Ruta: A78A - Vuelta)
-517227 -> 517165  (Ruta: A78A - Vuelta)
-517165 -> 517163  (Ruta: A78A - Vuelta)
-517163 -> 517164  (Ruta: A78A - Vuelta)
-517164 -> 517076  (Ruta: A78A - Vuelta)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: A78A - Vuelta (20 arcos) ---
+1. Origen: C5K701 (ID: 517076) -> Destino: K73C4 (ID: 517249) | Ruta: A78A - Vuelta
+2. Origen: K73C4 (ID: 517249) -> Destino: K73C3 (ID: 517250) | Ruta: A78A - Vuelta
+3. Origen: K73C3 (ID: 517250) -> Destino: C2AK73B (ID: 517251) | Ruta: A78A - Vuelta
+4. Origen: C2AK73B (ID: 517251) -> Destino: T2A2BD2 (ID: 517270) | Ruta: A78A - Vuelta
+5. Origen: T2A2BD2 (ID: 517270) -> Destino: T2AC74B (ID: 517271) | Ruta: A78A - Vuelta
+6. Origen: T2AC74B (ID: 517271) -> Destino: C1CK73 (ID: 517253) | Ruta: A78A - Vuelta
+7. Origen: C1CK73 (ID: 517253) -> Destino: K70C1B (ID: 517254) | Ruta: A78A - Vuelta
+8. Origen: K70C1B (ID: 517254) -> Destino: K70C1OE1 (ID: 517029) | Ruta: A78A - Vuelta
+9. Origen: K70C1OE1 (ID: 517029) -> Destino: C2OEK721 (ID: 517030) | Ruta: A78A - Vuelta
+10. Origen: C2OEK721 (ID: 517030) -> Destino: C2AOK74C (ID: 517031) | Ruta: A78A - Vuelta
+11. Origen: C2AOK74C (ID: 517031) -> Destino: C2AOEK75 (ID: 517032) | Ruta: A78A - Vuelta
+12. Origen: C2AOEK75 (ID: 517032) -> Destino: C1AOEK75 (ID: 517033) | Ruta: A78A - Vuelta
+13. Origen: C1AOEK75 (ID: 517033) -> Destino: C1AK73B1 (ID: 517083) | Ruta: A78A - Vuelta
+14. Origen: C1AK73B1 (ID: 517083) -> Destino: C1AOEK72 (ID: 517084) | Ruta: A78A - Vuelta
+15. Origen: C1AOEK72 (ID: 517084) -> Destino: K70C1A (ID: 517255) | Ruta: A78A - Vuelta
+16. Origen: K70C1A (ID: 517255) -> Destino: K70C1C (ID: 517226) | Ruta: A78A - Vuelta
+17. Origen: K70C1C (ID: 517226) -> Destino: K70C2C (ID: 517227) | Ruta: A78A - Vuelta
+18. Origen: K70C2C (ID: 517227) -> Destino: C3K69 (ID: 517165) | Ruta: A78A - Vuelta
+19. Origen: C3K69 (ID: 517165) -> Destino: K68C3B (ID: 517163) | Ruta: A78A - Vuelta
+20. Origen: K68C3B (ID: 517163) -> Destino: C5K68 (ID: 517164) | Ruta: A78A - Vuelta

@@ -1,0 +1,47 @@
+========================================
+REPORTE DE RUTA: A36-1
+========================================
+
+Información General:
+  Número de Arcos: 7
+  Distancia Total: 1,95 km
+  Tiempo Total: 7,61 min
+  Velocidad Promedio: 15,40 km/h
+
+Detalle de Arcos:
+------------------------------------------------------------
+Arco 1: K1C62 -> K1C66N2
+  Distancia: 0,30 km
+  Tiempo: 1,16 min
+  Velocidad: 15,40 km/h
+
+Arco 2: K1C66N2 -> C66K1A
+  Distancia: 0,29 km
+  Tiempo: 1,13 min
+  Velocidad: 15,40 km/h
+
+Arco 3: C66K1A -> C66K1A6
+  Distancia: 0,23 km
+  Tiempo: 0,88 min
+  Velocidad: 15,40 km/h
+
+Arco 4: C66K1A6 -> C66K1A15
+  Distancia: 0,19 km
+  Tiempo: 0,74 min
+  Velocidad: 15,40 km/h
+
+Arco 5: C66K1A15 -> C70K1C2
+  Distancia: 0,45 km
+  Tiempo: 1,74 min
+  Velocidad: 15,40 km/h
+
+Arco 6: C70K1C2 -> C70K1G
+  Distancia: 0,28 km
+  Tiempo: 1,09 min
+  Velocidad: 15,40 km/h
+
+Arco 7: C70K1G -> K2C70
+  Distancia: 0,22 km
+  Tiempo: 0,87 min
+  Velocidad: 15,40 km/h
+

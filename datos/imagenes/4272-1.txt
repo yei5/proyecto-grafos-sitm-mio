@@ -1,34 +1,35 @@
 == 4272-1 ==
-Nodos: 13
-Arcos: 13
+Nodos: 11
+Arcos: 10
 ------------------------------------
 
-=== Lista de Nodos ===
-601855 - UDP6
-512001 - A1NC10
-601854 - UDP5
-513003 - A1NC71
-519117 - C5K22
-519135 - C5K6Y9
-519136 - C5K13
-501854 - UDP5
-501855 - UDP6
-501800 - LIDO1
-501702 - ESTAD3
-502400 - L.AMERI1
-501652 - MANZA3
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+601855 - UDP6 - GPS: (3,415341, -76,548246)
+502400 - L.AMERI1 - GPS: (3,463517, -76,525308)
+512001 - A1NC10 - GPS: (3,455254, -76,534020)
+501652 - MANZA3 - GPS: (3,434630, -76,541227)
+513003 - A1NC71 - GPS: (3,451827, -76,537103)
+519117 - C5K22 - GPS: (3,439442, -76,537652)
+519135 - C5K6Y9 - GPS: (3,447428, -76,536932)
+519136 - C5K13 - GPS: (3,444183, -76,536760)
+501854 - UDP5 - GPS: (3,414477, -76,548450)
+501800 - LIDO1 - GPS: (3,418912, -76,548392)
+501702 - ESTAD3 - GPS: (3,431525, -76,543428)
 
-=== Lista de Arcos ===
-502400 -> 501854  (Ruta: E27B - Vuelta)
-501854 -> 512001  (Ruta: E27B - Vuelta)
-512001 -> 601854  (Ruta: E27B - Vuelta)
-601854 -> 513003  (Ruta: E27B - Vuelta)
-513003 -> 601855  (Ruta: E27B - Vuelta)
-601855 -> 519135  (Ruta: E27B - Vuelta)
-519135 -> 501855  (Ruta: E27B - Vuelta)
-501855 -> 519136  (Ruta: E27B - Vuelta)
-519136 -> 519117  (Ruta: E27B - Vuelta)
-519117 -> 501652  (Ruta: E27B - Vuelta)
-501652 -> 501702  (Ruta: E27B - Vuelta)
-501702 -> 501800  (Ruta: E27B - Vuelta)
-501800 -> 501854  (Ruta: E27B - Vuelta)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: E27B - Vuelta (10 arcos) ---
+1. Origen: UDP5 (ID: 501854) -> Destino: UDP6 (ID: 601855) | Ruta: E27B - Vuelta
+2. Origen: L.AMERI1 (ID: 502400) -> Destino: A1NC10 (ID: 512001) | Ruta: E27B - Vuelta
+3. Origen: A1NC10 (ID: 512001) -> Destino: A1NC71 (ID: 513003) | Ruta: E27B - Vuelta
+4. Origen: A1NC71 (ID: 513003) -> Destino: C5K6Y9 (ID: 519135) | Ruta: E27B - Vuelta
+5. Origen: C5K6Y9 (ID: 519135) -> Destino: C5K13 (ID: 519136) | Ruta: E27B - Vuelta
+6. Origen: C5K13 (ID: 519136) -> Destino: C5K22 (ID: 519117) | Ruta: E27B - Vuelta
+7. Origen: C5K22 (ID: 519117) -> Destino: MANZA3 (ID: 501652) | Ruta: E27B - Vuelta
+8. Origen: MANZA3 (ID: 501652) -> Destino: ESTAD3 (ID: 501702) | Ruta: E27B - Vuelta
+9. Origen: ESTAD3 (ID: 501702) -> Destino: LIDO1 (ID: 501800) | Ruta: E27B - Vuelta
+10. Origen: LIDO1 (ID: 501800) -> Destino: UDP5 (ID: 501854) | Ruta: E27B - Vuelta

@@ -1,0 +1,122 @@
+========================================
+REPORTE DE RUTA: P80A-1
+========================================
+
+Información General:
+  Número de Arcos: 22
+  Distancia Total: 6,91 km
+  Tiempo Total: 28,59 min
+  Velocidad Promedio: 14,27 km/h
+
+Detalle de Arcos:
+------------------------------------------------------------
+Arco 1: C9K14A -> C9K12
+  Distancia: 0,22 km
+  Tiempo: 0,96 min
+  Velocidad: 14,00 km/h
+
+Arco 2: C9K12 -> K10C10
+  Distancia: 0,25 km
+  Tiempo: 1,07 min
+  Velocidad: 14,00 km/h
+
+Arco 3: K10C10 -> K10C12
+  Distancia: 0,23 km
+  Tiempo: 0,98 min
+  Velocidad: 14,00 km/h
+
+Arco 4: K10C12 -> C15K16
+  Distancia: 0,81 km
+  Tiempo: 2,42 min
+  Velocidad: 20,00 km/h
+
+Arco 5: C15K16 -> C15K18A
+  Distancia: 0,24 km
+  Tiempo: 1,02 min
+  Velocidad: 14,00 km/h
+
+Arco 6: C15K18A -> C15K23
+  Distancia: 0,45 km
+  Tiempo: 1,92 min
+  Velocidad: 14,00 km/h
+
+Arco 7: C15K23 -> K25C18B
+  Distancia: 0,49 km
+  Tiempo: 2,12 min
+  Velocidad: 14,00 km/h
+
+Arco 8: K25C18B -> K25C19A
+  Distancia: 0,27 km
+  Tiempo: 1,15 min
+  Velocidad: 14,00 km/h
+
+Arco 9: K25C19A -> C23K25B
+  Distancia: 0,14 km
+  Tiempo: 0,62 min
+  Velocidad: 14,00 km/h
+
+Arco 10: C23K25B -> K29C25
+  Distancia: 0,29 km
+  Tiempo: 1,25 min
+  Velocidad: 14,00 km/h
+
+Arco 11: K29C25 -> K29C272
+  Distancia: 0,35 km
+  Tiempo: 1,50 min
+  Velocidad: 14,00 km/h
+
+Arco 12: K29C272 -> K29C29
+  Distancia: 0,24 km
+  Tiempo: 1,01 min
+  Velocidad: 14,00 km/h
+
+Arco 13: K29C29 -> K29C32
+  Distancia: 0,24 km
+  Tiempo: 1,04 min
+  Velocidad: 14,00 km/h
+
+Arco 14: K29C32 -> C32K29B
+  Distancia: 0,17 km
+  Tiempo: 0,73 min
+  Velocidad: 14,00 km/h
+
+Arco 15: C32K29B -> K32C32
+  Distancia: 0,23 km
+  Tiempo: 0,97 min
+  Velocidad: 14,00 km/h
+
+Arco 16: K32C32 -> K32C34
+  Distancia: 0,31 km
+  Tiempo: 1,31 min
+  Velocidad: 14,00 km/h
+
+Arco 17: K32C34 -> C44K31
+  Distancia: 0,32 km
+  Tiempo: 1,37 min
+  Velocidad: 14,00 km/h
+
+Arco 18: C44K31 -> T29C44
+  Distancia: 0,19 km
+  Tiempo: 0,82 min
+  Velocidad: 14,00 km/h
+
+Arco 19: T29C44 -> CALSOC2
+  Distancia: 0,38 km
+  Tiempo: 1,65 min
+  Velocidad: 14,00 km/h
+
+Arco 20: K29C25 -> C27K31A1
+  Distancia: 0,44 km
+  Tiempo: 1,88 min
+  Velocidad: 14,00 km/h
+
+Arco 21: C27K31A1 -> K32C30
+  Distancia: 0,32 km
+  Tiempo: 1,39 min
+  Velocidad: 14,00 km/h
+
+Arco 22: K32C30 -> K32C32
+  Distancia: 0,33 km
+  Tiempo: 1,41 min
+  Velocidad: 14,00 km/h
+

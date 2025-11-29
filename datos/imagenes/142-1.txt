@@ -1,131 +1,83 @@
 == 142-1 ==
 Nodos: 35
-Arcos: 88
+Arcos: 34
 ------------------------------------
 
-=== Lista de Nodos ===
-514212 - K25C104
-514211 - C121K25B
-514474 - K28DC122
-514210 - C121K26E
-514056 - K25C74
-514055 - K25C771
-514535 - C121K26
-514039 - C121K27F
-514215 - K25C80A
-514214 - K25C85
-514213 - K25C892
-514054 - K25C80
-501200 - CHAPI1
-501300 - FLORE1
-501500 - PTCUY2
-502351 - VERSALL2
-514209 - C121K26J
-514429 - C121K263
-514208 - C121K26P
-514207 - C121C121
-514206 - C121122A
-512022 - A3NC31
-512020 - A3NC23D
-512021 - A3NC32A
-514326 - C123K281
-514249 - K28FC12K
-514246 - C123K28D
-514147 - K25C114
-514483 - K28FC122
-514482 - K28DC123
-514481 - K28DC121
-501552 - SANPED6
-501350 - BELAL1
-501150 - VICOL1
-501250 - ATGI1
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+514212 - K25C104 - GPS: (3,429888, -76,467478)
+514211 - C121K25B - GPS: (3,425240, -76,465268)
+514210 - C121K26E - GPS: (3,422163, -76,466081)
+514056 - K25C74 - GPS: (3,440717, -76,479445)
+514474 - K28DC122 - GPS: (3,403707, -76,472408)
+514055 - K25C771 - GPS: (3,439176, -76,477323)
+514535 - C121K26 - GPS: (3,416362, -76,469329)
+514039 - C121K27F - GPS: (3,412533, -76,471552)
+514215 - K25C80A - GPS: (3,436309, -76,473804)
+514214 - K25C85 - GPS: (3,433455, -76,471498)
+514213 - K25C892 - GPS: (3,431784, -76,469947)
+514054 - K25C80 - GPS: (3,437635, -76,475115)
+501200 - CHAPI1 - GPS: (3,444395, -76,502320)
+501300 - FLORE1 - GPS: (3,445348, -76,514710)
+501500 - PTCUY2 - GPS: (3,448708, -76,527767)
+502351 - VERSALL2 - GPS: (3,461293, -76,526903)
+514209 - C121K26J - GPS: (3,417611, -76,468596)
+514429 - C121K263 - GPS: (3,419238, -76,467700)
+514208 - C121K26P - GPS: (3,414266, -76,470542)
+514207 - C121C121 - GPS: (3,408758, -76,473689)
+514206 - C121122A - GPS: (3,406769, -76,474811)
+512022 - A3NC31 - GPS: (3,470591, -76,522063)
+512020 - A3NC23D - GPS: (3,466036, -76,523565)
+512021 - A3NC32A - GPS: (3,470141, -76,522108)
+514326 - C123K281 - GPS: (3,405068, -76,471539)
+514249 - K28FC12K - GPS: (3,403293, -76,473562)
+514147 - K25C114 - GPS: (3,427522, -76,465687)
+514246 - C123K28D - GPS: (3,407140, -76,470372)
+514483 - K28FC122 - GPS: (3,404946, -76,474843)
+514482 - K28DC123 - GPS: (3,407799, -76,470737)
+514481 - K28DC121 - GPS: (3,408857, -76,472550)
+501552 - SANPED6 - GPS: (3,454913, -76,530290)
+501350 - BELAL1 - GPS: (3,444177, -76,520840)
+501150 - VICOL1 - GPS: (3,443962, -76,498967)
+501250 - ATGI1 - GPS: (3,444905, -76,508437)
 
-=== Lista de Arcos ===
-514481 -> 512020  (Ruta: T42 - Vuelta)
-512020 -> 514208  (Ruta: T42 - Vuelta)
-514208 -> 514039  (Ruta: T42 - Vuelta)
-514039 -> 514482  (Ruta: T42 - Vuelta)
-514482 -> 512021  (Ruta: T42 - Vuelta)
-512021 -> 514535  (Ruta: T42 - Vuelta)
-514535 -> 514208  (Ruta: T42 - Vuelta)
-514208 -> 514246  (Ruta: T42 - Vuelta)
-514246 -> 512022  (Ruta: T42 - Vuelta)
-512022 -> 514209  (Ruta: T42 - Vuelta)
-514209 -> 514535  (Ruta: T42 - Vuelta)
-514535 -> 514326  (Ruta: T42 - Vuelta)
-514326 -> 514429  (Ruta: T42 - Vuelta)
-514429 -> 514209  (Ruta: T42 - Vuelta)
-514209 -> 514474  (Ruta: T42 - Vuelta)
-514474 -> 514210  (Ruta: T42 - Vuelta)
-514210 -> 514429  (Ruta: T42 - Vuelta)
-514429 -> 514249  (Ruta: T42 - Vuelta)
-514249 -> 514211  (Ruta: T42 - Vuelta)
-514211 -> 514210  (Ruta: T42 - Vuelta)
-514210 -> 514483  (Ruta: T42 - Vuelta)
-514483 -> 514147  (Ruta: T42 - Vuelta)
-514147 -> 514211  (Ruta: T42 - Vuelta)
-514211 -> 514206  (Ruta: T42 - Vuelta)
-514206 -> 514212  (Ruta: T42 - Vuelta)
-514212 -> 514147  (Ruta: T42 - Vuelta)
-514147 -> 514207  (Ruta: T42 - Vuelta)
-514207 -> 514213  (Ruta: T42 - Vuelta)
-514213 -> 514212  (Ruta: T42 - Vuelta)
-514212 -> 514039  (Ruta: T42 - Vuelta)
-514039 -> 514214  (Ruta: T42 - Vuelta)
-514214 -> 514213  (Ruta: T42 - Vuelta)
-514213 -> 514208  (Ruta: T42 - Vuelta)
-514208 -> 514215  (Ruta: T42 - Vuelta)
-514215 -> 514214  (Ruta: T42 - Vuelta)
-514214 -> 514535  (Ruta: T42 - Vuelta)
-514535 -> 514054  (Ruta: T42 - Vuelta)
-514054 -> 514215  (Ruta: T42 - Vuelta)
-514215 -> 514209  (Ruta: T42 - Vuelta)
-514209 -> 514055  (Ruta: T42 - Vuelta)
-514055 -> 514054  (Ruta: T42 - Vuelta)
-514054 -> 514429  (Ruta: T42 - Vuelta)
-514429 -> 514056  (Ruta: T42 - Vuelta)
-514056 -> 514055  (Ruta: T42 - Vuelta)
-514055 -> 514210  (Ruta: T42 - Vuelta)
-514210 -> 501150  (Ruta: T42 - Vuelta)
-501150 -> 514056  (Ruta: T42 - Vuelta)
-514056 -> 514211  (Ruta: T42 - Vuelta)
-514211 -> 501200  (Ruta: T42 - Vuelta)
-501200 -> 501150  (Ruta: T42 - Vuelta)
-501150 -> 514147  (Ruta: T42 - Vuelta)
-514147 -> 501250  (Ruta: T42 - Vuelta)
-501250 -> 501200  (Ruta: T42 - Vuelta)
-501200 -> 514212  (Ruta: T42 - Vuelta)
-514212 -> 501300  (Ruta: T42 - Vuelta)
-501300 -> 501250  (Ruta: T42 - Vuelta)
-501250 -> 514213  (Ruta: T42 - Vuelta)
-514213 -> 501350  (Ruta: T42 - Vuelta)
-501350 -> 501300  (Ruta: T42 - Vuelta)
-501300 -> 514214  (Ruta: T42 - Vuelta)
-514214 -> 501500  (Ruta: T42 - Vuelta)
-501500 -> 501350  (Ruta: T42 - Vuelta)
-501350 -> 514215  (Ruta: T42 - Vuelta)
-514215 -> 501552  (Ruta: T42 - Vuelta)
-501552 -> 501500  (Ruta: T42 - Vuelta)
-501500 -> 514054  (Ruta: T42 - Vuelta)
-514054 -> 502351  (Ruta: T42 - Vuelta)
-502351 -> 501552  (Ruta: T42 - Vuelta)
-501552 -> 514055  (Ruta: T42 - Vuelta)
-514055 -> 512020  (Ruta: T42 - Vuelta)
-512020 -> 502351  (Ruta: T42 - Vuelta)
-502351 -> 514056  (Ruta: T42 - Vuelta)
-514056 -> 512021  (Ruta: T42 - Vuelta)
-512021 -> 512020  (Ruta: T42 - Vuelta)
-512020 -> 501150  (Ruta: T42 - Vuelta)
-501150 -> 512022  (Ruta: T42 - Vuelta)
-512022 -> 512021  (Ruta: T42 - Vuelta)
-512021 -> 501200  (Ruta: T42 - Vuelta)
-501200 -> 512022  (Ruta: T42 - Vuelta)
-512022 -> 501250  (Ruta: T42 - Vuelta)
-501250 -> 501300  (Ruta: T42 - Vuelta)
-501300 -> 501350  (Ruta: T42 - Vuelta)
-501350 -> 501500  (Ruta: T42 - Vuelta)
-501500 -> 501552  (Ruta: T42 - Vuelta)
-501552 -> 502351  (Ruta: T42 - Vuelta)
-502351 -> 512020  (Ruta: T42 - Vuelta)
-512020 -> 512021  (Ruta: T42 - Vuelta)
-512021 -> 512022  (Ruta: T42 - Vuelta)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: T42 - Vuelta (34 arcos) ---
+1. Origen: C121K27F (ID: 514039) -> Destino: C121K26P (ID: 514208) | Ruta: T42 - Vuelta
+2. Origen: C121K26P (ID: 514208) -> Destino: C121K26 (ID: 514535) | Ruta: T42 - Vuelta
+3. Origen: C121K26 (ID: 514535) -> Destino: C121K26J (ID: 514209) | Ruta: T42 - Vuelta
+4. Origen: C121K26J (ID: 514209) -> Destino: C121K263 (ID: 514429) | Ruta: T42 - Vuelta
+5. Origen: C121K263 (ID: 514429) -> Destino: C121K26E (ID: 514210) | Ruta: T42 - Vuelta
+6. Origen: C121K26E (ID: 514210) -> Destino: C121K25B (ID: 514211) | Ruta: T42 - Vuelta
+7. Origen: C121K25B (ID: 514211) -> Destino: K25C114 (ID: 514147) | Ruta: T42 - Vuelta
+8. Origen: K25C114 (ID: 514147) -> Destino: K25C104 (ID: 514212) | Ruta: T42 - Vuelta
+9. Origen: K25C104 (ID: 514212) -> Destino: K25C892 (ID: 514213) | Ruta: T42 - Vuelta
+10. Origen: K25C892 (ID: 514213) -> Destino: K25C85 (ID: 514214) | Ruta: T42 - Vuelta
+11. Origen: K25C85 (ID: 514214) -> Destino: K25C80A (ID: 514215) | Ruta: T42 - Vuelta
+12. Origen: K25C80A (ID: 514215) -> Destino: K25C80 (ID: 514054) | Ruta: T42 - Vuelta
+13. Origen: K25C80 (ID: 514054) -> Destino: K25C771 (ID: 514055) | Ruta: T42 - Vuelta
+14. Origen: K25C771 (ID: 514055) -> Destino: K25C74 (ID: 514056) | Ruta: T42 - Vuelta
+15. Origen: K25C74 (ID: 514056) -> Destino: VICOL1 (ID: 501150) | Ruta: T42 - Vuelta
+16. Origen: VICOL1 (ID: 501150) -> Destino: CHAPI1 (ID: 501200) | Ruta: T42 - Vuelta
+17. Origen: CHAPI1 (ID: 501200) -> Destino: ATGI1 (ID: 501250) | Ruta: T42 - Vuelta
+18. Origen: ATGI1 (ID: 501250) -> Destino: FLORE1 (ID: 501300) | Ruta: T42 - Vuelta
+19. Origen: FLORE1 (ID: 501300) -> Destino: BELAL1 (ID: 501350) | Ruta: T42 - Vuelta
+20. Origen: BELAL1 (ID: 501350) -> Destino: PTCUY2 (ID: 501500) | Ruta: T42 - Vuelta
+21. Origen: PTCUY2 (ID: 501500) -> Destino: SANPED6 (ID: 501552) | Ruta: T42 - Vuelta
+22. Origen: SANPED6 (ID: 501552) -> Destino: VERSALL2 (ID: 502351) | Ruta: T42 - Vuelta
+23. Origen: VERSALL2 (ID: 502351) -> Destino: A3NC23D (ID: 512020) | Ruta: T42 - Vuelta
+24. Origen: A3NC23D (ID: 512020) -> Destino: A3NC32A (ID: 512021) | Ruta: T42 - Vuelta
+25. Origen: A3NC32A (ID: 512021) -> Destino: A3NC31 (ID: 512022) | Ruta: T42 - Vuelta
+26. Origen: K28DC121 (ID: 514481) -> Destino: K28DC123 (ID: 514482) | Ruta: T42 - Vuelta
+27. Origen: K28DC123 (ID: 514482) -> Destino: C123K28D (ID: 514246) | Ruta: T42 - Vuelta
+28. Origen: C123K28D (ID: 514246) -> Destino: C123K281 (ID: 514326) | Ruta: T42 - Vuelta
+29. Origen: C123K281 (ID: 514326) -> Destino: K28DC122 (ID: 514474) | Ruta: T42 - Vuelta
+30. Origen: K28DC122 (ID: 514474) -> Destino: K28FC12K (ID: 514249) | Ruta: T42 - Vuelta
+31. Origen: K28FC12K (ID: 514249) -> Destino: K28FC122 (ID: 514483) | Ruta: T42 - Vuelta
+32. Origen: K28FC122 (ID: 514483) -> Destino: C121122A (ID: 514206) | Ruta: T42 - Vuelta
+33. Origen: C121122A (ID: 514206) -> Destino: C121C121 (ID: 514207) | Ruta: T42 - Vuelta
+34. Origen: C121C121 (ID: 514207) -> Destino: C121K27F (ID: 514039) | Ruta: T42 - Vuelta

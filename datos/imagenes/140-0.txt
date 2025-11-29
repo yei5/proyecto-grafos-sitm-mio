@@ -1,38 +1,39 @@
 == 140-0 ==
-Nodos: 15
-Arcos: 15
+Nodos: 13
+Arcos: 12
 ------------------------------------
 
-=== Lista de Nodos ===
-500159 - A.SANI11
-501403 - SANPAS4
-501101 - TREB2
-501201 - CHAPI2
-500163 - A.SANI15
-501301 - FLORE2
-500851 - CENTRO3
-500950 - FRAY1
-501251 - ATGI2
-500751 - ERMI3
-501351 - BELAL2
-600163 - A.SANI15
-501051 - 7AGO2
-501151 - VICOL2
-600159 - A.SANI11
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+501403 - SANPAS4 - GPS: (3,442665, -76,527295)
+501101 - TREB2 - GPS: (3,443460, -76,495858)
+501201 - CHAPI2 - GPS: (3,444238, -76,502078)
+501301 - FLORE2 - GPS: (3,445260, -76,514443)
+500163 - A.SANI15 - GPS: (3,443342, -76,483517)
+500851 - CENTRO3 - GPS: (3,448113, -76,530003)
+500950 - FRAY1 - GPS: (3,443998, -76,528952)
+501251 - ATGI2 - GPS: (3,444758, -76,508128)
+500751 - ERMI3 - GPS: (3,453182, -76,531535)
+501351 - BELAL2 - GPS: (3,444140, -76,520533)
+501051 - 7AGO2 - GPS: (3,445207, -76,487200)
+501151 - VICOL2 - GPS: (3,443760, -76,498707)
+600159 - A.SANI11 - GPS: (3,443371, -76,483087)
 
-=== Lista de Arcos ===
-500751 -> 500163  (Ruta: T40 - Ida)
-500163 -> 500851  (Ruta: T40 - Ida)
-500851 -> 600163  (Ruta: T40 - Ida)
-600163 -> 500950  (Ruta: T40 - Ida)
-500950 -> 600159  (Ruta: T40 - Ida)
-600159 -> 501403  (Ruta: T40 - Ida)
-501403 -> 500159  (Ruta: T40 - Ida)
-500159 -> 501351  (Ruta: T40 - Ida)
-501351 -> 501301  (Ruta: T40 - Ida)
-501301 -> 501251  (Ruta: T40 - Ida)
-501251 -> 501201  (Ruta: T40 - Ida)
-501201 -> 501151  (Ruta: T40 - Ida)
-501151 -> 501101  (Ruta: T40 - Ida)
-501101 -> 501051  (Ruta: T40 - Ida)
-501051 -> 500163  (Ruta: T40 - Ida)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: T40 - Ida (12 arcos) ---
+1. Origen: ERMI3 (ID: 500751) -> Destino: CENTRO3 (ID: 500851) | Ruta: T40 - Ida
+2. Origen: CENTRO3 (ID: 500851) -> Destino: FRAY1 (ID: 500950) | Ruta: T40 - Ida
+3. Origen: FRAY1 (ID: 500950) -> Destino: SANPAS4 (ID: 501403) | Ruta: T40 - Ida
+4. Origen: SANPAS4 (ID: 501403) -> Destino: BELAL2 (ID: 501351) | Ruta: T40 - Ida
+5. Origen: BELAL2 (ID: 501351) -> Destino: FLORE2 (ID: 501301) | Ruta: T40 - Ida
+6. Origen: FLORE2 (ID: 501301) -> Destino: ATGI2 (ID: 501251) | Ruta: T40 - Ida
+7. Origen: ATGI2 (ID: 501251) -> Destino: CHAPI2 (ID: 501201) | Ruta: T40 - Ida
+8. Origen: CHAPI2 (ID: 501201) -> Destino: VICOL2 (ID: 501151) | Ruta: T40 - Ida
+9. Origen: VICOL2 (ID: 501151) -> Destino: TREB2 (ID: 501101) | Ruta: T40 - Ida
+10. Origen: TREB2 (ID: 501101) -> Destino: 7AGO2 (ID: 501051) | Ruta: T40 - Ida
+11. Origen: 7AGO2 (ID: 501051) -> Destino: A.SANI15 (ID: 500163) | Ruta: T40 - Ida
+12. Origen: A.SANI15 (ID: 500163) -> Destino: A.SANI11 (ID: 600159) | Ruta: T40 - Ida

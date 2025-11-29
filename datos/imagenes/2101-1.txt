@@ -1,81 +1,69 @@
 == 2101-1 ==
 Nodos: 28
-Arcos: 45
+Arcos: 27
 ------------------------------------
 
-=== Lista de Nodos ===
-516079 - C13C14
-516058 - C13K65
-516054 - C13K7572
-516076 - C13K32A
-519026 - C13K21
-516056 - C13K68
-516177 - C13K69
-516050 - C13K802
-516072 - C13K39
-519022 - C13D232
-516052 - C13K78
-516074 - C13K342
-516070 - C13K41A2
-502251 - UNIVAL2
-511011 - C13K86
-511234 - C13K100U
-516064 - C13K50
-516065 - C13K47A
-516067 - C13K44A
-516060 - C13K57
-501502 - PTCUY6
-516062 - C13K552
-501405 - SANPAS6
-501552 - SANPED6
-519290 - C13K23A
-502303 - UNIV4
-511348 - C13K83
-511005 - C13K100
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+516079 - C13C14 - GPS: (3,429498, -76,527266)
+516058 - C13K65 - GPS: (3,401042, -76,536880)
+516054 - C13K7572 - GPS: (3,391921, -76,538309)
+516076 - C13K32A - GPS: (3,426376, -76,528685)
+519026 - C13K21 - GPS: (3,438452, -76,528222)
+516177 - C13K69 - GPS: (3,394858, -76,538049)
+516056 - C13K68 - GPS: (3,397180, -76,537832)
+516050 - C13K802 - GPS: (3,386849, -76,538515)
+516072 - C13K39 - GPS: (3,419785, -76,530840)
+519022 - C13D232 - GPS: (3,432869, -76,527915)
+516052 - C13K78 - GPS: (3,389287, -76,538490)
+516074 - C13K342 - GPS: (3,423658, -76,529555)
+516070 - C13K41A2 - GPS: (3,416723, -76,531848)
+502251 - UNIVAL2 - GPS: (3,370985, -76,536852)
+511011 - C13K86 - GPS: (3,380245, -76,537637)
+511234 - C13K100U - GPS: (3,375331, -76,537226)
+516064 - C13K50 - GPS: (3,409266, -76,534241)
+516065 - C13K47A - GPS: (3,411918, -76,533437)
+516067 - C13K44A - GPS: (3,413579, -76,532839)
+516060 - C13K57 - GPS: (3,404005, -76,535878)
+501502 - PTCUY6 - GPS: (3,449637, -76,528092)
+516062 - C13K552 - GPS: (3,406662, -76,535028)
+501405 - SANPAS6 - GPS: (3,442595, -76,526807)
+501552 - SANPED6 - GPS: (3,454913, -76,530290)
+519290 - C13K23A - GPS: (3,435655, -76,528088)
+502303 - UNIV4 - GPS: (3,367183, -76,529395)
+511348 - C13K83 - GPS: (3,383306, -76,538168)
+511005 - C13K100 - GPS: (3,373570, -76,537168)
 
-=== Lista de Arcos ===
-502303 -> 516056  (Ruta: P10A - Vuelta)
-516056 -> 502251  (Ruta: P10A - Vuelta)
-502251 -> 516058  (Ruta: P10A - Vuelta)
-516058 -> 511005  (Ruta: P10A - Vuelta)
-511005 -> 516060  (Ruta: P10A - Vuelta)
-516060 -> 511234  (Ruta: P10A - Vuelta)
-511234 -> 516062  (Ruta: P10A - Vuelta)
-516062 -> 511011  (Ruta: P10A - Vuelta)
-511011 -> 516064  (Ruta: P10A - Vuelta)
-516064 -> 511348  (Ruta: P10A - Vuelta)
-511348 -> 516065  (Ruta: P10A - Vuelta)
-516065 -> 516050  (Ruta: P10A - Vuelta)
-516050 -> 516067  (Ruta: P10A - Vuelta)
-516067 -> 516052  (Ruta: P10A - Vuelta)
-516052 -> 516070  (Ruta: P10A - Vuelta)
-516070 -> 516054  (Ruta: P10A - Vuelta)
-516054 -> 516072  (Ruta: P10A - Vuelta)
-516072 -> 516177  (Ruta: P10A - Vuelta)
-516177 -> 516074  (Ruta: P10A - Vuelta)
-516074 -> 516056  (Ruta: P10A - Vuelta)
-516056 -> 516076  (Ruta: P10A - Vuelta)
-516076 -> 516058  (Ruta: P10A - Vuelta)
-516058 -> 516079  (Ruta: P10A - Vuelta)
-516079 -> 516060  (Ruta: P10A - Vuelta)
-516060 -> 519022  (Ruta: P10A - Vuelta)
-519022 -> 516062  (Ruta: P10A - Vuelta)
-516062 -> 519290  (Ruta: P10A - Vuelta)
-519290 -> 516064  (Ruta: P10A - Vuelta)
-516064 -> 519026  (Ruta: P10A - Vuelta)
-519026 -> 516065  (Ruta: P10A - Vuelta)
-516065 -> 501405  (Ruta: P10A - Vuelta)
-501405 -> 516067  (Ruta: P10A - Vuelta)
-516067 -> 501502  (Ruta: P10A - Vuelta)
-501502 -> 516070  (Ruta: P10A - Vuelta)
-516070 -> 501552  (Ruta: P10A - Vuelta)
-501552 -> 516072  (Ruta: P10A - Vuelta)
-516072 -> 516074  (Ruta: P10A - Vuelta)
-516074 -> 516076  (Ruta: P10A - Vuelta)
-516076 -> 516079  (Ruta: P10A - Vuelta)
-516079 -> 519022  (Ruta: P10A - Vuelta)
-519022 -> 519290  (Ruta: P10A - Vuelta)
-519290 -> 519026  (Ruta: P10A - Vuelta)
-519026 -> 501405  (Ruta: P10A - Vuelta)
-501405 -> 501502  (Ruta: P10A - Vuelta)
-501502 -> 501552  (Ruta: P10A - Vuelta)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: P10A - Vuelta (27 arcos) ---
+1. Origen: UNIV4 (ID: 502303) -> Destino: UNIVAL2 (ID: 502251) | Ruta: P10A - Vuelta
+2. Origen: UNIVAL2 (ID: 502251) -> Destino: C13K100 (ID: 511005) | Ruta: P10A - Vuelta
+3. Origen: C13K100 (ID: 511005) -> Destino: C13K100U (ID: 511234) | Ruta: P10A - Vuelta
+4. Origen: C13K100U (ID: 511234) -> Destino: C13K86 (ID: 511011) | Ruta: P10A - Vuelta
+5. Origen: C13K86 (ID: 511011) -> Destino: C13K83 (ID: 511348) | Ruta: P10A - Vuelta
+6. Origen: C13K83 (ID: 511348) -> Destino: C13K802 (ID: 516050) | Ruta: P10A - Vuelta
+7. Origen: C13K802 (ID: 516050) -> Destino: C13K78 (ID: 516052) | Ruta: P10A - Vuelta
+8. Origen: C13K78 (ID: 516052) -> Destino: C13K7572 (ID: 516054) | Ruta: P10A - Vuelta
+9. Origen: C13K7572 (ID: 516054) -> Destino: C13K69 (ID: 516177) | Ruta: P10A - Vuelta
+10. Origen: C13K69 (ID: 516177) -> Destino: C13K68 (ID: 516056) | Ruta: P10A - Vuelta
+11. Origen: C13K68 (ID: 516056) -> Destino: C13K65 (ID: 516058) | Ruta: P10A - Vuelta
+12. Origen: C13K65 (ID: 516058) -> Destino: C13K57 (ID: 516060) | Ruta: P10A - Vuelta
+13. Origen: C13K57 (ID: 516060) -> Destino: C13K552 (ID: 516062) | Ruta: P10A - Vuelta
+14. Origen: C13K552 (ID: 516062) -> Destino: C13K50 (ID: 516064) | Ruta: P10A - Vuelta
+15. Origen: C13K50 (ID: 516064) -> Destino: C13K47A (ID: 516065) | Ruta: P10A - Vuelta
+16. Origen: C13K47A (ID: 516065) -> Destino: C13K44A (ID: 516067) | Ruta: P10A - Vuelta
+17. Origen: C13K44A (ID: 516067) -> Destino: C13K41A2 (ID: 516070) | Ruta: P10A - Vuelta
+18. Origen: C13K41A2 (ID: 516070) -> Destino: C13K39 (ID: 516072) | Ruta: P10A - Vuelta
+19. Origen: C13K39 (ID: 516072) -> Destino: C13K342 (ID: 516074) | Ruta: P10A - Vuelta
+20. Origen: C13K342 (ID: 516074) -> Destino: C13K32A (ID: 516076) | Ruta: P10A - Vuelta
+21. Origen: C13K32A (ID: 516076) -> Destino: C13C14 (ID: 516079) | Ruta: P10A - Vuelta
+22. Origen: C13C14 (ID: 516079) -> Destino: C13D232 (ID: 519022) | Ruta: P10A - Vuelta
+23. Origen: C13D232 (ID: 519022) -> Destino: C13K23A (ID: 519290) | Ruta: P10A - Vuelta
+24. Origen: C13K23A (ID: 519290) -> Destino: C13K21 (ID: 519026) | Ruta: P10A - Vuelta
+25. Origen: C13K21 (ID: 519026) -> Destino: SANPAS6 (ID: 501405) | Ruta: P10A - Vuelta
+26. Origen: SANPAS6 (ID: 501405) -> Destino: PTCUY6 (ID: 501502) | Ruta: P10A - Vuelta
+27. Origen: PTCUY6 (ID: 501502) -> Destino: SANPED6 (ID: 501552) | Ruta: P10A - Vuelta

@@ -3,49 +3,55 @@ Nodos: 22
 Arcos: 21
 ------------------------------------
 
-=== Lista de Nodos ===
-514157 - C73K112
-514388 - K12C48
-514343 - K8C34A
-514133 - K8C62
-514342 - C59K10
-514386 - C44K9
-514154 - C73K7RB
-514396 - C59K8
-514116 - K8C27
-514346 - K8C702
-514115 - K8C34
-514257 - K12C59
-514390 - K12C521
-519045 - K8C25
-514080 - C73K8
-519047 - K8C16
-514392 - K12C56
-519054 - K8C20
-501550 - SANPED2
-514119 - K8C391
-514019 - C44K12
-500150 - A.SANIN1
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+514157 - C73K112 - GPS: (3,448193, -76,483252)
+514388 - K12C48 - GPS: (3,448825, -76,502358)
+514343 - K8C34A - GPS: (3,454136, -76,510323)
+514133 - K8C62 - GPS: (3,452729, -76,489745)
+514342 - C59K10 - GPS: (3,449795, -76,493462)
+514386 - C44K9 - GPS: (3,452113, -76,504906)
+514154 - C73K7RB - GPS: (3,454103, -76,482547)
+514396 - C59K8 - GPS: (3,451277, -76,493171)
+514116 - K8C27 - GPS: (3,453329, -76,517123)
+514346 - K8C702 - GPS: (3,452296, -76,486806)
+514115 - K8C34 - GPS: (3,453679, -76,515423)
+514257 - K12C59 - GPS: (3,447774, -76,494298)
+514390 - K12C521 - GPS: (3,448493, -76,499443)
+519045 - K8C25 - GPS: (3,452715, -76,519765)
+514080 - C73K8 - GPS: (3,451540, -76,482662)
+519047 - K8C16 - GPS: (3,450215, -76,527993)
+514392 - K12C56 - GPS: (3,448225, -76,496655)
+519054 - K8C20 - GPS: (3,451341, -76,524568)
+501550 - SANPED2 - GPS: (3,454100, -76,529950)
+514119 - K8C391 - GPS: (3,453737, -76,507220)
+514019 - C44K12 - GPS: (3,449100, -76,504128)
+500150 - A.SANIN1 - GPS: (3,443802, -76,482543)
 
-=== Lista de Arcos ===
-500150 -> 514157  (Ruta: P40A - Vuelta)
-514157 -> 514080  (Ruta: P40A - Vuelta)
-514080 -> 514154  (Ruta: P40A - Vuelta)
-514154 -> 514346  (Ruta: P40A - Vuelta)
-514346 -> 514133  (Ruta: P40A - Vuelta)
-514133 -> 514396  (Ruta: P40A - Vuelta)
-514396 -> 514342  (Ruta: P40A - Vuelta)
-514342 -> 514257  (Ruta: P40A - Vuelta)
-514257 -> 514392  (Ruta: P40A - Vuelta)
-514392 -> 514390  (Ruta: P40A - Vuelta)
-514390 -> 514388  (Ruta: P40A - Vuelta)
-514388 -> 514019  (Ruta: P40A - Vuelta)
-514019 -> 514386  (Ruta: P40A - Vuelta)
-514386 -> 514119  (Ruta: P40A - Vuelta)
-514119 -> 514343  (Ruta: P40A - Vuelta)
-514343 -> 514115  (Ruta: P40A - Vuelta)
-514115 -> 514116  (Ruta: P40A - Vuelta)
-514116 -> 519045  (Ruta: P40A - Vuelta)
-519045 -> 519054  (Ruta: P40A - Vuelta)
-519054 -> 519047  (Ruta: P40A - Vuelta)
-519047 -> 501550  (Ruta: P40A - Vuelta)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: P40A - Vuelta (21 arcos) ---
+1. Origen: A.SANIN1 (ID: 500150) -> Destino: C73K112 (ID: 514157) | Ruta: P40A - Vuelta
+2. Origen: C73K112 (ID: 514157) -> Destino: C73K8 (ID: 514080) | Ruta: P40A - Vuelta
+3. Origen: C73K8 (ID: 514080) -> Destino: C73K7RB (ID: 514154) | Ruta: P40A - Vuelta
+4. Origen: C73K7RB (ID: 514154) -> Destino: K8C702 (ID: 514346) | Ruta: P40A - Vuelta
+5. Origen: K8C702 (ID: 514346) -> Destino: K8C62 (ID: 514133) | Ruta: P40A - Vuelta
+6. Origen: K8C62 (ID: 514133) -> Destino: C59K8 (ID: 514396) | Ruta: P40A - Vuelta
+7. Origen: C59K8 (ID: 514396) -> Destino: C59K10 (ID: 514342) | Ruta: P40A - Vuelta
+8. Origen: C59K10 (ID: 514342) -> Destino: K12C59 (ID: 514257) | Ruta: P40A - Vuelta
+9. Origen: K12C59 (ID: 514257) -> Destino: K12C56 (ID: 514392) | Ruta: P40A - Vuelta
+10. Origen: K12C56 (ID: 514392) -> Destino: K12C521 (ID: 514390) | Ruta: P40A - Vuelta
+11. Origen: K12C521 (ID: 514390) -> Destino: K12C48 (ID: 514388) | Ruta: P40A - Vuelta
+12. Origen: K12C48 (ID: 514388) -> Destino: C44K12 (ID: 514019) | Ruta: P40A - Vuelta
+13. Origen: C44K12 (ID: 514019) -> Destino: C44K9 (ID: 514386) | Ruta: P40A - Vuelta
+14. Origen: C44K9 (ID: 514386) -> Destino: K8C391 (ID: 514119) | Ruta: P40A - Vuelta
+15. Origen: K8C391 (ID: 514119) -> Destino: K8C34A (ID: 514343) | Ruta: P40A - Vuelta
+16. Origen: K8C34A (ID: 514343) -> Destino: K8C34 (ID: 514115) | Ruta: P40A - Vuelta
+17. Origen: K8C34 (ID: 514115) -> Destino: K8C27 (ID: 514116) | Ruta: P40A - Vuelta
+18. Origen: K8C27 (ID: 514116) -> Destino: K8C25 (ID: 519045) | Ruta: P40A - Vuelta
+19. Origen: K8C25 (ID: 519045) -> Destino: K8C20 (ID: 519054) | Ruta: P40A - Vuelta
+20. Origen: K8C20 (ID: 519054) -> Destino: K8C16 (ID: 519047) | Ruta: P40A - Vuelta
+21. Origen: K8C16 (ID: 519047) -> Destino: SANPED2 (ID: 501550) | Ruta: P40A - Vuelta

@@ -1,0 +1,47 @@
+========================================
+REPORTE DE RUTA: P17-1
+========================================
+
+Información General:
+  Número de Arcos: 7
+  Distancia Total: 8,65 km
+  Tiempo Total: 26,37 min
+  Velocidad Promedio: 19,14 km/h
+
+Detalle de Arcos:
+------------------------------------------------------------
+Arco 1: UDP5 -> REFUG1
+  Distancia: 1,78 km
+  Tiempo: 5,34 min
+  Velocidad: 20,00 km/h
+
+Arco 2: REFUG1 -> CAPRI3
+  Distancia: 1,22 km
+  Tiempo: 3,66 min
+  Velocidad: 20,00 km/h
+
+Arco 3: CAPRI3 -> MELEN1
+  Distancia: 1,22 km
+  Tiempo: 3,65 min
+  Velocidad: 20,00 km/h
+
+Arco 4: MELEN1 -> BUITRE1
+  Distancia: 0,59 km
+  Tiempo: 1,76 min
+  Velocidad: 20,00 km/h
+
+Arco 5: BUITRE1 -> C25UAUT
+  Distancia: 2,81 km
+  Tiempo: 8,43 min
+  Velocidad: 20,00 km/h
+
+Arco 6: C25UAUT -> K118C241
+  Distancia: 0,33 km
+  Tiempo: 1,42 min
+  Velocidad: 14,00 km/h
+
+Arco 7: K118C241 -> C18K118
+  Distancia: 0,70 km
+  Tiempo: 2,11 min
+  Velocidad: 20,00 km/h
+

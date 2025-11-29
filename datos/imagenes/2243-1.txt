@@ -1,96 +1,93 @@
 == 2243-1 ==
-Nodos: 43
-Arcos: 45
+Nodos: 40
+Arcos: 39
 ------------------------------------
 
-=== Lista de Nodos ===
-514157 - C73K112
-514013 - C70K7C
-514056 - K25C74
-514055 - K25C771
-514154 - C73K7RB
-514414 - C70K7EB2
-514413 - C70K7L7J
-514412 - K8C7271
-513103 - C70K7
-513048 - C70K3BN
-513300 - C70K3D
-514050 - K23C87
-514054 - K25C80
-514053 - C80K23
-514052 - K23C83
-513062 - C70K1A12
-500108 - TMENGA9
-514051 - K23C84
-514150 - C70K7RBI
-500154 - A.SANIN5
-600100 - TMENGA1
-600103 - TMENGA4
-514465 - K26JC121
-514047 - K23C114
-513013 - C70K1C1
-514046 - K23C120C
-513111 - C70K1A51
-514045 - K23C120Q
-514044 - C123K26B
-600108 - TMENGA9
-514049 - K23C98A
-514401 - C73D18
-514466 - C123K26
-514048 - K23C1022
-513113 - C70K1
-513256 - C70AV2
-514080 - C73K8
-513251 - C70K4CN
-500103 - TMENGA4
-500100 - TMENGA1
-514538 - K23C101A
-513107 - C70K2-1
-513327 - C70K1F
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+514157 - C73K112 - GPS: (3,448193, -76,483252)
+514013 - C70K7C - GPS: (3,463753, -76,483427)
+514056 - K25C74 - GPS: (3,440717, -76,479445)
+514055 - K25C771 - GPS: (3,439176, -76,477323)
+514154 - C73K7RB - GPS: (3,454103, -76,482547)
+514414 - C70K7EB2 - GPS: (3,461168, -76,482775)
+514413 - C70K7L7J - GPS: (3,457958, -76,483132)
+514412 - K8C7271 - GPS: (3,452208, -76,485377)
+513103 - C70K7 - GPS: (3,467232, -76,484522)
+513048 - C70K3BN - GPS: (3,486872, -76,497323)
+513300 - C70K3D - GPS: (3,469463, -76,485325)
+514050 - K23C87 - GPS: (3,435933, -76,468220)
+514054 - K25C80 - GPS: (3,437635, -76,475115)
+514053 - C80K23 - GPS: (3,437903, -76,473508)
+514052 - K23C83 - GPS: (3,437652, -76,471787)
+513062 - C70K1A12 - GPS: (3,481137, -76,488898)
+514051 - K23C84 - GPS: (3,436620, -76,469690)
+514150 - C70K7RBI - GPS: (3,455222, -76,484528)
+500154 - A.SANIN5 - GPS: (3,443756, -76,483060)
+600103 - TMENGA4 - GPS: (3,488914, -76,507913)
+514465 - K26JC121 - GPS: (3,418139, -76,467871)
+514047 - K23C114 - GPS: (3,429420, -76,463890)
+513013 - C70K1C1 - GPS: (3,477678, -76,487825)
+514046 - K23C120C - GPS: (3,427758, -76,463281)
+513111 - C70K1A51 - GPS: (3,484327, -76,490491)
+514045 - K23C120Q - GPS: (3,425677, -76,463372)
+514044 - C123K26B - GPS: (3,422753, -76,463678)
+600108 - TMENGA9 - GPS: (3,489417, -76,507803)
+514049 - K23C98A - GPS: (3,434562, -76,465768)
+514401 - C73D18 - GPS: (3,445164, -76,483774)
+514466 - C123K26 - GPS: (3,420181, -76,464978)
+514048 - K23C1022 - GPS: (3,432095, -76,464867)
+513113 - C70K1 - GPS: (3,486152, -76,494895)
+513256 - C70AV2 - GPS: (3,489964, -76,507473)
+514080 - C73K8 - GPS: (3,451540, -76,482662)
+513251 - C70K4CN - GPS: (3,487779, -76,500426)
+500100 - TMENGA1 - GPS: (3,489307, -76,509042)
+514538 - K23C101A - GPS: (3,433038, -76,465246)
+513107 - C70K2-1 - GPS: (3,473357, -76,486452)
+513327 - C70K1F - GPS: (3,475321, -76,487161)
 
-=== Lista de Arcos ===
-514465 -> 500100  (Ruta: P24C - Vuelta)
-500100 -> 500100  (Ruta: P24C - Vuelta)
-500100 -> 514466  (Ruta: P24C - Vuelta)
-514466 -> 600100  (Ruta: P24C - Vuelta)
-600100 -> 600100  (Ruta: P24C - Vuelta)
-600100 -> 514044  (Ruta: P24C - Vuelta)
-514044 -> 600103  (Ruta: P24C - Vuelta)
-600103 -> 600108  (Ruta: P24C - Vuelta)
-600108 -> 514045  (Ruta: P24C - Vuelta)
-514045 -> 500103  (Ruta: P24C - Vuelta)
-500103 -> 500108  (Ruta: P24C - Vuelta)
-500108 -> 514046  (Ruta: P24C - Vuelta)
-514046 -> 514047  (Ruta: P24C - Vuelta)
-514047 -> 514048  (Ruta: P24C - Vuelta)
-514048 -> 514538  (Ruta: P24C - Vuelta)
-514538 -> 514049  (Ruta: P24C - Vuelta)
-514049 -> 514050  (Ruta: P24C - Vuelta)
-514050 -> 514051  (Ruta: P24C - Vuelta)
-514051 -> 514052  (Ruta: P24C - Vuelta)
-514052 -> 514053  (Ruta: P24C - Vuelta)
-514053 -> 514054  (Ruta: P24C - Vuelta)
-514054 -> 514055  (Ruta: P24C - Vuelta)
-514055 -> 514056  (Ruta: P24C - Vuelta)
-514056 -> 500154  (Ruta: P24C - Vuelta)
-500154 -> 514401  (Ruta: P24C - Vuelta)
-514401 -> 514157  (Ruta: P24C - Vuelta)
-514157 -> 514080  (Ruta: P24C - Vuelta)
-514080 -> 514154  (Ruta: P24C - Vuelta)
-514154 -> 514412  (Ruta: P24C - Vuelta)
-514412 -> 514150  (Ruta: P24C - Vuelta)
-514150 -> 514413  (Ruta: P24C - Vuelta)
-514413 -> 514414  (Ruta: P24C - Vuelta)
-514414 -> 514013  (Ruta: P24C - Vuelta)
-514013 -> 513103  (Ruta: P24C - Vuelta)
-513103 -> 513300  (Ruta: P24C - Vuelta)
-513300 -> 513107  (Ruta: P24C - Vuelta)
-513107 -> 513327  (Ruta: P24C - Vuelta)
-513327 -> 513013  (Ruta: P24C - Vuelta)
-513013 -> 513062  (Ruta: P24C - Vuelta)
-513062 -> 513111  (Ruta: P24C - Vuelta)
-513111 -> 513113  (Ruta: P24C - Vuelta)
-513113 -> 513048  (Ruta: P24C - Vuelta)
-513048 -> 513251  (Ruta: P24C - Vuelta)
-513251 -> 513256  (Ruta: P24C - Vuelta)
-513256 -> 500100  (Ruta: P24C - Vuelta)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: P24C - Vuelta (39 arcos) ---
+1. Origen: K26JC121 (ID: 514465) -> Destino: C123K26 (ID: 514466) | Ruta: P24C - Vuelta
+2. Origen: C123K26 (ID: 514466) -> Destino: C123K26B (ID: 514044) | Ruta: P24C - Vuelta
+3. Origen: C123K26B (ID: 514044) -> Destino: K23C120Q (ID: 514045) | Ruta: P24C - Vuelta
+4. Origen: K23C120Q (ID: 514045) -> Destino: K23C120C (ID: 514046) | Ruta: P24C - Vuelta
+5. Origen: K23C120C (ID: 514046) -> Destino: K23C114 (ID: 514047) | Ruta: P24C - Vuelta
+6. Origen: K23C114 (ID: 514047) -> Destino: K23C1022 (ID: 514048) | Ruta: P24C - Vuelta
+7. Origen: K23C1022 (ID: 514048) -> Destino: K23C101A (ID: 514538) | Ruta: P24C - Vuelta
+8. Origen: K23C101A (ID: 514538) -> Destino: K23C98A (ID: 514049) | Ruta: P24C - Vuelta
+9. Origen: K23C98A (ID: 514049) -> Destino: K23C87 (ID: 514050) | Ruta: P24C - Vuelta
+10. Origen: K23C87 (ID: 514050) -> Destino: K23C84 (ID: 514051) | Ruta: P24C - Vuelta
+11. Origen: K23C84 (ID: 514051) -> Destino: K23C83 (ID: 514052) | Ruta: P24C - Vuelta
+12. Origen: K23C83 (ID: 514052) -> Destino: C80K23 (ID: 514053) | Ruta: P24C - Vuelta
+13. Origen: C80K23 (ID: 514053) -> Destino: K25C80 (ID: 514054) | Ruta: P24C - Vuelta
+14. Origen: K25C80 (ID: 514054) -> Destino: K25C771 (ID: 514055) | Ruta: P24C - Vuelta
+15. Origen: K25C771 (ID: 514055) -> Destino: K25C74 (ID: 514056) | Ruta: P24C - Vuelta
+16. Origen: K25C74 (ID: 514056) -> Destino: A.SANIN5 (ID: 500154) | Ruta: P24C - Vuelta
+17. Origen: A.SANIN5 (ID: 500154) -> Destino: C73D18 (ID: 514401) | Ruta: P24C - Vuelta
+18. Origen: C73D18 (ID: 514401) -> Destino: C73K112 (ID: 514157) | Ruta: P24C - Vuelta
+19. Origen: C73K112 (ID: 514157) -> Destino: C73K8 (ID: 514080) | Ruta: P24C - Vuelta
+20. Origen: C73K8 (ID: 514080) -> Destino: C73K7RB (ID: 514154) | Ruta: P24C - Vuelta
+21. Origen: C73K7RB (ID: 514154) -> Destino: K8C7271 (ID: 514412) | Ruta: P24C - Vuelta
+22. Origen: K8C7271 (ID: 514412) -> Destino: C70K7RBI (ID: 514150) | Ruta: P24C - Vuelta
+23. Origen: C70K7RBI (ID: 514150) -> Destino: C70K7L7J (ID: 514413) | Ruta: P24C - Vuelta
+24. Origen: C70K7L7J (ID: 514413) -> Destino: C70K7EB2 (ID: 514414) | Ruta: P24C - Vuelta
+25. Origen: C70K7EB2 (ID: 514414) -> Destino: C70K7C (ID: 514013) | Ruta: P24C - Vuelta
+26. Origen: C70K7C (ID: 514013) -> Destino: C70K7 (ID: 513103) | Ruta: P24C - Vuelta
+27. Origen: C70K7 (ID: 513103) -> Destino: C70K3D (ID: 513300) | Ruta: P24C - Vuelta
+28. Origen: C70K3D (ID: 513300) -> Destino: C70K2-1 (ID: 513107) | Ruta: P24C - Vuelta
+29. Origen: C70K2-1 (ID: 513107) -> Destino: C70K1F (ID: 513327) | Ruta: P24C - Vuelta
+30. Origen: C70K1F (ID: 513327) -> Destino: C70K1C1 (ID: 513013) | Ruta: P24C - Vuelta
+31. Origen: C70K1C1 (ID: 513013) -> Destino: C70K1A12 (ID: 513062) | Ruta: P24C - Vuelta
+32. Origen: C70K1A12 (ID: 513062) -> Destino: C70K1A51 (ID: 513111) | Ruta: P24C - Vuelta
+33. Origen: C70K1A51 (ID: 513111) -> Destino: C70K1 (ID: 513113) | Ruta: P24C - Vuelta
+34. Origen: C70K1 (ID: 513113) -> Destino: C70K3BN (ID: 513048) | Ruta: P24C - Vuelta
+35. Origen: C70K3BN (ID: 513048) -> Destino: C70K4CN (ID: 513251) | Ruta: P24C - Vuelta
+36. Origen: C70K4CN (ID: 513251) -> Destino: C70AV2 (ID: 513256) | Ruta: P24C - Vuelta
+37. Origen: C70AV2 (ID: 513256) -> Destino: TMENGA1 (ID: 500100) | Ruta: P24C - Vuelta
+38. Origen: TMENGA1 (ID: 500100) -> Destino: TMENGA4 (ID: 600103) | Ruta: P24C - Vuelta
+39. Origen: TMENGA1 (ID: 500100) -> Destino: TMENGA9 (ID: 600108) | Ruta: P24C - Vuelta

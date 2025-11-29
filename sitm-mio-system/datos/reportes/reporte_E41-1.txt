@@ -1,0 +1,82 @@
+========================================
+REPORTE DE RUTA: E41-1
+========================================
+
+Información General:
+  Número de Arcos: 14
+  Distancia Total: 14,95 km
+  Tiempo Total: 37,09 min
+  Velocidad Promedio: 23,39 km/h
+
+Detalle de Arcos:
+------------------------------------------------------------
+Arco 1: A.SANI10 -> 7AGO1
+  Distancia: 0,53 km
+  Tiempo: 1,28 min
+  Velocidad: 25,00 km/h
+
+Arco 2: 7AGO1 -> TREB1
+  Distancia: 1,02 km
+  Tiempo: 2,45 min
+  Velocidad: 25,00 km/h
+
+Arco 3: TREB1 -> VICOL1
+  Distancia: 0,32 km
+  Tiempo: 1,10 min
+  Velocidad: 17,50 km/h
+
+Arco 4: VICOL1 -> CHAPI1
+  Distancia: 0,38 km
+  Tiempo: 1,29 min
+  Velocidad: 17,50 km/h
+
+Arco 5: CHAPI1 -> ATGI1
+  Distancia: 0,68 km
+  Tiempo: 1,64 min
+  Velocidad: 25,00 km/h
+
+Arco 6: ATGI1 -> FLORE1
+  Distancia: 0,70 km
+  Tiempo: 1,68 min
+  Velocidad: 25,00 km/h
+
+Arco 7: FLORE1 -> BELAL1
+  Distancia: 0,69 km
+  Tiempo: 1,66 min
+  Velocidad: 25,00 km/h
+
+Arco 8: BELAL1 -> UDP5
+  Distancia: 4,51 km
+  Tiempo: 10,81 min
+  Velocidad: 25,00 km/h
+
+Arco 9: UDP5 -> PAMPA1
+  Distancia: 1,22 km
+  Tiempo: 2,93 min
+  Velocidad: 25,00 km/h
+
+Arco 10: PAMPA1 -> REFUG1
+  Distancia: 0,56 km
+  Tiempo: 1,34 min
+  Velocidad: 25,00 km/h
+
+Arco 11: REFUG1 -> CALDAS1
+  Distancia: 0,49 km
+  Tiempo: 1,67 min
+  Velocidad: 17,50 km/h
+
+Arco 12: CALDAS1 -> CAPRI3
+  Distancia: 0,73 km
+  Tiempo: 1,76 min
+  Velocidad: 25,00 km/h
+
+Arco 13: CAPRI3 -> BUITRE1
+  Distancia: 1,78 km
+  Tiempo: 4,27 min
+  Velocidad: 25,00 km/h
+
+Arco 14: BUITRE1 -> UNIV1
+  Distancia: 1,34 km
+  Tiempo: 3,22 min
+  Velocidad: 25,00 km/h
+

@@ -3,27 +3,33 @@ Nodos: 11
 Arcos: 10
 ------------------------------------
 
-=== Lista de Nodos ===
-512165 - C38NA3
-512155 - A9NC56
-512163 - C44NA3G
-512164 - C44NA3BN
-512158 - A8NC50
-512159 - C47C46N
-512156 - C53ANA7A
-512157 - A7NC53N
-512161 - C47NA5
-512162 - A4NC47
-512160 - C47NA6
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+512165 - C38NA3 - GPS: (3,474667, -76,520117)
+512155 - A9NC56 - GPS: (3,488924, -76,532060)
+512163 - C44NA3G - GPS: (3,479692, -76,520188)
+512164 - C44NA3BN - GPS: (3,478546, -76,518228)
+512158 - A8NC50 - GPS: (3,485445, -76,529339)
+512159 - C47C46N - GPS: (3,484259, -76,528244)
+512156 - C53ANA7A - GPS: (3,487518, -76,530197)
+512157 - A7NC53N - GPS: (3,487265, -76,529140)
+512161 - C47NA5 - GPS: (3,483595, -76,522687)
+512162 - A4NC47 - GPS: (3,482475, -76,521537)
+512160 - C47NA6 - GPS: (3,484312, -76,525313)
 
-=== Lista de Arcos ===
-512155 -> 512156  (Ruta: A24 - Ida)
-512156 -> 512157  (Ruta: A24 - Ida)
-512157 -> 512158  (Ruta: A24 - Ida)
-512158 -> 512159  (Ruta: A24 - Ida)
-512159 -> 512160  (Ruta: A24 - Ida)
-512160 -> 512161  (Ruta: A24 - Ida)
-512161 -> 512162  (Ruta: A24 - Ida)
-512162 -> 512163  (Ruta: A24 - Ida)
-512163 -> 512164  (Ruta: A24 - Ida)
-512164 -> 512165  (Ruta: A24 - Ida)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: A24 - Ida (10 arcos) ---
+1. Origen: A9NC56 (ID: 512155) -> Destino: C53ANA7A (ID: 512156) | Ruta: A24 - Ida
+2. Origen: C53ANA7A (ID: 512156) -> Destino: A7NC53N (ID: 512157) | Ruta: A24 - Ida
+3. Origen: A7NC53N (ID: 512157) -> Destino: A8NC50 (ID: 512158) | Ruta: A24 - Ida
+4. Origen: A8NC50 (ID: 512158) -> Destino: C47C46N (ID: 512159) | Ruta: A24 - Ida
+5. Origen: C47C46N (ID: 512159) -> Destino: C47NA6 (ID: 512160) | Ruta: A24 - Ida
+6. Origen: C47NA6 (ID: 512160) -> Destino: C47NA5 (ID: 512161) | Ruta: A24 - Ida
+7. Origen: C47NA5 (ID: 512161) -> Destino: A4NC47 (ID: 512162) | Ruta: A24 - Ida
+8. Origen: A4NC47 (ID: 512162) -> Destino: C44NA3G (ID: 512163) | Ruta: A24 - Ida
+9. Origen: C44NA3G (ID: 512163) -> Destino: C44NA3BN (ID: 512164) | Ruta: A24 - Ida
+10. Origen: C44NA3BN (ID: 512164) -> Destino: C38NA3 (ID: 512165) | Ruta: A24 - Ida

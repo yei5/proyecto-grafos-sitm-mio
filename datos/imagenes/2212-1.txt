@@ -1,139 +1,95 @@
 == 2212-1 ==
 Nodos: 41
-Arcos: 90
+Arcos: 40
 ------------------------------------
 
-=== Lista de Nodos ===
-514014 - C70K7BB
-514399 - C70K7RB
-516139 - C25K69A
-514012 - C70K7EB
-511284 - C25K952
-513104 - C70K5
-513049 - C70K4N2
-516230 - C25K561
-518058 - C70K29
-515142 - C36K46B
-515143 - C36K47B
-514010 - C70K7L
-516170 - C36K42A
-511281 - C25K981
-513063 - C70K1A10
-516171 - C36K44
-516195 - C25K66
-503004 - TCALIPA4
-518171 - C70K26E
-518050 - C70K26J
-514407 - C70K11P2
-513112 - C70K1A6
-514003 - C70K11E
-513035 - C70K1I
-513231 - C70K1B
-513252 - C70K6N
-511278 - C25K862
-516168 - C36K40
-518147 - C70K25
-511279 - C25K89
-513114 - C70K11
-516169 - C36K41A
-511276 - C25K83B2
-518149 - C70K34
-513014 - C70K1C2
-513290 - C70K4C
-518164 - C70K27A
-502301 - UNIV2
-518060 - C70K32
-500102 - TMENGA3
-512019 - C70A2N2
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+514014 - C70K7BB - GPS: (3,463400, -76,484195)
+514399 - C70K7RB - GPS: (3,455142, -76,485306)
+516139 - C25K69A - GPS: (3,392777, -76,524381)
+514012 - C70K7EB - GPS: (3,460608, -76,483460)
+511284 - C25K952 - GPS: (3,373288, -76,525598)
+513104 - C70K5 - GPS: (3,466838, -76,485268)
+513049 - C70K4N2 - GPS: (3,486260, -76,497187)
+516230 - C25K561 - GPS: (3,400935, -76,523536)
+518058 - C70K29 - GPS: (3,424338, -76,503243)
+515142 - C36K46B - GPS: (3,408775, -76,519471)
+515143 - C36K47B - GPS: (3,407577, -76,520720)
+514010 - C70K7L - GPS: (3,457667, -76,484172)
+516170 - C36K42A - GPS: (3,413206, -76,514882)
+511281 - C25K981 - GPS: (3,370469, -76,525631)
+516171 - C36K44 - GPS: (3,411204, -76,516959)
+513063 - C70K1A10 - GPS: (3,481135, -76,489790)
+516195 - C25K66 - GPS: (3,395618, -76,524389)
+503004 - TCALIPA4 - GPS: (3,427153, -76,500288)
+518171 - C70K26E - GPS: (3,436535, -76,495097)
+518050 - C70K26J - GPS: (3,433934, -76,496418)
+514407 - C70K11P2 - GPS: (3,449817, -76,487934)
+514003 - C70K11E - GPS: (3,446803, -76,490065)
+513112 - C70K1A6 - GPS: (3,483907, -76,491013)
+513035 - C70K1I - GPS: (3,473133, -76,487295)
+513231 - C70K1B - GPS: (3,479120, -76,489152)
+513252 - C70K6N - GPS: (3,487233, -76,501190)
+511278 - C25K862 - GPS: (3,379979, -76,525395)
+518147 - C70K25 - GPS: (3,439483, -76,493440)
+516168 - C36K40 - GPS: (3,417506, -76,510405)
+511279 - C25K89 - GPS: (3,376608, -76,525498)
+516169 - C36K41A - GPS: (3,416172, -76,511784)
+511276 - C25K83B2 - GPS: (3,384745, -76,525130)
+513114 - C70K11 - GPS: (3,485779, -76,495350)
+518149 - C70K34 - GPS: (3,420467, -76,507268)
+513014 - C70K1C2 - GPS: (3,476997, -76,488410)
+513290 - C70K4C - GPS: (3,469793, -76,486286)
+518164 - C70K27A - GPS: (3,430786, -76,498032)
+502301 - UNIV2 - GPS: (3,367090, -76,529050)
+518060 - C70K32 - GPS: (3,422476, -76,505245)
+500102 - TMENGA3 - GPS: (3,489107, -76,508280)
+512019 - C70A2N2 - GPS: (3,488455, -76,503813)
 
-=== Lista de Arcos ===
-500102 -> 503004  (Ruta: P21B - Vuelta)
-503004 -> 513290  (Ruta: P21B - Vuelta)
-513290 -> 512019  (Ruta: P21B - Vuelta)
-512019 -> 518058  (Ruta: P21B - Vuelta)
-518058 -> 513104  (Ruta: P21B - Vuelta)
-513104 -> 513252  (Ruta: P21B - Vuelta)
-513252 -> 518060  (Ruta: P21B - Vuelta)
-518060 -> 514014  (Ruta: P21B - Vuelta)
-514014 -> 513049  (Ruta: P21B - Vuelta)
-513049 -> 518149  (Ruta: P21B - Vuelta)
-518149 -> 514012  (Ruta: P21B - Vuelta)
-514012 -> 513114  (Ruta: P21B - Vuelta)
-513114 -> 516168  (Ruta: P21B - Vuelta)
-516168 -> 514010  (Ruta: P21B - Vuelta)
-514010 -> 513112  (Ruta: P21B - Vuelta)
-513112 -> 516169  (Ruta: P21B - Vuelta)
-516169 -> 514399  (Ruta: P21B - Vuelta)
-514399 -> 513063  (Ruta: P21B - Vuelta)
-513063 -> 516170  (Ruta: P21B - Vuelta)
-516170 -> 514407  (Ruta: P21B - Vuelta)
-514407 -> 513231  (Ruta: P21B - Vuelta)
-513231 -> 516171  (Ruta: P21B - Vuelta)
-516171 -> 514003  (Ruta: P21B - Vuelta)
-514003 -> 513014  (Ruta: P21B - Vuelta)
-513014 -> 515142  (Ruta: P21B - Vuelta)
-515142 -> 518147  (Ruta: P21B - Vuelta)
-518147 -> 513035  (Ruta: P21B - Vuelta)
-513035 -> 515143  (Ruta: P21B - Vuelta)
-515143 -> 518171  (Ruta: P21B - Vuelta)
-518171 -> 513290  (Ruta: P21B - Vuelta)
-513290 -> 516230  (Ruta: P21B - Vuelta)
-516230 -> 518050  (Ruta: P21B - Vuelta)
-518050 -> 513104  (Ruta: P21B - Vuelta)
-513104 -> 516195  (Ruta: P21B - Vuelta)
-516195 -> 518164  (Ruta: P21B - Vuelta)
-518164 -> 514014  (Ruta: P21B - Vuelta)
-514014 -> 516139  (Ruta: P21B - Vuelta)
-516139 -> 503004  (Ruta: P21B - Vuelta)
-503004 -> 514012  (Ruta: P21B - Vuelta)
-514012 -> 511276  (Ruta: P21B - Vuelta)
-511276 -> 518058  (Ruta: P21B - Vuelta)
-518058 -> 514010  (Ruta: P21B - Vuelta)
-514010 -> 511278  (Ruta: P21B - Vuelta)
-511278 -> 518060  (Ruta: P21B - Vuelta)
-518060 -> 514399  (Ruta: P21B - Vuelta)
-514399 -> 511279  (Ruta: P21B - Vuelta)
-511279 -> 518149  (Ruta: P21B - Vuelta)
-518149 -> 514407  (Ruta: P21B - Vuelta)
-514407 -> 511284  (Ruta: P21B - Vuelta)
-511284 -> 516168  (Ruta: P21B - Vuelta)
-516168 -> 514003  (Ruta: P21B - Vuelta)
-514003 -> 511281  (Ruta: P21B - Vuelta)
-511281 -> 516169  (Ruta: P21B - Vuelta)
-516169 -> 518147  (Ruta: P21B - Vuelta)
-518147 -> 502301  (Ruta: P21B - Vuelta)
-502301 -> 516170  (Ruta: P21B - Vuelta)
-516170 -> 518171  (Ruta: P21B - Vuelta)
-518171 -> 516171  (Ruta: P21B - Vuelta)
-516171 -> 518050  (Ruta: P21B - Vuelta)
-518050 -> 515142  (Ruta: P21B - Vuelta)
-515142 -> 518164  (Ruta: P21B - Vuelta)
-518164 -> 515143  (Ruta: P21B - Vuelta)
-515143 -> 503004  (Ruta: P21B - Vuelta)
-503004 -> 516230  (Ruta: P21B - Vuelta)
-516230 -> 518058  (Ruta: P21B - Vuelta)
-518058 -> 516195  (Ruta: P21B - Vuelta)
-516195 -> 518060  (Ruta: P21B - Vuelta)
-518060 -> 516139  (Ruta: P21B - Vuelta)
-516139 -> 518149  (Ruta: P21B - Vuelta)
-518149 -> 511276  (Ruta: P21B - Vuelta)
-511276 -> 516168  (Ruta: P21B - Vuelta)
-516168 -> 511278  (Ruta: P21B - Vuelta)
-511278 -> 516169  (Ruta: P21B - Vuelta)
-516169 -> 511279  (Ruta: P21B - Vuelta)
-511279 -> 516170  (Ruta: P21B - Vuelta)
-516170 -> 511284  (Ruta: P21B - Vuelta)
-511284 -> 516171  (Ruta: P21B - Vuelta)
-516171 -> 511281  (Ruta: P21B - Vuelta)
-511281 -> 515142  (Ruta: P21B - Vuelta)
-515142 -> 502301  (Ruta: P21B - Vuelta)
-502301 -> 515143  (Ruta: P21B - Vuelta)
-515143 -> 516230  (Ruta: P21B - Vuelta)
-516230 -> 516195  (Ruta: P21B - Vuelta)
-516195 -> 516139  (Ruta: P21B - Vuelta)
-516139 -> 511276  (Ruta: P21B - Vuelta)
-511276 -> 511278  (Ruta: P21B - Vuelta)
-511278 -> 511279  (Ruta: P21B - Vuelta)
-511279 -> 511284  (Ruta: P21B - Vuelta)
-511284 -> 511281  (Ruta: P21B - Vuelta)
-511281 -> 502301  (Ruta: P21B - Vuelta)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: P21B - Vuelta (40 arcos) ---
+1. Origen: C70K4C (ID: 513290) -> Destino: C70K5 (ID: 513104) | Ruta: P21B - Vuelta
+2. Origen: C70K5 (ID: 513104) -> Destino: C70K7BB (ID: 514014) | Ruta: P21B - Vuelta
+3. Origen: C70K7BB (ID: 514014) -> Destino: C70K7EB (ID: 514012) | Ruta: P21B - Vuelta
+4. Origen: C70K7EB (ID: 514012) -> Destino: C70K7L (ID: 514010) | Ruta: P21B - Vuelta
+5. Origen: C70K7L (ID: 514010) -> Destino: C70K7RB (ID: 514399) | Ruta: P21B - Vuelta
+6. Origen: C70K7RB (ID: 514399) -> Destino: C70K11P2 (ID: 514407) | Ruta: P21B - Vuelta
+7. Origen: C70K11P2 (ID: 514407) -> Destino: C70K11E (ID: 514003) | Ruta: P21B - Vuelta
+8. Origen: C70K11E (ID: 514003) -> Destino: C70K25 (ID: 518147) | Ruta: P21B - Vuelta
+9. Origen: C70K25 (ID: 518147) -> Destino: C70K26E (ID: 518171) | Ruta: P21B - Vuelta
+10. Origen: C70K26E (ID: 518171) -> Destino: C70K26J (ID: 518050) | Ruta: P21B - Vuelta
+11. Origen: C70K26J (ID: 518050) -> Destino: C70K27A (ID: 518164) | Ruta: P21B - Vuelta
+12. Origen: C70K27A (ID: 518164) -> Destino: TCALIPA4 (ID: 503004) | Ruta: P21B - Vuelta
+13. Origen: TCALIPA4 (ID: 503004) -> Destino: C70K29 (ID: 518058) | Ruta: P21B - Vuelta
+14. Origen: C70K29 (ID: 518058) -> Destino: C70K32 (ID: 518060) | Ruta: P21B - Vuelta
+15. Origen: C70K32 (ID: 518060) -> Destino: C70K34 (ID: 518149) | Ruta: P21B - Vuelta
+16. Origen: C70K34 (ID: 518149) -> Destino: C36K40 (ID: 516168) | Ruta: P21B - Vuelta
+17. Origen: C36K40 (ID: 516168) -> Destino: C36K41A (ID: 516169) | Ruta: P21B - Vuelta
+18. Origen: C36K41A (ID: 516169) -> Destino: C36K42A (ID: 516170) | Ruta: P21B - Vuelta
+19. Origen: C36K42A (ID: 516170) -> Destino: C36K44 (ID: 516171) | Ruta: P21B - Vuelta
+20. Origen: C36K44 (ID: 516171) -> Destino: C36K46B (ID: 515142) | Ruta: P21B - Vuelta
+21. Origen: C36K46B (ID: 515142) -> Destino: C36K47B (ID: 515143) | Ruta: P21B - Vuelta
+22. Origen: C36K47B (ID: 515143) -> Destino: C25K561 (ID: 516230) | Ruta: P21B - Vuelta
+23. Origen: C25K561 (ID: 516230) -> Destino: C25K66 (ID: 516195) | Ruta: P21B - Vuelta
+24. Origen: C25K66 (ID: 516195) -> Destino: C25K69A (ID: 516139) | Ruta: P21B - Vuelta
+25. Origen: C25K69A (ID: 516139) -> Destino: C25K83B2 (ID: 511276) | Ruta: P21B - Vuelta
+26. Origen: C25K83B2 (ID: 511276) -> Destino: C25K862 (ID: 511278) | Ruta: P21B - Vuelta
+27. Origen: C25K862 (ID: 511278) -> Destino: C25K89 (ID: 511279) | Ruta: P21B - Vuelta
+28. Origen: C25K89 (ID: 511279) -> Destino: C25K952 (ID: 511284) | Ruta: P21B - Vuelta
+29. Origen: C25K952 (ID: 511284) -> Destino: C25K981 (ID: 511281) | Ruta: P21B - Vuelta
+30. Origen: C25K981 (ID: 511281) -> Destino: UNIV2 (ID: 502301) | Ruta: P21B - Vuelta
+31. Origen: TMENGA3 (ID: 500102) -> Destino: C70A2N2 (ID: 512019) | Ruta: P21B - Vuelta
+32. Origen: C70A2N2 (ID: 512019) -> Destino: C70K6N (ID: 513252) | Ruta: P21B - Vuelta
+33. Origen: C70K6N (ID: 513252) -> Destino: C70K4N2 (ID: 513049) | Ruta: P21B - Vuelta
+34. Origen: C70K4N2 (ID: 513049) -> Destino: C70K11 (ID: 513114) | Ruta: P21B - Vuelta
+35. Origen: C70K11 (ID: 513114) -> Destino: C70K1A6 (ID: 513112) | Ruta: P21B - Vuelta
+36. Origen: C70K1A6 (ID: 513112) -> Destino: C70K1A10 (ID: 513063) | Ruta: P21B - Vuelta
+37. Origen: C70K1A10 (ID: 513063) -> Destino: C70K1B (ID: 513231) | Ruta: P21B - Vuelta
+38. Origen: C70K1B (ID: 513231) -> Destino: C70K1C2 (ID: 513014) | Ruta: P21B - Vuelta
+39. Origen: C70K1C2 (ID: 513014) -> Destino: C70K1I (ID: 513035) | Ruta: P21B - Vuelta
+40. Origen: C70K1I (ID: 513035) -> Destino: C70K4C (ID: 513290) | Ruta: P21B - Vuelta

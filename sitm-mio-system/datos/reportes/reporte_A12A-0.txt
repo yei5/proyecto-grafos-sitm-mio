@@ -1,0 +1,67 @@
+========================================
+REPORTE DE RUTA: A12A-0
+========================================
+
+Información General:
+  Número de Arcos: 11
+  Distancia Total: 2,39 km
+  Tiempo Total: 9,30 min
+  Velocidad Promedio: 15,40 km/h
+
+Detalle de Arcos:
+------------------------------------------------------------
+Arco 1: MELENC1 -> MELENC5
+  Distancia: 0,07 km
+  Tiempo: 0,27 min
+  Velocidad: 15,40 km/h
+
+Arco 2: K83C2C -> C2CK96
+  Distancia: 0,27 km
+  Tiempo: 1,06 min
+  Velocidad: 15,40 km/h
+
+Arco 3: C2CK96 -> C2BK93
+  Distancia: 0,30 km
+  Tiempo: 1,16 min
+  Velocidad: 15,40 km/h
+
+Arco 4: C2BK93 -> K93C2B2
+  Distancia: 0,17 km
+  Tiempo: 0,68 min
+  Velocidad: 15,40 km/h
+
+Arco 5: K93C2B2 -> K93C1A
+  Distancia: 0,18 km
+  Tiempo: 0,70 min
+  Velocidad: 15,40 km/h
+
+Arco 6: K93C1A -> C2K931
+  Distancia: 0,17 km
+  Tiempo: 0,66 min
+  Velocidad: 15,40 km/h
+
+Arco 7: C2K931 -> K94C2
+  Distancia: 0,13 km
+  Tiempo: 0,51 min
+  Velocidad: 15,40 km/h
+
+Arco 8: K94C2 -> C2CK94A
+  Distancia: 0,17 km
+  Tiempo: 0,68 min
+  Velocidad: 15,40 km/h
+
+Arco 9: C2CK94A -> K94AC3A
+  Distancia: 0,23 km
+  Tiempo: 0,90 min
+  Velocidad: 15,40 km/h
+
+Arco 10: K94AC3A -> K94C4A
+  Distancia: 0,21 km
+  Tiempo: 0,81 min
+  Velocidad: 15,40 km/h
+
+Arco 11: K94C4A -> MELENC1
+  Distancia: 0,48 km
+  Tiempo: 1,88 min
+  Velocidad: 15,40 km/h
+

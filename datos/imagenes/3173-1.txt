@@ -1,71 +1,65 @@
 == 3173-1 ==
-Nodos: 27
-Arcos: 36
+Nodos: 25
+Arcos: 26
 ------------------------------------
 
-=== Lista de Nodos ===
-511021 - C25UAUT2
-511385 - C42K114A
-511162 - K109C26
-511020 - C25UAUT
-511386 - C42K112
-511387 - C42K109
-502309 - UNIVCOM4
-511160 - K109C571
-511161 - K109C501
-502310 - UNIVCOM5
-511414 - C42K1122
-511415 - K114AC42
-511016 - C25K101
-511159 - K118COM2
-511357 - K118K109
-511412 - K109C423
-511413 - C42K1121
-511153 - K109C50
-511154 - K109C57
-511157 - K118JAG1
-602309 - UNIVCOM4
-511356 - K109K118
-511158 - K118JUV2
-511155 - K118COM1
-511156 - K118JUV1
-511409 - K109C421
-602310 - UNIVCOM5
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+511021 - C25UAUT2 - GPS: (3,353588, -76,523248)
+511385 - C42K114A - GPS: (3,354497, -76,520212)
+511162 - K109C26 - GPS: (3,359038, -76,523639)
+511020 - C25UAUT - GPS: (3,353378, -76,523485)
+511386 - C42K112 - GPS: (3,358413, -76,520286)
+511387 - C42K109 - GPS: (3,356322, -76,520252)
+502309 - UNIVCOM4 - GPS: (3,366295, -76,528038)
+511160 - K109C571 - GPS: (3,358196, -76,511199)
+511161 - K109C501 - GPS: (3,358394, -76,513994)
+502310 - UNIVCOM5 - GPS: (3,366544, -76,528041)
+511414 - C42K1122 - GPS: (3,354499, -76,520427)
+511415 - K114AC42 - GPS: (3,354384, -76,523037)
+511016 - C25K101 - GPS: (3,362342, -76,524438)
+511159 - K118COM2 - GPS: (3,359139, -76,503382)
+511357 - K118K109 - GPS: (3,357533, -76,506818)
+511412 - K109C423 - GPS: (3,358660, -76,518282)
+511413 - C42K1121 - GPS: (3,356344, -76,520427)
+511153 - K109C50 - GPS: (3,358340, -76,514482)
+511154 - K109C57 - GPS: (3,358053, -76,510840)
+511157 - K118JAG1 - GPS: (3,363669, -76,495292)
+511356 - K109K118 - GPS: (3,357439, -76,506979)
+511158 - K118JUV2 - GPS: (3,362043, -76,498558)
+511155 - K118COM1 - GPS: (3,359193, -76,502941)
+511156 - K118JUV1 - GPS: (3,361744, -76,498762)
+511409 - K109C421 - GPS: (3,358595, -76,518398)
 
-=== Lista de Arcos ===
-502309 -> 502310  (Ruta: A17C - Vuelta)
-502310 -> 502309  (Ruta: A17C - Vuelta)
-502309 -> 511016  (Ruta: A17C - Vuelta)
-511016 -> 602310  (Ruta: A17C - Vuelta)
-602310 -> 511016  (Ruta: A17C - Vuelta)
-511016 -> 511020  (Ruta: A17C - Vuelta)
-511020 -> 602309  (Ruta: A17C - Vuelta)
-602309 -> 511020  (Ruta: A17C - Vuelta)
-511020 -> 511021  (Ruta: A17C - Vuelta)
-511021 -> 502309  (Ruta: A17C - Vuelta)
-502309 -> 511021  (Ruta: A17C - Vuelta)
-511021 -> 511385  (Ruta: A17C - Vuelta)
-511385 -> 511385  (Ruta: A17C - Vuelta)
-511385 -> 511387  (Ruta: A17C - Vuelta)
-511387 -> 511387  (Ruta: A17C - Vuelta)
-511387 -> 511386  (Ruta: A17C - Vuelta)
-511386 -> 511386  (Ruta: A17C - Vuelta)
-511386 -> 511409  (Ruta: A17C - Vuelta)
-511409 -> 511162  (Ruta: A17C - Vuelta)
-511162 -> 511153  (Ruta: A17C - Vuelta)
-511153 -> 502310  (Ruta: A17C - Vuelta)
-502310 -> 511154  (Ruta: A17C - Vuelta)
-511154 -> 511356  (Ruta: A17C - Vuelta)
-511356 -> 511155  (Ruta: A17C - Vuelta)
-511155 -> 511156  (Ruta: A17C - Vuelta)
-511156 -> 511157  (Ruta: A17C - Vuelta)
-511157 -> 511158  (Ruta: A17C - Vuelta)
-511158 -> 511159  (Ruta: A17C - Vuelta)
-511159 -> 511357  (Ruta: A17C - Vuelta)
-511357 -> 511160  (Ruta: A17C - Vuelta)
-511160 -> 511161  (Ruta: A17C - Vuelta)
-511161 -> 511412  (Ruta: A17C - Vuelta)
-511412 -> 511413  (Ruta: A17C - Vuelta)
-511413 -> 511414  (Ruta: A17C - Vuelta)
-511414 -> 511415  (Ruta: A17C - Vuelta)
-511415 -> 502310  (Ruta: A17C - Vuelta)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: A17C - Vuelta (26 arcos) ---
+1. Origen: UNIVCOM4 (ID: 502309) -> Destino: C25K101 (ID: 511016) | Ruta: A17C - Vuelta
+2. Origen: C25K101 (ID: 511016) -> Destino: C25UAUT (ID: 511020) | Ruta: A17C - Vuelta
+3. Origen: C25UAUT (ID: 511020) -> Destino: C25UAUT2 (ID: 511021) | Ruta: A17C - Vuelta
+4. Origen: C25UAUT2 (ID: 511021) -> Destino: C42K114A (ID: 511385) | Ruta: A17C - Vuelta
+5. Origen: C42K114A (ID: 511385) -> Destino: C42K109 (ID: 511387) | Ruta: A17C - Vuelta
+6. Origen: C42K109 (ID: 511387) -> Destino: C42K112 (ID: 511386) | Ruta: A17C - Vuelta
+7. Origen: C42K112 (ID: 511386) -> Destino: K109C421 (ID: 511409) | Ruta: A17C - Vuelta
+8. Origen: K109C421 (ID: 511409) -> Destino: K109C50 (ID: 511153) | Ruta: A17C - Vuelta
+9. Origen: K109C50 (ID: 511153) -> Destino: K109C57 (ID: 511154) | Ruta: A17C - Vuelta
+10. Origen: K109C57 (ID: 511154) -> Destino: K109K118 (ID: 511356) | Ruta: A17C - Vuelta
+11. Origen: K109K118 (ID: 511356) -> Destino: K118COM1 (ID: 511155) | Ruta: A17C - Vuelta
+12. Origen: K118COM1 (ID: 511155) -> Destino: K118JUV1 (ID: 511156) | Ruta: A17C - Vuelta
+13. Origen: K118JUV1 (ID: 511156) -> Destino: K118JAG1 (ID: 511157) | Ruta: A17C - Vuelta
+14. Origen: K118JAG1 (ID: 511157) -> Destino: K118JUV2 (ID: 511158) | Ruta: A17C - Vuelta
+15. Origen: K118JUV2 (ID: 511158) -> Destino: K118COM2 (ID: 511159) | Ruta: A17C - Vuelta
+16. Origen: K118COM2 (ID: 511159) -> Destino: K118K109 (ID: 511357) | Ruta: A17C - Vuelta
+17. Origen: K118K109 (ID: 511357) -> Destino: K109C571 (ID: 511160) | Ruta: A17C - Vuelta
+18. Origen: K109C571 (ID: 511160) -> Destino: K109C501 (ID: 511161) | Ruta: A17C - Vuelta
+19. Origen: K109C501 (ID: 511161) -> Destino: K109C423 (ID: 511412) | Ruta: A17C - Vuelta
+20. Origen: K109C423 (ID: 511412) -> Destino: C42K1121 (ID: 511413) | Ruta: A17C - Vuelta
+21. Origen: C42K1121 (ID: 511413) -> Destino: C42K1122 (ID: 511414) | Ruta: A17C - Vuelta
+22. Origen: C42K1122 (ID: 511414) -> Destino: K114AC42 (ID: 511415) | Ruta: A17C - Vuelta
+23. Origen: K114AC42 (ID: 511415) -> Destino: UNIVCOM5 (ID: 502310) | Ruta: A17C - Vuelta
+24. Origen: C42K112 (ID: 511386) -> Destino: K109C26 (ID: 511162) | Ruta: A17C - Vuelta
+25. Origen: K109C26 (ID: 511162) -> Destino: UNIVCOM5 (ID: 502310) | Ruta: A17C - Vuelta
+26. Origen: UNIVCOM5 (ID: 502310) -> Destino: UNIVCOM4 (ID: 502309) | Ruta: A17C - Vuelta

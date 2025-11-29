@@ -1,47 +1,48 @@
 == 370-1 ==
 Nodos: 17
-Arcos: 22
+Arcos: 17
 ------------------------------------
 
-=== Lista de Nodos ===
-519109 - K27C3O
-519108 - C5OK24E
-517257 - C5K39
-519115 - C11OEK24
-517259 - C5K36
-519107 - K27C9O1
-517258 - C5K34A
-517132 - C1K37A
-517134 - C10OEK25
-517133 - C10OEK37
-517072 - C5K38A2
-519264 - K27C5OE
-517196 - K42C2A
-517064 - C1K42
-519110 - K27C3
-517195 - K42C5
-519282 - C5K27
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+519109 - K27C3O - GPS: (3,436868, -76,544977)
+519108 - C5OK24E - GPS: (3,440465, -76,547480)
+517257 - C5K39 - GPS: (3,423961, -76,546996)
+519115 - C11OEK24 - GPS: (3,442181, -76,548814)
+519107 - K27C9O1 - GPS: (3,443273, -76,548448)
+517259 - C5K36 - GPS: (3,429589, -76,544509)
+517258 - C5K34A - GPS: (3,431821, -76,543325)
+517132 - C1K37A - GPS: (3,427383, -76,551092)
+517134 - C10OEK25 - GPS: (3,434162, -76,549607)
+517133 - C10OEK37 - GPS: (3,430872, -76,551305)
+519264 - K27C5OE - GPS: (3,438305, -76,545859)
+517072 - C5K38A2 - GPS: (3,426915, -76,545843)
+517196 - K42C2A - GPS: (3,423412, -76,551234)
+517064 - C1K42 - GPS: (3,424306, -76,552560)
+519110 - K27C3 - GPS: (3,435542, -76,543543)
+517195 - K42C5 - GPS: (3,422615, -76,548726)
+519282 - C5K27 - GPS: (3,433635, -76,542027)
 
-=== Lista de Arcos ===
-517257 -> 519282  (Ruta: A70 - Vuelta)
-519282 -> 517195  (Ruta: A70 - Vuelta)
-517195 -> 517258  (Ruta: A70 - Vuelta)
-517258 -> 517196  (Ruta: A70 - Vuelta)
-517196 -> 517259  (Ruta: A70 - Vuelta)
-517259 -> 517064  (Ruta: A70 - Vuelta)
-517064 -> 517072  (Ruta: A70 - Vuelta)
-517072 -> 517132  (Ruta: A70 - Vuelta)
-517132 -> 517257  (Ruta: A70 - Vuelta)
-517257 -> 517133  (Ruta: A70 - Vuelta)
-517133 -> 517134  (Ruta: A70 - Vuelta)
-517134 -> 519115  (Ruta: A70 - Vuelta)
-519115 -> 519107  (Ruta: A70 - Vuelta)
-519107 -> 519108  (Ruta: A70 - Vuelta)
-519108 -> 519264  (Ruta: A70 - Vuelta)
-519264 -> 519109  (Ruta: A70 - Vuelta)
-519109 -> 519110  (Ruta: A70 - Vuelta)
-519110 -> 519282  (Ruta: A70 - Vuelta)
-519282 -> 517258  (Ruta: A70 - Vuelta)
-517258 -> 517259  (Ruta: A70 - Vuelta)
-517259 -> 517072  (Ruta: A70 - Vuelta)
-517072 -> 517257  (Ruta: A70 - Vuelta)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: A70 - Vuelta (17 arcos) ---
+1. Origen: C5K39 (ID: 517257) -> Destino: K42C5 (ID: 517195) | Ruta: A70 - Vuelta
+2. Origen: K42C5 (ID: 517195) -> Destino: K42C2A (ID: 517196) | Ruta: A70 - Vuelta
+3. Origen: K42C2A (ID: 517196) -> Destino: C1K42 (ID: 517064) | Ruta: A70 - Vuelta
+4. Origen: C1K42 (ID: 517064) -> Destino: C1K37A (ID: 517132) | Ruta: A70 - Vuelta
+5. Origen: C1K37A (ID: 517132) -> Destino: C10OEK37 (ID: 517133) | Ruta: A70 - Vuelta
+6. Origen: C10OEK37 (ID: 517133) -> Destino: C10OEK25 (ID: 517134) | Ruta: A70 - Vuelta
+7. Origen: C10OEK25 (ID: 517134) -> Destino: C11OEK24 (ID: 519115) | Ruta: A70 - Vuelta
+8. Origen: C11OEK24 (ID: 519115) -> Destino: K27C9O1 (ID: 519107) | Ruta: A70 - Vuelta
+9. Origen: K27C9O1 (ID: 519107) -> Destino: C5OK24E (ID: 519108) | Ruta: A70 - Vuelta
+10. Origen: C5OK24E (ID: 519108) -> Destino: K27C5OE (ID: 519264) | Ruta: A70 - Vuelta
+11. Origen: K27C5OE (ID: 519264) -> Destino: K27C3O (ID: 519109) | Ruta: A70 - Vuelta
+12. Origen: K27C3O (ID: 519109) -> Destino: K27C3 (ID: 519110) | Ruta: A70 - Vuelta
+13. Origen: K27C3 (ID: 519110) -> Destino: C5K27 (ID: 519282) | Ruta: A70 - Vuelta
+14. Origen: C5K27 (ID: 519282) -> Destino: C5K34A (ID: 517258) | Ruta: A70 - Vuelta
+15. Origen: C5K34A (ID: 517258) -> Destino: C5K36 (ID: 517259) | Ruta: A70 - Vuelta
+16. Origen: C5K36 (ID: 517259) -> Destino: C5K38A2 (ID: 517072) | Ruta: A70 - Vuelta
+17. Origen: C5K38A2 (ID: 517072) -> Destino: C5K39 (ID: 517257) | Ruta: A70 - Vuelta

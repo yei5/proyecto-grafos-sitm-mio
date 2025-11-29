@@ -3,25 +3,31 @@ Nodos: 10
 Arcos: 9
 ------------------------------------
 
-=== Lista de Nodos ===
-514069 - T103C79
-514068 - T103C76
-514067 - T103C56B
-500162 - A.SANI14
-514352 - C74K24C1
-514367 - C73K25S1
-514400 - C73K25C
-514070 - T103D26I
-514351 - D26F1T73
-514371 - C73K26G4
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+514069 - T103C79 - GPS: (3,432420, -76,478784)
+514068 - T103C76 - GPS: (3,435781, -76,479964)
+514067 - T103C56B - GPS: (3,437972, -76,480727)
+500162 - A.SANI14 - GPS: (3,443489, -76,483599)
+514352 - C74K24C1 - GPS: (3,437292, -76,481428)
+514367 - C73K25S1 - GPS: (3,440964, -76,484348)
+514400 - C73K25C - GPS: (3,437871, -76,484263)
+514070 - T103D26I - GPS: (3,428934, -76,477539)
+514351 - D26F1T73 - GPS: (3,436037, -76,482580)
+514371 - C73K26G4 - GPS: (3,434356, -76,483680)
 
-=== Lista de Arcos ===
-500162 -> 514367  (Ruta: A44B - Ida)
-514367 -> 514400  (Ruta: A44B - Ida)
-514400 -> 514371  (Ruta: A44B - Ida)
-514371 -> 514351  (Ruta: A44B - Ida)
-514351 -> 514352  (Ruta: A44B - Ida)
-514352 -> 514067  (Ruta: A44B - Ida)
-514067 -> 514068  (Ruta: A44B - Ida)
-514068 -> 514069  (Ruta: A44B - Ida)
-514069 -> 514070  (Ruta: A44B - Ida)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: A44B - Ida (9 arcos) ---
+1. Origen: A.SANI14 (ID: 500162) -> Destino: C73K25S1 (ID: 514367) | Ruta: A44B - Ida
+2. Origen: C73K25S1 (ID: 514367) -> Destino: C73K25C (ID: 514400) | Ruta: A44B - Ida
+3. Origen: C73K25C (ID: 514400) -> Destino: C73K26G4 (ID: 514371) | Ruta: A44B - Ida
+4. Origen: C73K26G4 (ID: 514371) -> Destino: D26F1T73 (ID: 514351) | Ruta: A44B - Ida
+5. Origen: D26F1T73 (ID: 514351) -> Destino: C74K24C1 (ID: 514352) | Ruta: A44B - Ida
+6. Origen: C74K24C1 (ID: 514352) -> Destino: T103C56B (ID: 514067) | Ruta: A44B - Ida
+7. Origen: T103C56B (ID: 514067) -> Destino: T103C76 (ID: 514068) | Ruta: A44B - Ida
+8. Origen: T103C76 (ID: 514068) -> Destino: T103C79 (ID: 514069) | Ruta: A44B - Ida
+9. Origen: T103C79 (ID: 514069) -> Destino: T103D26I (ID: 514070) | Ruta: A44B - Ida

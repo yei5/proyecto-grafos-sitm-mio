@@ -1,35 +1,36 @@
 == 3112-1 ==
-Nodos: 13
-Arcos: 14
+Nodos: 11
+Arcos: 11
 ------------------------------------
 
-=== Lista de Nodos ===
-511253 - K111C25
-511297 - K109C22
-511264 - C18K108
-511251 - C25K1051
-511265 - C16K103
-511266 - K109C24
-502315 - UNIVCO10
-502310 - UNIVCOM5
-511016 - C25K101
-511258 - K111C24
-511302 - C19K109
-602310 - UNIVCOM5
-602315 - UNIVCO10
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+511253 - K111C25 - GPS: (3,358373, -76,525251)
+511297 - K109C22 - GPS: (3,360246, -76,528257)
+511264 - C18K108 - GPS: (3,361023, -76,530905)
+511251 - C25K1051 - GPS: (3,358862, -76,524023)
+511265 - C16K103 - GPS: (3,364690, -76,531407)
+511266 - K109C24 - GPS: (3,360245, -76,526731)
+502310 - UNIVCOM5 - GPS: (3,366544, -76,528041)
+511016 - C25K101 - GPS: (3,362342, -76,524438)
+511258 - K111C24 - GPS: (3,358024, -76,526518)
+511302 - C19K109 - GPS: (3,359361, -76,529956)
+502315 - UNIVCO10 - GPS: (3,366214, -76,527838)
 
-=== Lista de Arcos ===
-502315 -> 502310  (Ruta: A11B - Vuelta)
-502310 -> 511016  (Ruta: A11B - Vuelta)
-511016 -> 602310  (Ruta: A11B - Vuelta)
-602310 -> 511251  (Ruta: A11B - Vuelta)
-511251 -> 602315  (Ruta: A11B - Vuelta)
-602315 -> 511253  (Ruta: A11B - Vuelta)
-511253 -> 502315  (Ruta: A11B - Vuelta)
-502315 -> 511258  (Ruta: A11B - Vuelta)
-511258 -> 511266  (Ruta: A11B - Vuelta)
-511266 -> 511297  (Ruta: A11B - Vuelta)
-511297 -> 511302  (Ruta: A11B - Vuelta)
-511302 -> 511264  (Ruta: A11B - Vuelta)
-511264 -> 511265  (Ruta: A11B - Vuelta)
-511265 -> 502310  (Ruta: A11B - Vuelta)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: A11B - Vuelta (11 arcos) ---
+1. Origen: UNIVCO10 (ID: 502315) -> Destino: C25K101 (ID: 511016) | Ruta: A11B - Vuelta
+2. Origen: C25K101 (ID: 511016) -> Destino: C25K1051 (ID: 511251) | Ruta: A11B - Vuelta
+3. Origen: C25K1051 (ID: 511251) -> Destino: K111C25 (ID: 511253) | Ruta: A11B - Vuelta
+4. Origen: K111C25 (ID: 511253) -> Destino: K111C24 (ID: 511258) | Ruta: A11B - Vuelta
+5. Origen: K111C24 (ID: 511258) -> Destino: K109C24 (ID: 511266) | Ruta: A11B - Vuelta
+6. Origen: K109C24 (ID: 511266) -> Destino: K109C22 (ID: 511297) | Ruta: A11B - Vuelta
+7. Origen: K109C22 (ID: 511297) -> Destino: C19K109 (ID: 511302) | Ruta: A11B - Vuelta
+8. Origen: C19K109 (ID: 511302) -> Destino: C18K108 (ID: 511264) | Ruta: A11B - Vuelta
+9. Origen: C18K108 (ID: 511264) -> Destino: C16K103 (ID: 511265) | Ruta: A11B - Vuelta
+10. Origen: C16K103 (ID: 511265) -> Destino: UNIVCOM5 (ID: 502310) | Ruta: A11B - Vuelta
+11. Origen: UNIVCOM5 (ID: 502310) -> Destino: UNIVCO10 (ID: 502315) | Ruta: A11B - Vuelta

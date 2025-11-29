@@ -1,147 +1,82 @@
 == 282-1 ==
-Nodos: 36
-Arcos: 103
+Nodos: 34
+Arcos: 34
 ------------------------------------
 
-=== Lista de Nodos ===
-513222 - C44K6A
-513123 - K5C37
-513101 - C52K2
-513100 - C52K3
-512034 - A3NC59
-513121 - K5C34
-513127 - K5C46
-518136 - C52K2625
-513225 - C34K71
-514313 - C44K81
-513102 - C52K1E
-513289 - C52K4N
-512135 - C52A2HN
-518133 - C44K28ET
-518155 - C52K24B
-518132 - C44T29K2
-518077 - K23C49
-518135 - C44K26L
-518134 - C44K28A
-518156 - C44K21
-503004 - TCALIPA4
-514349 - C44K12C
-600101 - TMENGA2
-600102 - TMENGA3
-514343 - K8C34A
-514386 - C44K9
-514348 - C44K15
-513038 - C52K1B1
-513037 - C52K1D
-513291 - K5C44B
-513191 - C52K7N
-512081 - A3NC52
-500102 - TMENGA3
-500101 - TMENGA2
-514119 - K8C391
-514019 - C44K12
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+513222 - C44K6A - GPS: (3,459416, -76,506853)
+513101 - C52K2 - GPS: (3,467302, -76,501615)
+513123 - K5C37 - GPS: (3,459680, -76,510560)
+513100 - C52K3 - GPS: (3,466050, -76,501300)
+512034 - A3NC59 - GPS: (3,487760, -76,511026)
+513121 - K5C34 - GPS: (3,458960, -76,512862)
+513127 - K5C46 - GPS: (3,461833, -76,503518)
+518136 - C52K2625 - GPS: (3,437531, -76,497786)
+513225 - C34K71 - GPS: (3,457206, -76,512821)
+514313 - C44K81 - GPS: (3,454372, -76,505472)
+513102 - C52K1E - GPS: (3,470095, -76,502290)
+513289 - C52K4N - GPS: (3,477737, -76,505468)
+512135 - C52A2HN - GPS: (3,482277, -76,511044)
+518133 - C44K28ET - GPS: (3,429611, -76,503421)
+518155 - C52K24B - GPS: (3,439488, -76,498500)
+518132 - C44T29K2 - GPS: (3,427186, -76,504683)
+518077 - K23C49 - GPS: (3,440572, -76,501007)
+518135 - C44K26L - GPS: (3,435340, -76,500502)
+518134 - C44K28A - GPS: (3,432340, -76,502056)
+518156 - C44K21 - GPS: (3,441376, -76,501991)
+503004 - TCALIPA4 - GPS: (3,427153, -76,500288)
+514349 - C44K12C - GPS: (3,447435, -76,503739)
+600102 - TMENGA3 - GPS: (3,489107, -76,508280)
+514343 - K8C34A - GPS: (3,454136, -76,510323)
+514386 - C44K9 - GPS: (3,452113, -76,504906)
+514348 - C44K15 - GPS: (3,444760, -76,503059)
+513038 - C52K1B1 - GPS: (3,474627, -76,503580)
+513037 - C52K1D - GPS: (3,472478, -76,502952)
+513291 - K5C44B - GPS: (3,460846, -76,506795)
+513191 - C52K7N - GPS: (3,479569, -76,507414)
+512081 - A3NC52 - GPS: (3,484499, -76,513093)
+500101 - TMENGA2 - GPS: (3,489103, -76,508938)
+514119 - K8C391 - GPS: (3,453737, -76,507220)
+514019 - C44K12 - GPS: (3,449100, -76,504128)
 
-=== Lista de Arcos ===
-503004 -> 500101  (Ruta: P82 - Vuelta)
-500101 -> 514348  (Ruta: P82 - Vuelta)
-514348 -> 503004  (Ruta: P82 - Vuelta)
-503004 -> 514348  (Ruta: P82 - Vuelta)
-514348 -> 518132  (Ruta: P82 - Vuelta)
-518132 -> 600101  (Ruta: P82 - Vuelta)
-600101 -> 514349  (Ruta: P82 - Vuelta)
-514349 -> 518132  (Ruta: P82 - Vuelta)
-518132 -> 514349  (Ruta: P82 - Vuelta)
-514349 -> 518133  (Ruta: P82 - Vuelta)
-518133 -> 600102  (Ruta: P82 - Vuelta)
-600102 -> 514019  (Ruta: P82 - Vuelta)
-514019 -> 518133  (Ruta: P82 - Vuelta)
-518133 -> 514019  (Ruta: P82 - Vuelta)
-514019 -> 518134  (Ruta: P82 - Vuelta)
-518134 -> 500102  (Ruta: P82 - Vuelta)
-500102 -> 514386  (Ruta: P82 - Vuelta)
-514386 -> 518134  (Ruta: P82 - Vuelta)
-518134 -> 514386  (Ruta: P82 - Vuelta)
-514386 -> 518135  (Ruta: P82 - Vuelta)
-518135 -> 514313  (Ruta: P82 - Vuelta)
-514313 -> 518135  (Ruta: P82 - Vuelta)
-518135 -> 514119  (Ruta: P82 - Vuelta)
-514119 -> 518136  (Ruta: P82 - Vuelta)
-518136 -> 513222  (Ruta: P82 - Vuelta)
-513222 -> 518136  (Ruta: P82 - Vuelta)
-518136 -> 514343  (Ruta: P82 - Vuelta)
-514343 -> 518155  (Ruta: P82 - Vuelta)
-518155 -> 513291  (Ruta: P82 - Vuelta)
-513291 -> 518155  (Ruta: P82 - Vuelta)
-518155 -> 513225  (Ruta: P82 - Vuelta)
-513225 -> 518077  (Ruta: P82 - Vuelta)
-518077 -> 513127  (Ruta: P82 - Vuelta)
-513127 -> 518077  (Ruta: P82 - Vuelta)
-518077 -> 513121  (Ruta: P82 - Vuelta)
-513121 -> 518156  (Ruta: P82 - Vuelta)
-518156 -> 513100  (Ruta: P82 - Vuelta)
-513100 -> 518156  (Ruta: P82 - Vuelta)
-518156 -> 513123  (Ruta: P82 - Vuelta)
-513123 -> 514348  (Ruta: P82 - Vuelta)
-514348 -> 513101  (Ruta: P82 - Vuelta)
-513101 -> 514348  (Ruta: P82 - Vuelta)
-514348 -> 513291  (Ruta: P82 - Vuelta)
-513291 -> 514349  (Ruta: P82 - Vuelta)
-514349 -> 513102  (Ruta: P82 - Vuelta)
-513102 -> 514349  (Ruta: P82 - Vuelta)
-514349 -> 513127  (Ruta: P82 - Vuelta)
-513127 -> 514019  (Ruta: P82 - Vuelta)
-514019 -> 513037  (Ruta: P82 - Vuelta)
-513037 -> 514019  (Ruta: P82 - Vuelta)
-514019 -> 513100  (Ruta: P82 - Vuelta)
-513100 -> 514386  (Ruta: P82 - Vuelta)
-514386 -> 513038  (Ruta: P82 - Vuelta)
-513038 -> 514386  (Ruta: P82 - Vuelta)
-514386 -> 513101  (Ruta: P82 - Vuelta)
-513101 -> 514313  (Ruta: P82 - Vuelta)
-514313 -> 513289  (Ruta: P82 - Vuelta)
-513289 -> 514119  (Ruta: P82 - Vuelta)
-514119 -> 513102  (Ruta: P82 - Vuelta)
-513102 -> 513222  (Ruta: P82 - Vuelta)
-513222 -> 513191  (Ruta: P82 - Vuelta)
-513191 -> 514343  (Ruta: P82 - Vuelta)
-514343 -> 513037  (Ruta: P82 - Vuelta)
-513037 -> 513291  (Ruta: P82 - Vuelta)
-513291 -> 512135  (Ruta: P82 - Vuelta)
-512135 -> 513225  (Ruta: P82 - Vuelta)
-513225 -> 513038  (Ruta: P82 - Vuelta)
-513038 -> 513127  (Ruta: P82 - Vuelta)
-513127 -> 512081  (Ruta: P82 - Vuelta)
-512081 -> 513121  (Ruta: P82 - Vuelta)
-513121 -> 513289  (Ruta: P82 - Vuelta)
-513289 -> 513100  (Ruta: P82 - Vuelta)
-513100 -> 512034  (Ruta: P82 - Vuelta)
-512034 -> 513123  (Ruta: P82 - Vuelta)
-513123 -> 513191  (Ruta: P82 - Vuelta)
-513191 -> 513101  (Ruta: P82 - Vuelta)
-513101 -> 500101  (Ruta: P82 - Vuelta)
-500101 -> 513291  (Ruta: P82 - Vuelta)
-513291 -> 512135  (Ruta: P82 - Vuelta)
-512135 -> 513102  (Ruta: P82 - Vuelta)
-513102 -> 513127  (Ruta: P82 - Vuelta)
-513127 -> 512081  (Ruta: P82 - Vuelta)
-512081 -> 513037  (Ruta: P82 - Vuelta)
-513037 -> 513100  (Ruta: P82 - Vuelta)
-513100 -> 512034  (Ruta: P82 - Vuelta)
-512034 -> 513038  (Ruta: P82 - Vuelta)
-513038 -> 513101  (Ruta: P82 - Vuelta)
-513101 -> 500101  (Ruta: P82 - Vuelta)
-500101 -> 513289  (Ruta: P82 - Vuelta)
-513289 -> 513102  (Ruta: P82 - Vuelta)
-513102 -> 513191  (Ruta: P82 - Vuelta)
-513191 -> 513037  (Ruta: P82 - Vuelta)
-513037 -> 512135  (Ruta: P82 - Vuelta)
-512135 -> 513038  (Ruta: P82 - Vuelta)
-513038 -> 512081  (Ruta: P82 - Vuelta)
-512081 -> 513289  (Ruta: P82 - Vuelta)
-513289 -> 512034  (Ruta: P82 - Vuelta)
-512034 -> 513191  (Ruta: P82 - Vuelta)
-513191 -> 500101  (Ruta: P82 - Vuelta)
-500101 -> 512135  (Ruta: P82 - Vuelta)
-512135 -> 512081  (Ruta: P82 - Vuelta)
-512081 -> 512034  (Ruta: P82 - Vuelta)
-512034 -> 500101  (Ruta: P82 - Vuelta)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: P82 - Vuelta (34 arcos) ---
+1. Origen: TMENGA2 (ID: 500101) -> Destino: TMENGA3 (ID: 600102) | Ruta: P82 - Vuelta
+2. Origen: TCALIPA4 (ID: 503004) -> Destino: C44T29K2 (ID: 518132) | Ruta: P82 - Vuelta
+3. Origen: C44T29K2 (ID: 518132) -> Destino: C44K28ET (ID: 518133) | Ruta: P82 - Vuelta
+4. Origen: C44K28ET (ID: 518133) -> Destino: C44K28A (ID: 518134) | Ruta: P82 - Vuelta
+5. Origen: C44K28A (ID: 518134) -> Destino: C44K26L (ID: 518135) | Ruta: P82 - Vuelta
+6. Origen: C44K26L (ID: 518135) -> Destino: C52K2625 (ID: 518136) | Ruta: P82 - Vuelta
+7. Origen: C52K2625 (ID: 518136) -> Destino: C52K24B (ID: 518155) | Ruta: P82 - Vuelta
+8. Origen: C52K24B (ID: 518155) -> Destino: K23C49 (ID: 518077) | Ruta: P82 - Vuelta
+9. Origen: K23C49 (ID: 518077) -> Destino: C44K21 (ID: 518156) | Ruta: P82 - Vuelta
+10. Origen: C44K21 (ID: 518156) -> Destino: C44K15 (ID: 514348) | Ruta: P82 - Vuelta
+11. Origen: C44K15 (ID: 514348) -> Destino: C44K12C (ID: 514349) | Ruta: P82 - Vuelta
+12. Origen: C44K12C (ID: 514349) -> Destino: C44K12 (ID: 514019) | Ruta: P82 - Vuelta
+13. Origen: C44K12 (ID: 514019) -> Destino: C44K9 (ID: 514386) | Ruta: P82 - Vuelta
+14. Origen: C44K9 (ID: 514386) -> Destino: C44K81 (ID: 514313) | Ruta: P82 - Vuelta
+15. Origen: C44K81 (ID: 514313) -> Destino: C44K6A (ID: 513222) | Ruta: P82 - Vuelta
+16. Origen: C44K6A (ID: 513222) -> Destino: K5C44B (ID: 513291) | Ruta: P82 - Vuelta
+17. Origen: K5C44B (ID: 513291) -> Destino: K5C46 (ID: 513127) | Ruta: P82 - Vuelta
+18. Origen: K5C46 (ID: 513127) -> Destino: C52K3 (ID: 513100) | Ruta: P82 - Vuelta
+19. Origen: C52K3 (ID: 513100) -> Destino: C52K2 (ID: 513101) | Ruta: P82 - Vuelta
+20. Origen: C52K2 (ID: 513101) -> Destino: C52K1E (ID: 513102) | Ruta: P82 - Vuelta
+21. Origen: C52K1E (ID: 513102) -> Destino: C52K1D (ID: 513037) | Ruta: P82 - Vuelta
+22. Origen: C52K1D (ID: 513037) -> Destino: C52K1B1 (ID: 513038) | Ruta: P82 - Vuelta
+23. Origen: C52K1B1 (ID: 513038) -> Destino: C52K4N (ID: 513289) | Ruta: P82 - Vuelta
+24. Origen: C52K4N (ID: 513289) -> Destino: C52K7N (ID: 513191) | Ruta: P82 - Vuelta
+25. Origen: C52K7N (ID: 513191) -> Destino: C52A2HN (ID: 512135) | Ruta: P82 - Vuelta
+26. Origen: C52A2HN (ID: 512135) -> Destino: A3NC52 (ID: 512081) | Ruta: P82 - Vuelta
+27. Origen: A3NC52 (ID: 512081) -> Destino: A3NC59 (ID: 512034) | Ruta: P82 - Vuelta
+28. Origen: A3NC59 (ID: 512034) -> Destino: TMENGA2 (ID: 500101) | Ruta: P82 - Vuelta
+29. Origen: C44K9 (ID: 514386) -> Destino: K8C391 (ID: 514119) | Ruta: P82 - Vuelta
+30. Origen: K8C391 (ID: 514119) -> Destino: K8C34A (ID: 514343) | Ruta: P82 - Vuelta
+31. Origen: K8C34A (ID: 514343) -> Destino: C34K71 (ID: 513225) | Ruta: P82 - Vuelta
+32. Origen: C34K71 (ID: 513225) -> Destino: K5C34 (ID: 513121) | Ruta: P82 - Vuelta
+33. Origen: K5C34 (ID: 513121) -> Destino: K5C37 (ID: 513123) | Ruta: P82 - Vuelta
+34. Origen: K5C37 (ID: 513123) -> Destino: K5C44B (ID: 513291) | Ruta: P82 - Vuelta

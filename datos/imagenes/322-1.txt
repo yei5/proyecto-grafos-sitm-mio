@@ -1,44 +1,49 @@
 == 322-1 ==
 Nodos: 18
-Arcos: 18
+Arcos: 17
 ------------------------------------
 
-=== Lista de Nodos ===
-512121 - A2BNC75C
-512187 - C74A2B1
-512033 - A2ANC71N
-512089 - C75A2B
-512122 - C74A2B2
-512064 - C74NA2BN
-512120 - A2CNC74
-512032 - A2AN72BN
-512091 - A2NC75C
-512092 - A2NC75IN
-512090 - A2NC75AN
-512062 - C73A2BN
-512063 - A2BBSN
-512093 - A2CNC75C
-512061 - C73A3N
-500108 - TMENGA9
-500110 - TMENGA11
-512029 - C75CNA2A
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+512121 - A2BNC75C - GPS: (3,495083, -76,501927)
+512187 - C74A2B1 - GPS: (3,493172, -76,503331)
+512033 - A2ANC71N - GPS: (3,490033, -76,506430)
+512089 - C75A2B - GPS: (3,493864, -76,501989)
+512122 - C74A2B2 - GPS: (3,494104, -76,503823)
+512064 - C74NA2BN - GPS: (3,494562, -76,504015)
+512120 - A2CNC74 - GPS: (3,495952, -76,502695)
+512032 - A2AN72BN - GPS: (3,491953, -76,504512)
+512091 - A2NC75C - GPS: (3,494646, -76,499730)
+512092 - A2NC75IN - GPS: (3,495580, -76,499193)
+512090 - A2NC75AN - GPS: (3,493342, -76,500787)
+512062 - C73A2BN - GPS: (3,492612, -76,505378)
+512063 - A2BBSN - GPS: (3,493217, -76,503595)
+512093 - A2CNC75C - GPS: (3,495886, -76,502962)
+512061 - C73A3N - GPS: (3,493520, -76,508347)
+500108 - TMENGA9 - GPS: (3,489417, -76,507803)
+500110 - TMENGA11 - GPS: (3,489442, -76,508173)
+512029 - C75CNA2A - GPS: (3,495176, -76,501804)
 
-=== Lista de Arcos ===
-500110 -> 512061  (Ruta: A22 - Vuelta)
-512061 -> 512062  (Ruta: A22 - Vuelta)
-512062 -> 512063  (Ruta: A22 - Vuelta)
-512063 -> 512064  (Ruta: A22 - Vuelta)
-512064 -> 512120  (Ruta: A22 - Vuelta)
-512120 -> 512121  (Ruta: A22 - Vuelta)
-512121 -> 512089  (Ruta: A22 - Vuelta)
-512089 -> 512090  (Ruta: A22 - Vuelta)
-512090 -> 512091  (Ruta: A22 - Vuelta)
-512091 -> 512092  (Ruta: A22 - Vuelta)
-512092 -> 512029  (Ruta: A22 - Vuelta)
-512029 -> 512093  (Ruta: A22 - Vuelta)
-512093 -> 512122  (Ruta: A22 - Vuelta)
-512122 -> 512187  (Ruta: A22 - Vuelta)
-512187 -> 512032  (Ruta: A22 - Vuelta)
-512032 -> 512033  (Ruta: A22 - Vuelta)
-512033 -> 500108  (Ruta: A22 - Vuelta)
-500108 -> 500110  (Ruta: A22 - Vuelta)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: A22 - Vuelta (17 arcos) ---
+1. Origen: TMENGA11 (ID: 500110) -> Destino: C73A3N (ID: 512061) | Ruta: A22 - Vuelta
+2. Origen: C73A3N (ID: 512061) -> Destino: C73A2BN (ID: 512062) | Ruta: A22 - Vuelta
+3. Origen: C73A2BN (ID: 512062) -> Destino: A2BBSN (ID: 512063) | Ruta: A22 - Vuelta
+4. Origen: A2BBSN (ID: 512063) -> Destino: C74NA2BN (ID: 512064) | Ruta: A22 - Vuelta
+5. Origen: C74NA2BN (ID: 512064) -> Destino: A2CNC74 (ID: 512120) | Ruta: A22 - Vuelta
+6. Origen: A2CNC74 (ID: 512120) -> Destino: A2BNC75C (ID: 512121) | Ruta: A22 - Vuelta
+7. Origen: A2BNC75C (ID: 512121) -> Destino: C75A2B (ID: 512089) | Ruta: A22 - Vuelta
+8. Origen: C75A2B (ID: 512089) -> Destino: A2NC75AN (ID: 512090) | Ruta: A22 - Vuelta
+9. Origen: A2NC75AN (ID: 512090) -> Destino: A2NC75C (ID: 512091) | Ruta: A22 - Vuelta
+10. Origen: A2NC75C (ID: 512091) -> Destino: A2NC75IN (ID: 512092) | Ruta: A22 - Vuelta
+11. Origen: A2NC75IN (ID: 512092) -> Destino: C75CNA2A (ID: 512029) | Ruta: A22 - Vuelta
+12. Origen: C75CNA2A (ID: 512029) -> Destino: A2CNC75C (ID: 512093) | Ruta: A22 - Vuelta
+13. Origen: A2CNC75C (ID: 512093) -> Destino: C74A2B2 (ID: 512122) | Ruta: A22 - Vuelta
+14. Origen: C74A2B2 (ID: 512122) -> Destino: C74A2B1 (ID: 512187) | Ruta: A22 - Vuelta
+15. Origen: C74A2B1 (ID: 512187) -> Destino: A2AN72BN (ID: 512032) | Ruta: A22 - Vuelta
+16. Origen: A2AN72BN (ID: 512032) -> Destino: A2ANC71N (ID: 512033) | Ruta: A22 - Vuelta
+17. Origen: A2ANC71N (ID: 512033) -> Destino: TMENGA9 (ID: 500108) | Ruta: A22 - Vuelta

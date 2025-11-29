@@ -1,47 +1,37 @@
 == 318-0 ==
-Nodos: 14
-Arcos: 25
+Nodos: 12
+Arcos: 11
 ------------------------------------
 
-=== Lista de Nodos ===
-511021 - C25UAUT2
-511252 - C25K1052
-511341 - UANARI�O
-511135 - C36K170
-511344 - PTROBRAS
-511136 - C36K134
-511257 - C25K1222
-511343 - ACJK1341
-502313 - UNIVCOM8
-502314 - UNIVCOM9
-511459 - C25K102
-602313 - UNIVCOM8
-511339 - K180 HCA
-602314 - UNIVCOM9
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+511021 - C25UAUT2 - GPS: (3,353588, -76,523248)
+511252 - C25K1052 - GPS: (3,359343, -76,523982)
+511341 - UANARIÑO - GPS: (3,313552, -76,522793)
+502314 - UNIVCOM9 - GPS: (3,366441, -76,527864)
+511135 - C36K170 - GPS: (3,296773, -76,522342)
+511344 - PTROBRAS - GPS: (3,333444, -76,523430)
+511136 - C36K134 - GPS: (3,330364, -76,522693)
+511257 - C25K1222 - GPS: (3,345303, -76,524190)
+511343 - ACJK1341 - GPS: (3,323357, -76,522270)
+511459 - C25K102 - GPS: (3,362578, -76,524266)
+602313 - UNIVCOM8 - GPS: (3,366358, -76,528192)
+511339 - K180 HCA - GPS: (3,290770, -76,523778)
 
-=== Lista de Arcos ===
-511339 -> 502314  (Ruta: A18 - Ida)
-502314 -> 511339  (Ruta: A18 - Ida)
-511339 -> 511135  (Ruta: A18 - Ida)
-511135 -> 602314  (Ruta: A18 - Ida)
-602314 -> 511135  (Ruta: A18 - Ida)
-511135 -> 511341  (Ruta: A18 - Ida)
-511341 -> 602313  (Ruta: A18 - Ida)
-602313 -> 511341  (Ruta: A18 - Ida)
-511341 -> 511343  (Ruta: A18 - Ida)
-511343 -> 502313  (Ruta: A18 - Ida)
-502313 -> 511343  (Ruta: A18 - Ida)
-511343 -> 511136  (Ruta: A18 - Ida)
-511136 -> 511136  (Ruta: A18 - Ida)
-511136 -> 511344  (Ruta: A18 - Ida)
-511344 -> 511344  (Ruta: A18 - Ida)
-511344 -> 511257  (Ruta: A18 - Ida)
-511257 -> 511257  (Ruta: A18 - Ida)
-511257 -> 511021  (Ruta: A18 - Ida)
-511021 -> 511021  (Ruta: A18 - Ida)
-511021 -> 511252  (Ruta: A18 - Ida)
-511252 -> 511252  (Ruta: A18 - Ida)
-511252 -> 511459  (Ruta: A18 - Ida)
-511459 -> 511459  (Ruta: A18 - Ida)
-511459 -> 502314  (Ruta: A18 - Ida)
-502314 -> 502314  (Ruta: A18 - Ida)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: A18 - Ida (11 arcos) ---
+1. Origen: K180 HCA (ID: 511339) -> Destino: C36K170 (ID: 511135) | Ruta: A18 - Ida
+2. Origen: C36K170 (ID: 511135) -> Destino: UANARIÑO (ID: 511341) | Ruta: A18 - Ida
+3. Origen: UANARIÑO (ID: 511341) -> Destino: ACJK1341 (ID: 511343) | Ruta: A18 - Ida
+4. Origen: ACJK1341 (ID: 511343) -> Destino: C36K134 (ID: 511136) | Ruta: A18 - Ida
+5. Origen: C36K134 (ID: 511136) -> Destino: PTROBRAS (ID: 511344) | Ruta: A18 - Ida
+6. Origen: PTROBRAS (ID: 511344) -> Destino: C25K1222 (ID: 511257) | Ruta: A18 - Ida
+7. Origen: C25K1222 (ID: 511257) -> Destino: C25UAUT2 (ID: 511021) | Ruta: A18 - Ida
+8. Origen: C25UAUT2 (ID: 511021) -> Destino: C25K1052 (ID: 511252) | Ruta: A18 - Ida
+9. Origen: C25K1052 (ID: 511252) -> Destino: C25K102 (ID: 511459) | Ruta: A18 - Ida
+10. Origen: C25K102 (ID: 511459) -> Destino: UNIVCOM9 (ID: 502314) | Ruta: A18 - Ida
+11. Origen: UNIVCOM9 (ID: 502314) -> Destino: UNIVCOM8 (ID: 602313) | Ruta: A18 - Ida

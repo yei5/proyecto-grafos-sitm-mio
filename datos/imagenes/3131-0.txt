@@ -1,48 +1,49 @@
 == 3131-0 ==
-Nodos: 20
-Arcos: 20
+Nodos: 18
+Arcos: 17
 ------------------------------------
 
-=== Lista de Nodos ===
-511230 - C48K90
-511484 - C48K98A
-511033 - C25K99
-511272 - C42K81
-511273 - C42K81Y4
-511100 - K99C45
-511270 - C48K80
-511271 - K80C45
-502311 - UNIVCOM6
-502312 - UNIVCOM7
-511019 - C42K84
-511269 - C48K83A
-602311 - UNIVCOM6
-511324 - C42K85C
-511478 - K86C45Y8
-511226 - K99C34
-602312 - UNIVCOM7
-511408 - K99C451
-511416 - C48K94
-511417 - C48K96
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+511230 - C48K90 - GPS: (3,376981, -76,516638)
+511484 - C48K98A - GPS: (3,369771, -76,516666)
+511033 - C25K99 - GPS: (3,368813, -76,524716)
+511272 - C42K81 - GPS: (3,387903, -76,520144)
+511273 - C42K81Y4 - GPS: (3,384916, -76,520382)
+511100 - K99C45 - GPS: (3,368459, -76,520000)
+511270 - C48K80 - GPS: (3,387531, -76,516205)
+511271 - K80C45 - GPS: (3,388523, -76,518174)
+502312 - UNIVCOM7 - GPS: (3,366651, -76,528219)
+511019 - C42K84 - GPS: (3,382754, -76,520434)
+511269 - C48K83A - GPS: (3,385437, -76,516210)
+511324 - C42K85C - GPS: (3,380214, -76,520490)
+511478 - K86C45Y8 - GPS: (3,378988, -76,518183)
+602311 - UNIVCOM6 - GPS: (3,366145, -76,527658)
+511226 - K99C34 - GPS: (3,367971, -76,522274)
+511408 - K99C451 - GPS: (3,368437, -76,518695)
+511416 - C48K94 - GPS: (3,374844, -76,516654)
+511417 - C48K96 - GPS: (3,372331, -76,516638)
 
-=== Lista de Arcos ===
-511269 -> 502312  (Ruta: A13A - Ida)
-502312 -> 511270  (Ruta: A13A - Ida)
-511270 -> 602312  (Ruta: A13A - Ida)
-602312 -> 511271  (Ruta: A13A - Ida)
-511271 -> 602311  (Ruta: A13A - Ida)
-602311 -> 511272  (Ruta: A13A - Ida)
-511272 -> 502311  (Ruta: A13A - Ida)
-502311 -> 511273  (Ruta: A13A - Ida)
-511273 -> 511019  (Ruta: A13A - Ida)
-511019 -> 511324  (Ruta: A13A - Ida)
-511324 -> 511478  (Ruta: A13A - Ida)
-511478 -> 511230  (Ruta: A13A - Ida)
-511230 -> 511416  (Ruta: A13A - Ida)
-511416 -> 511417  (Ruta: A13A - Ida)
-511417 -> 511484  (Ruta: A13A - Ida)
-511484 -> 511408  (Ruta: A13A - Ida)
-511408 -> 511100  (Ruta: A13A - Ida)
-511100 -> 511226  (Ruta: A13A - Ida)
-511226 -> 511033  (Ruta: A13A - Ida)
-511033 -> 502312  (Ruta: A13A - Ida)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: A13A - Ida (17 arcos) ---
+1. Origen: C48K83A (ID: 511269) -> Destino: C48K80 (ID: 511270) | Ruta: A13A - Ida
+2. Origen: C48K80 (ID: 511270) -> Destino: K80C45 (ID: 511271) | Ruta: A13A - Ida
+3. Origen: K80C45 (ID: 511271) -> Destino: C42K81 (ID: 511272) | Ruta: A13A - Ida
+4. Origen: C42K81 (ID: 511272) -> Destino: C42K81Y4 (ID: 511273) | Ruta: A13A - Ida
+5. Origen: C42K81Y4 (ID: 511273) -> Destino: C42K84 (ID: 511019) | Ruta: A13A - Ida
+6. Origen: C42K84 (ID: 511019) -> Destino: C42K85C (ID: 511324) | Ruta: A13A - Ida
+7. Origen: C42K85C (ID: 511324) -> Destino: K86C45Y8 (ID: 511478) | Ruta: A13A - Ida
+8. Origen: K86C45Y8 (ID: 511478) -> Destino: C48K90 (ID: 511230) | Ruta: A13A - Ida
+9. Origen: C48K90 (ID: 511230) -> Destino: C48K94 (ID: 511416) | Ruta: A13A - Ida
+10. Origen: C48K94 (ID: 511416) -> Destino: C48K96 (ID: 511417) | Ruta: A13A - Ida
+11. Origen: C48K96 (ID: 511417) -> Destino: C48K98A (ID: 511484) | Ruta: A13A - Ida
+12. Origen: C48K98A (ID: 511484) -> Destino: K99C451 (ID: 511408) | Ruta: A13A - Ida
+13. Origen: K99C451 (ID: 511408) -> Destino: K99C45 (ID: 511100) | Ruta: A13A - Ida
+14. Origen: K99C45 (ID: 511100) -> Destino: K99C34 (ID: 511226) | Ruta: A13A - Ida
+15. Origen: K99C34 (ID: 511226) -> Destino: C25K99 (ID: 511033) | Ruta: A13A - Ida
+16. Origen: C25K99 (ID: 511033) -> Destino: UNIVCOM7 (ID: 502312) | Ruta: A13A - Ida
+17. Origen: UNIVCOM7 (ID: 502312) -> Destino: UNIVCOM6 (ID: 602311) | Ruta: A13A - Ida

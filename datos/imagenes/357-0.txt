@@ -3,39 +3,45 @@ Nodos: 17
 Arcos: 16
 ------------------------------------
 
-=== Lista de Nodos ===
-514432 - K28DC79
-514498 - K28D1121
-514255 - K28C99
-514233 - C121_28D
-514497 - K28C114
-514254 - K28C91
-514232 - C121K27J
-514496 - K28C120
-514253 - K28C86
-514341 - C112K27
-514484 - K28C104
-514403 - T103K28B
-514379 - C79K28D2
-514279 - K27C120
-514340 - C112K27G
-514273 - K27C116
-514339 - K28C112
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+514432 - K28DC79 - GPS: (3,418623, -76,486982)
+514498 - K28D1121 - GPS: (3,410564, -76,477733)
+514255 - K28C99 - GPS: (3,415394, -76,480176)
+514233 - C121_28D - GPS: (3,409909, -76,473226)
+514497 - K28C114 - GPS: (3,410354, -76,476269)
+514254 - K28C91 - GPS: (3,417487, -76,482381)
+514232 - C121K27J - GPS: (3,411815, -76,472139)
+514496 - K28C120 - GPS: (3,409917, -76,474487)
+514253 - K28C86 - GPS: (3,418579, -76,483536)
+514341 - C112K27 - GPS: (3,415081, -76,475020)
+514484 - K28C104 - GPS: (3,410149, -76,479446)
+514403 - T103K28B - GPS: (3,414196, -76,479311)
+514379 - C79K28D2 - GPS: (3,418780, -76,486164)
+514279 - K27C120 - GPS: (3,413740, -76,471577)
+514340 - C112K27G - GPS: (3,413532, -76,475894)
+514273 - K27C116 - GPS: (3,414702, -76,473290)
+514339 - K28C112 - GPS: (3,413790, -76,477519)
 
-=== Lista de Arcos ===
-514432 -> 514379  (Ruta: A57 - Ida)
-514379 -> 514253  (Ruta: A57 - Ida)
-514253 -> 514254  (Ruta: A57 - Ida)
-514254 -> 514255  (Ruta: A57 - Ida)
-514255 -> 514403  (Ruta: A57 - Ida)
-514403 -> 514339  (Ruta: A57 - Ida)
-514339 -> 514340  (Ruta: A57 - Ida)
-514340 -> 514341  (Ruta: A57 - Ida)
-514341 -> 514273  (Ruta: A57 - Ida)
-514273 -> 514279  (Ruta: A57 - Ida)
-514279 -> 514232  (Ruta: A57 - Ida)
-514232 -> 514233  (Ruta: A57 - Ida)
-514233 -> 514496  (Ruta: A57 - Ida)
-514496 -> 514497  (Ruta: A57 - Ida)
-514497 -> 514498  (Ruta: A57 - Ida)
-514498 -> 514484  (Ruta: A57 - Ida)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: A57 - Ida (16 arcos) ---
+1. Origen: K28DC79 (ID: 514432) -> Destino: C79K28D2 (ID: 514379) | Ruta: A57 - Ida
+2. Origen: C79K28D2 (ID: 514379) -> Destino: K28C86 (ID: 514253) | Ruta: A57 - Ida
+3. Origen: K28C86 (ID: 514253) -> Destino: K28C91 (ID: 514254) | Ruta: A57 - Ida
+4. Origen: K28C91 (ID: 514254) -> Destino: K28C99 (ID: 514255) | Ruta: A57 - Ida
+5. Origen: K28C99 (ID: 514255) -> Destino: T103K28B (ID: 514403) | Ruta: A57 - Ida
+6. Origen: T103K28B (ID: 514403) -> Destino: K28C112 (ID: 514339) | Ruta: A57 - Ida
+7. Origen: K28C112 (ID: 514339) -> Destino: C112K27G (ID: 514340) | Ruta: A57 - Ida
+8. Origen: C112K27G (ID: 514340) -> Destino: C112K27 (ID: 514341) | Ruta: A57 - Ida
+9. Origen: C112K27 (ID: 514341) -> Destino: K27C116 (ID: 514273) | Ruta: A57 - Ida
+10. Origen: K27C116 (ID: 514273) -> Destino: K27C120 (ID: 514279) | Ruta: A57 - Ida
+11. Origen: K27C120 (ID: 514279) -> Destino: C121K27J (ID: 514232) | Ruta: A57 - Ida
+12. Origen: C121K27J (ID: 514232) -> Destino: C121_28D (ID: 514233) | Ruta: A57 - Ida
+13. Origen: C121_28D (ID: 514233) -> Destino: K28C120 (ID: 514496) | Ruta: A57 - Ida
+14. Origen: K28C120 (ID: 514496) -> Destino: K28C114 (ID: 514497) | Ruta: A57 - Ida
+15. Origen: K28C114 (ID: 514497) -> Destino: K28D1121 (ID: 514498) | Ruta: A57 - Ida
+16. Origen: K28D1121 (ID: 514498) -> Destino: K28C104 (ID: 514484) | Ruta: A57 - Ida

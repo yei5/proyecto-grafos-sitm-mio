@@ -1,0 +1,14 @@
+# Configuration file (11/29/25 01:14:35.482)
+
+# Server configuration
+Ice.Admin.ServerId=DatagramMaster1
+Ice.Admin.Endpoints=tcp -h localhost
+Ice.ProgramName=DatagramMaster1
+# Object adapter DatagramMaster.Adapter
+DatagramMaster.Adapter.Endpoints=tcp -h localhost -p 10010
+DatagramMaster.Adapter.AdapterId=DatagramMaster1.DatagramMaster.Adapter
+# Server descriptor properties
+Ice.ThreadPool.Server.Size=10
+Ice.ThreadPool.Server.SizeMax=50
+Ice.Override.Timeout=60000
+Ice.Default.Locator=IceGrid/Locator:tcp -h localhost -p 4061

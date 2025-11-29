@@ -1,40 +1,37 @@
 == 150-1 ==
 Nodos: 12
-Arcos: 20
+Arcos: 11
 ------------------------------------
 
-=== Lista de Nodos ===
-503005 - TCALIPA5
-502751 - CONQUIS1
-502851 - ST.MONI1
-502951 - C.PALOS1
-501500 - PTCUY2
-501450 - SUCRE2
-501550 - SANPED2
-502651 - AMANECE1
-502601 - N.LATIR1
-502701 - TRONCAL1
-502801 - VLNUEVA1
-502901 - PRIMITI1
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+503005 - TCALIPA5 - GPS: (3,426877, -76,500568)
+502751 - CONQUIS1 - GPS: (3,427106, -76,505309)
+502851 - ST.MONI1 - GPS: (3,434599, -76,513947)
+502951 - C.PALOS1 - GPS: (3,439804, -76,522904)
+501500 - PTCUY2 - GPS: (3,448708, -76,527767)
+501450 - SUCRE2 - GPS: (3,443553, -76,526227)
+501550 - SANPED2 - GPS: (3,454100, -76,529950)
+502651 - AMANECE1 - GPS: (3,421583, -76,490881)
+502601 - N.LATIR1 - GPS: (3,418479, -76,486840)
+502701 - TRONCAL1 - GPS: (3,424877, -76,494616)
+502801 - VLNUEVA1 - GPS: (3,432163, -76,510235)
+502901 - PRIMITI1 - GPS: (3,437448, -76,517806)
 
-=== Lista de Arcos ===
-502601 -> 503005  (Ruta: T50 - Vuelta)
-503005 -> 502651  (Ruta: T50 - Vuelta)
-502651 -> 502751  (Ruta: T50 - Vuelta)
-502751 -> 502701  (Ruta: T50 - Vuelta)
-502701 -> 502801  (Ruta: T50 - Vuelta)
-502801 -> 503005  (Ruta: T50 - Vuelta)
-503005 -> 502851  (Ruta: T50 - Vuelta)
-502851 -> 502751  (Ruta: T50 - Vuelta)
-502751 -> 502901  (Ruta: T50 - Vuelta)
-502901 -> 502801  (Ruta: T50 - Vuelta)
-502801 -> 502951  (Ruta: T50 - Vuelta)
-502951 -> 502851  (Ruta: T50 - Vuelta)
-502851 -> 501450  (Ruta: T50 - Vuelta)
-501450 -> 502901  (Ruta: T50 - Vuelta)
-502901 -> 501500  (Ruta: T50 - Vuelta)
-501500 -> 502951  (Ruta: T50 - Vuelta)
-502951 -> 501550  (Ruta: T50 - Vuelta)
-501550 -> 501450  (Ruta: T50 - Vuelta)
-501450 -> 501500  (Ruta: T50 - Vuelta)
-501500 -> 501550  (Ruta: T50 - Vuelta)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: T50 - Vuelta (11 arcos) ---
+1. Origen: TCALIPA5 (ID: 503005) -> Destino: CONQUIS1 (ID: 502751) | Ruta: T50 - Vuelta
+2. Origen: CONQUIS1 (ID: 502751) -> Destino: VLNUEVA1 (ID: 502801) | Ruta: T50 - Vuelta
+3. Origen: VLNUEVA1 (ID: 502801) -> Destino: ST.MONI1 (ID: 502851) | Ruta: T50 - Vuelta
+4. Origen: ST.MONI1 (ID: 502851) -> Destino: PRIMITI1 (ID: 502901) | Ruta: T50 - Vuelta
+5. Origen: PRIMITI1 (ID: 502901) -> Destino: C.PALOS1 (ID: 502951) | Ruta: T50 - Vuelta
+6. Origen: C.PALOS1 (ID: 502951) -> Destino: SUCRE2 (ID: 501450) | Ruta: T50 - Vuelta
+7. Origen: SUCRE2 (ID: 501450) -> Destino: PTCUY2 (ID: 501500) | Ruta: T50 - Vuelta
+8. Origen: PTCUY2 (ID: 501500) -> Destino: SANPED2 (ID: 501550) | Ruta: T50 - Vuelta
+9. Origen: N.LATIR1 (ID: 502601) -> Destino: AMANECE1 (ID: 502651) | Ruta: T50 - Vuelta
+10. Origen: AMANECE1 (ID: 502651) -> Destino: TRONCAL1 (ID: 502701) | Ruta: T50 - Vuelta
+11. Origen: TRONCAL1 (ID: 502701) -> Destino: TCALIPA5 (ID: 503005) | Ruta: T50 - Vuelta

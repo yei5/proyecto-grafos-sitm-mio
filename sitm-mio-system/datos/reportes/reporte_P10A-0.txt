@@ -1,0 +1,152 @@
+========================================
+REPORTE DE RUTA: P10A-0
+========================================
+
+Información General:
+  Número de Arcos: 28
+  Distancia Total: 10,56 km
+  Tiempo Total: 41,86 min
+  Velocidad Promedio: 14,86 km/h
+
+Detalle de Arcos:
+------------------------------------------------------------
+Arco 1: C13K551 -> C13K56
+  Distancia: 0,25 km
+  Tiempo: 1,09 min
+  Velocidad: 14,00 km/h
+
+Arco 2: C13K56 -> C13K59
+  Distancia: 0,37 km
+  Tiempo: 1,60 min
+  Velocidad: 14,00 km/h
+
+Arco 3: C13K59 -> C13K65AB
+  Distancia: 0,32 km
+  Tiempo: 1,38 min
+  Velocidad: 14,00 km/h
+
+Arco 4: C13K65AB -> C13K671
+  Distancia: 0,33 km
+  Tiempo: 1,42 min
+  Velocidad: 14,00 km/h
+
+Arco 5: C13K671 -> C13K701
+  Distancia: 0,35 km
+  Tiempo: 1,52 min
+  Velocidad: 14,00 km/h
+
+Arco 6: C13K701 -> C13K75
+  Distancia: 0,34 km
+  Tiempo: 1,47 min
+  Velocidad: 14,00 km/h
+
+Arco 7: C13K75 -> C13K801
+  Distancia: 0,33 km
+  Tiempo: 1,42 min
+  Velocidad: 14,00 km/h
+
+Arco 8: C13K801 -> C13K831
+  Distancia: 0,50 km
+  Tiempo: 1,51 min
+  Velocidad: 20,00 km/h
+
+Arco 9: C13K831 -> C13K87
+  Distancia: 0,45 km
+  Tiempo: 1,95 min
+  Velocidad: 14,00 km/h
+
+Arco 10: C13K87 -> C13K89
+  Distancia: 0,40 km
+  Tiempo: 1,70 min
+  Velocidad: 14,00 km/h
+
+Arco 11: C13K89 -> UNIVAL1
+  Distancia: 0,46 km
+  Tiempo: 1,96 min
+  Velocidad: 14,00 km/h
+
+Arco 12: UNIVAL1 -> UNIV4
+  Distancia: 0,89 km
+  Tiempo: 2,68 min
+  Velocidad: 20,00 km/h
+
+Arco 13: SANPED6 -> ERMI3
+  Distancia: 0,24 km
+  Tiempo: 1,02 min
+  Velocidad: 14,00 km/h
+
+Arco 14: ERMI3 -> STROSA1
+  Distancia: 0,69 km
+  Tiempo: 2,07 min
+  Velocidad: 20,00 km/h
+
+Arco 15: STROSA1 -> FRAY5
+  Distancia: 0,47 km
+  Tiempo: 2,02 min
+  Velocidad: 14,00 km/h
+
+Arco 16: FRAY5 -> C13K20
+  Distancia: 0,55 km
+  Tiempo: 1,64 min
+  Velocidad: 20,00 km/h
+
+Arco 17: C13K20 -> C13K231
+  Distancia: 0,33 km
+  Tiempo: 1,39 min
+  Velocidad: 14,00 km/h
+
+Arco 18: C13K231 -> C13D231
+  Distancia: 0,25 km
+  Tiempo: 1,08 min
+  Velocidad: 14,00 km/h
+
+Arco 19: C13D231 -> C13C141
+  Distancia: 0,42 km
+  Tiempo: 1,79 min
+  Velocidad: 14,00 km/h
+
+Arco 20: C13C141 -> C13K29B
+  Distancia: 0,22 km
+  Tiempo: 0,95 min
+  Velocidad: 14,00 km/h
+
+Arco 21: C13K29B -> C13K32
+  Distancia: 0,29 km
+  Tiempo: 1,22 min
+  Velocidad: 14,00 km/h
+
+Arco 22: C13K32 -> C13K341
+  Distancia: 0,24 km
+  Tiempo: 1,04 min
+  Velocidad: 14,00 km/h
+
+Arco 23: C13K341 -> C13K37
+  Distancia: 0,27 km
+  Tiempo: 1,16 min
+  Velocidad: 14,00 km/h
+
+Arco 24: C13K37 -> C13K41A1
+  Distancia: 0,46 km
+  Tiempo: 1,96 min
+  Velocidad: 14,00 km/h
+
+Arco 25: C13K41A1 -> C13K44
+  Distancia: 0,32 km
+  Tiempo: 1,38 min
+  Velocidad: 14,00 km/h
+
+Arco 26: C13K44 -> C13K47
+  Distancia: 0,24 km
+  Tiempo: 1,01 min
+  Velocidad: 14,00 km/h
+
+Arco 27: C13K47 -> C13K49A
+  Distancia: 0,27 km
+  Tiempo: 1,16 min
+  Velocidad: 14,00 km/h
+
+Arco 28: C13K49A -> C13K551
+  Distancia: 0,30 km
+  Tiempo: 1,29 min
+  Velocidad: 14,00 km/h
+

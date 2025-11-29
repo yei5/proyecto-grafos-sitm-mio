@@ -1,0 +1,97 @@
+========================================
+REPORTE DE RUTA: A19B-0
+========================================
+
+Información General:
+  Número de Arcos: 17
+  Distancia Total: 6,47 km
+  Tiempo Total: 22,82 min
+  Velocidad Promedio: 15,79 km/h
+
+Detalle de Arcos:
+------------------------------------------------------------
+Arco 1: VBUITIEN -> VBUICAP6
+  Distancia: 0,32 km
+  Tiempo: 1,25 min
+  Velocidad: 15,40 km/h
+
+Arco 2: VBUICAP6 -> VBUIFINC
+  Distancia: 0,42 km
+  Tiempo: 1,62 min
+  Velocidad: 15,40 km/h
+
+Arco 3: VBUIFINC -> VBUIBAJA
+  Distancia: 0,23 km
+  Tiempo: 0,91 min
+  Velocidad: 15,40 km/h
+
+Arco 4: VBUIBAJA -> VBUIGOLD
+  Distancia: 0,32 km
+  Tiempo: 1,24 min
+  Velocidad: 15,40 km/h
+
+Arco 5: VBUIGOLD -> VBUIFATI
+  Distancia: 0,32 km
+  Tiempo: 1,23 min
+  Velocidad: 15,40 km/h
+
+Arco 6: VBUIFATI -> VBUIPIE2
+  Distancia: 0,23 km
+  Tiempo: 0,88 min
+  Velocidad: 15,40 km/h
+
+Arco 7: VBUIPIE2 -> VBUISECT
+  Distancia: 0,40 km
+  Tiempo: 1,56 min
+  Velocidad: 15,40 km/h
+
+Arco 8: VBUISECT -> VBUITRE2
+  Distancia: 0,17 km
+  Tiempo: 0,66 min
+  Velocidad: 15,40 km/h
+
+Arco 9: VBUITRE2 -> VBUISPOR
+  Distancia: 0,29 km
+  Tiempo: 1,15 min
+  Velocidad: 15,40 km/h
+
+Arco 10: VBUISPOR -> VBUICO
+  Distancia: 0,25 km
+  Tiempo: 0,98 min
+  Velocidad: 15,40 km/h
+
+Arco 11: VBUICO -> VBUICPA
+  Distancia: 0,25 km
+  Tiempo: 0,97 min
+  Velocidad: 15,40 km/h
+
+Arco 12: VBUICPA -> VBUIFER
+  Distancia: 0,09 km
+  Tiempo: 0,36 min
+  Velocidad: 15,40 km/h
+
+Arco 13: VBUIFER -> VBUICOLE
+  Distancia: 0,26 km
+  Tiempo: 1,01 min
+  Velocidad: 15,40 km/h
+
+Arco 14: VBUICOLE -> VBUISEN2
+  Distancia: 0,35 km
+  Tiempo: 1,35 min
+  Velocidad: 15,40 km/h
+
+Arco 15: VBUISEN2 -> VBUIY2
+  Distancia: 0,24 km
+  Tiempo: 0,92 min
+  Velocidad: 15,40 km/h
+
+Arco 16: VBUIY2 -> VBUILOSP
+  Distancia: 0,31 km
+  Tiempo: 1,20 min
+  Velocidad: 15,40 km/h
+
+Arco 17: VBUILOSP -> K100C11
+  Distancia: 2,03 km
+  Tiempo: 5,54 min
+  Velocidad: 22,00 km/h
+

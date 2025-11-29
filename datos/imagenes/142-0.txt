@@ -1,105 +1,83 @@
 == 142-0 ==
 Nodos: 35
-Arcos: 62
+Arcos: 34
 ------------------------------------
 
-=== Lista de Nodos ===
-514233 - C121_28D
-514199 - C121K25
-514232 - C121K27J
-514474 - K28DC122
-514198 - K25C112
-514534 - C121K26M
-514197 - K25C94
-514196 - K25C891
-514195 - K25C84
-514194 - K25C80B
-501201 - CHAPI2
-501301 - FLORE2
-500851 - CENTRO3
-500950 - FRAY1
-500751 - ERMI3
-514428 - C121K26I
-502350 - VERSALL1
-514206 - C121122A
-512022 - A3NC31
-514201 - C121K26K
-512023 - A3NC24
-514200 - C121K26F
-514326 - C123K281
-514249 - K28FC12K
-514467 - K29C80
-514202 - C121K26R
-514246 - C123K28D
-514021 - K25C77
-514483 - K28FC122
-514020 - K25C73A
-514482 - K28DC123
-514481 - K28DC121
-501251 - ATGI2
-501351 - BELAL2
-501151 - VICOL2
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+514233 - C121_28D - GPS: (3,409909, -76,473226)
+514199 - C121K25 - GPS: (3,425725, -76,465383)
+514232 - C121K27J - GPS: (3,411815, -76,472139)
+514474 - K28DC122 - GPS: (3,403707, -76,472408)
+514198 - K25C112 - GPS: (3,427978, -76,466180)
+514534 - C121K26M - GPS: (3,416238, -76,469574)
+514197 - K25C94 - GPS: (3,429712, -76,467537)
+514196 - K25C891 - GPS: (3,431193, -76,469387)
+514195 - K25C84 - GPS: (3,434000, -76,472403)
+514194 - K25C80B - GPS: (3,436186, -76,473874)
+501201 - CHAPI2 - GPS: (3,444238, -76,502078)
+501301 - FLORE2 - GPS: (3,445260, -76,514443)
+500851 - CENTRO3 - GPS: (3,448113, -76,530003)
+500950 - FRAY1 - GPS: (3,443998, -76,528952)
+500751 - ERMI3 - GPS: (3,453182, -76,531535)
+514428 - C121K26I - GPS: (3,419343, -76,467800)
+502350 - VERSALL1 - GPS: (3,461037, -76,527197)
+514206 - C121122A - GPS: (3,406769, -76,474811)
+512022 - A3NC31 - GPS: (3,470591, -76,522063)
+514201 - C121K26K - GPS: (3,417848, -76,468655)
+512023 - A3NC24 - GPS: (3,466952, -76,524030)
+514200 - C121K26F - GPS: (3,422134, -76,466468)
+514326 - C123K281 - GPS: (3,405068, -76,471539)
+514249 - K28FC12K - GPS: (3,403293, -76,473562)
+514467 - K29C80 - GPS: (3,437550, -76,475212)
+514202 - C121K26R - GPS: (3,414747, -76,470443)
+514246 - C123K28D - GPS: (3,407140, -76,470372)
+514021 - K25C77 - GPS: (3,439083, -76,477392)
+514483 - K28FC122 - GPS: (3,404946, -76,474843)
+514020 - K25C73A - GPS: (3,440941, -76,480005)
+514482 - K28DC123 - GPS: (3,407799, -76,470737)
+514481 - K28DC121 - GPS: (3,408857, -76,472550)
+501251 - ATGI2 - GPS: (3,444758, -76,508128)
+501351 - BELAL2 - GPS: (3,444140, -76,520533)
+501151 - VICOL2 - GPS: (3,443760, -76,498707)
 
-=== Lista de Arcos ===
-512022 -> 512022  (Ruta: T42 - Ida)
-512022 -> 512023  (Ruta: T42 - Ida)
-512023 -> 512023  (Ruta: T42 - Ida)
-512023 -> 502350  (Ruta: T42 - Ida)
-502350 -> 502350  (Ruta: T42 - Ida)
-502350 -> 500751  (Ruta: T42 - Ida)
-500751 -> 500751  (Ruta: T42 - Ida)
-500751 -> 500851  (Ruta: T42 - Ida)
-500851 -> 500851  (Ruta: T42 - Ida)
-500851 -> 500950  (Ruta: T42 - Ida)
-500950 -> 500950  (Ruta: T42 - Ida)
-500950 -> 501351  (Ruta: T42 - Ida)
-501351 -> 501351  (Ruta: T42 - Ida)
-501351 -> 501301  (Ruta: T42 - Ida)
-501301 -> 501301  (Ruta: T42 - Ida)
-501301 -> 501251  (Ruta: T42 - Ida)
-501251 -> 501251  (Ruta: T42 - Ida)
-501251 -> 501201  (Ruta: T42 - Ida)
-501201 -> 501201  (Ruta: T42 - Ida)
-501201 -> 501151  (Ruta: T42 - Ida)
-501151 -> 501151  (Ruta: T42 - Ida)
-501151 -> 514020  (Ruta: T42 - Ida)
-514020 -> 514020  (Ruta: T42 - Ida)
-514020 -> 514021  (Ruta: T42 - Ida)
-514021 -> 514021  (Ruta: T42 - Ida)
-514021 -> 514467  (Ruta: T42 - Ida)
-514467 -> 514467  (Ruta: T42 - Ida)
-514467 -> 514194  (Ruta: T42 - Ida)
-514194 -> 514194  (Ruta: T42 - Ida)
-514194 -> 514195  (Ruta: T42 - Ida)
-514195 -> 514195  (Ruta: T42 - Ida)
-514195 -> 514196  (Ruta: T42 - Ida)
-514196 -> 514196  (Ruta: T42 - Ida)
-514196 -> 514197  (Ruta: T42 - Ida)
-514197 -> 514197  (Ruta: T42 - Ida)
-514197 -> 514198  (Ruta: T42 - Ida)
-514198 -> 514198  (Ruta: T42 - Ida)
-514198 -> 514199  (Ruta: T42 - Ida)
-514199 -> 514199  (Ruta: T42 - Ida)
-514199 -> 514200  (Ruta: T42 - Ida)
-514200 -> 514200  (Ruta: T42 - Ida)
-514200 -> 514428  (Ruta: T42 - Ida)
-514428 -> 514428  (Ruta: T42 - Ida)
-514428 -> 514201  (Ruta: T42 - Ida)
-514201 -> 514201  (Ruta: T42 - Ida)
-514201 -> 514534  (Ruta: T42 - Ida)
-514534 -> 514534  (Ruta: T42 - Ida)
-514534 -> 514202  (Ruta: T42 - Ida)
-514202 -> 514202  (Ruta: T42 - Ida)
-514202 -> 514232  (Ruta: T42 - Ida)
-514232 -> 514232  (Ruta: T42 - Ida)
-514232 -> 514233  (Ruta: T42 - Ida)
-514233 -> 514233  (Ruta: T42 - Ida)
-514233 -> 514481  (Ruta: T42 - Ida)
-514481 -> 514481  (Ruta: T42 - Ida)
-514481 -> 514482  (Ruta: T42 - Ida)
-514482 -> 514246  (Ruta: T42 - Ida)
-514246 -> 514326  (Ruta: T42 - Ida)
-514326 -> 514474  (Ruta: T42 - Ida)
-514474 -> 514249  (Ruta: T42 - Ida)
-514249 -> 514483  (Ruta: T42 - Ida)
-514483 -> 514206  (Ruta: T42 - Ida)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: T42 - Ida (34 arcos) ---
+1. Origen: A3NC31 (ID: 512022) -> Destino: A3NC24 (ID: 512023) | Ruta: T42 - Ida
+2. Origen: A3NC24 (ID: 512023) -> Destino: VERSALL1 (ID: 502350) | Ruta: T42 - Ida
+3. Origen: VERSALL1 (ID: 502350) -> Destino: ERMI3 (ID: 500751) | Ruta: T42 - Ida
+4. Origen: ERMI3 (ID: 500751) -> Destino: CENTRO3 (ID: 500851) | Ruta: T42 - Ida
+5. Origen: CENTRO3 (ID: 500851) -> Destino: FRAY1 (ID: 500950) | Ruta: T42 - Ida
+6. Origen: FRAY1 (ID: 500950) -> Destino: BELAL2 (ID: 501351) | Ruta: T42 - Ida
+7. Origen: BELAL2 (ID: 501351) -> Destino: FLORE2 (ID: 501301) | Ruta: T42 - Ida
+8. Origen: FLORE2 (ID: 501301) -> Destino: ATGI2 (ID: 501251) | Ruta: T42 - Ida
+9. Origen: ATGI2 (ID: 501251) -> Destino: CHAPI2 (ID: 501201) | Ruta: T42 - Ida
+10. Origen: CHAPI2 (ID: 501201) -> Destino: VICOL2 (ID: 501151) | Ruta: T42 - Ida
+11. Origen: VICOL2 (ID: 501151) -> Destino: K25C73A (ID: 514020) | Ruta: T42 - Ida
+12. Origen: K25C73A (ID: 514020) -> Destino: K25C77 (ID: 514021) | Ruta: T42 - Ida
+13. Origen: K25C77 (ID: 514021) -> Destino: K29C80 (ID: 514467) | Ruta: T42 - Ida
+14. Origen: K29C80 (ID: 514467) -> Destino: K25C80B (ID: 514194) | Ruta: T42 - Ida
+15. Origen: K25C80B (ID: 514194) -> Destino: K25C84 (ID: 514195) | Ruta: T42 - Ida
+16. Origen: K25C84 (ID: 514195) -> Destino: K25C891 (ID: 514196) | Ruta: T42 - Ida
+17. Origen: K25C891 (ID: 514196) -> Destino: K25C94 (ID: 514197) | Ruta: T42 - Ida
+18. Origen: K25C94 (ID: 514197) -> Destino: K25C112 (ID: 514198) | Ruta: T42 - Ida
+19. Origen: K25C112 (ID: 514198) -> Destino: C121K25 (ID: 514199) | Ruta: T42 - Ida
+20. Origen: C121K25 (ID: 514199) -> Destino: C121K26F (ID: 514200) | Ruta: T42 - Ida
+21. Origen: C121K26F (ID: 514200) -> Destino: C121K26I (ID: 514428) | Ruta: T42 - Ida
+22. Origen: C121K26I (ID: 514428) -> Destino: C121K26K (ID: 514201) | Ruta: T42 - Ida
+23. Origen: C121K26K (ID: 514201) -> Destino: C121K26M (ID: 514534) | Ruta: T42 - Ida
+24. Origen: C121K26M (ID: 514534) -> Destino: C121K26R (ID: 514202) | Ruta: T42 - Ida
+25. Origen: C121K26R (ID: 514202) -> Destino: C121K27J (ID: 514232) | Ruta: T42 - Ida
+26. Origen: C121K27J (ID: 514232) -> Destino: C121_28D (ID: 514233) | Ruta: T42 - Ida
+27. Origen: C121_28D (ID: 514233) -> Destino: K28DC121 (ID: 514481) | Ruta: T42 - Ida
+28. Origen: K28DC121 (ID: 514481) -> Destino: K28DC123 (ID: 514482) | Ruta: T42 - Ida
+29. Origen: K28DC123 (ID: 514482) -> Destino: C123K28D (ID: 514246) | Ruta: T42 - Ida
+30. Origen: C123K28D (ID: 514246) -> Destino: C123K281 (ID: 514326) | Ruta: T42 - Ida
+31. Origen: C123K281 (ID: 514326) -> Destino: K28DC122 (ID: 514474) | Ruta: T42 - Ida
+32. Origen: K28DC122 (ID: 514474) -> Destino: K28FC12K (ID: 514249) | Ruta: T42 - Ida
+33. Origen: K28FC12K (ID: 514249) -> Destino: K28FC122 (ID: 514483) | Ruta: T42 - Ida
+34. Origen: K28FC122 (ID: 514483) -> Destino: C121122A (ID: 514206) | Ruta: T42 - Ida

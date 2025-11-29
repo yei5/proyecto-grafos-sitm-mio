@@ -1,77 +1,61 @@
 == 3172-0 ==
-Nodos: 26
-Arcos: 43
+Nodos: 24
+Arcos: 23
 ------------------------------------
 
-=== Lista de Nodos ===
-511384 - V_HORM11
-511120 - V_HORMI8
-511021 - C25UAUT2
-511085 - V_CASC10
-511124 - V_CASCA3
-511344 - PTROBRAS
-511125 - V_CASCA4
-511122 - CAL_PUER
-511123 - V_CASCA2
-511343 - ACJK1341
-502304 - UNIVCOM1
-502313 - UNIVCOM8
-511118 - V_HORMI6
-511115 - V_HORMI3
-602304 - UNIVCOM1
-511119 - V_HORMI7
-511252 - C25K1052
-511130 - V_CASCA9
-511378 - CA_CHAPA
-511136 - C36K134
-511257 - C25K1222
-511128 - V_CASCA7
-511129 - V_CASCA8
-511126 - V_CASCA5
-511127 - V_CASCA6
-602313 - UNIVCOM8
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+511384 - V_HORM11 - GPS: (3,312246, -76,480548)
+511120 - V_HORMI8 - GPS: (3,313238, -76,484327)
+511021 - C25UAUT2 - GPS: (3,353588, -76,523248)
+511252 - C25K1052 - GPS: (3,359343, -76,523982)
+511085 - V_CASC10 - GPS: (3,317924, -76,516544)
+511130 - V_CASCA9 - GPS: (3,317536, -76,521828)
+511124 - V_CASCA3 - GPS: (3,316534, -76,498501)
+511344 - PTROBRAS - GPS: (3,333444, -76,523430)
+511125 - V_CASCA4 - GPS: (3,316343, -76,503315)
+511378 - CA_CHAPA - GPS: (3,317618, -76,520280)
+511136 - C36K134 - GPS: (3,330364, -76,522693)
+511257 - C25K1222 - GPS: (3,345303, -76,524190)
+511122 - CAL_PUER - GPS: (3,316102, -76,490572)
+511123 - V_CASCA2 - GPS: (3,316889, -76,492630)
+511343 - ACJK1341 - GPS: (3,323357, -76,522270)
+502304 - UNIVCOM1 - GPS: (3,366556, -76,528211)
+511128 - V_CASCA7 - GPS: (3,318106, -76,513928)
+511118 - V_HORMI6 - GPS: (3,312577, -76,478390)
+511129 - V_CASCA8 - GPS: (3,317838, -76,518668)
+511115 - V_HORMI3 - GPS: (3,314072, -76,488158)
+511126 - V_CASCA5 - GPS: (3,316424, -76,507378)
+511127 - V_CASCA6 - GPS: (3,317927, -76,511704)
+602313 - UNIVCOM8 - GPS: (3,366358, -76,528192)
+511119 - V_HORMI7 - GPS: (3,312919, -76,481922)
 
-=== Lista de Arcos ===
-511118 -> 502304  (Ruta: A17B - Ida)
-502304 -> 511118  (Ruta: A17B - Ida)
-511118 -> 511384  (Ruta: A17B - Ida)
-511384 -> 602304  (Ruta: A17B - Ida)
-602304 -> 511384  (Ruta: A17B - Ida)
-511384 -> 511119  (Ruta: A17B - Ida)
-511119 -> 602313  (Ruta: A17B - Ida)
-602313 -> 511119  (Ruta: A17B - Ida)
-511119 -> 511120  (Ruta: A17B - Ida)
-511120 -> 502313  (Ruta: A17B - Ida)
-502313 -> 511120  (Ruta: A17B - Ida)
-511120 -> 511115  (Ruta: A17B - Ida)
-511115 -> 511115  (Ruta: A17B - Ida)
-511115 -> 511122  (Ruta: A17B - Ida)
-511122 -> 511122  (Ruta: A17B - Ida)
-511122 -> 511123  (Ruta: A17B - Ida)
-511123 -> 511123  (Ruta: A17B - Ida)
-511123 -> 511124  (Ruta: A17B - Ida)
-511124 -> 511124  (Ruta: A17B - Ida)
-511124 -> 511125  (Ruta: A17B - Ida)
-511125 -> 511125  (Ruta: A17B - Ida)
-511125 -> 511126  (Ruta: A17B - Ida)
-511126 -> 511126  (Ruta: A17B - Ida)
-511126 -> 511127  (Ruta: A17B - Ida)
-511127 -> 511127  (Ruta: A17B - Ida)
-511127 -> 511128  (Ruta: A17B - Ida)
-511128 -> 511128  (Ruta: A17B - Ida)
-511128 -> 511085  (Ruta: A17B - Ida)
-511085 -> 511085  (Ruta: A17B - Ida)
-511085 -> 511129  (Ruta: A17B - Ida)
-511129 -> 511129  (Ruta: A17B - Ida)
-511129 -> 511378  (Ruta: A17B - Ida)
-511378 -> 511378  (Ruta: A17B - Ida)
-511378 -> 511130  (Ruta: A17B - Ida)
-511130 -> 511130  (Ruta: A17B - Ida)
-511130 -> 511343  (Ruta: A17B - Ida)
-511343 -> 511343  (Ruta: A17B - Ida)
-511343 -> 511136  (Ruta: A17B - Ida)
-511136 -> 511344  (Ruta: A17B - Ida)
-511344 -> 511257  (Ruta: A17B - Ida)
-511257 -> 511021  (Ruta: A17B - Ida)
-511021 -> 511252  (Ruta: A17B - Ida)
-511252 -> 502304  (Ruta: A17B - Ida)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: A17B - Ida (23 arcos) ---
+1. Origen: V_HORMI6 (ID: 511118) -> Destino: V_HORM11 (ID: 511384) | Ruta: A17B - Ida
+2. Origen: V_HORM11 (ID: 511384) -> Destino: V_HORMI7 (ID: 511119) | Ruta: A17B - Ida
+3. Origen: V_HORMI7 (ID: 511119) -> Destino: V_HORMI8 (ID: 511120) | Ruta: A17B - Ida
+4. Origen: V_HORMI8 (ID: 511120) -> Destino: V_HORMI3 (ID: 511115) | Ruta: A17B - Ida
+5. Origen: V_HORMI3 (ID: 511115) -> Destino: CAL_PUER (ID: 511122) | Ruta: A17B - Ida
+6. Origen: CAL_PUER (ID: 511122) -> Destino: V_CASCA2 (ID: 511123) | Ruta: A17B - Ida
+7. Origen: V_CASCA2 (ID: 511123) -> Destino: V_CASCA3 (ID: 511124) | Ruta: A17B - Ida
+8. Origen: V_CASCA3 (ID: 511124) -> Destino: V_CASCA4 (ID: 511125) | Ruta: A17B - Ida
+9. Origen: V_CASCA4 (ID: 511125) -> Destino: V_CASCA5 (ID: 511126) | Ruta: A17B - Ida
+10. Origen: V_CASCA5 (ID: 511126) -> Destino: V_CASCA6 (ID: 511127) | Ruta: A17B - Ida
+11. Origen: V_CASCA6 (ID: 511127) -> Destino: V_CASCA7 (ID: 511128) | Ruta: A17B - Ida
+12. Origen: V_CASCA7 (ID: 511128) -> Destino: V_CASC10 (ID: 511085) | Ruta: A17B - Ida
+13. Origen: V_CASC10 (ID: 511085) -> Destino: V_CASCA8 (ID: 511129) | Ruta: A17B - Ida
+14. Origen: V_CASCA8 (ID: 511129) -> Destino: CA_CHAPA (ID: 511378) | Ruta: A17B - Ida
+15. Origen: CA_CHAPA (ID: 511378) -> Destino: V_CASCA9 (ID: 511130) | Ruta: A17B - Ida
+16. Origen: V_CASCA9 (ID: 511130) -> Destino: ACJK1341 (ID: 511343) | Ruta: A17B - Ida
+17. Origen: ACJK1341 (ID: 511343) -> Destino: C36K134 (ID: 511136) | Ruta: A17B - Ida
+18. Origen: C36K134 (ID: 511136) -> Destino: PTROBRAS (ID: 511344) | Ruta: A17B - Ida
+19. Origen: PTROBRAS (ID: 511344) -> Destino: C25K1222 (ID: 511257) | Ruta: A17B - Ida
+20. Origen: C25K1222 (ID: 511257) -> Destino: C25UAUT2 (ID: 511021) | Ruta: A17B - Ida
+21. Origen: C25UAUT2 (ID: 511021) -> Destino: C25K1052 (ID: 511252) | Ruta: A17B - Ida
+22. Origen: C25K1052 (ID: 511252) -> Destino: UNIVCOM1 (ID: 502304) | Ruta: A17B - Ida
+23. Origen: UNIVCOM1 (ID: 502304) -> Destino: UNIVCOM8 (ID: 602313) | Ruta: A17B - Ida

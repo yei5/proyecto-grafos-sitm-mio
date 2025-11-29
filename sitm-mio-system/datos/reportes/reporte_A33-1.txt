@@ -1,0 +1,117 @@
+========================================
+REPORTE DE RUTA: A33-1
+========================================
+
+Información General:
+  Número de Arcos: 21
+  Distancia Total: 5,64 km
+  Tiempo Total: 21,33 min
+  Velocidad Promedio: 15,71 km/h
+
+Detalle de Arcos:
+------------------------------------------------------------
+Arco 1: C84K2AN -> C84K2BIS
+  Distancia: 0,29 km
+  Tiempo: 1,13 min
+  Velocidad: 15,40 km/h
+
+Arco 2: C84K2BIS -> K4NC841
+  Distancia: 0,26 km
+  Tiempo: 1,00 min
+  Velocidad: 15,40 km/h
+
+Arco 3: K4NC841 -> K4NC771
+  Distancia: 0,25 km
+  Tiempo: 0,96 min
+  Velocidad: 15,40 km/h
+
+Arco 4: K4NC771 -> K4NC72K1
+  Distancia: 0,22 km
+  Tiempo: 0,85 min
+  Velocidad: 15,40 km/h
+
+Arco 5: K4NC72K1 -> K4NC72B1
+  Distancia: 0,23 km
+  Tiempo: 0,90 min
+  Velocidad: 15,40 km/h
+
+Arco 6: K4NC72B1 -> K4NC721
+  Distancia: 0,31 km
+  Tiempo: 1,23 min
+  Velocidad: 15,40 km/h
+
+Arco 7: K4NC721 -> C71IK3C2
+  Distancia: 0,20 km
+  Tiempo: 0,77 min
+  Velocidad: 15,40 km/h
+
+Arco 8: C71IK3C2 -> K3NC71I1
+  Distancia: 0,24 km
+  Tiempo: 0,93 min
+  Velocidad: 15,40 km/h
+
+Arco 9: K3NC71I1 -> K3NC72E2
+  Distancia: 0,30 km
+  Tiempo: 1,18 min
+  Velocidad: 15,40 km/h
+
+Arco 10: K3NC72E2 -> K3NC732
+  Distancia: 0,35 km
+  Tiempo: 1,37 min
+  Velocidad: 15,40 km/h
+
+Arco 11: K3NC732 -> K3NC842
+  Distancia: 0,32 km
+  Tiempo: 1,24 min
+  Velocidad: 15,40 km/h
+
+Arco 12: K3NC842 -> C84K2BN
+  Distancia: 0,22 km
+  Tiempo: 0,85 min
+  Velocidad: 15,40 km/h
+
+Arco 13: C84K2BN -> C84K1GN
+  Distancia: 0,33 km
+  Tiempo: 1,28 min
+  Velocidad: 15,40 km/h
+
+Arco 14: C84K1GN -> K1FNC81
+  Distancia: 0,18 km
+  Tiempo: 0,70 min
+  Velocidad: 15,40 km/h
+
+Arco 15: K1FNC81 -> C80K1FN
+  Distancia: 0,15 km
+  Tiempo: 0,57 min
+  Velocidad: 15,40 km/h
+
+Arco 16: C80K1FN -> C80K1AN
+  Distancia: 0,14 km
+  Tiempo: 0,56 min
+  Velocidad: 15,40 km/h
+
+Arco 17: C80K1AN -> PCOMERC5
+  Distancia: 0,56 km
+  Tiempo: 1,51 min
+  Velocidad: 22,00 km/h
+
+Arco 18: PCOMERC5 -> C73K1FN
+  Distancia: 0,42 km
+  Tiempo: 1,62 min
+  Velocidad: 15,40 km/h
+
+Arco 19: C73K1FN -> K2ANC81
+  Distancia: 0,31 km
+  Tiempo: 1,22 min
+  Velocidad: 15,40 km/h
+
+Arco 20: K2ANC81 -> C84K2AN
+  Distancia: 0,18 km
+  Tiempo: 0,69 min
+  Velocidad: 15,40 km/h
+
+Arco 21: PCOMERC5 -> R-PCOME1
+  Distancia: 0,20 km
+  Tiempo: 0,78 min
+  Velocidad: 15,40 km/h
+

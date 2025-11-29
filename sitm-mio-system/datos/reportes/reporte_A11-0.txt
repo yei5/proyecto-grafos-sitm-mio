@@ -1,0 +1,87 @@
+========================================
+REPORTE DE RUTA: A11-0
+========================================
+
+Información General:
+  Número de Arcos: 15
+  Distancia Total: 5,63 km
+  Tiempo Total: 21,27 min
+  Velocidad Promedio: 15,84 km/h
+
+Detalle de Arcos:
+------------------------------------------------------------
+Arco 1: K125C20 -> K125C23A
+  Distancia: 0,35 km
+  Tiempo: 1,37 min
+  Velocidad: 15,40 km/h
+
+Arco 2: K125C23A -> C25K1251
+  Distancia: 0,19 km
+  Tiempo: 0,73 min
+  Velocidad: 15,40 km/h
+
+Arco 3: C25K1251 -> K127C36
+  Distancia: 0,38 km
+  Tiempo: 1,47 min
+  Velocidad: 15,40 km/h
+
+Arco 4: K127C36 -> K127C21A
+  Distancia: 0,43 km
+  Tiempo: 1,66 min
+  Velocidad: 15,40 km/h
+
+Arco 5: K127C21A -> K127C18A
+  Distancia: 0,43 km
+  Tiempo: 1,68 min
+  Velocidad: 15,40 km/h
+
+Arco 6: K127C18A -> C18K1272
+  Distancia: 0,47 km
+  Tiempo: 1,84 min
+  Velocidad: 15,40 km/h
+
+Arco 7: C18K1272 -> C18ICESI
+  Distancia: 0,35 km
+  Tiempo: 1,37 min
+  Velocidad: 15,40 km/h
+
+Arco 8: C18ICESI -> C18CARU1
+  Distancia: 0,34 km
+  Tiempo: 1,32 min
+  Velocidad: 15,40 km/h
+
+Arco 9: C18CARU1 -> C18UJAV2
+  Distancia: 0,48 km
+  Tiempo: 1,86 min
+  Velocidad: 15,40 km/h
+
+Arco 10: C18UJAV2 -> C18K116
+  Distancia: 0,56 km
+  Tiempo: 1,54 min
+  Velocidad: 22,00 km/h
+
+Arco 11: C18K116 -> C18K115
+  Distancia: 0,28 km
+  Tiempo: 1,11 min
+  Velocidad: 15,40 km/h
+
+Arco 12: C18K115 -> C18K111
+  Distancia: 0,26 km
+  Tiempo: 1,00 min
+  Velocidad: 15,40 km/h
+
+Arco 13: C18K111 -> C18K108
+  Distancia: 0,34 km
+  Tiempo: 1,33 min
+  Velocidad: 15,40 km/h
+
+Arco 14: C18K108 -> C16K103
+  Distancia: 0,41 km
+  Tiempo: 1,60 min
+  Velocidad: 15,40 km/h
+
+Arco 15: C16K103 -> UNIV3
+  Distancia: 0,36 km
+  Tiempo: 1,40 min
+  Velocidad: 15,40 km/h
+

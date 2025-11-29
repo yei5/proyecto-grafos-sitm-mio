@@ -3,25 +3,31 @@ Nodos: 10
 Arcos: 9
 ------------------------------------
 
-=== Lista de Nodos ===
-517018 - C1K55B1
-517029 - K70C1OE1
-517014 - K52C31
-517025 - C1K641
-517016 - C1K521
-517027 - C1K66B1
-517231 - C1K56
-500051 - T.C-A2
-517020 - C1K591
-517151 - C1K54
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+517018 - C1K55B1 - GPS: (3,411384, -76,555755)
+517029 - K70C1OE1 - GPS: (3,392610, -76,557167)
+517014 - K52C31 - GPS: (3,415428, -76,552522)
+517025 - C1K641 - GPS: (3,400606, -76,556901)
+517016 - C1K521 - GPS: (3,415155, -76,555123)
+517027 - C1K66B1 - GPS: (3,394950, -76,557121)
+517231 - C1K56 - GPS: (3,408923, -76,555760)
+500051 - T.C-A2 - GPS: (3,414543, -76,549573)
+517020 - C1K591 - GPS: (3,407550, -76,555810)
+517151 - C1K54 - GPS: (3,413514, -76,555635)
 
-=== Lista de Arcos ===
-500051 -> 517014  (Ruta: A71 - Vuelta)
-517014 -> 517016  (Ruta: A71 - Vuelta)
-517016 -> 517151  (Ruta: A71 - Vuelta)
-517151 -> 517018  (Ruta: A71 - Vuelta)
-517018 -> 517231  (Ruta: A71 - Vuelta)
-517231 -> 517020  (Ruta: A71 - Vuelta)
-517020 -> 517025  (Ruta: A71 - Vuelta)
-517025 -> 517027  (Ruta: A71 - Vuelta)
-517027 -> 517029  (Ruta: A71 - Vuelta)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: A71 - Vuelta (9 arcos) ---
+1. Origen: T.C-A2 (ID: 500051) -> Destino: K52C31 (ID: 517014) | Ruta: A71 - Vuelta
+2. Origen: K52C31 (ID: 517014) -> Destino: C1K521 (ID: 517016) | Ruta: A71 - Vuelta
+3. Origen: C1K521 (ID: 517016) -> Destino: C1K54 (ID: 517151) | Ruta: A71 - Vuelta
+4. Origen: C1K54 (ID: 517151) -> Destino: C1K55B1 (ID: 517018) | Ruta: A71 - Vuelta
+5. Origen: C1K55B1 (ID: 517018) -> Destino: C1K56 (ID: 517231) | Ruta: A71 - Vuelta
+6. Origen: C1K56 (ID: 517231) -> Destino: C1K591 (ID: 517020) | Ruta: A71 - Vuelta
+7. Origen: C1K591 (ID: 517020) -> Destino: C1K641 (ID: 517025) | Ruta: A71 - Vuelta
+8. Origen: C1K641 (ID: 517025) -> Destino: C1K66B1 (ID: 517027) | Ruta: A71 - Vuelta
+9. Origen: C1K66B1 (ID: 517027) -> Destino: K70C1OE1 (ID: 517029) | Ruta: A71 - Vuelta

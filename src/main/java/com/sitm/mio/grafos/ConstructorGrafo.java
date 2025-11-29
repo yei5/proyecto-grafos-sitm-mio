@@ -144,6 +144,14 @@ public class ConstructorGrafo {
                     "SHORTNAME", "shortname", "LONGNAME", "longname", "name"
             });
 
+            int indiceLongitud = buscarIndice(encabezados, new String[]{
+                    "DECIMALLONGITUDE", "decimallongitude", "LONGITUDE", "longitude", "lon"
+            });
+
+            int indiceLatitud = buscarIndice(encabezados, new String[]{
+                    "DECIMALLATITUDE", "decimallatitude", "LATITUDE", "latitude", "lat"
+            });
+
             if (indiceId == -1 || indiceNombre == -1)
                 throw new IOException("Encabezados inválidos en stops.csv");
 
@@ -157,7 +165,26 @@ public class ConstructorGrafo {
                     String nombre = campos[indiceNombre].replace("\"", "").trim();
 
                     if (!id.isEmpty()) {
-                        Nodo nodo = new Nodo(id, nombre, "Parada");
+                        double longitud = 0.0;
+                        double latitud = 0.0;
+                        
+                        if (indiceLongitud != -1 && campos.length > indiceLongitud) {
+                            try {
+                                longitud = Double.parseDouble(campos[indiceLongitud].replace("\"", "").trim());
+                            } catch (NumberFormatException e) {
+                                // Mantener 0.0 si no se puede parsear
+                            }
+                        }
+                        
+                        if (indiceLatitud != -1 && campos.length > indiceLatitud) {
+                            try {
+                                latitud = Double.parseDouble(campos[indiceLatitud].replace("\"", "").trim());
+                            } catch (NumberFormatException e) {
+                                // Mantener 0.0 si no se puede parsear
+                            }
+                        }
+                        
+                        Nodo nodo = new Nodo(id, nombre, "Parada", longitud, latitud);
                         paradas.put(id, nodo);
                     }
                 }
@@ -239,6 +266,9 @@ public class ConstructorGrafo {
             int indiceSequence = buscarIndice(encabezados, new String[]{
                     "STOPSEQUENCE", "stopsequence", "sequence", "order"
             });
+            int indiceLineVariant = buscarIndice(encabezados, new String[]{
+                    "LINEVARIANT", "linevariant", "variant"
+            });
 
             if (indiceLineId == -1 || indiceStopId == -1 || indiceSequence == -1)
                 throw new IOException("Encabezados inválidos en linestops.csv");
@@ -257,14 +287,20 @@ public class ConstructorGrafo {
                         ? campos[indiceOrientation].replace("\"", "").trim()
                         : "0";
 
+                String lineVariant = (indiceLineVariant != -1 && campos.length > indiceLineVariant)
+                        ? campos[indiceLineVariant].replace("\"", "").trim()
+                        : "0";
+
                 int sequence = parsearEntero(
                         campos[indiceSequence].replace("\"", "").trim(), 0
                 );
 
                 if (!lineId.isEmpty() && !stopId.isEmpty() && paradas.containsKey(stopId)) {
-                    rutasParadas.putIfAbsent(lineId, new HashMap<>());
-                    rutasParadas.get(lineId).putIfAbsent(orientation, new ArrayList<>());
-                    rutasParadas.get(lineId).get(orientation)
+                    // Agrupar por LINEID-ORIENTATION-LINEVARIANT para evitar mezclar variantes
+                    String claveGrupo = lineId + "-" + orientation + "-" + lineVariant;
+                    rutasParadas.putIfAbsent(claveGrupo, new HashMap<>());
+                    rutasParadas.get(claveGrupo).putIfAbsent(orientation, new ArrayList<>());
+                    rutasParadas.get(claveGrupo).get(orientation)
                             .add(new ParadaOrdenada(stopId, sequence));
                 }
             }
@@ -274,23 +310,62 @@ public class ConstructorGrafo {
         for (Nodo nodo : paradas.values()) grafo.agregarNodo(nodo);
 
         // Crear arcos
-        for (var entradaRuta : rutasParadas.entrySet()) {
-            String rutaId = entradaRuta.getKey();
+        for (Map.Entry<String, Map<String, List<ParadaOrdenada>>> entradaRuta : rutasParadas.entrySet()) {
+            String claveGrupo = entradaRuta.getKey();
+            // Extraer LINEID de la clave (formato: LINEID-ORIENTATION-LINEVARIANT)
+            String[] partes = claveGrupo.split("-");
+            String rutaId = partes[0];
             String nombreRuta = rutas.getOrDefault(rutaId, rutaId);
 
-            for (var entradaOrientacion : entradaRuta.getValue().entrySet()) {
+            for (Map.Entry<String, List<ParadaOrdenada>> entradaOrientacion : entradaRuta.getValue().entrySet()) {
                 String orientation = entradaOrientacion.getKey();
                 List<ParadaOrdenada> paradasOrdenadas = entradaOrientacion.getValue();
 
                 paradasOrdenadas.sort(Comparator.comparingInt(p -> p.sequence));
 
-                for (int i = 0; i < paradasOrdenadas.size() - 1; i++) {
-                    Nodo origen = paradas.get(paradasOrdenadas.get(i).stopId);
-                    Nodo destino = paradas.get(paradasOrdenadas.get(i + 1).stopId);
+                // Eliminar duplicados por NOMBRE (no por ID) manteniendo solo la primera ocurrencia
+                List<ParadaOrdenada> paradasSinDuplicados = new ArrayList<>();
+                Set<String> nombresStopsVistos = new HashSet<>();
+                
+                for (ParadaOrdenada paradaOrd : paradasOrdenadas) {
+                    Nodo nodo = paradas.get(paradaOrd.stopId);
+                    if (nodo != null) {
+                        String nombreStop = nodo.getNombre();
+                        if (!nombresStopsVistos.contains(nombreStop)) {
+                            paradasSinDuplicados.add(paradaOrd);
+                            nombresStopsVistos.add(nombreStop);
+                        }
+                    }
+                }
 
-                    if (origen != null && destino != null) {
-                        String rutaCompleta = nombreRuta + "-" + orientation;
-                        grafo.agregarArco(new Arco(origen, destino, 0.0, 0.0, rutaCompleta));
+                // Crear mapa de nodos por nombre para merge
+                Map<String, Nodo> nodosPorNombre = new HashMap<>();
+                for (ParadaOrdenada paradaOrd : paradasSinDuplicados) {
+                    Nodo nodo = paradas.get(paradaOrd.stopId);
+                    if (nodo != null && !nodosPorNombre.containsKey(nodo.getNombre())) {
+                        nodosPorNombre.put(nodo.getNombre(), nodo);
+                    }
+                }
+
+                // Crear arcos en orden desde el inicio, usando nombres para identificar únicos
+                for (int i = 0; i < paradasSinDuplicados.size() - 1; i++) {
+                    Nodo origenNodo = paradas.get(paradasSinDuplicados.get(i).stopId);
+                    Nodo destinoNodo = paradas.get(paradasSinDuplicados.get(i + 1).stopId);
+
+                    if (origenNodo != null && destinoNodo != null) {
+                        String nombreOrigen = origenNodo.getNombre();
+                        String nombreDestino = destinoNodo.getNombre();
+                        
+                        // Solo crear arco si son diferentes (evitar self-loops)
+                        if (!nombreOrigen.equals(nombreDestino)) {
+                            Nodo origen = nodosPorNombre.get(nombreOrigen);
+                            Nodo destino = nodosPorNombre.get(nombreDestino);
+                            
+                            if (origen != null && destino != null) {
+                                String rutaCompleta = nombreRuta + "-" + orientation;
+                                grafo.agregarArco(new Arco(origen, destino, 0.0, 0.0, rutaCompleta));
+                            }
+                        }
                     }
                 }
             }
@@ -327,6 +402,9 @@ public class ConstructorGrafo {
             int indiceSequence = buscarIndice(encabezados, new String[]{
                     "STOPSEQUENCE", "stopsequence", "sequence", "order"
             });
+            int indiceLineVariant = buscarIndice(encabezados, new String[]{
+                    "LINEVARIANT", "linevariant", "variant"
+            });
 
             if (indiceLineId == -1 || indiceStopId == -1 || indiceSequence == -1)
                 throw new IOException("Encabezados inválidos en linestops.csv");
@@ -345,62 +423,110 @@ public class ConstructorGrafo {
                         ? campos[indiceOrientation].replace("\"", "").trim()
                         : "0";
 
+                String lineVariant = (indiceLineVariant != -1 && campos.length > indiceLineVariant)
+                        ? campos[indiceLineVariant].replace("\"", "").trim()
+                        : "0";
+
                 int sequence = parsearEntero(
                         campos[indiceSequence].replace("\"", "").trim(), 0
                 );
 
                 if (!lineId.isEmpty() && !stopId.isEmpty() && paradas.containsKey(stopId)) {
+                    // Agrupar por LINEID-ORIENTATION-LINEVARIANT para evitar mezclar variantes
                     String claveRutaSentido = lineId + "-" + orientation;
+                    String claveGrupo = claveRutaSentido + "-" + lineVariant;
                     
-                    rutasParadas.putIfAbsent(claveRutaSentido, new HashMap<>());
-                    rutasParadas.get(claveRutaSentido).putIfAbsent(orientation, new ArrayList<>());
-                    rutasParadas.get(claveRutaSentido).get(orientation)
+                    rutasParadas.putIfAbsent(claveGrupo, new HashMap<>());
+                    rutasParadas.get(claveGrupo).putIfAbsent(orientation, new ArrayList<>());
+                    rutasParadas.get(claveGrupo).get(orientation)
                             .add(new ParadaOrdenada(stopId, sequence));
                 }
             }
         }
 
-        // Crear un grafo por cada ruta-sentido
-        for (var entradaRuta : rutasParadas.entrySet()) {
-            String claveRutaSentido = entradaRuta.getKey();
-            Grafo grafoIndividual = new Grafo();
-            
-            // Extraer lineId y orientation de la clave
-            String[] partes = claveRutaSentido.split("-");
+        // Crear un grafo por cada ruta-sentido (agrupando todas las variantes)
+        // Primero, agrupar por ruta-sentido (sin variante) para combinar todas las variantes
+        Map<String, Grafo> grafosTemporales = new HashMap<>();
+        
+        for (Map.Entry<String, Map<String, List<ParadaOrdenada>>> entradaRuta : rutasParadas.entrySet()) {
+            String claveGrupo = entradaRuta.getKey(); // LINEID-ORIENTATION-LINEVARIANT
+            String[] partes = claveGrupo.split("-");
             String lineId = partes[0];
-            String orientation = partes.length > 1 ? partes[partes.length - 1] : "0";
+            String orientation = partes.length > 1 ? partes[1] : "0";
+            String claveRutaSentido = lineId + "-" + orientation;
+            
+            // Obtener o crear el grafo para esta ruta-sentido
+            Grafo grafoIndividual = grafosTemporales.getOrDefault(claveRutaSentido, new Grafo());
+            if (!grafosTemporales.containsKey(claveRutaSentido)) {
+                grafosTemporales.put(claveRutaSentido, grafoIndividual);
+            }
             
             String nombreRuta = rutas.getOrDefault(lineId, lineId);
             String sentidoTexto = orientation.equals("0") ? "Ida" : "Vuelta";
             String nombreCompleto = nombreRuta + " - " + sentidoTexto;
 
-            for (var entradaOrientacion : entradaRuta.getValue().entrySet()) {
-                List<ParadaOrdenada> paradasOrdenadas = entradaOrientacion.getValue();
-                paradasOrdenadas.sort(Comparator.comparingInt(p -> p.sequence));
-
-                // Agregar nodos al grafo individual
-                for (ParadaOrdenada paradaOrd : paradasOrdenadas) {
-                    Nodo nodo = paradas.get(paradaOrd.stopId);
-                    if (nodo != null && grafoIndividual.obtenerNodo(nodo.getId()) == null) {
-                        grafoIndividual.agregarNodo(nodo);
-                    }
-                }
-
-                // Crear arcos
-                for (int i = 0; i < paradasOrdenadas.size() - 1; i++) {
-                    Nodo origen = paradas.get(paradasOrdenadas.get(i).stopId);
-                    Nodo destino = paradas.get(paradasOrdenadas.get(i + 1).stopId);
-
-                    if (origen != null && destino != null) {
-                        grafoIndividual.agregarArco(
-                            new Arco(origen, destino, 0.0, 0.0, nombreCompleto)
-                        );
-                    }
+            // Crear mapa de nodos canónicos por nombre para todo el grafo
+            Map<String, Nodo> nodosCanonicosPorNombre = new HashMap<>();
+            for (Nodo nodo : grafoIndividual.obtenerNodos()) {
+                String nombre = nodo.getNombre();
+                if (nombre != null && !nombre.trim().isEmpty() && !nodosCanonicosPorNombre.containsKey(nombre)) {
+                    nodosCanonicosPorNombre.put(nombre, nodo);
                 }
             }
 
-            grafosPorRuta.put(claveRutaSentido, grafoIndividual);
+            for (Map.Entry<String, List<ParadaOrdenada>> entradaOrientacion : entradaRuta.getValue().entrySet()) {
+                List<ParadaOrdenada> paradasOrdenadas = entradaOrientacion.getValue();
+                paradasOrdenadas.sort(Comparator.comparingInt(p -> p.sequence));
+
+                // Eliminar duplicados por NOMBRE (no por ID) manteniendo solo la primera ocurrencia
+                List<String> nombresStopsEnOrden = new ArrayList<>();
+                Set<String> nombresStopsVistos = new HashSet<>();
+                
+                for (ParadaOrdenada paradaOrd : paradasOrdenadas) {
+                    Nodo nodo = paradas.get(paradaOrd.stopId);
+                    if (nodo != null) {
+                        String nombreStop = nodo.getNombre();
+                        if (nombreStop == null || nombreStop.trim().isEmpty()) {
+                            nombreStop = nodo.getId();
+                        }
+                        if (!nombresStopsVistos.contains(nombreStop)) {
+                            nombresStopsEnOrden.add(nombreStop);
+                            nombresStopsVistos.add(nombreStop);
+                            
+                            // Crear o obtener nodo canónico por nombre
+                            if (!nodosCanonicosPorNombre.containsKey(nombreStop)) {
+                                nodosCanonicosPorNombre.put(nombreStop, nodo);
+                                if (grafoIndividual.obtenerNodo(nodo.getId()) == null) {
+                                    grafoIndividual.agregarNodo(nodo);
+                                }
+                            }
+                        }
+                    }
+                }
+
+                // Crear arcos solo dentro de esta variante, en orden desde el inicio
+                // Usar nodos canónicos por nombre
+                for (int i = 0; i < nombresStopsEnOrden.size() - 1; i++) {
+                    String nombreOrigen = nombresStopsEnOrden.get(i);
+                    String nombreDestino = nombresStopsEnOrden.get(i + 1);
+                    
+                    // Solo crear arco si son diferentes (evitar self-loops)
+                    if (!nombreOrigen.equals(nombreDestino)) {
+                        Nodo origen = nodosCanonicosPorNombre.get(nombreOrigen);
+                        Nodo destino = nodosCanonicosPorNombre.get(nombreDestino);
+                        
+                        if (origen != null && destino != null) {
+                            grafoIndividual.agregarArco(
+                                new Arco(origen, destino, 0.0, 0.0, nombreCompleto)
+                            );
+                        }
+                    }
+                }
+            }
         }
+        
+        // Copiar los grafos temporales al mapa final
+        grafosPorRuta.putAll(grafosTemporales);
     }
 
     /** Busca índice de columna */

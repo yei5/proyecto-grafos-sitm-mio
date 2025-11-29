@@ -1,49 +1,41 @@
 == 3452-1 ==
 Nodos: 14
-Arcos: 27
+Arcos: 13
 ------------------------------------
 
-=== Lista de Nodos ===
-514134 - K8C592
-514386 - C44K9
-514132 - K8C582
-514348 - C44K15
-514128 - K8C522
-514314 - K8C44B
-514347 - K8C703
-514126 - K8C492
-514346 - K8C702
-514130 - K8C562
-514460 - C63K8
-514459 - C52K14
-514349 - C44K12C
-514019 - C44K12
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+514134 - K8C592 - GPS: (3,452508, -76,490232)
+514386 - C44K9 - GPS: (3,452113, -76,504906)
+514132 - K8C582 - GPS: (3,452532, -76,493167)
+514348 - C44K15 - GPS: (3,444760, -76,503059)
+514128 - K8C522 - GPS: (3,452481, -76,497779)
+514314 - K8C44B - GPS: (3,453020, -76,503389)
+514347 - K8C703 - GPS: (3,452071, -76,486792)
+514126 - K8C492 - GPS: (3,452658, -76,500413)
+514346 - K8C702 - GPS: (3,452296, -76,486806)
+514130 - K8C562 - GPS: (3,452387, -76,495865)
+514460 - C63K8 - GPS: (3,452823, -76,488417)
+514459 - C52K14 - GPS: (3,444633, -76,499556)
+514349 - C44K12C - GPS: (3,447435, -76,503739)
+514019 - C44K12 - GPS: (3,449100, -76,504128)
 
-=== Lista de Arcos ===
-514459 -> 514459  (Ruta: A45B - Vuelta)
-514459 -> 514348  (Ruta: A45B - Vuelta)
-514348 -> 514348  (Ruta: A45B - Vuelta)
-514348 -> 514349  (Ruta: A45B - Vuelta)
-514349 -> 514349  (Ruta: A45B - Vuelta)
-514349 -> 514019  (Ruta: A45B - Vuelta)
-514019 -> 514019  (Ruta: A45B - Vuelta)
-514019 -> 514386  (Ruta: A45B - Vuelta)
-514386 -> 514386  (Ruta: A45B - Vuelta)
-514386 -> 514314  (Ruta: A45B - Vuelta)
-514314 -> 514314  (Ruta: A45B - Vuelta)
-514314 -> 514126  (Ruta: A45B - Vuelta)
-514126 -> 514126  (Ruta: A45B - Vuelta)
-514126 -> 514128  (Ruta: A45B - Vuelta)
-514128 -> 514128  (Ruta: A45B - Vuelta)
-514128 -> 514130  (Ruta: A45B - Vuelta)
-514130 -> 514130  (Ruta: A45B - Vuelta)
-514130 -> 514132  (Ruta: A45B - Vuelta)
-514132 -> 514132  (Ruta: A45B - Vuelta)
-514132 -> 514134  (Ruta: A45B - Vuelta)
-514134 -> 514134  (Ruta: A45B - Vuelta)
-514134 -> 514347  (Ruta: A45B - Vuelta)
-514347 -> 514347  (Ruta: A45B - Vuelta)
-514347 -> 514346  (Ruta: A45B - Vuelta)
-514346 -> 514346  (Ruta: A45B - Vuelta)
-514346 -> 514460  (Ruta: A45B - Vuelta)
-514460 -> 514460  (Ruta: A45B - Vuelta)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: A45B - Vuelta (13 arcos) ---
+1. Origen: C52K14 (ID: 514459) -> Destino: C44K15 (ID: 514348) | Ruta: A45B - Vuelta
+2. Origen: C44K15 (ID: 514348) -> Destino: C44K12C (ID: 514349) | Ruta: A45B - Vuelta
+3. Origen: C44K12C (ID: 514349) -> Destino: C44K12 (ID: 514019) | Ruta: A45B - Vuelta
+4. Origen: C44K12 (ID: 514019) -> Destino: C44K9 (ID: 514386) | Ruta: A45B - Vuelta
+5. Origen: C44K9 (ID: 514386) -> Destino: K8C44B (ID: 514314) | Ruta: A45B - Vuelta
+6. Origen: K8C44B (ID: 514314) -> Destino: K8C492 (ID: 514126) | Ruta: A45B - Vuelta
+7. Origen: K8C492 (ID: 514126) -> Destino: K8C522 (ID: 514128) | Ruta: A45B - Vuelta
+8. Origen: K8C522 (ID: 514128) -> Destino: K8C562 (ID: 514130) | Ruta: A45B - Vuelta
+9. Origen: K8C562 (ID: 514130) -> Destino: K8C582 (ID: 514132) | Ruta: A45B - Vuelta
+10. Origen: K8C582 (ID: 514132) -> Destino: K8C592 (ID: 514134) | Ruta: A45B - Vuelta
+11. Origen: K8C592 (ID: 514134) -> Destino: K8C703 (ID: 514347) | Ruta: A45B - Vuelta
+12. Origen: K8C703 (ID: 514347) -> Destino: K8C702 (ID: 514346) | Ruta: A45B - Vuelta
+13. Origen: K8C702 (ID: 514346) -> Destino: C63K8 (ID: 514460) | Ruta: A45B - Vuelta

@@ -1,0 +1,97 @@
+========================================
+REPORTE DE RUTA: T57A-0
+========================================
+
+Información General:
+  Número de Arcos: 17
+  Distancia Total: 9,63 km
+  Tiempo Total: 20,39 min
+  Velocidad Promedio: 27,88 km/h
+
+Detalle de Arcos:
+------------------------------------------------------------
+Arco 1: UDP1 -> LIDO2
+  Distancia: 0,38 km
+  Tiempo: 1,10 min
+  Velocidad: 21,00 km/h
+
+Arco 2: LIDO2 -> TEQUE2
+  Distancia: 0,54 km
+  Tiempo: 1,08 min
+  Velocidad: 30,00 km/h
+
+Arco 3: TEQUE2 -> ESTAD4
+  Distancia: 1,07 km
+  Tiempo: 2,14 min
+  Velocidad: 30,00 km/h
+
+Arco 4: ESTAD4 -> MANZA4
+  Distancia: 0,42 km
+  Tiempo: 1,20 min
+  Velocidad: 21,00 km/h
+
+Arco 5: MANZA4 -> SNTLIB4
+  Distancia: 0,71 km
+  Tiempo: 1,43 min
+  Velocidad: 30,00 km/h
+
+Arco 6: SNTLIB4 -> SANBO4
+  Distancia: 0,56 km
+  Tiempo: 1,12 min
+  Velocidad: 30,00 km/h
+
+Arco 7: SANBO4 -> SANPAS4
+  Distancia: 0,54 km
+  Tiempo: 1,07 min
+  Velocidad: 30,00 km/h
+
+Arco 8: SANPAS4 -> C.PALOS2
+  Distancia: 0,60 km
+  Tiempo: 1,21 min
+  Velocidad: 30,00 km/h
+
+Arco 9: C.PALOS2 -> PRIMITI2
+  Distancia: 0,63 km
+  Tiempo: 1,26 min
+  Velocidad: 30,00 km/h
+
+Arco 10: PRIMITI2 -> ST.MONI2
+  Distancia: 0,51 km
+  Tiempo: 1,02 min
+  Velocidad: 30,00 km/h
+
+Arco 11: ST.MONI2 -> VLNUEVA2
+  Distancia: 0,50 km
+  Tiempo: 1,43 min
+  Velocidad: 21,00 km/h
+
+Arco 12: VLNUEVA2 -> CONQUIS2
+  Distancia: 0,78 km
+  Tiempo: 1,57 min
+  Velocidad: 30,00 km/h
+
+Arco 13: CONQUIS2 -> TCALIPB2
+  Distancia: 0,55 km
+  Tiempo: 1,09 min
+  Velocidad: 30,00 km/h
+
+Arco 14: TCALIPB2 -> TRONCAL2
+  Distancia: 0,69 km
+  Tiempo: 1,37 min
+  Velocidad: 30,00 km/h
+
+Arco 15: TRONCAL2 -> AMANECE2
+  Distancia: 0,55 km
+  Tiempo: 1,11 min
+  Velocidad: 30,00 km/h
+
+Arco 16: AMANECE2 -> N.LATIR2
+  Distancia: 0,57 km
+  Tiempo: 1,13 min
+  Velocidad: 30,00 km/h
+
+Arco 17: N.LATIR2 -> N.LATIR1
+  Distancia: 0,02 km
+  Tiempo: 0,06 min
+  Velocidad: 21,00 km/h
+

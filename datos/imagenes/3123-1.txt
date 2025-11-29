@@ -3,13 +3,19 @@ Nodos: 4
 Arcos: 3
 ------------------------------------
 
-=== Lista de Nodos ===
-502103 - CAPRI4
-511286 - K94C4C
-511388 - C5K85Y86
-511287 - C4K93
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+502103 - CAPRI4 - GPS: (3,388280, -76,544862)
+511286 - K94C4C - GPS: (3,375546, -76,545323)
+511388 - C5K85Y86 - GPS: (3,380269, -76,543824)
+511287 - C4K93 - GPS: (3,375664, -76,547170)
 
-=== Lista de Arcos ===
-502103 -> 511388  (Ruta: A12C - Vuelta)
-511388 -> 511286  (Ruta: A12C - Vuelta)
-511286 -> 511287  (Ruta: A12C - Vuelta)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: A12C - Vuelta (3 arcos) ---
+1. Origen: CAPRI4 (ID: 502103) -> Destino: C5K85Y86 (ID: 511388) | Ruta: A12C - Vuelta
+2. Origen: C5K85Y86 (ID: 511388) -> Destino: K94C4C (ID: 511286) | Ruta: A12C - Vuelta
+3. Origen: K94C4C (ID: 511286) -> Destino: C4K93 (ID: 511287) | Ruta: A12C - Vuelta

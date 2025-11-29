@@ -1,54 +1,55 @@
 == 2241-0 ==
-Nodos: 23
-Arcos: 23
+Nodos: 21
+Arcos: 20
 ------------------------------------
 
-=== Lista de Nodos ===
-514157 - C73K112
-513013 - C70K1C1
-514013 - C70K7C
-513111 - C70K1A51
-514154 - C73K7RB
-514414 - C70K7EB2
-514413 - C70K7L7J
-514412 - K8C7271
-513103 - C70K7
-513048 - C70K3BN
-513300 - C70K3D
-513256 - C70AV2
-514080 - C73K8
-513251 - C70K4CN
-513062 - C70K1A12
-514150 - C70K7RBI
-500154 - A.SANIN5
-500103 - TMENGA4
-500100 - TMENGA1
-513107 - C70K2-1
-600100 - TMENGA1
-504010 - PCOMERA3
-600103 - TMENGA4
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+514157 - C73K112 - GPS: (3,448193, -76,483252)
+513013 - C70K1C1 - GPS: (3,477678, -76,487825)
+514013 - C70K7C - GPS: (3,463753, -76,483427)
+513111 - C70K1A51 - GPS: (3,484327, -76,490491)
+514154 - C73K7RB - GPS: (3,454103, -76,482547)
+514414 - C70K7EB2 - GPS: (3,461168, -76,482775)
+514413 - C70K7L7J - GPS: (3,457958, -76,483132)
+514412 - K8C7271 - GPS: (3,452208, -76,485377)
+513103 - C70K7 - GPS: (3,467232, -76,484522)
+513048 - C70K3BN - GPS: (3,486872, -76,497323)
+513300 - C70K3D - GPS: (3,469463, -76,485325)
+513256 - C70AV2 - GPS: (3,489964, -76,507473)
+514080 - C73K8 - GPS: (3,451540, -76,482662)
+513251 - C70K4CN - GPS: (3,487779, -76,500426)
+513062 - C70K1A12 - GPS: (3,481137, -76,488898)
+514150 - C70K7RBI - GPS: (3,455222, -76,484528)
+500154 - A.SANIN5 - GPS: (3,443756, -76,483060)
+500100 - TMENGA1 - GPS: (3,489307, -76,509042)
+513107 - C70K2-1 - GPS: (3,473357, -76,486452)
+504010 - PCOMERA3 - GPS: (3,489577, -76,492988)
+600103 - TMENGA4 - GPS: (3,488914, -76,507913)
 
-=== Lista de Arcos ===
-500154 -> 500100  (Ruta: P24A - Ida)
-500100 -> 514157  (Ruta: P24A - Ida)
-514157 -> 600100  (Ruta: P24A - Ida)
-600100 -> 514080  (Ruta: P24A - Ida)
-514080 -> 600103  (Ruta: P24A - Ida)
-600103 -> 514154  (Ruta: P24A - Ida)
-514154 -> 500103  (Ruta: P24A - Ida)
-500103 -> 514412  (Ruta: P24A - Ida)
-514412 -> 514150  (Ruta: P24A - Ida)
-514150 -> 514413  (Ruta: P24A - Ida)
-514413 -> 514414  (Ruta: P24A - Ida)
-514414 -> 514013  (Ruta: P24A - Ida)
-514013 -> 513103  (Ruta: P24A - Ida)
-513103 -> 513300  (Ruta: P24A - Ida)
-513300 -> 513107  (Ruta: P24A - Ida)
-513107 -> 513013  (Ruta: P24A - Ida)
-513013 -> 513062  (Ruta: P24A - Ida)
-513062 -> 513111  (Ruta: P24A - Ida)
-513111 -> 504010  (Ruta: P24A - Ida)
-504010 -> 513048  (Ruta: P24A - Ida)
-513048 -> 513251  (Ruta: P24A - Ida)
-513251 -> 513256  (Ruta: P24A - Ida)
-513256 -> 500100  (Ruta: P24A - Ida)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: P24A - Ida (20 arcos) ---
+1. Origen: TMENGA1 (ID: 500100) -> Destino: TMENGA4 (ID: 600103) | Ruta: P24A - Ida
+2. Origen: A.SANIN5 (ID: 500154) -> Destino: C73K112 (ID: 514157) | Ruta: P24A - Ida
+3. Origen: C73K112 (ID: 514157) -> Destino: C73K8 (ID: 514080) | Ruta: P24A - Ida
+4. Origen: C73K8 (ID: 514080) -> Destino: C73K7RB (ID: 514154) | Ruta: P24A - Ida
+5. Origen: C73K7RB (ID: 514154) -> Destino: K8C7271 (ID: 514412) | Ruta: P24A - Ida
+6. Origen: K8C7271 (ID: 514412) -> Destino: C70K7RBI (ID: 514150) | Ruta: P24A - Ida
+7. Origen: C70K7RBI (ID: 514150) -> Destino: C70K7L7J (ID: 514413) | Ruta: P24A - Ida
+8. Origen: C70K7L7J (ID: 514413) -> Destino: C70K7EB2 (ID: 514414) | Ruta: P24A - Ida
+9. Origen: C70K7EB2 (ID: 514414) -> Destino: C70K7C (ID: 514013) | Ruta: P24A - Ida
+10. Origen: C70K7C (ID: 514013) -> Destino: C70K7 (ID: 513103) | Ruta: P24A - Ida
+11. Origen: C70K7 (ID: 513103) -> Destino: C70K3D (ID: 513300) | Ruta: P24A - Ida
+12. Origen: C70K3D (ID: 513300) -> Destino: C70K2-1 (ID: 513107) | Ruta: P24A - Ida
+13. Origen: C70K2-1 (ID: 513107) -> Destino: C70K1C1 (ID: 513013) | Ruta: P24A - Ida
+14. Origen: C70K1C1 (ID: 513013) -> Destino: C70K1A12 (ID: 513062) | Ruta: P24A - Ida
+15. Origen: C70K1A12 (ID: 513062) -> Destino: C70K1A51 (ID: 513111) | Ruta: P24A - Ida
+16. Origen: C70K1A51 (ID: 513111) -> Destino: PCOMERA3 (ID: 504010) | Ruta: P24A - Ida
+17. Origen: PCOMERA3 (ID: 504010) -> Destino: C70K3BN (ID: 513048) | Ruta: P24A - Ida
+18. Origen: C70K3BN (ID: 513048) -> Destino: C70K4CN (ID: 513251) | Ruta: P24A - Ida
+19. Origen: C70K4CN (ID: 513251) -> Destino: C70AV2 (ID: 513256) | Ruta: P24A - Ida
+20. Origen: C70AV2 (ID: 513256) -> Destino: TMENGA1 (ID: 500100) | Ruta: P24A - Ida

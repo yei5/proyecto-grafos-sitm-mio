@@ -1,0 +1,297 @@
+========================================
+REPORTE DE RUTA: P51-1
+========================================
+
+Información General:
+  Número de Arcos: 57
+  Distancia Total: 17,95 km
+  Tiempo Total: 70,59 min
+  Velocidad Promedio: 14,84 km/h
+
+Detalle de Arcos:
+------------------------------------------------------------
+Arco 1: C123K28D -> C123K281
+  Distancia: 0,26 km
+  Tiempo: 1,13 min
+  Velocidad: 14,00 km/h
+
+Arco 2: C123K281 -> K28DC122
+  Distancia: 0,18 km
+  Tiempo: 0,77 min
+  Velocidad: 14,00 km/h
+
+Arco 3: K28DC122 -> K28FC12K
+  Distancia: 0,14 km
+  Tiempo: 0,58 min
+  Velocidad: 14,00 km/h
+
+Arco 4: K28FC12K -> K28FC122
+  Distancia: 0,23 km
+  Tiempo: 1,00 min
+  Velocidad: 14,00 km/h
+
+Arco 5: K28FC122 -> C121122A
+  Distancia: 0,20 km
+  Tiempo: 0,87 min
+  Velocidad: 14,00 km/h
+
+Arco 6: C121122A -> C121C121
+  Distancia: 0,25 km
+  Tiempo: 1,09 min
+  Velocidad: 14,00 km/h
+
+Arco 7: C121C121 -> K28DC121
+  Distancia: 0,13 km
+  Tiempo: 0,54 min
+  Velocidad: 14,00 km/h
+
+Arco 8: K28DC121 -> K28DC123
+  Distancia: 0,23 km
+  Tiempo: 1,00 min
+  Velocidad: 14,00 km/h
+
+Arco 9: K28DC123 -> C123K28A
+  Distancia: 0,24 km
+  Tiempo: 1,04 min
+  Velocidad: 14,00 km/h
+
+Arco 10: C123K28A -> C123K27B
+  Distancia: 0,24 km
+  Tiempo: 1,05 min
+  Velocidad: 14,00 km/h
+
+Arco 11: C123K27B -> C123K26S
+  Distancia: 0,13 km
+  Tiempo: 0,55 min
+  Velocidad: 14,00 km/h
+
+Arco 12: C123K26S -> C123K26M
+  Distancia: 0,26 km
+  Tiempo: 1,11 min
+  Velocidad: 14,00 km/h
+
+Arco 13: C123K26M -> C123K262
+  Distancia: 0,25 km
+  Tiempo: 1,08 min
+  Velocidad: 14,00 km/h
+
+Arco 14: C123K262 -> C123K26
+  Distancia: 0,40 km
+  Tiempo: 1,73 min
+  Velocidad: 14,00 km/h
+
+Arco 15: C123K26 -> C123K26B
+  Distancia: 0,32 km
+  Tiempo: 1,37 min
+  Velocidad: 14,00 km/h
+
+Arco 16: C123K26B -> K23C120Q
+  Distancia: 0,33 km
+  Tiempo: 1,40 min
+  Velocidad: 14,00 km/h
+
+Arco 17: K23C120Q -> K23C120C
+  Distancia: 0,23 km
+  Tiempo: 0,99 min
+  Velocidad: 14,00 km/h
+
+Arco 18: K23C120C -> K23C114
+  Distancia: 0,20 km
+  Tiempo: 0,84 min
+  Velocidad: 14,00 km/h
+
+Arco 19: K23C114 -> C112K24
+  Distancia: 0,13 km
+  Tiempo: 0,58 min
+  Velocidad: 14,00 km/h
+
+Arco 20: C112K24 -> C112K25
+  Distancia: 0,27 km
+  Tiempo: 1,14 min
+  Velocidad: 14,00 km/h
+
+Arco 21: C112K25 -> C112K26A
+  Distancia: 0,21 km
+  Tiempo: 0,92 min
+  Velocidad: 14,00 km/h
+
+Arco 22: C112K26A -> C112K26B
+  Distancia: 0,19 km
+  Tiempo: 0,81 min
+  Velocidad: 14,00 km/h
+
+Arco 23: C112K26B -> C112K26D
+  Distancia: 0,11 km
+  Tiempo: 0,49 min
+  Velocidad: 14,00 km/h
+
+Arco 24: C112K26D -> C112K26H
+  Distancia: 0,21 km
+  Tiempo: 0,91 min
+  Velocidad: 14,00 km/h
+
+Arco 25: C112K26H -> C112K26J
+  Distancia: 0,29 km
+  Tiempo: 1,26 min
+  Velocidad: 14,00 km/h
+
+Arco 26: C112K26J -> C112K26M
+  Distancia: 0,25 km
+  Tiempo: 1,08 min
+  Velocidad: 14,00 km/h
+
+Arco 27: C112K26M -> C112K109
+  Distancia: 0,26 km
+  Tiempo: 1,13 min
+  Velocidad: 14,00 km/h
+
+Arco 28: C112K109 -> K27C109
+  Distancia: 0,16 km
+  Tiempo: 0,67 min
+  Velocidad: 14,00 km/h
+
+Arco 29: K27C109 -> K27C1061
+  Distancia: 0,26 km
+  Tiempo: 1,09 min
+  Velocidad: 14,00 km/h
+
+Arco 30: K27C1061 -> K27C96
+  Distancia: 0,21 km
+  Tiempo: 0,88 min
+  Velocidad: 14,00 km/h
+
+Arco 31: K27C96 -> K27C91
+  Distancia: 0,27 km
+  Tiempo: 1,16 min
+  Velocidad: 14,00 km/h
+
+Arco 32: K27C91 -> K27C81
+  Distancia: 0,29 km
+  Tiempo: 1,26 min
+  Velocidad: 14,00 km/h
+
+Arco 33: K27C81 -> C72YK27A
+  Distancia: 0,37 km
+  Tiempo: 1,59 min
+  Velocidad: 14,00 km/h
+
+Arco 34: C72YK27A -> C79K28D
+  Distancia: 0,34 km
+  Tiempo: 1,44 min
+  Velocidad: 14,00 km/h
+
+Arco 35: C79K28D -> N.LATIR1
+  Distancia: 0,21 km
+  Tiempo: 0,90 min
+  Velocidad: 14,00 km/h
+
+Arco 36: N.LATIR1 -> AMANECE1
+  Distancia: 0,57 km
+  Tiempo: 1,70 min
+  Velocidad: 20,00 km/h
+
+Arco 37: AMANECE1 -> TRONCAL1
+  Distancia: 0,55 km
+  Tiempo: 1,66 min
+  Velocidad: 20,00 km/h
+
+Arco 38: TRONCAL1 -> TCALIPA4
+  Distancia: 0,68 km
+  Tiempo: 2,04 min
+  Velocidad: 20,00 km/h
+
+Arco 39: TCALIPA4 -> C70K29
+  Distancia: 0,45 km
+  Tiempo: 1,94 min
+  Velocidad: 14,00 km/h
+
+Arco 40: C70K29 -> C70K32
+  Distancia: 0,30 km
+  Tiempo: 1,30 min
+  Velocidad: 14,00 km/h
+
+Arco 41: C70K32 -> C70K34
+  Distancia: 0,32 km
+  Tiempo: 1,36 min
+  Velocidad: 14,00 km/h
+
+Arco 42: C70K34 -> C36K40
+  Distancia: 0,48 km
+  Tiempo: 2,05 min
+  Velocidad: 14,00 km/h
+
+Arco 43: C36K40 -> C36K41A
+  Distancia: 0,21 km
+  Tiempo: 0,91 min
+  Velocidad: 14,00 km/h
+
+Arco 44: C36K41A -> C36K42A
+  Distancia: 0,48 km
+  Tiempo: 2,04 min
+  Velocidad: 14,00 km/h
+
+Arco 45: C36K42A -> C36K44
+  Distancia: 0,32 km
+  Tiempo: 1,37 min
+  Velocidad: 14,00 km/h
+
+Arco 46: C36K44 -> C36K46B
+  Distancia: 0,39 km
+  Tiempo: 1,66 min
+  Velocidad: 14,00 km/h
+
+Arco 47: C36K46B -> C36K47B
+  Distancia: 0,19 km
+  Tiempo: 0,82 min
+  Velocidad: 14,00 km/h
+
+Arco 48: C36K47B -> C25K561
+  Distancia: 0,80 km
+  Tiempo: 2,41 min
+  Velocidad: 20,00 km/h
+
+Arco 49: C25K561 -> C25K66
+  Distancia: 0,60 km
+  Tiempo: 1,80 min
+  Velocidad: 20,00 km/h
+
+Arco 50: C25K66 -> C25K69A
+  Distancia: 0,32 km
+  Tiempo: 1,35 min
+  Velocidad: 14,00 km/h
+
+Arco 51: C25K69A -> C25K73
+  Distancia: 0,24 km
+  Tiempo: 1,02 min
+  Velocidad: 14,00 km/h
+
+Arco 52: C25K73 -> C25K83B2
+  Distancia: 0,66 km
+  Tiempo: 1,98 min
+  Velocidad: 20,00 km/h
+
+Arco 53: C25K83B2 -> C25K862
+  Distancia: 0,53 km
+  Tiempo: 1,59 min
+  Velocidad: 20,00 km/h
+
+Arco 54: C25K862 -> C25K89
+  Distancia: 0,37 km
+  Tiempo: 1,61 min
+  Velocidad: 14,00 km/h
+
+Arco 55: C25K89 -> C25K952
+  Distancia: 0,37 km
+  Tiempo: 1,58 min
+  Velocidad: 14,00 km/h
+
+Arco 56: C25K952 -> C25K981
+  Distancia: 0,31 km
+  Tiempo: 1,34 min
+  Velocidad: 14,00 km/h
+
+Arco 57: C25K981 -> UNIV2
+  Distancia: 0,53 km
+  Tiempo: 1,60 min
+  Velocidad: 20,00 km/h
+

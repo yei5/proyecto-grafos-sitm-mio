@@ -1,30 +1,31 @@
 == 321-0 ==
-Nodos: 11
-Arcos: 11
+Nodos: 9
+Arcos: 8
 ------------------------------------
 
-=== Lista de Nodos ===
-600105 - TMENGA6
-513046 - K4NC71D1
-513045 - K4NC721
-600107 - TMENGA8
-513044 - K4NC72B1
-513043 - K4NC72K1
-513047 - K4NC70
-500107 - TMENGA8
-500105 - TMENGA6
-513042 - K4NC771
-513041 - K4NC841
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+513046 - K4NC71D1 - GPS: (3,489472, -76,498078)
+513045 - K4NC721 - GPS: (3,491092, -76,496978)
+600107 - TMENGA8 - GPS: (3,489458, -76,508906)
+513044 - K4NC72B1 - GPS: (3,493426, -76,495380)
+513043 - K4NC72K1 - GPS: (3,495217, -76,494340)
+513047 - K4NC70 - GPS: (3,487691, -76,499313)
+500105 - TMENGA6 - GPS: (3,489300, -76,508236)
+513042 - K4NC771 - GPS: (3,496948, -76,493398)
+513041 - K4NC841 - GPS: (3,498863, -76,492303)
 
-=== Lista de Arcos ===
-513041 -> 500105  (Ruta: A21 - Ida)
-500105 -> 513042  (Ruta: A21 - Ida)
-513042 -> 600105  (Ruta: A21 - Ida)
-600105 -> 513043  (Ruta: A21 - Ida)
-513043 -> 600107  (Ruta: A21 - Ida)
-600107 -> 513044  (Ruta: A21 - Ida)
-513044 -> 500107  (Ruta: A21 - Ida)
-500107 -> 513045  (Ruta: A21 - Ida)
-513045 -> 513046  (Ruta: A21 - Ida)
-513046 -> 513047  (Ruta: A21 - Ida)
-513047 -> 500105  (Ruta: A21 - Ida)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: A21 - Ida (8 arcos) ---
+1. Origen: TMENGA6 (ID: 500105) -> Destino: TMENGA8 (ID: 600107) | Ruta: A21 - Ida
+2. Origen: K4NC841 (ID: 513041) -> Destino: K4NC771 (ID: 513042) | Ruta: A21 - Ida
+3. Origen: K4NC771 (ID: 513042) -> Destino: K4NC72K1 (ID: 513043) | Ruta: A21 - Ida
+4. Origen: K4NC72K1 (ID: 513043) -> Destino: K4NC72B1 (ID: 513044) | Ruta: A21 - Ida
+5. Origen: K4NC72B1 (ID: 513044) -> Destino: K4NC721 (ID: 513045) | Ruta: A21 - Ida
+6. Origen: K4NC721 (ID: 513045) -> Destino: K4NC71D1 (ID: 513046) | Ruta: A21 - Ida
+7. Origen: K4NC71D1 (ID: 513046) -> Destino: K4NC70 (ID: 513047) | Ruta: A21 - Ida
+8. Origen: K4NC70 (ID: 513047) -> Destino: TMENGA6 (ID: 500105) | Ruta: A21 - Ida

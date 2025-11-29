@@ -1,0 +1,102 @@
+========================================
+REPORTE DE RUTA: A02-1
+========================================
+
+Información General:
+  Número de Arcos: 18
+  Distancia Total: 5,45 km
+  Tiempo Total: 19,40 min
+  Velocidad Promedio: 16,50 km/h
+
+Detalle de Arcos:
+------------------------------------------------------------
+Arco 1: C9K15 -> C9K12
+  Distancia: 0,26 km
+  Tiempo: 1,01 min
+  Velocidad: 15,40 km/h
+
+Arco 2: C9K12 -> C9K8
+  Distancia: 0,50 km
+  Tiempo: 1,37 min
+  Velocidad: 22,00 km/h
+
+Arco 3: C9K8 -> K4C9
+  Distancia: 0,23 km
+  Tiempo: 0,88 min
+  Velocidad: 15,40 km/h
+
+Arco 4: K4C9 -> K4C5
+  Distancia: 0,35 km
+  Tiempo: 1,35 min
+  Velocidad: 15,40 km/h
+
+Arco 5: K4C5 -> K3C1OE
+  Distancia: 0,40 km
+  Tiempo: 1,57 min
+  Velocidad: 15,40 km/h
+
+Arco 6: K3C1OE -> K2C2OE
+  Distancia: 0,14 km
+  Tiempo: 0,53 min
+  Velocidad: 15,40 km/h
+
+Arco 7: K2C2OE -> A4NC5
+  Distancia: 0,58 km
+  Tiempo: 1,58 min
+  Velocidad: 22,00 km/h
+
+Arco 8: A4NC5 -> A4NC6
+  Distancia: 0,32 km
+  Tiempo: 1,26 min
+  Velocidad: 15,40 km/h
+
+Arco 9: A4NC6 -> C7OEAV1
+  Distancia: 0,12 km
+  Tiempo: 0,46 min
+  Velocidad: 15,40 km/h
+
+Arco 10: C7OEAV1 -> K1C9OE
+  Distancia: 0,19 km
+  Tiempo: 0,74 min
+  Velocidad: 15,40 km/h
+
+Arco 11: K1C9OE -> K1C11OE
+  Distancia: 0,32 km
+  Tiempo: 1,25 min
+  Velocidad: 15,40 km/h
+
+Arco 12: K1C11OE -> K2OEC14
+  Distancia: 0,50 km
+  Tiempo: 1,37 min
+  Velocidad: 22,00 km/h
+
+Arco 13: K2OEC14 -> AV2OE
+  Distancia: 0,23 km
+  Tiempo: 0,91 min
+  Velocidad: 15,40 km/h
+
+Arco 14: AV2OE -> AV2OEC20
+  Distancia: 0,31 km
+  Tiempo: 1,23 min
+  Velocidad: 15,40 km/h
+
+Arco 15: AV2OEC20 -> AV2OEATE
+  Distancia: 0,23 km
+  Tiempo: 0,91 min
+  Velocidad: 15,40 km/h
+
+Arco 16: C9K12 -> K10C8
+  Distancia: 0,26 km
+  Tiempo: 1,01 min
+  Velocidad: 15,40 km/h
+
+Arco 17: K10C8 -> C5K7
+  Distancia: 0,25 km
+  Tiempo: 0,98 min
+  Velocidad: 15,40 km/h
+
+Arco 18: C5K7 -> K4C5
+  Distancia: 0,25 km
+  Tiempo: 0,99 min
+  Velocidad: 15,40 km/h
+

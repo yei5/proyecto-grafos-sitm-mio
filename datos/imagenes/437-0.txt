@@ -1,40 +1,41 @@
 == 437-0 ==
-Nodos: 16
-Arcos: 16
+Nodos: 14
+Arcos: 13
 ------------------------------------
 
-=== Lista de Nodos ===
-500601 - TORRE2
-500401 - MZAN2
-501853 - UDP4
-501601 - SNTLIB2
-504009 - PCOMERA2
-501701 - ESTAD2
-504017 - PCOMERB4
-500251 - FLORAI2
-501753 - TEQUE 4
-501500 - PTCUY2
-500301 - SALOM2
-500201 - CHIMI2
-501550 - SANPED2
-501001 - SANBO2
-604009 - PCOMERA2
-604017 - PCOMERB4
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+500601 - TORRE2 - GPS: (3,456748, -76,530308)
+500401 - MZAN2 - GPS: (3,466320, -76,513220)
+501853 - UDP4 - GPS: (3,414993, -76,548227)
+501601 - SNTLIB2 - GPS: (3,439612, -76,537175)
+501701 - ESTAD2 - GPS: (3,431722, -76,543117)
+504017 - PCOMERB4 - GPS: (3,489644, -76,492520)
+500251 - FLORAI2 - GPS: (3,478355, -76,502095)
+501753 - TEQUE 4 - GPS: (3,423815, -76,546852)
+501500 - PTCUY2 - GPS: (3,448708, -76,527767)
+500301 - SALOM2 - GPS: (3,473852, -76,506555)
+500201 - CHIMI2 - GPS: (3,481602, -76,498077)
+501550 - SANPED2 - GPS: (3,454100, -76,529950)
+501001 - SANBO2 - GPS: (3,442245, -76,532565)
+604009 - PCOMERA2 - GPS: (3,489898, -76,492648)
 
-=== Lista de Arcos ===
-501853 -> 504017  (Ruta: E37 - Ida)
-504017 -> 501753  (Ruta: E37 - Ida)
-501753 -> 604017  (Ruta: E37 - Ida)
-604017 -> 501701  (Ruta: E37 - Ida)
-501701 -> 604009  (Ruta: E37 - Ida)
-604009 -> 501601  (Ruta: E37 - Ida)
-501601 -> 504009  (Ruta: E37 - Ida)
-504009 -> 501001  (Ruta: E37 - Ida)
-501001 -> 501500  (Ruta: E37 - Ida)
-501500 -> 501550  (Ruta: E37 - Ida)
-501550 -> 500601  (Ruta: E37 - Ida)
-500601 -> 500401  (Ruta: E37 - Ida)
-500401 -> 500301  (Ruta: E37 - Ida)
-500301 -> 500251  (Ruta: E37 - Ida)
-500251 -> 500201  (Ruta: E37 - Ida)
-500201 -> 504017  (Ruta: E37 - Ida)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: E37 - Ida (13 arcos) ---
+1. Origen: PCOMERB4 (ID: 504017) -> Destino: PCOMERA2 (ID: 604009) | Ruta: E37 - Ida
+2. Origen: UDP4 (ID: 501853) -> Destino: TEQUE 4 (ID: 501753) | Ruta: E37 - Ida
+3. Origen: TEQUE 4 (ID: 501753) -> Destino: ESTAD2 (ID: 501701) | Ruta: E37 - Ida
+4. Origen: ESTAD2 (ID: 501701) -> Destino: SNTLIB2 (ID: 501601) | Ruta: E37 - Ida
+5. Origen: SNTLIB2 (ID: 501601) -> Destino: SANBO2 (ID: 501001) | Ruta: E37 - Ida
+6. Origen: SANBO2 (ID: 501001) -> Destino: PTCUY2 (ID: 501500) | Ruta: E37 - Ida
+7. Origen: PTCUY2 (ID: 501500) -> Destino: SANPED2 (ID: 501550) | Ruta: E37 - Ida
+8. Origen: SANPED2 (ID: 501550) -> Destino: TORRE2 (ID: 500601) | Ruta: E37 - Ida
+9. Origen: TORRE2 (ID: 500601) -> Destino: MZAN2 (ID: 500401) | Ruta: E37 - Ida
+10. Origen: MZAN2 (ID: 500401) -> Destino: SALOM2 (ID: 500301) | Ruta: E37 - Ida
+11. Origen: SALOM2 (ID: 500301) -> Destino: FLORAI2 (ID: 500251) | Ruta: E37 - Ida
+12. Origen: FLORAI2 (ID: 500251) -> Destino: CHIMI2 (ID: 500201) | Ruta: E37 - Ida
+13. Origen: CHIMI2 (ID: 500201) -> Destino: PCOMERB4 (ID: 504017) | Ruta: E37 - Ida

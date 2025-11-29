@@ -1,42 +1,39 @@
 == 452-0 ==
-Nodos: 16
-Arcos: 18
+Nodos: 13
+Arcos: 12
 ------------------------------------
 
-=== Lista de Nodos ===
-512022 - A3NC31
-512023 - A3NC24
-618196 - R-CALP1
-500600 - TORRE1
-502601 - N.LATIR1
-502700 - TRONCAL2
-502900 - PRIMITI2
-518196 - R-CALP1
-502850 - ST.MONI2
-502600 - N.LATIR2
-503003 - TCALIPB3
-502650 - AMANECE2
-502750 - CONQUIS2
-502350 - VERSALL1
-602601 - N.LATIR1
-602600 - N.LATIR2
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+512022 - A3NC31 - GPS: (3,470591, -76,522063)
+512023 - A3NC24 - GPS: (3,466952, -76,524030)
+618196 - R-CALP1 - GPS: (3,428417, -76,498857)
+500600 - TORRE1 - GPS: (3,456978, -76,530307)
+502700 - TRONCAL2 - GPS: (3,424729, -76,494533)
+502900 - PRIMITI2 - GPS: (3,437248, -76,517606)
+502850 - ST.MONI2 - GPS: (3,434532, -76,513916)
+502600 - N.LATIR2 - GPS: (3,418324, -76,486744)
+503003 - TCALIPB3 - GPS: (3,427102, -76,500023)
+502650 - AMANECE2 - GPS: (3,421440, -76,490776)
+502750 - CONQUIS2 - GPS: (3,426979, -76,505257)
+502350 - VERSALL1 - GPS: (3,461037, -76,527197)
+602601 - N.LATIR1 - GPS: (3,418479, -76,486840)
 
-=== Lista de Arcos ===
-512022 -> 502600  (Ruta: E52 - Ida)
-502600 -> 502600  (Ruta: E52 - Ida)
-502600 -> 512023  (Ruta: E52 - Ida)
-512023 -> 602600  (Ruta: E52 - Ida)
-602600 -> 602600  (Ruta: E52 - Ida)
-602600 -> 502350  (Ruta: E52 - Ida)
-502350 -> 602601  (Ruta: E52 - Ida)
-602601 -> 618196  (Ruta: E52 - Ida)
-618196 -> 500600  (Ruta: E52 - Ida)
-500600 -> 502601  (Ruta: E52 - Ida)
-502601 -> 518196  (Ruta: E52 - Ida)
-518196 -> 502900  (Ruta: E52 - Ida)
-502900 -> 502850  (Ruta: E52 - Ida)
-502850 -> 502750  (Ruta: E52 - Ida)
-502750 -> 503003  (Ruta: E52 - Ida)
-503003 -> 502700  (Ruta: E52 - Ida)
-502700 -> 502650  (Ruta: E52 - Ida)
-502650 -> 502600  (Ruta: E52 - Ida)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: E52 - Ida (12 arcos) ---
+1. Origen: N.LATIR2 (ID: 502600) -> Destino: R-CALP1 (ID: 618196) | Ruta: E52 - Ida
+2. Origen: A3NC31 (ID: 512022) -> Destino: A3NC24 (ID: 512023) | Ruta: E52 - Ida
+3. Origen: A3NC24 (ID: 512023) -> Destino: VERSALL1 (ID: 502350) | Ruta: E52 - Ida
+4. Origen: VERSALL1 (ID: 502350) -> Destino: TORRE1 (ID: 500600) | Ruta: E52 - Ida
+5. Origen: TORRE1 (ID: 500600) -> Destino: PRIMITI2 (ID: 502900) | Ruta: E52 - Ida
+6. Origen: PRIMITI2 (ID: 502900) -> Destino: ST.MONI2 (ID: 502850) | Ruta: E52 - Ida
+7. Origen: ST.MONI2 (ID: 502850) -> Destino: CONQUIS2 (ID: 502750) | Ruta: E52 - Ida
+8. Origen: CONQUIS2 (ID: 502750) -> Destino: TCALIPB3 (ID: 503003) | Ruta: E52 - Ida
+9. Origen: TCALIPB3 (ID: 503003) -> Destino: TRONCAL2 (ID: 502700) | Ruta: E52 - Ida
+10. Origen: TRONCAL2 (ID: 502700) -> Destino: AMANECE2 (ID: 502650) | Ruta: E52 - Ida
+11. Origen: AMANECE2 (ID: 502650) -> Destino: N.LATIR2 (ID: 502600) | Ruta: E52 - Ida
+12. Origen: N.LATIR2 (ID: 502600) -> Destino: N.LATIR1 (ID: 602601) | Ruta: E52 - Ida

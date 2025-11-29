@@ -1,55 +1,49 @@
 == 371-0 ==
-Nodos: 20
-Arcos: 27
+Nodos: 18
+Arcos: 17
 ------------------------------------
 
-=== Lista de Nodos ===
-517228 - C1K55
-517029 - K70C1OE1
-517026 - C1K64A2
-517015 - K52C22
-517028 - C1K692
-517017 - C1K532
-517033 - C1AOEK75
-517032 - C2AOEK75
-517021 - C1K592
-517023 - C1K622
-517232 - C1K562
-517177 - C1K561
-517084 - C1AOEK72
-517083 - C1AK73B1
-517031 - C2AOK74C
-517030 - C2OEK721
-600050 - T.C-A1
-600051 - T.C-A2
-500051 - T.C-A2
-500050 - T.C-A1
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+517228 - C1K55 - GPS: (3,412795, -76,555573)
+517029 - K70C1OE1 - GPS: (3,392610, -76,557167)
+517026 - C1K64A2 - GPS: (3,400200, -76,556770)
+517015 - K52C22 - GPS: (3,415267, -76,552378)
+517028 - C1K692 - GPS: (3,394668, -76,556927)
+517017 - C1K532 - GPS: (3,415018, -76,554929)
+517033 - C1AOEK75 - GPS: (3,389118, -76,557362)
+517032 - C2AOEK75 - GPS: (3,387630, -76,558740)
+517021 - C1K592 - GPS: (3,407385, -76,555632)
+517023 - C1K622 - GPS: (3,405366, -76,555816)
+517232 - C1K562 - GPS: (3,408790, -76,555653)
+517177 - C1K561 - GPS: (3,411143, -76,555637)
+517084 - C1AOEK72 - GPS: (3,392200, -76,557198)
+517083 - C1AK73B1 - GPS: (3,390437, -76,557187)
+517031 - C2AOK74C - GPS: (3,389122, -76,558438)
+517030 - C2OEK721 - GPS: (3,390617, -76,557885)
+600050 - T.C-A1 - GPS: (3,414768, -76,549621)
+500051 - T.C-A2 - GPS: (3,414543, -76,549573)
 
-=== Lista de Arcos ===
-517029 -> 517029  (Ruta: A71 - Ida)
-517029 -> 500051  (Ruta: A71 - Ida)
-500051 -> 517030  (Ruta: A71 - Ida)
-517030 -> 517030  (Ruta: A71 - Ida)
-517030 -> 600051  (Ruta: A71 - Ida)
-600051 -> 517031  (Ruta: A71 - Ida)
-517031 -> 517031  (Ruta: A71 - Ida)
-517031 -> 600050  (Ruta: A71 - Ida)
-600050 -> 517032  (Ruta: A71 - Ida)
-517032 -> 517032  (Ruta: A71 - Ida)
-517032 -> 500050  (Ruta: A71 - Ida)
-500050 -> 517033  (Ruta: A71 - Ida)
-517033 -> 517033  (Ruta: A71 - Ida)
-517033 -> 517083  (Ruta: A71 - Ida)
-517083 -> 517083  (Ruta: A71 - Ida)
-517083 -> 517084  (Ruta: A71 - Ida)
-517084 -> 517084  (Ruta: A71 - Ida)
-517084 -> 517028  (Ruta: A71 - Ida)
-517028 -> 517026  (Ruta: A71 - Ida)
-517026 -> 517023  (Ruta: A71 - Ida)
-517023 -> 517021  (Ruta: A71 - Ida)
-517021 -> 517232  (Ruta: A71 - Ida)
-517232 -> 517177  (Ruta: A71 - Ida)
-517177 -> 517228  (Ruta: A71 - Ida)
-517228 -> 517017  (Ruta: A71 - Ida)
-517017 -> 517015  (Ruta: A71 - Ida)
-517015 -> 500051  (Ruta: A71 - Ida)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: A71 - Ida (17 arcos) ---
+1. Origen: K70C1OE1 (ID: 517029) -> Destino: C2OEK721 (ID: 517030) | Ruta: A71 - Ida
+2. Origen: C2OEK721 (ID: 517030) -> Destino: C2AOK74C (ID: 517031) | Ruta: A71 - Ida
+3. Origen: C2AOK74C (ID: 517031) -> Destino: C2AOEK75 (ID: 517032) | Ruta: A71 - Ida
+4. Origen: C2AOEK75 (ID: 517032) -> Destino: C1AOEK75 (ID: 517033) | Ruta: A71 - Ida
+5. Origen: C1AOEK75 (ID: 517033) -> Destino: C1AK73B1 (ID: 517083) | Ruta: A71 - Ida
+6. Origen: C1AK73B1 (ID: 517083) -> Destino: C1AOEK72 (ID: 517084) | Ruta: A71 - Ida
+7. Origen: C1AOEK72 (ID: 517084) -> Destino: C1K692 (ID: 517028) | Ruta: A71 - Ida
+8. Origen: C1K692 (ID: 517028) -> Destino: C1K64A2 (ID: 517026) | Ruta: A71 - Ida
+9. Origen: C1K64A2 (ID: 517026) -> Destino: C1K622 (ID: 517023) | Ruta: A71 - Ida
+10. Origen: C1K622 (ID: 517023) -> Destino: C1K592 (ID: 517021) | Ruta: A71 - Ida
+11. Origen: C1K592 (ID: 517021) -> Destino: C1K562 (ID: 517232) | Ruta: A71 - Ida
+12. Origen: C1K562 (ID: 517232) -> Destino: C1K561 (ID: 517177) | Ruta: A71 - Ida
+13. Origen: C1K561 (ID: 517177) -> Destino: C1K55 (ID: 517228) | Ruta: A71 - Ida
+14. Origen: C1K55 (ID: 517228) -> Destino: C1K532 (ID: 517017) | Ruta: A71 - Ida
+15. Origen: C1K532 (ID: 517017) -> Destino: K52C22 (ID: 517015) | Ruta: A71 - Ida
+16. Origen: K52C22 (ID: 517015) -> Destino: T.C-A2 (ID: 500051) | Ruta: A71 - Ida
+17. Origen: T.C-A2 (ID: 500051) -> Destino: T.C-A1 (ID: 600050) | Ruta: A71 - Ida

@@ -1,0 +1,62 @@
+========================================
+REPORTE DE RUTA: A11-1
+========================================
+
+Información General:
+  Número de Arcos: 10
+  Distancia Total: 3,36 km
+  Tiempo Total: 12,49 min
+  Velocidad Promedio: 16,06 km/h
+
+Detalle de Arcos:
+------------------------------------------------------------
+Arco 1: UNIV3 -> C16K100
+  Distancia: 0,21 km
+  Tiempo: 0,81 min
+  Velocidad: 15,40 km/h
+
+Arco 2: C16K100 -> C18K105
+  Distancia: 0,40 km
+  Tiempo: 1,57 min
+  Velocidad: 15,40 km/h
+
+Arco 3: C18K105 -> C18K106
+  Distancia: 0,23 km
+  Tiempo: 0,89 min
+  Velocidad: 15,40 km/h
+
+Arco 4: C18K106 -> C18K114
+  Distancia: 0,27 km
+  Tiempo: 1,07 min
+  Velocidad: 15,40 km/h
+
+Arco 5: C18K114 -> C18K1142
+  Distancia: 0,26 km
+  Tiempo: 1,01 min
+  Velocidad: 15,40 km/h
+
+Arco 6: C18K1142 -> C18K114B
+  Distancia: 0,39 km
+  Tiempo: 1,50 min
+  Velocidad: 15,40 km/h
+
+Arco 7: C18K114B -> C18K118
+  Distancia: 0,51 km
+  Tiempo: 1,38 min
+  Velocidad: 22,00 km/h
+
+Arco 8: C18K118 -> C18K122
+  Distancia: 0,47 km
+  Tiempo: 1,83 min
+  Velocidad: 15,40 km/h
+
+Arco 9: C18K122 -> C18K125
+  Distancia: 0,26 km
+  Tiempo: 1,03 min
+  Velocidad: 15,40 km/h
+
+Arco 10: C18K125 -> K125C20
+  Distancia: 0,36 km
+  Tiempo: 1,41 min
+  Velocidad: 15,40 km/h
+

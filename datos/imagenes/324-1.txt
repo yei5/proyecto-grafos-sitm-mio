@@ -3,31 +3,37 @@ Nodos: 13
 Arcos: 12
 ------------------------------------
 
-=== Lista de Nodos ===
-512165 - C38NA3
-512176 - A9NC56N
-512166 - C38NA3G
-512155 - A9NC56
-512174 - A7NC53AN
-512175 - C53ANA7B
-512169 - C47NA4
-512167 - A4NC40
-512168 - A4NC45N
-512172 - C47NA7N
-512173 - A8NC50N
-512170 - C47NA5A
-512171 - C47NA6AN
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+512165 - C38NA3 - GPS: (3,474667, -76,520117)
+512176 - A9NC56N - GPS: (3,489127, -76,532134)
+512166 - C38NA3G - GPS: (3,475982, -76,522568)
+512155 - A9NC56 - GPS: (3,488924, -76,532060)
+512174 - A7NC53AN - GPS: (3,487357, -76,529078)
+512175 - C53ANA7B - GPS: (3,487653, -76,530478)
+512169 - C47NA4 - GPS: (3,483267, -76,521681)
+512167 - A4NC40 - GPS: (3,478596, -76,522543)
+512168 - A4NC45N - GPS: (3,481726, -76,521436)
+512172 - C47NA7N - GPS: (3,484376, -76,528082)
+512173 - A8NC50N - GPS: (3,486085, -76,529592)
+512170 - C47NA5A - GPS: (3,484201, -76,524255)
+512171 - C47NA6AN - GPS: (3,484372, -76,526459)
 
-=== Lista de Arcos ===
-512165 -> 512166  (Ruta: A24 - Vuelta)
-512166 -> 512167  (Ruta: A24 - Vuelta)
-512167 -> 512168  (Ruta: A24 - Vuelta)
-512168 -> 512169  (Ruta: A24 - Vuelta)
-512169 -> 512170  (Ruta: A24 - Vuelta)
-512170 -> 512171  (Ruta: A24 - Vuelta)
-512171 -> 512172  (Ruta: A24 - Vuelta)
-512172 -> 512173  (Ruta: A24 - Vuelta)
-512173 -> 512174  (Ruta: A24 - Vuelta)
-512174 -> 512175  (Ruta: A24 - Vuelta)
-512175 -> 512176  (Ruta: A24 - Vuelta)
-512176 -> 512155  (Ruta: A24 - Vuelta)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: A24 - Vuelta (12 arcos) ---
+1. Origen: C38NA3 (ID: 512165) -> Destino: C38NA3G (ID: 512166) | Ruta: A24 - Vuelta
+2. Origen: C38NA3G (ID: 512166) -> Destino: A4NC40 (ID: 512167) | Ruta: A24 - Vuelta
+3. Origen: A4NC40 (ID: 512167) -> Destino: A4NC45N (ID: 512168) | Ruta: A24 - Vuelta
+4. Origen: A4NC45N (ID: 512168) -> Destino: C47NA4 (ID: 512169) | Ruta: A24 - Vuelta
+5. Origen: C47NA4 (ID: 512169) -> Destino: C47NA5A (ID: 512170) | Ruta: A24 - Vuelta
+6. Origen: C47NA5A (ID: 512170) -> Destino: C47NA6AN (ID: 512171) | Ruta: A24 - Vuelta
+7. Origen: C47NA6AN (ID: 512171) -> Destino: C47NA7N (ID: 512172) | Ruta: A24 - Vuelta
+8. Origen: C47NA7N (ID: 512172) -> Destino: A8NC50N (ID: 512173) | Ruta: A24 - Vuelta
+9. Origen: A8NC50N (ID: 512173) -> Destino: A7NC53AN (ID: 512174) | Ruta: A24 - Vuelta
+10. Origen: A7NC53AN (ID: 512174) -> Destino: C53ANA7B (ID: 512175) | Ruta: A24 - Vuelta
+11. Origen: C53ANA7B (ID: 512175) -> Destino: A9NC56N (ID: 512176) | Ruta: A24 - Vuelta
+12. Origen: A9NC56N (ID: 512176) -> Destino: A9NC56 (ID: 512155) | Ruta: A24 - Vuelta

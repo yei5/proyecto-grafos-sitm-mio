@@ -1,88 +1,64 @@
 == 3452-0 ==
 Nodos: 25
-Arcos: 55
+Arcos: 25
 ------------------------------------
 
-=== Lista de Nodos ===
-514454 - C63K7P
-514453 - K7LC64
-514452 - K7LC67A
-514451 - K7EBC69
-514396 - C59K8
-514458 - C52K12C
-514457 - C52K12
-514434 - C61K7RB
-514456 - C52K10
-514455 - C52K8
-514257 - K12C59
-514450 - K7CC692
-514131 - K8C59
-514392 - K12C56
-514129 - K8C561
-514245 - C61K7VBS
-514464 - K7CC68
-514243 - C63K7F
-514463 - K7CC64
-514342 - C59K10
-514462 - C63K7E
-514461 - C63K7S
-514241 - C67K7E
-514460 - C63K8
-514459 - C52K14
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+514454 - C63K7P - GPS: (3,456316, -76,488164)
+514453 - K7LC64 - GPS: (3,457684, -76,488153)
+514452 - K7LC67A - GPS: (3,457485, -76,485863)
+514451 - K7EBC69 - GPS: (3,460713, -76,483999)
+514396 - C59K8 - GPS: (3,451277, -76,493171)
+514458 - C52K12C - GPS: (3,446334, -76,499393)
+514457 - C52K12 - GPS: (3,448029, -76,499201)
+514434 - C61K7RB - GPS: (3,455584, -76,489814)
+514456 - C52K10 - GPS: (3,450032, -76,498984)
+514455 - C52K8 - GPS: (3,452297, -76,498764)
+514257 - K12C59 - GPS: (3,447774, -76,494298)
+514450 - K7CC692 - GPS: (3,462808, -76,484354)
+514131 - K8C59 - GPS: (3,452788, -76,492523)
+514392 - K12C56 - GPS: (3,448225, -76,496655)
+514129 - K8C561 - GPS: (3,452608, -76,495612)
+514245 - C61K7VBS - GPS: (3,453009, -76,490069)
+514464 - K7CC68 - GPS: (3,462516, -76,485779)
+514243 - C63K7F - GPS: (3,457766, -76,488417)
+514463 - K7CC64 - GPS: (3,461534, -76,488478)
+514342 - C59K10 - GPS: (3,449795, -76,493462)
+514462 - C63K7E - GPS: (3,459697, -76,488953)
+514461 - C63K7S - GPS: (3,455077, -76,488212)
+514241 - C67K7E - GPS: (3,459628, -76,486425)
+514460 - C63K8 - GPS: (3,452823, -76,488417)
+514459 - C52K14 - GPS: (3,444633, -76,499556)
 
-=== Lista de Arcos ===
-514460 -> 514460  (Ruta: A45B - Ida)
-514460 -> 514460  (Ruta: A45B - Ida)
-514460 -> 514461  (Ruta: A45B - Ida)
-514461 -> 514461  (Ruta: A45B - Ida)
-514461 -> 514461  (Ruta: A45B - Ida)
-514461 -> 514243  (Ruta: A45B - Ida)
-514243 -> 514243  (Ruta: A45B - Ida)
-514243 -> 514243  (Ruta: A45B - Ida)
-514243 -> 514462  (Ruta: A45B - Ida)
-514462 -> 514462  (Ruta: A45B - Ida)
-514462 -> 514462  (Ruta: A45B - Ida)
-514462 -> 514463  (Ruta: A45B - Ida)
-514463 -> 514463  (Ruta: A45B - Ida)
-514463 -> 514463  (Ruta: A45B - Ida)
-514463 -> 514464  (Ruta: A45B - Ida)
-514464 -> 514464  (Ruta: A45B - Ida)
-514464 -> 514464  (Ruta: A45B - Ida)
-514464 -> 514450  (Ruta: A45B - Ida)
-514450 -> 514450  (Ruta: A45B - Ida)
-514450 -> 514450  (Ruta: A45B - Ida)
-514450 -> 514451  (Ruta: A45B - Ida)
-514451 -> 514451  (Ruta: A45B - Ida)
-514451 -> 514451  (Ruta: A45B - Ida)
-514451 -> 514241  (Ruta: A45B - Ida)
-514241 -> 514241  (Ruta: A45B - Ida)
-514241 -> 514241  (Ruta: A45B - Ida)
-514241 -> 514452  (Ruta: A45B - Ida)
-514452 -> 514452  (Ruta: A45B - Ida)
-514452 -> 514452  (Ruta: A45B - Ida)
-514452 -> 514453  (Ruta: A45B - Ida)
-514453 -> 514453  (Ruta: A45B - Ida)
-514453 -> 514453  (Ruta: A45B - Ida)
-514453 -> 514454  (Ruta: A45B - Ida)
-514454 -> 514454  (Ruta: A45B - Ida)
-514454 -> 514454  (Ruta: A45B - Ida)
-514454 -> 514434  (Ruta: A45B - Ida)
-514434 -> 514434  (Ruta: A45B - Ida)
-514434 -> 514434  (Ruta: A45B - Ida)
-514434 -> 514245  (Ruta: A45B - Ida)
-514245 -> 514245  (Ruta: A45B - Ida)
-514245 -> 514245  (Ruta: A45B - Ida)
-514245 -> 514131  (Ruta: A45B - Ida)
-514131 -> 514396  (Ruta: A45B - Ida)
-514396 -> 514129  (Ruta: A45B - Ida)
-514129 -> 514342  (Ruta: A45B - Ida)
-514342 -> 514455  (Ruta: A45B - Ida)
-514455 -> 514257  (Ruta: A45B - Ida)
-514257 -> 514456  (Ruta: A45B - Ida)
-514456 -> 514392  (Ruta: A45B - Ida)
-514392 -> 514457  (Ruta: A45B - Ida)
-514457 -> 514457  (Ruta: A45B - Ida)
-514457 -> 514458  (Ruta: A45B - Ida)
-514458 -> 514458  (Ruta: A45B - Ida)
-514458 -> 514459  (Ruta: A45B - Ida)
-514459 -> 514459  (Ruta: A45B - Ida)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: A45B - Ida (25 arcos) ---
+1. Origen: C63K8 (ID: 514460) -> Destino: C63K7S (ID: 514461) | Ruta: A45B - Ida
+2. Origen: C63K7S (ID: 514461) -> Destino: C63K7F (ID: 514243) | Ruta: A45B - Ida
+3. Origen: C63K7F (ID: 514243) -> Destino: C63K7E (ID: 514462) | Ruta: A45B - Ida
+4. Origen: C63K7E (ID: 514462) -> Destino: K7CC64 (ID: 514463) | Ruta: A45B - Ida
+5. Origen: K7CC64 (ID: 514463) -> Destino: K7CC68 (ID: 514464) | Ruta: A45B - Ida
+6. Origen: K7CC68 (ID: 514464) -> Destino: K7CC692 (ID: 514450) | Ruta: A45B - Ida
+7. Origen: K7CC692 (ID: 514450) -> Destino: K7EBC69 (ID: 514451) | Ruta: A45B - Ida
+8. Origen: K7EBC69 (ID: 514451) -> Destino: C67K7E (ID: 514241) | Ruta: A45B - Ida
+9. Origen: C67K7E (ID: 514241) -> Destino: K7LC67A (ID: 514452) | Ruta: A45B - Ida
+10. Origen: K7LC67A (ID: 514452) -> Destino: K7LC64 (ID: 514453) | Ruta: A45B - Ida
+11. Origen: K7LC64 (ID: 514453) -> Destino: C63K7P (ID: 514454) | Ruta: A45B - Ida
+12. Origen: C63K7P (ID: 514454) -> Destino: C61K7RB (ID: 514434) | Ruta: A45B - Ida
+13. Origen: C61K7RB (ID: 514434) -> Destino: C61K7VBS (ID: 514245) | Ruta: A45B - Ida
+14. Origen: C61K7VBS (ID: 514245) -> Destino: K8C59 (ID: 514131) | Ruta: A45B - Ida
+15. Origen: K8C59 (ID: 514131) -> Destino: K8C561 (ID: 514129) | Ruta: A45B - Ida
+16. Origen: K8C561 (ID: 514129) -> Destino: C52K8 (ID: 514455) | Ruta: A45B - Ida
+17. Origen: C52K8 (ID: 514455) -> Destino: C52K10 (ID: 514456) | Ruta: A45B - Ida
+18. Origen: C52K10 (ID: 514456) -> Destino: C52K12 (ID: 514457) | Ruta: A45B - Ida
+19. Origen: C52K12 (ID: 514457) -> Destino: C52K12C (ID: 514458) | Ruta: A45B - Ida
+20. Origen: C52K12C (ID: 514458) -> Destino: C52K14 (ID: 514459) | Ruta: A45B - Ida
+21. Origen: C61K7VBS (ID: 514245) -> Destino: C59K8 (ID: 514396) | Ruta: A45B - Ida
+22. Origen: C59K8 (ID: 514396) -> Destino: C59K10 (ID: 514342) | Ruta: A45B - Ida
+23. Origen: C59K10 (ID: 514342) -> Destino: K12C59 (ID: 514257) | Ruta: A45B - Ida
+24. Origen: K12C59 (ID: 514257) -> Destino: K12C56 (ID: 514392) | Ruta: A45B - Ida
+25. Origen: K12C56 (ID: 514392) -> Destino: C52K12 (ID: 514457) | Ruta: A45B - Ida

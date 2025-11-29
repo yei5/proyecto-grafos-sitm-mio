@@ -3,6 +3,7 @@ package com.sitm.mio.grafos;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.PrintWriter;
+import java.util.List;
 import java.util.Map;
 
 public class Main {
@@ -37,8 +38,10 @@ public class Main {
 
             // Imagen del grafo general
             String pngGeneral = new File(rutaDirectorioCSV, "grafo_exportado.png").getAbsolutePath();
-            VisualizadorGrafo.exportar(grafoGeneral, pngGeneral);
+            VisualizadorGrafo.exportar(grafoGeneral, pngGeneral, "Grafo General SITM-MIO - Cali, Colombia");
             System.out.println("Imagen generada: " + pngGeneral);
+            
+            // El mapa real se renderiza automáticamente en la imagen PNG si JXMapViewer2 está disponible
 
             // TXT del grafo general
             String txtGeneral = new File(rutaDirectorioCSV, "grafo_exportado.txt").getAbsolutePath();
@@ -69,8 +72,10 @@ public class Main {
 
                 // Imagen PNG por ruta
                 String rutaPng = new File(dirImagenes, nombre + ".png").getAbsolutePath();
-                VisualizadorGrafo.exportar(gRuta, rutaPng);
+                VisualizadorGrafo.exportar(gRuta, rutaPng, nombre);
                 System.out.println("Imagen generada: " + rutaPng);
+                
+                // El mapa real se renderiza automáticamente en la imagen PNG si JXMapViewer2 está disponible
 
                 // TXT por ruta
                 String rutaTxt = new File(dirImagenes, nombre + ".txt").getAbsolutePath();
@@ -99,18 +104,46 @@ public class Main {
             pw.println("Arcos: " + grafo.getNumeroArcos());
             pw.println("------------------------------------");
 
-            pw.println("\n=== Lista de Nodos ===");
-            grafo.obtenerNodos().forEach(n ->
-                pw.println(n.getId() + " - " + n.getNombre())
-            );
+            pw.println("\n=== Lista de Nodos (Paradas) ===");
+            pw.println("Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)");
+            pw.println("------------------------------------");
+            for (Nodo n : grafo.obtenerNodos()) {
+                String coords = "";
+                if (n.getLatitud() != 0.0 || n.getLongitud() != 0.0) {
+                    coords = String.format(" - GPS: (%.6f, %.6f)", n.getLatitud(), n.getLongitud());
+                }
+                pw.println(n.getId() + " - " + n.getNombre() + coords);
+            }
 
-            pw.println("\n=== Lista de Arcos ===");
-            for (Arco a : grafo.obtenerArcos()) {
-                pw.println(
-                        a.getOrigen().getId() + " -> " +
-                        a.getDestino().getId() +
-                        "  (Ruta: " + a.getRuta() + ")"
-                );
+            pw.println("\n=== Lista de Arcos (Rutas) ===");
+            pw.println("Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]");
+            pw.println("------------------------------------");
+            
+            // Agrupar arcos por ruta para mejor organización
+            Map<String, List<Arco>> arcosPorRuta = grafo.obtenerArcosPorRuta();
+            
+            for (Map.Entry<String, List<Arco>> entrada : arcosPorRuta.entrySet()) {
+                String ruta = entrada.getKey();
+                List<Arco> arcos = entrada.getValue();
+                
+                pw.println("\n--- Ruta: " + ruta + " (" + arcos.size() + " arcos) ---");
+                
+                int secuencia = 1;
+                for (Arco a : arcos) {
+                    Nodo origen = a.getOrigen();
+                    Nodo destino = a.getDestino();
+                    
+                    pw.println(String.format(
+                        "%d. Origen: %s (ID: %s) -> Destino: %s (ID: %s) | Ruta: %s",
+                        secuencia,
+                        origen.getNombre(),
+                        origen.getId(),
+                        destino.getNombre(),
+                        destino.getId(),
+                        ruta
+                    ));
+                    secuencia++;
+                }
             }
 
         } catch (Exception e) {

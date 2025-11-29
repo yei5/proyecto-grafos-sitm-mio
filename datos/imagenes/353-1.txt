@@ -3,25 +3,31 @@ Nodos: 10
 Arcos: 9
 ------------------------------------
 
-=== Lista de Nodos ===
-515127 - K28C72U
-515128 - C72WK28
-515190 - C72WK28C
-514367 - C73K25S1
-514400 - C73K25C
-514308 - C72UK26I
-514307 - C72U26H3
-514306 - C72UK26F
-500161 - A.SANI13
-514309 - C72UK26S
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+515127 - K28C72U - GPS: (3,424051, -76,488901)
+515128 - C72WK28 - GPS: (3,422498, -76,489623)
+515190 - C72WK28C - GPS: (3,421413, -76,490383)
+514367 - C73K25S1 - GPS: (3,440964, -76,484348)
+514400 - C73K25C - GPS: (3,437871, -76,484263)
+514308 - C72UK26I - GPS: (3,429357, -76,486557)
+514307 - C72U26H3 - GPS: (3,431061, -76,485671)
+514306 - C72UK26F - GPS: (3,432819, -76,484731)
+500161 - A.SANI13 - GPS: (3,443826, -76,483579)
+514309 - C72UK26S - GPS: (3,426921, -76,487820)
 
-=== Lista de Arcos ===
-500161 -> 514367  (Ruta: A53 - Vuelta)
-514367 -> 514400  (Ruta: A53 - Vuelta)
-514400 -> 514306  (Ruta: A53 - Vuelta)
-514306 -> 514307  (Ruta: A53 - Vuelta)
-514307 -> 514308  (Ruta: A53 - Vuelta)
-514308 -> 514309  (Ruta: A53 - Vuelta)
-514309 -> 515127  (Ruta: A53 - Vuelta)
-515127 -> 515128  (Ruta: A53 - Vuelta)
-515128 -> 515190  (Ruta: A53 - Vuelta)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: A53 - Vuelta (9 arcos) ---
+1. Origen: A.SANI13 (ID: 500161) -> Destino: C73K25S1 (ID: 514367) | Ruta: A53 - Vuelta
+2. Origen: C73K25S1 (ID: 514367) -> Destino: C73K25C (ID: 514400) | Ruta: A53 - Vuelta
+3. Origen: C73K25C (ID: 514400) -> Destino: C72UK26F (ID: 514306) | Ruta: A53 - Vuelta
+4. Origen: C72UK26F (ID: 514306) -> Destino: C72U26H3 (ID: 514307) | Ruta: A53 - Vuelta
+5. Origen: C72U26H3 (ID: 514307) -> Destino: C72UK26I (ID: 514308) | Ruta: A53 - Vuelta
+6. Origen: C72UK26I (ID: 514308) -> Destino: C72UK26S (ID: 514309) | Ruta: A53 - Vuelta
+7. Origen: C72UK26S (ID: 514309) -> Destino: K28C72U (ID: 515127) | Ruta: A53 - Vuelta
+8. Origen: K28C72U (ID: 515127) -> Destino: C72WK28 (ID: 515128) | Ruta: A53 - Vuelta
+9. Origen: C72WK28 (ID: 515128) -> Destino: C72WK28C (ID: 515190) | Ruta: A53 - Vuelta

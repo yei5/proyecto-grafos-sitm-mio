@@ -1,90 +1,70 @@
 == 3441-1 ==
-Nodos: 30
-Arcos: 52
+Nodos: 28
+Arcos: 28
 ------------------------------------
 
-=== Lista de Nodos ===
-514212 - K25C104
-514277 - C11226H3
-514276 - C112K26L
-514056 - K25C74
-514176 - C112K26E
-514055 - K25C771
-514215 - K25C80A
-514214 - K25C85
-514213 - K25C892
-514072 - T103D261
-514071 - T103D26P
-514070 - T103D26I
-514054 - K25C80
-514174 - C11226J5
-514173 - C112K26Q
-514073 - T103D263
-600162 - A.SANI14
-514427 - T103D26O
-600168 - A.SANI19
-514069 - T103C79
-514487 - C112K231
-514068 - T103C76
-514486 - C112K2A2
-514067 - T103C56B
-514485 - C112K2A1
-514468 - K27C108
-514186 - K27T1031
-500162 - A.SANI14
-500168 - A.SANI19
-514219 - T103K26A
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+514212 - K25C104 - GPS: (3,429888, -76,467478)
+514277 - C11226H3 - GPS: (3,422620, -76,470677)
+514276 - C112K26L - GPS: (3,418672, -76,473018)
+514056 - K25C74 - GPS: (3,440717, -76,479445)
+514176 - C112K26E - GPS: (3,424136, -76,469851)
+514055 - K25C771 - GPS: (3,439176, -76,477323)
+514215 - K25C80A - GPS: (3,436309, -76,473804)
+514214 - K25C85 - GPS: (3,433455, -76,471498)
+514213 - K25C892 - GPS: (3,431784, -76,469947)
+514072 - T103D261 - GPS: (3,422864, -76,477995)
+514071 - T103D26P - GPS: (3,424868, -76,477625)
+514070 - T103D26I - GPS: (3,428934, -76,477539)
+514054 - K25C80 - GPS: (3,437635, -76,475115)
+514174 - C11226J5 - GPS: (3,420229, -76,472078)
+514173 - C112K26Q - GPS: (3,416854, -76,474037)
+514073 - T103D263 - GPS: (3,420690, -76,478387)
+514427 - T103D26O - GPS: (3,426239, -76,477354)
+514487 - C112K231 - GPS: (3,427928, -76,466810)
+514069 - T103C79 - GPS: (3,432420, -76,478784)
+514486 - C112K2A2 - GPS: (3,426514, -76,468511)
+514068 - T103C76 - GPS: (3,435781, -76,479964)
+514485 - C112K2A1 - GPS: (3,425710, -76,468970)
+514067 - T103C56B - GPS: (3,437972, -76,480727)
+514468 - K27C108 - GPS: (3,416257, -76,475993)
+514186 - K27T1031 - GPS: (3,417534, -76,478228)
+500162 - A.SANI14 - GPS: (3,443489, -76,483599)
+500168 - A.SANI19 - GPS: (3,444001, -76,483220)
+514219 - T103K26A - GPS: (3,439533, -76,481276)
 
-=== Lista de Arcos ===
-514071 -> 500168  (Ruta: A44A - Vuelta)
-500168 -> 500162  (Ruta: A44A - Vuelta)
-500162 -> 514072  (Ruta: A44A - Vuelta)
-514072 -> 600168  (Ruta: A44A - Vuelta)
-600168 -> 514219  (Ruta: A44A - Vuelta)
-514219 -> 514073  (Ruta: A44A - Vuelta)
-514073 -> 600162  (Ruta: A44A - Vuelta)
-600162 -> 514067  (Ruta: A44A - Vuelta)
-514067 -> 514186  (Ruta: A44A - Vuelta)
-514186 -> 500162  (Ruta: A44A - Vuelta)
-500162 -> 514068  (Ruta: A44A - Vuelta)
-514068 -> 514468  (Ruta: A44A - Vuelta)
-514468 -> 514069  (Ruta: A44A - Vuelta)
-514069 -> 514173  (Ruta: A44A - Vuelta)
-514173 -> 514070  (Ruta: A44A - Vuelta)
-514070 -> 514276  (Ruta: A44A - Vuelta)
-514276 -> 514427  (Ruta: A44A - Vuelta)
-514427 -> 514174  (Ruta: A44A - Vuelta)
-514174 -> 514071  (Ruta: A44A - Vuelta)
-514071 -> 514277  (Ruta: A44A - Vuelta)
-514277 -> 514072  (Ruta: A44A - Vuelta)
-514072 -> 514176  (Ruta: A44A - Vuelta)
-514176 -> 514073  (Ruta: A44A - Vuelta)
-514073 -> 514485  (Ruta: A44A - Vuelta)
-514485 -> 514186  (Ruta: A44A - Vuelta)
-514186 -> 514486  (Ruta: A44A - Vuelta)
-514486 -> 514468  (Ruta: A44A - Vuelta)
-514468 -> 514487  (Ruta: A44A - Vuelta)
-514487 -> 514173  (Ruta: A44A - Vuelta)
-514173 -> 514212  (Ruta: A44A - Vuelta)
-514212 -> 514276  (Ruta: A44A - Vuelta)
-514276 -> 514213  (Ruta: A44A - Vuelta)
-514213 -> 514174  (Ruta: A44A - Vuelta)
-514174 -> 514214  (Ruta: A44A - Vuelta)
-514214 -> 514277  (Ruta: A44A - Vuelta)
-514277 -> 514215  (Ruta: A44A - Vuelta)
-514215 -> 514176  (Ruta: A44A - Vuelta)
-514176 -> 514054  (Ruta: A44A - Vuelta)
-514054 -> 514485  (Ruta: A44A - Vuelta)
-514485 -> 514055  (Ruta: A44A - Vuelta)
-514055 -> 514486  (Ruta: A44A - Vuelta)
-514486 -> 514056  (Ruta: A44A - Vuelta)
-514056 -> 514487  (Ruta: A44A - Vuelta)
-514487 -> 500168  (Ruta: A44A - Vuelta)
-500168 -> 514212  (Ruta: A44A - Vuelta)
-514212 -> 514213  (Ruta: A44A - Vuelta)
-514213 -> 514214  (Ruta: A44A - Vuelta)
-514214 -> 514215  (Ruta: A44A - Vuelta)
-514215 -> 514054  (Ruta: A44A - Vuelta)
-514054 -> 514055  (Ruta: A44A - Vuelta)
-514055 -> 514056  (Ruta: A44A - Vuelta)
-514056 -> 500168  (Ruta: A44A - Vuelta)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: A44A - Vuelta (28 arcos) ---
+1. Origen: T103D26P (ID: 514071) -> Destino: T103D261 (ID: 514072) | Ruta: A44A - Vuelta
+2. Origen: T103D261 (ID: 514072) -> Destino: T103D263 (ID: 514073) | Ruta: A44A - Vuelta
+3. Origen: T103D263 (ID: 514073) -> Destino: K27T1031 (ID: 514186) | Ruta: A44A - Vuelta
+4. Origen: K27T1031 (ID: 514186) -> Destino: K27C108 (ID: 514468) | Ruta: A44A - Vuelta
+5. Origen: K27C108 (ID: 514468) -> Destino: C112K26Q (ID: 514173) | Ruta: A44A - Vuelta
+6. Origen: C112K26Q (ID: 514173) -> Destino: C112K26L (ID: 514276) | Ruta: A44A - Vuelta
+7. Origen: C112K26L (ID: 514276) -> Destino: C11226J5 (ID: 514174) | Ruta: A44A - Vuelta
+8. Origen: C11226J5 (ID: 514174) -> Destino: C11226H3 (ID: 514277) | Ruta: A44A - Vuelta
+9. Origen: C11226H3 (ID: 514277) -> Destino: C112K26E (ID: 514176) | Ruta: A44A - Vuelta
+10. Origen: C112K26E (ID: 514176) -> Destino: C112K2A1 (ID: 514485) | Ruta: A44A - Vuelta
+11. Origen: C112K2A1 (ID: 514485) -> Destino: C112K2A2 (ID: 514486) | Ruta: A44A - Vuelta
+12. Origen: C112K2A2 (ID: 514486) -> Destino: C112K231 (ID: 514487) | Ruta: A44A - Vuelta
+13. Origen: C112K231 (ID: 514487) -> Destino: K25C104 (ID: 514212) | Ruta: A44A - Vuelta
+14. Origen: K25C104 (ID: 514212) -> Destino: K25C892 (ID: 514213) | Ruta: A44A - Vuelta
+15. Origen: K25C892 (ID: 514213) -> Destino: K25C85 (ID: 514214) | Ruta: A44A - Vuelta
+16. Origen: K25C85 (ID: 514214) -> Destino: K25C80A (ID: 514215) | Ruta: A44A - Vuelta
+17. Origen: K25C80A (ID: 514215) -> Destino: K25C80 (ID: 514054) | Ruta: A44A - Vuelta
+18. Origen: K25C80 (ID: 514054) -> Destino: K25C771 (ID: 514055) | Ruta: A44A - Vuelta
+19. Origen: K25C771 (ID: 514055) -> Destino: K25C74 (ID: 514056) | Ruta: A44A - Vuelta
+20. Origen: K25C74 (ID: 514056) -> Destino: A.SANI19 (ID: 500168) | Ruta: A44A - Vuelta
+21. Origen: A.SANI14 (ID: 500162) -> Destino: T103K26A (ID: 514219) | Ruta: A44A - Vuelta
+22. Origen: T103K26A (ID: 514219) -> Destino: T103C56B (ID: 514067) | Ruta: A44A - Vuelta
+23. Origen: T103C56B (ID: 514067) -> Destino: T103C76 (ID: 514068) | Ruta: A44A - Vuelta
+24. Origen: T103C76 (ID: 514068) -> Destino: T103C79 (ID: 514069) | Ruta: A44A - Vuelta
+25. Origen: T103C79 (ID: 514069) -> Destino: T103D26I (ID: 514070) | Ruta: A44A - Vuelta
+26. Origen: T103D26I (ID: 514070) -> Destino: T103D26O (ID: 514427) | Ruta: A44A - Vuelta
+27. Origen: T103D26O (ID: 514427) -> Destino: T103D26P (ID: 514071) | Ruta: A44A - Vuelta
+28. Origen: A.SANI19 (ID: 500168) -> Destino: A.SANI14 (ID: 500162) | Ruta: A44A - Vuelta

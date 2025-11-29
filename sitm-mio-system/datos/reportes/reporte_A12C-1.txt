@@ -1,0 +1,27 @@
+========================================
+REPORTE DE RUTA: A12C-1
+========================================
+
+Información General:
+  Número de Arcos: 3
+  Distancia Total: 1,65 km
+  Tiempo Total: 4,75 min
+  Velocidad Promedio: 19,80 km/h
+
+Detalle de Arcos:
+------------------------------------------------------------
+Arco 1: CAPRI4 -> C5K85Y86
+  Distancia: 0,90 km
+  Tiempo: 2,45 min
+  Velocidad: 22,00 km/h
+
+Arco 2: C5K85Y86 -> K94C4C
+  Distancia: 0,55 km
+  Tiempo: 1,50 min
+  Velocidad: 22,00 km/h
+
+Arco 3: K94C4C -> C4K93
+  Distancia: 0,21 km
+  Tiempo: 0,80 min
+  Velocidad: 15,40 km/h
+

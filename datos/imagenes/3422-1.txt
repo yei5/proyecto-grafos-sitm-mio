@@ -3,29 +3,35 @@ Nodos: 12
 Arcos: 11
 ------------------------------------
 
-=== Lista de Nodos ===
-514089 - T103C80A
-514088 - T103C84
-514220 - T103C73C
-514403 - T103K28B
-514090 - T103C78B
-500157 - A.SANIN8
-514092 - T103C74
-514404 - T103K27B
-514091 - T103C772
-514087 - T103C94
-514086 - T103D264
-514085 - T103D262
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+514089 - T103C80A - GPS: (3,431878, -76,478351)
+514088 - T103C84 - GPS: (3,429567, -76,477503)
+514220 - T103C73C - GPS: (3,439680, -76,481121)
+514403 - T103K28B - GPS: (3,414196, -76,479311)
+514090 - T103C78B - GPS: (3,433059, -76,478731)
+500157 - A.SANIN8 - GPS: (3,443489, -76,483433)
+514092 - T103C74 - GPS: (3,438376, -76,480638)
+514404 - T103K27B - GPS: (3,417259, -76,478764)
+514091 - T103C772 - GPS: (3,435860, -76,479746)
+514087 - T103C94 - GPS: (3,426485, -76,477078)
+514086 - T103D264 - GPS: (3,422878, -76,477768)
+514085 - T103D262 - GPS: (3,420008, -76,478314)
 
-=== Lista de Arcos ===
-514403 -> 514404  (Ruta: A42B - Vuelta)
-514404 -> 514085  (Ruta: A42B - Vuelta)
-514085 -> 514086  (Ruta: A42B - Vuelta)
-514086 -> 514087  (Ruta: A42B - Vuelta)
-514087 -> 514088  (Ruta: A42B - Vuelta)
-514088 -> 514089  (Ruta: A42B - Vuelta)
-514089 -> 514090  (Ruta: A42B - Vuelta)
-514090 -> 514091  (Ruta: A42B - Vuelta)
-514091 -> 514092  (Ruta: A42B - Vuelta)
-514092 -> 514220  (Ruta: A42B - Vuelta)
-514220 -> 500157  (Ruta: A42B - Vuelta)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: A42B - Vuelta (11 arcos) ---
+1. Origen: T103K28B (ID: 514403) -> Destino: T103K27B (ID: 514404) | Ruta: A42B - Vuelta
+2. Origen: T103K27B (ID: 514404) -> Destino: T103D262 (ID: 514085) | Ruta: A42B - Vuelta
+3. Origen: T103D262 (ID: 514085) -> Destino: T103D264 (ID: 514086) | Ruta: A42B - Vuelta
+4. Origen: T103D264 (ID: 514086) -> Destino: T103C94 (ID: 514087) | Ruta: A42B - Vuelta
+5. Origen: T103C94 (ID: 514087) -> Destino: T103C84 (ID: 514088) | Ruta: A42B - Vuelta
+6. Origen: T103C84 (ID: 514088) -> Destino: T103C80A (ID: 514089) | Ruta: A42B - Vuelta
+7. Origen: T103C80A (ID: 514089) -> Destino: T103C78B (ID: 514090) | Ruta: A42B - Vuelta
+8. Origen: T103C78B (ID: 514090) -> Destino: T103C772 (ID: 514091) | Ruta: A42B - Vuelta
+9. Origen: T103C772 (ID: 514091) -> Destino: T103C74 (ID: 514092) | Ruta: A42B - Vuelta
+10. Origen: T103C74 (ID: 514092) -> Destino: T103C73C (ID: 514220) | Ruta: A42B - Vuelta
+11. Origen: T103C73C (ID: 514220) -> Destino: A.SANIN8 (ID: 500157) | Ruta: A42B - Vuelta

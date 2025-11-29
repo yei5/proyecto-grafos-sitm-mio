@@ -1,0 +1,112 @@
+========================================
+REPORTE DE RUTA: A78A-1
+========================================
+
+Información General:
+  Número de Arcos: 20
+  Distancia Total: 4,09 km
+  Tiempo Total: 15,94 min
+  Velocidad Promedio: 15,40 km/h
+
+Detalle de Arcos:
+------------------------------------------------------------
+Arco 1: C5K701 -> K73C4
+  Distancia: 0,25 km
+  Tiempo: 0,97 min
+  Velocidad: 15,40 km/h
+
+Arco 2: K73C4 -> K73C3
+  Distancia: 0,18 km
+  Tiempo: 0,69 min
+  Velocidad: 15,40 km/h
+
+Arco 3: K73C3 -> C2AK73B
+  Distancia: 0,24 km
+  Tiempo: 0,95 min
+  Velocidad: 15,40 km/h
+
+Arco 4: C2AK73B -> T2A2BD2
+  Distancia: 0,19 km
+  Tiempo: 0,73 min
+  Velocidad: 15,40 km/h
+
+Arco 5: T2A2BD2 -> T2AC74B
+  Distancia: 0,18 km
+  Tiempo: 0,70 min
+  Velocidad: 15,40 km/h
+
+Arco 6: T2AC74B -> C1CK73
+  Distancia: 0,18 km
+  Tiempo: 0,70 min
+  Velocidad: 15,40 km/h
+
+Arco 7: C1CK73 -> K70C1B
+  Distancia: 0,28 km
+  Tiempo: 1,08 min
+  Velocidad: 15,40 km/h
+
+Arco 8: K70C1B -> K70C1OE1
+  Distancia: 0,15 km
+  Tiempo: 0,59 min
+  Velocidad: 15,40 km/h
+
+Arco 9: K70C1OE1 -> C2OEK721
+  Distancia: 0,24 km
+  Tiempo: 0,92 min
+  Velocidad: 15,40 km/h
+
+Arco 10: C2OEK721 -> C2AOK74C
+  Distancia: 0,18 km
+  Tiempo: 0,69 min
+  Velocidad: 15,40 km/h
+
+Arco 11: C2AOK74C -> C2AOEK75
+  Distancia: 0,17 km
+  Tiempo: 0,66 min
+  Velocidad: 15,40 km/h
+
+Arco 12: C2AOEK75 -> C1AOEK75
+  Distancia: 0,23 km
+  Tiempo: 0,88 min
+  Velocidad: 15,40 km/h
+
+Arco 13: C1AOEK75 -> C1AK73B1
+  Distancia: 0,15 km
+  Tiempo: 0,58 min
+  Velocidad: 15,40 km/h
+
+Arco 14: C1AK73B1 -> C1AOEK72
+  Distancia: 0,20 km
+  Tiempo: 0,76 min
+  Velocidad: 15,40 km/h
+
+Arco 15: C1AOEK72 -> K70C1A
+  Distancia: 0,25 km
+  Tiempo: 0,96 min
+  Velocidad: 15,40 km/h
+
+Arco 16: K70C1A -> K70C1C
+  Distancia: 0,22 km
+  Tiempo: 0,85 min
+  Velocidad: 15,40 km/h
+
+Arco 17: K70C1C -> K70C2C
+  Distancia: 0,33 km
+  Tiempo: 1,29 min
+  Velocidad: 15,40 km/h
+
+Arco 18: K70C2C -> C3K69
+  Distancia: 0,14 km
+  Tiempo: 0,55 min
+  Velocidad: 15,40 km/h
+
+Arco 19: C3K69 -> K68C3B
+  Distancia: 0,13 km
+  Tiempo: 0,51 min
+  Velocidad: 15,40 km/h
+
+Arco 20: K68C3B -> C5K68
+  Distancia: 0,22 km
+  Tiempo: 0,87 min
+  Velocidad: 15,40 km/h
+

@@ -3,35 +3,41 @@ Nodos: 15
 Arcos: 14
 ------------------------------------
 
-=== Lista de Nodos ===
-511296 - MELENC3
-511286 - K94C4C
-511440 - SANTAEL3
-511432 - C4K95
-511487 - URBMC1
-511443 - SANTAEL6
-511433 - C4K96
-511444 - SANTAEL7
-511441 - SANTAEL4
-511436 - K98C2
-511437 - K98C2D
-511434 - K98AC2D
-511435 - K98AC2A
-511438 - SANTAEL1
-511439 - SANTAEL2
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+511296 - MELENC3 - GPS: (3,377146, -76,542737)
+511286 - K94C4C - GPS: (3,375546, -76,545323)
+511440 - SANTAEL3 - GPS: (3,372008, -76,555799)
+511432 - C4K95 - GPS: (3,373697, -76,547259)
+511487 - URBMC1 - GPS: (3,367664, -76,553939)
+511443 - SANTAEL6 - GPS: (3,370465, -76,555453)
+511433 - C4K96 - GPS: (3,371998, -76,547176)
+511444 - SANTAEL7 - GPS: (3,370553, -76,555563)
+511441 - SANTAEL4 - GPS: (3,372067, -76,554637)
+511436 - K98C2 - GPS: (3,372235, -76,551951)
+511437 - K98C2D - GPS: (3,372020, -76,549745)
+511434 - K98AC2D - GPS: (3,371417, -76,551008)
+511435 - K98AC2A - GPS: (3,371781, -76,552074)
+511438 - SANTAEL1 - GPS: (3,368727, -76,555906)
+511439 - SANTAEL2 - GPS: (3,370213, -76,557033)
 
-=== Lista de Arcos ===
-511296 -> 511286  (Ruta: A12D - Vuelta)
-511286 -> 511432  (Ruta: A12D - Vuelta)
-511432 -> 511433  (Ruta: A12D - Vuelta)
-511433 -> 511434  (Ruta: A12D - Vuelta)
-511434 -> 511435  (Ruta: A12D - Vuelta)
-511435 -> 511436  (Ruta: A12D - Vuelta)
-511436 -> 511437  (Ruta: A12D - Vuelta)
-511437 -> 511487  (Ruta: A12D - Vuelta)
-511487 -> 511438  (Ruta: A12D - Vuelta)
-511438 -> 511439  (Ruta: A12D - Vuelta)
-511439 -> 511443  (Ruta: A12D - Vuelta)
-511443 -> 511444  (Ruta: A12D - Vuelta)
-511444 -> 511440  (Ruta: A12D - Vuelta)
-511440 -> 511441  (Ruta: A12D - Vuelta)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: A12D - Vuelta (14 arcos) ---
+1. Origen: MELENC3 (ID: 511296) -> Destino: K94C4C (ID: 511286) | Ruta: A12D - Vuelta
+2. Origen: K94C4C (ID: 511286) -> Destino: C4K95 (ID: 511432) | Ruta: A12D - Vuelta
+3. Origen: C4K95 (ID: 511432) -> Destino: C4K96 (ID: 511433) | Ruta: A12D - Vuelta
+4. Origen: C4K96 (ID: 511433) -> Destino: K98AC2D (ID: 511434) | Ruta: A12D - Vuelta
+5. Origen: K98AC2D (ID: 511434) -> Destino: K98AC2A (ID: 511435) | Ruta: A12D - Vuelta
+6. Origen: K98AC2A (ID: 511435) -> Destino: K98C2 (ID: 511436) | Ruta: A12D - Vuelta
+7. Origen: K98C2 (ID: 511436) -> Destino: K98C2D (ID: 511437) | Ruta: A12D - Vuelta
+8. Origen: K98C2D (ID: 511437) -> Destino: URBMC1 (ID: 511487) | Ruta: A12D - Vuelta
+9. Origen: URBMC1 (ID: 511487) -> Destino: SANTAEL1 (ID: 511438) | Ruta: A12D - Vuelta
+10. Origen: SANTAEL1 (ID: 511438) -> Destino: SANTAEL2 (ID: 511439) | Ruta: A12D - Vuelta
+11. Origen: SANTAEL2 (ID: 511439) -> Destino: SANTAEL6 (ID: 511443) | Ruta: A12D - Vuelta
+12. Origen: SANTAEL6 (ID: 511443) -> Destino: SANTAEL7 (ID: 511444) | Ruta: A12D - Vuelta
+13. Origen: SANTAEL7 (ID: 511444) -> Destino: SANTAEL3 (ID: 511440) | Ruta: A12D - Vuelta
+14. Origen: SANTAEL3 (ID: 511440) -> Destino: SANTAEL4 (ID: 511441) | Ruta: A12D - Vuelta

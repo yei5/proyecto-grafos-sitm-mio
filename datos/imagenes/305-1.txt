@@ -3,23 +3,29 @@ Nodos: 9
 Arcos: 8
 ------------------------------------
 
-=== Lista de Nodos ===
-513002 - A4NC2OE
-502400 - L.AMERI1
-519161 - A4NC3
-519039 - A4NC6
-519038 - A4NC5
-513003 - A1NC71
-512009 - A1NC10-2
-502350 - VERSALL1
-519041 - C7OEAV1
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+513002 - A4NC2OE - GPS: (3,451794, -76,542135)
+502400 - L.AMERI1 - GPS: (3,463517, -76,525308)
+519161 - A4NC3 - GPS: (3,451595, -76,544452)
+519039 - A4NC6 - GPS: (3,454227, -76,549075)
+519038 - A4NC5 - GPS: (3,454043, -76,546163)
+513003 - A1NC71 - GPS: (3,451827, -76,537103)
+512009 - A1NC10-2 - GPS: (3,455033, -76,534315)
+502350 - VERSALL1 - GPS: (3,461037, -76,527197)
+519041 - C7OEAV1 - GPS: (3,453188, -76,549308)
 
-=== Lista de Arcos ===
-502400 -> 502350  (Ruta: A05 - Vuelta)
-502350 -> 512009  (Ruta: A05 - Vuelta)
-512009 -> 513003  (Ruta: A05 - Vuelta)
-513003 -> 513002  (Ruta: A05 - Vuelta)
-513002 -> 519161  (Ruta: A05 - Vuelta)
-519161 -> 519038  (Ruta: A05 - Vuelta)
-519038 -> 519039  (Ruta: A05 - Vuelta)
-519039 -> 519041  (Ruta: A05 - Vuelta)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: A05 - Vuelta (8 arcos) ---
+1. Origen: L.AMERI1 (ID: 502400) -> Destino: VERSALL1 (ID: 502350) | Ruta: A05 - Vuelta
+2. Origen: VERSALL1 (ID: 502350) -> Destino: A1NC10-2 (ID: 512009) | Ruta: A05 - Vuelta
+3. Origen: A1NC10-2 (ID: 512009) -> Destino: A1NC71 (ID: 513003) | Ruta: A05 - Vuelta
+4. Origen: A1NC71 (ID: 513003) -> Destino: A4NC2OE (ID: 513002) | Ruta: A05 - Vuelta
+5. Origen: A4NC2OE (ID: 513002) -> Destino: A4NC3 (ID: 519161) | Ruta: A05 - Vuelta
+6. Origen: A4NC3 (ID: 519161) -> Destino: A4NC5 (ID: 519038) | Ruta: A05 - Vuelta
+7. Origen: A4NC5 (ID: 519038) -> Destino: A4NC6 (ID: 519039) | Ruta: A05 - Vuelta
+8. Origen: A4NC6 (ID: 519039) -> Destino: C7OEAV1 (ID: 519041) | Ruta: A05 - Vuelta

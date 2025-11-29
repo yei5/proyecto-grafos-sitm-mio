@@ -1,0 +1,97 @@
+========================================
+REPORTE DE RUTA: E21-0
+========================================
+
+Información General:
+  Número de Arcos: 17
+  Distancia Total: 15,91 km
+  Tiempo Total: 39,48 min
+  Velocidad Promedio: 23,68 km/h
+
+Detalle de Arcos:
+------------------------------------------------------------
+Arco 1: L.AMERI1 -> VERSALL1
+  Distancia: 0,35 km
+  Tiempo: 1,19 min
+  Velocidad: 17,50 km/h
+
+Arco 2: VERSALL1 -> TORRE3
+  Distancia: 0,62 km
+  Tiempo: 1,49 min
+  Velocidad: 25,00 km/h
+
+Arco 3: TORRE3 -> CAYZED1
+  Distancia: 0,47 km
+  Tiempo: 1,61 min
+  Velocidad: 17,50 km/h
+
+Arco 4: CAYZED1 -> CENTRO1
+  Distancia: 0,45 km
+  Tiempo: 1,53 min
+  Velocidad: 17,50 km/h
+
+Arco 5: CENTRO1 -> SANBO3
+  Distancia: 0,77 km
+  Tiempo: 1,84 min
+  Velocidad: 25,00 km/h
+
+Arco 6: SANBO3 -> ESTAD3
+  Distancia: 1,67 km
+  Tiempo: 4,01 min
+  Velocidad: 25,00 km/h
+
+Arco 7: ESTAD3 -> TEQUE1
+  Distancia: 0,97 km
+  Tiempo: 2,33 min
+  Velocidad: 25,00 km/h
+
+Arco 8: TEQUE1 -> UDP3
+  Distancia: 0,97 km
+  Tiempo: 2,34 min
+  Velocidad: 25,00 km/h
+
+Arco 9: UDP3 -> PAMPA1
+  Distancia: 1,28 km
+  Tiempo: 3,06 min
+  Velocidad: 25,00 km/h
+
+Arco 10: PAMPA1 -> CALDAS1
+  Distancia: 1,04 km
+  Tiempo: 2,50 min
+  Velocidad: 25,00 km/h
+
+Arco 11: CALDAS1 -> MELEN1
+  Distancia: 1,95 km
+  Tiempo: 4,68 min
+  Velocidad: 25,00 km/h
+
+Arco 12: MELEN1 -> BUITRE1
+  Distancia: 0,59 km
+  Tiempo: 1,41 min
+  Velocidad: 25,00 km/h
+
+Arco 13: BUITRE1 -> UNIV1
+  Distancia: 1,34 km
+  Tiempo: 3,22 min
+  Velocidad: 25,00 km/h
+
+Arco 14: TMENGA7 -> ALAMOS1
+  Distancia: 0,77 km
+  Tiempo: 1,84 min
+  Velocidad: 25,00 km/h
+
+Arco 15: ALAMOS1 -> VIPASA1
+  Distancia: 0,77 km
+  Tiempo: 1,85 min
+  Velocidad: 25,00 km/h
+
+Arco 16: VIPASA1 -> PRADNOR1
+  Distancia: 0,55 km
+  Tiempo: 1,32 min
+  Velocidad: 25,00 km/h
+
+Arco 17: PRADNOR1 -> L.AMERI1
+  Distancia: 1,36 km
+  Tiempo: 3,26 min
+  Velocidad: 25,00 km/h
+

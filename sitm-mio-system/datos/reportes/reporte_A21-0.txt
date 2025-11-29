@@ -1,0 +1,52 @@
+========================================
+REPORTE DE RUTA: A21-0
+========================================
+
+Información General:
+  Número de Arcos: 8
+  Distancia Total: 2,55 km
+  Tiempo Total: 8,76 min
+  Velocidad Promedio: 16,23 km/h
+
+Detalle de Arcos:
+------------------------------------------------------------
+Arco 1: TMENGA6 -> TMENGA8
+  Distancia: 0,08 km
+  Tiempo: 0,30 min
+  Velocidad: 15,40 km/h
+
+Arco 2: K4NC841 -> K4NC771
+  Distancia: 0,25 km
+  Tiempo: 0,96 min
+  Velocidad: 15,40 km/h
+
+Arco 3: K4NC771 -> K4NC72K1
+  Distancia: 0,22 km
+  Tiempo: 0,85 min
+  Velocidad: 15,40 km/h
+
+Arco 4: K4NC72K1 -> K4NC72B1
+  Distancia: 0,23 km
+  Tiempo: 0,90 min
+  Velocidad: 15,40 km/h
+
+Arco 5: K4NC72B1 -> K4NC721
+  Distancia: 0,31 km
+  Tiempo: 1,23 min
+  Velocidad: 15,40 km/h
+
+Arco 6: K4NC721 -> K4NC71D1
+  Distancia: 0,22 km
+  Tiempo: 0,85 min
+  Velocidad: 15,40 km/h
+
+Arco 7: K4NC71D1 -> K4NC70
+  Distancia: 0,24 km
+  Tiempo: 0,94 min
+  Velocidad: 15,40 km/h
+
+Arco 8: K4NC70 -> TMENGA6
+  Distancia: 1,01 km
+  Tiempo: 2,74 min
+  Velocidad: 22,00 km/h
+

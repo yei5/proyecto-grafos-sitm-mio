@@ -1,0 +1,77 @@
+========================================
+REPORTE DE RUTA: A04-0
+========================================
+
+Información General:
+  Número de Arcos: 13
+  Distancia Total: 2,94 km
+  Tiempo Total: 11,44 min
+  Velocidad Promedio: 15,40 km/h
+
+Detalle de Arcos:
+------------------------------------------------------------
+Arco 1: C14OK23C -> C14OK24C
+  Distancia: 0,17 km
+  Tiempo: 0,67 min
+  Velocidad: 15,40 km/h
+
+Arco 2: C14OK24C -> C14OK15
+  Distancia: 0,20 km
+  Tiempo: 0,76 min
+  Velocidad: 15,40 km/h
+
+Arco 3: C14OK15 -> K4C13O
+  Distancia: 0,25 km
+  Tiempo: 0,96 min
+  Velocidad: 15,40 km/h
+
+Arco 4: K4C13O -> K4C12O
+  Distancia: 0,27 km
+  Tiempo: 1,05 min
+  Velocidad: 15,40 km/h
+
+Arco 5: K4C12O -> K4C9O
+  Distancia: 0,20 km
+  Tiempo: 0,79 min
+  Velocidad: 15,40 km/h
+
+Arco 6: K4C9O -> K4C7O
+  Distancia: 0,15 km
+  Tiempo: 0,60 min
+  Velocidad: 15,40 km/h
+
+Arco 7: K4C7O -> K5C8O1
+  Distancia: 0,18 km
+  Tiempo: 0,69 min
+  Velocidad: 15,40 km/h
+
+Arco 8: K5C8O1 -> K27C9O1
+  Distancia: 0,25 km
+  Tiempo: 0,98 min
+  Velocidad: 15,40 km/h
+
+Arco 9: K27C9O1 -> C5OK24E
+  Distancia: 0,33 km
+  Tiempo: 1,29 min
+  Velocidad: 15,40 km/h
+
+Arco 10: C5OK24E -> K27C5OE
+  Distancia: 0,30 km
+  Tiempo: 1,17 min
+  Velocidad: 15,40 km/h
+
+Arco 11: K27C5OE -> K27C3O
+  Distancia: 0,19 km
+  Tiempo: 0,73 min
+  Velocidad: 15,40 km/h
+
+Arco 12: K27C3O -> K27C3
+  Distancia: 0,22 km
+  Tiempo: 0,85 min
+  Velocidad: 15,40 km/h
+
+Arco 13: K27C3 -> C4BK27
+  Distancia: 0,23 km
+  Tiempo: 0,91 min
+  Velocidad: 15,40 km/h
+

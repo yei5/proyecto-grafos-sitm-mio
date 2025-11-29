@@ -3,35 +3,41 @@ Nodos: 15
 Arcos: 14
 ------------------------------------
 
-=== Lista de Nodos ===
-517217 - K56IDEA1
-517216 - C13OECJR
-517219 - SIRENA2
-517218 - SIRENA1
-517229 - PUEROJ
-517169 - K56C1B
-517147 - C13OEK55
-517168 - K56C3
-517179 - K56C8O1
-517214 - K56C5Y3
-517143 - K56C1AOE
-517144 - K56C7OE
-517173 - K56C8OE
-500055 - T.C-A7
-517180 - K56BC1
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+517217 - K56IDEA1 - GPS: (3,410036, -76,571630)
+517216 - C13OECJR - GPS: (3,408307, -76,570607)
+517219 - SIRENA2 - GPS: (3,407650, -76,575163)
+517218 - SIRENA1 - GPS: (3,409603, -76,572685)
+517229 - PUEROJ - GPS: (3,408742, -76,574698)
+517169 - K56C1B - GPS: (3,409815, -76,553971)
+517147 - C13OEK55 - GPS: (3,409538, -76,564819)
+517168 - K56C3 - GPS: (3,409552, -76,551880)
+517179 - K56C8O1 - GPS: (3,409769, -76,562767)
+517214 - K56C5Y3 - GPS: (3,409113, -76,548357)
+517143 - K56C1AOE - GPS: (3,411097, -76,556792)
+517144 - K56C7OE - GPS: (3,412188, -76,559108)
+517173 - K56C8OE - GPS: (3,411286, -76,560626)
+500055 - T.C-A7 - GPS: (3,415047, -76,548953)
+517180 - K56BC1 - GPS: (3,409296, -76,566556)
 
-=== Lista de Arcos ===
-500055 -> 517214  (Ruta: A75 - Vuelta)
-517214 -> 517168  (Ruta: A75 - Vuelta)
-517168 -> 517169  (Ruta: A75 - Vuelta)
-517169 -> 517143  (Ruta: A75 - Vuelta)
-517143 -> 517144  (Ruta: A75 - Vuelta)
-517144 -> 517173  (Ruta: A75 - Vuelta)
-517173 -> 517179  (Ruta: A75 - Vuelta)
-517179 -> 517147  (Ruta: A75 - Vuelta)
-517147 -> 517180  (Ruta: A75 - Vuelta)
-517180 -> 517216  (Ruta: A75 - Vuelta)
-517216 -> 517217  (Ruta: A75 - Vuelta)
-517217 -> 517218  (Ruta: A75 - Vuelta)
-517218 -> 517229  (Ruta: A75 - Vuelta)
-517229 -> 517219  (Ruta: A75 - Vuelta)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: A75 - Vuelta (14 arcos) ---
+1. Origen: T.C-A7 (ID: 500055) -> Destino: K56C5Y3 (ID: 517214) | Ruta: A75 - Vuelta
+2. Origen: K56C5Y3 (ID: 517214) -> Destino: K56C3 (ID: 517168) | Ruta: A75 - Vuelta
+3. Origen: K56C3 (ID: 517168) -> Destino: K56C1B (ID: 517169) | Ruta: A75 - Vuelta
+4. Origen: K56C1B (ID: 517169) -> Destino: K56C1AOE (ID: 517143) | Ruta: A75 - Vuelta
+5. Origen: K56C1AOE (ID: 517143) -> Destino: K56C7OE (ID: 517144) | Ruta: A75 - Vuelta
+6. Origen: K56C7OE (ID: 517144) -> Destino: K56C8OE (ID: 517173) | Ruta: A75 - Vuelta
+7. Origen: K56C8OE (ID: 517173) -> Destino: K56C8O1 (ID: 517179) | Ruta: A75 - Vuelta
+8. Origen: K56C8O1 (ID: 517179) -> Destino: C13OEK55 (ID: 517147) | Ruta: A75 - Vuelta
+9. Origen: C13OEK55 (ID: 517147) -> Destino: K56BC1 (ID: 517180) | Ruta: A75 - Vuelta
+10. Origen: K56BC1 (ID: 517180) -> Destino: C13OECJR (ID: 517216) | Ruta: A75 - Vuelta
+11. Origen: C13OECJR (ID: 517216) -> Destino: K56IDEA1 (ID: 517217) | Ruta: A75 - Vuelta
+12. Origen: K56IDEA1 (ID: 517217) -> Destino: SIRENA1 (ID: 517218) | Ruta: A75 - Vuelta
+13. Origen: SIRENA1 (ID: 517218) -> Destino: PUEROJ (ID: 517229) | Ruta: A75 - Vuelta
+14. Origen: PUEROJ (ID: 517229) -> Destino: SIRENA2 (ID: 517219) | Ruta: A75 - Vuelta

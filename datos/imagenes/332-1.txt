@@ -1,72 +1,63 @@
 == 332-1 ==
-Nodos: 26
-Arcos: 38
+Nodos: 24
+Arcos: 25
 ------------------------------------
 
-=== Lista de Nodos ===
-513167 - C62AK1A8
-513166 - C62AK1B4
-513187 - C56K1C1
-513164 - C62K1BIS
-513186 - C56K1C
-513301 - C62K1A9
-513168 - C66K1A15
-513185 - K1C56
-513020 - K1DC58
-513183 - C62K1B
-500108 - TMENGA9
-513019 - K1DC61A
-513018 - K1DC63
-513134 - K2C621
-513110 - C70K1A14
-513231 - C70K1B
-513132 - K2C60
-600108 - TMENGA9
-513017 - K1DC70
-513215 - K2C70
-513138 - K2C671
-613185 - K1C56
-513136 - K2C641
-513014 - C70K1C2
-513130 - K2C571
-513309 - C70K1G
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+513167 - C62AK1A8 - GPS: (3,479190, -76,492800)
+513134 - K2C621 - GPS: (3,470960, -76,493182)
+513166 - C62AK1B4 - GPS: (3,476667, -76,493330)
+513110 - C70K1A14 - GPS: (3,479077, -76,489072)
+513187 - C56K1C1 - GPS: (3,475513, -76,500117)
+513231 - C70K1B - GPS: (3,479120, -76,489152)
+513132 - K2C60 - GPS: (3,470353, -76,495212)
+513164 - C62K1BIS - GPS: (3,480058, -76,497495)
+513186 - C56K1C - GPS: (3,473598, -76,499653)
+600108 - TMENGA9 - GPS: (3,489417, -76,507803)
+513017 - K1DC70 - GPS: (3,475885, -76,489780)
+513215 - K2C70 - GPS: (3,472588, -76,487673)
+513138 - K2C671 - GPS: (3,472070, -76,489290)
+513301 - C62K1A9 - GPS: (3,478543, -76,495713)
+513136 - K2C641 - GPS: (3,471545, -76,491015)
+513168 - C66K1A15 - GPS: (3,479582, -76,491480)
+513014 - C70K1C2 - GPS: (3,476997, -76,488410)
+513185 - K1C56 - GPS: (3,478693, -76,501370)
+513020 - K1DC58 - GPS: (3,473653, -76,496878)
+513130 - K2C571 - GPS: (3,469363, -76,498292)
+513183 - C62K1B - GPS: (3,477318, -76,494590)
+513019 - K1DC61A - GPS: (3,474283, -76,494943)
+513018 - K1DC63 - GPS: (3,475203, -76,492008)
+513309 - C70K1G - GPS: (3,474603, -76,487648)
 
-=== Lista de Arcos ===
-513185 -> 513185  (Ruta: A32 - Vuelta)
-513185 -> 513185  (Ruta: A32 - Vuelta)
-513185 -> 513164  (Ruta: A32 - Vuelta)
-513164 -> 613185  (Ruta: A32 - Vuelta)
-613185 -> 513164  (Ruta: A32 - Vuelta)
-513164 -> 513301  (Ruta: A32 - Vuelta)
-513301 -> 600108  (Ruta: A32 - Vuelta)
-600108 -> 513301  (Ruta: A32 - Vuelta)
-513301 -> 513183  (Ruta: A32 - Vuelta)
-513183 -> 500108  (Ruta: A32 - Vuelta)
-500108 -> 513183  (Ruta: A32 - Vuelta)
-513183 -> 513166  (Ruta: A32 - Vuelta)
-513166 -> 513166  (Ruta: A32 - Vuelta)
-513166 -> 513167  (Ruta: A32 - Vuelta)
-513167 -> 513167  (Ruta: A32 - Vuelta)
-513167 -> 513168  (Ruta: A32 - Vuelta)
-513168 -> 513168  (Ruta: A32 - Vuelta)
-513168 -> 513110  (Ruta: A32 - Vuelta)
-513110 -> 513231  (Ruta: A32 - Vuelta)
-513231 -> 513014  (Ruta: A32 - Vuelta)
-513014 -> 513014  (Ruta: A32 - Vuelta)
-513014 -> 513017  (Ruta: A32 - Vuelta)
-513017 -> 513309  (Ruta: A32 - Vuelta)
-513309 -> 513018  (Ruta: A32 - Vuelta)
-513018 -> 513215  (Ruta: A32 - Vuelta)
-513215 -> 513019  (Ruta: A32 - Vuelta)
-513019 -> 513138  (Ruta: A32 - Vuelta)
-513138 -> 513020  (Ruta: A32 - Vuelta)
-513020 -> 513136  (Ruta: A32 - Vuelta)
-513136 -> 513186  (Ruta: A32 - Vuelta)
-513186 -> 513134  (Ruta: A32 - Vuelta)
-513134 -> 513187  (Ruta: A32 - Vuelta)
-513187 -> 513132  (Ruta: A32 - Vuelta)
-513132 -> 513185  (Ruta: A32 - Vuelta)
-513185 -> 513130  (Ruta: A32 - Vuelta)
-513130 -> 513186  (Ruta: A32 - Vuelta)
-513186 -> 513187  (Ruta: A32 - Vuelta)
-513187 -> 513185  (Ruta: A32 - Vuelta)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: A32 - Vuelta (25 arcos) ---
+1. Origen: K1C56 (ID: 513185) -> Destino: C62K1BIS (ID: 513164) | Ruta: A32 - Vuelta
+2. Origen: C62K1BIS (ID: 513164) -> Destino: C62K1A9 (ID: 513301) | Ruta: A32 - Vuelta
+3. Origen: C62K1A9 (ID: 513301) -> Destino: C62K1B (ID: 513183) | Ruta: A32 - Vuelta
+4. Origen: C62K1B (ID: 513183) -> Destino: C62AK1B4 (ID: 513166) | Ruta: A32 - Vuelta
+5. Origen: C62AK1B4 (ID: 513166) -> Destino: C62AK1A8 (ID: 513167) | Ruta: A32 - Vuelta
+6. Origen: C62AK1A8 (ID: 513167) -> Destino: C66K1A15 (ID: 513168) | Ruta: A32 - Vuelta
+7. Origen: C66K1A15 (ID: 513168) -> Destino: C70K1A14 (ID: 513110) | Ruta: A32 - Vuelta
+8. Origen: C70K1A14 (ID: 513110) -> Destino: C70K1C2 (ID: 513014) | Ruta: A32 - Vuelta
+9. Origen: C70K1C2 (ID: 513014) -> Destino: K1DC70 (ID: 513017) | Ruta: A32 - Vuelta
+10. Origen: K1DC70 (ID: 513017) -> Destino: K1DC63 (ID: 513018) | Ruta: A32 - Vuelta
+11. Origen: K1DC63 (ID: 513018) -> Destino: K1DC61A (ID: 513019) | Ruta: A32 - Vuelta
+12. Origen: K1DC61A (ID: 513019) -> Destino: K1DC58 (ID: 513020) | Ruta: A32 - Vuelta
+13. Origen: K1DC58 (ID: 513020) -> Destino: C56K1C (ID: 513186) | Ruta: A32 - Vuelta
+14. Origen: C56K1C (ID: 513186) -> Destino: C56K1C1 (ID: 513187) | Ruta: A32 - Vuelta
+15. Origen: C66K1A15 (ID: 513168) -> Destino: C70K1B (ID: 513231) | Ruta: A32 - Vuelta
+16. Origen: C70K1B (ID: 513231) -> Destino: C70K1C2 (ID: 513014) | Ruta: A32 - Vuelta
+17. Origen: C70K1C2 (ID: 513014) -> Destino: C70K1G (ID: 513309) | Ruta: A32 - Vuelta
+18. Origen: C70K1G (ID: 513309) -> Destino: K2C70 (ID: 513215) | Ruta: A32 - Vuelta
+19. Origen: K2C70 (ID: 513215) -> Destino: K2C671 (ID: 513138) | Ruta: A32 - Vuelta
+20. Origen: K2C671 (ID: 513138) -> Destino: K2C641 (ID: 513136) | Ruta: A32 - Vuelta
+21. Origen: K2C641 (ID: 513136) -> Destino: K2C621 (ID: 513134) | Ruta: A32 - Vuelta
+22. Origen: K2C621 (ID: 513134) -> Destino: K2C60 (ID: 513132) | Ruta: A32 - Vuelta
+23. Origen: K2C60 (ID: 513132) -> Destino: K2C571 (ID: 513130) | Ruta: A32 - Vuelta
+24. Origen: K2C571 (ID: 513130) -> Destino: C56K1C (ID: 513186) | Ruta: A32 - Vuelta
+25. Origen: K1C56 (ID: 513185) -> Destino: TMENGA9 (ID: 600108) | Ruta: A32 - Vuelta

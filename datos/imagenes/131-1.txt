@@ -1,119 +1,69 @@
 == 131-1 ==
 Nodos: 28
-Arcos: 83
+Arcos: 27
 ------------------------------------
 
-=== Lista de Nodos ===
-500602 - TORRE3
-500500 - RIOC1
-504009 - PCOMERA2
-501002 - SANBO3
-500450 - FATI1
-500350 - POPU1
-500250 - FLORAI1
-500950 - FRAY1
-500850 - CENTRO1
-500750 - ERMI1
-502050 - CALDAS1
-502150 - MELEN1
-502250 - UNIVAL1
-501602 - SNTLIB3
-501800 - LIDO1
-501900 - PLATOR1
-501702 - ESTAD3
-502102 - CAPRI3
-501750 - TEQUE1
-502300 - UNIV1
-501652 - MANZA3
-501950 - PAMPA1
-501852 - UDP3
-500400 - MZAN1
-500300 - SALOM1
-502000 - REFUG1
-500200 - CHIMI3
-502200 - BUITRE1
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+500602 - TORRE3 - GPS: (3,456548, -76,530537)
+500500 - RIOC1 - GPS: (3,460430, -76,525343)
+504009 - PCOMERA2 - GPS: (3,489898, -76,492648)
+501002 - SANBO3 - GPS: (3,442208, -76,532860)
+500450 - FATI1 - GPS: (3,462890, -76,517520)
+500350 - POPU1 - GPS: (3,469470, -76,510887)
+500250 - FLORAI1 - GPS: (3,478201, -76,502378)
+500950 - FRAY1 - GPS: (3,443998, -76,528952)
+500850 - CENTRO1 - GPS: (3,448568, -76,530148)
+500750 - ERMI1 - GPS: (3,453648, -76,531682)
+502050 - CALDAS1 - GPS: (3,394255, -76,545993)
+502150 - MELEN1 - GPS: (3,377010, -76,542778)
+502250 - UNIVAL1 - GPS: (3,370687, -76,536625)
+501602 - SNTLIB3 - GPS: (3,439388, -76,537382)
+501800 - LIDO1 - GPS: (3,418912, -76,548392)
+501702 - ESTAD3 - GPS: (3,431525, -76,543428)
+501900 - PLATOR1 - GPS: (3,409604, -76,547463)
+501750 - TEQUE1 - GPS: (3,423567, -76,547030)
+502102 - CAPRI3 - GPS: (3,387728, -76,544990)
+502300 - UNIV1 - GPS: (3,367005, -76,529252)
+501652 - MANZA3 - GPS: (3,434630, -76,541227)
+501950 - PAMPA1 - GPS: (3,403593, -76,546873)
+501852 - UDP3 - GPS: (3,414942, -76,548540)
+500400 - MZAN1 - GPS: (3,466125, -76,513435)
+502000 - REFUG1 - GPS: (3,398599, -76,546468)
+500300 - SALOM1 - GPS: (3,473625, -76,506950)
+500200 - CHIMI3 - GPS: (3,481915, -76,497912)
+502200 - BUITRE1 - GPS: (3,372535, -76,539995)
 
-=== Lista de Arcos ===
-504009 -> 501852  (Ruta: T31 - Vuelta)
-501852 -> 500602  (Ruta: T31 - Vuelta)
-500602 -> 500250  (Ruta: T31 - Vuelta)
-500250 -> 500200  (Ruta: T31 - Vuelta)
-500200 -> 501900  (Ruta: T31 - Vuelta)
-501900 -> 500750  (Ruta: T31 - Vuelta)
-500750 -> 500300  (Ruta: T31 - Vuelta)
-500300 -> 500250  (Ruta: T31 - Vuelta)
-500250 -> 501950  (Ruta: T31 - Vuelta)
-501950 -> 500850  (Ruta: T31 - Vuelta)
-500850 -> 500350  (Ruta: T31 - Vuelta)
-500350 -> 500300  (Ruta: T31 - Vuelta)
-500300 -> 502000  (Ruta: T31 - Vuelta)
-502000 -> 500950  (Ruta: T31 - Vuelta)
-500950 -> 500400  (Ruta: T31 - Vuelta)
-500400 -> 500350  (Ruta: T31 - Vuelta)
-500350 -> 502050  (Ruta: T31 - Vuelta)
-502050 -> 501002  (Ruta: T31 - Vuelta)
-501002 -> 500450  (Ruta: T31 - Vuelta)
-500450 -> 500400  (Ruta: T31 - Vuelta)
-500400 -> 502102  (Ruta: T31 - Vuelta)
-502102 -> 501602  (Ruta: T31 - Vuelta)
-501602 -> 500500  (Ruta: T31 - Vuelta)
-500500 -> 500450  (Ruta: T31 - Vuelta)
-500450 -> 502150  (Ruta: T31 - Vuelta)
-502150 -> 501652  (Ruta: T31 - Vuelta)
-501652 -> 500602  (Ruta: T31 - Vuelta)
-500602 -> 500500  (Ruta: T31 - Vuelta)
-500500 -> 502200  (Ruta: T31 - Vuelta)
-502200 -> 501702  (Ruta: T31 - Vuelta)
-501702 -> 500750  (Ruta: T31 - Vuelta)
-500750 -> 500602  (Ruta: T31 - Vuelta)
-500602 -> 502250  (Ruta: T31 - Vuelta)
-502250 -> 501750  (Ruta: T31 - Vuelta)
-501750 -> 500850  (Ruta: T31 - Vuelta)
-500850 -> 500750  (Ruta: T31 - Vuelta)
-500750 -> 502300  (Ruta: T31 - Vuelta)
-502300 -> 501800  (Ruta: T31 - Vuelta)
-501800 -> 500950  (Ruta: T31 - Vuelta)
-500950 -> 500850  (Ruta: T31 - Vuelta)
-500850 -> 501852  (Ruta: T31 - Vuelta)
-501852 -> 501002  (Ruta: T31 - Vuelta)
-501002 -> 500950  (Ruta: T31 - Vuelta)
-500950 -> 501900  (Ruta: T31 - Vuelta)
-501900 -> 501602  (Ruta: T31 - Vuelta)
-501602 -> 501002  (Ruta: T31 - Vuelta)
-501002 -> 501950  (Ruta: T31 - Vuelta)
-501950 -> 501652  (Ruta: T31 - Vuelta)
-501652 -> 501602  (Ruta: T31 - Vuelta)
-501602 -> 502000  (Ruta: T31 - Vuelta)
-502000 -> 501702  (Ruta: T31 - Vuelta)
-501702 -> 501652  (Ruta: T31 - Vuelta)
-501652 -> 502050  (Ruta: T31 - Vuelta)
-502050 -> 501750  (Ruta: T31 - Vuelta)
-501750 -> 501702  (Ruta: T31 - Vuelta)
-501702 -> 502102  (Ruta: T31 - Vuelta)
-502102 -> 501800  (Ruta: T31 - Vuelta)
-501800 -> 501750  (Ruta: T31 - Vuelta)
-501750 -> 502150  (Ruta: T31 - Vuelta)
-502150 -> 501852  (Ruta: T31 - Vuelta)
-501852 -> 501800  (Ruta: T31 - Vuelta)
-501800 -> 502200  (Ruta: T31 - Vuelta)
-502200 -> 501900  (Ruta: T31 - Vuelta)
-501900 -> 501852  (Ruta: T31 - Vuelta)
-501852 -> 502250  (Ruta: T31 - Vuelta)
-502250 -> 501950  (Ruta: T31 - Vuelta)
-501950 -> 501900  (Ruta: T31 - Vuelta)
-501900 -> 502300  (Ruta: T31 - Vuelta)
-502300 -> 502000  (Ruta: T31 - Vuelta)
-502000 -> 501950  (Ruta: T31 - Vuelta)
-501950 -> 502050  (Ruta: T31 - Vuelta)
-502050 -> 502000  (Ruta: T31 - Vuelta)
-502000 -> 502102  (Ruta: T31 - Vuelta)
-502102 -> 502050  (Ruta: T31 - Vuelta)
-502050 -> 502150  (Ruta: T31 - Vuelta)
-502150 -> 502102  (Ruta: T31 - Vuelta)
-502102 -> 502200  (Ruta: T31 - Vuelta)
-502200 -> 502150  (Ruta: T31 - Vuelta)
-502150 -> 502250  (Ruta: T31 - Vuelta)
-502250 -> 502200  (Ruta: T31 - Vuelta)
-502200 -> 502300  (Ruta: T31 - Vuelta)
-502300 -> 502250  (Ruta: T31 - Vuelta)
-502250 -> 502300  (Ruta: T31 - Vuelta)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: T31 - Vuelta (27 arcos) ---
+1. Origen: TORRE3 (ID: 500602) -> Destino: ERMI1 (ID: 500750) | Ruta: T31 - Vuelta
+2. Origen: ERMI1 (ID: 500750) -> Destino: CENTRO1 (ID: 500850) | Ruta: T31 - Vuelta
+3. Origen: CENTRO1 (ID: 500850) -> Destino: FRAY1 (ID: 500950) | Ruta: T31 - Vuelta
+4. Origen: FRAY1 (ID: 500950) -> Destino: SANBO3 (ID: 501002) | Ruta: T31 - Vuelta
+5. Origen: SANBO3 (ID: 501002) -> Destino: SNTLIB3 (ID: 501602) | Ruta: T31 - Vuelta
+6. Origen: SNTLIB3 (ID: 501602) -> Destino: MANZA3 (ID: 501652) | Ruta: T31 - Vuelta
+7. Origen: MANZA3 (ID: 501652) -> Destino: ESTAD3 (ID: 501702) | Ruta: T31 - Vuelta
+8. Origen: ESTAD3 (ID: 501702) -> Destino: TEQUE1 (ID: 501750) | Ruta: T31 - Vuelta
+9. Origen: TEQUE1 (ID: 501750) -> Destino: LIDO1 (ID: 501800) | Ruta: T31 - Vuelta
+10. Origen: LIDO1 (ID: 501800) -> Destino: UDP3 (ID: 501852) | Ruta: T31 - Vuelta
+11. Origen: UDP3 (ID: 501852) -> Destino: PLATOR1 (ID: 501900) | Ruta: T31 - Vuelta
+12. Origen: PLATOR1 (ID: 501900) -> Destino: PAMPA1 (ID: 501950) | Ruta: T31 - Vuelta
+13. Origen: PAMPA1 (ID: 501950) -> Destino: REFUG1 (ID: 502000) | Ruta: T31 - Vuelta
+14. Origen: REFUG1 (ID: 502000) -> Destino: CALDAS1 (ID: 502050) | Ruta: T31 - Vuelta
+15. Origen: CALDAS1 (ID: 502050) -> Destino: CAPRI3 (ID: 502102) | Ruta: T31 - Vuelta
+16. Origen: CAPRI3 (ID: 502102) -> Destino: MELEN1 (ID: 502150) | Ruta: T31 - Vuelta
+17. Origen: MELEN1 (ID: 502150) -> Destino: BUITRE1 (ID: 502200) | Ruta: T31 - Vuelta
+18. Origen: BUITRE1 (ID: 502200) -> Destino: UNIVAL1 (ID: 502250) | Ruta: T31 - Vuelta
+19. Origen: UNIVAL1 (ID: 502250) -> Destino: UNIV1 (ID: 502300) | Ruta: T31 - Vuelta
+20. Origen: FLORAI1 (ID: 500250) -> Destino: SALOM1 (ID: 500300) | Ruta: T31 - Vuelta
+21. Origen: SALOM1 (ID: 500300) -> Destino: POPU1 (ID: 500350) | Ruta: T31 - Vuelta
+22. Origen: POPU1 (ID: 500350) -> Destino: MZAN1 (ID: 500400) | Ruta: T31 - Vuelta
+23. Origen: MZAN1 (ID: 500400) -> Destino: FATI1 (ID: 500450) | Ruta: T31 - Vuelta
+24. Origen: FATI1 (ID: 500450) -> Destino: RIOC1 (ID: 500500) | Ruta: T31 - Vuelta
+25. Origen: RIOC1 (ID: 500500) -> Destino: TORRE3 (ID: 500602) | Ruta: T31 - Vuelta
+26. Origen: PCOMERA2 (ID: 504009) -> Destino: CHIMI3 (ID: 500200) | Ruta: T31 - Vuelta
+27. Origen: CHIMI3 (ID: 500200) -> Destino: FLORAI1 (ID: 500250) | Ruta: T31 - Vuelta

@@ -6,6 +6,13 @@ if not exist bin (
     pause
     exit /b 1
 )
-java -cp bin com.sitm.mio.grafos.Main
+
+REM Configurar classpath
+set CLASSPATH=bin
+if exist libs\jmapviewer.jar (
+    set CLASSPATH=%CLASSPATH%;libs\jmapviewer.jar
+)
+
+java -cp %CLASSPATH% com.sitm.mio.grafos.Main datos
 pause
 

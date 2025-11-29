@@ -1,0 +1,97 @@
+========================================
+REPORTE DE RUTA: A13A-0
+========================================
+
+Información General:
+  Número de Arcos: 17
+  Distancia Total: 4,44 km
+  Tiempo Total: 17,29 min
+  Velocidad Promedio: 15,40 km/h
+
+Detalle de Arcos:
+------------------------------------------------------------
+Arco 1: C48K83A -> C48K80
+  Distancia: 0,23 km
+  Tiempo: 0,91 min
+  Velocidad: 15,40 km/h
+
+Arco 2: C48K80 -> K80C45
+  Distancia: 0,24 km
+  Tiempo: 0,95 min
+  Velocidad: 15,40 km/h
+
+Arco 3: K80C45 -> C42K81
+  Distancia: 0,23 km
+  Tiempo: 0,89 min
+  Velocidad: 15,40 km/h
+
+Arco 4: C42K81 -> C42K81Y4
+  Distancia: 0,33 km
+  Tiempo: 1,30 min
+  Velocidad: 15,40 km/h
+
+Arco 5: C42K81Y4 -> C42K84
+  Distancia: 0,24 km
+  Tiempo: 0,94 min
+  Velocidad: 15,40 km/h
+
+Arco 6: C42K84 -> C42K85C
+  Distancia: 0,28 km
+  Tiempo: 1,10 min
+  Velocidad: 15,40 km/h
+
+Arco 7: C42K85C -> K86C45Y8
+  Distancia: 0,29 km
+  Tiempo: 1,13 min
+  Velocidad: 15,40 km/h
+
+Arco 8: K86C45Y8 -> C48K90
+  Distancia: 0,28 km
+  Tiempo: 1,10 min
+  Velocidad: 15,40 km/h
+
+Arco 9: C48K90 -> C48K94
+  Distancia: 0,24 km
+  Tiempo: 0,93 min
+  Velocidad: 15,40 km/h
+
+Arco 10: C48K94 -> C48K96
+  Distancia: 0,28 km
+  Tiempo: 1,09 min
+  Velocidad: 15,40 km/h
+
+Arco 11: C48K96 -> C48K98A
+  Distancia: 0,28 km
+  Tiempo: 1,11 min
+  Velocidad: 15,40 km/h
+
+Arco 12: C48K98A -> K99C451
+  Distancia: 0,27 km
+  Tiempo: 1,05 min
+  Velocidad: 15,40 km/h
+
+Arco 13: K99C451 -> K99C45
+  Distancia: 0,14 km
+  Tiempo: 0,56 min
+  Velocidad: 15,40 km/h
+
+Arco 14: K99C45 -> K99C34
+  Distancia: 0,26 km
+  Tiempo: 1,01 min
+  Velocidad: 15,40 km/h
+
+Arco 15: K99C34 -> C25K99
+  Distancia: 0,29 km
+  Tiempo: 1,12 min
+  Velocidad: 15,40 km/h
+
+Arco 16: C25K99 -> UNIVCOM7
+  Distancia: 0,46 km
+  Tiempo: 1,78 min
+  Velocidad: 15,40 km/h
+
+Arco 17: UNIVCOM7 -> UNIVCOM6
+  Distancia: 0,08 km
+  Tiempo: 0,33 min
+  Velocidad: 15,40 km/h
+

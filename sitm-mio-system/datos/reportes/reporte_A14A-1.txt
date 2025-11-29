@@ -1,0 +1,37 @@
+========================================
+REPORTE DE RUTA: A14A-1
+========================================
+
+Información General:
+  Número de Arcos: 5
+  Distancia Total: 4,50 km
+  Tiempo Total: 13,73 min
+  Velocidad Promedio: 18,04 km/h
+
+Detalle de Arcos:
+------------------------------------------------------------
+Arco 1: UNIV3 -> K122C24
+  Distancia: 2,61 km
+  Tiempo: 7,13 min
+  Velocidad: 22,00 km/h
+
+Arco 2: K122C24 -> K122C17A
+  Distancia: 0,63 km
+  Tiempo: 1,72 min
+  Velocidad: 22,00 km/h
+
+Arco 3: K122C17A -> K122C151
+  Distancia: 0,45 km
+  Tiempo: 1,74 min
+  Velocidad: 15,40 km/h
+
+Arco 4: K122C151 -> K122C121
+  Distancia: 0,42 km
+  Tiempo: 1,65 min
+  Velocidad: 15,40 km/h
+
+Arco 5: K122C121 -> K122C61
+  Distancia: 0,38 km
+  Tiempo: 1,50 min
+  Velocidad: 15,40 km/h
+

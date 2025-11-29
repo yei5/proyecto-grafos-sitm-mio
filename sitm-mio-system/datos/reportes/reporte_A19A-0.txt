@@ -1,0 +1,142 @@
+========================================
+REPORTE DE RUTA: A19A-0
+========================================
+
+Información General:
+  Número de Arcos: 26
+  Distancia Total: 10,91 km
+  Tiempo Total: 35,94 min
+  Velocidad Promedio: 17,18 km/h
+
+Detalle de Arcos:
+------------------------------------------------------------
+Arco 1: UNIVCOM9 -> R-SUR 1
+  Distancia: 0,10 km
+  Tiempo: 0,41 min
+  Velocidad: 15,40 km/h
+
+Arco 2: UNIVCOM9 -> UNIVCOM2
+  Distancia: 0,05 km
+  Tiempo: 0,21 min
+  Velocidad: 15,40 km/h
+
+Arco 3: C18K170 -> C18K1682
+  Distancia: 0,21 km
+  Tiempo: 0,81 min
+  Velocidad: 15,40 km/h
+
+Arco 4: C18K1682 -> C18K150
+  Distancia: 0,71 km
+  Tiempo: 1,93 min
+  Velocidad: 22,00 km/h
+
+Arco 5: C18K150 -> C18K142
+  Distancia: 0,54 km
+  Tiempo: 1,47 min
+  Velocidad: 22,00 km/h
+
+Arco 6: C18K142 -> C18K1414
+  Distancia: 0,26 km
+  Tiempo: 1,02 min
+  Velocidad: 15,40 km/h
+
+Arco 7: C18K1414 -> C18K1412
+  Distancia: 0,22 km
+  Tiempo: 0,85 min
+  Velocidad: 15,40 km/h
+
+Arco 8: C18K1412 -> C18K1302
+  Distancia: 0,31 km
+  Tiempo: 1,20 min
+  Velocidad: 15,40 km/h
+
+Arco 9: C18K1302 -> C18K1291
+  Distancia: 0,30 km
+  Tiempo: 1,18 min
+  Velocidad: 15,40 km/h
+
+Arco 10: C18K1291 -> C18K1271
+  Distancia: 0,19 km
+  Tiempo: 0,73 min
+  Velocidad: 15,40 km/h
+
+Arco 11: C18K1271 -> C18K127C
+  Distancia: 0,22 km
+  Tiempo: 0,87 min
+  Velocidad: 15,40 km/h
+
+Arco 12: C18K127C -> C18K1272
+  Distancia: 0,56 km
+  Tiempo: 1,53 min
+  Velocidad: 22,00 km/h
+
+Arco 13: C18K1272 -> K125C20
+  Distancia: 0,24 km
+  Tiempo: 0,93 min
+  Velocidad: 15,40 km/h
+
+Arco 14: K125C20 -> K125C23A
+  Distancia: 0,35 km
+  Tiempo: 1,37 min
+  Velocidad: 15,40 km/h
+
+Arco 15: K125C23A -> C25K1222
+  Distancia: 0,78 km
+  Tiempo: 2,14 min
+  Velocidad: 22,00 km/h
+
+Arco 16: C25K1222 -> C25UAUT2
+  Distancia: 0,93 km
+  Tiempo: 2,53 min
+  Velocidad: 22,00 km/h
+
+Arco 17: C25UAUT2 -> UNIVCOM9
+  Distancia: 1,52 km
+  Tiempo: 4,14 min
+  Velocidad: 22,00 km/h
+
+Arco 18: C18K1272 -> C18ICESI
+  Distancia: 0,35 km
+  Tiempo: 1,37 min
+  Velocidad: 15,40 km/h
+
+Arco 19: C18ICESI -> C18CARU1
+  Distancia: 0,34 km
+  Tiempo: 1,32 min
+  Velocidad: 15,40 km/h
+
+Arco 20: C18CARU1 -> C18UJAV2
+  Distancia: 0,48 km
+  Tiempo: 1,86 min
+  Velocidad: 15,40 km/h
+
+Arco 21: C18UJAV2 -> C18K116
+  Distancia: 0,56 km
+  Tiempo: 1,54 min
+  Velocidad: 22,00 km/h
+
+Arco 22: C18K116 -> C18K115
+  Distancia: 0,28 km
+  Tiempo: 1,11 min
+  Velocidad: 15,40 km/h
+
+Arco 23: C18K115 -> C18K111
+  Distancia: 0,26 km
+  Tiempo: 1,00 min
+  Velocidad: 15,40 km/h
+
+Arco 24: C18K111 -> C18K108
+  Distancia: 0,34 km
+  Tiempo: 1,33 min
+  Velocidad: 15,40 km/h
+
+Arco 25: C18K108 -> C16K103
+  Distancia: 0,41 km
+  Tiempo: 1,60 min
+  Velocidad: 15,40 km/h
+
+Arco 26: C16K103 -> UNIVCOM2
+  Distancia: 0,39 km
+  Tiempo: 1,52 min
+  Velocidad: 15,40 km/h
+

@@ -3,27 +3,33 @@ Nodos: 11
 Arcos: 10
 ------------------------------------
 
-=== Lista de Nodos ===
-501651 - MANZA2
-519270 - C5K15C6
-502400 - L.AMERI1
-519138 - C5K14Y13
-501803 - LIDO4
-519166 - A4NC23
-519266 - C5K7
-519164 - A4NC18
-519165 - A4NC21
-501855 - UDP6
-501701 - ESTAD2
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+501651 - MANZA2 - GPS: (3,434783, -76,540922)
+519270 - C5K15C6 - GPS: (3,441667, -76,536300)
+502400 - L.AMERI1 - GPS: (3,463517, -76,525308)
+519138 - C5K14Y13 - GPS: (3,444355, -76,536535)
+501803 - LIDO4 - GPS: (3,419147, -76,548225)
+519166 - A4NC23 - GPS: (3,463961, -76,526387)
+519266 - C5K7 - GPS: (3,447635, -76,536732)
+519164 - A4NC18 - GPS: (3,459533, -76,529402)
+519165 - A4NC21 - GPS: (3,461610, -76,527867)
+501855 - UDP6 - GPS: (3,415430, -76,548278)
+501701 - ESTAD2 - GPS: (3,431722, -76,543117)
 
-=== Lista de Arcos ===
-501855 -> 501803  (Ruta: E27B - Ida)
-501803 -> 501701  (Ruta: E27B - Ida)
-501701 -> 501651  (Ruta: E27B - Ida)
-501651 -> 519270  (Ruta: E27B - Ida)
-519270 -> 519138  (Ruta: E27B - Ida)
-519138 -> 519266  (Ruta: E27B - Ida)
-519266 -> 519164  (Ruta: E27B - Ida)
-519164 -> 519165  (Ruta: E27B - Ida)
-519165 -> 519166  (Ruta: E27B - Ida)
-519166 -> 502400  (Ruta: E27B - Ida)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: E27B - Ida (10 arcos) ---
+1. Origen: UDP6 (ID: 501855) -> Destino: LIDO4 (ID: 501803) | Ruta: E27B - Ida
+2. Origen: LIDO4 (ID: 501803) -> Destino: ESTAD2 (ID: 501701) | Ruta: E27B - Ida
+3. Origen: ESTAD2 (ID: 501701) -> Destino: MANZA2 (ID: 501651) | Ruta: E27B - Ida
+4. Origen: MANZA2 (ID: 501651) -> Destino: C5K15C6 (ID: 519270) | Ruta: E27B - Ida
+5. Origen: C5K15C6 (ID: 519270) -> Destino: C5K14Y13 (ID: 519138) | Ruta: E27B - Ida
+6. Origen: C5K14Y13 (ID: 519138) -> Destino: C5K7 (ID: 519266) | Ruta: E27B - Ida
+7. Origen: C5K7 (ID: 519266) -> Destino: A4NC18 (ID: 519164) | Ruta: E27B - Ida
+8. Origen: A4NC18 (ID: 519164) -> Destino: A4NC21 (ID: 519165) | Ruta: E27B - Ida
+9. Origen: A4NC21 (ID: 519165) -> Destino: A4NC23 (ID: 519166) | Ruta: E27B - Ida
+10. Origen: A4NC23 (ID: 519166) -> Destino: L.AMERI1 (ID: 502400) | Ruta: E27B - Ida

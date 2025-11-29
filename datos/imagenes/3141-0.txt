@@ -3,27 +3,33 @@ Nodos: 11
 Arcos: 10
 ------------------------------------
 
-=== Lista de Nodos ===
-511264 - C18K108
-511261 - C18UJAV2
-511250 - C18K111
-502302 - UNIV3
-511036 - K122C152
-511265 - C16K103
-511046 - C18CARU1
-511249 - C18K116
-511038 - K122C122
-511346 - C18K115
-511039 - K122C61
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+511264 - C18K108 - GPS: (3,361023, -76,530905)
+511261 - C18UJAV2 - GPS: (3,348088, -76,530478)
+511250 - C18K111 - GPS: (3,357996, -76,530426)
+502302 - UNIV3 - GPS: (3,366822, -76,528960)
+511036 - K122C152 - GPS: (3,342697, -76,536575)
+511265 - C16K103 - GPS: (3,364690, -76,531407)
+511046 - C18CARU1 - GPS: (3,343811, -76,530809)
+511249 - C18K116 - GPS: (3,353143, -76,530159)
+511038 - K122C122 - GPS: (3,342334, -76,541163)
+511346 - C18K115 - GPS: (3,355690, -76,530313)
+511039 - K122C61 - GPS: (3,342547, -76,544124)
 
-=== Lista de Arcos ===
-511039 -> 511038  (Ruta: A14A - Ida)
-511038 -> 511036  (Ruta: A14A - Ida)
-511036 -> 511046  (Ruta: A14A - Ida)
-511046 -> 511261  (Ruta: A14A - Ida)
-511261 -> 511249  (Ruta: A14A - Ida)
-511249 -> 511346  (Ruta: A14A - Ida)
-511346 -> 511250  (Ruta: A14A - Ida)
-511250 -> 511264  (Ruta: A14A - Ida)
-511264 -> 511265  (Ruta: A14A - Ida)
-511265 -> 502302  (Ruta: A14A - Ida)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: A14A - Ida (10 arcos) ---
+1. Origen: K122C61 (ID: 511039) -> Destino: K122C122 (ID: 511038) | Ruta: A14A - Ida
+2. Origen: K122C122 (ID: 511038) -> Destino: K122C152 (ID: 511036) | Ruta: A14A - Ida
+3. Origen: K122C152 (ID: 511036) -> Destino: C18CARU1 (ID: 511046) | Ruta: A14A - Ida
+4. Origen: C18CARU1 (ID: 511046) -> Destino: C18UJAV2 (ID: 511261) | Ruta: A14A - Ida
+5. Origen: C18UJAV2 (ID: 511261) -> Destino: C18K116 (ID: 511249) | Ruta: A14A - Ida
+6. Origen: C18K116 (ID: 511249) -> Destino: C18K115 (ID: 511346) | Ruta: A14A - Ida
+7. Origen: C18K115 (ID: 511346) -> Destino: C18K111 (ID: 511250) | Ruta: A14A - Ida
+8. Origen: C18K111 (ID: 511250) -> Destino: C18K108 (ID: 511264) | Ruta: A14A - Ida
+9. Origen: C18K108 (ID: 511264) -> Destino: C16K103 (ID: 511265) | Ruta: A14A - Ida
+10. Origen: C16K103 (ID: 511265) -> Destino: UNIV3 (ID: 502302) | Ruta: A14A - Ida

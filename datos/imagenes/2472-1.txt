@@ -1,108 +1,67 @@
 == 2472-1 ==
 Nodos: 27
-Arcos: 73
+Arcos: 26
 ------------------------------------
 
-=== Lista de Nodos ===
-514058 - K15C74
-516239 - K39C15
-518058 - C70K29
-516011 - K39C171
-518074 - K39C19
-500153 - A.SANIN4
-518050 - C70K26J
-503006 - TCALIPA6
-518009 - K39C261
-517119 - K39C7A
-518148 - C70K26F
-518147 - C70K25
-518004 - K39C31
-518149 - C70K34
-518006 - K39C32A
-517011 - K39C9A1
-501802 - LIDO3
-518165 - K39C26D
-516241 - K39C13B
-518003 - K39D301
-516242 - K39C11B
-517013 - K39C5B1
-517012 - K39C61
-518164 - C70K27A
-501850 - UDP1
-518060 - C70K32
-501050 - 7AGO1
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+514058 - K15C74 - GPS: (3,446300, -76,482097)
+516239 - K39C15 - GPS: (3,418389, -76,526333)
+518058 - C70K29 - GPS: (3,424338, -76,503243)
+516011 - K39C171 - GPS: (3,418699, -76,524653)
+518074 - K39C19 - GPS: (3,419070, -76,522635)
+500153 - A.SANIN4 - GPS: (3,443685, -76,482537)
+518050 - C70K26J - GPS: (3,433934, -76,496418)
+503006 - TCALIPA6 - GPS: (3,426498, -76,500803)
+518009 - K39C261 - GPS: (3,419370, -76,519979)
+517119 - K39C7A - GPS: (3,421848, -76,540469)
+518148 - C70K26F - GPS: (3,435902, -76,495396)
+518147 - C70K25 - GPS: (3,439483, -76,493440)
+518004 - K39C31 - GPS: (3,419678, -76,514715)
+518149 - C70K34 - GPS: (3,420467, -76,507268)
+518006 - K39C32A - GPS: (3,419870, -76,511573)
+517011 - K39C9A1 - GPS: (3,421293, -76,537516)
+501802 - LIDO3 - GPS: (3,418433, -76,548348)
+518165 - K39C26D - GPS: (3,419447, -76,518436)
+516241 - K39C13B - GPS: (3,419005, -76,529764)
+518003 - K39D301 - GPS: (3,420017, -76,508954)
+516242 - K39C11B - GPS: (3,420458, -76,534183)
+517013 - K39C5B1 - GPS: (3,423770, -76,545202)
+517012 - K39C61 - GPS: (3,422460, -76,542559)
+518164 - C70K27A - GPS: (3,430786, -76,498032)
+501850 - UDP1 - GPS: (3,415272, -76,548402)
+518060 - C70K32 - GPS: (3,422476, -76,505245)
+501050 - 7AGO1 - GPS: (3,445312, -76,487067)
 
-=== Lista de Arcos ===
-500153 -> 503006  (Ruta: P47B - Vuelta)
-503006 -> 500153  (Ruta: P47B - Vuelta)
-500153 -> 514058  (Ruta: P47B - Vuelta)
-514058 -> 518058  (Ruta: P47B - Vuelta)
-518058 -> 514058  (Ruta: P47B - Vuelta)
-514058 -> 501050  (Ruta: P47B - Vuelta)
-501050 -> 518060  (Ruta: P47B - Vuelta)
-518060 -> 501050  (Ruta: P47B - Vuelta)
-501050 -> 518147  (Ruta: P47B - Vuelta)
-518147 -> 518149  (Ruta: P47B - Vuelta)
-518149 -> 518147  (Ruta: P47B - Vuelta)
-518147 -> 518148  (Ruta: P47B - Vuelta)
-518148 -> 518003  (Ruta: P47B - Vuelta)
-518003 -> 518148  (Ruta: P47B - Vuelta)
-518148 -> 518050  (Ruta: P47B - Vuelta)
-518050 -> 518006  (Ruta: P47B - Vuelta)
-518006 -> 518050  (Ruta: P47B - Vuelta)
-518050 -> 518164  (Ruta: P47B - Vuelta)
-518164 -> 518004  (Ruta: P47B - Vuelta)
-518004 -> 518164  (Ruta: P47B - Vuelta)
-518164 -> 503006  (Ruta: P47B - Vuelta)
-503006 -> 518165  (Ruta: P47B - Vuelta)
-518165 -> 503006  (Ruta: P47B - Vuelta)
-503006 -> 518058  (Ruta: P47B - Vuelta)
-518058 -> 518009  (Ruta: P47B - Vuelta)
-518009 -> 518058  (Ruta: P47B - Vuelta)
-518058 -> 518060  (Ruta: P47B - Vuelta)
-518060 -> 518074  (Ruta: P47B - Vuelta)
-518074 -> 518060  (Ruta: P47B - Vuelta)
-518060 -> 518149  (Ruta: P47B - Vuelta)
-518149 -> 516011  (Ruta: P47B - Vuelta)
-516011 -> 518149  (Ruta: P47B - Vuelta)
-518149 -> 518003  (Ruta: P47B - Vuelta)
-518003 -> 516239  (Ruta: P47B - Vuelta)
-516239 -> 518003  (Ruta: P47B - Vuelta)
-518003 -> 518006  (Ruta: P47B - Vuelta)
-518006 -> 516241  (Ruta: P47B - Vuelta)
-516241 -> 518006  (Ruta: P47B - Vuelta)
-518006 -> 518004  (Ruta: P47B - Vuelta)
-518004 -> 516242  (Ruta: P47B - Vuelta)
-516242 -> 518004  (Ruta: P47B - Vuelta)
-518004 -> 518165  (Ruta: P47B - Vuelta)
-518165 -> 517011  (Ruta: P47B - Vuelta)
-517011 -> 518165  (Ruta: P47B - Vuelta)
-518165 -> 518009  (Ruta: P47B - Vuelta)
-518009 -> 517119  (Ruta: P47B - Vuelta)
-517119 -> 518009  (Ruta: P47B - Vuelta)
-518009 -> 518074  (Ruta: P47B - Vuelta)
-518074 -> 517012  (Ruta: P47B - Vuelta)
-517012 -> 518074  (Ruta: P47B - Vuelta)
-518074 -> 516011  (Ruta: P47B - Vuelta)
-516011 -> 517013  (Ruta: P47B - Vuelta)
-517013 -> 516011  (Ruta: P47B - Vuelta)
-516011 -> 516239  (Ruta: P47B - Vuelta)
-516239 -> 501802  (Ruta: P47B - Vuelta)
-501802 -> 516239  (Ruta: P47B - Vuelta)
-516239 -> 516241  (Ruta: P47B - Vuelta)
-516241 -> 501850  (Ruta: P47B - Vuelta)
-501850 -> 516241  (Ruta: P47B - Vuelta)
-516241 -> 516242  (Ruta: P47B - Vuelta)
-516242 -> 516242  (Ruta: P47B - Vuelta)
-516242 -> 517011  (Ruta: P47B - Vuelta)
-517011 -> 517011  (Ruta: P47B - Vuelta)
-517011 -> 517119  (Ruta: P47B - Vuelta)
-517119 -> 517119  (Ruta: P47B - Vuelta)
-517119 -> 517012  (Ruta: P47B - Vuelta)
-517012 -> 517012  (Ruta: P47B - Vuelta)
-517012 -> 517013  (Ruta: P47B - Vuelta)
-517013 -> 517013  (Ruta: P47B - Vuelta)
-517013 -> 501802  (Ruta: P47B - Vuelta)
-501802 -> 501802  (Ruta: P47B - Vuelta)
-501802 -> 501850  (Ruta: P47B - Vuelta)
-501850 -> 501850  (Ruta: P47B - Vuelta)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: P47B - Vuelta (26 arcos) ---
+1. Origen: A.SANIN4 (ID: 500153) -> Destino: K15C74 (ID: 514058) | Ruta: P47B - Vuelta
+2. Origen: K15C74 (ID: 514058) -> Destino: 7AGO1 (ID: 501050) | Ruta: P47B - Vuelta
+3. Origen: 7AGO1 (ID: 501050) -> Destino: C70K25 (ID: 518147) | Ruta: P47B - Vuelta
+4. Origen: C70K25 (ID: 518147) -> Destino: C70K26F (ID: 518148) | Ruta: P47B - Vuelta
+5. Origen: C70K26F (ID: 518148) -> Destino: C70K26J (ID: 518050) | Ruta: P47B - Vuelta
+6. Origen: C70K26J (ID: 518050) -> Destino: C70K27A (ID: 518164) | Ruta: P47B - Vuelta
+7. Origen: C70K27A (ID: 518164) -> Destino: TCALIPA6 (ID: 503006) | Ruta: P47B - Vuelta
+8. Origen: TCALIPA6 (ID: 503006) -> Destino: C70K29 (ID: 518058) | Ruta: P47B - Vuelta
+9. Origen: C70K29 (ID: 518058) -> Destino: C70K32 (ID: 518060) | Ruta: P47B - Vuelta
+10. Origen: C70K32 (ID: 518060) -> Destino: C70K34 (ID: 518149) | Ruta: P47B - Vuelta
+11. Origen: C70K34 (ID: 518149) -> Destino: K39D301 (ID: 518003) | Ruta: P47B - Vuelta
+12. Origen: K39D301 (ID: 518003) -> Destino: K39C32A (ID: 518006) | Ruta: P47B - Vuelta
+13. Origen: K39C32A (ID: 518006) -> Destino: K39C31 (ID: 518004) | Ruta: P47B - Vuelta
+14. Origen: K39C31 (ID: 518004) -> Destino: K39C26D (ID: 518165) | Ruta: P47B - Vuelta
+15. Origen: K39C26D (ID: 518165) -> Destino: K39C261 (ID: 518009) | Ruta: P47B - Vuelta
+16. Origen: K39C261 (ID: 518009) -> Destino: K39C19 (ID: 518074) | Ruta: P47B - Vuelta
+17. Origen: K39C19 (ID: 518074) -> Destino: K39C171 (ID: 516011) | Ruta: P47B - Vuelta
+18. Origen: K39C171 (ID: 516011) -> Destino: K39C15 (ID: 516239) | Ruta: P47B - Vuelta
+19. Origen: K39C15 (ID: 516239) -> Destino: K39C13B (ID: 516241) | Ruta: P47B - Vuelta
+20. Origen: K39C13B (ID: 516241) -> Destino: K39C11B (ID: 516242) | Ruta: P47B - Vuelta
+21. Origen: K39C11B (ID: 516242) -> Destino: K39C9A1 (ID: 517011) | Ruta: P47B - Vuelta
+22. Origen: K39C9A1 (ID: 517011) -> Destino: K39C7A (ID: 517119) | Ruta: P47B - Vuelta
+23. Origen: K39C7A (ID: 517119) -> Destino: K39C61 (ID: 517012) | Ruta: P47B - Vuelta
+24. Origen: K39C61 (ID: 517012) -> Destino: K39C5B1 (ID: 517013) | Ruta: P47B - Vuelta
+25. Origen: K39C5B1 (ID: 517013) -> Destino: LIDO3 (ID: 501802) | Ruta: P47B - Vuelta
+26. Origen: LIDO3 (ID: 501802) -> Destino: UDP1 (ID: 501850) | Ruta: P47B - Vuelta

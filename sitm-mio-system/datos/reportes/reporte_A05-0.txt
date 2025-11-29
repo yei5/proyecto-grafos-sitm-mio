@@ -1,0 +1,82 @@
+========================================
+REPORTE DE RUTA: A05-0
+========================================
+
+Información General:
+  Número de Arcos: 14
+  Distancia Total: 3,62 km
+  Tiempo Total: 14,11 min
+  Velocidad Promedio: 15,40 km/h
+
+Detalle de Arcos:
+------------------------------------------------------------
+Arco 1: C7OEAV1 -> K1C7OE
+  Distancia: 0,15 km
+  Tiempo: 0,60 min
+  Velocidad: 15,40 km/h
+
+Arco 2: K1C7OE -> C5AOEK1C
+  Distancia: 0,32 km
+  Tiempo: 1,24 min
+  Velocidad: 15,40 km/h
+
+Arco 3: C5AOEK1C -> K1C5OE
+  Distancia: 0,16 km
+  Tiempo: 0,63 min
+  Velocidad: 15,40 km/h
+
+Arco 4: K1C5OE -> A1K2
+  Distancia: 0,32 km
+  Tiempo: 1,26 min
+  Velocidad: 15,40 km/h
+
+Arco 5: A1K2 -> K1C2A
+  Distancia: 0,26 km
+  Tiempo: 1,02 min
+  Velocidad: 15,40 km/h
+
+Arco 6: K1C2A -> A2NA1
+  Distancia: 0,19 km
+  Tiempo: 0,75 min
+  Velocidad: 15,40 km/h
+
+Arco 7: A2NA1 -> C8AV3
+  Distancia: 0,39 km
+  Tiempo: 1,54 min
+  Velocidad: 15,40 km/h
+
+Arco 8: C8AV3 -> A4NC10
+  Distancia: 0,17 km
+  Tiempo: 0,64 min
+  Velocidad: 15,40 km/h
+
+Arco 9: A4NC10 -> A6NC13
+  Distancia: 0,33 km
+  Tiempo: 1,30 min
+  Velocidad: 15,40 km/h
+
+Arco 10: A6NC13 -> A6NC16
+  Distancia: 0,40 km
+  Tiempo: 1,56 min
+  Velocidad: 15,40 km/h
+
+Arco 11: A6NC16 -> C21A5AN
+  Distancia: 0,29 km
+  Tiempo: 1,13 min
+  Velocidad: 15,40 km/h
+
+Arco 12: C21A5AN -> A4NC21
+  Distancia: 0,19 km
+  Tiempo: 0,74 min
+  Velocidad: 15,40 km/h
+
+Arco 13: A4NC21 -> A4NC23
+  Distancia: 0,31 km
+  Tiempo: 1,20 min
+  Velocidad: 15,40 km/h
+
+Arco 14: A4NC23 -> L.AMERI1
+  Distancia: 0,13 km
+  Tiempo: 0,50 min
+  Velocidad: 15,40 km/h
+

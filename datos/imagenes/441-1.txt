@@ -3,35 +3,41 @@ Nodos: 15
 Arcos: 14
 ------------------------------------
 
-=== Lista de Nodos ===
-501854 - UDP5
-501200 - CHAPI1
-502102 - CAPRI3
-502300 - UNIV1
-501300 - FLORE1
-501950 - PAMPA1
-500158 - A.SANI10
-501350 - BELAL1
-502000 - REFUG1
-501100 - TREB1
-502200 - BUITRE1
-502050 - CALDAS1
-501050 - 7AGO1
-501150 - VICOL1
-501250 - ATGI1
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+501854 - UDP5 - GPS: (3,414477, -76,548450)
+501200 - CHAPI1 - GPS: (3,444395, -76,502320)
+502102 - CAPRI3 - GPS: (3,387728, -76,544990)
+502300 - UNIV1 - GPS: (3,367005, -76,529252)
+501300 - FLORE1 - GPS: (3,445348, -76,514710)
+501950 - PAMPA1 - GPS: (3,403593, -76,546873)
+500158 - A.SANI10 - GPS: (3,443377, -76,482654)
+501350 - BELAL1 - GPS: (3,444177, -76,520840)
+502000 - REFUG1 - GPS: (3,398599, -76,546468)
+501100 - TREB1 - GPS: (3,443623, -76,496107)
+502200 - BUITRE1 - GPS: (3,372535, -76,539995)
+502050 - CALDAS1 - GPS: (3,394255, -76,545993)
+501050 - 7AGO1 - GPS: (3,445312, -76,487067)
+501150 - VICOL1 - GPS: (3,443962, -76,498967)
+501250 - ATGI1 - GPS: (3,444905, -76,508437)
 
-=== Lista de Arcos ===
-500158 -> 501050  (Ruta: E41 - Vuelta)
-501050 -> 501100  (Ruta: E41 - Vuelta)
-501100 -> 501150  (Ruta: E41 - Vuelta)
-501150 -> 501200  (Ruta: E41 - Vuelta)
-501200 -> 501250  (Ruta: E41 - Vuelta)
-501250 -> 501300  (Ruta: E41 - Vuelta)
-501300 -> 501350  (Ruta: E41 - Vuelta)
-501350 -> 501854  (Ruta: E41 - Vuelta)
-501854 -> 501950  (Ruta: E41 - Vuelta)
-501950 -> 502000  (Ruta: E41 - Vuelta)
-502000 -> 502050  (Ruta: E41 - Vuelta)
-502050 -> 502102  (Ruta: E41 - Vuelta)
-502102 -> 502200  (Ruta: E41 - Vuelta)
-502200 -> 502300  (Ruta: E41 - Vuelta)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: E41 - Vuelta (14 arcos) ---
+1. Origen: A.SANI10 (ID: 500158) -> Destino: 7AGO1 (ID: 501050) | Ruta: E41 - Vuelta
+2. Origen: 7AGO1 (ID: 501050) -> Destino: TREB1 (ID: 501100) | Ruta: E41 - Vuelta
+3. Origen: TREB1 (ID: 501100) -> Destino: VICOL1 (ID: 501150) | Ruta: E41 - Vuelta
+4. Origen: VICOL1 (ID: 501150) -> Destino: CHAPI1 (ID: 501200) | Ruta: E41 - Vuelta
+5. Origen: CHAPI1 (ID: 501200) -> Destino: ATGI1 (ID: 501250) | Ruta: E41 - Vuelta
+6. Origen: ATGI1 (ID: 501250) -> Destino: FLORE1 (ID: 501300) | Ruta: E41 - Vuelta
+7. Origen: FLORE1 (ID: 501300) -> Destino: BELAL1 (ID: 501350) | Ruta: E41 - Vuelta
+8. Origen: BELAL1 (ID: 501350) -> Destino: UDP5 (ID: 501854) | Ruta: E41 - Vuelta
+9. Origen: UDP5 (ID: 501854) -> Destino: PAMPA1 (ID: 501950) | Ruta: E41 - Vuelta
+10. Origen: PAMPA1 (ID: 501950) -> Destino: REFUG1 (ID: 502000) | Ruta: E41 - Vuelta
+11. Origen: REFUG1 (ID: 502000) -> Destino: CALDAS1 (ID: 502050) | Ruta: E41 - Vuelta
+12. Origen: CALDAS1 (ID: 502050) -> Destino: CAPRI3 (ID: 502102) | Ruta: E41 - Vuelta
+13. Origen: CAPRI3 (ID: 502102) -> Destino: BUITRE1 (ID: 502200) | Ruta: E41 - Vuelta
+14. Origen: BUITRE1 (ID: 502200) -> Destino: UNIV1 (ID: 502300) | Ruta: E41 - Vuelta

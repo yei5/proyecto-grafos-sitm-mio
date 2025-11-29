@@ -3,27 +3,33 @@ Nodos: 11
 Arcos: 10
 ------------------------------------
 
-=== Lista de Nodos ===
-513310 - C62K1HB
-513167 - C62AK1A8
-513166 - C62AK1B4
-513001 - K1C62
-513215 - K2C70
-513138 - K2C671
-513214 - C62K1A5A
-513136 - K2C641
-513312 - K1A6C62A
-513212 - C62K1C
-513311 - C66K1A10
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+513310 - C62K1HB - GPS: (3,472622, -76,492653)
+513167 - C62AK1A8 - GPS: (3,479190, -76,492800)
+513166 - C62AK1B4 - GPS: (3,476667, -76,493330)
+513001 - K1C62 - GPS: (3,481613, -76,497863)
+513215 - K2C70 - GPS: (3,472588, -76,487673)
+513138 - K2C671 - GPS: (3,472070, -76,489290)
+513214 - C62K1A5A - GPS: (3,479565, -76,496685)
+513136 - K2C641 - GPS: (3,471545, -76,491015)
+513312 - K1A6C62A - GPS: (3,480332, -76,494662)
+513212 - C62K1C - GPS: (3,475660, -76,493527)
+513311 - C66K1A10 - GPS: (3,480850, -76,492807)
 
-=== Lista de Arcos ===
-513215 -> 513138  (Ruta: A36 - Ida)
-513138 -> 513136  (Ruta: A36 - Ida)
-513136 -> 513310  (Ruta: A36 - Ida)
-513310 -> 513212  (Ruta: A36 - Ida)
-513212 -> 513166  (Ruta: A36 - Ida)
-513166 -> 513167  (Ruta: A36 - Ida)
-513167 -> 513311  (Ruta: A36 - Ida)
-513311 -> 513312  (Ruta: A36 - Ida)
-513312 -> 513214  (Ruta: A36 - Ida)
-513214 -> 513001  (Ruta: A36 - Ida)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: A36 - Ida (10 arcos) ---
+1. Origen: K2C70 (ID: 513215) -> Destino: K2C671 (ID: 513138) | Ruta: A36 - Ida
+2. Origen: K2C671 (ID: 513138) -> Destino: K2C641 (ID: 513136) | Ruta: A36 - Ida
+3. Origen: K2C641 (ID: 513136) -> Destino: C62K1HB (ID: 513310) | Ruta: A36 - Ida
+4. Origen: C62K1HB (ID: 513310) -> Destino: C62K1C (ID: 513212) | Ruta: A36 - Ida
+5. Origen: C62K1C (ID: 513212) -> Destino: C62AK1B4 (ID: 513166) | Ruta: A36 - Ida
+6. Origen: C62AK1B4 (ID: 513166) -> Destino: C62AK1A8 (ID: 513167) | Ruta: A36 - Ida
+7. Origen: C62AK1A8 (ID: 513167) -> Destino: C66K1A10 (ID: 513311) | Ruta: A36 - Ida
+8. Origen: C66K1A10 (ID: 513311) -> Destino: K1A6C62A (ID: 513312) | Ruta: A36 - Ida
+9. Origen: K1A6C62A (ID: 513312) -> Destino: C62K1A5A (ID: 513214) | Ruta: A36 - Ida
+10. Origen: C62K1A5A (ID: 513214) -> Destino: K1C62 (ID: 513001) | Ruta: A36 - Ida

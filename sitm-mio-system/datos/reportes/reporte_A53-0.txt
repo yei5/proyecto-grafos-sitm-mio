@@ -1,0 +1,92 @@
+========================================
+REPORTE DE RUTA: A53-0
+========================================
+
+Información General:
+  Número de Arcos: 16
+  Distancia Total: 4,03 km
+  Tiempo Total: 15,05 min
+  Velocidad Promedio: 15,81 km/h
+
+Detalle de Arcos:
+------------------------------------------------------------
+Arco 1: A.SANIN9 -> A.SANI13
+  Distancia: 0,09 km
+  Tiempo: 0,34 min
+  Velocidad: 15,40 km/h
+
+Arco 2: C72WK28C -> C72WK28E
+  Distancia: 0,31 km
+  Tiempo: 1,19 min
+  Velocidad: 15,40 km/h
+
+Arco 3: C72WK28E -> C72K28E7
+  Distancia: 0,22 km
+  Tiempo: 0,87 min
+  Velocidad: 15,40 km/h
+
+Arco 4: C72K28E7 -> K28C72V
+  Distancia: 0,13 km
+  Tiempo: 0,50 min
+  Velocidad: 15,40 km/h
+
+Arco 5: K28C72V -> C72UK28E
+  Distancia: 0,16 km
+  Tiempo: 0,63 min
+  Velocidad: 15,40 km/h
+
+Arco 6: C72UK28E -> C72UK28D
+  Distancia: 0,25 km
+  Tiempo: 0,97 min
+  Velocidad: 15,40 km/h
+
+Arco 7: C72UK28D -> C72UK28C
+  Distancia: 0,25 km
+  Tiempo: 0,98 min
+  Velocidad: 15,40 km/h
+
+Arco 8: C72UK28C -> C72UK28A
+  Distancia: 0,10 km
+  Tiempo: 0,39 min
+  Velocidad: 15,40 km/h
+
+Arco 9: C72UK28A -> C72UK27G
+  Distancia: 0,21 km
+  Tiempo: 0,82 min
+  Velocidad: 15,40 km/h
+
+Arco 10: C72UK27G -> C72UK27
+  Distancia: 0,28 km
+  Tiempo: 1,07 min
+  Velocidad: 15,40 km/h
+
+Arco 11: C72UK27 -> C72UK26J
+  Distancia: 0,33 km
+  Tiempo: 1,29 min
+  Velocidad: 15,40 km/h
+
+Arco 12: C72UK26J -> C72UK26H
+  Distancia: 0,19 km
+  Tiempo: 0,76 min
+  Velocidad: 15,40 km/h
+
+Arco 13: C72UK26H -> C72UK26G
+  Distancia: 0,27 km
+  Tiempo: 1,05 min
+  Velocidad: 15,40 km/h
+
+Arco 14: C72UK26G -> C73K26F1
+  Distancia: 0,36 km
+  Tiempo: 1,40 min
+  Velocidad: 15,40 km/h
+
+Arco 15: C73K26F1 -> C73K26B2
+  Distancia: 0,33 km
+  Tiempo: 1,30 min
+  Velocidad: 15,40 km/h
+
+Arco 16: C73K26B2 -> A.SANIN9
+  Distancia: 0,55 km
+  Tiempo: 1,49 min
+  Velocidad: 22,00 km/h
+

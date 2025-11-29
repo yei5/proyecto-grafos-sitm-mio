@@ -1,0 +1,15 @@
+# Configuration file (11/29/25 01:14:35.485)
+
+# Server configuration
+Ice.Admin.ServerId=DatagramWorker1
+Ice.Admin.Endpoints=tcp -h localhost
+Ice.ProgramName=DatagramWorker1
+# Object adapter DatagramWorker.Adapter
+DatagramWorker.Adapter.Endpoints=tcp -h localhost -p 10020
+DatagramWorker.Adapter.AdapterId=DatagramWorker1.DatagramWorker.Adapter
+# Server descriptor properties
+Identity=DatagramWorker1
+Ice.ThreadPool.Server.Size=5
+Ice.ThreadPool.Server.SizeMax=20
+Ice.Override.Timeout=300000
+Ice.Default.Locator=IceGrid/Locator:tcp -h localhost -p 4061

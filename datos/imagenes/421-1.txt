@@ -1,50 +1,51 @@
 == 421-1 ==
-Nodos: 21
-Arcos: 21
+Nodos: 19
+Arcos: 18
 ------------------------------------
 
-=== Lista de Nodos ===
-600106 - TMENGA7
-500106 - TMENGA7
-500104 - TMENGA5
-501502 - PTCUY6
-501855 - UDP6
-501701 - ESTAD2
-500603 - TORRE4
-502300 - UNIV1
-502201 - BUITRE2
-501552 - SANPED6
-502401 - L.AMERI2
-501951 - PAMPA2
-501753 - TEQUE 4
-502501 - VIPASA2
-502351 - VERSALL2
-502451 - PRADNOR2
-502551 - ALAMOS2
-501001 - SANBO2
-502051 - CALDAS2
-502151 - MELEN2
-600104 - TMENGA5
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+600106 - TMENGA7 - GPS: (3,489515, -76,508707)
+500104 - TMENGA5 - GPS: (3,489288, -76,507958)
+501502 - PTCUY6 - GPS: (3,449637, -76,528092)
+501855 - UDP6 - GPS: (3,415430, -76,548278)
+501701 - ESTAD2 - GPS: (3,431722, -76,543117)
+500603 - TORRE4 - GPS: (3,457120, -76,530048)
+502300 - UNIV1 - GPS: (3,367005, -76,529252)
+502201 - BUITRE2 - GPS: (3,372828, -76,540475)
+501552 - SANPED6 - GPS: (3,454913, -76,530290)
+502401 - L.AMERI2 - GPS: (3,463730, -76,525142)
+501951 - PAMPA2 - GPS: (3,403867, -76,546782)
+501753 - TEQUE 4 - GPS: (3,423815, -76,546852)
+502501 - VIPASA2 - GPS: (3,478753, -76,516887)
+502351 - VERSALL2 - GPS: (3,461293, -76,526903)
+502451 - PRADNOR2 - GPS: (3,474362, -76,519478)
+502551 - ALAMOS2 - GPS: (3,484688, -76,513250)
+501001 - SANBO2 - GPS: (3,442245, -76,532565)
+502051 - CALDAS2 - GPS: (3,393978, -76,545823)
+502151 - MELEN2 - GPS: (3,377307, -76,542790)
 
-=== Lista de Arcos ===
-502300 -> 500104  (Ruta: E21 - Vuelta)
-500104 -> 502201  (Ruta: E21 - Vuelta)
-502201 -> 600104  (Ruta: E21 - Vuelta)
-600104 -> 502151  (Ruta: E21 - Vuelta)
-502151 -> 600106  (Ruta: E21 - Vuelta)
-600106 -> 502051  (Ruta: E21 - Vuelta)
-502051 -> 500106  (Ruta: E21 - Vuelta)
-500106 -> 501951  (Ruta: E21 - Vuelta)
-501951 -> 501855  (Ruta: E21 - Vuelta)
-501855 -> 501753  (Ruta: E21 - Vuelta)
-501753 -> 501701  (Ruta: E21 - Vuelta)
-501701 -> 501001  (Ruta: E21 - Vuelta)
-501001 -> 501502  (Ruta: E21 - Vuelta)
-501502 -> 501552  (Ruta: E21 - Vuelta)
-501552 -> 500603  (Ruta: E21 - Vuelta)
-500603 -> 502351  (Ruta: E21 - Vuelta)
-502351 -> 502401  (Ruta: E21 - Vuelta)
-502401 -> 502451  (Ruta: E21 - Vuelta)
-502451 -> 502501  (Ruta: E21 - Vuelta)
-502501 -> 502551  (Ruta: E21 - Vuelta)
-502551 -> 500104  (Ruta: E21 - Vuelta)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: E21 - Vuelta (18 arcos) ---
+1. Origen: UNIV1 (ID: 502300) -> Destino: BUITRE2 (ID: 502201) | Ruta: E21 - Vuelta
+2. Origen: BUITRE2 (ID: 502201) -> Destino: MELEN2 (ID: 502151) | Ruta: E21 - Vuelta
+3. Origen: MELEN2 (ID: 502151) -> Destino: CALDAS2 (ID: 502051) | Ruta: E21 - Vuelta
+4. Origen: CALDAS2 (ID: 502051) -> Destino: PAMPA2 (ID: 501951) | Ruta: E21 - Vuelta
+5. Origen: PAMPA2 (ID: 501951) -> Destino: UDP6 (ID: 501855) | Ruta: E21 - Vuelta
+6. Origen: UDP6 (ID: 501855) -> Destino: TEQUE 4 (ID: 501753) | Ruta: E21 - Vuelta
+7. Origen: TEQUE 4 (ID: 501753) -> Destino: ESTAD2 (ID: 501701) | Ruta: E21 - Vuelta
+8. Origen: ESTAD2 (ID: 501701) -> Destino: SANBO2 (ID: 501001) | Ruta: E21 - Vuelta
+9. Origen: SANBO2 (ID: 501001) -> Destino: PTCUY6 (ID: 501502) | Ruta: E21 - Vuelta
+10. Origen: PTCUY6 (ID: 501502) -> Destino: SANPED6 (ID: 501552) | Ruta: E21 - Vuelta
+11. Origen: SANPED6 (ID: 501552) -> Destino: TORRE4 (ID: 500603) | Ruta: E21 - Vuelta
+12. Origen: TORRE4 (ID: 500603) -> Destino: VERSALL2 (ID: 502351) | Ruta: E21 - Vuelta
+13. Origen: VERSALL2 (ID: 502351) -> Destino: L.AMERI2 (ID: 502401) | Ruta: E21 - Vuelta
+14. Origen: L.AMERI2 (ID: 502401) -> Destino: PRADNOR2 (ID: 502451) | Ruta: E21 - Vuelta
+15. Origen: PRADNOR2 (ID: 502451) -> Destino: VIPASA2 (ID: 502501) | Ruta: E21 - Vuelta
+16. Origen: VIPASA2 (ID: 502501) -> Destino: ALAMOS2 (ID: 502551) | Ruta: E21 - Vuelta
+17. Origen: ALAMOS2 (ID: 502551) -> Destino: TMENGA5 (ID: 500104) | Ruta: E21 - Vuelta
+18. Origen: TMENGA5 (ID: 500104) -> Destino: TMENGA7 (ID: 600106) | Ruta: E21 - Vuelta

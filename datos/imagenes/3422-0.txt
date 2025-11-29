@@ -3,29 +3,35 @@ Nodos: 12
 Arcos: 11
 ------------------------------------
 
-=== Lista de Nodos ===
-514069 - T103C79
-514068 - T103C76
-514067 - T103C56B
-514403 - T103K28B
-500157 - A.SANIN8
-514072 - T103D261
-514219 - T103K26A
-514071 - T103D26P
-514070 - T103D26I
-514427 - T103D26O
-514074 - C102K27C
-514073 - T103D263
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+514069 - T103C79 - GPS: (3,432420, -76,478784)
+514068 - T103C76 - GPS: (3,435781, -76,479964)
+514067 - T103C56B - GPS: (3,437972, -76,480727)
+514403 - T103K28B - GPS: (3,414196, -76,479311)
+500157 - A.SANIN8 - GPS: (3,443489, -76,483433)
+514072 - T103D261 - GPS: (3,422864, -76,477995)
+514219 - T103K26A - GPS: (3,439533, -76,481276)
+514071 - T103D26P - GPS: (3,424868, -76,477625)
+514070 - T103D26I - GPS: (3,428934, -76,477539)
+514427 - T103D26O - GPS: (3,426239, -76,477354)
+514074 - C102K27C - GPS: (3,416748, -76,479074)
+514073 - T103D263 - GPS: (3,420690, -76,478387)
 
-=== Lista de Arcos ===
-500157 -> 514219  (Ruta: A42B - Ida)
-514219 -> 514067  (Ruta: A42B - Ida)
-514067 -> 514068  (Ruta: A42B - Ida)
-514068 -> 514069  (Ruta: A42B - Ida)
-514069 -> 514070  (Ruta: A42B - Ida)
-514070 -> 514427  (Ruta: A42B - Ida)
-514427 -> 514071  (Ruta: A42B - Ida)
-514071 -> 514072  (Ruta: A42B - Ida)
-514072 -> 514073  (Ruta: A42B - Ida)
-514073 -> 514074  (Ruta: A42B - Ida)
-514074 -> 514403  (Ruta: A42B - Ida)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: A42B - Ida (11 arcos) ---
+1. Origen: A.SANIN8 (ID: 500157) -> Destino: T103K26A (ID: 514219) | Ruta: A42B - Ida
+2. Origen: T103K26A (ID: 514219) -> Destino: T103C56B (ID: 514067) | Ruta: A42B - Ida
+3. Origen: T103C56B (ID: 514067) -> Destino: T103C76 (ID: 514068) | Ruta: A42B - Ida
+4. Origen: T103C76 (ID: 514068) -> Destino: T103C79 (ID: 514069) | Ruta: A42B - Ida
+5. Origen: T103C79 (ID: 514069) -> Destino: T103D26I (ID: 514070) | Ruta: A42B - Ida
+6. Origen: T103D26I (ID: 514070) -> Destino: T103D26O (ID: 514427) | Ruta: A42B - Ida
+7. Origen: T103D26O (ID: 514427) -> Destino: T103D26P (ID: 514071) | Ruta: A42B - Ida
+8. Origen: T103D26P (ID: 514071) -> Destino: T103D261 (ID: 514072) | Ruta: A42B - Ida
+9. Origen: T103D261 (ID: 514072) -> Destino: T103D263 (ID: 514073) | Ruta: A42B - Ida
+10. Origen: T103D263 (ID: 514073) -> Destino: C102K27C (ID: 514074) | Ruta: A42B - Ida
+11. Origen: C102K27C (ID: 514074) -> Destino: T103K28B (ID: 514403) | Ruta: A42B - Ida

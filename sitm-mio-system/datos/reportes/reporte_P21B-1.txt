@@ -1,0 +1,212 @@
+========================================
+REPORTE DE RUTA: P21B-1
+========================================
+
+Información General:
+  Número de Arcos: 40
+  Distancia Total: 16,80 km
+  Tiempo Total: 64,35 min
+  Velocidad Promedio: 15,35 km/h
+
+Detalle de Arcos:
+------------------------------------------------------------
+Arco 1: C70K4C -> C70K5
+  Distancia: 0,35 km
+  Tiempo: 1,49 min
+  Velocidad: 14,00 km/h
+
+Arco 2: C70K5 -> C70K7BB
+  Distancia: 0,40 km
+  Tiempo: 1,72 min
+  Velocidad: 14,00 km/h
+
+Arco 3: C70K7BB -> C70K7EB
+  Distancia: 0,32 km
+  Tiempo: 1,38 min
+  Velocidad: 14,00 km/h
+
+Arco 4: C70K7EB -> C70K7L
+  Distancia: 0,34 km
+  Tiempo: 1,44 min
+  Velocidad: 14,00 km/h
+
+Arco 5: C70K7L -> C70K7RB
+  Distancia: 0,31 km
+  Tiempo: 1,32 min
+  Velocidad: 14,00 km/h
+
+Arco 6: C70K7RB -> C70K11P2
+  Distancia: 0,66 km
+  Tiempo: 1,98 min
+  Velocidad: 20,00 km/h
+
+Arco 7: C70K11P2 -> C70K11E
+  Distancia: 0,41 km
+  Tiempo: 1,76 min
+  Velocidad: 14,00 km/h
+
+Arco 8: C70K11E -> C70K25
+  Distancia: 0,90 km
+  Tiempo: 2,69 min
+  Velocidad: 20,00 km/h
+
+Arco 9: C70K25 -> C70K26E
+  Distancia: 0,38 km
+  Tiempo: 1,61 min
+  Velocidad: 14,00 km/h
+
+Arco 10: C70K26E -> C70K26J
+  Distancia: 0,32 km
+  Tiempo: 1,39 min
+  Velocidad: 14,00 km/h
+
+Arco 11: C70K26J -> C70K27A
+  Distancia: 0,39 km
+  Tiempo: 1,69 min
+  Velocidad: 14,00 km/h
+
+Arco 12: C70K27A -> TCALIPA4
+  Distancia: 0,48 km
+  Tiempo: 2,04 min
+  Velocidad: 14,00 km/h
+
+Arco 13: TCALIPA4 -> C70K29
+  Distancia: 0,45 km
+  Tiempo: 1,94 min
+  Velocidad: 14,00 km/h
+
+Arco 14: C70K29 -> C70K32
+  Distancia: 0,30 km
+  Tiempo: 1,30 min
+  Velocidad: 14,00 km/h
+
+Arco 15: C70K32 -> C70K34
+  Distancia: 0,32 km
+  Tiempo: 1,36 min
+  Velocidad: 14,00 km/h
+
+Arco 16: C70K34 -> C36K40
+  Distancia: 0,48 km
+  Tiempo: 2,05 min
+  Velocidad: 14,00 km/h
+
+Arco 17: C36K40 -> C36K41A
+  Distancia: 0,21 km
+  Tiempo: 0,91 min
+  Velocidad: 14,00 km/h
+
+Arco 18: C36K41A -> C36K42A
+  Distancia: 0,48 km
+  Tiempo: 2,04 min
+  Velocidad: 14,00 km/h
+
+Arco 19: C36K42A -> C36K44
+  Distancia: 0,32 km
+  Tiempo: 1,37 min
+  Velocidad: 14,00 km/h
+
+Arco 20: C36K44 -> C36K46B
+  Distancia: 0,39 km
+  Tiempo: 1,66 min
+  Velocidad: 14,00 km/h
+
+Arco 21: C36K46B -> C36K47B
+  Distancia: 0,19 km
+  Tiempo: 0,82 min
+  Velocidad: 14,00 km/h
+
+Arco 22: C36K47B -> C25K561
+  Distancia: 0,80 km
+  Tiempo: 2,41 min
+  Velocidad: 20,00 km/h
+
+Arco 23: C25K561 -> C25K66
+  Distancia: 0,60 km
+  Tiempo: 1,80 min
+  Velocidad: 20,00 km/h
+
+Arco 24: C25K66 -> C25K69A
+  Distancia: 0,32 km
+  Tiempo: 1,35 min
+  Velocidad: 14,00 km/h
+
+Arco 25: C25K69A -> C25K83B2
+  Distancia: 0,90 km
+  Tiempo: 2,69 min
+  Velocidad: 20,00 km/h
+
+Arco 26: C25K83B2 -> C25K862
+  Distancia: 0,53 km
+  Tiempo: 1,59 min
+  Velocidad: 20,00 km/h
+
+Arco 27: C25K862 -> C25K89
+  Distancia: 0,37 km
+  Tiempo: 1,61 min
+  Velocidad: 14,00 km/h
+
+Arco 28: C25K89 -> C25K952
+  Distancia: 0,37 km
+  Tiempo: 1,58 min
+  Velocidad: 14,00 km/h
+
+Arco 29: C25K952 -> C25K981
+  Distancia: 0,31 km
+  Tiempo: 1,34 min
+  Velocidad: 14,00 km/h
+
+Arco 30: C25K981 -> UNIV2
+  Distancia: 0,53 km
+  Tiempo: 1,60 min
+  Velocidad: 20,00 km/h
+
+Arco 31: TMENGA3 -> C70A2N2
+  Distancia: 0,50 km
+  Tiempo: 1,50 min
+  Velocidad: 20,00 km/h
+
+Arco 32: C70A2N2 -> C70K6N
+  Distancia: 0,32 km
+  Tiempo: 1,38 min
+  Velocidad: 14,00 km/h
+
+Arco 33: C70K6N -> C70K4N2
+  Distancia: 0,46 km
+  Tiempo: 1,96 min
+  Velocidad: 14,00 km/h
+
+Arco 34: C70K4N2 -> C70K11
+  Distancia: 0,21 km
+  Tiempo: 0,90 min
+  Velocidad: 14,00 km/h
+
+Arco 35: C70K11 -> C70K1A6
+  Distancia: 0,52 km
+  Tiempo: 1,57 min
+  Velocidad: 20,00 km/h
+
+Arco 36: C70K1A6 -> C70K1A10
+  Distancia: 0,34 km
+  Tiempo: 1,44 min
+  Velocidad: 14,00 km/h
+
+Arco 37: C70K1A10 -> C70K1B
+  Distancia: 0,24 km
+  Tiempo: 1,01 min
+  Velocidad: 14,00 km/h
+
+Arco 38: C70K1B -> C70K1C2
+  Distancia: 0,25 km
+  Tiempo: 1,07 min
+  Velocidad: 14,00 km/h
+
+Arco 39: C70K1C2 -> C70K1I
+  Distancia: 0,45 km
+  Tiempo: 1,92 min
+  Velocidad: 14,00 km/h
+
+Arco 40: C70K1I -> C70K4C
+  Distancia: 0,39 km
+  Tiempo: 1,66 min
+  Velocidad: 14,00 km/h
+

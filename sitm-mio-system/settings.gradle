@@ -1,0 +1,12 @@
+rootProject.name = 'sitm-mio-system-distributed'
+
+// Solo módulos necesarios para procesamiento distribuido
+include 'common'
+include 'datagram-master-service'
+include 'datagram-worker-service'
+include 'integration'
+
+project(':common').projectDir = file('common')
+project(':datagram-master-service').projectDir = file('datagram-master-service')
+project(':datagram-worker-service').projectDir = file('datagram-worker-service')
+project(':integration').projectDir = file('integration')

@@ -1,59 +1,53 @@
 == 377-1 ==
 Nodos: 20
-Arcos: 31
+Arcos: 19
 ------------------------------------
 
-=== Lista de Nodos ===
-516249 - K50D66
-516145 - C33D65
-516200 - K66C14C
-517268 - K66C5A
-516141 - K69C26
-516273 - K69C46
-516196 - C25D66
-516185 - K66C13E
-516274 - K69C461
-516142 - C42K69
-516197 - K66C18
-516186 - K66C13B
-516143 - C42K63
-516275 - D65K33
-516198 - K66C16
-516187 - K66C131
-517200 - K66C101
-516144 - K50C41
-516271 - K69C42
-516272 - K69C45
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+516249 - K50D66 - GPS: (3,398668, -76,518643)
+516145 - C33D65 - GPS: (3,398901, -76,521298)
+516200 - K66C14C - GPS: (3,397976, -76,531076)
+517268 - K66C5A - GPS: (3,398029, -76,545630)
+516141 - K69C26 - GPS: (3,394604, -76,522178)
+516273 - K69C46 - GPS: (3,392129, -76,516209)
+516196 - C25D66 - GPS: (3,398218, -76,522985)
+516185 - K66C13E - GPS: (3,398170, -76,533680)
+516274 - K69C461 - GPS: (3,392005, -76,517177)
+516142 - C42K69 - GPS: (3,394467, -76,518839)
+516197 - K66C18 - GPS: (3,397354, -76,525710)
+516186 - K66C13B - GPS: (3,398196, -76,536570)
+516143 - C42K63 - GPS: (3,395823, -76,517415)
+516275 - D65K33 - GPS: (3,398045, -76,521210)
+516198 - K66C16 - GPS: (3,397742, -76,528898)
+516187 - K66C131 - GPS: (3,398229, -76,538523)
+517200 - K66C101 - GPS: (3,398205, -76,543334)
+516144 - K50C41 - GPS: (3,397601, -76,517343)
+516271 - K69C42 - GPS: (3,394156, -76,519003)
+516272 - K69C45 - GPS: (3,392958, -76,517340)
 
-=== Lista de Arcos ===
-516141 -> 516141  (Ruta: A77 - Vuelta)
-516141 -> 516271  (Ruta: A77 - Vuelta)
-516271 -> 516271  (Ruta: A77 - Vuelta)
-516271 -> 516272  (Ruta: A77 - Vuelta)
-516272 -> 516272  (Ruta: A77 - Vuelta)
-516272 -> 516273  (Ruta: A77 - Vuelta)
-516273 -> 516273  (Ruta: A77 - Vuelta)
-516273 -> 516274  (Ruta: A77 - Vuelta)
-516274 -> 516274  (Ruta: A77 - Vuelta)
-516274 -> 516142  (Ruta: A77 - Vuelta)
-516142 -> 516142  (Ruta: A77 - Vuelta)
-516142 -> 516143  (Ruta: A77 - Vuelta)
-516143 -> 516143  (Ruta: A77 - Vuelta)
-516143 -> 516144  (Ruta: A77 - Vuelta)
-516144 -> 516144  (Ruta: A77 - Vuelta)
-516144 -> 516249  (Ruta: A77 - Vuelta)
-516249 -> 516249  (Ruta: A77 - Vuelta)
-516249 -> 516145  (Ruta: A77 - Vuelta)
-516145 -> 516145  (Ruta: A77 - Vuelta)
-516145 -> 516275  (Ruta: A77 - Vuelta)
-516275 -> 516275  (Ruta: A77 - Vuelta)
-516275 -> 516196  (Ruta: A77 - Vuelta)
-516196 -> 516196  (Ruta: A77 - Vuelta)
-516196 -> 516197  (Ruta: A77 - Vuelta)
-516197 -> 516198  (Ruta: A77 - Vuelta)
-516198 -> 516200  (Ruta: A77 - Vuelta)
-516200 -> 516185  (Ruta: A77 - Vuelta)
-516185 -> 516186  (Ruta: A77 - Vuelta)
-516186 -> 516187  (Ruta: A77 - Vuelta)
-516187 -> 517200  (Ruta: A77 - Vuelta)
-517200 -> 517268  (Ruta: A77 - Vuelta)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: A77 - Vuelta (19 arcos) ---
+1. Origen: K69C26 (ID: 516141) -> Destino: K69C42 (ID: 516271) | Ruta: A77 - Vuelta
+2. Origen: K69C42 (ID: 516271) -> Destino: K69C45 (ID: 516272) | Ruta: A77 - Vuelta
+3. Origen: K69C45 (ID: 516272) -> Destino: K69C46 (ID: 516273) | Ruta: A77 - Vuelta
+4. Origen: K69C46 (ID: 516273) -> Destino: K69C461 (ID: 516274) | Ruta: A77 - Vuelta
+5. Origen: K69C461 (ID: 516274) -> Destino: C42K69 (ID: 516142) | Ruta: A77 - Vuelta
+6. Origen: C42K69 (ID: 516142) -> Destino: C42K63 (ID: 516143) | Ruta: A77 - Vuelta
+7. Origen: C42K63 (ID: 516143) -> Destino: K50C41 (ID: 516144) | Ruta: A77 - Vuelta
+8. Origen: K50C41 (ID: 516144) -> Destino: K50D66 (ID: 516249) | Ruta: A77 - Vuelta
+9. Origen: K50D66 (ID: 516249) -> Destino: C33D65 (ID: 516145) | Ruta: A77 - Vuelta
+10. Origen: C33D65 (ID: 516145) -> Destino: D65K33 (ID: 516275) | Ruta: A77 - Vuelta
+11. Origen: D65K33 (ID: 516275) -> Destino: C25D66 (ID: 516196) | Ruta: A77 - Vuelta
+12. Origen: C25D66 (ID: 516196) -> Destino: K66C18 (ID: 516197) | Ruta: A77 - Vuelta
+13. Origen: K66C18 (ID: 516197) -> Destino: K66C16 (ID: 516198) | Ruta: A77 - Vuelta
+14. Origen: K66C16 (ID: 516198) -> Destino: K66C14C (ID: 516200) | Ruta: A77 - Vuelta
+15. Origen: K66C14C (ID: 516200) -> Destino: K66C13E (ID: 516185) | Ruta: A77 - Vuelta
+16. Origen: K66C13E (ID: 516185) -> Destino: K66C13B (ID: 516186) | Ruta: A77 - Vuelta
+17. Origen: K66C13B (ID: 516186) -> Destino: K66C131 (ID: 516187) | Ruta: A77 - Vuelta
+18. Origen: K66C131 (ID: 516187) -> Destino: K66C101 (ID: 517200) | Ruta: A77 - Vuelta
+19. Origen: K66C101 (ID: 517200) -> Destino: K66C5A (ID: 517268) | Ruta: A77 - Vuelta

@@ -1,92 +1,71 @@
 == 2101-0 ==
 Nodos: 29
-Arcos: 55
+Arcos: 28
 ------------------------------------
 
-=== Lista de Nodos ===
-516057 - C13K59
-516059 - C13K56
-516235 - C13K29B
-516053 - C13K701
-516055 - C13K65AB
-516110 - C13K671
-516077 - C13K32
-519025 - C13K20
-516078 - C13C141
-519142 - C13K231
-516071 - C13K37
-516051 - C13K75
-516073 - C13K341
-500900 - STROSA1
-519021 - C13D231
-500751 - ERMI3
-502250 - UNIVAL1
-516068 - C13K44
-516069 - C13K41A1
-511012 - C13K831
-516049 - C13K801
-500952 - FRAY5
-516066 - C13K47
-516061 - C13K551
-516063 - C13K49A
-501552 - SANPED6
-502303 - UNIV4
-511008 - C13K87
-511006 - C13K89
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+516057 - C13K59 - GPS: (3,401718, -76,536903)
+516059 - C13K56 - GPS: (3,404907, -76,535872)
+516235 - C13K29B - GPS: (3,427481, -76,528516)
+516053 - C13K701 - GPS: (3,392827, -76,538432)
+516055 - C13K65AB - GPS: (3,398960, -76,537800)
+516110 - C13K671 - GPS: (3,396002, -76,538172)
+516077 - C13K32 - GPS: (3,425041, -76,529305)
+519025 - C13K20 - GPS: (3,438205, -76,528466)
+516078 - C13C141 - GPS: (3,429302, -76,527682)
+519142 - C13K231 - GPS: (3,435284, -76,528343)
+516071 - C13K37 - GPS: (3,420665, -76,530718)
+516051 - C13K75 - GPS: (3,389762, -76,538683)
+516073 - C13K341 - GPS: (3,422982, -76,529998)
+500900 - STROSA1 - GPS: (3,447233, -76,529758)
+519021 - C13D231 - GPS: (3,433025, -76,528181)
+500751 - ERMI3 - GPS: (3,453182, -76,531535)
+502250 - UNIVAL1 - GPS: (3,370687, -76,536625)
+516068 - C13K44 - GPS: (3,413985, -76,532845)
+516069 - C13K41A1 - GPS: (3,416738, -76,531940)
+511012 - C13K831 - GPS: (3,382313, -76,538205)
+516049 - C13K801 - GPS: (3,386794, -76,538798)
+500952 - FRAY5 - GPS: (3,443127, -76,528730)
+516066 - C13K47 - GPS: (3,411965, -76,533520)
+516061 - C13K551 - GPS: (3,407088, -76,535167)
+516063 - C13K49A - GPS: (3,409675, -76,534350)
+501552 - SANPED6 - GPS: (3,454913, -76,530290)
+502303 - UNIV4 - GPS: (3,367183, -76,529395)
+511008 - C13K87 - GPS: (3,378266, -76,537658)
+511006 - C13K89 - GPS: (3,374704, -76,537461)
 
-=== Lista de Arcos ===
-516061 -> 501552  (Ruta: P10A - Ida)
-501552 -> 516063  (Ruta: P10A - Ida)
-516063 -> 516059  (Ruta: P10A - Ida)
-516059 -> 500751  (Ruta: P10A - Ida)
-500751 -> 516061  (Ruta: P10A - Ida)
-516061 -> 516057  (Ruta: P10A - Ida)
-516057 -> 500900  (Ruta: P10A - Ida)
-500900 -> 516059  (Ruta: P10A - Ida)
-516059 -> 516055  (Ruta: P10A - Ida)
-516055 -> 500952  (Ruta: P10A - Ida)
-500952 -> 516057  (Ruta: P10A - Ida)
-516057 -> 516110  (Ruta: P10A - Ida)
-516110 -> 519025  (Ruta: P10A - Ida)
-519025 -> 516055  (Ruta: P10A - Ida)
-516055 -> 516053  (Ruta: P10A - Ida)
-516053 -> 519142  (Ruta: P10A - Ida)
-519142 -> 516110  (Ruta: P10A - Ida)
-516110 -> 516051  (Ruta: P10A - Ida)
-516051 -> 519021  (Ruta: P10A - Ida)
-519021 -> 516053  (Ruta: P10A - Ida)
-516053 -> 516049  (Ruta: P10A - Ida)
-516049 -> 516078  (Ruta: P10A - Ida)
-516078 -> 516051  (Ruta: P10A - Ida)
-516051 -> 511012  (Ruta: P10A - Ida)
-511012 -> 516235  (Ruta: P10A - Ida)
-516235 -> 516049  (Ruta: P10A - Ida)
-516049 -> 511008  (Ruta: P10A - Ida)
-511008 -> 516077  (Ruta: P10A - Ida)
-516077 -> 511012  (Ruta: P10A - Ida)
-511012 -> 511006  (Ruta: P10A - Ida)
-511006 -> 516073  (Ruta: P10A - Ida)
-516073 -> 511008  (Ruta: P10A - Ida)
-511008 -> 502250  (Ruta: P10A - Ida)
-502250 -> 516071  (Ruta: P10A - Ida)
-516071 -> 511006  (Ruta: P10A - Ida)
-511006 -> 502303  (Ruta: P10A - Ida)
-502303 -> 516069  (Ruta: P10A - Ida)
-516069 -> 502250  (Ruta: P10A - Ida)
-502250 -> 516068  (Ruta: P10A - Ida)
-516068 -> 502303  (Ruta: P10A - Ida)
-502303 -> 516066  (Ruta: P10A - Ida)
-516066 -> 516063  (Ruta: P10A - Ida)
-516063 -> 516061  (Ruta: P10A - Ida)
-516061 -> 516059  (Ruta: P10A - Ida)
-516059 -> 516057  (Ruta: P10A - Ida)
-516057 -> 516055  (Ruta: P10A - Ida)
-516055 -> 516110  (Ruta: P10A - Ida)
-516110 -> 516053  (Ruta: P10A - Ida)
-516053 -> 516051  (Ruta: P10A - Ida)
-516051 -> 516049  (Ruta: P10A - Ida)
-516049 -> 511012  (Ruta: P10A - Ida)
-511012 -> 511008  (Ruta: P10A - Ida)
-511008 -> 511006  (Ruta: P10A - Ida)
-511006 -> 502250  (Ruta: P10A - Ida)
-502250 -> 502303  (Ruta: P10A - Ida)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: P10A - Ida (28 arcos) ---
+1. Origen: C13K551 (ID: 516061) -> Destino: C13K56 (ID: 516059) | Ruta: P10A - Ida
+2. Origen: C13K56 (ID: 516059) -> Destino: C13K59 (ID: 516057) | Ruta: P10A - Ida
+3. Origen: C13K59 (ID: 516057) -> Destino: C13K65AB (ID: 516055) | Ruta: P10A - Ida
+4. Origen: C13K65AB (ID: 516055) -> Destino: C13K671 (ID: 516110) | Ruta: P10A - Ida
+5. Origen: C13K671 (ID: 516110) -> Destino: C13K701 (ID: 516053) | Ruta: P10A - Ida
+6. Origen: C13K701 (ID: 516053) -> Destino: C13K75 (ID: 516051) | Ruta: P10A - Ida
+7. Origen: C13K75 (ID: 516051) -> Destino: C13K801 (ID: 516049) | Ruta: P10A - Ida
+8. Origen: C13K801 (ID: 516049) -> Destino: C13K831 (ID: 511012) | Ruta: P10A - Ida
+9. Origen: C13K831 (ID: 511012) -> Destino: C13K87 (ID: 511008) | Ruta: P10A - Ida
+10. Origen: C13K87 (ID: 511008) -> Destino: C13K89 (ID: 511006) | Ruta: P10A - Ida
+11. Origen: C13K89 (ID: 511006) -> Destino: UNIVAL1 (ID: 502250) | Ruta: P10A - Ida
+12. Origen: UNIVAL1 (ID: 502250) -> Destino: UNIV4 (ID: 502303) | Ruta: P10A - Ida
+13. Origen: SANPED6 (ID: 501552) -> Destino: ERMI3 (ID: 500751) | Ruta: P10A - Ida
+14. Origen: ERMI3 (ID: 500751) -> Destino: STROSA1 (ID: 500900) | Ruta: P10A - Ida
+15. Origen: STROSA1 (ID: 500900) -> Destino: FRAY5 (ID: 500952) | Ruta: P10A - Ida
+16. Origen: FRAY5 (ID: 500952) -> Destino: C13K20 (ID: 519025) | Ruta: P10A - Ida
+17. Origen: C13K20 (ID: 519025) -> Destino: C13K231 (ID: 519142) | Ruta: P10A - Ida
+18. Origen: C13K231 (ID: 519142) -> Destino: C13D231 (ID: 519021) | Ruta: P10A - Ida
+19. Origen: C13D231 (ID: 519021) -> Destino: C13C141 (ID: 516078) | Ruta: P10A - Ida
+20. Origen: C13C141 (ID: 516078) -> Destino: C13K29B (ID: 516235) | Ruta: P10A - Ida
+21. Origen: C13K29B (ID: 516235) -> Destino: C13K32 (ID: 516077) | Ruta: P10A - Ida
+22. Origen: C13K32 (ID: 516077) -> Destino: C13K341 (ID: 516073) | Ruta: P10A - Ida
+23. Origen: C13K341 (ID: 516073) -> Destino: C13K37 (ID: 516071) | Ruta: P10A - Ida
+24. Origen: C13K37 (ID: 516071) -> Destino: C13K41A1 (ID: 516069) | Ruta: P10A - Ida
+25. Origen: C13K41A1 (ID: 516069) -> Destino: C13K44 (ID: 516068) | Ruta: P10A - Ida
+26. Origen: C13K44 (ID: 516068) -> Destino: C13K47 (ID: 516066) | Ruta: P10A - Ida
+27. Origen: C13K47 (ID: 516066) -> Destino: C13K49A (ID: 516063) | Ruta: P10A - Ida
+28. Origen: C13K49A (ID: 516063) -> Destino: C13K551 (ID: 516061) | Ruta: P10A - Ida

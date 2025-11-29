@@ -3,29 +3,35 @@ Nodos: 12
 Arcos: 11
 ------------------------------------
 
-=== Lista de Nodos ===
-501200 - CHAPI1
-501300 - FLORE1
-501500 - PTCUY2
-501350 - BELAL1
-501450 - SUCRE2
-500751 - ERMI3
-501550 - SANPED2
-501100 - TREB1
-501150 - VICOL1
-500159 - A.SANI11
-501052 - 7AGO3
-501250 - ATGI1
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+501200 - CHAPI1 - GPS: (3,444395, -76,502320)
+501300 - FLORE1 - GPS: (3,445348, -76,514710)
+501500 - PTCUY2 - GPS: (3,448708, -76,527767)
+501350 - BELAL1 - GPS: (3,444177, -76,520840)
+501450 - SUCRE2 - GPS: (3,443553, -76,526227)
+500751 - ERMI3 - GPS: (3,453182, -76,531535)
+501550 - SANPED2 - GPS: (3,454100, -76,529950)
+501100 - TREB1 - GPS: (3,443623, -76,496107)
+501150 - VICOL1 - GPS: (3,443962, -76,498967)
+500159 - A.SANI11 - GPS: (3,443422, -76,482988)
+501052 - 7AGO3 - GPS: (3,445228, -76,487447)
+501250 - ATGI1 - GPS: (3,444905, -76,508437)
 
-=== Lista de Arcos ===
-500159 -> 501052  (Ruta: T40 - Vuelta)
-501052 -> 501100  (Ruta: T40 - Vuelta)
-501100 -> 501150  (Ruta: T40 - Vuelta)
-501150 -> 501200  (Ruta: T40 - Vuelta)
-501200 -> 501250  (Ruta: T40 - Vuelta)
-501250 -> 501300  (Ruta: T40 - Vuelta)
-501300 -> 501350  (Ruta: T40 - Vuelta)
-501350 -> 501450  (Ruta: T40 - Vuelta)
-501450 -> 501500  (Ruta: T40 - Vuelta)
-501500 -> 501550  (Ruta: T40 - Vuelta)
-501550 -> 500751  (Ruta: T40 - Vuelta)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: T40 - Vuelta (11 arcos) ---
+1. Origen: A.SANI11 (ID: 500159) -> Destino: 7AGO3 (ID: 501052) | Ruta: T40 - Vuelta
+2. Origen: 7AGO3 (ID: 501052) -> Destino: TREB1 (ID: 501100) | Ruta: T40 - Vuelta
+3. Origen: TREB1 (ID: 501100) -> Destino: VICOL1 (ID: 501150) | Ruta: T40 - Vuelta
+4. Origen: VICOL1 (ID: 501150) -> Destino: CHAPI1 (ID: 501200) | Ruta: T40 - Vuelta
+5. Origen: CHAPI1 (ID: 501200) -> Destino: ATGI1 (ID: 501250) | Ruta: T40 - Vuelta
+6. Origen: ATGI1 (ID: 501250) -> Destino: FLORE1 (ID: 501300) | Ruta: T40 - Vuelta
+7. Origen: FLORE1 (ID: 501300) -> Destino: BELAL1 (ID: 501350) | Ruta: T40 - Vuelta
+8. Origen: BELAL1 (ID: 501350) -> Destino: SUCRE2 (ID: 501450) | Ruta: T40 - Vuelta
+9. Origen: SUCRE2 (ID: 501450) -> Destino: PTCUY2 (ID: 501500) | Ruta: T40 - Vuelta
+10. Origen: PTCUY2 (ID: 501500) -> Destino: SANPED2 (ID: 501550) | Ruta: T40 - Vuelta
+11. Origen: SANPED2 (ID: 501550) -> Destino: ERMI3 (ID: 500751) | Ruta: T40 - Vuelta

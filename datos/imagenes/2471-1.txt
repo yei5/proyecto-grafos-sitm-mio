@@ -1,176 +1,95 @@
 == 2471-1 ==
 Nodos: 41
-Arcos: 127
+Arcos: 40
 ------------------------------------
 
-=== Lista de Nodos ===
-514278 - C79K28D
-515006 - K39C511
-514376 - C72YK27A
-516239 - K39C15
-515008 - K39C541
-514374 - C73K26M
-515002 - K39C401
-516011 - K39C171
-518074 - K39C19
-514372 - C73K26H3
-515061 - C83K28D
-514370 - C73K26G6
-500151 - A.SANIN2
-515016 - K39C461
-518009 - K39C261
-514541 - C73K26K
-515237 - C83K28E6
-515018 - C55K331
-515238 - C83K28F
-517119 - K39C7A
-515012 - C83K28D4
-518004 - K39C31
-514401 - C73D18
-515014 - C55K291
-514367 - C73K25S1
-514400 - C73K25C
-518006 - K39C32A
-517011 - K39C9A1
-515152 - K39C38
-518165 - K39C26D
-516241 - K39C13B
-515010 - C55K32A1
-518003 - K39D301
-516242 - K39C11B
-517013 - K39C5B1
-517012 - K39C61
-514382 - C73D191
-515150 - K39C42B
-501850 - UDP1
-501752 - TEQUE3
-514417 - C73D26H
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+514278 - C79K28D - GPS: (3,420331, -76,486464)
+515006 - K39C511 - GPS: (3,410011, -76,499007)
+514376 - C72YK27A - GPS: (3,423338, -76,486105)
+516239 - K39C15 - GPS: (3,418389, -76,526333)
+515008 - K39C541 - GPS: (3,408282, -76,497354)
+514374 - C73K26M - GPS: (3,426820, -76,484588)
+515002 - K39C401 - GPS: (3,417319, -76,505969)
+516011 - K39C171 - GPS: (3,418699, -76,524653)
+518074 - K39C19 - GPS: (3,419070, -76,522635)
+514372 - C73K26H3 - GPS: (3,429705, -76,484137)
+515061 - C83K28D - GPS: (3,417305, -76,486776)
+514370 - C73K26G6 - GPS: (3,433342, -76,484234)
+500151 - A.SANIN2 - GPS: (3,443876, -76,483103)
+515016 - K39C461 - GPS: (3,413039, -76,501976)
+518009 - K39C261 - GPS: (3,419370, -76,519979)
+514541 - C73K26K - GPS: (3,427810, -76,484246)
+515237 - C83K28E6 - GPS: (3,414517, -76,489338)
+515018 - C55K331 - GPS: (3,409194, -76,494896)
+515238 - C83K28F - GPS: (3,413213, -76,490805)
+517119 - K39C7A - GPS: (3,421848, -76,540469)
+515012 - C83K28D4 - GPS: (3,415750, -76,488121)
+518004 - K39C31 - GPS: (3,419678, -76,514715)
+514401 - C73D18 - GPS: (3,445164, -76,483774)
+515014 - C55K291 - GPS: (3,412072, -76,492004)
+518006 - K39C32A - GPS: (3,419870, -76,511573)
+514367 - C73K25S1 - GPS: (3,440964, -76,484348)
+514400 - C73K25C - GPS: (3,437871, -76,484263)
+517011 - K39C9A1 - GPS: (3,421293, -76,537516)
+515152 - K39C38 - GPS: (3,418723, -76,507333)
+518165 - K39C26D - GPS: (3,419447, -76,518436)
+516241 - K39C13B - GPS: (3,419005, -76,529764)
+518003 - K39D301 - GPS: (3,420017, -76,508954)
+516242 - K39C11B - GPS: (3,420458, -76,534183)
+517013 - K39C5B1 - GPS: (3,423770, -76,545202)
+515010 - C55K32A1 - GPS: (3,410375, -76,493703)
+517012 - K39C61 - GPS: (3,422460, -76,542559)
+514382 - C73D191 - GPS: (3,443644, -76,484333)
+515150 - K39C42B - GPS: (3,415448, -76,504228)
+501850 - UDP1 - GPS: (3,415272, -76,548402)
+501752 - TEQUE3 - GPS: (3,423135, -76,547205)
+514417 - C73D26H - GPS: (3,431515, -76,484144)
 
-=== Lista de Arcos ===
-500151 -> 515008  (Ruta: P47A - Vuelta)
-515008 -> 515010  (Ruta: P47A - Vuelta)
-515010 -> 500151  (Ruta: P47A - Vuelta)
-500151 -> 514401  (Ruta: P47A - Vuelta)
-514401 -> 515006  (Ruta: P47A - Vuelta)
-515006 -> 515018  (Ruta: P47A - Vuelta)
-515018 -> 514401  (Ruta: P47A - Vuelta)
-514401 -> 514382  (Ruta: P47A - Vuelta)
-514382 -> 515016  (Ruta: P47A - Vuelta)
-515016 -> 515008  (Ruta: P47A - Vuelta)
-515008 -> 514382  (Ruta: P47A - Vuelta)
-514382 -> 514367  (Ruta: P47A - Vuelta)
-514367 -> 515150  (Ruta: P47A - Vuelta)
-515150 -> 515006  (Ruta: P47A - Vuelta)
-515006 -> 514367  (Ruta: P47A - Vuelta)
-514367 -> 514400  (Ruta: P47A - Vuelta)
-514400 -> 515002  (Ruta: P47A - Vuelta)
-515002 -> 515016  (Ruta: P47A - Vuelta)
-515016 -> 514400  (Ruta: P47A - Vuelta)
-514400 -> 514370  (Ruta: P47A - Vuelta)
-514370 -> 515152  (Ruta: P47A - Vuelta)
-515152 -> 515150  (Ruta: P47A - Vuelta)
-515150 -> 514370  (Ruta: P47A - Vuelta)
-514370 -> 514417  (Ruta: P47A - Vuelta)
-514417 -> 518003  (Ruta: P47A - Vuelta)
-518003 -> 515002  (Ruta: P47A - Vuelta)
-515002 -> 514417  (Ruta: P47A - Vuelta)
-514417 -> 514372  (Ruta: P47A - Vuelta)
-514372 -> 518006  (Ruta: P47A - Vuelta)
-518006 -> 515152  (Ruta: P47A - Vuelta)
-515152 -> 514372  (Ruta: P47A - Vuelta)
-514372 -> 514541  (Ruta: P47A - Vuelta)
-514541 -> 518004  (Ruta: P47A - Vuelta)
-518004 -> 518003  (Ruta: P47A - Vuelta)
-518003 -> 514541  (Ruta: P47A - Vuelta)
-514541 -> 514374  (Ruta: P47A - Vuelta)
-514374 -> 518165  (Ruta: P47A - Vuelta)
-518165 -> 518006  (Ruta: P47A - Vuelta)
-518006 -> 514374  (Ruta: P47A - Vuelta)
-514374 -> 514376  (Ruta: P47A - Vuelta)
-514376 -> 518009  (Ruta: P47A - Vuelta)
-518009 -> 518004  (Ruta: P47A - Vuelta)
-518004 -> 514376  (Ruta: P47A - Vuelta)
-514376 -> 514278  (Ruta: P47A - Vuelta)
-514278 -> 518074  (Ruta: P47A - Vuelta)
-518074 -> 518165  (Ruta: P47A - Vuelta)
-518165 -> 514278  (Ruta: P47A - Vuelta)
-514278 -> 515061  (Ruta: P47A - Vuelta)
-515061 -> 516011  (Ruta: P47A - Vuelta)
-516011 -> 518009  (Ruta: P47A - Vuelta)
-518009 -> 515061  (Ruta: P47A - Vuelta)
-515061 -> 515012  (Ruta: P47A - Vuelta)
-515012 -> 516239  (Ruta: P47A - Vuelta)
-516239 -> 518074  (Ruta: P47A - Vuelta)
-518074 -> 515012  (Ruta: P47A - Vuelta)
-515012 -> 515237  (Ruta: P47A - Vuelta)
-515237 -> 516241  (Ruta: P47A - Vuelta)
-516241 -> 516011  (Ruta: P47A - Vuelta)
-516011 -> 515237  (Ruta: P47A - Vuelta)
-515237 -> 515238  (Ruta: P47A - Vuelta)
-515238 -> 516242  (Ruta: P47A - Vuelta)
-516242 -> 516239  (Ruta: P47A - Vuelta)
-516239 -> 515238  (Ruta: P47A - Vuelta)
-515238 -> 515014  (Ruta: P47A - Vuelta)
-515014 -> 517011  (Ruta: P47A - Vuelta)
-517011 -> 516241  (Ruta: P47A - Vuelta)
-516241 -> 515014  (Ruta: P47A - Vuelta)
-515014 -> 515010  (Ruta: P47A - Vuelta)
-515010 -> 517119  (Ruta: P47A - Vuelta)
-517119 -> 516242  (Ruta: P47A - Vuelta)
-516242 -> 515010  (Ruta: P47A - Vuelta)
-515010 -> 515018  (Ruta: P47A - Vuelta)
-515018 -> 517012  (Ruta: P47A - Vuelta)
-517012 -> 517011  (Ruta: P47A - Vuelta)
-517011 -> 515018  (Ruta: P47A - Vuelta)
-515018 -> 515008  (Ruta: P47A - Vuelta)
-515008 -> 517013  (Ruta: P47A - Vuelta)
-517013 -> 517119  (Ruta: P47A - Vuelta)
-517119 -> 515008  (Ruta: P47A - Vuelta)
-515008 -> 515006  (Ruta: P47A - Vuelta)
-515006 -> 501752  (Ruta: P47A - Vuelta)
-501752 -> 517012  (Ruta: P47A - Vuelta)
-517012 -> 515006  (Ruta: P47A - Vuelta)
-515006 -> 515016  (Ruta: P47A - Vuelta)
-515016 -> 501850  (Ruta: P47A - Vuelta)
-501850 -> 517013  (Ruta: P47A - Vuelta)
-517013 -> 515016  (Ruta: P47A - Vuelta)
-515016 -> 515150  (Ruta: P47A - Vuelta)
-515150 -> 501752  (Ruta: P47A - Vuelta)
-501752 -> 515150  (Ruta: P47A - Vuelta)
-515150 -> 515002  (Ruta: P47A - Vuelta)
-515002 -> 501850  (Ruta: P47A - Vuelta)
-501850 -> 515002  (Ruta: P47A - Vuelta)
-515002 -> 515152  (Ruta: P47A - Vuelta)
-515152 -> 515152  (Ruta: P47A - Vuelta)
-515152 -> 518003  (Ruta: P47A - Vuelta)
-518003 -> 518003  (Ruta: P47A - Vuelta)
-518003 -> 518006  (Ruta: P47A - Vuelta)
-518006 -> 518006  (Ruta: P47A - Vuelta)
-518006 -> 518004  (Ruta: P47A - Vuelta)
-518004 -> 518004  (Ruta: P47A - Vuelta)
-518004 -> 518165  (Ruta: P47A - Vuelta)
-518165 -> 518165  (Ruta: P47A - Vuelta)
-518165 -> 518009  (Ruta: P47A - Vuelta)
-518009 -> 518009  (Ruta: P47A - Vuelta)
-518009 -> 518074  (Ruta: P47A - Vuelta)
-518074 -> 518074  (Ruta: P47A - Vuelta)
-518074 -> 516011  (Ruta: P47A - Vuelta)
-516011 -> 516011  (Ruta: P47A - Vuelta)
-516011 -> 516239  (Ruta: P47A - Vuelta)
-516239 -> 516239  (Ruta: P47A - Vuelta)
-516239 -> 516241  (Ruta: P47A - Vuelta)
-516241 -> 516241  (Ruta: P47A - Vuelta)
-516241 -> 516242  (Ruta: P47A - Vuelta)
-516242 -> 516242  (Ruta: P47A - Vuelta)
-516242 -> 517011  (Ruta: P47A - Vuelta)
-517011 -> 517011  (Ruta: P47A - Vuelta)
-517011 -> 517119  (Ruta: P47A - Vuelta)
-517119 -> 517119  (Ruta: P47A - Vuelta)
-517119 -> 517012  (Ruta: P47A - Vuelta)
-517012 -> 517012  (Ruta: P47A - Vuelta)
-517012 -> 517013  (Ruta: P47A - Vuelta)
-517013 -> 517013  (Ruta: P47A - Vuelta)
-517013 -> 501752  (Ruta: P47A - Vuelta)
-501752 -> 501752  (Ruta: P47A - Vuelta)
-501752 -> 501850  (Ruta: P47A - Vuelta)
-501850 -> 501850  (Ruta: P47A - Vuelta)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: P47A - Vuelta (40 arcos) ---
+1. Origen: K39C541 (ID: 515008) -> Destino: K39C511 (ID: 515006) | Ruta: P47A - Vuelta
+2. Origen: K39C511 (ID: 515006) -> Destino: K39C461 (ID: 515016) | Ruta: P47A - Vuelta
+3. Origen: K39C461 (ID: 515016) -> Destino: K39C42B (ID: 515150) | Ruta: P47A - Vuelta
+4. Origen: K39C42B (ID: 515150) -> Destino: K39C401 (ID: 515002) | Ruta: P47A - Vuelta
+5. Origen: K39C401 (ID: 515002) -> Destino: K39C38 (ID: 515152) | Ruta: P47A - Vuelta
+6. Origen: K39C38 (ID: 515152) -> Destino: K39D301 (ID: 518003) | Ruta: P47A - Vuelta
+7. Origen: K39D301 (ID: 518003) -> Destino: K39C32A (ID: 518006) | Ruta: P47A - Vuelta
+8. Origen: K39C32A (ID: 518006) -> Destino: K39C31 (ID: 518004) | Ruta: P47A - Vuelta
+9. Origen: K39C31 (ID: 518004) -> Destino: K39C26D (ID: 518165) | Ruta: P47A - Vuelta
+10. Origen: K39C26D (ID: 518165) -> Destino: K39C261 (ID: 518009) | Ruta: P47A - Vuelta
+11. Origen: K39C261 (ID: 518009) -> Destino: K39C19 (ID: 518074) | Ruta: P47A - Vuelta
+12. Origen: K39C19 (ID: 518074) -> Destino: K39C171 (ID: 516011) | Ruta: P47A - Vuelta
+13. Origen: K39C171 (ID: 516011) -> Destino: K39C15 (ID: 516239) | Ruta: P47A - Vuelta
+14. Origen: K39C15 (ID: 516239) -> Destino: K39C13B (ID: 516241) | Ruta: P47A - Vuelta
+15. Origen: K39C13B (ID: 516241) -> Destino: K39C11B (ID: 516242) | Ruta: P47A - Vuelta
+16. Origen: K39C11B (ID: 516242) -> Destino: K39C9A1 (ID: 517011) | Ruta: P47A - Vuelta
+17. Origen: K39C9A1 (ID: 517011) -> Destino: K39C7A (ID: 517119) | Ruta: P47A - Vuelta
+18. Origen: K39C7A (ID: 517119) -> Destino: K39C61 (ID: 517012) | Ruta: P47A - Vuelta
+19. Origen: K39C61 (ID: 517012) -> Destino: K39C5B1 (ID: 517013) | Ruta: P47A - Vuelta
+20. Origen: K39C5B1 (ID: 517013) -> Destino: TEQUE3 (ID: 501752) | Ruta: P47A - Vuelta
+21. Origen: TEQUE3 (ID: 501752) -> Destino: UDP1 (ID: 501850) | Ruta: P47A - Vuelta
+22. Origen: C55K32A1 (ID: 515010) -> Destino: C55K331 (ID: 515018) | Ruta: P47A - Vuelta
+23. Origen: C55K331 (ID: 515018) -> Destino: K39C541 (ID: 515008) | Ruta: P47A - Vuelta
+24. Origen: A.SANIN2 (ID: 500151) -> Destino: C73D18 (ID: 514401) | Ruta: P47A - Vuelta
+25. Origen: C73D18 (ID: 514401) -> Destino: C73D191 (ID: 514382) | Ruta: P47A - Vuelta
+26. Origen: C73D191 (ID: 514382) -> Destino: C73K25S1 (ID: 514367) | Ruta: P47A - Vuelta
+27. Origen: C73K25S1 (ID: 514367) -> Destino: C73K25C (ID: 514400) | Ruta: P47A - Vuelta
+28. Origen: C73K25C (ID: 514400) -> Destino: C73K26G6 (ID: 514370) | Ruta: P47A - Vuelta
+29. Origen: C73K26G6 (ID: 514370) -> Destino: C73D26H (ID: 514417) | Ruta: P47A - Vuelta
+30. Origen: C73D26H (ID: 514417) -> Destino: C73K26H3 (ID: 514372) | Ruta: P47A - Vuelta
+31. Origen: C73K26H3 (ID: 514372) -> Destino: C73K26K (ID: 514541) | Ruta: P47A - Vuelta
+32. Origen: C73K26K (ID: 514541) -> Destino: C73K26M (ID: 514374) | Ruta: P47A - Vuelta
+33. Origen: C73K26M (ID: 514374) -> Destino: C72YK27A (ID: 514376) | Ruta: P47A - Vuelta
+34. Origen: C72YK27A (ID: 514376) -> Destino: C79K28D (ID: 514278) | Ruta: P47A - Vuelta
+35. Origen: C79K28D (ID: 514278) -> Destino: C83K28D (ID: 515061) | Ruta: P47A - Vuelta
+36. Origen: C83K28D (ID: 515061) -> Destino: C83K28D4 (ID: 515012) | Ruta: P47A - Vuelta
+37. Origen: C83K28D4 (ID: 515012) -> Destino: C83K28E6 (ID: 515237) | Ruta: P47A - Vuelta
+38. Origen: C83K28E6 (ID: 515237) -> Destino: C83K28F (ID: 515238) | Ruta: P47A - Vuelta
+39. Origen: C83K28F (ID: 515238) -> Destino: C55K291 (ID: 515014) | Ruta: P47A - Vuelta
+40. Origen: C55K291 (ID: 515014) -> Destino: C55K32A1 (ID: 515010) | Ruta: P47A - Vuelta

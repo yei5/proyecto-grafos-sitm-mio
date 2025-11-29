@@ -1,0 +1,67 @@
+========================================
+REPORTE DE RUTA: A23-1
+========================================
+
+Información General:
+  Número de Arcos: 11
+  Distancia Total: 2,23 km
+  Tiempo Total: 8,67 min
+  Velocidad Promedio: 15,40 km/h
+
+Detalle de Arcos:
+------------------------------------------------------------
+Arco 1: TMENGA12 -> A2NC70
+  Distancia: 0,49 km
+  Tiempo: 1,92 min
+  Velocidad: 15,40 km/h
+
+Arco 2: A2NC70 -> C62AA2N
+  Distancia: 0,21 km
+  Tiempo: 0,81 min
+  Velocidad: 15,40 km/h
+
+Arco 3: C62AA2N -> A2CNC60
+  Distancia: 0,21 km
+  Tiempo: 0,82 min
+  Velocidad: 15,40 km/h
+
+Arco 4: A2CNC60 -> A2DNC57D
+  Distancia: 0,15 km
+  Tiempo: 0,58 min
+  Velocidad: 15,40 km/h
+
+Arco 5: A2DNC57D -> A2EC55B
+  Distancia: 0,12 km
+  Tiempo: 0,47 min
+  Velocidad: 15,40 km/h
+
+Arco 6: A2EC55B -> C55NA2F
+  Distancia: 0,15 km
+  Tiempo: 0,58 min
+  Velocidad: 15,40 km/h
+
+Arco 7: C55NA2F -> A2GNC57
+  Distancia: 0,19 km
+  Tiempo: 0,75 min
+  Velocidad: 15,40 km/h
+
+Arco 8: A2GNC57 -> A2GNC58
+  Distancia: 0,12 km
+  Tiempo: 0,48 min
+  Velocidad: 15,40 km/h
+
+Arco 9: A2GNC58 -> C61A2GN
+  Distancia: 0,10 km
+  Tiempo: 0,40 min
+  Velocidad: 15,40 km/h
+
+Arco 10: C61A2GN -> A3NC61A
+  Distancia: 0,22 km
+  Tiempo: 0,86 min
+  Velocidad: 15,40 km/h
+
+Arco 11: A3NC61A -> TMENGA10
+  Distancia: 0,26 km
+  Tiempo: 1,01 min
+  Velocidad: 15,40 km/h
+

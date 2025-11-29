@@ -1,34 +1,35 @@
 == 217-0 ==
-Nodos: 13
-Arcos: 13
+Nodos: 11
+Arcos: 10
 ------------------------------------
 
-=== Lista de Nodos ===
-511021 - C25UAUT2
-601854 - UDP5
-511361 - C18K118
-511196 - C18K125
-501853 - UDP4
-501854 - UDP5
-502201 - BUITRE2
-502103 - CAPRI4
-502001 - REFUG2
-511214 - K125C20
-502151 - MELEN2
-511215 - K125C23A
-601853 - UDP4
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+511021 - C25UAUT2 - GPS: (3,353588, -76,523248)
+502201 - BUITRE2 - GPS: (3,372828, -76,540475)
+502103 - CAPRI4 - GPS: (3,388280, -76,544862)
+601854 - UDP5 - GPS: (3,414477, -76,548450)
+511361 - C18K118 - GPS: (3,347878, -76,530725)
+511196 - C18K125 - GPS: (3,341284, -76,531094)
+502001 - REFUG2 - GPS: (3,398918, -76,546405)
+511214 - K125C20 - GPS: (3,338454, -76,529502)
+502151 - MELEN2 - GPS: (3,377307, -76,542790)
+511215 - K125C23A - GPS: (3,338580, -76,526328)
+501853 - UDP4 - GPS: (3,414993, -76,548227)
 
-=== Lista de Arcos ===
-511361 -> 501853  (Ruta: P17 - Ida)
-501853 -> 511196  (Ruta: P17 - Ida)
-511196 -> 601853  (Ruta: P17 - Ida)
-601853 -> 511214  (Ruta: P17 - Ida)
-511214 -> 601854  (Ruta: P17 - Ida)
-601854 -> 511215  (Ruta: P17 - Ida)
-511215 -> 501854  (Ruta: P17 - Ida)
-501854 -> 511021  (Ruta: P17 - Ida)
-511021 -> 502201  (Ruta: P17 - Ida)
-502201 -> 502151  (Ruta: P17 - Ida)
-502151 -> 502103  (Ruta: P17 - Ida)
-502103 -> 502001  (Ruta: P17 - Ida)
-502001 -> 501853  (Ruta: P17 - Ida)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: P17 - Ida (10 arcos) ---
+1. Origen: C18K118 (ID: 511361) -> Destino: C18K125 (ID: 511196) | Ruta: P17 - Ida
+2. Origen: C18K125 (ID: 511196) -> Destino: K125C20 (ID: 511214) | Ruta: P17 - Ida
+3. Origen: K125C20 (ID: 511214) -> Destino: K125C23A (ID: 511215) | Ruta: P17 - Ida
+4. Origen: K125C23A (ID: 511215) -> Destino: C25UAUT2 (ID: 511021) | Ruta: P17 - Ida
+5. Origen: C25UAUT2 (ID: 511021) -> Destino: BUITRE2 (ID: 502201) | Ruta: P17 - Ida
+6. Origen: BUITRE2 (ID: 502201) -> Destino: MELEN2 (ID: 502151) | Ruta: P17 - Ida
+7. Origen: MELEN2 (ID: 502151) -> Destino: CAPRI4 (ID: 502103) | Ruta: P17 - Ida
+8. Origen: CAPRI4 (ID: 502103) -> Destino: REFUG2 (ID: 502001) | Ruta: P17 - Ida
+9. Origen: REFUG2 (ID: 502001) -> Destino: UDP4 (ID: 501853) | Ruta: P17 - Ida
+10. Origen: UDP4 (ID: 501853) -> Destino: UDP5 (ID: 601854) | Ruta: P17 - Ida

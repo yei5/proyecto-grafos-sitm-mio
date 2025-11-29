@@ -1,26 +1,31 @@
 == 554-1 ==
 Nodos: 9
-Arcos: 9
+Arcos: 8
 ------------------------------------
 
-=== Lista de Nodos ===
-500154 - A.SANIN5
-500153 - A.SANIN4
-500164 - A.SANI16
-500152 - A.SANIN3
-500163 - A.SANI15
-500151 - A.SANIN2
-500155 - A.SANIN6
-500159 - A.SANI11
-500150 - A.SANIN1
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+500154 - A.SANIN5 - GPS: (3,443756, -76,483060)
+500153 - A.SANIN4 - GPS: (3,443685, -76,482537)
+500164 - A.SANI16 - GPS: (3,443504, -76,482758)
+500152 - A.SANIN3 - GPS: (3,443937, -76,483587)
+500163 - A.SANI15 - GPS: (3,443342, -76,483517)
+500151 - A.SANIN2 - GPS: (3,443876, -76,483103)
+500155 - A.SANIN6 - GPS: (3,443806, -76,483406)
+500159 - A.SANI11 - GPS: (3,443422, -76,482988)
+500150 - A.SANIN1 - GPS: (3,443802, -76,482543)
 
-=== Lista de Arcos ===
-500150 -> 500151  (Ruta: R54 - Vuelta)
-500151 -> 500152  (Ruta: R54 - Vuelta)
-500152 -> 500163  (Ruta: R54 - Vuelta)
-500163 -> 500159  (Ruta: R54 - Vuelta)
-500159 -> 500153  (Ruta: R54 - Vuelta)
-500153 -> 500154  (Ruta: R54 - Vuelta)
-500154 -> 500155  (Ruta: R54 - Vuelta)
-500155 -> 500164  (Ruta: R54 - Vuelta)
-500164 -> 500150  (Ruta: R54 - Vuelta)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: R54 - Vuelta (8 arcos) ---
+1. Origen: A.SANIN1 (ID: 500150) -> Destino: A.SANIN2 (ID: 500151) | Ruta: R54 - Vuelta
+2. Origen: A.SANIN2 (ID: 500151) -> Destino: A.SANIN3 (ID: 500152) | Ruta: R54 - Vuelta
+3. Origen: A.SANIN3 (ID: 500152) -> Destino: A.SANI15 (ID: 500163) | Ruta: R54 - Vuelta
+4. Origen: A.SANI15 (ID: 500163) -> Destino: A.SANI11 (ID: 500159) | Ruta: R54 - Vuelta
+5. Origen: A.SANI11 (ID: 500159) -> Destino: A.SANIN4 (ID: 500153) | Ruta: R54 - Vuelta
+6. Origen: A.SANIN4 (ID: 500153) -> Destino: A.SANIN5 (ID: 500154) | Ruta: R54 - Vuelta
+7. Origen: A.SANIN5 (ID: 500154) -> Destino: A.SANIN6 (ID: 500155) | Ruta: R54 - Vuelta
+8. Origen: A.SANIN6 (ID: 500155) -> Destino: A.SANI16 (ID: 500164) | Ruta: R54 - Vuelta

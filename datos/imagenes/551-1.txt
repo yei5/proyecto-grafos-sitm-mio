@@ -1,14 +1,19 @@
 == 551-1 ==
 Nodos: 3
-Arcos: 3
+Arcos: 2
 ------------------------------------
 
-=== Lista de Nodos ===
-511430 - R-SUR 2
-511431 - R-SUR 3
-511429 - R-SUR 1
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+511430 - R-SUR 2 - GPS: (3,365655, -76,526625)
+511431 - R-SUR 3 - GPS: (3,366056, -76,526841)
+511429 - R-SUR 1 - GPS: (3,365883, -76,527108)
 
-=== Lista de Arcos ===
-511429 -> 511430  (Ruta: R51 - Vuelta)
-511430 -> 511431  (Ruta: R51 - Vuelta)
-511431 -> 511429  (Ruta: R51 - Vuelta)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: R51 - Vuelta (2 arcos) ---
+1. Origen: R-SUR 1 (ID: 511429) -> Destino: R-SUR 2 (ID: 511430) | Ruta: R51 - Vuelta
+2. Origen: R-SUR 2 (ID: 511430) -> Destino: R-SUR 3 (ID: 511431) | Ruta: R51 - Vuelta

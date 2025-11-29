@@ -1,167 +1,93 @@
 == 2524-1 ==
 Nodos: 40
-Arcos: 119
+Arcos: 39
 ------------------------------------
 
-=== Lista de Nodos ===
-515028 - C48K47A
-518037 - C27K31A2
-515003 - C46K43B
-515140 - C48K49
-516097 - K50C50
-515064 - K46C43
-518033 - C27K362
-515087 - K42BC48
-515088 - K42BC51
-518035 - C27K33A2
-516094 - C27K42B2
-516096 - C27K422
-502901 - PRIMITI1
-500603 - TORRE4
-516090 - K46C372
-502951 - C.PALOS1
-516092 - C27K36
-502351 - VERSALL2
-512022 - A3NC31
-512020 - A3NC23D
-515139 - C48K50
-512021 - A3NC32A
-516103 - C46K42C2
-516086 - C51K48B
-516087 - C51K49D
-515153 - K46C42
-516264 - C27K40A
-516088 - K46C402
-515054 - C54K43B
-516082 - K46C462
-518085 - C28K23C
-501501 - PTCUY4
-516083 - C51K46D
-518084 - C27K25B
-515171 - C46K45
-516080 - K46C522
-518083 - C27K27
-516081 - K46C48
-501452 - SUCRE6
-501551 - SANPED4
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+515028 - C48K47A - GPS: (3,400946, -76,511738)
+518037 - C27K31A2 - GPS: (3,425978, -76,516835)
+515003 - C46K43B - GPS: (3,404672, -76,510386)
+515140 - C48K49 - GPS: (3,399106, -76,513760)
+516097 - K50C50 - GPS: (3,396646, -76,515035)
+518033 - C27K362 - GPS: (3,421041, -76,517180)
+515064 - K46C43 - GPS: (3,404828, -76,513545)
+515087 - K42BC48 - GPS: (3,404231, -76,507260)
+518035 - C27K33A2 - GPS: (3,422610, -76,517065)
+515088 - K42BC51 - GPS: (3,402291, -76,505483)
+516094 - C27K42B2 - GPS: (3,413605, -76,517708)
+516096 - C27K422 - GPS: (3,414811, -76,517654)
+502901 - PRIMITI1 - GPS: (3,437448, -76,517806)
+500603 - TORRE4 - GPS: (3,457120, -76,530048)
+516090 - K46C372 - GPS: (3,409058, -76,517493)
+502951 - C.PALOS1 - GPS: (3,439804, -76,522904)
+516092 - C27K36 - GPS: (3,410790, -76,518017)
+502351 - VERSALL2 - GPS: (3,461293, -76,526903)
+512022 - A3NC31 - GPS: (3,470591, -76,522063)
+512020 - A3NC23D - GPS: (3,466036, -76,523565)
+515139 - C48K50 - GPS: (3,397786, -76,515195)
+512021 - A3NC32A - GPS: (3,470141, -76,522108)
+516103 - C46K42C2 - GPS: (3,405993, -76,509020)
+516086 - C51K48B - GPS: (3,397783, -76,511429)
+516087 - C51K49D - GPS: (3,396203, -76,513139)
+516264 - C27K40A - GPS: (3,418281, -76,517357)
+515153 - K46C42 - GPS: (3,406358, -76,514925)
+516088 - K46C402 - GPS: (3,407932, -76,516506)
+515054 - C54K43B - GPS: (3,399707, -76,506823)
+518085 - C28K23C - GPS: (3,434222, -76,514803)
+501501 - PTCUY4 - GPS: (3,449175, -76,527931)
+516082 - K46C462 - GPS: (3,403283, -76,512134)
+518084 - C27K25B - GPS: (3,431509, -76,516386)
+516083 - C51K46D - GPS: (3,398933, -76,510113)
+515171 - C46K45 - GPS: (3,403604, -76,511509)
+518083 - C27K27 - GPS: (3,429421, -76,516612)
+516080 - K46C522 - GPS: (3,399321, -76,508319)
+516081 - K46C48 - GPS: (3,402293, -76,511065)
+501452 - SUCRE6 - GPS: (3,444457, -76,526545)
+501551 - SANPED4 - GPS: (3,454488, -76,530097)
 
-=== Lista de Arcos ===
-512020 -> 515028  (Ruta: P52D - Vuelta)
-515028 -> 515171  (Ruta: P52D - Vuelta)
-515171 -> 516090  (Ruta: P52D - Vuelta)
-516090 -> 515139  (Ruta: P52D - Vuelta)
-515139 -> 512021  (Ruta: P52D - Vuelta)
-512021 -> 516081  (Ruta: P52D - Vuelta)
-516081 -> 515003  (Ruta: P52D - Vuelta)
-515003 -> 516092  (Ruta: P52D - Vuelta)
-516092 -> 515140  (Ruta: P52D - Vuelta)
-515140 -> 512022  (Ruta: P52D - Vuelta)
-512022 -> 516082  (Ruta: P52D - Vuelta)
-516082 -> 516103  (Ruta: P52D - Vuelta)
-516103 -> 516094  (Ruta: P52D - Vuelta)
-516094 -> 515028  (Ruta: P52D - Vuelta)
-515028 -> 515064  (Ruta: P52D - Vuelta)
-515064 -> 515087  (Ruta: P52D - Vuelta)
-515087 -> 516096  (Ruta: P52D - Vuelta)
-516096 -> 516081  (Ruta: P52D - Vuelta)
-516081 -> 515153  (Ruta: P52D - Vuelta)
-515153 -> 515088  (Ruta: P52D - Vuelta)
-515088 -> 516264  (Ruta: P52D - Vuelta)
-516264 -> 516082  (Ruta: P52D - Vuelta)
-516082 -> 516088  (Ruta: P52D - Vuelta)
-516088 -> 515054  (Ruta: P52D - Vuelta)
-515054 -> 518033  (Ruta: P52D - Vuelta)
-518033 -> 515064  (Ruta: P52D - Vuelta)
-515064 -> 516090  (Ruta: P52D - Vuelta)
-516090 -> 516080  (Ruta: P52D - Vuelta)
-516080 -> 518035  (Ruta: P52D - Vuelta)
-518035 -> 515153  (Ruta: P52D - Vuelta)
-515153 -> 516092  (Ruta: P52D - Vuelta)
-516092 -> 516083  (Ruta: P52D - Vuelta)
-516083 -> 518037  (Ruta: P52D - Vuelta)
-518037 -> 516088  (Ruta: P52D - Vuelta)
-516088 -> 516094  (Ruta: P52D - Vuelta)
-516094 -> 516086  (Ruta: P52D - Vuelta)
-516086 -> 518083  (Ruta: P52D - Vuelta)
-518083 -> 516090  (Ruta: P52D - Vuelta)
-516090 -> 516092  (Ruta: P52D - Vuelta)
-516092 -> 516096  (Ruta: P52D - Vuelta)
-516096 -> 516087  (Ruta: P52D - Vuelta)
-516087 -> 518084  (Ruta: P52D - Vuelta)
-518084 -> 516094  (Ruta: P52D - Vuelta)
-516094 -> 516264  (Ruta: P52D - Vuelta)
-516264 -> 516097  (Ruta: P52D - Vuelta)
-516097 -> 518085  (Ruta: P52D - Vuelta)
-518085 -> 516096  (Ruta: P52D - Vuelta)
-516096 -> 518033  (Ruta: P52D - Vuelta)
-518033 -> 515139  (Ruta: P52D - Vuelta)
-515139 -> 502901  (Ruta: P52D - Vuelta)
-502901 -> 516264  (Ruta: P52D - Vuelta)
-516264 -> 518035  (Ruta: P52D - Vuelta)
-518035 -> 515140  (Ruta: P52D - Vuelta)
-515140 -> 502951  (Ruta: P52D - Vuelta)
-502951 -> 518033  (Ruta: P52D - Vuelta)
-518033 -> 518037  (Ruta: P52D - Vuelta)
-518037 -> 515028  (Ruta: P52D - Vuelta)
-515028 -> 501452  (Ruta: P52D - Vuelta)
-501452 -> 518035  (Ruta: P52D - Vuelta)
-518035 -> 518083  (Ruta: P52D - Vuelta)
-518083 -> 516081  (Ruta: P52D - Vuelta)
-516081 -> 501501  (Ruta: P52D - Vuelta)
-501501 -> 518037  (Ruta: P52D - Vuelta)
-518037 -> 518084  (Ruta: P52D - Vuelta)
-518084 -> 516082  (Ruta: P52D - Vuelta)
-516082 -> 501551  (Ruta: P52D - Vuelta)
-501551 -> 518083  (Ruta: P52D - Vuelta)
-518083 -> 518085  (Ruta: P52D - Vuelta)
-518085 -> 515064  (Ruta: P52D - Vuelta)
-515064 -> 500603  (Ruta: P52D - Vuelta)
-500603 -> 518084  (Ruta: P52D - Vuelta)
-518084 -> 502901  (Ruta: P52D - Vuelta)
-502901 -> 515153  (Ruta: P52D - Vuelta)
-515153 -> 502351  (Ruta: P52D - Vuelta)
-502351 -> 518085  (Ruta: P52D - Vuelta)
-518085 -> 502951  (Ruta: P52D - Vuelta)
-502951 -> 516088  (Ruta: P52D - Vuelta)
-516088 -> 512020  (Ruta: P52D - Vuelta)
-512020 -> 502901  (Ruta: P52D - Vuelta)
-502901 -> 501452  (Ruta: P52D - Vuelta)
-501452 -> 516090  (Ruta: P52D - Vuelta)
-516090 -> 512021  (Ruta: P52D - Vuelta)
-512021 -> 502951  (Ruta: P52D - Vuelta)
-502951 -> 501501  (Ruta: P52D - Vuelta)
-501501 -> 516092  (Ruta: P52D - Vuelta)
-516092 -> 512022  (Ruta: P52D - Vuelta)
-512022 -> 501452  (Ruta: P52D - Vuelta)
-501452 -> 501551  (Ruta: P52D - Vuelta)
-501551 -> 516094  (Ruta: P52D - Vuelta)
-516094 -> 501501  (Ruta: P52D - Vuelta)
-501501 -> 500603  (Ruta: P52D - Vuelta)
-500603 -> 516096  (Ruta: P52D - Vuelta)
-516096 -> 501551  (Ruta: P52D - Vuelta)
-501551 -> 502351  (Ruta: P52D - Vuelta)
-502351 -> 516264  (Ruta: P52D - Vuelta)
-516264 -> 500603  (Ruta: P52D - Vuelta)
-500603 -> 512020  (Ruta: P52D - Vuelta)
-512020 -> 518033  (Ruta: P52D - Vuelta)
-518033 -> 502351  (Ruta: P52D - Vuelta)
-502351 -> 512021  (Ruta: P52D - Vuelta)
-512021 -> 518035  (Ruta: P52D - Vuelta)
-518035 -> 512020  (Ruta: P52D - Vuelta)
-512020 -> 512022  (Ruta: P52D - Vuelta)
-512022 -> 518037  (Ruta: P52D - Vuelta)
-518037 -> 512021  (Ruta: P52D - Vuelta)
-512021 -> 518083  (Ruta: P52D - Vuelta)
-518083 -> 512022  (Ruta: P52D - Vuelta)
-512022 -> 518084  (Ruta: P52D - Vuelta)
-518084 -> 518085  (Ruta: P52D - Vuelta)
-518085 -> 502901  (Ruta: P52D - Vuelta)
-502901 -> 502951  (Ruta: P52D - Vuelta)
-502951 -> 501452  (Ruta: P52D - Vuelta)
-501452 -> 501501  (Ruta: P52D - Vuelta)
-501501 -> 501551  (Ruta: P52D - Vuelta)
-501551 -> 500603  (Ruta: P52D - Vuelta)
-500603 -> 502351  (Ruta: P52D - Vuelta)
-502351 -> 512020  (Ruta: P52D - Vuelta)
-512020 -> 512021  (Ruta: P52D - Vuelta)
-512021 -> 512022  (Ruta: P52D - Vuelta)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: P52D - Vuelta (39 arcos) ---
+1. Origen: K46C372 (ID: 516090) -> Destino: C27K36 (ID: 516092) | Ruta: P52D - Vuelta
+2. Origen: C27K36 (ID: 516092) -> Destino: C27K42B2 (ID: 516094) | Ruta: P52D - Vuelta
+3. Origen: C27K42B2 (ID: 516094) -> Destino: C27K422 (ID: 516096) | Ruta: P52D - Vuelta
+4. Origen: C27K422 (ID: 516096) -> Destino: C27K40A (ID: 516264) | Ruta: P52D - Vuelta
+5. Origen: C27K40A (ID: 516264) -> Destino: C27K362 (ID: 518033) | Ruta: P52D - Vuelta
+6. Origen: C27K362 (ID: 518033) -> Destino: C27K33A2 (ID: 518035) | Ruta: P52D - Vuelta
+7. Origen: C27K33A2 (ID: 518035) -> Destino: C27K31A2 (ID: 518037) | Ruta: P52D - Vuelta
+8. Origen: C27K31A2 (ID: 518037) -> Destino: C27K27 (ID: 518083) | Ruta: P52D - Vuelta
+9. Origen: C27K27 (ID: 518083) -> Destino: C27K25B (ID: 518084) | Ruta: P52D - Vuelta
+10. Origen: C27K25B (ID: 518084) -> Destino: C28K23C (ID: 518085) | Ruta: P52D - Vuelta
+11. Origen: C28K23C (ID: 518085) -> Destino: PRIMITI1 (ID: 502901) | Ruta: P52D - Vuelta
+12. Origen: PRIMITI1 (ID: 502901) -> Destino: C.PALOS1 (ID: 502951) | Ruta: P52D - Vuelta
+13. Origen: C.PALOS1 (ID: 502951) -> Destino: SUCRE6 (ID: 501452) | Ruta: P52D - Vuelta
+14. Origen: SUCRE6 (ID: 501452) -> Destino: PTCUY4 (ID: 501501) | Ruta: P52D - Vuelta
+15. Origen: PTCUY4 (ID: 501501) -> Destino: SANPED4 (ID: 501551) | Ruta: P52D - Vuelta
+16. Origen: SANPED4 (ID: 501551) -> Destino: TORRE4 (ID: 500603) | Ruta: P52D - Vuelta
+17. Origen: TORRE4 (ID: 500603) -> Destino: VERSALL2 (ID: 502351) | Ruta: P52D - Vuelta
+18. Origen: VERSALL2 (ID: 502351) -> Destino: A3NC23D (ID: 512020) | Ruta: P52D - Vuelta
+19. Origen: A3NC23D (ID: 512020) -> Destino: A3NC32A (ID: 512021) | Ruta: P52D - Vuelta
+20. Origen: A3NC32A (ID: 512021) -> Destino: A3NC31 (ID: 512022) | Ruta: P52D - Vuelta
+21. Origen: C48K50 (ID: 515139) -> Destino: C48K49 (ID: 515140) | Ruta: P52D - Vuelta
+22. Origen: C48K49 (ID: 515140) -> Destino: C48K47A (ID: 515028) | Ruta: P52D - Vuelta
+23. Origen: C48K47A (ID: 515028) -> Destino: K46C48 (ID: 516081) | Ruta: P52D - Vuelta
+24. Origen: K46C48 (ID: 516081) -> Destino: K46C462 (ID: 516082) | Ruta: P52D - Vuelta
+25. Origen: K46C462 (ID: 516082) -> Destino: K46C43 (ID: 515064) | Ruta: P52D - Vuelta
+26. Origen: K46C43 (ID: 515064) -> Destino: K46C42 (ID: 515153) | Ruta: P52D - Vuelta
+27. Origen: K46C42 (ID: 515153) -> Destino: K46C402 (ID: 516088) | Ruta: P52D - Vuelta
+28. Origen: K46C402 (ID: 516088) -> Destino: K46C372 (ID: 516090) | Ruta: P52D - Vuelta
+29. Origen: C46K45 (ID: 515171) -> Destino: C46K43B (ID: 515003) | Ruta: P52D - Vuelta
+30. Origen: C46K43B (ID: 515003) -> Destino: C46K42C2 (ID: 516103) | Ruta: P52D - Vuelta
+31. Origen: C46K42C2 (ID: 516103) -> Destino: K42BC48 (ID: 515087) | Ruta: P52D - Vuelta
+32. Origen: K42BC48 (ID: 515087) -> Destino: K42BC51 (ID: 515088) | Ruta: P52D - Vuelta
+33. Origen: K42BC51 (ID: 515088) -> Destino: C54K43B (ID: 515054) | Ruta: P52D - Vuelta
+34. Origen: C54K43B (ID: 515054) -> Destino: K46C522 (ID: 516080) | Ruta: P52D - Vuelta
+35. Origen: K46C522 (ID: 516080) -> Destino: C51K46D (ID: 516083) | Ruta: P52D - Vuelta
+36. Origen: C51K46D (ID: 516083) -> Destino: C51K48B (ID: 516086) | Ruta: P52D - Vuelta
+37. Origen: C51K48B (ID: 516086) -> Destino: C51K49D (ID: 516087) | Ruta: P52D - Vuelta
+38. Origen: C51K49D (ID: 516087) -> Destino: K50C50 (ID: 516097) | Ruta: P52D - Vuelta
+39. Origen: K50C50 (ID: 516097) -> Destino: C48K50 (ID: 515139) | Ruta: P52D - Vuelta

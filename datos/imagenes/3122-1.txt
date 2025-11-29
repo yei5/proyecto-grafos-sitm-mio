@@ -3,33 +3,39 @@ Nodos: 14
 Arcos: 13
 ------------------------------------
 
-=== Lista de Nodos ===
-511164 - K95C3
-511351 - C4OK91
-511286 - K94C4C
-511165 - K94BC2B
-511352 - C4OK89
-511163 - K95C4
-511350 - C4OK94
-511289 - MELENC4
-511168 - K96C1O
-511169 - C4OK94B
-511166 - K94CC2
-511167 - K95C1AO
-511182 - K94CC1C
-511170 - C4OK94A
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+511164 - K95C3 - GPS: (3,374078, -76,549486)
+511351 - C4OK91 - GPS: (3,377951, -76,560904)
+511286 - K94C4C - GPS: (3,375546, -76,545323)
+511165 - K94BC2B - GPS: (3,375333, -76,551448)
+511352 - C4OK89 - GPS: (3,379757, -76,561293)
+511163 - K95C4 - GPS: (3,374202, -76,547638)
+511350 - C4OK94 - GPS: (3,376453, -76,559720)
+511289 - MELENC4 - GPS: (3,377311, -76,542769)
+511168 - K96C1O - GPS: (3,373296, -76,555632)
+511169 - C4OK94B - GPS: (3,373355, -76,557612)
+511166 - K94CC2 - GPS: (3,374157, -76,553439)
+511167 - K95C1AO - GPS: (3,373571, -76,555138)
+511182 - K94CC1C - GPS: (3,374345, -76,554652)
+511170 - C4OK94A - GPS: (3,375212, -76,559232)
 
-=== Lista de Arcos ===
-511289 -> 511286  (Ruta: A12B - Vuelta)
-511286 -> 511163  (Ruta: A12B - Vuelta)
-511163 -> 511164  (Ruta: A12B - Vuelta)
-511164 -> 511165  (Ruta: A12B - Vuelta)
-511165 -> 511166  (Ruta: A12B - Vuelta)
-511166 -> 511182  (Ruta: A12B - Vuelta)
-511182 -> 511167  (Ruta: A12B - Vuelta)
-511167 -> 511168  (Ruta: A12B - Vuelta)
-511168 -> 511169  (Ruta: A12B - Vuelta)
-511169 -> 511170  (Ruta: A12B - Vuelta)
-511170 -> 511350  (Ruta: A12B - Vuelta)
-511350 -> 511351  (Ruta: A12B - Vuelta)
-511351 -> 511352  (Ruta: A12B - Vuelta)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: A12B - Vuelta (13 arcos) ---
+1. Origen: MELENC4 (ID: 511289) -> Destino: K94C4C (ID: 511286) | Ruta: A12B - Vuelta
+2. Origen: K94C4C (ID: 511286) -> Destino: K95C4 (ID: 511163) | Ruta: A12B - Vuelta
+3. Origen: K95C4 (ID: 511163) -> Destino: K95C3 (ID: 511164) | Ruta: A12B - Vuelta
+4. Origen: K95C3 (ID: 511164) -> Destino: K94BC2B (ID: 511165) | Ruta: A12B - Vuelta
+5. Origen: K94BC2B (ID: 511165) -> Destino: K94CC2 (ID: 511166) | Ruta: A12B - Vuelta
+6. Origen: K94CC2 (ID: 511166) -> Destino: K94CC1C (ID: 511182) | Ruta: A12B - Vuelta
+7. Origen: K94CC1C (ID: 511182) -> Destino: K95C1AO (ID: 511167) | Ruta: A12B - Vuelta
+8. Origen: K95C1AO (ID: 511167) -> Destino: K96C1O (ID: 511168) | Ruta: A12B - Vuelta
+9. Origen: K96C1O (ID: 511168) -> Destino: C4OK94B (ID: 511169) | Ruta: A12B - Vuelta
+10. Origen: C4OK94B (ID: 511169) -> Destino: C4OK94A (ID: 511170) | Ruta: A12B - Vuelta
+11. Origen: C4OK94A (ID: 511170) -> Destino: C4OK94 (ID: 511350) | Ruta: A12B - Vuelta
+12. Origen: C4OK94 (ID: 511350) -> Destino: C4OK91 (ID: 511351) | Ruta: A12B - Vuelta
+13. Origen: C4OK91 (ID: 511351) -> Destino: C4OK89 (ID: 511352) | Ruta: A12B - Vuelta

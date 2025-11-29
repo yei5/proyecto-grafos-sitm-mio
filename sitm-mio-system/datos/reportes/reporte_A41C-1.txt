@@ -1,0 +1,92 @@
+========================================
+REPORTE DE RUTA: A41C-1
+========================================
+
+Información General:
+  Número de Arcos: 16
+  Distancia Total: 4,51 km
+  Tiempo Total: 17,59 min
+  Velocidad Promedio: 15,40 km/h
+
+Detalle de Arcos:
+------------------------------------------------------------
+Arco 1: A.SANI16 -> K25C73A
+  Distancia: 0,42 km
+  Tiempo: 1,63 min
+  Velocidad: 15,40 km/h
+
+Arco 2: K25C73A -> K25C77
+  Distancia: 0,36 km
+  Tiempo: 1,39 min
+  Velocidad: 15,40 km/h
+
+Arco 3: K25C77 -> K29C80
+  Distancia: 0,30 km
+  Tiempo: 1,15 min
+  Velocidad: 15,40 km/h
+
+Arco 4: K29C80 -> K25C80B
+  Distancia: 0,21 km
+  Tiempo: 0,83 min
+  Velocidad: 15,40 km/h
+
+Arco 5: K25C80B -> K25C84
+  Distancia: 0,29 km
+  Tiempo: 1,14 min
+  Velocidad: 15,40 km/h
+
+Arco 6: K25C84 -> K25C891
+  Distancia: 0,46 km
+  Tiempo: 1,78 min
+  Velocidad: 15,40 km/h
+
+Arco 7: K25C891 -> C94K101B
+  Distancia: 0,19 km
+  Tiempo: 0,73 min
+  Velocidad: 15,40 km/h
+
+Arco 8: C94K101B -> C94K100
+  Distancia: 0,20 km
+  Tiempo: 0,78 min
+  Velocidad: 15,40 km/h
+
+Arco 9: C94K100 -> K23C87
+  Distancia: 0,21 km
+  Tiempo: 0,81 min
+  Velocidad: 15,40 km/h
+
+Arco 10: K23C87 -> K23C84
+  Distancia: 0,18 km
+  Tiempo: 0,70 min
+  Velocidad: 15,40 km/h
+
+Arco 11: K23C84 -> K23C83
+  Distancia: 0,26 km
+  Tiempo: 1,01 min
+  Velocidad: 15,40 km/h
+
+Arco 12: K23C83 -> C80K23
+  Distancia: 0,19 km
+  Tiempo: 0,75 min
+  Velocidad: 15,40 km/h
+
+Arco 13: C80K23 -> K25C80
+  Distancia: 0,18 km
+  Tiempo: 0,70 min
+  Velocidad: 15,40 km/h
+
+Arco 14: K25C80 -> K25C771
+  Distancia: 0,30 km
+  Tiempo: 1,16 min
+  Velocidad: 15,40 km/h
+
+Arco 15: K25C771 -> K25C74
+  Distancia: 0,29 km
+  Tiempo: 1,14 min
+  Velocidad: 15,40 km/h
+
+Arco 16: K25C74 -> A.SANI16
+  Distancia: 0,48 km
+  Tiempo: 1,87 min
+  Velocidad: 15,40 km/h
+

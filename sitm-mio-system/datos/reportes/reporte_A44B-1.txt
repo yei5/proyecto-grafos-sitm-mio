@@ -1,0 +1,122 @@
+========================================
+REPORTE DE RUTA: A44B-1
+========================================
+
+Información General:
+  Número de Arcos: 22
+  Distancia Total: 5,06 km
+  Tiempo Total: 19,73 min
+  Velocidad Promedio: 15,40 km/h
+
+Detalle de Arcos:
+------------------------------------------------------------
+Arco 1: A.SANIN9 -> A.SANI14
+  Distancia: 0,10 km
+  Tiempo: 0,40 min
+  Velocidad: 15,40 km/h
+
+Arco 2: T103D26I -> T103D26O
+  Distancia: 0,30 km
+  Tiempo: 1,17 min
+  Velocidad: 15,40 km/h
+
+Arco 3: T103D26O -> T103D26P
+  Distancia: 0,16 km
+  Tiempo: 0,61 min
+  Velocidad: 15,40 km/h
+
+Arco 4: T103D26P -> T103D261
+  Distancia: 0,23 km
+  Tiempo: 0,88 min
+  Velocidad: 15,40 km/h
+
+Arco 5: T103D261 -> T103D264
+  Distancia: 0,03 km
+  Tiempo: 0,10 min
+  Velocidad: 15,40 km/h
+
+Arco 6: T103D264 -> C95K26I7
+  Distancia: 0,37 km
+  Tiempo: 1,45 min
+  Velocidad: 15,40 km/h
+
+Arco 7: C95K26I7 -> C95K26H
+  Distancia: 0,20 km
+  Tiempo: 0,76 min
+  Velocidad: 15,40 km/h
+
+Arco 8: C95K26H -> C97K26F1
+  Distancia: 0,24 km
+  Tiempo: 0,93 min
+  Velocidad: 15,40 km/h
+
+Arco 9: C97K26F1 -> C97K26D
+  Distancia: 0,13 km
+  Tiempo: 0,52 min
+  Velocidad: 15,40 km/h
+
+Arco 10: C97K26D -> K26CC94
+  Distancia: 0,16 km
+  Tiempo: 0,61 min
+  Velocidad: 15,40 km/h
+
+Arco 11: K26CC94 -> K26C91
+  Distancia: 0,23 km
+  Tiempo: 0,90 min
+  Velocidad: 15,40 km/h
+
+Arco 12: K26C91 -> C84K26DT
+  Distancia: 0,22 km
+  Tiempo: 0,86 min
+  Velocidad: 15,40 km/h
+
+Arco 13: C84K26DT -> C84K26D1
+  Distancia: 0,23 km
+  Tiempo: 0,91 min
+  Velocidad: 15,40 km/h
+
+Arco 14: C84K26D1 -> T103C84
+  Distancia: 0,15 km
+  Tiempo: 0,57 min
+  Velocidad: 15,40 km/h
+
+Arco 15: T103C84 -> T103C78B
+  Distancia: 0,41 km
+  Tiempo: 1,60 min
+  Velocidad: 15,40 km/h
+
+Arco 16: T103C78B -> T103C772
+  Distancia: 0,33 km
+  Tiempo: 1,29 min
+  Velocidad: 15,40 km/h
+
+Arco 17: T103C772 -> T103C74
+  Distancia: 0,30 km
+  Tiempo: 1,16 min
+  Velocidad: 15,40 km/h
+
+Arco 18: T103C74 -> C74K24C2
+  Distancia: 0,19 km
+  Tiempo: 0,72 min
+  Velocidad: 15,40 km/h
+
+Arco 19: C74K24C2 -> D26FC73
+  Distancia: 0,20 km
+  Tiempo: 0,78 min
+  Velocidad: 15,40 km/h
+
+Arco 20: D26FC73 -> C73K26B2
+  Distancia: 0,35 km
+  Tiempo: 1,36 min
+  Velocidad: 15,40 km/h
+
+Arco 21: C73K26B2 -> C73K25U
+  Distancia: 0,18 km
+  Tiempo: 0,70 min
+  Velocidad: 15,40 km/h
+
+Arco 22: C73K25U -> A.SANIN9
+  Distancia: 0,37 km
+  Tiempo: 1,46 min
+  Velocidad: 15,40 km/h
+

@@ -1,0 +1,9 @@
+dependencies {
+    // Dependencia del proyecto de grafos original
+    def rootProjectDir = project.rootProject.projectDir
+    implementation files(new File(rootProjectDir.parentFile, 'target/classes'))
+    
+    // Ice framework
+    implementation 'com.zeroc:ice:3.7.9'
+    implementation 'com.zeroc:icegrid:3.7.9'
+}

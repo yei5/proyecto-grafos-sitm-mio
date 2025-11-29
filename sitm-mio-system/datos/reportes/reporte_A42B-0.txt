@@ -1,0 +1,67 @@
+========================================
+REPORTE DE RUTA: A42B-0
+========================================
+
+Información General:
+  Número de Arcos: 11
+  Distancia Total: 3,41 km
+  Tiempo Total: 12,69 min
+  Velocidad Promedio: 16,00 km/h
+
+Detalle de Arcos:
+------------------------------------------------------------
+Arco 1: A.SANIN8 -> T103K26A
+  Distancia: 0,50 km
+  Tiempo: 1,37 min
+  Velocidad: 22,00 km/h
+
+Arco 2: T103K26A -> T103C56B
+  Distancia: 0,18 km
+  Tiempo: 0,72 min
+  Velocidad: 15,40 km/h
+
+Arco 3: T103C56B -> T103C76
+  Distancia: 0,26 km
+  Tiempo: 1,00 min
+  Velocidad: 15,40 km/h
+
+Arco 4: T103C76 -> T103C79
+  Distancia: 0,40 km
+  Tiempo: 1,54 min
+  Velocidad: 15,40 km/h
+
+Arco 5: T103C79 -> T103D26I
+  Distancia: 0,41 km
+  Tiempo: 1,60 min
+  Velocidad: 15,40 km/h
+
+Arco 6: T103D26I -> T103D26O
+  Distancia: 0,30 km
+  Tiempo: 1,17 min
+  Velocidad: 15,40 km/h
+
+Arco 7: T103D26O -> T103D26P
+  Distancia: 0,16 km
+  Tiempo: 0,61 min
+  Velocidad: 15,40 km/h
+
+Arco 8: T103D26P -> T103D261
+  Distancia: 0,23 km
+  Tiempo: 0,88 min
+  Velocidad: 15,40 km/h
+
+Arco 9: T103D261 -> T103D263
+  Distancia: 0,25 km
+  Tiempo: 0,96 min
+  Velocidad: 15,40 km/h
+
+Arco 10: T103D263 -> C102K27C
+  Distancia: 0,44 km
+  Tiempo: 1,73 min
+  Velocidad: 15,40 km/h
+
+Arco 11: C102K27C -> T103K28B
+  Distancia: 0,29 km
+  Tiempo: 1,11 min
+  Velocidad: 15,40 km/h
+

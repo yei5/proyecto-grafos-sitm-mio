@@ -3,45 +3,51 @@ Nodos: 20
 Arcos: 19
 ------------------------------------
 
-=== Lista de Nodos ===
-517129 - C2AK76A
-517126 - K67C1D
-517159 - C1CK70
-517247 - C3K73
-517154 - K57C3
-517165 - C3K69
-517043 - C2AK65A1
-517164 - C5K68
-517076 - C5K701
-517156 - C2K66A
-517155 - C2AK58
-517042 - C2AK64A1
-517097 - K73C2C2
-517163 - K68C3B
-517041 - C2AK62B1
-517096 - K73C2B2
-517091 - C1CK782
-517090 - C2AK791
-517093 - C1CK74A2
-500056 - T.C-A6
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+517129 - C2AK76A - GPS: (3,389412, -76,551328)
+517126 - K67C1D - GPS: (3,395393, -76,553195)
+517159 - C1CK70 - GPS: (3,392407, -76,553717)
+517247 - C3K73 - GPS: (3,392284, -76,549233)
+517154 - K57C3 - GPS: (3,408478, -76,550764)
+517165 - C3K69 - GPS: (3,394847, -76,549536)
+517043 - C2AK65A1 - GPS: (3,398435, -76,552364)
+517164 - C5K68 - GPS: (3,395383, -76,546413)
+517076 - C5K701 - GPS: (3,392826, -76,545932)
+517156 - C2K66A - GPS: (3,396668, -76,553087)
+517155 - C2AK58 - GPS: (3,407298, -76,551525)
+517042 - C2AK64A1 - GPS: (3,400922, -76,552252)
+517097 - K73C2C2 - GPS: (3,391390, -76,549391)
+517163 - K68C3B - GPS: (3,395263, -76,548425)
+517041 - C2AK62B1 - GPS: (3,403622, -76,551950)
+517096 - K73C2B2 - GPS: (3,391253, -76,551317)
+517091 - C1CK782 - GPS: (3,387012, -76,553747)
+517090 - C2AK791 - GPS: (3,387097, -76,552165)
+517093 - C1CK74A2 - GPS: (3,389932, -76,553745)
+500056 - T.C-A6 - GPS: (3,415013, -76,548939)
 
-=== Lista de Arcos ===
-500056 -> 517154  (Ruta: A73 - Vuelta)
-517154 -> 517155  (Ruta: A73 - Vuelta)
-517155 -> 517041  (Ruta: A73 - Vuelta)
-517041 -> 517042  (Ruta: A73 - Vuelta)
-517042 -> 517043  (Ruta: A73 - Vuelta)
-517043 -> 517156  (Ruta: A73 - Vuelta)
-517156 -> 517126  (Ruta: A73 - Vuelta)
-517126 -> 517159  (Ruta: A73 - Vuelta)
-517159 -> 517093  (Ruta: A73 - Vuelta)
-517093 -> 517091  (Ruta: A73 - Vuelta)
-517091 -> 517090  (Ruta: A73 - Vuelta)
-517090 -> 517129  (Ruta: A73 - Vuelta)
-517129 -> 517096  (Ruta: A73 - Vuelta)
-517096 -> 517097  (Ruta: A73 - Vuelta)
-517097 -> 517247  (Ruta: A73 - Vuelta)
-517247 -> 517165  (Ruta: A73 - Vuelta)
-517165 -> 517163  (Ruta: A73 - Vuelta)
-517163 -> 517164  (Ruta: A73 - Vuelta)
-517164 -> 517076  (Ruta: A73 - Vuelta)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: A73 - Vuelta (19 arcos) ---
+1. Origen: T.C-A6 (ID: 500056) -> Destino: K57C3 (ID: 517154) | Ruta: A73 - Vuelta
+2. Origen: K57C3 (ID: 517154) -> Destino: C2AK58 (ID: 517155) | Ruta: A73 - Vuelta
+3. Origen: C2AK58 (ID: 517155) -> Destino: C2AK62B1 (ID: 517041) | Ruta: A73 - Vuelta
+4. Origen: C2AK62B1 (ID: 517041) -> Destino: C2AK64A1 (ID: 517042) | Ruta: A73 - Vuelta
+5. Origen: C2AK64A1 (ID: 517042) -> Destino: C2AK65A1 (ID: 517043) | Ruta: A73 - Vuelta
+6. Origen: C2AK65A1 (ID: 517043) -> Destino: C2K66A (ID: 517156) | Ruta: A73 - Vuelta
+7. Origen: C2K66A (ID: 517156) -> Destino: K67C1D (ID: 517126) | Ruta: A73 - Vuelta
+8. Origen: K67C1D (ID: 517126) -> Destino: C1CK70 (ID: 517159) | Ruta: A73 - Vuelta
+9. Origen: C1CK70 (ID: 517159) -> Destino: C1CK74A2 (ID: 517093) | Ruta: A73 - Vuelta
+10. Origen: C1CK74A2 (ID: 517093) -> Destino: C1CK782 (ID: 517091) | Ruta: A73 - Vuelta
+11. Origen: C1CK782 (ID: 517091) -> Destino: C2AK791 (ID: 517090) | Ruta: A73 - Vuelta
+12. Origen: C2AK791 (ID: 517090) -> Destino: C2AK76A (ID: 517129) | Ruta: A73 - Vuelta
+13. Origen: C2AK76A (ID: 517129) -> Destino: K73C2B2 (ID: 517096) | Ruta: A73 - Vuelta
+14. Origen: K73C2B2 (ID: 517096) -> Destino: K73C2C2 (ID: 517097) | Ruta: A73 - Vuelta
+15. Origen: K73C2C2 (ID: 517097) -> Destino: C3K73 (ID: 517247) | Ruta: A73 - Vuelta
+16. Origen: C3K73 (ID: 517247) -> Destino: C3K69 (ID: 517165) | Ruta: A73 - Vuelta
+17. Origen: C3K69 (ID: 517165) -> Destino: K68C3B (ID: 517163) | Ruta: A73 - Vuelta
+18. Origen: K68C3B (ID: 517163) -> Destino: C5K68 (ID: 517164) | Ruta: A73 - Vuelta
+19. Origen: C5K68 (ID: 517164) -> Destino: C5K701 (ID: 517076) | Ruta: A73 - Vuelta

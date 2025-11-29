@@ -1,0 +1,62 @@
+========================================
+REPORTE DE RUTA: A13A-1
+========================================
+
+Información General:
+  Número de Arcos: 10
+  Distancia Total: 3,14 km
+  Tiempo Total: 11,64 min
+  Velocidad Promedio: 16,06 km/h
+
+Detalle de Arcos:
+------------------------------------------------------------
+Arco 1: UNIVCOM6 -> K99C25
+  Distancia: 0,50 km
+  Tiempo: 1,36 min
+  Velocidad: 22,00 km/h
+
+Arco 2: K99C25 -> K99C42
+  Distancia: 0,37 km
+  Tiempo: 1,45 min
+  Velocidad: 15,40 km/h
+
+Arco 3: K99C42 -> K99C48
+  Distancia: 0,31 km
+  Tiempo: 1,19 min
+  Velocidad: 15,40 km/h
+
+Arco 4: K99C48 -> C48K98B
+  Distancia: 0,21 km
+  Tiempo: 0,82 min
+  Velocidad: 15,40 km/h
+
+Arco 5: C48K98B -> C48K97
+  Distancia: 0,30 km
+  Tiempo: 1,15 min
+  Velocidad: 15,40 km/h
+
+Arco 6: C48K97 -> C48K94A
+  Distancia: 0,27 km
+  Tiempo: 1,06 min
+  Velocidad: 15,40 km/h
+
+Arco 7: C48K94A -> C48K92
+  Distancia: 0,21 km
+  Tiempo: 0,82 min
+  Velocidad: 15,40 km/h
+
+Arco 8: C48K92 -> C48K86
+  Distancia: 0,37 km
+  Tiempo: 1,44 min
+  Velocidad: 15,40 km/h
+
+Arco 9: C48K86 -> C48K83E
+  Distancia: 0,29 km
+  Tiempo: 1,12 min
+  Velocidad: 15,40 km/h
+
+Arco 10: C48K83E -> C48K83A
+  Distancia: 0,31 km
+  Tiempo: 1,21 min
+  Velocidad: 15,40 km/h
+

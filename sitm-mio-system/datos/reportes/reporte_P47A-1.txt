@@ -1,0 +1,212 @@
+========================================
+REPORTE DE RUTA: P47A-1
+========================================
+
+Información General:
+  Número de Arcos: 40
+  Distancia Total: 11,96 km
+  Tiempo Total: 48,83 min
+  Velocidad Promedio: 14,45 km/h
+
+Detalle de Arcos:
+------------------------------------------------------------
+Arco 1: K39C541 -> K39C511
+  Distancia: 0,27 km
+  Tiempo: 1,14 min
+  Velocidad: 14,00 km/h
+
+Arco 2: K39C511 -> K39C461
+  Distancia: 0,47 km
+  Tiempo: 2,02 min
+  Velocidad: 14,00 km/h
+
+Arco 3: K39C461 -> K39C42B
+  Distancia: 0,37 km
+  Tiempo: 1,57 min
+  Velocidad: 14,00 km/h
+
+Arco 4: K39C42B -> K39C401
+  Distancia: 0,28 km
+  Tiempo: 1,22 min
+  Velocidad: 14,00 km/h
+
+Arco 5: K39C401 -> K39C38
+  Distancia: 0,22 km
+  Tiempo: 0,93 min
+  Velocidad: 14,00 km/h
+
+Arco 6: K39C38 -> K39D301
+  Distancia: 0,23 km
+  Tiempo: 0,99 min
+  Velocidad: 14,00 km/h
+
+Arco 7: K39D301 -> K39C32A
+  Distancia: 0,29 km
+  Tiempo: 1,25 min
+  Velocidad: 14,00 km/h
+
+Arco 8: K39C32A -> K39C31
+  Distancia: 0,35 km
+  Tiempo: 1,50 min
+  Velocidad: 14,00 km/h
+
+Arco 9: K39C31 -> K39C26D
+  Distancia: 0,41 km
+  Tiempo: 1,77 min
+  Velocidad: 14,00 km/h
+
+Arco 10: K39C26D -> K39C261
+  Distancia: 0,17 km
+  Tiempo: 0,73 min
+  Velocidad: 14,00 km/h
+
+Arco 11: K39C261 -> K39C19
+  Distancia: 0,30 km
+  Tiempo: 1,27 min
+  Velocidad: 14,00 km/h
+
+Arco 12: K39C19 -> K39C171
+  Distancia: 0,23 km
+  Tiempo: 0,98 min
+  Velocidad: 14,00 km/h
+
+Arco 13: K39C171 -> K39C15
+  Distancia: 0,19 km
+  Tiempo: 0,81 min
+  Velocidad: 14,00 km/h
+
+Arco 14: K39C15 -> K39C13B
+  Distancia: 0,39 km
+  Tiempo: 1,66 min
+  Velocidad: 14,00 km/h
+
+Arco 15: K39C13B -> K39C11B
+  Distancia: 0,52 km
+  Tiempo: 1,55 min
+  Velocidad: 20,00 km/h
+
+Arco 16: K39C11B -> K39C9A1
+  Distancia: 0,38 km
+  Tiempo: 1,63 min
+  Velocidad: 14,00 km/h
+
+Arco 17: K39C9A1 -> K39C7A
+  Distancia: 0,33 km
+  Tiempo: 1,43 min
+  Velocidad: 14,00 km/h
+
+Arco 18: K39C7A -> K39C61
+  Distancia: 0,24 km
+  Tiempo: 1,04 min
+  Velocidad: 14,00 km/h
+
+Arco 19: K39C61 -> K39C5B1
+  Distancia: 0,33 km
+  Tiempo: 1,40 min
+  Velocidad: 14,00 km/h
+
+Arco 20: K39C5B1 -> TEQUE3
+  Distancia: 0,23 km
+  Tiempo: 1,00 min
+  Velocidad: 14,00 km/h
+
+Arco 21: TEQUE3 -> UDP1
+  Distancia: 0,88 km
+  Tiempo: 2,65 min
+  Velocidad: 20,00 km/h
+
+Arco 22: C55K32A1 -> C55K331
+  Distancia: 0,19 km
+  Tiempo: 0,80 min
+  Velocidad: 14,00 km/h
+
+Arco 23: C55K331 -> K39C541
+  Distancia: 0,29 km
+  Tiempo: 1,25 min
+  Velocidad: 14,00 km/h
+
+Arco 24: A.SANIN2 -> C73D18
+  Distancia: 0,16 km
+  Tiempo: 0,69 min
+  Velocidad: 14,00 km/h
+
+Arco 25: C73D18 -> C73D191
+  Distancia: 0,18 km
+  Tiempo: 0,77 min
+  Velocidad: 14,00 km/h
+
+Arco 26: C73D191 -> C73K25S1
+  Distancia: 0,30 km
+  Tiempo: 1,28 min
+  Velocidad: 14,00 km/h
+
+Arco 27: C73K25S1 -> C73K25C
+  Distancia: 0,34 km
+  Tiempo: 1,47 min
+  Velocidad: 14,00 km/h
+
+Arco 28: C73K25C -> C73K26G6
+  Distancia: 0,50 km
+  Tiempo: 1,51 min
+  Velocidad: 20,00 km/h
+
+Arco 29: C73K26G6 -> C73D26H
+  Distancia: 0,20 km
+  Tiempo: 0,87 min
+  Velocidad: 14,00 km/h
+
+Arco 30: C73D26H -> C73K26H3
+  Distancia: 0,20 km
+  Tiempo: 0,86 min
+  Velocidad: 14,00 km/h
+
+Arco 31: C73K26H3 -> C73K26K
+  Distancia: 0,21 km
+  Tiempo: 0,90 min
+  Velocidad: 14,00 km/h
+
+Arco 32: C73K26K -> C73K26M
+  Distancia: 0,12 km
+  Tiempo: 0,50 min
+  Velocidad: 14,00 km/h
+
+Arco 33: C73K26M -> C72YK27A
+  Distancia: 0,42 km
+  Tiempo: 1,81 min
+  Velocidad: 14,00 km/h
+
+Arco 34: C72YK27A -> C79K28D
+  Distancia: 0,34 km
+  Tiempo: 1,44 min
+  Velocidad: 14,00 km/h
+
+Arco 35: C79K28D -> C83K28D
+  Distancia: 0,34 km
+  Tiempo: 1,45 min
+  Velocidad: 14,00 km/h
+
+Arco 36: C83K28D -> C83K28D4
+  Distancia: 0,23 km
+  Tiempo: 0,98 min
+  Velocidad: 14,00 km/h
+
+Arco 37: C83K28D4 -> C83K28E6
+  Distancia: 0,19 km
+  Tiempo: 0,83 min
+  Velocidad: 14,00 km/h
+
+Arco 38: C83K28E6 -> C83K28F
+  Distancia: 0,22 km
+  Tiempo: 0,93 min
+  Velocidad: 14,00 km/h
+
+Arco 39: C83K28F -> C55K291
+  Distancia: 0,18 km
+  Tiempo: 0,79 min
+  Velocidad: 14,00 km/h
+
+Arco 40: C55K291 -> C55K32A1
+  Distancia: 0,27 km
+  Tiempo: 1,14 min
+  Velocidad: 14,00 km/h
+

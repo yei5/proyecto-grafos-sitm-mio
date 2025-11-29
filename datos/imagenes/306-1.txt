@@ -1,75 +1,62 @@
 == 306-1 ==
 Nodos: 24
-Arcos: 43
+Arcos: 24
 ------------------------------------
 
-=== Lista de Nodos ===
-519038 - A4NC5
-519204 - C11OA15A
-519068 - C9K8
-519188 - A9OE
-519266 - C5K7
-519189 - A9OE2
-519186 - C11OEK15
-519187 - C14OEK12
-519184 - A15OC9A2
-519185 - PRAUSA1
-519281 - C9K14A
-519071 - K4C5
-519182 - A15OEC7
-519070 - K4C9
-519161 - A4NC3
-519183 - A15OEC9A
-519073 - K2C2OE
-519191 - A9AOE24
-519050 - C9K12
-519280 - K10C8
-519072 - K3C1OE
-519181 - A4OEC5
-519192 - A9AOE241
-519190 - A9AOE22A
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+519038 - A4NC5 - GPS: (3,454043, -76,546163)
+519204 - C11OA15A - GPS: (3,460863, -76,557367)
+519068 - C9K8 - GPS: (3,449358, -76,533883)
+519188 - A9OE - GPS: (3,459427, -76,561310)
+519189 - A9OE2 - GPS: (3,457360, -76,563125)
+519266 - C5K7 - GPS: (3,447635, -76,536732)
+519186 - C11OEK15 - GPS: (3,461963, -76,559128)
+519187 - C14OEK12 - GPS: (3,461407, -76,559747)
+519184 - A15OC9A2 - GPS: (3,459972, -76,553792)
+519185 - PRAUSA1 - GPS: (3,459698, -76,555040)
+519281 - C9K14A - GPS: (3,442871, -76,533143)
+519071 - K4C5 - GPS: (3,449628, -76,537829)
+519182 - A15OEC7 - GPS: (3,458385, -76,549725)
+519070 - K4C9 - GPS: (3,451018, -76,535044)
+519161 - A4NC3 - GPS: (3,451595, -76,544452)
+519183 - A15OEC9A - GPS: (3,460153, -76,551692)
+519073 - K2C2OE - GPS: (3,450795, -76,542086)
+519191 - A9AOE24 - GPS: (3,456035, -76,566045)
+519050 - C9K12 - GPS: (3,444876, -76,533204)
+519072 - K3C1OE - GPS: (3,449744, -76,541461)
+519181 - A4OEC5 - GPS: (3,455750, -76,548435)
+519192 - A9AOE241 - GPS: (3,455996, -76,566201)
+519280 - K10C8 - GPS: (3,446691, -76,534671)
+519190 - A9AOE22A - GPS: (3,455777, -76,564782)
 
-=== Lista de Arcos ===
-519281 -> 519281  (Ruta: A06 - Vuelta)
-519281 -> 519050  (Ruta: A06 - Vuelta)
-519050 -> 519050  (Ruta: A06 - Vuelta)
-519050 -> 519068  (Ruta: A06 - Vuelta)
-519068 -> 519280  (Ruta: A06 - Vuelta)
-519280 -> 519070  (Ruta: A06 - Vuelta)
-519070 -> 519266  (Ruta: A06 - Vuelta)
-519266 -> 519071  (Ruta: A06 - Vuelta)
-519071 -> 519071  (Ruta: A06 - Vuelta)
-519071 -> 519072  (Ruta: A06 - Vuelta)
-519072 -> 519072  (Ruta: A06 - Vuelta)
-519072 -> 519073  (Ruta: A06 - Vuelta)
-519073 -> 519073  (Ruta: A06 - Vuelta)
-519073 -> 519161  (Ruta: A06 - Vuelta)
-519161 -> 519161  (Ruta: A06 - Vuelta)
-519161 -> 519038  (Ruta: A06 - Vuelta)
-519038 -> 519038  (Ruta: A06 - Vuelta)
-519038 -> 519181  (Ruta: A06 - Vuelta)
-519181 -> 519181  (Ruta: A06 - Vuelta)
-519181 -> 519182  (Ruta: A06 - Vuelta)
-519182 -> 519182  (Ruta: A06 - Vuelta)
-519182 -> 519183  (Ruta: A06 - Vuelta)
-519183 -> 519183  (Ruta: A06 - Vuelta)
-519183 -> 519184  (Ruta: A06 - Vuelta)
-519184 -> 519184  (Ruta: A06 - Vuelta)
-519184 -> 519185  (Ruta: A06 - Vuelta)
-519185 -> 519185  (Ruta: A06 - Vuelta)
-519185 -> 519204  (Ruta: A06 - Vuelta)
-519204 -> 519204  (Ruta: A06 - Vuelta)
-519204 -> 519186  (Ruta: A06 - Vuelta)
-519186 -> 519186  (Ruta: A06 - Vuelta)
-519186 -> 519187  (Ruta: A06 - Vuelta)
-519187 -> 519187  (Ruta: A06 - Vuelta)
-519187 -> 519188  (Ruta: A06 - Vuelta)
-519188 -> 519188  (Ruta: A06 - Vuelta)
-519188 -> 519189  (Ruta: A06 - Vuelta)
-519189 -> 519189  (Ruta: A06 - Vuelta)
-519189 -> 519190  (Ruta: A06 - Vuelta)
-519190 -> 519190  (Ruta: A06 - Vuelta)
-519190 -> 519191  (Ruta: A06 - Vuelta)
-519191 -> 519191  (Ruta: A06 - Vuelta)
-519191 -> 519192  (Ruta: A06 - Vuelta)
-519192 -> 519192  (Ruta: A06 - Vuelta)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: A06 - Vuelta (24 arcos) ---
+1. Origen: C9K14A (ID: 519281) -> Destino: C9K12 (ID: 519050) | Ruta: A06 - Vuelta
+2. Origen: C9K12 (ID: 519050) -> Destino: C9K8 (ID: 519068) | Ruta: A06 - Vuelta
+3. Origen: C9K8 (ID: 519068) -> Destino: K4C9 (ID: 519070) | Ruta: A06 - Vuelta
+4. Origen: K4C9 (ID: 519070) -> Destino: K4C5 (ID: 519071) | Ruta: A06 - Vuelta
+5. Origen: K4C5 (ID: 519071) -> Destino: K3C1OE (ID: 519072) | Ruta: A06 - Vuelta
+6. Origen: K3C1OE (ID: 519072) -> Destino: K2C2OE (ID: 519073) | Ruta: A06 - Vuelta
+7. Origen: K2C2OE (ID: 519073) -> Destino: A4NC3 (ID: 519161) | Ruta: A06 - Vuelta
+8. Origen: A4NC3 (ID: 519161) -> Destino: A4NC5 (ID: 519038) | Ruta: A06 - Vuelta
+9. Origen: A4NC5 (ID: 519038) -> Destino: A4OEC5 (ID: 519181) | Ruta: A06 - Vuelta
+10. Origen: A4OEC5 (ID: 519181) -> Destino: A15OEC7 (ID: 519182) | Ruta: A06 - Vuelta
+11. Origen: A15OEC7 (ID: 519182) -> Destino: A15OEC9A (ID: 519183) | Ruta: A06 - Vuelta
+12. Origen: A15OEC9A (ID: 519183) -> Destino: A15OC9A2 (ID: 519184) | Ruta: A06 - Vuelta
+13. Origen: A15OC9A2 (ID: 519184) -> Destino: PRAUSA1 (ID: 519185) | Ruta: A06 - Vuelta
+14. Origen: PRAUSA1 (ID: 519185) -> Destino: C11OA15A (ID: 519204) | Ruta: A06 - Vuelta
+15. Origen: C11OA15A (ID: 519204) -> Destino: C11OEK15 (ID: 519186) | Ruta: A06 - Vuelta
+16. Origen: C11OEK15 (ID: 519186) -> Destino: C14OEK12 (ID: 519187) | Ruta: A06 - Vuelta
+17. Origen: C14OEK12 (ID: 519187) -> Destino: A9OE (ID: 519188) | Ruta: A06 - Vuelta
+18. Origen: A9OE (ID: 519188) -> Destino: A9OE2 (ID: 519189) | Ruta: A06 - Vuelta
+19. Origen: A9OE2 (ID: 519189) -> Destino: A9AOE22A (ID: 519190) | Ruta: A06 - Vuelta
+20. Origen: A9AOE22A (ID: 519190) -> Destino: A9AOE24 (ID: 519191) | Ruta: A06 - Vuelta
+21. Origen: A9AOE24 (ID: 519191) -> Destino: A9AOE241 (ID: 519192) | Ruta: A06 - Vuelta
+22. Origen: C9K12 (ID: 519050) -> Destino: K10C8 (ID: 519280) | Ruta: A06 - Vuelta
+23. Origen: K10C8 (ID: 519280) -> Destino: C5K7 (ID: 519266) | Ruta: A06 - Vuelta
+24. Origen: C5K7 (ID: 519266) -> Destino: K4C5 (ID: 519071) | Ruta: A06 - Vuelta

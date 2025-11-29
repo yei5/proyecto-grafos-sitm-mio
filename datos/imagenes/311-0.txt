@@ -3,37 +3,43 @@ Nodos: 16
 Arcos: 15
 ------------------------------------
 
-=== Lista de Nodos ===
-511264 - C18K108
-511261 - C18UJAV2
-511250 - C18K111
-511031 - K127C18A
-511213 - C18K1272
-511232 - C25K1251
-511254 - K127C36
-512002 - C18ICESI
-511265 - C16K103
-511255 - K127C21A
-511046 - C18CARU1
-502302 - UNIV3
-511249 - C18K116
-511214 - K125C20
-511346 - C18K115
-511215 - K125C23A
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+511264 - C18K108 - GPS: (3,361023, -76,530905)
+511261 - C18UJAV2 - GPS: (3,348088, -76,530478)
+511250 - C18K111 - GPS: (3,357996, -76,530426)
+511031 - K127C18A - GPS: (3,333436, -76,532058)
+511213 - C18K1272 - GPS: (3,337648, -76,531502)
+511232 - C25K1251 - GPS: (3,338420, -76,524652)
+511254 - K127C36 - GPS: (3,335038, -76,524753)
+512002 - C18ICESI - GPS: (3,340781, -76,531018)
+511265 - C16K103 - GPS: (3,364690, -76,531407)
+511255 - K127C21A - GPS: (3,335182, -76,528582)
+511046 - C18CARU1 - GPS: (3,343811, -76,530809)
+502302 - UNIV3 - GPS: (3,366822, -76,528960)
+511249 - C18K116 - GPS: (3,353143, -76,530159)
+511214 - K125C20 - GPS: (3,338454, -76,529502)
+511346 - C18K115 - GPS: (3,355690, -76,530313)
+511215 - K125C23A - GPS: (3,338580, -76,526328)
 
-=== Lista de Arcos ===
-511214 -> 511215  (Ruta: A11 - Ida)
-511215 -> 511232  (Ruta: A11 - Ida)
-511232 -> 511254  (Ruta: A11 - Ida)
-511254 -> 511255  (Ruta: A11 - Ida)
-511255 -> 511031  (Ruta: A11 - Ida)
-511031 -> 511213  (Ruta: A11 - Ida)
-511213 -> 512002  (Ruta: A11 - Ida)
-512002 -> 511046  (Ruta: A11 - Ida)
-511046 -> 511261  (Ruta: A11 - Ida)
-511261 -> 511249  (Ruta: A11 - Ida)
-511249 -> 511346  (Ruta: A11 - Ida)
-511346 -> 511250  (Ruta: A11 - Ida)
-511250 -> 511264  (Ruta: A11 - Ida)
-511264 -> 511265  (Ruta: A11 - Ida)
-511265 -> 502302  (Ruta: A11 - Ida)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: A11 - Ida (15 arcos) ---
+1. Origen: K125C20 (ID: 511214) -> Destino: K125C23A (ID: 511215) | Ruta: A11 - Ida
+2. Origen: K125C23A (ID: 511215) -> Destino: C25K1251 (ID: 511232) | Ruta: A11 - Ida
+3. Origen: C25K1251 (ID: 511232) -> Destino: K127C36 (ID: 511254) | Ruta: A11 - Ida
+4. Origen: K127C36 (ID: 511254) -> Destino: K127C21A (ID: 511255) | Ruta: A11 - Ida
+5. Origen: K127C21A (ID: 511255) -> Destino: K127C18A (ID: 511031) | Ruta: A11 - Ida
+6. Origen: K127C18A (ID: 511031) -> Destino: C18K1272 (ID: 511213) | Ruta: A11 - Ida
+7. Origen: C18K1272 (ID: 511213) -> Destino: C18ICESI (ID: 512002) | Ruta: A11 - Ida
+8. Origen: C18ICESI (ID: 512002) -> Destino: C18CARU1 (ID: 511046) | Ruta: A11 - Ida
+9. Origen: C18CARU1 (ID: 511046) -> Destino: C18UJAV2 (ID: 511261) | Ruta: A11 - Ida
+10. Origen: C18UJAV2 (ID: 511261) -> Destino: C18K116 (ID: 511249) | Ruta: A11 - Ida
+11. Origen: C18K116 (ID: 511249) -> Destino: C18K115 (ID: 511346) | Ruta: A11 - Ida
+12. Origen: C18K115 (ID: 511346) -> Destino: C18K111 (ID: 511250) | Ruta: A11 - Ida
+13. Origen: C18K111 (ID: 511250) -> Destino: C18K108 (ID: 511264) | Ruta: A11 - Ida
+14. Origen: C18K108 (ID: 511264) -> Destino: C16K103 (ID: 511265) | Ruta: A11 - Ida
+15. Origen: C16K103 (ID: 511265) -> Destino: UNIV3 (ID: 502302) | Ruta: A11 - Ida

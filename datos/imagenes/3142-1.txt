@@ -1,48 +1,47 @@
 == 3142-1 ==
 Nodos: 17
-Arcos: 23
+Arcos: 16
 ------------------------------------
 
-=== Lista de Nodos ===
-511241 - K122C24
-511142 - ECOPAR31
-511143 - ECOPAR41
-511140 - ECOPAR11
-511020 - C25UAUT
-511141 - ECOPAR21
-511460 - VORAGI3
-511037 - K122C121
-511045 - K122C17A
-511144 - VORAGI1
-511035 - K122C151
-511145 - VORAGI2
-502305 - UNIVCOM2
-511381 - VORA-1
-511139 - AV-MELE2
-511039 - K122C61
-511138 - AV-MELEN
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+511241 - K122C24 - GPS: (3,343382, -76,527175)
+511142 - ECOPAR31 - GPS: (3,348797, -76,569988)
+511143 - ECOPAR41 - GPS: (3,348672, -76,572439)
+511140 - ECOPAR11 - GPS: (3,349451, -76,562722)
+511020 - C25UAUT - GPS: (3,353378, -76,523485)
+511141 - ECOPAR21 - GPS: (3,349417, -76,565446)
+511460 - VORAGI3 - GPS: (3,343923, -76,588071)
+511037 - K122C121 - GPS: (3,342625, -76,540658)
+511045 - K122C17A - GPS: (3,343068, -76,532840)
+511144 - VORAGI1 - GPS: (3,344688, -76,588891)
+511035 - K122C151 - GPS: (3,342808, -76,536854)
+511145 - VORAGI2 - GPS: (3,344992, -76,588786)
+502305 - UNIVCOM2 - GPS: (3,366423, -76,528354)
+511381 - VORA-1 - GPS: (3,349012, -76,560026)
+511139 - AV-MELE2 - GPS: (3,348335, -76,557182)
+511039 - K122C61 - GPS: (3,342547, -76,544124)
+511138 - AV-MELEN - GPS: (3,344546, -76,549285)
 
-=== Lista de Arcos ===
-502305 -> 502305  (Ruta: A14B - Vuelta)
-502305 -> 511020  (Ruta: A14B - Vuelta)
-511020 -> 511020  (Ruta: A14B - Vuelta)
-511020 -> 511241  (Ruta: A14B - Vuelta)
-511241 -> 511241  (Ruta: A14B - Vuelta)
-511241 -> 511045  (Ruta: A14B - Vuelta)
-511045 -> 511045  (Ruta: A14B - Vuelta)
-511045 -> 511035  (Ruta: A14B - Vuelta)
-511035 -> 511035  (Ruta: A14B - Vuelta)
-511035 -> 511037  (Ruta: A14B - Vuelta)
-511037 -> 511037  (Ruta: A14B - Vuelta)
-511037 -> 511039  (Ruta: A14B - Vuelta)
-511039 -> 511039  (Ruta: A14B - Vuelta)
-511039 -> 511138  (Ruta: A14B - Vuelta)
-511138 -> 511139  (Ruta: A14B - Vuelta)
-511139 -> 511381  (Ruta: A14B - Vuelta)
-511381 -> 511140  (Ruta: A14B - Vuelta)
-511140 -> 511141  (Ruta: A14B - Vuelta)
-511141 -> 511142  (Ruta: A14B - Vuelta)
-511142 -> 511143  (Ruta: A14B - Vuelta)
-511143 -> 511144  (Ruta: A14B - Vuelta)
-511144 -> 511460  (Ruta: A14B - Vuelta)
-511460 -> 511145  (Ruta: A14B - Vuelta)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: A14B - Vuelta (16 arcos) ---
+1. Origen: UNIVCOM2 (ID: 502305) -> Destino: C25UAUT (ID: 511020) | Ruta: A14B - Vuelta
+2. Origen: C25UAUT (ID: 511020) -> Destino: K122C24 (ID: 511241) | Ruta: A14B - Vuelta
+3. Origen: K122C24 (ID: 511241) -> Destino: K122C17A (ID: 511045) | Ruta: A14B - Vuelta
+4. Origen: K122C17A (ID: 511045) -> Destino: K122C151 (ID: 511035) | Ruta: A14B - Vuelta
+5. Origen: K122C151 (ID: 511035) -> Destino: K122C121 (ID: 511037) | Ruta: A14B - Vuelta
+6. Origen: K122C121 (ID: 511037) -> Destino: K122C61 (ID: 511039) | Ruta: A14B - Vuelta
+7. Origen: K122C61 (ID: 511039) -> Destino: AV-MELEN (ID: 511138) | Ruta: A14B - Vuelta
+8. Origen: AV-MELEN (ID: 511138) -> Destino: AV-MELE2 (ID: 511139) | Ruta: A14B - Vuelta
+9. Origen: AV-MELE2 (ID: 511139) -> Destino: VORA-1 (ID: 511381) | Ruta: A14B - Vuelta
+10. Origen: VORA-1 (ID: 511381) -> Destino: ECOPAR11 (ID: 511140) | Ruta: A14B - Vuelta
+11. Origen: ECOPAR11 (ID: 511140) -> Destino: ECOPAR21 (ID: 511141) | Ruta: A14B - Vuelta
+12. Origen: ECOPAR21 (ID: 511141) -> Destino: ECOPAR31 (ID: 511142) | Ruta: A14B - Vuelta
+13. Origen: ECOPAR31 (ID: 511142) -> Destino: ECOPAR41 (ID: 511143) | Ruta: A14B - Vuelta
+14. Origen: ECOPAR41 (ID: 511143) -> Destino: VORAGI1 (ID: 511144) | Ruta: A14B - Vuelta
+15. Origen: VORAGI1 (ID: 511144) -> Destino: VORAGI3 (ID: 511460) | Ruta: A14B - Vuelta
+16. Origen: VORAGI3 (ID: 511460) -> Destino: VORAGI2 (ID: 511145) | Ruta: A14B - Vuelta

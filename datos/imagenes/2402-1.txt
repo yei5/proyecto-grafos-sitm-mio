@@ -1,104 +1,79 @@
 == 2402-1 ==
 Nodos: 33
-Arcos: 63
+Arcos: 32
 ------------------------------------
 
-=== Lista de Nodos ===
-514410 - C70K7RP2
-514013 - C70K7C
-513122 - K5C38
-514414 - C70K7EB2
-513303 - K5C36
-513149 - C34K6A
-514413 - C70K7L7J
-513148 - K5C52
-514116 - K8C27
-513103 - C70K7
-513147 - C52K3Y4C
-514115 - K8C34
-513300 - C70K3D
-513124 - K5C44
-514114 - C34K7
-519045 - K8C25
-519047 - K8C16
-518030 - C70D15
-514409 - C70K11P1
-513134 - K2C621
-514002 - C70K11C
-513132 - K2C60
-513215 - K2C70
-513138 - K2C671
-513136 - K2C641
-513093 - C52K2C
-513092 - K2C53
-513130 - K2C571
-513292 - K5C45C
-519054 - K8C20
-501552 - SANPED6
-501050 - 7AGO1
-500160 - A.SANI12
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+514410 - C70K7RP2 - GPS: (3,454837, -76,485017)
+514013 - C70K7C - GPS: (3,463753, -76,483427)
+513122 - K5C38 - GPS: (3,459725, -76,510865)
+514414 - C70K7EB2 - GPS: (3,461168, -76,482775)
+513303 - K5C36 - GPS: (3,459141, -76,512473)
+513149 - C34K6A - GPS: (3,457197, -76,512880)
+514413 - C70K7L7J - GPS: (3,457958, -76,483132)
+513148 - K5C52 - GPS: (3,462282, -76,502432)
+514116 - K8C27 - GPS: (3,453329, -76,517123)
+513103 - C70K7 - GPS: (3,467232, -76,484522)
+513147 - C52K3Y4C - GPS: (3,464710, -76,501274)
+514115 - K8C34 - GPS: (3,453679, -76,515423)
+513300 - C70K3D - GPS: (3,469463, -76,485325)
+513124 - K5C44 - GPS: (3,460753, -76,507680)
+514114 - C34K7 - GPS: (3,455148, -76,512223)
+519045 - K8C25 - GPS: (3,452715, -76,519765)
+519047 - K8C16 - GPS: (3,450215, -76,527993)
+518030 - C70D15 - GPS: (3,445753, -76,489369)
+514409 - C70K11P1 - GPS: (3,449816, -76,487647)
+513134 - K2C621 - GPS: (3,470960, -76,493182)
+514002 - C70K11C - GPS: (3,447370, -76,488649)
+513132 - K2C60 - GPS: (3,470353, -76,495212)
+513215 - K2C70 - GPS: (3,472588, -76,487673)
+513138 - K2C671 - GPS: (3,472070, -76,489290)
+513136 - K2C641 - GPS: (3,471545, -76,491015)
+513093 - C52K2C - GPS: (3,466077, -76,501573)
+513092 - K2C53 - GPS: (3,468662, -76,500565)
+513130 - K2C571 - GPS: (3,469363, -76,498292)
+513292 - K5C45C - GPS: (3,461453, -76,505129)
+519054 - K8C20 - GPS: (3,451341, -76,524568)
+501552 - SANPED6 - GPS: (3,454913, -76,530290)
+501050 - 7AGO1 - GPS: (3,445312, -76,487067)
+500160 - A.SANI12 - GPS: (3,443712, -76,482731)
 
-=== Lista de Arcos ===
-518030 -> 500160  (Ruta: P40B - Vuelta)
-500160 -> 514002  (Ruta: P40B - Vuelta)
-514002 -> 501050  (Ruta: P40B - Vuelta)
-501050 -> 514409  (Ruta: P40B - Vuelta)
-514409 -> 518030  (Ruta: P40B - Vuelta)
-518030 -> 514410  (Ruta: P40B - Vuelta)
-514410 -> 514002  (Ruta: P40B - Vuelta)
-514002 -> 514413  (Ruta: P40B - Vuelta)
-514413 -> 514409  (Ruta: P40B - Vuelta)
-514409 -> 514414  (Ruta: P40B - Vuelta)
-514414 -> 514410  (Ruta: P40B - Vuelta)
-514410 -> 514013  (Ruta: P40B - Vuelta)
-514013 -> 514413  (Ruta: P40B - Vuelta)
-514413 -> 513103  (Ruta: P40B - Vuelta)
-513103 -> 514414  (Ruta: P40B - Vuelta)
-514414 -> 513300  (Ruta: P40B - Vuelta)
-513300 -> 514013  (Ruta: P40B - Vuelta)
-514013 -> 513215  (Ruta: P40B - Vuelta)
-513215 -> 513103  (Ruta: P40B - Vuelta)
-513103 -> 513138  (Ruta: P40B - Vuelta)
-513138 -> 513300  (Ruta: P40B - Vuelta)
-513300 -> 513136  (Ruta: P40B - Vuelta)
-513136 -> 513215  (Ruta: P40B - Vuelta)
-513215 -> 513134  (Ruta: P40B - Vuelta)
-513134 -> 513138  (Ruta: P40B - Vuelta)
-513138 -> 513132  (Ruta: P40B - Vuelta)
-513132 -> 513136  (Ruta: P40B - Vuelta)
-513136 -> 513130  (Ruta: P40B - Vuelta)
-513130 -> 513134  (Ruta: P40B - Vuelta)
-513134 -> 513092  (Ruta: P40B - Vuelta)
-513092 -> 513132  (Ruta: P40B - Vuelta)
-513132 -> 513093  (Ruta: P40B - Vuelta)
-513093 -> 513130  (Ruta: P40B - Vuelta)
-513130 -> 513147  (Ruta: P40B - Vuelta)
-513147 -> 513092  (Ruta: P40B - Vuelta)
-513092 -> 513148  (Ruta: P40B - Vuelta)
-513148 -> 513093  (Ruta: P40B - Vuelta)
-513093 -> 513292  (Ruta: P40B - Vuelta)
-513292 -> 513147  (Ruta: P40B - Vuelta)
-513147 -> 513124  (Ruta: P40B - Vuelta)
-513124 -> 513148  (Ruta: P40B - Vuelta)
-513148 -> 513122  (Ruta: P40B - Vuelta)
-513122 -> 513292  (Ruta: P40B - Vuelta)
-513292 -> 513303  (Ruta: P40B - Vuelta)
-513303 -> 513124  (Ruta: P40B - Vuelta)
-513124 -> 513149  (Ruta: P40B - Vuelta)
-513149 -> 513122  (Ruta: P40B - Vuelta)
-513122 -> 514114  (Ruta: P40B - Vuelta)
-514114 -> 513303  (Ruta: P40B - Vuelta)
-513303 -> 514115  (Ruta: P40B - Vuelta)
-514115 -> 513149  (Ruta: P40B - Vuelta)
-513149 -> 514116  (Ruta: P40B - Vuelta)
-514116 -> 514114  (Ruta: P40B - Vuelta)
-514114 -> 519045  (Ruta: P40B - Vuelta)
-519045 -> 514115  (Ruta: P40B - Vuelta)
-514115 -> 519054  (Ruta: P40B - Vuelta)
-519054 -> 514116  (Ruta: P40B - Vuelta)
-514116 -> 519047  (Ruta: P40B - Vuelta)
-519047 -> 519045  (Ruta: P40B - Vuelta)
-519045 -> 501552  (Ruta: P40B - Vuelta)
-501552 -> 519054  (Ruta: P40B - Vuelta)
-519054 -> 519047  (Ruta: P40B - Vuelta)
-519047 -> 501552  (Ruta: P40B - Vuelta)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: P40B - Vuelta (32 arcos) ---
+1. Origen: A.SANI12 (ID: 500160) -> Destino: 7AGO1 (ID: 501050) | Ruta: P40B - Vuelta
+2. Origen: 7AGO1 (ID: 501050) -> Destino: C70D15 (ID: 518030) | Ruta: P40B - Vuelta
+3. Origen: C70D15 (ID: 518030) -> Destino: C70K11C (ID: 514002) | Ruta: P40B - Vuelta
+4. Origen: C70K11C (ID: 514002) -> Destino: C70K11P1 (ID: 514409) | Ruta: P40B - Vuelta
+5. Origen: C70K11P1 (ID: 514409) -> Destino: C70K7RP2 (ID: 514410) | Ruta: P40B - Vuelta
+6. Origen: C70K7RP2 (ID: 514410) -> Destino: C70K7L7J (ID: 514413) | Ruta: P40B - Vuelta
+7. Origen: C70K7L7J (ID: 514413) -> Destino: C70K7EB2 (ID: 514414) | Ruta: P40B - Vuelta
+8. Origen: C70K7EB2 (ID: 514414) -> Destino: C70K7C (ID: 514013) | Ruta: P40B - Vuelta
+9. Origen: C70K7C (ID: 514013) -> Destino: C70K7 (ID: 513103) | Ruta: P40B - Vuelta
+10. Origen: C70K7 (ID: 513103) -> Destino: C70K3D (ID: 513300) | Ruta: P40B - Vuelta
+11. Origen: C70K3D (ID: 513300) -> Destino: K2C70 (ID: 513215) | Ruta: P40B - Vuelta
+12. Origen: K2C70 (ID: 513215) -> Destino: K2C671 (ID: 513138) | Ruta: P40B - Vuelta
+13. Origen: K2C671 (ID: 513138) -> Destino: K2C641 (ID: 513136) | Ruta: P40B - Vuelta
+14. Origen: K2C641 (ID: 513136) -> Destino: K2C621 (ID: 513134) | Ruta: P40B - Vuelta
+15. Origen: K2C621 (ID: 513134) -> Destino: K2C60 (ID: 513132) | Ruta: P40B - Vuelta
+16. Origen: K2C60 (ID: 513132) -> Destino: K2C571 (ID: 513130) | Ruta: P40B - Vuelta
+17. Origen: K2C571 (ID: 513130) -> Destino: K2C53 (ID: 513092) | Ruta: P40B - Vuelta
+18. Origen: K2C53 (ID: 513092) -> Destino: C52K2C (ID: 513093) | Ruta: P40B - Vuelta
+19. Origen: C52K2C (ID: 513093) -> Destino: C52K3Y4C (ID: 513147) | Ruta: P40B - Vuelta
+20. Origen: C52K3Y4C (ID: 513147) -> Destino: K5C52 (ID: 513148) | Ruta: P40B - Vuelta
+21. Origen: K5C52 (ID: 513148) -> Destino: K5C45C (ID: 513292) | Ruta: P40B - Vuelta
+22. Origen: K5C45C (ID: 513292) -> Destino: K5C44 (ID: 513124) | Ruta: P40B - Vuelta
+23. Origen: K5C44 (ID: 513124) -> Destino: K5C38 (ID: 513122) | Ruta: P40B - Vuelta
+24. Origen: K5C38 (ID: 513122) -> Destino: K5C36 (ID: 513303) | Ruta: P40B - Vuelta
+25. Origen: K5C36 (ID: 513303) -> Destino: C34K6A (ID: 513149) | Ruta: P40B - Vuelta
+26. Origen: C34K6A (ID: 513149) -> Destino: C34K7 (ID: 514114) | Ruta: P40B - Vuelta
+27. Origen: C34K7 (ID: 514114) -> Destino: K8C34 (ID: 514115) | Ruta: P40B - Vuelta
+28. Origen: K8C34 (ID: 514115) -> Destino: K8C27 (ID: 514116) | Ruta: P40B - Vuelta
+29. Origen: K8C27 (ID: 514116) -> Destino: K8C25 (ID: 519045) | Ruta: P40B - Vuelta
+30. Origen: K8C25 (ID: 519045) -> Destino: K8C20 (ID: 519054) | Ruta: P40B - Vuelta
+31. Origen: K8C20 (ID: 519054) -> Destino: K8C16 (ID: 519047) | Ruta: P40B - Vuelta
+32. Origen: K8C16 (ID: 519047) -> Destino: SANPED6 (ID: 501552) | Ruta: P40B - Vuelta

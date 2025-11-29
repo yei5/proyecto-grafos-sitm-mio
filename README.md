@@ -33,6 +33,60 @@ Además, se generan **reportes automáticos** como:
 
 ---
 
+## Gestión de Dependencias con Maven
+
+Este proyecto ahora usa **Maven** para gestionar dependencias automáticamente.
+
+### Requisitos
+
+- **Java JDK 8 o superior**
+- **Maven 3.6 o superior** (descargar de: https://maven.apache.org/download.cgi)
+
+### Instalación de Maven
+
+1. Descarga Maven desde: https://maven.apache.org/download.cgi
+2. Extrae el archivo ZIP
+3. Agrega Maven al PATH de tu sistema:
+   - Windows: Agrega `C:\ruta\a\apache-maven-3.x.x\bin` al PATH
+   - Verifica con: `mvn --version`
+
+### Compilación y Ejecución con Maven
+
+#### Opción 1: Usando comandos Maven directamente
+
+```bash
+# Compilar el proyecto
+mvn clean compile
+
+# Ejecutar el proyecto
+mvn exec:java
+
+# Crear un JAR ejecutable con todas las dependencias
+mvn clean package
+java -jar target/proyecto-grafos-sitm-mio-1.0.0-jar-with-dependencies.jar datos
+```
+
+#### Opción 2: Usando los scripts batch (Windows)
+
+- `mvn-compilar.bat` - Compila el proyecto
+- `mvn-ejecutar.bat` - Ejecuta el proyecto
+- `mvn-empacar.bat` - Crea un JAR ejecutable
+
+### Dependencias
+
+Las dependencias se gestionan automáticamente con Maven (definidas en `pom.xml`):
+
+- **JMapViewer 2.14** - Para visualización de mapas (se descarga automáticamente)
+
+### Método Tradicional (sin Maven)
+
+Si prefieres no usar Maven, puedes seguir usando:
+- `compilar.bat` - Compilación manual
+- `ejecutar.bat` - Ejecución manual
+- Descargar manualmente `jmapviewer.jar` y colocarlo en `libs/`
+
+---
+
 ##  Estructura del Proyecto
 
 ```
@@ -95,7 +149,8 @@ El sistema detecta automáticamente variaciones de nombres en mayúsculas y min�
 
 ##  Requisitos
 
-- **Java 17** o superior  
+- **Java JDK 8** o superior  
+- **Maven 3.6** o superior (recomendado para gestión de dependencias)
 - Editor recomendado: **VS Code** con extensiones de Java  
 - Archivos CSV limpios y sin encabezados corruptos  
 
@@ -114,21 +169,33 @@ proyecto-grafos-sitm-mio/
     └── linestops.csv
 ```
 
-###  Compilar el proyecto (si usas VS Code, esto es automático)
+###  Compilar el proyecto
 
-Desde la terminal:
+#### Con Maven (Recomendado):
+```bash
+mvn clean compile
+# O usar el script: mvn-compilar.bat
+```
 
+#### Método tradicional:
 ```bash
 cd proyecto-grafos-sitm-mio
 javac src/com/sitm/mio/grafos/*.java
+# O usar el script: compilar.bat
 ```
 
 ###  Ejecutar el Main
 
-Desde la raíz del proyecto:
-
+#### Con Maven (Recomendado):
 ```bash
-java com.sitm.mio.grafos.Main datos
+mvn exec:java
+# O usar el script: mvn-ejecutar.bat
+```
+
+#### Método tradicional:
+```bash
+java -cp bin com.sitm.mio.grafos.Main datos
+# O usar el script: ejecutar.bat datos
 ```
 
 O desde VS Code → botón **"Run Java"** ejecutando `Main.java`.

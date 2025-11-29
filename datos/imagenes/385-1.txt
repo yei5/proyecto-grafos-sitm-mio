@@ -1,58 +1,59 @@
 == 385-1 ==
-Nodos: 25
-Arcos: 25
+Nodos: 23
+Arcos: 22
 ------------------------------------
 
-=== Lista de Nodos ===
-514531 - D72FK26I
-514476 - K26D70D
-518019 - K23T29
-518118 - K27C52
-514475 - K26D70
-518115 - K27C34
-518114 - K27C33E
-518117 - K27C44
-514478 - D71AK24C
-518116 - K27C36A
-514532 - C72K26J
-514477 - D71AK25C
-518111 - D22T25
-518113 - C33CK25
-518112 - C33CK24B
-600161 - A.SANI13
-514449 - D71AC72
-514503 - D72CK26
-600167 - A.SANI18
-514369 - C73K25U
-514444 - D70K26H3
-518187 - K26ID72A
-518185 - K27C71
-500167 - A.SANI18
-500161 - A.SANI13
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+514531 - D72FK26I - GPS: (3,431893, -76,491269)
+514476 - K26D70D - GPS: (3,435855, -76,490519)
+518019 - K23T29 - GPS: (3,436583, -76,512047)
+518118 - K27C52 - GPS: (3,431742, -76,499389)
+514475 - K26D70 - GPS: (3,437305, -76,491368)
+518115 - K27C34 - GPS: (3,433493, -76,505256)
+518114 - K27C33E - GPS: (3,432941, -76,507472)
+514369 - C73K25U - GPS: (3,440760, -76,483903)
+518117 - K27C44 - GPS: (3,432671, -76,501226)
+514478 - D71AK24C - GPS: (3,437227, -76,487800)
+518116 - K27C36A - GPS: (3,433621, -76,503099)
+514532 - C72K26J - GPS: (3,430661, -76,491457)
+514444 - D70K26H3 - GPS: (3,435617, -76,492269)
+514477 - D71AK25C - GPS: (3,436688, -76,489026)
+518111 - D22T25 - GPS: (3,435113, -76,514209)
+518187 - K26ID72A - GPS: (3,433649, -76,492213)
+518113 - C33CK25 - GPS: (3,433479, -76,509249)
+518112 - C33CK24B - GPS: (3,435646, -76,509837)
+518185 - K27C71 - GPS: (3,430719, -76,496547)
+500167 - A.SANI18 - GPS: (3,443980, -76,483039)
+600161 - A.SANI13 - GPS: (3,443826, -76,483579)
+514449 - D71AC72 - GPS: (3,440402, -76,484991)
+514503 - D72CK26 - GPS: (3,433459, -76,490691)
 
-=== Lista de Arcos ===
-518111 -> 500167  (Ruta: A85 - Vuelta)
-500167 -> 518019  (Ruta: A85 - Vuelta)
-518019 -> 600167  (Ruta: A85 - Vuelta)
-600167 -> 518112  (Ruta: A85 - Vuelta)
-518112 -> 600161  (Ruta: A85 - Vuelta)
-600161 -> 518113  (Ruta: A85 - Vuelta)
-518113 -> 500161  (Ruta: A85 - Vuelta)
-500161 -> 518114  (Ruta: A85 - Vuelta)
-518114 -> 518115  (Ruta: A85 - Vuelta)
-518115 -> 518116  (Ruta: A85 - Vuelta)
-518116 -> 518117  (Ruta: A85 - Vuelta)
-518117 -> 518118  (Ruta: A85 - Vuelta)
-518118 -> 518185  (Ruta: A85 - Vuelta)
-518185 -> 514532  (Ruta: A85 - Vuelta)
-514532 -> 514531  (Ruta: A85 - Vuelta)
-514531 -> 514503  (Ruta: A85 - Vuelta)
-514503 -> 518187  (Ruta: A85 - Vuelta)
-518187 -> 514444  (Ruta: A85 - Vuelta)
-514444 -> 514475  (Ruta: A85 - Vuelta)
-514475 -> 514476  (Ruta: A85 - Vuelta)
-514476 -> 514477  (Ruta: A85 - Vuelta)
-514477 -> 514478  (Ruta: A85 - Vuelta)
-514478 -> 514449  (Ruta: A85 - Vuelta)
-514449 -> 514369  (Ruta: A85 - Vuelta)
-514369 -> 500167  (Ruta: A85 - Vuelta)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: A85 - Vuelta (22 arcos) ---
+1. Origen: D22T25 (ID: 518111) -> Destino: K23T29 (ID: 518019) | Ruta: A85 - Vuelta
+2. Origen: K23T29 (ID: 518019) -> Destino: C33CK24B (ID: 518112) | Ruta: A85 - Vuelta
+3. Origen: C33CK24B (ID: 518112) -> Destino: C33CK25 (ID: 518113) | Ruta: A85 - Vuelta
+4. Origen: C33CK25 (ID: 518113) -> Destino: K27C33E (ID: 518114) | Ruta: A85 - Vuelta
+5. Origen: K27C33E (ID: 518114) -> Destino: K27C34 (ID: 518115) | Ruta: A85 - Vuelta
+6. Origen: K27C34 (ID: 518115) -> Destino: K27C36A (ID: 518116) | Ruta: A85 - Vuelta
+7. Origen: K27C36A (ID: 518116) -> Destino: K27C44 (ID: 518117) | Ruta: A85 - Vuelta
+8. Origen: K27C44 (ID: 518117) -> Destino: K27C52 (ID: 518118) | Ruta: A85 - Vuelta
+9. Origen: K27C52 (ID: 518118) -> Destino: K27C71 (ID: 518185) | Ruta: A85 - Vuelta
+10. Origen: K27C71 (ID: 518185) -> Destino: C72K26J (ID: 514532) | Ruta: A85 - Vuelta
+11. Origen: C72K26J (ID: 514532) -> Destino: D72FK26I (ID: 514531) | Ruta: A85 - Vuelta
+12. Origen: D72FK26I (ID: 514531) -> Destino: D72CK26 (ID: 514503) | Ruta: A85 - Vuelta
+13. Origen: D72CK26 (ID: 514503) -> Destino: K26ID72A (ID: 518187) | Ruta: A85 - Vuelta
+14. Origen: K26ID72A (ID: 518187) -> Destino: D70K26H3 (ID: 514444) | Ruta: A85 - Vuelta
+15. Origen: D70K26H3 (ID: 514444) -> Destino: K26D70 (ID: 514475) | Ruta: A85 - Vuelta
+16. Origen: K26D70 (ID: 514475) -> Destino: K26D70D (ID: 514476) | Ruta: A85 - Vuelta
+17. Origen: K26D70D (ID: 514476) -> Destino: D71AK25C (ID: 514477) | Ruta: A85 - Vuelta
+18. Origen: D71AK25C (ID: 514477) -> Destino: D71AK24C (ID: 514478) | Ruta: A85 - Vuelta
+19. Origen: D71AK24C (ID: 514478) -> Destino: D71AC72 (ID: 514449) | Ruta: A85 - Vuelta
+20. Origen: D71AC72 (ID: 514449) -> Destino: C73K25U (ID: 514369) | Ruta: A85 - Vuelta
+21. Origen: C73K25U (ID: 514369) -> Destino: A.SANI18 (ID: 500167) | Ruta: A85 - Vuelta
+22. Origen: A.SANI18 (ID: 500167) -> Destino: A.SANI13 (ID: 600161) | Ruta: A85 - Vuelta

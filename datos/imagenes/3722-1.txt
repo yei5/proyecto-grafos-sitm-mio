@@ -1,37 +1,37 @@
 == 3722-1 ==
-Nodos: 14
-Arcos: 15
+Nodos: 12
+Arcos: 11
 ------------------------------------
 
-=== Lista de Nodos ===
-517037 - K52D502
-517015 - K52C22
-517014 - K52C31
-517223 - C7OK51A
-517248 - K52C1
-517039 - D51C52
-517038 - D51C82
-517035 - D50C61
-517222 - C7OK52
-517034 - C3OD511
-500053 - T.C-A4
-600050 - T.C-A1
-600053 - T.C-A4
-500050 - T.C-A1
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+500053 - T.C-A4 - GPS: (3,414692, -76,548853)
+517037 - K52D502 - GPS: (3,415625, -76,559550)
+517015 - K52C22 - GPS: (3,415267, -76,552378)
+600050 - T.C-A1 - GPS: (3,414768, -76,549621)
+517014 - K52C31 - GPS: (3,415428, -76,552522)
+517223 - C7OK51A - GPS: (3,416994, -76,560172)
+517248 - K52C1 - GPS: (3,416481, -76,555369)
+517039 - D51C52 - GPS: (3,416119, -76,556769)
+517038 - D51C82 - GPS: (3,415500, -76,558456)
+517035 - D50C61 - GPS: (3,416161, -76,558119)
+517222 - C7OK52 - GPS: (3,417131, -76,559297)
+517034 - C3OD511 - GPS: (3,417019, -76,556300)
 
-=== Lista de Arcos ===
-500053 -> 500053  (Ruta: A72B - Vuelta)
-500053 -> 517014  (Ruta: A72B - Vuelta)
-517014 -> 600053  (Ruta: A72B - Vuelta)
-600053 -> 517248  (Ruta: A72B - Vuelta)
-517248 -> 600050  (Ruta: A72B - Vuelta)
-600050 -> 517034  (Ruta: A72B - Vuelta)
-517034 -> 500050  (Ruta: A72B - Vuelta)
-500050 -> 517035  (Ruta: A72B - Vuelta)
-517035 -> 517222  (Ruta: A72B - Vuelta)
-517222 -> 517223  (Ruta: A72B - Vuelta)
-517223 -> 517037  (Ruta: A72B - Vuelta)
-517037 -> 517038  (Ruta: A72B - Vuelta)
-517038 -> 517039  (Ruta: A72B - Vuelta)
-517039 -> 517015  (Ruta: A72B - Vuelta)
-517015 -> 500053  (Ruta: A72B - Vuelta)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: A72B - Vuelta (11 arcos) ---
+1. Origen: T.C-A4 (ID: 500053) -> Destino: T.C-A1 (ID: 600050) | Ruta: A72B - Vuelta
+2. Origen: T.C-A4 (ID: 500053) -> Destino: K52C31 (ID: 517014) | Ruta: A72B - Vuelta
+3. Origen: K52C31 (ID: 517014) -> Destino: K52C1 (ID: 517248) | Ruta: A72B - Vuelta
+4. Origen: K52C1 (ID: 517248) -> Destino: C3OD511 (ID: 517034) | Ruta: A72B - Vuelta
+5. Origen: C3OD511 (ID: 517034) -> Destino: D50C61 (ID: 517035) | Ruta: A72B - Vuelta
+6. Origen: D50C61 (ID: 517035) -> Destino: C7OK52 (ID: 517222) | Ruta: A72B - Vuelta
+7. Origen: C7OK52 (ID: 517222) -> Destino: C7OK51A (ID: 517223) | Ruta: A72B - Vuelta
+8. Origen: C7OK51A (ID: 517223) -> Destino: K52D502 (ID: 517037) | Ruta: A72B - Vuelta
+9. Origen: K52D502 (ID: 517037) -> Destino: D51C82 (ID: 517038) | Ruta: A72B - Vuelta
+10. Origen: D51C82 (ID: 517038) -> Destino: D51C52 (ID: 517039) | Ruta: A72B - Vuelta
+11. Origen: D51C52 (ID: 517039) -> Destino: K52C22 (ID: 517015) | Ruta: A72B - Vuelta

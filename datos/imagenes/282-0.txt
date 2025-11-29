@@ -1,132 +1,84 @@
 == 282-0 ==
-Nodos: 37
-Arcos: 87
+Nodos: 35
+Arcos: 35
 ------------------------------------
 
-=== Lista de Nodos ===
-513122 - K5C38
-513248 - C52K5N
-513303 - K5C36
-513149 - C34K6A
-518159 - C44K25
-513247 - C52A2AN8
-513148 - K5C52
-518158 - C44K24
-512035 - A2NC57AN
-513147 - C52K3Y4C
-512014 - A2NC70
-514312 - C44K8
-513124 - K5C44
-514114 - C34K7
-518157 - C44K20
-514350 - C44K15A
-503004 - TCALIPA4
-503001 - TCALIPB1
-513233 - C44K6B1
-513254 - C70A2BS1
-514387 - C44K11D
-513192 - C52K1-1B
-513093 - C52K2C
-518143 - C44T28D
-514285 - C44K12B
-514120 - K8C392
-518162 - C44T33E
-514262 - C44K8A1
-518161 - C44K28
-512181 - A2NC62AN
-513194 - C52K1D2
-513193 - C52K1D3
-513292 - K5C45C
-518160 - C44C43
-500102 - TMENGA3
-603004 - TCALIPA4
-603001 - TCALIPB1
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+513122 - K5C38 - GPS: (3,459725, -76,510865)
+513248 - C52K5N - GPS: (3,477856, -76,505934)
+518159 - C44K25 - GPS: (3,437206, -76,500616)
+513303 - K5C36 - GPS: (3,459141, -76,512473)
+513149 - C34K6A - GPS: (3,457197, -76,512880)
+513247 - C52A2AN8 - GPS: (3,480006, -76,508131)
+513148 - K5C52 - GPS: (3,462282, -76,502432)
+518158 - C44K24 - GPS: (3,439267, -76,501382)
+512035 - A2NC57AN - GPS: (3,483784, -76,505818)
+513147 - C52K3Y4C - GPS: (3,464710, -76,501274)
+512014 - A2NC70 - GPS: (3,487762, -76,504284)
+514312 - C44K8 - GPS: (3,454277, -76,505688)
+513124 - K5C44 - GPS: (3,460753, -76,507680)
+514114 - C34K7 - GPS: (3,455148, -76,512223)
+518157 - C44K20 - GPS: (3,441060, -76,502029)
+514350 - C44K15A - GPS: (3,443607, -76,502894)
+503001 - TCALIPB1 - GPS: (3,426565, -76,500638)
+513233 - C44K6B1 - GPS: (3,459236, -76,507010)
+513254 - C70A2BS1 - GPS: (3,489272, -76,506215)
+514387 - C44K11D - GPS: (3,449334, -76,504409)
+513192 - C52K1-1B - GPS: (3,474485, -76,503825)
+513093 - C52K2C - GPS: (3,466077, -76,501573)
+518143 - C44T28D - GPS: (3,429959, -76,503525)
+514285 - C44K12B - GPS: (3,447097, -76,503795)
+518162 - C44T33E - GPS: (3,427521, -76,504740)
+514120 - K8C392 - GPS: (3,453467, -76,507122)
+514262 - C44K8A1 - GPS: (3,451914, -76,505058)
+518161 - C44K28 - GPS: (3,432084, -76,502391)
+512181 - A2NC62AN - GPS: (3,485228, -76,504801)
+513194 - C52K1D2 - GPS: (3,469808, -76,502596)
+513193 - C52K1D3 - GPS: (3,471835, -76,503064)
+513292 - K5C45C - GPS: (3,461453, -76,505129)
+518160 - C44C43 - GPS: (3,435462, -76,500640)
+500102 - TMENGA3 - GPS: (3,489107, -76,508280)
+603004 - TCALIPA4 - GPS: (3,427153, -76,500288)
 
-=== Lista de Arcos ===
-500102 -> 503001  (Ruta: P82 - Ida)
-503001 -> 512035  (Ruta: P82 - Ida)
-512035 -> 500102  (Ruta: P82 - Ida)
-500102 -> 513254  (Ruta: P82 - Ida)
-513254 -> 603001  (Ruta: P82 - Ida)
-603001 -> 513247  (Ruta: P82 - Ida)
-513247 -> 513254  (Ruta: P82 - Ida)
-513254 -> 512014  (Ruta: P82 - Ida)
-512014 -> 603004  (Ruta: P82 - Ida)
-603004 -> 513248  (Ruta: P82 - Ida)
-513248 -> 512014  (Ruta: P82 - Ida)
-512014 -> 512181  (Ruta: P82 - Ida)
-512181 -> 503004  (Ruta: P82 - Ida)
-503004 -> 513192  (Ruta: P82 - Ida)
-513192 -> 512181  (Ruta: P82 - Ida)
-512181 -> 512035  (Ruta: P82 - Ida)
-512035 -> 513193  (Ruta: P82 - Ida)
-513193 -> 512035  (Ruta: P82 - Ida)
-512035 -> 513247  (Ruta: P82 - Ida)
-513247 -> 513194  (Ruta: P82 - Ida)
-513194 -> 513247  (Ruta: P82 - Ida)
-513247 -> 513248  (Ruta: P82 - Ida)
-513248 -> 513093  (Ruta: P82 - Ida)
-513093 -> 513248  (Ruta: P82 - Ida)
-513248 -> 513192  (Ruta: P82 - Ida)
-513192 -> 513147  (Ruta: P82 - Ida)
-513147 -> 513192  (Ruta: P82 - Ida)
-513192 -> 513193  (Ruta: P82 - Ida)
-513193 -> 513148  (Ruta: P82 - Ida)
-513148 -> 513193  (Ruta: P82 - Ida)
-513193 -> 513194  (Ruta: P82 - Ida)
-513194 -> 513292  (Ruta: P82 - Ida)
-513292 -> 513194  (Ruta: P82 - Ida)
-513194 -> 513093  (Ruta: P82 - Ida)
-513093 -> 513233  (Ruta: P82 - Ida)
-513233 -> 513093  (Ruta: P82 - Ida)
-513093 -> 513147  (Ruta: P82 - Ida)
-513147 -> 514312  (Ruta: P82 - Ida)
-514312 -> 513147  (Ruta: P82 - Ida)
-513147 -> 513148  (Ruta: P82 - Ida)
-513148 -> 514262  (Ruta: P82 - Ida)
-514262 -> 513148  (Ruta: P82 - Ida)
-513148 -> 513292  (Ruta: P82 - Ida)
-513292 -> 514387  (Ruta: P82 - Ida)
-514387 -> 513292  (Ruta: P82 - Ida)
-513292 -> 513233  (Ruta: P82 - Ida)
-513233 -> 514285  (Ruta: P82 - Ida)
-514285 -> 513124  (Ruta: P82 - Ida)
-513124 -> 514312  (Ruta: P82 - Ida)
-514312 -> 514350  (Ruta: P82 - Ida)
-514350 -> 513122  (Ruta: P82 - Ida)
-513122 -> 514262  (Ruta: P82 - Ida)
-514262 -> 518157  (Ruta: P82 - Ida)
-518157 -> 513303  (Ruta: P82 - Ida)
-513303 -> 514387  (Ruta: P82 - Ida)
-514387 -> 518158  (Ruta: P82 - Ida)
-518158 -> 513149  (Ruta: P82 - Ida)
-513149 -> 514285  (Ruta: P82 - Ida)
-514285 -> 518159  (Ruta: P82 - Ida)
-518159 -> 514114  (Ruta: P82 - Ida)
-514114 -> 514350  (Ruta: P82 - Ida)
-514350 -> 518160  (Ruta: P82 - Ida)
-518160 -> 514120  (Ruta: P82 - Ida)
-514120 -> 518157  (Ruta: P82 - Ida)
-518157 -> 518161  (Ruta: P82 - Ida)
-518161 -> 514262  (Ruta: P82 - Ida)
-514262 -> 518158  (Ruta: P82 - Ida)
-518158 -> 518143  (Ruta: P82 - Ida)
-518143 -> 514387  (Ruta: P82 - Ida)
-514387 -> 518159  (Ruta: P82 - Ida)
-518159 -> 518162  (Ruta: P82 - Ida)
-518162 -> 514285  (Ruta: P82 - Ida)
-514285 -> 518160  (Ruta: P82 - Ida)
-518160 -> 503001  (Ruta: P82 - Ida)
-503001 -> 514350  (Ruta: P82 - Ida)
-514350 -> 518161  (Ruta: P82 - Ida)
-518161 -> 518157  (Ruta: P82 - Ida)
-518157 -> 518143  (Ruta: P82 - Ida)
-518143 -> 518158  (Ruta: P82 - Ida)
-518158 -> 518162  (Ruta: P82 - Ida)
-518162 -> 518159  (Ruta: P82 - Ida)
-518159 -> 503001  (Ruta: P82 - Ida)
-503001 -> 518160  (Ruta: P82 - Ida)
-518160 -> 518161  (Ruta: P82 - Ida)
-518161 -> 518143  (Ruta: P82 - Ida)
-518143 -> 518162  (Ruta: P82 - Ida)
-518162 -> 503001  (Ruta: P82 - Ida)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: P82 - Ida (35 arcos) ---
+1. Origen: TMENGA3 (ID: 500102) -> Destino: C70A2BS1 (ID: 513254) | Ruta: P82 - Ida
+2. Origen: C70A2BS1 (ID: 513254) -> Destino: A2NC70 (ID: 512014) | Ruta: P82 - Ida
+3. Origen: A2NC70 (ID: 512014) -> Destino: A2NC62AN (ID: 512181) | Ruta: P82 - Ida
+4. Origen: A2NC62AN (ID: 512181) -> Destino: A2NC57AN (ID: 512035) | Ruta: P82 - Ida
+5. Origen: A2NC57AN (ID: 512035) -> Destino: C52A2AN8 (ID: 513247) | Ruta: P82 - Ida
+6. Origen: C52A2AN8 (ID: 513247) -> Destino: C52K5N (ID: 513248) | Ruta: P82 - Ida
+7. Origen: C52K5N (ID: 513248) -> Destino: C52K1-1B (ID: 513192) | Ruta: P82 - Ida
+8. Origen: C52K1-1B (ID: 513192) -> Destino: C52K1D3 (ID: 513193) | Ruta: P82 - Ida
+9. Origen: C52K1D3 (ID: 513193) -> Destino: C52K1D2 (ID: 513194) | Ruta: P82 - Ida
+10. Origen: C52K1D2 (ID: 513194) -> Destino: C52K2C (ID: 513093) | Ruta: P82 - Ida
+11. Origen: C52K2C (ID: 513093) -> Destino: C52K3Y4C (ID: 513147) | Ruta: P82 - Ida
+12. Origen: C52K3Y4C (ID: 513147) -> Destino: K5C52 (ID: 513148) | Ruta: P82 - Ida
+13. Origen: K5C52 (ID: 513148) -> Destino: K5C45C (ID: 513292) | Ruta: P82 - Ida
+14. Origen: K5C45C (ID: 513292) -> Destino: C44K6B1 (ID: 513233) | Ruta: P82 - Ida
+15. Origen: C44K6B1 (ID: 513233) -> Destino: C44K8 (ID: 514312) | Ruta: P82 - Ida
+16. Origen: C44K8 (ID: 514312) -> Destino: C44K8A1 (ID: 514262) | Ruta: P82 - Ida
+17. Origen: C44K8A1 (ID: 514262) -> Destino: C44K11D (ID: 514387) | Ruta: P82 - Ida
+18. Origen: C44K11D (ID: 514387) -> Destino: C44K12B (ID: 514285) | Ruta: P82 - Ida
+19. Origen: C44K12B (ID: 514285) -> Destino: C44K15A (ID: 514350) | Ruta: P82 - Ida
+20. Origen: C44K15A (ID: 514350) -> Destino: C44K20 (ID: 518157) | Ruta: P82 - Ida
+21. Origen: C44K20 (ID: 518157) -> Destino: C44K24 (ID: 518158) | Ruta: P82 - Ida
+22. Origen: C44K24 (ID: 518158) -> Destino: C44K25 (ID: 518159) | Ruta: P82 - Ida
+23. Origen: C44K25 (ID: 518159) -> Destino: C44C43 (ID: 518160) | Ruta: P82 - Ida
+24. Origen: C44C43 (ID: 518160) -> Destino: C44K28 (ID: 518161) | Ruta: P82 - Ida
+25. Origen: C44K28 (ID: 518161) -> Destino: C44T28D (ID: 518143) | Ruta: P82 - Ida
+26. Origen: C44T28D (ID: 518143) -> Destino: C44T33E (ID: 518162) | Ruta: P82 - Ida
+27. Origen: C44T33E (ID: 518162) -> Destino: TCALIPB1 (ID: 503001) | Ruta: P82 - Ida
+28. Origen: TCALIPB1 (ID: 503001) -> Destino: TCALIPA4 (ID: 603004) | Ruta: P82 - Ida
+29. Origen: K5C45C (ID: 513292) -> Destino: K5C44 (ID: 513124) | Ruta: P82 - Ida
+30. Origen: K5C44 (ID: 513124) -> Destino: K5C38 (ID: 513122) | Ruta: P82 - Ida
+31. Origen: K5C38 (ID: 513122) -> Destino: K5C36 (ID: 513303) | Ruta: P82 - Ida
+32. Origen: K5C36 (ID: 513303) -> Destino: C34K6A (ID: 513149) | Ruta: P82 - Ida
+33. Origen: C34K6A (ID: 513149) -> Destino: C34K7 (ID: 514114) | Ruta: P82 - Ida
+34. Origen: C34K7 (ID: 514114) -> Destino: K8C392 (ID: 514120) | Ruta: P82 - Ida
+35. Origen: K8C392 (ID: 514120) -> Destino: C44K8A1 (ID: 514262) | Ruta: P82 - Ida

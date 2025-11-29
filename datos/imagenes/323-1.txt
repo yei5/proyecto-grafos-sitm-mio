@@ -1,32 +1,37 @@
 == 323-1 ==
 Nodos: 12
-Arcos: 12
+Arcos: 11
 ------------------------------------
 
-=== Lista de Nodos ===
-512144 - C55NA2F
-512086 - A2DNC57D
-512185 - C61A2GN
-512087 - A2EC55B
-512153 - A2GNC57
-512186 - A3NC61A
-500111 - TMENGA12
-512014 - A2NC70
-512124 - C62AA2N
-512085 - A2CNC60
-512184 - A2GNC58
-500109 - TMENGA10
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+512144 - C55NA2F - GPS: (3,484340, -76,510332)
+512086 - A2DNC57D - GPS: (3,484687, -76,508141)
+512185 - C61A2GN - GPS: (3,487463, -76,509313)
+512087 - A2EC55B - GPS: (3,484056, -76,509012)
+512153 - A2GNC57 - GPS: (3,485916, -76,509640)
+512186 - A3NC61A - GPS: (3,489180, -76,510288)
+500111 - TMENGA12 - GPS: (3,489637, -76,508298)
+512014 - A2NC70 - GPS: (3,487762, -76,504284)
+512124 - C62AA2N - GPS: (3,486216, -76,505355)
+512085 - A2CNC60 - GPS: (3,485560, -76,507126)
+512184 - A2GNC58 - GPS: (3,486666, -76,508829)
+500109 - TMENGA10 - GPS: (3,489455, -76,507963)
 
-=== Lista de Arcos ===
-500111 -> 512014  (Ruta: A23 - Vuelta)
-512014 -> 512124  (Ruta: A23 - Vuelta)
-512124 -> 512085  (Ruta: A23 - Vuelta)
-512085 -> 512086  (Ruta: A23 - Vuelta)
-512086 -> 512087  (Ruta: A23 - Vuelta)
-512087 -> 512144  (Ruta: A23 - Vuelta)
-512144 -> 512153  (Ruta: A23 - Vuelta)
-512153 -> 512184  (Ruta: A23 - Vuelta)
-512184 -> 512185  (Ruta: A23 - Vuelta)
-512185 -> 512186  (Ruta: A23 - Vuelta)
-512186 -> 500109  (Ruta: A23 - Vuelta)
-500109 -> 500111  (Ruta: A23 - Vuelta)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: A23 - Vuelta (11 arcos) ---
+1. Origen: TMENGA12 (ID: 500111) -> Destino: A2NC70 (ID: 512014) | Ruta: A23 - Vuelta
+2. Origen: A2NC70 (ID: 512014) -> Destino: C62AA2N (ID: 512124) | Ruta: A23 - Vuelta
+3. Origen: C62AA2N (ID: 512124) -> Destino: A2CNC60 (ID: 512085) | Ruta: A23 - Vuelta
+4. Origen: A2CNC60 (ID: 512085) -> Destino: A2DNC57D (ID: 512086) | Ruta: A23 - Vuelta
+5. Origen: A2DNC57D (ID: 512086) -> Destino: A2EC55B (ID: 512087) | Ruta: A23 - Vuelta
+6. Origen: A2EC55B (ID: 512087) -> Destino: C55NA2F (ID: 512144) | Ruta: A23 - Vuelta
+7. Origen: C55NA2F (ID: 512144) -> Destino: A2GNC57 (ID: 512153) | Ruta: A23 - Vuelta
+8. Origen: A2GNC57 (ID: 512153) -> Destino: A2GNC58 (ID: 512184) | Ruta: A23 - Vuelta
+9. Origen: A2GNC58 (ID: 512184) -> Destino: C61A2GN (ID: 512185) | Ruta: A23 - Vuelta
+10. Origen: C61A2GN (ID: 512185) -> Destino: A3NC61A (ID: 512186) | Ruta: A23 - Vuelta
+11. Origen: A3NC61A (ID: 512186) -> Destino: TMENGA10 (ID: 500109) | Ruta: A23 - Vuelta

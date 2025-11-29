@@ -1,0 +1,73 @@
+// Configuración común para todos los subproyectos
+plugins {
+    id 'com.zeroc.gradle.ice-builder.slice' version '1.4.7' apply false
+}
+
+subprojects {
+    apply plugin: 'java'
+    apply plugin: 'com.zeroc.gradle.ice-builder.slice'
+    
+    // Configuración común de Java
+    java {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+    
+    // Configuración de Ice Builder - todos los subproyectos comparten todos los archivos .ice
+    slice {
+        java {
+            // Directorio de include para que los archivos .ice puedan referenciarse entre sí
+            include = ["${rootProject.projectDir}/common/src/main/ice"]
+            
+            // Todos los archivos .ice a compilar
+            // Orden importante:
+            // 1. Patterns.ice primero (define Node, Edge, NodeList, EdgeList)
+            // 2. RouteService.ice (define RouteSummary)
+            // 3. GraphService.ice (usa NodeList, EdgeList, RouteSummary)
+            // 4. Los demás archivos
+            files = [
+                file("${rootProject.projectDir}/common/src/main/ice/DatagramProcessing.ice"),
+                file("${rootProject.projectDir}/common/src/main/ice/Patterns.ice"),
+                file("${rootProject.projectDir}/common/src/main/ice/RouteService.ice"),
+                file("${rootProject.projectDir}/common/src/main/ice/GraphService.ice"),
+                file("${rootProject.projectDir}/common/src/main/ice/AnalysisService.ice"),
+                file("${rootProject.projectDir}/common/src/main/ice/ReportService.ice")
+            ]
+        }
+    }
+    
+    // Repositorios
+    repositories {
+        mavenCentral()
+    }
+    
+    // Dependencias comunes
+    dependencies {
+        // Logging común
+        implementation 'org.slf4j:slf4j-api:1.7.36'
+        implementation 'ch.qos.logback:logback-classic:1.2.12'
+    }
+    
+    // Configurar sourceSets para incluir archivos generados
+    sourceSets {
+        main {
+            java {
+                srcDirs = ['src/main/java', 'src/main/generated']
+            }
+        }
+    }
+}
+
+// Tarea para generar todos los JARs distribuibles
+task distJars {
+    dependsOn ':datagram-master-service:distJar'
+    dependsOn ':datagram-worker-service:distJar'
+    dependsOn ':integration:distJar'
+    
+    doLast {
+        println "JARs distribuibles generados:"
+        println "  - datagram-master-service/build/libs/datagram-master-service-1.0.0-all.jar"
+        println "  - datagram-worker-service/build/libs/datagram-worker-service-1.0.0-all.jar"
+        println "  - integration/build/libs/datagram-client-1.0.0-all.jar"
+    }
+}

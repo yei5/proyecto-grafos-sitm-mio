@@ -1,46 +1,47 @@
 == 1472-0 ==
-Nodos: 19
-Arcos: 19
+Nodos: 17
+Arcos: 16
 ------------------------------------
 
-=== Lista de Nodos ===
-501703 - ESTAD4
-501403 - SANPAS4
-501801 - LIDO2
-501603 - SNTLIB4
-501101 - TREB2
-501751 - TEQUE2
-501003 - SANBO4
-501201 - CHAPI2
-501851 - UDP2
-500163 - A.SANI15
-501653 - MANZA4
-501301 - FLORE2
-500158 - A.SANI10
-501251 - ATGI2
-501351 - BELAL2
-600163 - A.SANI15
-501051 - 7AGO2
-501151 - VICOL2
-600158 - A.SANI10
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+501703 - ESTAD4 - GPS: (3,432158, -76,542950)
+501403 - SANPAS4 - GPS: (3,442665, -76,527295)
+501801 - LIDO2 - GPS: (3,418718, -76,548242)
+501603 - SNTLIB4 - GPS: (3,440203, -76,536648)
+501101 - TREB2 - GPS: (3,443460, -76,495858)
+501751 - TEQUE2 - GPS: (3,423430, -76,547000)
+501003 - SANBO4 - GPS: (3,442353, -76,532108)
+501201 - CHAPI2 - GPS: (3,444238, -76,502078)
+500163 - A.SANI15 - GPS: (3,443342, -76,483517)
+501851 - UDP2 - GPS: (3,414587, -76,548238)
+501653 - MANZA4 - GPS: (3,435218, -76,540705)
+501301 - FLORE2 - GPS: (3,445260, -76,514443)
+501251 - ATGI2 - GPS: (3,444758, -76,508128)
+501351 - BELAL2 - GPS: (3,444140, -76,520533)
+501051 - 7AGO2 - GPS: (3,445207, -76,487200)
+501151 - VICOL2 - GPS: (3,443760, -76,498707)
+600158 - A.SANI10 - GPS: (3,443377, -76,482654)
 
-=== Lista de Arcos ===
-501851 -> 500163  (Ruta: T47B - Ida)
-500163 -> 501801  (Ruta: T47B - Ida)
-501801 -> 600163  (Ruta: T47B - Ida)
-600163 -> 501751  (Ruta: T47B - Ida)
-501751 -> 600158  (Ruta: T47B - Ida)
-600158 -> 501703  (Ruta: T47B - Ida)
-501703 -> 500158  (Ruta: T47B - Ida)
-500158 -> 501653  (Ruta: T47B - Ida)
-501653 -> 501603  (Ruta: T47B - Ida)
-501603 -> 501003  (Ruta: T47B - Ida)
-501003 -> 501403  (Ruta: T47B - Ida)
-501403 -> 501351  (Ruta: T47B - Ida)
-501351 -> 501301  (Ruta: T47B - Ida)
-501301 -> 501251  (Ruta: T47B - Ida)
-501251 -> 501201  (Ruta: T47B - Ida)
-501201 -> 501151  (Ruta: T47B - Ida)
-501151 -> 501101  (Ruta: T47B - Ida)
-501101 -> 501051  (Ruta: T47B - Ida)
-501051 -> 500163  (Ruta: T47B - Ida)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: T47B - Ida (16 arcos) ---
+1. Origen: A.SANI15 (ID: 500163) -> Destino: A.SANI10 (ID: 600158) | Ruta: T47B - Ida
+2. Origen: UDP2 (ID: 501851) -> Destino: LIDO2 (ID: 501801) | Ruta: T47B - Ida
+3. Origen: LIDO2 (ID: 501801) -> Destino: TEQUE2 (ID: 501751) | Ruta: T47B - Ida
+4. Origen: TEQUE2 (ID: 501751) -> Destino: ESTAD4 (ID: 501703) | Ruta: T47B - Ida
+5. Origen: ESTAD4 (ID: 501703) -> Destino: MANZA4 (ID: 501653) | Ruta: T47B - Ida
+6. Origen: MANZA4 (ID: 501653) -> Destino: SNTLIB4 (ID: 501603) | Ruta: T47B - Ida
+7. Origen: SNTLIB4 (ID: 501603) -> Destino: SANBO4 (ID: 501003) | Ruta: T47B - Ida
+8. Origen: SANBO4 (ID: 501003) -> Destino: SANPAS4 (ID: 501403) | Ruta: T47B - Ida
+9. Origen: SANPAS4 (ID: 501403) -> Destino: BELAL2 (ID: 501351) | Ruta: T47B - Ida
+10. Origen: BELAL2 (ID: 501351) -> Destino: FLORE2 (ID: 501301) | Ruta: T47B - Ida
+11. Origen: FLORE2 (ID: 501301) -> Destino: ATGI2 (ID: 501251) | Ruta: T47B - Ida
+12. Origen: ATGI2 (ID: 501251) -> Destino: CHAPI2 (ID: 501201) | Ruta: T47B - Ida
+13. Origen: CHAPI2 (ID: 501201) -> Destino: VICOL2 (ID: 501151) | Ruta: T47B - Ida
+14. Origen: VICOL2 (ID: 501151) -> Destino: TREB2 (ID: 501101) | Ruta: T47B - Ida
+15. Origen: TREB2 (ID: 501101) -> Destino: 7AGO2 (ID: 501051) | Ruta: T47B - Ida
+16. Origen: 7AGO2 (ID: 501051) -> Destino: A.SANI15 (ID: 500163) | Ruta: T47B - Ida

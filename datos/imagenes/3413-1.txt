@@ -1,47 +1,46 @@
 == 3413-1 ==
 Nodos: 16
-Arcos: 23
+Arcos: 16
 ------------------------------------
 
-=== Lista de Nodos ===
-514553 - C94K100
-514552 - C94K101B
-514056 - K25C74
-514055 - K25C771
-514467 - K29C80
-514050 - K23C87
-514021 - K25C77
-514054 - K25C80
-514020 - K25C73A
-514053 - C80K23
-514196 - K25C891
-514052 - K23C83
-514195 - K25C84
-514051 - K23C84
-514194 - K25C80B
-500164 - A.SANI16
+=== Lista de Nodos (Paradas) ===
+Formato: ID - Nombre - Coordenadas GPS (Lat, Lon)
+------------------------------------
+514553 - C94K100 - GPS: (3,434119, -76,467730)
+514552 - C94K101B - GPS: (3,432373, -76,468170)
+514056 - K25C74 - GPS: (3,440717, -76,479445)
+514055 - K25C771 - GPS: (3,439176, -76,477323)
+514467 - K29C80 - GPS: (3,437550, -76,475212)
+514050 - K23C87 - GPS: (3,435933, -76,468220)
+514021 - K25C77 - GPS: (3,439083, -76,477392)
+514054 - K25C80 - GPS: (3,437635, -76,475115)
+514020 - K25C73A - GPS: (3,440941, -76,480005)
+514196 - K25C891 - GPS: (3,431193, -76,469387)
+514053 - C80K23 - GPS: (3,437903, -76,473508)
+514195 - K25C84 - GPS: (3,434000, -76,472403)
+514052 - K23C83 - GPS: (3,437652, -76,471787)
+514194 - K25C80B - GPS: (3,436186, -76,473874)
+514051 - K23C84 - GPS: (3,436620, -76,469690)
+500164 - A.SANI16 - GPS: (3,443504, -76,482758)
 
-=== Lista de Arcos ===
-514051 -> 500164  (Ruta: A41C - Vuelta)
-500164 -> 514052  (Ruta: A41C - Vuelta)
-514052 -> 514020  (Ruta: A41C - Vuelta)
-514020 -> 514053  (Ruta: A41C - Vuelta)
-514053 -> 514021  (Ruta: A41C - Vuelta)
-514021 -> 514054  (Ruta: A41C - Vuelta)
-514054 -> 514467  (Ruta: A41C - Vuelta)
-514467 -> 514055  (Ruta: A41C - Vuelta)
-514055 -> 514194  (Ruta: A41C - Vuelta)
-514194 -> 514056  (Ruta: A41C - Vuelta)
-514056 -> 514195  (Ruta: A41C - Vuelta)
-514195 -> 500164  (Ruta: A41C - Vuelta)
-500164 -> 514196  (Ruta: A41C - Vuelta)
-514196 -> 514552  (Ruta: A41C - Vuelta)
-514552 -> 514553  (Ruta: A41C - Vuelta)
-514553 -> 514050  (Ruta: A41C - Vuelta)
-514050 -> 514051  (Ruta: A41C - Vuelta)
-514051 -> 514052  (Ruta: A41C - Vuelta)
-514052 -> 514053  (Ruta: A41C - Vuelta)
-514053 -> 514054  (Ruta: A41C - Vuelta)
-514054 -> 514055  (Ruta: A41C - Vuelta)
-514055 -> 514056  (Ruta: A41C - Vuelta)
-514056 -> 500164  (Ruta: A41C - Vuelta)
+=== Lista de Arcos (Rutas) ===
+Formato: Origen (ID: Nombre) -> Destino (ID: Nombre) | Ruta: [ID y Nombre]
+------------------------------------
+
+--- Ruta: A41C - Vuelta (16 arcos) ---
+1. Origen: A.SANI16 (ID: 500164) -> Destino: K25C73A (ID: 514020) | Ruta: A41C - Vuelta
+2. Origen: K25C73A (ID: 514020) -> Destino: K25C77 (ID: 514021) | Ruta: A41C - Vuelta
+3. Origen: K25C77 (ID: 514021) -> Destino: K29C80 (ID: 514467) | Ruta: A41C - Vuelta
+4. Origen: K29C80 (ID: 514467) -> Destino: K25C80B (ID: 514194) | Ruta: A41C - Vuelta
+5. Origen: K25C80B (ID: 514194) -> Destino: K25C84 (ID: 514195) | Ruta: A41C - Vuelta
+6. Origen: K25C84 (ID: 514195) -> Destino: K25C891 (ID: 514196) | Ruta: A41C - Vuelta
+7. Origen: K25C891 (ID: 514196) -> Destino: C94K101B (ID: 514552) | Ruta: A41C - Vuelta
+8. Origen: C94K101B (ID: 514552) -> Destino: C94K100 (ID: 514553) | Ruta: A41C - Vuelta
+9. Origen: C94K100 (ID: 514553) -> Destino: K23C87 (ID: 514050) | Ruta: A41C - Vuelta
+10. Origen: K23C87 (ID: 514050) -> Destino: K23C84 (ID: 514051) | Ruta: A41C - Vuelta
+11. Origen: K23C84 (ID: 514051) -> Destino: K23C83 (ID: 514052) | Ruta: A41C - Vuelta
+12. Origen: K23C83 (ID: 514052) -> Destino: C80K23 (ID: 514053) | Ruta: A41C - Vuelta
+13. Origen: C80K23 (ID: 514053) -> Destino: K25C80 (ID: 514054) | Ruta: A41C - Vuelta
+14. Origen: K25C80 (ID: 514054) -> Destino: K25C771 (ID: 514055) | Ruta: A41C - Vuelta
+15. Origen: K25C771 (ID: 514055) -> Destino: K25C74 (ID: 514056) | Ruta: A41C - Vuelta
+16. Origen: K25C74 (ID: 514056) -> Destino: A.SANI16 (ID: 500164) | Ruta: A41C - Vuelta

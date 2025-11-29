@@ -7,6 +7,8 @@ public class Nodo {
     private String id;
     private String nombre;
     private String tipo; // Ejemplo: "Estación", "Paradero", etc.
+    private double longitud; // Longitud GPS (DECIMALLONGITUDE)
+    private double latitud;  // Latitud GPS (DECIMALLATITUDE)
     
     /**
      * Constructor de la clase Nodo
@@ -18,6 +20,24 @@ public class Nodo {
         this.id = id;
         this.nombre = nombre;
         this.tipo = tipo;
+        this.longitud = 0.0;
+        this.latitud = 0.0;
+    }
+    
+    /**
+     * Constructor de la clase Nodo con coordenadas GPS
+     * @param id Identificador único del nodo
+     * @param nombre Nombre de la estación o paradero
+     * @param tipo Tipo de nodo (Estación, Paradero, etc.)
+     * @param longitud Longitud GPS
+     * @param latitud Latitud GPS
+     */
+    public Nodo(String id, String nombre, String tipo, double longitud, double latitud) {
+        this.id = id;
+        this.nombre = nombre;
+        this.tipo = tipo;
+        this.longitud = longitud;
+        this.latitud = latitud;
     }
     
     // Getters y Setters
@@ -43,6 +63,22 @@ public class Nodo {
     
     public void setTipo(String tipo) {
         this.tipo = tipo;
+    }
+    
+    public double getLongitud() {
+        return longitud;
+    }
+    
+    public void setLongitud(double longitud) {
+        this.longitud = longitud;
+    }
+    
+    public double getLatitud() {
+        return latitud;
+    }
+    
+    public void setLatitud(double latitud) {
+        this.latitud = latitud;
     }
     
     @Override

@@ -1,0 +1,67 @@
+========================================
+REPORTE DE RUTA: A01A-1
+========================================
+
+Información General:
+  Número de Arcos: 11
+  Distancia Total: 4,39 km
+  Tiempo Total: 14,89 min
+  Velocidad Promedio: 17,20 km/h
+
+Detalle de Arcos:
+------------------------------------------------------------
+Arco 1: SANBO2 -> SANPAS6
+  Distancia: 0,64 km
+  Tiempo: 1,75 min
+  Velocidad: 22,00 km/h
+
+Arco 2: SANPAS6 -> SUCRE4
+  Distancia: 0,16 km
+  Tiempo: 0,63 min
+  Velocidad: 15,40 km/h
+
+Arco 3: SUCRE4 -> PTCUY6
+  Distancia: 0,66 km
+  Tiempo: 1,79 min
+  Velocidad: 22,00 km/h
+
+Arco 4: PTCUY6 -> SANPED4
+  Distancia: 0,58 km
+  Tiempo: 1,59 min
+  Velocidad: 22,00 km/h
+
+Arco 5: SANPED4 -> TORRE2
+  Distancia: 0,25 km
+  Tiempo: 0,98 min
+  Velocidad: 15,40 km/h
+
+Arco 6: TORRE2 -> A1NC171
+  Distancia: 0,14 km
+  Tiempo: 0,54 min
+  Velocidad: 15,40 km/h
+
+Arco 7: A1NC171 -> A1NC10
+  Distancia: 0,50 km
+  Tiempo: 1,93 min
+  Velocidad: 15,40 km/h
+
+Arco 8: A1NC10 -> C8K41
+  Distancia: 0,47 km
+  Tiempo: 1,85 min
+  Velocidad: 15,40 km/h
+
+Arco 9: C8K41 -> C8K6
+  Distancia: 0,29 km
+  Tiempo: 1,13 min
+  Velocidad: 15,40 km/h
+
+Arco 10: C8K6 -> C8K10
+  Distancia: 0,29 km
+  Tiempo: 1,12 min
+  Velocidad: 15,40 km/h
+
+Arco 11: C8K10 -> C8K141
+  Distancia: 0,40 km
+  Tiempo: 1,58 min
+  Velocidad: 15,40 km/h
+

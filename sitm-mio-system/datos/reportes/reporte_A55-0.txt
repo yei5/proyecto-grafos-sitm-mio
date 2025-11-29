@@ -1,0 +1,112 @@
+========================================
+REPORTE DE RUTA: A55-0
+========================================
+
+Información General:
+  Número de Arcos: 20
+  Distancia Total: 4,96 km
+  Tiempo Total: 19,33 min
+  Velocidad Promedio: 15,40 km/h
+
+Detalle de Arcos:
+------------------------------------------------------------
+Arco 1: K28DC79 -> K28DC72W
+  Distancia: 0,26 km
+  Tiempo: 1,00 min
+  Velocidad: 15,40 km/h
+
+Arco 2: K28DC72W -> C79K28D2
+  Distancia: 0,33 km
+  Tiempo: 1,30 min
+  Velocidad: 15,40 km/h
+
+Arco 3: C79K28D2 -> C76K28A
+  Distancia: 0,18 km
+  Tiempo: 0,71 min
+  Velocidad: 15,40 km/h
+
+Arco 4: C76K28A -> K27C77
+  Distancia: 0,38 km
+  Tiempo: 1,46 min
+  Velocidad: 15,40 km/h
+
+Arco 5: K27C77 -> K27C85
+  Distancia: 0,32 km
+  Tiempo: 1,23 min
+  Velocidad: 15,40 km/h
+
+Arco 6: K27C85 -> K27C911
+  Distancia: 0,33 km
+  Tiempo: 1,29 min
+  Velocidad: 15,40 km/h
+
+Arco 7: K27C911 -> K27T1031
+  Distancia: 0,22 km
+  Tiempo: 0,87 min
+  Velocidad: 15,40 km/h
+
+Arco 8: K27T1031 -> K27C108
+  Distancia: 0,29 km
+  Tiempo: 1,11 min
+  Velocidad: 15,40 km/h
+
+Arco 9: K27C108 -> C112K26Q
+  Distancia: 0,23 km
+  Tiempo: 0,88 min
+  Velocidad: 15,40 km/h
+
+Arco 10: C112K26Q -> C112K26L
+  Distancia: 0,23 km
+  Tiempo: 0,90 min
+  Velocidad: 15,40 km/h
+
+Arco 11: C112K26L -> C11226J5
+  Distancia: 0,20 km
+  Tiempo: 0,79 min
+  Velocidad: 15,40 km/h
+
+Arco 12: C11226J5 -> C11226H3
+  Distancia: 0,31 km
+  Tiempo: 1,20 min
+  Velocidad: 15,40 km/h
+
+Arco 13: C11226H3 -> C112K26E
+  Distancia: 0,19 km
+  Tiempo: 0,75 min
+  Velocidad: 15,40 km/h
+
+Arco 14: C112K26E -> C112K2A1
+  Distancia: 0,20 km
+  Tiempo: 0,78 min
+  Velocidad: 15,40 km/h
+
+Arco 15: C112K2A1 -> C112K2A2
+  Distancia: 0,10 km
+  Tiempo: 0,40 min
+  Velocidad: 15,40 km/h
+
+Arco 16: C112K2A2 -> C112K231
+  Distancia: 0,25 km
+  Tiempo: 0,96 min
+  Velocidad: 15,40 km/h
+
+Arco 17: C112K231 -> K25C104
+  Distancia: 0,23 km
+  Tiempo: 0,90 min
+  Velocidad: 15,40 km/h
+
+Arco 18: K25C104 -> K25C892
+  Distancia: 0,35 km
+  Tiempo: 1,35 min
+  Velocidad: 15,40 km/h
+
+Arco 19: K25C892 -> K25C85
+  Distancia: 0,25 km
+  Tiempo: 0,99 min
+  Velocidad: 15,40 km/h
+
+Arco 20: K25C85 -> K25C84
+  Distancia: 0,12 km
+  Tiempo: 0,46 min
+  Velocidad: 15,40 km/h
+

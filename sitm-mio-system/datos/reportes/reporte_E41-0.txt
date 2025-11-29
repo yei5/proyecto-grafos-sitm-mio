@@ -1,0 +1,87 @@
+========================================
+REPORTE DE RUTA: E41-0
+========================================
+
+Información General:
+  Número de Arcos: 15
+  Distancia Total: 14,94 km
+  Tiempo Total: 37,13 min
+  Velocidad Promedio: 23,00 km/h
+
+Detalle de Arcos:
+------------------------------------------------------------
+Arco 1: A.SANI15 -> A.SANI10
+  Distancia: 0,10 km
+  Tiempo: 0,33 min
+  Velocidad: 17,50 km/h
+
+Arco 2: UNIV1 -> BUITRE2
+  Distancia: 1,40 km
+  Tiempo: 3,37 min
+  Velocidad: 25,00 km/h
+
+Arco 3: BUITRE2 -> CAPRI2
+  Distancia: 1,73 km
+  Tiempo: 4,16 min
+  Velocidad: 25,00 km/h
+
+Arco 4: CAPRI2 -> CALDAS2
+  Distancia: 0,69 km
+  Tiempo: 1,67 min
+  Velocidad: 25,00 km/h
+
+Arco 5: CALDAS2 -> REFUG2
+  Distancia: 0,55 km
+  Tiempo: 1,33 min
+  Velocidad: 25,00 km/h
+
+Arco 6: REFUG2 -> PAMPA2
+  Distancia: 0,55 km
+  Tiempo: 1,32 min
+  Velocidad: 25,00 km/h
+
+Arco 7: PAMPA2 -> UDP2
+  Distancia: 1,20 km
+  Tiempo: 2,89 min
+  Velocidad: 25,00 km/h
+
+Arco 8: UDP2 -> BELAL2
+  Distancia: 4,50 km
+  Tiempo: 10,80 min
+  Velocidad: 25,00 km/h
+
+Arco 9: BELAL2 -> FLORE2
+  Distancia: 0,69 km
+  Tiempo: 1,65 min
+  Velocidad: 25,00 km/h
+
+Arco 10: FLORE2 -> ATGI2
+  Distancia: 0,70 km
+  Tiempo: 1,69 min
+  Velocidad: 25,00 km/h
+
+Arco 11: ATGI2 -> CHAPI2
+  Distancia: 0,67 km
+  Tiempo: 1,62 min
+  Velocidad: 25,00 km/h
+
+Arco 12: CHAPI2 -> VICOL2
+  Distancia: 0,38 km
+  Tiempo: 1,30 min
+  Velocidad: 17,50 km/h
+
+Arco 13: VICOL2 -> TREB2
+  Distancia: 0,32 km
+  Tiempo: 1,09 min
+  Velocidad: 17,50 km/h
+
+Arco 14: TREB2 -> 7AGO2
+  Distancia: 0,98 km
+  Tiempo: 2,35 min
+  Velocidad: 25,00 km/h
+
+Arco 15: 7AGO2 -> A.SANI15
+  Distancia: 0,46 km
+  Tiempo: 1,57 min
+  Velocidad: 17,50 km/h
+
