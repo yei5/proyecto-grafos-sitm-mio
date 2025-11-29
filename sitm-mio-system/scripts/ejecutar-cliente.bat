@@ -16,7 +16,35 @@ echo Datos: %DATOS_PATH%
 echo Config: %CONFIG_FILE%
 echo Batch Size: %BATCH_SIZE%
 
-java -DIce.Config=%CONFIG_FILE% -Ddatagram.batch.size=%BATCH_SIZE% -jar integration\build\libs\datagram-client-1.0.0.jar %DATOS_PATH%
+REM Verificar que el JAR existe
+if not exist "integration\build\libs\datagram-client-1.0.0-all.jar" (
+    echo ERROR: JAR del cliente no encontrado
+    echo.
+    echo Ejecuta primero: scripts\generar-jars-distribuibles.bat
+    pause
+    exit /b 1
+)
+
+echo.
+echo NOTA: Si los datagramas están en otro computador, puedes usar:
+echo   - Ruta UNC: \\\\servidor\\carpeta
+echo   - Unidad de red: Z:\\
+echo   Ver ACCESO-ARCHIVOS-REMOTOS.md para más detalles
+echo.
+
+REM Filtros básicos para evitar cálculos absurdos (valores por defecto razonables)
+REM Tiempo: 0.1 min (6 seg) a 120 min (2 horas)
+REM Velocidad: 1.0 km/h a 120.0 km/h (transporte urbano)
+REM Distancia mínima: 0.01 km (10 metros)
+
+java -DIce.Config=%CONFIG_FILE% ^
+     -Ddatagram.batch.size=%BATCH_SIZE% ^
+     -Ddatagram.filter.tiempoMinimo=0.1 ^
+     -Ddatagram.filter.tiempoMaximo=120.0 ^
+     -Ddatagram.filter.velocidadMinima=1.0 ^
+     -Ddatagram.filter.velocidadMaxima=120.0 ^
+     -Ddatagram.filter.distanciaMinima=0.01 ^
+     -jar integration\build\libs\datagram-client-1.0.0-all.jar %DATOS_PATH%
 
 pause
 

@@ -43,6 +43,33 @@ public interface DatagramMaster extends com.zeroc.Ice.Object
     String processFile(String filePath, GraphNode[] nodes, int batchSize, com.zeroc.Ice.Current current);
 
     /**
+     * Inicia un nuevo job de procesamiento (sin leer archivo)
+     * El cliente enviará los lotes directamente usando submitBatch
+     * @param nodes Lista de nodos del grafo
+     * @param totalBatches Número total de lotes que se enviarán
+     * @param current The Current object for the invocation.
+     * @return ID del job de procesamiento
+     **/
+    String startJob(GraphNode[] nodes, int totalBatches, com.zeroc.Ice.Current current);
+
+    /**
+     * Envía un lote de datagrams para procesamiento
+     * @param jobId ID del job iniciado con startJob
+     * @param batch Lote de datagrams a procesar
+     * @param batchNumber Número de lote (0-based)
+     * @param current The Current object for the invocation.
+     * @return true si el lote fue aceptado
+     **/
+    boolean submitBatch(String jobId, Datagram[] batch, int batchNumber, com.zeroc.Ice.Current current);
+
+    /**
+     * Marca un job como completado (todos los lotes han sido enviados)
+     * @param jobId ID del job
+     * @param current The Current object for the invocation.
+     **/
+    void completeJob(String jobId, com.zeroc.Ice.Current current);
+
+    /**
      * Obtiene el progreso de un job
      * @param jobId ID del job
      * @param current The Current object for the invocation.
@@ -159,6 +186,72 @@ public interface DatagramMaster extends com.zeroc.Ice.Object
      * @param current -
      * @return -
     **/
+    static java.util.concurrent.CompletionStage<com.zeroc.Ice.OutputStream> _iceD_startJob(DatagramMaster obj, final com.zeroc.IceInternal.Incoming inS, com.zeroc.Ice.Current current)
+    {
+        com.zeroc.Ice.Object._iceCheckMode(null, current.mode);
+        com.zeroc.Ice.InputStream istr = inS.startReadParams();
+        GraphNode[] iceP_nodes;
+        int iceP_totalBatches;
+        iceP_nodes = GraphNodeArrayHelper.read(istr);
+        iceP_totalBatches = istr.readInt();
+        inS.endReadParams();
+        String ret = obj.startJob(iceP_nodes, iceP_totalBatches, current);
+        com.zeroc.Ice.OutputStream ostr = inS.startWriteParams();
+        ostr.writeString(ret);
+        inS.endWriteParams(ostr);
+        return inS.setResult(ostr);
+    }
+
+    /**
+     * @hidden
+     * @param obj -
+     * @param inS -
+     * @param current -
+     * @return -
+    **/
+    static java.util.concurrent.CompletionStage<com.zeroc.Ice.OutputStream> _iceD_submitBatch(DatagramMaster obj, final com.zeroc.IceInternal.Incoming inS, com.zeroc.Ice.Current current)
+    {
+        com.zeroc.Ice.Object._iceCheckMode(null, current.mode);
+        com.zeroc.Ice.InputStream istr = inS.startReadParams();
+        String iceP_jobId;
+        Datagram[] iceP_batch;
+        int iceP_batchNumber;
+        iceP_jobId = istr.readString();
+        iceP_batch = DatagramBatchHelper.read(istr);
+        iceP_batchNumber = istr.readInt();
+        inS.endReadParams();
+        boolean ret = obj.submitBatch(iceP_jobId, iceP_batch, iceP_batchNumber, current);
+        com.zeroc.Ice.OutputStream ostr = inS.startWriteParams();
+        ostr.writeBool(ret);
+        inS.endWriteParams(ostr);
+        return inS.setResult(ostr);
+    }
+
+    /**
+     * @hidden
+     * @param obj -
+     * @param inS -
+     * @param current -
+     * @return -
+    **/
+    static java.util.concurrent.CompletionStage<com.zeroc.Ice.OutputStream> _iceD_completeJob(DatagramMaster obj, final com.zeroc.IceInternal.Incoming inS, com.zeroc.Ice.Current current)
+    {
+        com.zeroc.Ice.Object._iceCheckMode(null, current.mode);
+        com.zeroc.Ice.InputStream istr = inS.startReadParams();
+        String iceP_jobId;
+        iceP_jobId = istr.readString();
+        inS.endReadParams();
+        obj.completeJob(iceP_jobId, current);
+        return inS.setResult(inS.writeEmptyParams());
+    }
+
+    /**
+     * @hidden
+     * @param obj -
+     * @param inS -
+     * @param current -
+     * @return -
+    **/
     static java.util.concurrent.CompletionStage<com.zeroc.Ice.OutputStream> _iceD_getJobProgress(DatagramMaster obj, final com.zeroc.IceInternal.Incoming inS, com.zeroc.Ice.Current current)
     {
         com.zeroc.Ice.Object._iceCheckMode(null, current.mode);
@@ -215,6 +308,7 @@ public interface DatagramMaster extends com.zeroc.Ice.Object
     /** @hidden */
     final static String[] _iceOps =
     {
+        "completeJob",
         "getJobProgress",
         "getJobResults",
         "getWorkerCount",
@@ -224,6 +318,8 @@ public interface DatagramMaster extends com.zeroc.Ice.Object
         "ice_ping",
         "processFile",
         "registerWorker",
+        "startJob",
+        "submitBatch",
         "unregisterWorker"
     };
 
@@ -242,41 +338,53 @@ public interface DatagramMaster extends com.zeroc.Ice.Object
         {
             case 0:
             {
-                return _iceD_getJobProgress(this, in, current);
+                return _iceD_completeJob(this, in, current);
             }
             case 1:
             {
-                return _iceD_getJobResults(this, in, current);
+                return _iceD_getJobProgress(this, in, current);
             }
             case 2:
             {
-                return _iceD_getWorkerCount(this, in, current);
+                return _iceD_getJobResults(this, in, current);
             }
             case 3:
             {
-                return com.zeroc.Ice.Object._iceD_ice_id(this, in, current);
+                return _iceD_getWorkerCount(this, in, current);
             }
             case 4:
             {
-                return com.zeroc.Ice.Object._iceD_ice_ids(this, in, current);
+                return com.zeroc.Ice.Object._iceD_ice_id(this, in, current);
             }
             case 5:
             {
-                return com.zeroc.Ice.Object._iceD_ice_isA(this, in, current);
+                return com.zeroc.Ice.Object._iceD_ice_ids(this, in, current);
             }
             case 6:
             {
-                return com.zeroc.Ice.Object._iceD_ice_ping(this, in, current);
+                return com.zeroc.Ice.Object._iceD_ice_isA(this, in, current);
             }
             case 7:
             {
-                return _iceD_processFile(this, in, current);
+                return com.zeroc.Ice.Object._iceD_ice_ping(this, in, current);
             }
             case 8:
             {
-                return _iceD_registerWorker(this, in, current);
+                return _iceD_processFile(this, in, current);
             }
             case 9:
+            {
+                return _iceD_registerWorker(this, in, current);
+            }
+            case 10:
+            {
+                return _iceD_startJob(this, in, current);
+            }
+            case 11:
+            {
+                return _iceD_submitBatch(this, in, current);
+            }
+            case 12:
             {
                 return _iceD_unregisterWorker(this, in, current);
             }

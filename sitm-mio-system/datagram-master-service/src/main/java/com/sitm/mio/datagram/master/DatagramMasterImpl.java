@@ -102,6 +102,95 @@ public class DatagramMasterImpl implements DatagramMaster {
         return workers.size();
     }
     
+    @Override
+    public String startJob(GraphNode[] nodes, int totalBatches, Current current) {
+        String jobId = "job-" + jobCounter.incrementAndGet();
+        
+        // Crear job
+        JobStatus job = new JobStatus();
+        job.jobId = jobId;
+        job.filePath = null; // No hay archivo, el cliente envía los lotes
+        job.totalBatches = totalBatches;
+        job.completedBatches = 0;
+        job.status = "PROCESSING";
+        job.results = new ConcurrentHashMap<>();
+        // Guardar los nodos del grafo para usar en los lotes
+        job.nodes = nodes;
+        jobs.put(jobId, job);
+        
+        System.out.println("Iniciando job sin archivo: " + jobId + 
+                         " (totalBatches: " + totalBatches + ")");
+        
+        return jobId;
+    }
+    
+    @Override
+    public boolean submitBatch(String jobId, Datagram[] batch, int batchNumber, Current current) {
+        JobStatus job = jobs.get(jobId);
+        if (job == null) {
+            System.err.println("Job no encontrado: " + jobId);
+            return false;
+        }
+        
+        if (!"PROCESSING".equals(job.status)) {
+            System.err.println("Job no está en estado PROCESSING: " + jobId);
+            return false;
+        }
+        
+        // Usar los nodos guardados en el job
+        GraphNode[] nodesArray = job.nodes;
+        if (nodesArray == null) {
+            System.err.println("Job no tiene nodos del grafo: " + jobId);
+            return false;
+        }
+        
+        // Convertir Datagram[] a List<Datagram>
+        List<Datagram> batchList = new ArrayList<>();
+        for (Datagram dg : batch) {
+            batchList.add(dg);
+        }
+        
+        // Crear tarea de lote
+        String batchId = jobId + "-batch-" + batchNumber;
+        BatchTask task = new BatchTask(batchId, jobId, batchList, nodesArray);
+        
+        // Enviar a la cola de procesamiento
+        pendingBatches.offer(task);
+        
+        System.out.println("Lote recibido: " + batchId + " (" + batch.length + " datagrams)");
+        
+        return true;
+    }
+    
+    @Override
+    public void completeJob(String jobId, Current current) {
+        JobStatus job = jobs.get(jobId);
+        if (job == null) {
+            System.err.println("Job no encontrado: " + jobId);
+            return;
+        }
+        
+        System.out.println("Job marcado como completado (esperando procesamiento): " + jobId);
+        
+        // Iniciar monitoreo del job en un hilo separado
+        executorService.submit(() -> {
+            try {
+                // Esperar a que todos los lotes se completen
+                while (job.completedBatches < job.totalBatches) {
+                    Thread.sleep(1000);
+                }
+                
+                job.status = "COMPLETED";
+                System.out.println("Job completado: " + jobId + 
+                                 " (" + job.totalBatches + " lotes procesados)");
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+                job.status = "FAILED";
+                job.errorMessage = "Interrumpido";
+            }
+        });
+    }
+    
     /**
      * Procesa un archivo dividiéndolo en lotes
      */
@@ -114,26 +203,68 @@ public class DatagramMasterImpl implements DatagramMaster {
         Map<String, com.sitm.mio.common.GraphNode> nodeMap = convertirNodes(nodes);
         
         // Leer archivo y crear lotes
+        // Soporta rutas locales, UNC (\\server\share) y unidades de red
+        java.io.File archivo = new java.io.File(filePath);
+        if (!archivo.exists() && !filePath.startsWith("\\\\")) {
+            // Si no existe y no es una ruta UNC, verificar si es accesible
+            System.out.println("Advertencia: Archivo no encontrado localmente: " + filePath);
+            System.out.println("Intentando acceder como ruta de red...");
+        }
+        
         try (java.io.BufferedReader br = new java.io.BufferedReader(
                 new java.io.InputStreamReader(
                     new java.io.FileInputStream(filePath), 
                     java.nio.charset.StandardCharsets.UTF_8))) {
             
-            String linea = br.readLine(); // Encabezados
-            if (linea == null) {
+            String primeraLinea = br.readLine();
+            if (primeraLinea == null) {
                 throw new Exception("Archivo vacío");
             }
             
-            // Parsear encabezados
-            String[] encabezados = parsearCSV(linea);
-            Map<String, Integer> indices = mapearEncabezados(encabezados);
+            // Detectar si la primera línea es encabezados o datos
+            String[] primeraLineaCampos = parsearCSV(primeraLinea);
+            boolean tieneEncabezados = detectarSiTieneEncabezados(primeraLineaCampos);
+            
+            Map<String, Integer> indices;
+            String lineaDatos;
+            
+            if (tieneEncabezados) {
+                // La primera línea son encabezados
+                indices = mapearEncabezados(primeraLineaCampos);
+                lineaDatos = null; // Leeremos la siguiente línea
+            } else {
+                // No hay encabezados, usar orden predefinido
+                System.out.println("⚠ Archivo sin encabezados detectado. Usando orden predefinido de columnas.");
+                indices = crearIndicesSinEncabezados(primeraLineaCampos.length);
+                lineaDatos = primeraLinea; // La primera línea ya es un dato
+            }
             
             // Leer datos
+            if (lineaDatos != null) {
+                String[] campos = parsearCSV(lineaDatos);
+                try {
+                    Datagram dg = parsearDatagram(campos, indices);
+                    if (dg != null) {
+                        currentBatch.add(dg);
+                        if (currentBatch.size() >= batchSize) {
+                            String batchId = job.jobId + "-batch-" + batchNumber++;
+                            BatchTask task = new BatchTask(batchId, job.jobId, 
+                                                          new ArrayList<>(currentBatch), nodes);
+                            pendingBatches.offer(task);
+                            job.totalBatches++;
+                            currentBatch.clear();
+                        }
+                    }
+                } catch (Exception e) {
+                    // Ignorar líneas con errores
+                }
+            }
+            
+            String linea;
             while ((linea = br.readLine()) != null) {
                 if (linea.trim().isEmpty()) continue;
                 
                 String[] campos = parsearCSV(linea);
-                if (campos.length < encabezados.length) continue;
                 
                 try {
                     Datagram dg = parsearDatagram(campos, indices);
@@ -282,6 +413,100 @@ public class DatagramMasterImpl implements DatagramMaster {
         return linea.split(",");
     }
     
+    /**
+     * Detecta si la primera línea del CSV contiene encabezados o datos
+     */
+    private boolean detectarSiTieneEncabezados(String[] primeraLinea) {
+        if (primeraLinea == null || primeraLinea.length == 0) {
+            return false;
+        }
+        
+        String[] palabrasClave = {"bus", "route", "line", "stop", "date", "time", "timestamp", 
+                                  "lat", "lon", "lng", "longitude", "latitude", "id", "trip"};
+        
+        int coincidencias = 0;
+        for (String campo : primeraLinea) {
+            String campoLower = campo.replace("\"", "").trim().toLowerCase();
+            for (String clave : palabrasClave) {
+                if (campoLower.contains(clave)) {
+                    coincidencias++;
+                    break;
+                }
+            }
+        }
+        
+        // Si todos son números, definitivamente son datos
+        boolean todosSonNumeros = true;
+        for (String campo : primeraLinea) {
+            String campoLimpio = campo.replace("\"", "").trim();
+            if (!campoLimpio.isEmpty()) {
+                try {
+                    Double.parseDouble(campoLimpio);
+                } catch (NumberFormatException e) {
+                    todosSonNumeros = false;
+                    break;
+                }
+            }
+        }
+        
+        if (todosSonNumeros) {
+            return false;
+        }
+        
+        return coincidencias >= 2;
+    }
+    
+    /**
+     * Crea un mapa de índices cuando no hay encabezados, usando un orden predefinido
+     * Orden por defecto basado en estructura real del CSV:
+     * 0: eventType, 1: registerdate, 2: stopId, 3: odometer, 4: latitude, 
+     * 5: longitude, 6: taskId, 7: lineId, 8: tripId, 9: unknown1, 
+     * 10: datagramDate, 11: busId
+     */
+    private Map<String, Integer> crearIndicesSinEncabezados(int numColumnas) {
+        Map<String, Integer> indices = new HashMap<>();
+        
+        // Orden por defecto basado en estructura real
+        int busIdIdx = Integer.parseInt(System.getProperty("datagram.csv.column.busId", "11"));
+        int routeIdIdx = Integer.parseInt(System.getProperty("datagram.csv.column.routeId", "7"));
+        int stopIdIdx = Integer.parseInt(System.getProperty("datagram.csv.column.stopId", "2"));
+        int latitudeIdx = Integer.parseInt(System.getProperty("datagram.csv.column.latitude", "4"));
+        int longitudeIdx = Integer.parseInt(System.getProperty("datagram.csv.column.longitude", "5"));
+        int timestampIdx = Integer.parseInt(System.getProperty("datagram.csv.column.timestamp", "10"));
+        int sequenceIdx = Integer.parseInt(System.getProperty("datagram.csv.column.sequence", "8"));
+        
+        if (busIdIdx >= 0 && busIdIdx < numColumnas) {
+            indices.put("bus_id", busIdIdx);
+        }
+        if (routeIdIdx >= 0 && routeIdIdx < numColumnas) {
+            indices.put("route_id", routeIdIdx);
+        }
+        if (stopIdIdx >= 0 && stopIdIdx < numColumnas) {
+            indices.put("stop_id", stopIdIdx);
+        }
+        if (latitudeIdx >= 0 && latitudeIdx < numColumnas) {
+            indices.put("latitude", latitudeIdx);
+        }
+        if (longitudeIdx >= 0 && longitudeIdx < numColumnas) {
+            indices.put("longitude", longitudeIdx);
+        }
+        if (timestampIdx >= 0 && timestampIdx < numColumnas) {
+            indices.put("timestamp", timestampIdx);
+        }
+        if (sequenceIdx >= 0 && sequenceIdx < numColumnas) {
+            indices.put("sequence", sequenceIdx);
+        }
+        
+        System.out.println("⚠ Archivo sin encabezados - Orden de columnas:");
+        System.out.println("  Estructura esperada: eventType, registerdate, stopId, odometer, latitude, longitude, taskId, lineId, tripId, unknown1, datagramDate, busId");
+        System.out.println("  busId: " + busIdIdx + ", routeId/lineId: " + routeIdIdx + 
+                         ", stopId: " + stopIdIdx + ", lat: " + latitudeIdx + 
+                         ", lon: " + longitudeIdx + ", timestamp/datagramDate: " + timestampIdx + 
+                         ", sequence/tripId: " + sequenceIdx);
+        
+        return indices;
+    }
+    
     private Map<String, Integer> mapearEncabezados(String[] encabezados) {
         Map<String, Integer> indices = new HashMap<>();
         for (int i = 0; i < encabezados.length; i++) {
@@ -417,6 +642,7 @@ public class DatagramMasterImpl implements DatagramMaster {
     private static class JobStatus {
         String jobId;
         String filePath;
+        GraphNode[] nodes; // Nodos del grafo (para jobs sin archivo)
         int totalBatches;
         int completedBatches;
         String status; // PROCESSING, COMPLETED, FAILED

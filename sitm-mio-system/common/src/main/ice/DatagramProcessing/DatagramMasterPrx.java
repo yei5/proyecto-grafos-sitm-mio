@@ -203,6 +203,208 @@ public interface DatagramMasterPrx extends com.zeroc.Ice.ObjectPrx
     }
 
     /**
+     * Inicia un nuevo job de procesamiento (sin leer archivo)
+     * El cliente enviará los lotes directamente usando submitBatch
+     * @param nodes Lista de nodos del grafo
+     * @param totalBatches Número total de lotes que se enviarán
+     * @return ID del job de procesamiento
+     **/
+    default String startJob(GraphNode[] nodes, int totalBatches)
+    {
+        return startJob(nodes, totalBatches, com.zeroc.Ice.ObjectPrx.noExplicitContext);
+    }
+
+    /**
+     * Inicia un nuevo job de procesamiento (sin leer archivo)
+     * El cliente enviará los lotes directamente usando submitBatch
+     * @param nodes Lista de nodos del grafo
+     * @param totalBatches Número total de lotes que se enviarán
+     * @param context The Context map to send with the invocation.
+     * @return ID del job de procesamiento
+     **/
+    default String startJob(GraphNode[] nodes, int totalBatches, java.util.Map<String, String> context)
+    {
+        return _iceI_startJobAsync(nodes, totalBatches, context, true).waitForResponse();
+    }
+
+    /**
+     * Inicia un nuevo job de procesamiento (sin leer archivo)
+     * El cliente enviará los lotes directamente usando submitBatch
+     * @param nodes Lista de nodos del grafo
+     * @param totalBatches Número total de lotes que se enviarán
+     * @return ID del job de procesamiento
+     **/
+    default java.util.concurrent.CompletableFuture<java.lang.String> startJobAsync(GraphNode[] nodes, int totalBatches)
+    {
+        return _iceI_startJobAsync(nodes, totalBatches, com.zeroc.Ice.ObjectPrx.noExplicitContext, false);
+    }
+
+    /**
+     * Inicia un nuevo job de procesamiento (sin leer archivo)
+     * El cliente enviará los lotes directamente usando submitBatch
+     * @param nodes Lista de nodos del grafo
+     * @param totalBatches Número total de lotes que se enviarán
+     * @param context The Context map to send with the invocation.
+     * @return ID del job de procesamiento
+     **/
+    default java.util.concurrent.CompletableFuture<java.lang.String> startJobAsync(GraphNode[] nodes, int totalBatches, java.util.Map<String, String> context)
+    {
+        return _iceI_startJobAsync(nodes, totalBatches, context, false);
+    }
+
+    /**
+     * @hidden
+     * @param iceP_nodes -
+     * @param iceP_totalBatches -
+     * @param context -
+     * @param sync -
+     * @return -
+     **/
+    default com.zeroc.IceInternal.OutgoingAsync<java.lang.String> _iceI_startJobAsync(GraphNode[] iceP_nodes, int iceP_totalBatches, java.util.Map<String, String> context, boolean sync)
+    {
+        com.zeroc.IceInternal.OutgoingAsync<java.lang.String> f = new com.zeroc.IceInternal.OutgoingAsync<>(this, "startJob", null, sync, null);
+        f.invoke(true, context, null, ostr -> {
+                     GraphNodeArrayHelper.write(ostr, iceP_nodes);
+                     ostr.writeInt(iceP_totalBatches);
+                 }, istr -> {
+                     String ret;
+                     ret = istr.readString();
+                     return ret;
+                 });
+        return f;
+    }
+
+    /**
+     * Envía un lote de datagrams para procesamiento
+     * @param jobId ID del job iniciado con startJob
+     * @param batch Lote de datagrams a procesar
+     * @param batchNumber Número de lote (0-based)
+     * @return true si el lote fue aceptado
+     **/
+    default boolean submitBatch(String jobId, Datagram[] batch, int batchNumber)
+    {
+        return submitBatch(jobId, batch, batchNumber, com.zeroc.Ice.ObjectPrx.noExplicitContext);
+    }
+
+    /**
+     * Envía un lote de datagrams para procesamiento
+     * @param jobId ID del job iniciado con startJob
+     * @param batch Lote de datagrams a procesar
+     * @param batchNumber Número de lote (0-based)
+     * @param context The Context map to send with the invocation.
+     * @return true si el lote fue aceptado
+     **/
+    default boolean submitBatch(String jobId, Datagram[] batch, int batchNumber, java.util.Map<String, String> context)
+    {
+        return _iceI_submitBatchAsync(jobId, batch, batchNumber, context, true).waitForResponse();
+    }
+
+    /**
+     * Envía un lote de datagrams para procesamiento
+     * @param jobId ID del job iniciado con startJob
+     * @param batch Lote de datagrams a procesar
+     * @param batchNumber Número de lote (0-based)
+     * @return true si el lote fue aceptado
+     **/
+    default java.util.concurrent.CompletableFuture<java.lang.Boolean> submitBatchAsync(String jobId, Datagram[] batch, int batchNumber)
+    {
+        return _iceI_submitBatchAsync(jobId, batch, batchNumber, com.zeroc.Ice.ObjectPrx.noExplicitContext, false);
+    }
+
+    /**
+     * Envía un lote de datagrams para procesamiento
+     * @param jobId ID del job iniciado con startJob
+     * @param batch Lote de datagrams a procesar
+     * @param batchNumber Número de lote (0-based)
+     * @param context The Context map to send with the invocation.
+     * @return true si el lote fue aceptado
+     **/
+    default java.util.concurrent.CompletableFuture<java.lang.Boolean> submitBatchAsync(String jobId, Datagram[] batch, int batchNumber, java.util.Map<String, String> context)
+    {
+        return _iceI_submitBatchAsync(jobId, batch, batchNumber, context, false);
+    }
+
+    /**
+     * @hidden
+     * @param iceP_jobId -
+     * @param iceP_batch -
+     * @param iceP_batchNumber -
+     * @param context -
+     * @param sync -
+     * @return -
+     **/
+    default com.zeroc.IceInternal.OutgoingAsync<java.lang.Boolean> _iceI_submitBatchAsync(String iceP_jobId, Datagram[] iceP_batch, int iceP_batchNumber, java.util.Map<String, String> context, boolean sync)
+    {
+        com.zeroc.IceInternal.OutgoingAsync<java.lang.Boolean> f = new com.zeroc.IceInternal.OutgoingAsync<>(this, "submitBatch", null, sync, null);
+        f.invoke(true, context, null, ostr -> {
+                     ostr.writeString(iceP_jobId);
+                     DatagramBatchHelper.write(ostr, iceP_batch);
+                     ostr.writeInt(iceP_batchNumber);
+                 }, istr -> {
+                     boolean ret;
+                     ret = istr.readBool();
+                     return ret;
+                 });
+        return f;
+    }
+
+    /**
+     * Marca un job como completado (todos los lotes han sido enviados)
+     * @param jobId ID del job
+     **/
+    default void completeJob(String jobId)
+    {
+        completeJob(jobId, com.zeroc.Ice.ObjectPrx.noExplicitContext);
+    }
+
+    /**
+     * Marca un job como completado (todos los lotes han sido enviados)
+     * @param jobId ID del job
+     * @param context The Context map to send with the invocation.
+     **/
+    default void completeJob(String jobId, java.util.Map<String, String> context)
+    {
+        _iceI_completeJobAsync(jobId, context, true).waitForResponse();
+    }
+
+    /**
+     * Marca un job como completado (todos los lotes han sido enviados)
+     * @param jobId ID del job
+     * @return A future that will be completed when the invocation completes.
+     **/
+    default java.util.concurrent.CompletableFuture<Void> completeJobAsync(String jobId)
+    {
+        return _iceI_completeJobAsync(jobId, com.zeroc.Ice.ObjectPrx.noExplicitContext, false);
+    }
+
+    /**
+     * Marca un job como completado (todos los lotes han sido enviados)
+     * @param jobId ID del job
+     * @param context The Context map to send with the invocation.
+     * @return A future that will be completed when the invocation completes.
+     **/
+    default java.util.concurrent.CompletableFuture<Void> completeJobAsync(String jobId, java.util.Map<String, String> context)
+    {
+        return _iceI_completeJobAsync(jobId, context, false);
+    }
+
+    /**
+     * @hidden
+     * @param iceP_jobId -
+     * @param context -
+     * @param sync -
+     * @return -
+     **/
+    default com.zeroc.IceInternal.OutgoingAsync<Void> _iceI_completeJobAsync(String iceP_jobId, java.util.Map<String, String> context, boolean sync)
+    {
+        com.zeroc.IceInternal.OutgoingAsync<Void> f = new com.zeroc.IceInternal.OutgoingAsync<>(this, "completeJob", null, sync, null);
+        f.invoke(false, context, null, ostr -> {
+                     ostr.writeString(iceP_jobId);
+                 }, null);
+        return f;
+    }
+
+    /**
      * Obtiene el progreso de un job
      * @param jobId ID del job
      * @return Porcentaje completado (0-100)

@@ -123,41 +123,53 @@ public class DatagramProcessor {
         try (BufferedReader br = new BufferedReader(
                 new InputStreamReader(new FileInputStream(rutaArchivo), StandardCharsets.UTF_8))) {
             
-            String linea = br.readLine();
-            if (linea == null) {
+            String primeraLinea = br.readLine();
+            if (primeraLinea == null) {
                 throw new IOException("El archivo datagrams.csv está vacío");
             }
             
-            // Parsear encabezados
-            String[] encabezados = parsearCSV(linea);
-            Map<String, Integer> indices = mapearEncabezados(encabezados);
+            // Detectar si la primera línea es encabezados o datos
+            String[] primeraLineaCampos = parsearCSV(primeraLinea);
+            boolean tieneEncabezados = detectarSiTieneEncabezados(primeraLineaCampos);
             
-            // Validar columnas requeridas
-            if (!indices.containsKey("bus_id") || !indices.containsKey("route_id") || 
-                !indices.containsKey("stop_id") || !indices.containsKey("timestamp")) {
-                throw new IOException("El archivo datagrams.csv no tiene las columnas requeridas");
+            Map<String, Integer> indices;
+            String lineaDatos;
+            
+            if (tieneEncabezados) {
+                // La primera línea son encabezados
+                indices = mapearEncabezados(primeraLineaCampos);
+                lineaDatos = null; // Leeremos la siguiente línea
+                
+                // Validar columnas requeridas
+                if (!indices.containsKey("bus_id") || !indices.containsKey("route_id") || 
+                    !indices.containsKey("stop_id") || !indices.containsKey("timestamp")) {
+                    throw new IOException("El archivo datagrams.csv no tiene las columnas requeridas. " +
+                                        "Esperadas: busId (o bus_id), lineId (o line_id), stopId (o stop_id), " +
+                                        "datagramDate (o timestamp). " +
+                                        "Columnas encontradas: " + String.join(", ", primeraLineaCampos));
+                }
+            } else {
+                // No hay encabezados, usar orden predefinido
+                System.out.println("⚠ Archivo sin encabezados detectado. Usando orden predefinido de columnas.");
+                indices = crearIndicesSinEncabezados(primeraLineaCampos.length);
+                lineaDatos = primeraLinea; // La primera línea ya es un dato
             }
             
             // Leer datos en lotes
+            // Si no hay encabezados, ya tenemos la primera línea como dato
+            if (lineaDatos != null) {
+                String[] campos = parsearCSV(lineaDatos);
+                procesarLineaComoDato(campos, indices, currentBatch, batchSize, callback, batchNumber++);
+            }
+            
+            String linea;
             while ((linea = br.readLine()) != null) {
                 if (linea.trim().isEmpty()) continue;
                 
                 String[] campos = parsearCSV(linea);
-                if (campos.length < encabezados.length) continue;
-                
-                try {
-                    Datagram dg = parsearDatagram(campos, indices);
-                    if (dg != null) {
-                        currentBatch.add(dg);
-                        
-                        // Procesar lote cuando alcance el tamaño
-                        if (currentBatch.size() >= batchSize) {
-                            callback.processBatch(new ArrayList<>(currentBatch), batchNumber++);
-                            currentBatch.clear();
-                        }
-                    }
-                } catch (Exception e) {
-                    // Ignorar líneas con errores
+                procesarLineaComoDato(campos, indices, currentBatch, batchSize, callback, batchNumber);
+                if (currentBatch.size() >= batchSize) {
+                    batchNumber++;
                 }
             }
             
@@ -165,6 +177,28 @@ public class DatagramProcessor {
             if (!currentBatch.isEmpty()) {
                 callback.processBatch(currentBatch, batchNumber);
             }
+        }
+    }
+    
+    /**
+     * Procesa una línea como dato (helper para evitar duplicación)
+     */
+    private static void procesarLineaComoDato(String[] campos, Map<String, Integer> indices,
+                                               List<Datagram> currentBatch, int batchSize,
+                                               BatchCallback callback, int batchNumber) {
+        try {
+            Datagram dg = parsearDatagram(campos, indices);
+            if (dg != null) {
+                currentBatch.add(dg);
+                
+                // Procesar lote cuando alcance el tamaño
+                if (currentBatch.size() >= batchSize) {
+                    callback.processBatch(new ArrayList<>(currentBatch), batchNumber);
+                    currentBatch.clear();
+                }
+            }
+        } catch (Exception e) {
+            // Ignorar líneas con errores
         }
     }
     
@@ -177,31 +211,56 @@ public class DatagramProcessor {
         try (BufferedReader br = new BufferedReader(
                 new InputStreamReader(new FileInputStream(rutaArchivo), StandardCharsets.UTF_8))) {
             
-            String linea = br.readLine();
-            if (linea == null) {
+            String primeraLinea = br.readLine();
+            if (primeraLinea == null) {
                 throw new IOException("El archivo datagrams.csv está vacío");
             }
             
-            // Parsear encabezados
-            String[] encabezados = parsearCSV(linea);
-            Map<String, Integer> indices = mapearEncabezados(encabezados);
+            // Detectar si la primera línea es encabezados o datos
+            String[] primeraLineaCampos = parsearCSV(primeraLinea);
+            boolean tieneEncabezados = detectarSiTieneEncabezados(primeraLineaCampos);
             
-            // Validar columnas requeridas (adaptado a estructura real)
-            if (!indices.containsKey("bus_id") || !indices.containsKey("route_id") || 
-                !indices.containsKey("stop_id") || !indices.containsKey("timestamp")) {
-                throw new IOException("El archivo datagrams.csv no tiene las columnas requeridas. " +
-                                    "Esperadas: busId (o bus_id), lineId (o line_id), stopId (o stop_id), " +
-                                    "datagramDate (o timestamp). " +
-                                    "Columnas encontradas: " + String.join(", ", encabezados));
+            Map<String, Integer> indices;
+            String lineaDatos;
+            
+            if (tieneEncabezados) {
+                // La primera línea son encabezados
+                indices = mapearEncabezados(primeraLineaCampos);
+                lineaDatos = null; // Leeremos la siguiente línea
+                
+                // Validar columnas requeridas
+                if (!indices.containsKey("bus_id") || !indices.containsKey("route_id") || 
+                    !indices.containsKey("stop_id") || !indices.containsKey("timestamp")) {
+                    throw new IOException("El archivo datagrams.csv no tiene las columnas requeridas. " +
+                                        "Esperadas: busId (o bus_id), lineId (o line_id), stopId (o stop_id), " +
+                                        "datagramDate (o timestamp). " +
+                                        "Columnas encontradas: " + String.join(", ", primeraLineaCampos));
+                }
+            } else {
+                // No hay encabezados, usar orden predefinido
+                System.out.println("⚠ Archivo sin encabezados detectado. Usando orden predefinido de columnas.");
+                indices = crearIndicesSinEncabezados(primeraLineaCampos.length);
+                lineaDatos = primeraLinea; // La primera línea ya es un dato
             }
             
             // Leer datos
+            if (lineaDatos != null) {
+                String[] campos = parsearCSV(lineaDatos);
+                try {
+                    Datagram dg = parsearDatagram(campos, indices);
+                    if (dg != null) {
+                        datagrams.add(dg);
+                    }
+                } catch (Exception e) {
+                    // Ignorar líneas con errores
+                }
+            }
+            
+            String linea;
             while ((linea = br.readLine()) != null) {
                 if (linea.trim().isEmpty()) continue;
                 
                 String[] campos = parsearCSV(linea);
-                if (campos.length < encabezados.length) continue;
-                
                 try {
                     Datagram dg = parsearDatagram(campos, indices);
                     if (dg != null) {
@@ -300,8 +359,15 @@ public class DatagramProcessor {
                     long tiempoMs = destino.getTimestamp() - origen.getTimestamp();
                     double tiempoMin = tiempoMs / (1000.0 * 60.0);
                     
-                    // Solo considerar tiempos razonables (entre 0.5 min y 60 min)
-                    if (tiempoMin > 0.5 && tiempoMin < 60.0) {
+                    // Filtros básicos para evitar cálculos absurdos
+                    // Valores por defecto razonables para transporte urbano
+                    double tiempoMinimo = Double.parseDouble(
+                        System.getProperty("datagram.filter.tiempoMinimo", "0.1")); // 6 segundos mínimo
+                    double tiempoMaximo = Double.parseDouble(
+                        System.getProperty("datagram.filter.tiempoMaximo", "120.0")); // 2 horas máximo
+                    
+                    // Solo procesar si el tiempo está en un rango razonable
+                    if (tiempoMin > tiempoMinimo && tiempoMin < tiempoMaximo) {
                         tiemposPorArco.putIfAbsent(key, new ArrayList<>());
                         tiemposPorArco.get(key).add(tiempoMin);
                         
@@ -314,6 +380,24 @@ public class DatagramProcessor {
                                 double distancia = DistanceCalculator.calcularDistancia(
                                     nodoOrigen, nodoDestino);
                                 distanciasPorArco.put(key, distancia);
+                            } else {
+                                // Si no se encuentran los nodos, usar coordenadas de los datagrams
+                                if (origen.getLatitude() != 0 && origen.getLongitude() != 0 &&
+                                    destino.getLatitude() != 0 && destino.getLongitude() != 0) {
+                                    // Crear nodos temporales desde las coordenadas de los datagrams
+                                    GraphNode tempOrigen = new GraphNode(
+                                        origen.getStopId(), "", "", 
+                                        origen.getLongitude(), origen.getLatitude());
+                                    GraphNode tempDestino = new GraphNode(
+                                        destino.getStopId(), "", "", 
+                                        destino.getLongitude(), destino.getLatitude());
+                                    double distancia = DistanceCalculator.calcularDistancia(
+                                        tempOrigen, tempDestino);
+                                    distanciasPorArco.put(key, distancia);
+                                } else {
+                                    // Si no hay coordenadas, poner distancia 0 (se calculará velocidad 0)
+                                    distanciasPorArco.put(key, 0.0);
+                                }
                             }
                         }
                     }
@@ -322,7 +406,9 @@ public class DatagramProcessor {
         }
         
         // Calcular estadísticas promedio
+        // SIN FILTROS: Procesar todos los arcos sin restricciones
         Map<String, SpeedStatistics> estadisticas = new HashMap<>();
+        
         for (Map.Entry<String, List<Double>> entry : tiemposPorArco.entrySet()) {
             String key = entry.getKey();
             List<Double> tiempos = entry.getValue();
@@ -336,11 +422,26 @@ public class DatagramProcessor {
             // Obtener distancia
             double distancia = distanciasPorArco.getOrDefault(key, 0.0);
             
+            // Filtros básicos de distancia
+            double distanciaMinima = Double.parseDouble(
+                System.getProperty("datagram.filter.distanciaMinima", "0.01")); // 10 metros mínimo
+            
             // Calcular velocidad promedio
             double velocidadPromedio = 0.0;
-            if (tiempoPromedio > 0 && distancia > 0) {
+            if (tiempoPromedio > 0 && distancia >= distanciaMinima) {
                 double tiempoEnHoras = tiempoPromedio / 60.0;
                 velocidadPromedio = distancia / tiempoEnHoras;
+                
+                // Filtros básicos de velocidad para evitar valores absurdos
+                double velocidadMinima = Double.parseDouble(
+                    System.getProperty("datagram.filter.velocidadMinima", "1.0")); // 1 km/h mínimo
+                double velocidadMaxima = Double.parseDouble(
+                    System.getProperty("datagram.filter.velocidadMaxima", "120.0")); // 120 km/h máximo (transporte urbano)
+                
+                // Si la velocidad está fuera del rango razonable, descartar
+                if (velocidadPromedio < velocidadMinima || velocidadPromedio > velocidadMaxima) {
+                    velocidadPromedio = 0.0; // Marcar como inválido
+                }
             }
             
             // Parsear clave para obtener componentes
@@ -350,10 +451,13 @@ public class DatagramProcessor {
                 String origenStopId = partes[1];
                 String destinoStopId = partes[2];
                 
-                estadisticas.put(key, new SpeedStatistics(
-                    routeId, origenStopId, destinoStopId,
-                    distancia, tiempoPromedio, velocidadPromedio, tiempos.size()
-                ));
+                // Solo agregar si tiene velocidad válida (filtros básicos aplicados)
+                if (velocidadPromedio > 0) {
+                    estadisticas.put(key, new SpeedStatistics(
+                        routeId, origenStopId, destinoStopId,
+                        distancia, tiempoPromedio, velocidadPromedio, tiempos.size()
+                    ));
+                }
             }
         }
         
@@ -411,11 +515,270 @@ public class DatagramProcessor {
     }
     
     /**
+     * Representa estadísticas de velocidad por ruta completa
+     */
+    public static class RouteStatistics {
+        private String routeId;
+        private double distanciaTotal; // km
+        private double tiempoTotal; // minutos
+        private double velocidadPromedio; // km/h (promedio ponderado por distancia)
+        private int numArcos; // Número de arcos en la ruta
+        private int numMuestrasTotal; // Total de muestras de todos los arcos
+        
+        public RouteStatistics(String routeId, double distanciaTotal, double tiempoTotal, 
+                              double velocidadPromedio, int numArcos, int numMuestrasTotal) {
+            this.routeId = routeId;
+            this.distanciaTotal = distanciaTotal;
+            this.tiempoTotal = tiempoTotal;
+            this.velocidadPromedio = velocidadPromedio;
+            this.numArcos = numArcos;
+            this.numMuestrasTotal = numMuestrasTotal;
+        }
+        
+        // Getters
+        public String getRouteId() { return routeId; }
+        public double getDistanciaTotal() { return distanciaTotal; }
+        public double getTiempoTotal() { return tiempoTotal; }
+        public double getVelocidadPromedio() { return velocidadPromedio; }
+        public int getNumArcos() { return numArcos; }
+        public int getNumMuestrasTotal() { return numMuestrasTotal; }
+    }
+    
+    /**
+     * Calcula velocidades promedio por ruta a partir de estadísticas de arcos
+     * Usa promedio ponderado por distancia para obtener la velocidad real de la ruta
+     * 
+     * @param estadisticasPorArco Mapa de estadísticas por arco (clave: "routeId-origen-destino")
+     * @return Mapa de estadísticas por ruta (clave: routeId)
+     */
+    public static Map<String, RouteStatistics> calcularVelocidadesPorRuta(
+            Map<String, SpeedStatistics> estadisticasPorArco) {
+        
+        // Agrupar estadísticas por ruta
+        Map<String, List<SpeedStatistics>> estadisticasPorRuta = new HashMap<>();
+        
+        for (SpeedStatistics stats : estadisticasPorArco.values()) {
+            String routeId = stats.getRouteId();
+            estadisticasPorRuta.putIfAbsent(routeId, new ArrayList<>());
+            estadisticasPorRuta.get(routeId).add(stats);
+        }
+        
+        // Calcular estadísticas por ruta
+        Map<String, RouteStatistics> rutas = new HashMap<>();
+        
+        for (Map.Entry<String, List<SpeedStatistics>> entry : estadisticasPorRuta.entrySet()) {
+            String routeId = entry.getKey();
+            List<SpeedStatistics> arcos = entry.getValue();
+            
+            // Calcular distancia total y tiempo total
+            double distanciaTotal = arcos.stream()
+                .mapToDouble(SpeedStatistics::getDistancia)
+                .sum();
+            
+            // Tiempo total es la suma de tiempos promedio de cada arco
+            // (asumiendo que los arcos son consecutivos)
+            double tiempoTotal = arcos.stream()
+                .mapToDouble(SpeedStatistics::getTiempoPromedio)
+                .sum();
+            
+            // Calcular velocidad promedio ponderada por distancia
+            // velocidad = suma(distancia_i * velocidad_i) / distancia_total
+            double velocidadPromedioPonderada = 0.0;
+            
+            // Filtrar arcos con velocidad válida (> 0) y distancia válida (> 0)
+            List<SpeedStatistics> arcosValidos = arcos.stream()
+                .filter(s -> s.getVelocidadPromedio() > 0 && s.getDistancia() > 0)
+                .collect(java.util.stream.Collectors.toList());
+            
+            if (arcosValidos.isEmpty()) {
+                // Si no hay arcos válidos, intentar calcular desde distancia y tiempo total
+                if (distanciaTotal > 0 && tiempoTotal > 0) {
+                    double tiempoEnHoras = tiempoTotal / 60.0;
+                    velocidadPromedioPonderada = distanciaTotal / tiempoEnHoras;
+                } else {
+                    velocidadPromedioPonderada = 0.0;
+                }
+            } else if (distanciaTotal > 0) {
+                // Calcular promedio ponderado solo con arcos válidos
+                double sumaPonderada = arcosValidos.stream()
+                    .mapToDouble(s -> s.getDistancia() * s.getVelocidadPromedio())
+                    .sum();
+                double distanciaTotalValida = arcosValidos.stream()
+                    .mapToDouble(SpeedStatistics::getDistancia)
+                    .sum();
+                if (distanciaTotalValida > 0) {
+                    velocidadPromedioPonderada = sumaPonderada / distanciaTotalValida;
+                } else {
+                    // Si no hay distancia válida, usar promedio simple
+                    velocidadPromedioPonderada = arcosValidos.stream()
+                        .mapToDouble(SpeedStatistics::getVelocidadPromedio)
+                        .average()
+                        .orElse(0.0);
+                }
+            } else {
+                // Si no hay distancia total, usar promedio simple de velocidades válidas
+                velocidadPromedioPonderada = arcosValidos.stream()
+                    .mapToDouble(SpeedStatistics::getVelocidadPromedio)
+                    .average()
+                    .orElse(0.0);
+            }
+            
+            // Total de muestras
+            int numMuestrasTotal = arcos.stream()
+                .mapToInt(SpeedStatistics::getNumMuestras)
+                .sum();
+            
+            rutas.put(routeId, new RouteStatistics(
+                routeId, distanciaTotal, tiempoTotal, 
+                velocidadPromedioPonderada, arcos.size(), numMuestrasTotal
+            ));
+        }
+        
+        return rutas;
+    }
+    
+    /**
      * Calcula velocidades para un lote específico de datagrams (para procesamiento distribuido)
      */
     public static Map<String, SpeedStatistics> calcularVelocidadesParaLote(
             List<Datagram> batch, Map<String, GraphNode> nodos) {
         return calcularVelocidadesRealesSecuencial(batch, nodos);
+    }
+    
+    /**
+     * Detecta si la primera línea del CSV contiene encabezados o datos
+     * Busca palabras clave típicas de encabezados (bus, route, stop, date, etc.)
+     */
+    private static boolean detectarSiTieneEncabezados(String[] primeraLinea) {
+        if (primeraLinea == null || primeraLinea.length == 0) {
+            return false;
+        }
+        
+        // Palabras clave que indican que es un encabezado
+        String[] palabrasClave = {"bus", "route", "line", "stop", "date", "time", "timestamp", 
+                                  "lat", "lon", "lng", "longitude", "latitude", "id", "trip"};
+        
+        int coincidencias = 0;
+        for (String campo : primeraLinea) {
+            String campoLower = campo.replace("\"", "").trim().toLowerCase();
+            for (String clave : palabrasClave) {
+                if (campoLower.contains(clave)) {
+                    coincidencias++;
+                    break;
+                }
+            }
+        }
+        
+        // Si más de la mitad de los campos contienen palabras clave, probablemente son encabezados
+        // También verificamos si algún campo parece ser un número (si todos son números, probablemente son datos)
+        boolean todosSonNumeros = true;
+        for (String campo : primeraLinea) {
+            String campoLimpio = campo.replace("\"", "").trim();
+            if (!campoLimpio.isEmpty()) {
+                try {
+                    Double.parseDouble(campoLimpio);
+                } catch (NumberFormatException e) {
+                    todosSonNumeros = false;
+                    break;
+                }
+            }
+        }
+        
+        // Si todos son números, definitivamente son datos, no encabezados
+        if (todosSonNumeros) {
+            return false;
+        }
+        
+        // Si hay al menos 2 coincidencias con palabras clave, probablemente son encabezados
+        return coincidencias >= 2;
+    }
+    
+    /**
+     * Crea un mapa de índices cuando no hay encabezados, usando un orden predefinido
+     * Orden por defecto basado en estructura real del CSV:
+     * 0: eventType, 1: registerdate, 2: stopId, 3: odometer, 4: latitude, 
+     * 5: longitude, 6: taskId, 7: lineId, 8: tripId, 9: unknown1, 
+     * 10: datagramDate, 11: busId
+     * 
+     * Mapeo:
+     * - busId: columna 11
+     * - routeId/lineId: columna 7
+     * - stopId: columna 2
+     * - latitude: columna 4
+     * - longitude: columna 5
+     * - timestamp/datagramDate: columna 10
+     * - sequence/tripId: columna 8
+     * 
+     * Puedes configurar el orden usando propiedades del sistema:
+     * - datagram.csv.column.busId=11
+     * - datagram.csv.column.routeId=7
+     * - datagram.csv.column.stopId=2
+     * - datagram.csv.column.latitude=4
+     * - datagram.csv.column.longitude=5
+     * - datagram.csv.column.timestamp=10
+     */
+    private static Map<String, Integer> crearIndicesSinEncabezados(int numColumnas) {
+        Map<String, Integer> indices = new HashMap<>();
+        
+        // Orden por defecto basado en estructura real: 
+        // eventType, registerdate, stopId, odometer, latitude, longitude, 
+        // taskId, lineId, tripId, unknown1, datagramDate, busId
+        // Puede ser sobrescrito por propiedades del sistema
+        int busIdIdx = Integer.parseInt(System.getProperty("datagram.csv.column.busId", "11"));
+        int routeIdIdx = Integer.parseInt(System.getProperty("datagram.csv.column.routeId", "7"));
+        int stopIdIdx = Integer.parseInt(System.getProperty("datagram.csv.column.stopId", "2"));
+        int latitudeIdx = Integer.parseInt(System.getProperty("datagram.csv.column.latitude", "4"));
+        int longitudeIdx = Integer.parseInt(System.getProperty("datagram.csv.column.longitude", "5"));
+        int timestampIdx = Integer.parseInt(System.getProperty("datagram.csv.column.timestamp", "10"));
+        int sequenceIdx = Integer.parseInt(System.getProperty("datagram.csv.column.sequence", "8"));
+        
+        // Validar que los índices estén dentro del rango
+        if (busIdIdx >= 0 && busIdIdx < numColumnas) {
+            indices.put("bus_id", busIdIdx);
+        }
+        if (routeIdIdx >= 0 && routeIdIdx < numColumnas) {
+            indices.put("route_id", routeIdIdx);
+        }
+        if (stopIdIdx >= 0 && stopIdIdx < numColumnas) {
+            indices.put("stop_id", stopIdIdx);
+        }
+        if (latitudeIdx >= 0 && latitudeIdx < numColumnas) {
+            indices.put("latitude", latitudeIdx);
+        }
+        if (longitudeIdx >= 0 && longitudeIdx < numColumnas) {
+            indices.put("longitude", longitudeIdx);
+        }
+        if (timestampIdx >= 0 && timestampIdx < numColumnas) {
+            indices.put("timestamp", timestampIdx);
+        }
+        if (sequenceIdx >= 0 && sequenceIdx < numColumnas) {
+            indices.put("sequence", sequenceIdx);
+        }
+        
+        System.out.println("Orden de columnas detectado (sin encabezados):");
+        System.out.println("  Estructura esperada: eventType, registerdate, stopId, odometer, latitude, longitude, taskId, lineId, tripId, unknown1, datagramDate, busId");
+        System.out.println("  busId: columna " + busIdIdx);
+        System.out.println("  routeId/lineId: columna " + routeIdIdx);
+        System.out.println("  stopId: columna " + stopIdIdx);
+        System.out.println("  latitude: columna " + latitudeIdx);
+        System.out.println("  longitude: columna " + longitudeIdx);
+        System.out.println("  timestamp/datagramDate: columna " + timestampIdx);
+        if (sequenceIdx >= 0) {
+            System.out.println("  sequence/tripId: columna " + sequenceIdx);
+        }
+        System.out.println("  (Total de columnas: " + numColumnas + ")");
+        System.out.println();
+        System.out.println("NOTA: Si el orden es incorrecto, puedes configurarlo con propiedades del sistema:");
+        System.out.println("  -Ddatagram.csv.column.busId=11");
+        System.out.println("  -Ddatagram.csv.column.routeId=7");
+        System.out.println("  -Ddatagram.csv.column.stopId=2");
+        System.out.println("  -Ddatagram.csv.column.latitude=4");
+        System.out.println("  -Ddatagram.csv.column.longitude=5");
+        System.out.println("  -Ddatagram.csv.column.timestamp=10");
+        System.out.println("  -Ddatagram.csv.column.sequence=8");
+        System.out.println();
+        
+        return indices;
     }
     
     /**

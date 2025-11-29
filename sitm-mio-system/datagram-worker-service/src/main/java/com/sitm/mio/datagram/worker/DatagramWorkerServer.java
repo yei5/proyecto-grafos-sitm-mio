@@ -24,7 +24,7 @@ public class DatagramWorkerServer {
             // Configurar Locator para IceGrid (REQUERIDO)
             String locatorEndpoint = System.getProperty("Ice.Default.Locator");
             if (locatorEndpoint == null || locatorEndpoint.isEmpty()) {
-                locatorEndpoint = "IceGrid/Locator:tcp -h localhost -p 4061";
+                locatorEndpoint = "IceGrid/Locator:tcp -h 192.168.131.133 -p 4061";
             }
             
             LocatorPrx locator = null;

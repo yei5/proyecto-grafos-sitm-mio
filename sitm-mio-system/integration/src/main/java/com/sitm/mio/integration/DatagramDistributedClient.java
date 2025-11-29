@@ -3,6 +3,7 @@ package com.sitm.mio.integration;
 import DatagramProcessing.*;
 import com.sitm.mio.common.GraphAdapter;
 import com.sitm.mio.common.GraphNode;
+import com.sitm.mio.common.DatagramProcessor;
 import com.zeroc.Ice.*;
 import com.zeroc.IceGrid.QueryPrx;
 
@@ -82,6 +83,7 @@ public class DatagramDistributedClient {
     
     /**
      * Procesa un archivo de datagrams de forma distribuida
+     * El Master lee el archivo directamente (requiere acceso al archivo)
      * 
      * @param filePath Ruta al archivo datagrams.csv
      * @param grafo Grafo con nodos para cálculo de distancias
@@ -142,6 +144,146 @@ public class DatagramDistributedClient {
                          " velocidades calculadas");
         
         return estadisticas;
+    }
+    
+    /**
+     * Procesa un archivo de datagrams de forma distribuida
+     * El Cliente lee el archivo localmente y envía los lotes al Master
+     * (El Master NO requiere acceso al archivo)
+     * 
+     * @param filePath Ruta al archivo datagrams.csv (debe ser accesible desde el cliente)
+     * @param grafo Grafo con nodos para cálculo de distancias
+     * @param batchSize Tamaño de cada lote (recomendado: 500-2000)
+     * @return Mapa de estadísticas de velocidad
+     */
+    public Map<String, com.sitm.mio.common.DatagramProcessor.SpeedStatistics> 
+            processFileLocal(String filePath, com.sitm.mio.grafos.Grafo grafo, int batchSize) throws java.lang.Exception {
+        
+        // Convertir nodos del grafo a formato Ice
+        Map<String, com.sitm.mio.common.GraphNode> nodos = GraphAdapter.convertirNodos(grafo);
+        DatagramProcessing.GraphNode[] nodeList = convertirNodesToIce(nodos);
+        
+        System.out.println("Leyendo archivo localmente: " + filePath);
+        System.out.println("El Master NO requiere acceso al archivo");
+        
+        // Contar total de lotes primero (para estimar)
+        int totalBatches = estimarTotalBatches(filePath, batchSize);
+        
+        // Iniciar job en el Master
+        String jobId = master.startJob(nodeList, totalBatches);
+        System.out.println("Job ID: " + jobId);
+        
+        // Leer archivo y enviar lotes
+        com.sitm.mio.common.DatagramProcessor.BatchCallback callback = (batch, num) -> {
+            try {
+                // Convertir Datagram comunes a Datagram de Ice
+                DatagramProcessing.Datagram[] iceBatch = convertirDatagramsToIce(batch);
+                
+                // Enviar lote al Master
+                boolean accepted = master.submitBatch(jobId, iceBatch, num);
+                if (!accepted) {
+                    throw new java.io.IOException("El Master rechazó el lote " + num);
+                }
+                
+                if (num % 10 == 0) {
+                    System.out.println("  Lotes enviados: " + (num + 1));
+                }
+            } catch (java.lang.Exception e) {
+                throw new java.io.IOException("Error enviando lote " + num + ": " + e.getMessage(), e);
+            }
+        };
+        
+        // Cargar datagrams en lotes y enviarlos
+        com.sitm.mio.common.DatagramProcessor.cargarDatagrams(filePath, batchSize, callback);
+        
+        // Marcar job como completado (todos los lotes enviados)
+        System.out.println("Todos los lotes han sido enviados. Marcando job como completado...");
+        master.completeJob(jobId);
+        
+        // Monitorear progreso
+        int lastProgress = -1;
+        while (true) {
+            int progress = master.getJobProgress(jobId);
+            
+            if (progress == -1) {
+                throw new java.lang.Exception("Job no encontrado: " + jobId);
+            }
+            
+            if (progress != lastProgress) {
+                System.out.println("Progreso: " + progress + "%");
+                lastProgress = progress;
+            }
+            
+            if (progress >= 100) {
+                break;
+            }
+            
+            Thread.sleep(2000); // Esperar 2 segundos antes de verificar de nuevo
+        }
+        
+        // Obtener resultados
+        System.out.println("Obteniendo resultados...");
+        SpeedStatistics[] results = master.getJobResults(jobId);
+        
+        // Convertir a formato común
+        Map<String, com.sitm.mio.common.DatagramProcessor.SpeedStatistics> estadisticas = 
+            new HashMap<>();
+        
+        for (SpeedStatistics stats : results) {
+            String key = stats.routeId + "-" + stats.origenStopId + "-" + stats.destinoStopId;
+            estadisticas.put(key, new com.sitm.mio.common.DatagramProcessor.SpeedStatistics(
+                stats.routeId, stats.origenStopId, stats.destinoStopId,
+                stats.distancia, stats.tiempoPromedio, 
+                stats.velocidadPromedio, stats.numMuestras
+            ));
+        }
+        
+        System.out.println("Procesamiento completado: " + estadisticas.size() + 
+                         " velocidades calculadas");
+        
+        return estadisticas;
+    }
+    
+    /**
+     * Estima el número total de lotes basándose en el tamaño del archivo
+     */
+    private int estimarTotalBatches(String filePath, int batchSize) throws java.io.IOException {
+        java.io.File file = new java.io.File(filePath);
+        if (!file.exists()) {
+            // Si no existe localmente, podría ser una ruta de red
+            // Retornar una estimación conservadora
+            return 1000; // Estimación por defecto
+        }
+        
+        long fileSize = file.length();
+        // Estimar ~100 bytes por línea (muy aproximado)
+        long estimatedLines = fileSize / 100;
+        int estimatedBatches = (int)(estimatedLines / batchSize) + 1;
+        
+        return Math.max(estimatedBatches, 1);
+    }
+    
+    /**
+     * Convierte lista de Datagram comunes a array de Datagram de Ice
+     */
+    private DatagramProcessing.Datagram[] convertirDatagramsToIce(
+            List<DatagramProcessor.Datagram> datagrams) {
+        DatagramProcessing.Datagram[] iceDatagrams = new DatagramProcessing.Datagram[datagrams.size()];
+        
+        for (int i = 0; i < datagrams.size(); i++) {
+            DatagramProcessor.Datagram dg = datagrams.get(i);
+            DatagramProcessing.Datagram iceDg = new DatagramProcessing.Datagram();
+            iceDg.busId = dg.getBusId();
+            iceDg.routeId = dg.getRouteId();
+            iceDg.stopId = dg.getStopId();
+            iceDg.latitude = dg.getLatitude();
+            iceDg.longitude = dg.getLongitude();
+            iceDg.timestamp = dg.getTimestamp();
+            iceDg.sequenceNumber = dg.getSequence();
+            iceDatagrams[i] = iceDg;
+        }
+        
+        return iceDatagrams;
     }
     
     /**

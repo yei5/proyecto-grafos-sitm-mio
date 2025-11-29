@@ -114,6 +114,30 @@ module DatagramProcessing {
         string processFile(string filePath, GraphNodeArray nodes, int batchSize);
         
         /**
+         * Inicia un nuevo job de procesamiento (sin leer archivo)
+         * El cliente enviará los lotes directamente usando submitBatch
+         * @param nodes Lista de nodos del grafo
+         * @param totalBatches Número total de lotes que se enviarán
+         * @return ID del job de procesamiento
+         */
+        string startJob(GraphNodeArray nodes, int totalBatches);
+        
+        /**
+         * Envía un lote de datagrams para procesamiento
+         * @param jobId ID del job iniciado con startJob
+         * @param batch Lote de datagrams a procesar
+         * @param batchNumber Número de lote (0-based)
+         * @return true si el lote fue aceptado
+         */
+        bool submitBatch(string jobId, DatagramBatch batch, int batchNumber);
+        
+        /**
+         * Marca un job como completado (todos los lotes han sido enviados)
+         * @param jobId ID del job
+         */
+        void completeJob(string jobId);
+        
+        /**
          * Obtiene el progreso de un job
          * @param jobId ID del job
          * @return Porcentaje completado (0-100)

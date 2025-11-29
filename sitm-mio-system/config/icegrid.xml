@@ -1,79 +1,20 @@
 <icegrid>
     <application name="DatagramProcessing">
         
-        <!-- Template para el Master Server -->
-        <server-template id="DatagramMasterTemplate">
-            <parameter name="index" default=""/>
-            <parameter name="host" default="localhost"/>
-            <parameter name="port" default="10010"/>
-            
-            <!-- Definir el servidor Java -->
-            <server id="DatagramMaster${index}"
-                    exe="java"
-                    activation="on-demand">
-                <!-- Argumentos para el programa Java -->
-                <option>-DIce.Config=config/master.cfg</option>
-                <option>-jar</option>
-                <option>datagram-master-service/build/libs/datagram-master-service-1.0.0-all.jar</option>
-                
-                <!-- Adapter del Master -->
-                <adapter name="DatagramMaster.Adapter" 
-                         id="DatagramMasterAdapter"
-                         endpoints="tcp -h ${host} -p ${port}${index}"/>
-                
-                <!-- Propiedades del servidor -->
-                <properties>
-                    <property name="Ice.ThreadPool.Server.Size" value="10"/>
-                    <property name="Ice.ThreadPool.Server.SizeMax" value="50"/>
-                    <property name="Ice.Override.Timeout" value="60000"/>
-                </properties>
-            </server>
-        </server-template>
-        
-        <!-- Template para Workers -->
-        <server-template id="DatagramWorkerTemplate">
-            <parameter name="index" default="1"/>
-            <parameter name="host" default="localhost"/>
-            <parameter name="port" default="10020"/>
-            
-            <!-- Definir el servidor Java -->
-            <server id="DatagramWorker${index}"
-                    exe="java"
-                    activation="on-demand">
-                <!-- Argumentos para el programa Java -->
-                <option>-DIce.Config=config/worker.cfg</option>
-                <option>-jar</option>
-                <option>datagram-worker-service/build/libs/datagram-worker-service-1.0.0-all.jar</option>
-                <option>${port}${index}</option>
-                
-                <!-- Adapter del Worker -->
-                <adapter name="DatagramWorker.Adapter" 
-                         id="DatagramWorkerAdapter${index}"
-                         endpoints="tcp -h ${host} -p ${port}${index}"/>
-                
-                <!-- Propiedades del servidor -->
-                <properties>
-                    <property name="Ice.ThreadPool.Server.Size" value="5"/>
-                    <property name="Ice.ThreadPool.Server.SizeMax" value="20"/>
-                    <property name="Ice.Override.Timeout" value="300000"/>
-                </properties>
-            </server>
-        </server-template>
-        
-        <!-- Node para ejecutar los servidores -->
-        <!-- Nota: El Node debe estar corriendo (icegridnode) para que los servidores se ejecuten -->
-        <node name="Node1">
+        <!-- ============================================ -->
+        <!-- NODE MASTER: Host del Master -->
+        <!-- IP: 192.168.131.121 -->
+        <!-- ============================================ -->
+        <node name="NodeMaster">
             <!-- Master Server -->
             <server id="DatagramMaster1" 
                     exe="java" 
-                    activation="on-demand"
-                    workingdir=".">
-                <option>-DIce.Config=config/master.cfg</option>
+                    activation="on-demand">
                 <option>-jar</option>
                 <option>datagram-master-service/build/libs/datagram-master-service-1.0.0-all.jar</option>
                 
                 <adapter name="DatagramMaster.Adapter" 
-                         endpoints="tcp -h localhost -p 10010">
+                         endpoints="tcp -h 0.0.0.0 -p 10010">
                     <object identity="DatagramMaster" 
                             type="::DatagramProcessing::DatagramMaster"/>
                 </adapter>
@@ -82,19 +23,22 @@
                 <property name="Ice.ThreadPool.Server.SizeMax" value="50"/>
                 <property name="Ice.Override.Timeout" value="60000"/>
             </server>
-            
-            <!-- Worker 1 -->
+        </node>
+        
+        <!-- ============================================ -->
+        <!-- NODE 2: Worker 1 -->
+        <!-- IP: 192.168.131.115 -->
+        <!-- ============================================ -->
+        <node name="Node2">
             <server id="DatagramWorker1" 
                     exe="java" 
-                    activation="on-demand"
-                    workingdir=".">
-                <option>-DIce.Config=config/worker.cfg</option>
+                    activation="on-demand">
                 <option>-jar</option>
                 <option>datagram-worker-service/build/libs/datagram-worker-service-1.0.0-all.jar</option>
                 <option>10020</option>
                 
                 <adapter name="DatagramWorker.Adapter" 
-                         endpoints="tcp -h localhost -p 10020">
+                         endpoints="tcp -h 0.0.0.0 -p 10020">
                     <object identity="DatagramWorker1" 
                             type="::DatagramProcessing::DatagramWorker" 
                             property="Identity"/>
@@ -104,20 +48,73 @@
                 <property name="Ice.ThreadPool.Server.SizeMax" value="20"/>
                 <property name="Ice.Override.Timeout" value="300000"/>
             </server>
-            
-            <!-- Worker 2 -->
+        </node>
+        
+        <!-- ============================================ -->
+        <!-- NODE 3: Worker 2 -->
+        <!-- IP: 192.168.131.117 -->
+        <!-- ============================================ -->
+        <node name="Node3">
             <server id="DatagramWorker2" 
                     exe="java" 
-                    activation="on-demand"
-                    workingdir=".">
-                <option>-DIce.Config=config/worker.cfg</option>
+                    activation="on-demand">
                 <option>-jar</option>
                 <option>datagram-worker-service/build/libs/datagram-worker-service-1.0.0-all.jar</option>
-                <option>10021</option>
+                <option>10020</option>
                 
                 <adapter name="DatagramWorker.Adapter" 
-                         endpoints="tcp -h localhost -p 10021">
+                         endpoints="tcp -h 0.0.0.0 -p 10020">
                     <object identity="DatagramWorker2" 
+                            type="::DatagramProcessing::DatagramWorker" 
+                            property="Identity"/>
+                </adapter>
+                
+                <property name="Ice.ThreadPool.Server.Size" value="5"/>
+                <property name="Ice.ThreadPool.Server.SizeMax" value="20"/>
+                <property name="Ice.Override.Timeout" value="300000"/>
+            </server>
+        </node>
+        
+        <!-- ============================================ -->
+        <!-- NODE 4: Worker 3 -->
+        <!-- IP: 192.168.131.118 -->
+        <!-- ============================================ -->
+        <node name="Node4">
+            <server id="DatagramWorker3" 
+                    exe="java" 
+                    activation="on-demand">
+                <option>-jar</option>
+                <option>datagram-worker-service/build/libs/datagram-worker-service-1.0.0-all.jar</option>
+                <option>10020</option>
+                
+                <adapter name="DatagramWorker.Adapter" 
+                         endpoints="tcp -h 0.0.0.0 -p 10020">
+                    <object identity="DatagramWorker3" 
+                            type="::DatagramProcessing::DatagramWorker" 
+                            property="Identity"/>
+                </adapter>
+                
+                <property name="Ice.ThreadPool.Server.Size" value="5"/>
+                <property name="Ice.ThreadPool.Server.SizeMax" value="20"/>
+                <property name="Ice.Override.Timeout" value="300000"/>
+            </server>
+        </node>
+        
+        <!-- ============================================ -->
+        <!-- NODE 5: Worker 4 -->
+        <!-- IP: 192.168.131.119 -->
+        <!-- ============================================ -->
+        <node name="Node5">
+            <server id="DatagramWorker4" 
+                    exe="java" 
+                    activation="on-demand">
+                <option>-jar</option>
+                <option>datagram-worker-service/build/libs/datagram-worker-service-1.0.0-all.jar</option>
+                <option>10020</option>
+                
+                <adapter name="DatagramWorker.Adapter" 
+                         endpoints="tcp -h 0.0.0.0 -p 10020">
+                    <object identity="DatagramWorker4" 
                             type="::DatagramProcessing::DatagramWorker" 
                             property="Identity"/>
                 </adapter>
